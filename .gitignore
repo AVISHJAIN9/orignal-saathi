@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Build outputs & Bundler caches
+dist/
+**/dist/
+build/
+**/build/
+.output/
+**/.output/
+.tanstack/
+**/.tanstack/
+.nitro/
+**/.nitro/
+.vite/
+**/.vite/
+.cache/
+**/.cache/
+*.tsbuildinfo
+
+# Python & AI caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+**/*.egg-info/
+.eggs/
+
+# Virtual Environments
+.venv/
+**/.venv/
+venv/
+**/venv/
+ENV/
+**/ENV/
+env/
+**/env/
+
+# Environment & Secret files
+.env
+.env*.local
+*.pem
+*.key
+
+# Large Model Weights & Datasets
+*.onnx
+*.bin
+*.pt
+*.pth
+*.h5
+
+# OS generated files
+.DS_Store
+**/.DS_Store
+Thumbs.db

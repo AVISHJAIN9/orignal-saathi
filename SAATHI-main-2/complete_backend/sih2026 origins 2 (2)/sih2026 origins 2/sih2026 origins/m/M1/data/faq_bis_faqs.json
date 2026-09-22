@@ -1,0 +1,61 @@
+/**
+ * BIS FAQs — Statutory Compliance Questions & Answers
+ * Source: Bureau of Indian Standards (www.bis.gov.in/faq/)
+ * Extracted and structured for RAG pipeline use.
+ * Phase 3.2: Real offline corpus data
+ */
+module.exports = {
+  source: 'https://www.bis.gov.in/faq/?lang=en',
+  type: 'faq',
+  crawledAt: '2026-09-13T08:11:00.000Z',
+  faqs: [
+    {
+      q: 'What is ISI Mark?',
+      a: 'ISI Mark is a certification mark issued by the Bureau of Indian Standards (BIS) to indicate that a product conforms to the relevant Indian Standard. It is mandatory for many categories of products under the Quality Control Orders notified by the Government of India.'
+    },
+    {
+      q: 'Is ISI certification mandatory for all products?',
+      a: 'ISI certification is mandatory for products covered under Quality Control Orders (QCOs) issued by various Ministries. For other products, it is voluntary. The list of mandatory products is available on the BIS website and is updated periodically.'
+    },
+    {
+      q: 'What is CRS (Compulsory Registration Scheme)?',
+      a: 'CRS is a scheme under which manufacturers of electronics and IT products are required to register their products with BIS and ensure they conform to relevant Indian Standards. Unlike ISI, CRS does not require factory inspection — it is based on self-declaration with mandatory third-party testing.'
+    },
+    {
+      q: 'How do I apply for BIS ISI certification?',
+      a: 'Applications for ISI certification are made online through the BIS portal (manakonline.in). The applicant must select the relevant Indian Standard, upload required documents (factory details, test reports from BIS-recognised labs), and pay the prescribed fees.'
+    },
+    {
+      q: 'What are the fees for BIS ISI certification?',
+      a: 'Fees depend on the product category, number of products, factory turnover, and applicable scheme. Marking fees range from 0.05% to 0.5% of the Net Sales Realization (NSR) depending on the product and scheme. Application and license fees are separate.'
+    },
+    {
+      q: 'How long does BIS certification take?',
+      a: 'As per BIS timelines, applications should be processed within 90 days of receipt of complete documentation. This includes factory inspection, testing, and review. Complex multi-product applications or remedial inspections may take longer.'
+    },
+    {
+      q: 'What is hallmarking?',
+      a: 'Hallmarking is a BIS certification scheme for gold and silver jewellery confirming its purity and fineness. From 23 June 2021, hallmarking of gold jewellery has been made mandatory in India. The BIS Hallmark comprises the BIS logo, purity/fineness, and a 6-digit HUID (Hallmark Unique Identification).'
+    },
+    {
+      q: 'What is HUID in hallmarking?',
+      a: 'HUID (Hallmark Unique Identification) is a 6-digit alphanumeric code assigned to each hallmarked jewellery article. It allows tracking of the article from the manufacturing assaying centre to the point of sale using the BIS Care app.'
+    },
+    {
+      q: 'Can imported products be sold in India without BIS certification?',
+      a: 'No. Products covered under mandatory QCOs require BIS certification regardless of origin. Foreign manufacturers must obtain BIS license under the Foreign Manufacturers Certification Scheme (FMCS). Imports without valid BIS certification for notified categories are prohibited.'
+    },
+    {
+      q: 'What is FMCS?',
+      a: 'FMCS (Foreign Manufacturers Certification Scheme) allows overseas manufacturers to apply for BIS product certification. The factory in the foreign country is inspected by BIS officers and products are tested in BIS-recognised labs. License is valid for 1-2 years.'
+    },
+    {
+      q: 'What happens if a product is found non-compliant with its Indian Standard?',
+      a: 'BIS may cancel the license, initiate prosecution under the BIS Act 2016, confiscate non-compliant goods, and impose penalties of up to Rs. 2 lakh or imprisonment up to 2 years, or both, for first offence. Repeat offences attract higher penalties.'
+    },
+    {
+      q: 'What is the BIS Act 2016?',
+      a: 'The BIS Act 2016 replaced the BIS Act 1986. Key changes: it extended BIS mandate to services and systems (not just goods), introduced mandatory certification for notified products, enabled hallmarking, and enhanced penalties. Section 17 makes it an offence to use ISI mark without licence.'
+    },
+  ]
+};

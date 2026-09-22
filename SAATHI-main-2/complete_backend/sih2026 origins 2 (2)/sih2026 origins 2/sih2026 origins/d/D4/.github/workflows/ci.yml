@@ -1,0 +1,31 @@
+name: D4 CI
+
+on:
+  push:
+    paths:
+      - 'saathi-d4-conversation-history/**'
+  pull_request:
+    paths:
+      - 'saathi-d4-conversation-history/**'
+
+# Matches the master spec's "CI/CD via GitHub Actions" DevOps note.
+# Runs the same three checks locally documented in the README's "Tests"
+# section — no live Postgres needed, since the test suite mocks every
+# repository.
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: saathi-d4-conversation-history
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: saathi-d4-conversation-history/package-lock.json
+      - run: npm install
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build

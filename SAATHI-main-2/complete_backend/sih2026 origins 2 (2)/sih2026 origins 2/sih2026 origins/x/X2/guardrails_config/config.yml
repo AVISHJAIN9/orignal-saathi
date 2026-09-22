@@ -1,0 +1,43 @@
+models:
+  - type: main
+    engine: openai
+    model: qwen/qwen3.8-27b
+    parameters:
+      base_url: "https://api.groq.com/openai/v1"
+      api_key: ${GROQ_API_KEY}
+
+rails:
+  config:
+    user_messages:
+      embeddings:
+        engine: openai
+        model: text-embedding-3-small
+  output:
+    flows:
+      - self check facts
+      - self check hallucination
+
+prompts:
+  - task: self_check_facts
+    content: |
+      You are given a context of official BIS (Bureau of Indian Standards) specifications and a generated answer.
+      Your task is to verify if all factual assertions, clauses, and limits in the answer are strictly supported by the context.
+
+      Context:
+      {{ context }}
+
+      Answer:
+      {{ response }}
+
+      Question: Does the answer contain only facts supported by the context? Answer yes or no.
+
+  - task: self_check_hallucination
+    content: |
+      Context:
+      {{ context }}
+
+      Generated Answer:
+      {{ response }}
+
+      Check if the generated answer invents any standard numbers (e.g. IS XXXX) or parameters not present in the context.
+      Answer yes if there is hallucination, or no if strictly grounded.

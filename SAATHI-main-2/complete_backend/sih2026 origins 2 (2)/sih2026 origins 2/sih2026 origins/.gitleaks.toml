@@ -1,0 +1,39 @@
+# Gitleaks configuration for SAATHI
+# Prevents committing secrets into the repository.
+# Run: gitleaks detect --source . --config .gitleaks.toml
+
+title = "SAATHI Secret Detection Rules"
+
+[extend]
+# Extend the default gitleaks ruleset
+useDefault = true
+
+[[rules]]
+id = "sarvam-api-key"
+description = "Sarvam AI API Key"
+regex = '''sk_[a-z0-9]{8}_[A-Za-z0-9]{24,}'''
+tags = ["sarvam", "api-key"]
+
+[[rules]]
+id = "generic-api-key-default"
+description = "API Key set as shell default value (:-)"
+regex = '''\$\{[A-Z_]+:-[A-Za-z0-9_\-\.]{16,}\}'''
+tags = ["generic", "api-key", "shell-default"]
+
+[allowlist]
+description = "Global allowlist"
+paths = [
+  # Third-party repos bundled in workspace — not SAATHI code
+  "PaddleOCR-main/",
+  "cal.diy-main/",
+  "Guardrails-develop/",
+  "BERTopic-master/",
+  "gigachad-grc-main/",
+  "zen-master/",
+  "india-compliance-develop/",
+  "node-qrcode-master/",
+  "jsdiff-master/",
+  "json-rules-engine-master/",
+  "tesseract-main/",
+  "d/legacy/",          # Archived stubs — historical reference only
+]

@@ -1,0 +1,84 @@
+{
+  "pageTitle": "Notifications",
+  "backToChat": "Back to chat",
+  "tabs": {
+    "all": "All",
+    "unread": "Unread"
+  },
+  "emptyState": "You're all caught up — no unread notifications.",
+  "markRead": "Mark read",
+  "bell": {
+    "ariaLabel": "Notifications",
+    "viewAll": "View all notifications"
+  },
+  "types": {
+    "regulatory": "Regulatory update",
+    "analysis": "Document analysis",
+    "deadline": "Deadline",
+    "system": "System",
+    "conformity": "Conformity check",
+    "requirement_update": "Requirement Update",
+    "payment": "Payment"
+  },
+  "requirementUpdate": {
+    "severity": {
+      "high": "High Impact",
+      "medium": "Medium Impact",
+      "low": "Low Impact"
+    },
+    "standardClause": "{{standard}} — Clause {{clause}}",
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "sourceLabel": "Source: Official BIS",
+    "viewChange": "View Requirement Change",
+    "runGapAnalysis": "Run Compliance Gap Analysis",
+    "checkReadiness": "Check Application Readiness"
+  },
+  "items": {
+    "n1": {
+      "title": "Compliance deadline approaching",
+      "description": "Your BIS certification renewal for IS 4151 (helmets) is due in 5 days.",
+      "timestamp": "1 hour ago"
+    },
+    "n2": {
+      "title": "Document analysis complete",
+      "description": "\"Helmet Test Report.pdf\" has been analysed — 2 clauses need attention.",
+      "timestamp": "3 hours ago"
+    },
+    "n3": {
+      "title": "New regulatory update",
+      "description": "IS 4151:2025 has been amended — Clause 7.2 (chin strap strength) now applies.",
+      "timestamp": "Yesterday"
+    },
+    "n4": {
+      "title": "Conformity check flagged gaps",
+      "description": "Your latest test report is missing evidence for 2 clauses under IS 302 (Part 2).",
+      "timestamp": "2 days ago"
+    },
+    "n5": {
+      "title": "Standards corpus re-indexed",
+      "description": "All seed standards documents were successfully re-ingested and are up to date.",
+      "timestamp": "3 days ago"
+    },
+    "n6": {
+      "title": "New regulatory update",
+      "description": "IS 302 (Part 2) draft amendment is open for public comment until next month.",
+      "timestamp": "5 days ago"
+    },
+    "n7": {
+      "title": "Compliance deadline approaching",
+      "description": "Your BIS licence renewal for IS 2347 (pressure cookers) is due in 12 days.",
+      "timestamp": "1 week ago"
+    },
+    "n8": {
+      "title": "Document analysis complete",
+      "description": "\"Pressure Cooker Spec.docx\" has been analysed — no compliance issues found.",
+      "timestamp": "1 week ago"
+    },
+    "payment-APP-DEMO-HELMET-testing": {
+      "title": "Payment due — Testing & Certification Fee",
+      "description": "An illustrative ₹5,000 testing & certification fee for your Two-Wheeler Helmet application is due on 20 Sep 2026.",
+      "timestamp": "4 hours ago"
+    }
+  }
+}

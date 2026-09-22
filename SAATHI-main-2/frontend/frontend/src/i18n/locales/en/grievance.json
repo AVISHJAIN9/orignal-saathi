@@ -1,0 +1,39 @@
+{
+  "eyebrow": "Grievance & Consent · Prototype",
+  "heading": "Grievance Officer & Consent",
+  "subheading": "Who to contact with a grievance about this prototype, and the DPDP consent notice governing it — none of this is a real BIS-appointed contact.",
+  "backToChat": "Back to chat",
+  "officer": {
+    "heading": "Grievance Officer",
+    "disclaimer": {
+      "heading": "Placeholder contact information",
+      "body": "This prototype has no real, BIS-appointed Grievance Officer — every field below is a placeholder for demonstration only. Do not contact this address for an actual grievance; use BIS's official channels at bis.gov.in instead."
+    },
+    "designationLabel": "Designation",
+    "designationValue": "Grievance Officer (Placeholder — not appointed)",
+    "nameLabel": "Name",
+    "nameValue": "Not yet designated in this prototype",
+    "emailLabel": "Email",
+    "emailValue": "grievance-officer@example-saathi.test",
+    "phoneLabel": "Phone",
+    "phoneValue": "+91-00000-00000",
+    "addressLabel": "Address",
+    "addressValue": "Placeholder address — no physical grievance office exists for this prototype"
+  },
+  "consent": {
+    "heading": "DPDP Consent Notice",
+    "prototypeNote": "This notice is illustrative prototype text, not a legally reviewed DPDP notice — it demonstrates the UI shape a real consent flow would have.",
+    "noticeIntro": "By accepting, you acknowledge that this prototype may process the information you provide (name, email, and the details you enter into forms like the registration wizard) for the following illustrative purposes:",
+    "noticeItems": {
+      "purpose": "Purpose: to demonstrate account, dashboard, and application-tracking features in this prototype.",
+      "dataUsed": "Data used: the name/email you sign in with, plus any details you type into prototype forms.",
+      "retention": "Retention: stored only in this browser (localStorage) — nothing is sent to or kept on a real server.",
+      "rights": "Your rights: since nothing here is a real backend, there is no real data to request or delete beyond clearing your browser's storage."
+    },
+    "signInToRecord": "Sign in to record your acceptance of this notice.",
+    "loading": "Checking your consent status…",
+    "acceptedOn": "You accepted this notice on {{date}}.",
+    "acceptButton": "I have read and accept this notice",
+    "submitting": "Recording…"
+  }
+}

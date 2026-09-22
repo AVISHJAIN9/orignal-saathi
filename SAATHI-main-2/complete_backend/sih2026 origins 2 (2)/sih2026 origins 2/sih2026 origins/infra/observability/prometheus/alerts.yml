@@ -1,0 +1,203 @@
+groups:
+  # ── SLO: RAG Latency ─────────────────────────────────────────────────────
+  - name: saathi.slo.latency
+    rules:
+      - alert: RAGLatencyP95High
+        expr: |
+          histogram_quantile(0.95,
+            rate(http_request_duration_seconds_bucket{
+              job="saathi-m5-rag",
+              route=~"/api/v1/generate.*"
+            }[5m])
+          ) > 10
+        for: 5m
+        labels:
+          severity: warning
+          team: backend
+        annotations:
+          summary: "M5 RAG P95 latency exceeds 10s SLO"
+          description: "P95 response time {{ $value | humanizeDuration }} (SLO: 10s). This affects {{ $labels.route }}."
+          runbook: "https://saathi.bis.gov.in/runbooks/rag-latency"
+
+      - alert: RAGLatencyP99Critical
+        expr: |
+          histogram_quantile(0.99,
+            rate(http_request_duration_seconds_bucket{
+              job="saathi-m5-rag"
+            }[5m])
+          ) > 30
+        for: 3m
+        labels:
+          severity: critical
+          team: backend
+        annotations:
+          summary: "M5 RAG P99 latency exceeds 30s — service degraded"
+          description: "P99 at {{ $value | humanizeDuration }}. Likely pgvector slowdown or LLM API timeout."
+
+  # ── SLO: Error Rate ───────────────────────────────────────────────────────
+  - name: saathi.slo.errors
+    rules:
+      - alert: D1ChatErrorRateHigh
+        expr: |
+          rate(http_requests_total{
+            job="saathi-d1-chat",
+            status=~"5.."
+          }[5m])
+          /
+          rate(http_requests_total{job="saathi-d1-chat"}[5m])
+          > 0.02
+        for: 3m
+        labels:
+          severity: warning
+          team: backend
+        annotations:
+          summary: "D1 Chat Gateway error rate > 2%"
+          description: "Current error rate: {{ $value | humanizePercentage }}. SLO: < 2%."
+
+      - alert: D1ChatErrorRateCritical
+        expr: |
+          rate(http_requests_total{
+            job="saathi-d1-chat",
+            status=~"5.."
+          }[5m])
+          /
+          rate(http_requests_total{job="saathi-d1-chat"}[5m])
+          > 0.10
+        for: 1m
+        labels:
+          severity: critical
+          team: backend
+        annotations:
+          summary: "D1 Chat Gateway error rate > 10% — CRITICAL"
+          description: "{{ $value | humanizePercentage }} requests are failing."
+
+  # ── SLO: Availability ─────────────────────────────────────────────────────
+  - name: saathi.slo.availability
+    rules:
+      - alert: ServiceDown
+        expr: up{job=~"saathi-.*"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          team: backend
+        annotations:
+          summary: "SAATHI service {{ $labels.job }} is DOWN"
+          description: "Prometheus cannot scrape {{ $labels.job }} at {{ $labels.instance }}."
+
+      - alert: MultipleServicesDown
+        expr: count(up{job=~"saathi-.*"} == 0) >= 3
+        for: 1m
+        labels:
+          severity: critical
+          team: oncall
+        annotations:
+          summary: "3+ SAATHI services are simultaneously DOWN — possible infrastructure failure"
+
+  # ── Queue Health ──────────────────────────────────────────────────────────
+  - name: saathi.queue
+    rules:
+      - alert: IngestionQueueDLQGrowing
+        expr: saathi_bis_ingestion_dlq_count > 10
+        for: 10m
+        labels:
+          severity: warning
+          team: backend
+        annotations:
+          summary: "BIS Ingestion DLQ has {{ $value }} failed jobs"
+          description: "Dead-letter queue is growing. Check Bull Board at :3002 for failed job details."
+
+      - alert: IngestionQueueBacklogHigh
+        expr: saathi_bis_ingestion_queue_waiting > 100
+        for: 15m
+        labels:
+          severity: warning
+          team: backend
+        annotations:
+          summary: "Ingestion queue backlog: {{ $value }} waiting jobs"
+          description: "Queue not draining. Check M1 worker health and Redis connection."
+
+  # ── Database ──────────────────────────────────────────────────────────────
+  - name: saathi.database
+    rules:
+      - alert: PostgreSQLConnectionsHigh
+        expr: pg_stat_activity_count{state="active"} > 80
+        for: 5m
+        labels:
+          severity: warning
+          team: infra
+        annotations:
+          summary: "PostgreSQL active connections: {{ $value }} (limit: 100)"
+          description: "Connection pool may be exhausted. Check for connection leaks or increase max_connections."
+
+      - alert: PostgreSQLDown
+        expr: pg_up == 0
+        for: 30s
+        labels:
+          severity: critical
+          team: oncall
+        annotations:
+          summary: "PostgreSQL is DOWN"
+          description: "postgres-exporter cannot connect to PostgreSQL. All SAATHI services will fail."
+
+      - alert: RedisDown
+        expr: redis_up == 0
+        for: 30s
+        labels:
+          severity: critical
+          team: oncall
+        annotations:
+          summary: "Redis is DOWN"
+          description: "Redis unreachable. BullMQ queues and session state will fail."
+
+  # ── Security ──────────────────────────────────────────────────────────────
+  - name: saathi.security
+    rules:
+      - alert: RateLimitingTriggeredMassively
+        expr: |
+          rate(http_requests_total{
+            job="saathi-p1-auth",
+            status="429"
+          }[5m]) > 10
+        for: 2m
+        labels:
+          severity: warning
+          team: security
+        annotations:
+          summary: "High rate of 429 responses from P1 Auth ({{ $value }}/s)"
+          description: "Possible brute-force or DDoS. Check WAF rules and throttle config."
+
+      - alert: UnauthorisedAccessSpike
+        expr: |
+          rate(http_requests_total{status="401"}[5m]) > 20
+        for: 3m
+        labels:
+          severity: warning
+          team: security
+        annotations:
+          summary: "Spike in 401 Unauthorised responses ({{ $value }}/s)"
+          description: "Possible credential stuffing or misconfigured client."
+
+  # ── Disk ──────────────────────────────────────────────────────────────────
+  - name: saathi.disk
+    rules:
+      - alert: DiskSpaceWarning
+        expr: |
+          (node_filesystem_avail_bytes{mountpoint="/"} /
+           node_filesystem_size_bytes{mountpoint="/"}) < 0.20
+        for: 5m
+        labels:
+          severity: warning
+          team: infra
+        annotations:
+          summary: "Disk space < 20% on {{ $labels.instance }}"
+
+      - alert: DiskSpaceCritical
+        expr: |
+          (node_filesystem_avail_bytes{mountpoint="/"} /
+           node_filesystem_size_bytes{mountpoint="/"}) < 0.05
+        for: 2m
+        labels:
+          severity: critical
+          team: oncall
+        annotations:
+          summary: "Disk space < 5% on {{ $labels.instance }} — CRITICAL"

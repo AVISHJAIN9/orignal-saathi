@@ -1,0 +1,16 @@
+{
+  "crawl_run_at": "2026-09-13T08:12:12.554Z",
+  "total_pages": 1,
+  "pages_crawled": 0,
+  "pages_unchanged": 0,
+  "pages_failed": 1,
+  "pages": [
+    {
+      "url": "https://www.bis.gov.in/faq/?lang=en",
+      "label": "BIS FAQs",
+      "type": "faq",
+      "status": "FAILED",
+      "crawledAt": "2026-09-13T08:12:09.382Z"
+    }
+  ]
+}

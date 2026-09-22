@@ -1,0 +1,7 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified) — scope limited to the empty-conversation state only; everything else falls back to English.",
+  "clearChat": {
+    "emptyTitle": "புதிய உரையாடல்",
+    "emptyDescription": "மீண்டும் தொடங்க ஒரு இந்திய தரநிலை பற்றி SAATHI-இடம் கேளுங்கள்."
+  }
+}

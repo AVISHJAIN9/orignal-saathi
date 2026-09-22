@@ -1,0 +1,49 @@
+{
+  "total_standards": 7,
+  "updated_at": "2026-09-13T07:49:45.846Z",
+  "source": "Bureau of Indian Standards Official Gazette & Technical Catalog",
+  "records": [
+    {
+      "standard_number": "IS 10500:2012",
+      "title": "Drinking Water — Specification (Second Revision)",
+      "division": "Food and Agriculture Division (FAD)",
+      "status": "ACTIVE"
+    },
+    {
+      "standard_number": "IS 4984:2016",
+      "title": "High Density Polyethylene (HDPE) Pipes for Water Supply — Specification",
+      "division": "Civil Engineering Division (CED)",
+      "status": "ACTIVE"
+    },
+    {
+      "standard_number": "IS 1293:2019",
+      "title": "Plugs and Socket-Outlets for Domestic and Similar Purposes of Rated Voltage up to and Including 250 V",
+      "division": "Electrotechnical Division (ETD)",
+      "status": "ACTIVE"
+    },
+    {
+      "standard_number": "IS 13252 (Part 1):2010",
+      "title": "Information Technology Equipment — Safety (General Requirements)",
+      "division": "Electronics & IT Division (LITD)",
+      "status": "ACTIVE"
+    },
+    {
+      "standard_number": "IS 15885 (Part 2/Sec 13):2012",
+      "title": "Lamp Controlgear — Particular Requirements for DC or AC Supplied Electronic Controlgear for LED Modules",
+      "division": "Electrotechnical Division (ETD)",
+      "status": "ACTIVE"
+    },
+    {
+      "standard_number": "IS 1786:2008",
+      "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+      "division": "Metallurgical Engineering Division (MTD)",
+      "status": "ACTIVE"
+    },
+    {
+      "standard_number": "IS 269:2015",
+      "title": "Ordinary Portland Cement — Specification (Sixth Revision)",
+      "division": "Civil Engineering Division (CED)",
+      "status": "ACTIVE"
+    }
+  ]
+}

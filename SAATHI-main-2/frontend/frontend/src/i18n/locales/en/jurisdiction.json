@@ -1,0 +1,44 @@
+{
+  "title": "Jurisdiction — Global Map",
+  "eyebrow": "Cross-Border Regulatory Intelligence",
+  "heading": "Global Regulatory Map & Framework Explorer",
+  "subheading": "Explore international standards ecosystems, bilateral MoUs, mutual recognition arrangements, and cross-border certification schemes with India's BIS.",
+  "backToChat": "Back to Chat",
+  "disclaimer": "Prototype notice: global regulatory mappings and harmonization ratings are compiled for contextual reference. International trading requirements must be verified with respective national accreditation bodies.",
+  "stats": {
+    "totalTracked": "Tracked Jurisdictions",
+    "activeZones": "Active Regulatory Regimes",
+    "recentUpdates": "Recent Harmonization Notices",
+    "highImpact": "High-Impact Trade Corridors"
+  },
+  "map": {
+    "gridLabel": "Global Regulatory Radar Grid (WGS84 Equirectangular)",
+    "bisAligned": "BIS Aligned",
+    "activeUpdates": "Active Updates"
+  },
+  "searchPlaceholder": "Search country, standard body (e.g., CEN, ANSI, METI), or scheme...",
+  "filterAll": "All Jurisdictions",
+  "categories": {
+    "high_relevance": "High Relevance",
+    "active_changes": "Recent Regulatory Changes",
+    "bis_related": "BIS Bilateral MoUs",
+    "international": "International (ISO/IEC)"
+  },
+  "emptyState": "No jurisdictions match this search or filter.",
+  "drawer": {
+    "framework": "Regulatory Framework & Laws",
+    "ecosystem": "Standards Ecosystem",
+    "schemes": "Mandatory Certification Schemes",
+    "authority": "Authority",
+    "alignmentScore": "Alignment Score",
+    "recentNotices": "Recent Trade & Regulatory Notices",
+    "affectedSectors": "Key Sectors Covered",
+    "wtoTbtNotified": "WTO TBT Notified",
+    "yesActive": "Yes (Active)",
+    "no": "No",
+    "impactLabel": "{{impact}} Impact",
+    "dateLabel": "Date: {{date}}",
+    "close": "Close panel",
+    "details": "Details"
+  }
+}

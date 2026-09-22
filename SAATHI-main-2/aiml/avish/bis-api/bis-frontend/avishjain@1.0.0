@@ -1,0 +1,32 @@
+
+Entering npm script environment at location:
+/Users/avishjain/bis-api/bis-frontend
+Type 'exit' or ^D when finished
+
+
+> bis-frontend@0.0.0 dev
+> vite
+
+
+  VITE v8.3.0  ready in 240 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2819.60it/s]
+INFO:     Started server process [72178]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+
+> bis-frontend@0.0.0 dev
+> vite
+
+
+  VITE v8.3.0  ready in 282 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help

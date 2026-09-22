@@ -1,0 +1,24 @@
+apiVersion: v2
+name: saathi
+description: >
+  SAATHI — AI-powered BIS Compliance Intelligence Platform.
+  Single Helm chart for the complete SAATHI backend stack.
+  One command: helm upgrade --install saathi ./infra/helm/saathi -f values.prod.yaml
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+
+keywords:
+  - bis
+  - compliance
+  - rag
+  - nestjs
+  - fastapi
+  - india
+  - government
+
+maintainers:
+  - name: SAATHI Engineering
+    email: engineering@saathi.bis.gov.in
+
+dependencies: []

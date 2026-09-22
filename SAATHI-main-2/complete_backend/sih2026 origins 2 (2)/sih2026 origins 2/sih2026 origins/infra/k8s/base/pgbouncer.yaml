@@ -1,0 +1,129 @@
+---
+# PgBouncer — Connection Pooler for PostgreSQL
+# Sits between all SAATHI services and RDS/Cloud SQL.
+# Multiplexes hundreds of NestJS pool connections into max ~50 real DB connections.
+# Without this, 20+ pods × 20 pool = 400+ connections → Postgres max_connections exhausted.
+#
+# Mode: transaction pooling (best for NestJS with short-lived queries)
+# Max pool size: 50 connections to Postgres (configurable via CONFIG_MAX_DB_CONNECTIONS)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pgbouncer
+  namespace: saathi-prod
+  labels:
+    app: pgbouncer
+    tier: infrastructure
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: pgbouncer
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: pgbouncer
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "9127"
+        prometheus.io/path: "/metrics"
+    spec:
+      containers:
+        - name: pgbouncer
+          image: bitnami/pgbouncer:1.22.1
+          ports:
+            - containerPort: 5432
+              name: postgres
+          env:
+            # Connection to real Postgres
+            - name: POSTGRESQL_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: saathi-db-secret
+                  key: DB_HOST
+            - name: POSTGRESQL_PORT
+              value: "5432"
+            - name: POSTGRESQL_DATABASE
+              value: saathi_prod
+            - name: POSTGRESQL_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: saathi-db-secret
+                  key: DB_USERNAME
+            - name: POSTGRESQL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: saathi-db-secret
+                  key: DB_PASSWORD
+            # Pool configuration
+            - name: PGBOUNCER_POOL_MODE
+              value: transaction         # Best for NestJS short transactions
+            - name: PGBOUNCER_MAX_CLIENT_CONN
+              value: "500"               # Max connections from SAATHI services
+            - name: PGBOUNCER_DEFAULT_POOL_SIZE
+              value: "50"                # Real connections to Postgres
+            - name: PGBOUNCER_MIN_POOL_SIZE
+              value: "5"
+            - name: PGBOUNCER_RESERVE_POOL_SIZE
+              value: "10"
+            - name: PGBOUNCER_SERVER_TLS_SSLMODE
+              value: require             # TLS to Postgres required
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "256Mi"
+          readinessProbe:
+            tcpSocket:
+              port: 5432
+            initialDelaySeconds: 5
+            periodSeconds: 5
+          livenessProbe:
+            tcpSocket:
+              port: 5432
+            initialDelaySeconds: 15
+            periodSeconds: 15
+        # PgBouncer Prometheus exporter sidecar
+        - name: pgbouncer-exporter
+          image: prometheuscommunity/pgbouncer-exporter:v0.7.0
+          args:
+            - '--pgBouncer.connectionString=postgres://stats:$(PGBOUNCER_STATS_PASSWORD)@localhost:5432/pgbouncer'
+          env:
+            - name: PGBOUNCER_STATS_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: saathi-db-secret
+                  key: PGBOUNCER_STATS_PASSWORD
+          ports:
+            - containerPort: 9127
+              name: metrics
+          resources:
+            requests:
+              cpu: "10m"
+              memory: "32Mi"
+            limits:
+              cpu: "50m"
+              memory: "64Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pgbouncer
+  namespace: saathi-prod
+  labels:
+    app: pgbouncer
+spec:
+  selector:
+    app: pgbouncer
+  ports:
+    - name: postgres
+      port: 5432
+      targetPort: 5432
+  type: ClusterIP

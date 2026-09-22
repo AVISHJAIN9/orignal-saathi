@@ -1,0 +1,21 @@
+# Production overrides
+global:
+  environment: production
+  namespace: saathi-prod
+
+replicaCounts:
+  d1Chat: 5
+  m5Rag: 5
+  m1Ingestion: 2
+  p1Auth: 3
+  pgbouncer: 2
+
+hpa:
+  enabled: true
+
+config:
+  dbPoolMax: "50"
+  corsOrigins: "https://saathi.bis.gov.in,https://www.bis.gov.in"
+
+observability:
+  enabled: true
