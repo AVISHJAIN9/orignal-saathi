@@ -1,0 +1,53 @@
+version: "3.1"
+
+rules:
+
+- rule: Greet
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Thanks
+  steps:
+    - intent: thanks
+    - action: utter_thanks
+
+- rule: Search standard
+  steps:
+    - intent: search_standard
+    - action: action_search_standard
+
+- rule: Standard details
+  steps:
+    - intent: ask_standard_details
+    - action: action_standard_details
+
+- rule: Ask committee
+  steps:
+    - intent: ask_committee
+    - action: action_ask_committee
+
+- rule: Ask department
+  steps:
+    - intent: ask_department
+    - action: action_ask_department
+
+- rule: Ask standard type
+  steps:
+    - intent: ask_standard_type
+    - action: action_ask_standard_type
+
+- rule: Ask publication date
+  steps:
+    - intent: ask_publication_date
+    - action: action_ask_publication_date
+
+- rule: Classify equivalence
+  steps:
+    - intent: classify_equivalence
+    - action: action_classify_equivalence
