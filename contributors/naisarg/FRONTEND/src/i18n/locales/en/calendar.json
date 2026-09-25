@@ -1,0 +1,65 @@
+{
+  "eyebrow": "Compliance Calendar & Reminders",
+  "heading": "Compliance Calendar & Reminder Sync",
+  "subheading": "Consolidated timeline of BIS deadlines, scheduled audits, officer inspections, statutory payment dates, and certificate renewals.",
+  "viewMode": {
+    "month": "Month",
+    "week": "Week",
+    "agenda": "Agenda"
+  },
+  "metrics": {
+    "dueThisWeek": "Due This Week",
+    "criticalDeadlines": "Critical Deadlines",
+    "scheduledAudits": "Audits & Visits",
+    "totalEvents": "Total Events"
+  },
+  "sync": {
+    "exportIcal": "Export to iCal / Calendar (.ics)",
+    "syncTitle": "Calendar Sync Status",
+    "syncNotice": "Direct two-way Google Calendar & Microsoft Outlook synchronization requires enterprise organization OAuth credentials. Use the standard .ics export to import all events directly into your calendar application."
+  },
+  "filters": {
+    "allTypes": "All Event Types",
+    "allPriorities": "All Priorities",
+    "searchPlaceholder": "Search events, standards, applications..."
+  },
+  "eventTypes": {
+    "APPLICATION_DEADLINE": "Application Deadline",
+    "DOCUMENT_DEADLINE": "Document Deadline",
+    "PAYMENT_DUE": "Payment Due",
+    "FACTORY_AUDIT": "Factory Audit",
+    "OFFICER_VISIT": "Officer Visit",
+    "APPEAL_DEADLINE": "Appeal Deadline",
+    "CERTIFICATE_EXPIRY": "Certificate Expiry",
+    "REGULATORY_CHANGE": "Regulatory Change",
+    "REMINDER": "Workspace Reminder"
+  },
+  "priorities": {
+    "CRITICAL": "Critical",
+    "HIGH": "High",
+    "MEDIUM": "Medium",
+    "LOW": "Low"
+  },
+  "dialog": {
+    "title": "Event Details",
+    "relatedApplication": "Related Application",
+    "relatedStandard": "Indian Standard",
+    "relatedCertificate": "BIS Certificate",
+    "assignedOfficer": "Assigned Officer",
+    "location": "Location",
+    "statutoryClause": "Statutory Authority",
+    "amountDue": "Fee Amount",
+    "reminders": "Reminder Notification Settings",
+    "reminderDesc": "Choose when to receive in-app and browser notifications for this compliance milestone.",
+    "notify1Day": "1 day before",
+    "notify3Days": "3 days before",
+    "notify7Days": "7 days before",
+    "exportSingle": "Download Event (.ics)",
+    "saveReminders": "Save Reminders",
+    "savedToast": "Reminder preferences updated successfully"
+  },
+  "emptyState": {
+    "title": "No Events Found",
+    "description": "No compliance events match your current filter selection."
+  }
+}

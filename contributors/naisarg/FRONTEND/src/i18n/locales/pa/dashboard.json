@@ -1,0 +1,95 @@
+{
+  "eyebrow": "ਡੈਸ਼ਬੋਰ੍ਡ · ਪ੍ਰੋਟੋਟਾਇਪ",
+  "greeting": "ਵਾਪਸੀ ਪਰ ਸ੍ਵਾਗਤ ਹੈ, {{name}}",
+  "subheading": "ਆਪਕੇ ਆਵੇਦਨੋਂ, ਸਮਯ-ਸੀਮਾਓਂ ਔਰ ਲਂਬਿਤ ਕਾਰ੍ਯੋਂ ਕਾ ਵ੍ਯਕ੍ਤਿਗਤ ਦ੃ਸ਼੍ਯ — ਯਹ ਉਦਾਹਰਣਾਤ੍ਮਕ ਮ੉ਕ ਡੇਟਾ ਪਰ ਆਧਾਰਿਤ ਏਕ ਡੇਮੋ ਦ੃ਸ਼੍ਯ ਹੈ, ਨ ਕਿ ਲਾਇਵ BIS ਫ਼ੀਡ੤",
+  "loading": "ਆਪਕਾ ਡੈਸ਼ਬੋਰ੍ਡ ਲੋਡ ਹੋ ਰਹਾ ਹੈ…",
+  "error": {
+    "heading": "ਆਪਕਾ ਡੈਸ਼ਬੋਰ੍ਡ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਾ",
+    "retry": "ਫਿਰ ਸੇ ਪ੍ਰਯਾਸ ਕਰੇਂ"
+  },
+  "empty": {
+    "heading": "ਆਪ ਪੂਰੀ ਤਰਹ ਅਪਡੇਟ ਹੈਂ",
+    "body": "ਅਭੀ ਆਪਕੇ ਪਾਸ ਕੋਈ ਸਕ੍ਰਿਯ ਆਵੇਦਨ, ਸਮਯ-ਸੀਮਾ ਯਾ ਲਂਬਿਤ ਕਾਰ੍ਯ ਨਹੀਂ ਹੈ੤"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} ਉਪਲਬ੍ਧ ਨਹੀਂ ਹੈ",
+    "retry": "ਪੁਨਃ ਪ੍ਰਯਾਸ ਕਰੇਂ"
+  },
+  "sections": {
+    "progressSummary": "ਆਵੇਦਨ ਸ੍ਥਿਤਿ",
+    "nextDeadline": "ਅਗਲੀ ਸਮਯ-ਸੀਮਾ",
+    "actionRequired": "ਆਵਸ਼੍ਯਕ ਕਾਰ੍ਰਵਾਈ",
+    "upcomingDeadlines": "ਆਗਾਮੀ ਸਮਯ-ਸੀਮਾਏਁ",
+    "calendar": "ਕੈਲੇਂਡਰ",
+    "activeApplications": "ਸਕ੍ਰਿਯ ਆਵੇਦਨ",
+    "recentActivity": "ਹਾਲ ਕੀ ਗਤਿਵਿਧਿ",
+    "regulatoryAlerts": "ਨਿਯਾਮਕ ਚੇਤਾਵਨਿਯਾਁ",
+    "paymentAlerts": "ਭੁਗਤਾਨ ਚੇਤਾਵਨਿਯਾਁ",
+    "sampleTesting": "ਨਮੂਨਾ ਪਰੀਕ੍਷ਣ ਸ੍ਥਿਤਿ"
+  },
+  "progressSummary": {
+    "completed": "ਪੂਰ੍ਣ",
+    "inProgress": "ਪ੍ਰਗਤਿ ਮੇਂ",
+    "pending": "ਸਮੀਕ੍਷ਾ ਲਂਬਿਤ"
+  },
+  "urgency": {
+    "normal": "ਸਾਮਾਨ੍ਯ",
+    "approaching": "ਨਜ਼ਦੀਕ ਆ ਰਹਾ ਹੈ",
+    "urgent": "ਅਤ੍ਯਾਵਸ਼੍ਯਕ",
+    "overdue": "ਸਮਯ-ਸੀਮਾ ਪਾਰ",
+    "dueInDays_one": "{{count}} ਦਿਨ ਮੇਂ ਦੇਯ",
+    "dueInDays_other": "{{count}} ਦਿਨੋਂ ਮੇਂ ਦੇਯ",
+    "dueToday": "ਆਜ ਦੇਯ",
+    "overdueByDays_one": "{{count}} ਦਿਨ ਕੀ ਦੇਰੀ",
+    "overdueByDays_other": "{{count}} ਦਿਨੋਂ ਕੀ ਦੇਰੀ"
+  },
+  "nextDeadline": {
+    "empty": "ਕੋਈ ਆਗਾਮੀ ਸਮਯ-ਸੀਮਾ ਨਹੀਂ੤",
+    "viewApplication": "ਆਵੇਦਨ ਦੇਖੇਂ"
+  },
+  "actionRequired": {
+    "empty": "ਕੋਈ ਕਾਰ੍ਰਵਾਈ ਆਵਸ਼੍ਯਕ ਨਹੀਂ — ਆਪ ਪੂਰੀ ਤਰਹ ਅਪਡੇਟ ਹੈਂ੤",
+    "open": "ਖੋਲੇਂ"
+  },
+  "upcomingDeadlines": {
+    "empty": "ਕੋਈ ਆਗਾਮੀ ਸਮਯ-ਸੀਮਾ ਨਹੀਂ੤",
+    "addToCalendar": "ਕੈਲੇਂਡਰ ਮੇਂ ਜੋਡ਼ੇਂ"
+  },
+  "calendar": {
+    "hint": "ਜਿਨ ਦਿਨੋਂ ਮੇਂ ਸਮਯ-ਸੀਮਾ ਹੈ ਵੇ ਚਿਹ੍ਨਿਤ ਹੈਂ — ਦੇਖਨੇ ਕੇ ਲਿਏ ਏਕ ਚੁਨੇਂ, ਯਾ ਨੀਚੇ ਸਬ ਕੁਛ ਨਿਰ੍ਯਾਤ ਕਰੇਂ੤",
+    "exportAll": "ਕੈਲੇਂਡਰ ਮੇਂ ਸਬ ਨਿਰ੍ਯਾਤ ਕਰੇਂ (.ics)",
+    "addOne": "ਕੈਲੇਂਡਰ ਮੇਂ ਜੋਡ਼ੇਂ",
+    "empty": "ਕੈਲੇਂਡਰ ਪਰ ਦਿਖਾਨੇ ਕੇ ਲਿਏ ਕੋਈ ਸਮਯ-ਸੀਮਾ ਨਹੀਂ੤",
+    "noneOnDay": "ਇਸ ਦਿਨ ਕੋਈ ਸਮਯ-ਸੀਮਾ ਨਹੀਂ੤"
+  },
+  "activeApplications": {
+    "empty": "ਅਭੀ ਤਕ ਕੋਈ ਸਕ੍ਰਿਯ ਆਵੇਦਨ ਨਹੀਂ੤",
+    "startOne": "ਨਯਾ ਆਵੇਦਨ ਸ਼ੁਰੂ ਕਰੇਂ",
+    "status": {
+      "draft": "ਡ੍ਰਾਫ਼੍ਟ",
+      "submitted": "ਜਮਾ ਕਿਯਾ ਗਯਾ"
+    },
+    "readinessLabel": "ਤੈਯਾਰੀ",
+    "readinessStatus": {
+      "ready": "ਜਮਾ ਕਰਨੇ ਕੇ ਲਿਏ ਤੈਯਾਰ",
+      "ready_with_non_blocking": "ਤੈਯਾਰ — ਗੈਰ-ਅਵਰੋਧਕ ਮਦ ਸ਼ੇ਷ ਹੈਂ",
+      "not_ready": "ਤੈਯਾਰ ਨਹੀਂ",
+      "insufficient_evidence": "ਅਪਰ੍ਯਾਪ੍ਤ ਸਾਕ੍਷੍ਯ"
+    },
+    "blockersLabel_one": "{{count}} ਅਵਰੋਧਕ ਸਮਸ੍ਯਾ",
+    "blockersLabel_other": "{{count}} ਅਵਰੋਧਕ ਸਮਸ੍ਯਾਏਁ",
+    "viewStandard": "ਮਾਨਕ ਦੇਖੇਂ"
+  },
+  "recentActivity": {
+    "empty": "ਕੋਈ ਹਾਲ ਕੀ ਗਤਿਵਿਧਿ ਨਹੀਂ੤"
+  },
+  "regulatoryAlerts": {
+    "empty": "ਕੋਈ ਨਈ ਨਿਯਾਮਕ ਚੇਤਾਵਨੀ ਨਹੀਂ੤",
+    "viewDetails": "ਵਿਵਰਣ ਦੇਖੇਂ"
+  },
+  "paymentAlerts": {
+    "empty": "ਅਭੀ ਕੋਈ ਲਂਬਿਤ ਸ਼ੁਲ੍ਕ ਨਹੀਂ ਹੈ੤",
+    "viewPayment": "ਭੁਗਤਾਨ ਸ੍ਥਿਤਿ ਦੇਖੇਂ"
+  },
+  "illustrativeNotice": "ਉਦਾਹਰਣਾਤ੍ਮਕ ਡੇਟਾ — ਯਹ ਕੋਈ ਵਾਸ੍ਤਵਿਕ BIS ਆਵੇਦਨ ਯਾ ਫਾਇਲਿਂਗ ਨਹੀਂ ਹੈ੤"
+}

@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — പരീക്ഷണ ഏവം പ്രയോഗശാലാ ബുദ്ധിമത്താ",
+  "title": "ഇംടേലിജേംട പ്രയോഗശാലാ മൈചര",
+  "subtitle": "അപനേ ഉത്പാദ കേ ലിഏ ആവശ്യക പരീക്ഷണ കരനേ മേം സക്ഷമ സത്യാപിത പ്രയോഗശാലാഏം ഖോജേം൤",
+  "context": {
+    "title": "ഉത്പാദ ഏവം പരീക്ഷണ സംദര്ഭ",
+    "product": "ഉത്പാദ",
+    "standard": "മാനക",
+    "scheme": "യോജനാ (സ്കീമ)",
+    "requiredTestsCount": "ആവശ്യക പരീക്ഷണ",
+    "noStandardWarning": "ആവശ്യക പരീക്ഷണ പഥ കീ പഹചാന കരനേ സേ പഹലേ ഏക ലാഗൂ ഭാരതീയ മാനക ആവശ്യക ഹൈ൤",
+    "chooseStandard": "മാനക ചുനേം",
+    "selectProduct": "ഉത്പാദ ചുനേം"
+  },
+  "requiredTests": {
+    "title": "ആവശ്യക പരീക്ഷണ",
+    "mandatoryCount_one": "{{count}} അനിവാര്യ പരീക്ഷണ",
+    "mandatoryCount_other": "{{count}} അനിവാര്യ പരീക്ഷണ",
+    "noTestsWarning": "ഇസ അനുപാലന പഥ കേ ലിഏ കോഈ സത്യാപിത പരീക്ഷണ ആവശ്യകതാഏം നഹീം മിലീം൤"
+  },
+  "preferences": {
+    "title": "പ്രാഥമികതാഏം ഔര ഫ഼ില്ടര",
+    "locationLabel": "സ്ഥാന / ശഹര",
+    "locationPlaceholder": "ഉദാ. ബേംഗലുരു, ദില്ലീ, മുംബഈ",
+    "distanceLabel": "അധികതമ ദൂരീ",
+    "distanceAny": "കോഈ ഭീ ദൂരീ",
+    "distance50": "50 കിമീ കേ ഭീതര",
+    "distance100": "100 കിമീ കേ ഭീതര",
+    "distance250": "250 കിമീ കേ ഭീതര",
+    "distance500": "500 കിമീ കേ ഭീതര",
+    "accreditationLabel": "മാന്യതാ ഫ഼ില്ടര",
+    "accreditationAll": "സഭീ പ്രയോഗശാലാഏം",
+    "accreditationVerified": "കേവല സത്യാപിത മാന്യതാ പ്രാപ്ത",
+    "findLabsButton": "പ്രയോഗശാലാഏം ഖോജേം",
+    "searchingLabs": "പ്രയോഗശാലാഏം ഖോജീ ജാ രഹീ ഹൈം..."
+  },
+  "results": {
+    "bestMatchHeading": "സര്വശ്രേഷ്ഠ മൈച",
+    "otherMatchesHeading": "അന്യ മിലാന പ്രയോഗശാലാഏം",
+    "viewDetails": "വിവരണ ദേഖേം",
+    "selectLab": "പ്രയോഗശാലാ ചുനേം",
+    "labSelected": "പ്രയോഗശാലാ കാ ചയന ഹുആ",
+    "matchScore": "{{score}}% മൈച",
+    "testsCovered": "{{covered}} / {{total}} പരീക്ഷണ ശാമില",
+    "fullCoverage": "പൂര്ണ പരീക്ഷണ കവരേജ സത്യാപിത",
+    "partialCoverage": "ആംശിക പരീക്ഷണ കവരേജ",
+    "verified": "സത്യാപിത",
+    "unverified": "അസത്യാപിത",
+    "unknown": "ക്ഷമതാ അജ്ഞാത",
+    "locationFit": "സ്ഥാന: {{location}}",
+    "distanceKm": "{{distance}} കിമീ ദൂര"
+  },
+  "breakdown": {
+    "title": "മൈച സ്കോര വിവരണ",
+    "testCoverage": "പരീക്ഷണ കവരേജ",
+    "standardMatch": "മാനക മിലാന",
+    "accreditation": "മാന്യതാ പ്രാപ്ത ഹോനാ",
+    "locationFit": "സ്ഥാന ഉപയുക്തതാ"
+  },
+  "details": {
+    "title": "പ്രയോഗശാലാ പ്രോഫ഼ാഇല ഔര ക്ഷമതാഏം",
+    "location": "സ്ഥാന",
+    "capabilities": "പരീക്ഷണ ക്ഷമതാഏം",
+    "standards": "പ്രാസംഗിക ഭാരതീയ മാനക",
+    "accreditation": "മാന്യതാ സ്ഥിതി",
+    "contact": "സത്യാപിത സംപര്ക ജാനകാരീ",
+    "source": "ആധികാരിക സ്രോത സത്യാപന",
+    "viewSource": "ആധികാരിക സ്രോത ദേഖേം",
+    "viewWebsite": "ആധികാരിക വേബസാഇട ദേഖേം",
+    "email": "ഈമേല",
+    "phone": "ഫ഼ോന",
+    "close": "ബംദ കരേം"
+  },
+  "states": {
+    "noMatchesTitle": "കോഈ സത്യാപിത പ്രയോഗശാലാ നഹീം മിലീ",
+    "noMatchesMsg": "ആപകീ വര്തമാന മാപദംഡോം കേ അനുസാര ആവശ്യക പരീക്ഷണ കേ ലിഏ കോഈ സത്യാപിത പ്രയോഗശാലാ നഹീം മിലീ൤",
+    "partialMatchesNotice": "കോഈ ഭീ ഏകല സത്യാപിത പ്രയോഗശാലാ സഭീ ആവശ്യക പരീക്ഷണോം കോ കവര നഹീം കരതീ ഹൈ൤ സര്വശ്രേഷ്ഠ ഉപലബ്ധ ആംശിക മൈച നീചേ ദിഖാഏ ഗഏ ഹൈം൤",
+    "errorTitle": "പ്രയോഗശാലാ മിലാന സേവാ അനുപലബ്ധ",
+    "errorMsg": "പ്രയോഗശാലാ മിലാന സേവാ അസ്ഥായീ രൂപ സേ അനുപലബ്ധ ഹൈ൤",
+    "retry": "പുനഃ പ്രയാസ കരേം",
+    "emptyContextTitle": "അനുപാലന സംദര്ഭ നിര്ദിഷ്ട കരേം",
+    "emptyContextMsg": "ആവശ്യക പരീക്ഷണോം ഔര ഉപയുക്ത പ്രയോഗശാലാഓം കീ പഹചാന കരനേ കേ ലിഏ അപനാ ഉത്പാദ യാ അനുപാലന പഥ ചുനേം൤"
+  }
+}

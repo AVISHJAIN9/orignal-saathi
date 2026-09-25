@@ -1,0 +1,71 @@
+{
+  "eyebrow": "REGULATORY CHANGE ALERTS",
+  "title": "Personalized Regulatory Change Alerts",
+  "subheading": "Stay ahead of regulatory changes that may affect your products and compliance.",
+  "secondaryText": "SAATHI monitors verified regulatory information and highlights changes relevant to your compliance journey.",
+  "backToRadar": "View Regulatory Radar",
+  "summary": {
+    "title": "ALERTS OVERVIEW",
+    "relevantAlerts": "Relevant Alerts",
+    "critical": "Critical",
+    "high": "High",
+    "medium": "Medium",
+    "informational": "Informational",
+    "unread": "Unread"
+  },
+  "actionRequired": {
+    "title": "ACTION REQUIRED",
+    "description": "High-priority regulatory changes affecting your active compliance items."
+  },
+  "monitoredItems": {
+    "title": "MY MONITORED COMPLIANCE ITEMS",
+    "manage": "Monitored Context"
+  },
+  "card": {
+    "whatChanged": "WHAT CHANGED?",
+    "whyItMatters": "WHY IT MATTERS",
+    "potentialImpact": "POTENTIAL IMPACT",
+    "recommendedAction": "RECOMMENDED ACTION",
+    "detectedDate": "Detected",
+    "effectiveDate": "Effective Date",
+    "source": "Official Source",
+    "viewSource": "View Official Source",
+    "sourceUnavailable": "Source link not published",
+    "markRead": "Mark Read",
+    "read": "Read",
+    "unread": "Unread Alert",
+    "actions": {
+      "reviewChanges": "Review Changes",
+      "runGapAnalysis": "Run Compliance Gap Analysis",
+      "checkReadiness": "Check Application Readiness",
+      "viewComplianceChain": "View Compliance Chain",
+      "viewDetails": "View Details"
+    }
+  },
+  "severities": {
+    "critical": "CRITICAL",
+    "high": "HIGH",
+    "medium": "MEDIUM",
+    "informational": "INFORMATIONAL"
+  },
+  "filters": {
+    "all": "All Alerts",
+    "critical": "Critical",
+    "high": "High",
+    "medium": "Medium",
+    "informational": "Informational",
+    "unread": "Unread Only"
+  },
+  "states": {
+    "loadingTitle": "Checking Regulatory Alerts...",
+    "loadingSub": "Comparing verified regulatory updates against your monitored compliance items",
+    "emptyTitle": "You're up to date",
+    "emptyMsg": "No new verified regulatory changes affecting your monitored compliance items were found.",
+    "emptySub": "Keep monitoring Regulatory Radar for broad regulatory announcements across Indian Standards.",
+    "errorTitle": "Regulatory Monitoring Unavailable",
+    "errorMsg": "New regulatory alerts could not be verified right now.",
+    "retry": "Retry Alert Fetch",
+    "detailsTitle": "Regulatory Alert Impact Analysis",
+    "close": "Close"
+  }
+}

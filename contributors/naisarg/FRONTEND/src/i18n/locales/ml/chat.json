@@ -1,0 +1,40 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified) — scope limited to the empty-conversation state only; everything else falls back to English.",
+  "clearChat": {
+    "emptyTitle": "പുതിയ സംഭാഷണം",
+    "emptyDescription": "വീണ്ടും ആരംഭിക്കാൻ ഒരു ഇന്ത്യൻ മാനദണ്ഡത്തെക്കുറിച്ച് SAATHI-യോട് ചോദിക്കുക."
+  },
+  "nav": {
+    "sectionCore": "മുഖ്യ",
+    "sectionLifecycle": "പ്രമാണന ജീവനചക്ര",
+    "sectionTools": "അനുപാലന ഉപകരണ",
+    "sectionAdmin": "വ്യവസ്ഥാപക",
+    "standardsBrowser": "മാനക ബ്രാഉജ഼ര",
+    "adminPanel": "വ്യവസ്ഥാപക പൈനല",
+    "documentManagement": "ദസ്താവേജ഼ പ്രബംധന",
+    "retrievalQuality": "പുനര്പ്രാപ്തി ഗുണവത്താ",
+    "conformityCheck": "അനുരൂപതാ ജാംച",
+    "notifications": "സൂചനാഏം",
+    "regulatoryRadar": "നിയാമക രഡാര",
+    "intelFeed": "ഇംടേല ഫീഡ",
+    "documentCortex": "ദസ്താവേജ഼ ക൉ര്ടേക്സ",
+    "newRegistration": "നയാ പംജീകരണ",
+    "officerVisits": "അധികാരീ യാത്രാഏം",
+    "documentCorrections": "ദസ്താവേജ഼ സുധാര",
+    "appealsDisputes": "അപീല ഔര വിവാദ",
+    "businessAccount": "വ്യവസായ ഖാതാ",
+    "certificates": "പ്രമാണപത്ര",
+    "renewalReminders": "നവീനീകരണ അനുസ്മാരക",
+    "complianceCalendar": "അനുപാലന കൈലേംഡര",
+    "factoryAudits": "ഫ഼ൈക്ടരീ ഑ഡിട",
+    "recallsAlerts": "രിക൉ല ഔര അലര്ട",
+    "licenseActions": "ലാഇസേംസ കാര്രവാഈ",
+    "feeInvoices": "ശുല്ക ചാലാന ഔര രസീദേം",
+    "manufacturingLocations": "വിനിര്മാണ സ്ഥാന",
+    "schemeSelector": "യോജനാ ചയനകര്താ",
+    "complianceChain": "അനുപാലന ശ്രൃംഖലാ",
+    "laboratoryMatcher": "പ്രയോഗശാലാ മിലാനകര്താ",
+    "regulatoryAlerts": "നിയാമക അലര്ട",
+    "exploreFeatures": "സുവിധാഏം ദേഖേം"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified) — scope limited to the empty-conversation state only; everything else falls back to English.",
+  "clearChat": {
+    "emptyTitle": "ಹೊಸ ಸಂಭಾಷಣೆ",
+    "emptyDescription": "ಮತ್ತೆ ಪ್ರಾರಂಭಿಸಲು ಭಾರತೀಯ ಗುಣಮಟ್ಟದ ಬಗ್ಗೆ SAATHI ಅನ್ನು ಕೇಳಿ."
+  },
+  "nav": {
+    "sectionCore": "ಮುಖ್ಯ",
+    "sectionLifecycle": "ಪ್ರಮಾಣನ ಜೀವನಚಕ್ರ",
+    "sectionTools": "ಅನುಪಾಲನ ಉಪಕರಣ",
+    "sectionAdmin": "ವ್ಯವಸ್ಥಾಪಕ",
+    "standardsBrowser": "ಮಾನಕ ಬ್ರಾಉಜ಼ರ",
+    "adminPanel": "ವ್ಯವಸ್ಥಾಪಕ ಪೈನಲ",
+    "documentManagement": "ದಸ್ತಾವೇಜ಼ ಪ್ರಬಂಧನ",
+    "retrievalQuality": "ಪುನರ್ಪ್ರಾಪ್ತಿ ಗುಣವತ್ತಾ",
+    "conformityCheck": "ಅನುರೂಪತಾ ಜಾಂಚ",
+    "notifications": "ಸೂಚನಾಏಂ",
+    "regulatoryRadar": "ನಿಯಾಮಕ ರಡಾರ",
+    "intelFeed": "ಇಂಟೇಲ ಫೀಡ",
+    "documentCortex": "ದಸ್ತಾವೇಜ಼ ಕ೉ರ್ಟೇಕ್ಸ",
+    "newRegistration": "ನಯಾ ಪಂಜೀಕರಣ",
+    "officerVisits": "ಅಧಿಕಾರೀ ಯಾತ್ರಾಏಂ",
+    "documentCorrections": "ದಸ್ತಾವೇಜ಼ ಸುಧಾರ",
+    "appealsDisputes": "ಅಪೀಲ ಔರ ವಿವಾದ",
+    "businessAccount": "ವ್ಯವಸಾಯ ಖಾತಾ",
+    "certificates": "ಪ್ರಮಾಣಪತ್ರ",
+    "renewalReminders": "ನವೀನೀಕರಣ ಅನುಸ್ಮಾರಕ",
+    "complianceCalendar": "ಅನುಪಾಲನ ಕೈಲೇಂಡರ",
+    "factoryAudits": "ಫ಼ೈಕ್ಟರೀ ಑ಡಿಟ",
+    "recallsAlerts": "ರಿಕ೉ಲ ಔರ ಅಲರ್ಟ",
+    "licenseActions": "ಲಾಇಸೇಂಸ ಕಾರ್ರವಾಈ",
+    "feeInvoices": "ಶುಲ್ಕ ಚಾಲಾನ ಔರ ರಸೀದೇಂ",
+    "manufacturingLocations": "ವಿನಿರ್ಮಾಣ ಸ್ಥಾನ",
+    "schemeSelector": "ಯೋಜನಾ ಚಯನಕರ್ತಾ",
+    "complianceChain": "ಅನುಪಾಲನ ಶ್ರೃಂಖಲಾ",
+    "laboratoryMatcher": "ಪ್ರಯೋಗಶಾಲಾ ಮಿಲಾನಕರ್ತಾ",
+    "regulatoryAlerts": "ನಿಯಾಮಕ ಅಲರ್ಟ",
+    "exploreFeatures": "ಸುವಿಧಾಏಂ ದೇಖೇಂ"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "eyebrow": "Official Inspection Schedule",
+  "heading": "Government-Officer Visit Schedule",
+  "subheading": "Authoritative schedule and preparation requirements for official Bureau of Indian Standards factory inspections and verification audits.",
+  "applicationFilter": {
+    "allApplications": "All Applications",
+    "filterLabel": "Application:"
+  },
+  "upcoming": {
+    "title": "Upcoming Officer Visit",
+    "scheduledFor": "Scheduled Inspection",
+    "viewDetails": "View Details",
+    "prepChecklist": "Preparation Checklist",
+    "noOfficerAssigned": "Officer to be assigned by BIS Regional Branch",
+    "duration": "Estimated Duration",
+    "location": "Inspection Location",
+    "applicationRef": "Application Reference",
+    "standardRef": "Applicable Standard"
+  },
+  "detailsDialog": {
+    "title": "Official Visit Details",
+    "description": "Complete authoritative inspection log and instructions recorded by the Bureau of Indian Standards.",
+    "application": "Associated Application",
+    "visitType": "Visit Type",
+    "purpose": "Official Purpose",
+    "dateTime": "Date & Time",
+    "location": "Inspection Location",
+    "officer": "Assigned BIS Officer",
+    "officerDesignation": "Designation",
+    "officerBranch": "Regional / Branch Office",
+    "officerContact": "Official Contact",
+    "notAssigned": "Officer details pending final assignment by competent authority",
+    "status": "Current Status",
+    "instructions": "Official Government Instructions",
+    "noInstructions": "No additional instructions provided for this visit.",
+    "preparationSummary": "Preparation Status",
+    "followUp": "Post-Visit Follow-Up",
+    "followUpNotes": "Officer Notes",
+    "actionRequired": "Required Action",
+    "nextStepDeadline": "Action Deadline",
+    "officialProtocolNotice": "Schedule adjustments, rescheduling, and cancellation are subject to official BIS procedural rules.",
+    "close": "Close"
+  },
+  "checklist": {
+    "title": "Preparation Requirements",
+    "subtitle": "Ensure all compliance records, factory setups, and test reports are in order before officer arrival.",
+    "progressLabel": "Preparation Progress",
+    "readyFraction": "{{ready}} / {{total}} ready",
+    "allReady": "All preparation items marked ready",
+    "ready": "Ready",
+    "pending": "Pending",
+    "openVault": "Open Compliance Vault",
+    "openChain": "View Compliance Chain",
+    "categories": {
+      "documents": "Legal & Technical Documents",
+      "testing": "Test Equipment & Records",
+      "samples": "Product Samples",
+      "facility": "Premises & Manufacturing",
+      "general": "General Requirements"
+    }
+  },
+  "history": {
+    "title": "Visit History",
+    "subtitle": "Record of previous factory visits, completed audits, and schedule modifications.",
+    "empty": "No prior visit records on file.",
+    "viewDetails": "View Details",
+    "date": "Visit Date",
+    "outcome": "Outcome / Status"
+  },
+  "statuses": {
+    "SCHEDULED": "Scheduled",
+    "CONFIRMED": "Confirmed",
+    "PENDING": "Pending Confirmation",
+    "RESCHEDULED": "Rescheduled",
+    "COMPLETED": "Completed",
+    "CANCELLED": "Cancelled",
+    "ACTION_REQUIRED": "Action Required"
+  },
+  "emptyStates": {
+    "noVisitsTitle": "No Upcoming Officer Visits",
+    "noVisitsDesc": "There are currently no scheduled government-officer visits associated with your applications.",
+    "pendingTitle": "Inspection Scheduling Pending",
+    "pendingDesc": "An official factory visit is pending assignment by your regional BIS branch office.",
+    "checkApplications": "View Active Applications"
+  },
+  "errors": {
+    "title": "Visit Schedule Unavailable",
+    "description": "We couldn't retrieve your latest government-officer visit information from the authoritative BIS service.",
+    "retry": "Retry Connection"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — انوپالن ऑرکےسٹرےشن",
+  "heading": "انوپالن شرृںکھلا (Compliance Chain)",
+  "subheading": "اوتپاد ورگیکرण سے پرماणن تک آپکی سںپورण بیآایاےس انوپالن یاترا।",
+  "productContext": {
+    "product": "اوتپاد",
+    "standard": "مانک (Standard)",
+    "status": "ورتمان ستھیتی",
+    "selectProduct": "اوتپاد سںدربھ چونےں",
+    "customQuery": "کسٹم اوتپاد کھوجےں"
+  },
+  "currentPosition": {
+    "title": "ورتمان ستھیتی",
+    "completedHeading": "آپنے پورا کر لییا ہے:",
+    "nextRequiredHeading": "آپکی اگلی آوشیک کاررواای ہے:",
+    "noCompletedYet": "ابھی تک کوای چرण پورا نہیں ہوآ ہے।",
+    "continueAction": "یاترا جاری رکھےں"
+  },
+  "nextBestAction": {
+    "title": "سرووتتم اگلی کاررواای (Next Best Action)",
+    "takeAction": "کاررواای کرےں",
+    "viewDetails": "ویورण دےکھےں"
+  },
+  "chainJourney": {
+    "title": "انوپالن یاترا",
+    "subtitle": "انیواری بیآایاےس نییامک آوشیکتااوں کی چرण-در-چرण پرگتی",
+    "viewStep": "دےکھےں",
+    "evidenceVerified": "ساکشی ستیاپیت",
+    "documentsCount": "دستاوےج़: {{available}} / {{required}} اپلوڈ کیاے گاے ({{missing}} گایب)",
+    "sourceLabel": "سروت:"
+  },
+  "regulatoryOverview": {
+    "title": "نییامک پدانوکرم (Regulatory Hierarchy)",
+    "subtitle": "بےکاےںڈ دوارا ستیاپیت آدھیکاریک مانک, QCO اور یوجنا سںبںدھ",
+    "standardLabel": "بھارتیی مانک (IS)",
+    "qcoLabel": "QCO ستھیتی",
+    "schemeLabel": "بیآایاےس یوجنا",
+    "viewSource": "سروت دےکھےں",
+    "unverifiedSource": "سرور دوارا سروت ویورण استیاپیت"
+  },
+  "states": {
+    "completed": "پورण (Completed)",
+    "actionRequired": "کاررواای آوشیک (Action Required)",
+    "blocked": "اوروددھ (Blocked)",
+    "notStarted": "شورو نہیں ہوآ (Not Started)",
+    "notApplicable": "لاگو نہیں (Not Applicable)",
+    "unavailable": "نیردھاریت کرنے مےں اسمرتھ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "ورگیکرण",
+    "standard": "بھارتیی مانک",
+    "qco": "گوणوتتا نییںترण آدےش (QCO)",
+    "scheme": "بیآایاےس یوجنا",
+    "requirements": "تکنیکی آوشیکتااےں",
+    "testing": "اوتپاد پریکشण",
+    "laboratory": "پریوگشالا میلان",
+    "documents": "انوپالن تیجوری / دستاوےج़",
+    "compliance": "انوپالن اںتر",
+    "readiness": "آوےدن تےیاری",
+    "certification": "بیآایاےس پرماणن",
+    "radar": "نییامک نیگرانی"
+  },
+  "errors": {
+    "title": "ابھی انوپالن یاترا لوڈ نہیں کی جا سکی",
+    "description": "ہم انوپالن سےوا سے نہیں جوڈ़ سکے। کृپیا پونः پریاس کرےں।",
+    "retry": "پونः پریاس کرےں",
+    "emptyTitle": "کوای انوپالن یاترا نہیں میلی",
+    "emptyDescription": "انوپالن شرृںکھلا پرستوت کرنے کے لیاے کوای اوتپاد سںدربھ یا ستر پےرامیٹر نہیں میلے।"
+  }
+}

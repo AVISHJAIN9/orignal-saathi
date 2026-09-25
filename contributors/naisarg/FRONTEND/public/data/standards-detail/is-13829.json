@@ -1,0 +1,601 @@
+{
+  "master": {
+    "internal_id": 13829,
+    "IS_number": "IS 694:2010",
+    "clean_number": "694",
+    "slug": "is-13829",
+    "IS_title": "Polyvinyl chloride insulated unsheathed and sheathed cables/cords with rigid and flexible conductor for rated voltages up to and including 1 100 V (Fourth Revision)",
+    "superseding_IS": "None",
+    "degree_of_equivalence": "Modified/Technically Equivalent",
+    "number_of_revisions": "4",
+    "number_of_amendments": "4",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "ETD (Electrotechnical Department)",
+    "technical_committee": "ETD 09 (Power Cables Sectional Committee)",
+    "member_secretary": "EMMANUEL ABHISHEK MURMU (SCIENTIST-D)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 4,
+    "gazette_document_count": 2,
+    "license_count": 1178,
+    "product_manual_sit_count": 1,
+    "laboratory_count": 51,
+    "corrigendum_count": 0,
+    "catalogue_id": "29258",
+    "catalogue_is_no": "IS 694:2010 (Active)",
+    "catalogue_title": "Polyvinyl chloride insulated unsheathed and sheathed cables/cords with rigid and flexible conductor for rated voltages up to and including 1 100 V (Fourth Revision)",
+    "catalogue_amendments": "4",
+    "catalogue_technical_committee": "ETD 09",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Modified/Technically Equivalent",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/13829",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=13829",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/243/2",
+    "extracted_at": "2026-09-23T15:04:01.441Z",
+    "category_key": "electrotechnical",
+    "category_label": "Electrotechnical",
+    "status": "Active",
+    "image_url": "/images/products/standard-fallback.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 1885 (Part 32):2019IEC 60050-461 : 2008",
+      "title": "Electrotechnical Vocabulary Part 32 Electric Cables ( Second Revision )",
+      "committee": "ETD 01"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 461:1953",
+      "title": "Method for grading raw silk (tentative)",
+      "committee": "TXD 28"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 4905:2015ISO 24153 : 2009",
+      "title": "Random sampling and randomization procedures (First Revision)",
+      "committee": "MSD 03"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 5831:1984",
+      "title": "Specification for PVC insulation and sheath of electric cables (First Revision)",
+      "committee": "ETD 09"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 1885 (Part 32):2019IEC 60050-461 : 2008",
+      "title": "Electrotechnical Vocabulary Part 32 Electric Cables ( Second Revision )",
+      "committee": "ETD 01"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 461:1953",
+      "title": "Method for grading raw silk (tentative)",
+      "committee": "TXD 28"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 4905:2015ISO 24153 : 2009",
+      "title": "Random sampling and randomization procedures (First Revision)",
+      "committee": "MSD 03"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 5831:1984",
+      "title": "Specification for PVC insulation and sheath of electric cables (First Revision)",
+      "committee": "ETD 09"
+    }
+  ],
+  "internationalReferences": [],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 5309 : 2001",
+      "title": "Poultry Farming Equipment \u2014 Brooders \u2014 Specification (Second Revision)",
+      "committee": "FAD 32"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 949 : 2012",
+      "title": "Specification for snatch block for use with fibre rope for fire brigade use (First Revision)",
+      "committee": "CED 22"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 10334 : 1982",
+      "title": "Code of practice for selection, splicing, installation and providing protection to the open ends of cables used for connecting resistance type measuring devices in concrete and masonry dams",
+      "committee": "WRD 16"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 3938 : 1983",
+      "title": "Specification for electric wire rope hoists (Second Revision)",
+      "committee": "MED 14"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 4137 : 2015",
+      "title": "Heavy duty electric overhead travelling cranes including special service machines for use in steel work - Code of practice (Second Revision)",
+      "committee": "MED 14"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 4594 : 1968",
+      "title": "Code of practice for design of portal and semi - Portal wharf cranes (Electrical)",
+      "committee": "MED 14"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 6521 : Part 1 : 1972",
+      "title": "Code of practice for design of tower cranes: Part 1 static and rail amounted",
+      "committee": "MED 14"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 14536 : 2018",
+      "title": "Selection, installation, operation and maintenance of submersible pumpset - Code of practice (First Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 14220 : 2018",
+      "title": "Openwell submersible pumpsets - Specification (First Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 1476 : Part 1 : 2000",
+      "title": "Performance of household refrigerating appliance - Refrigerators with or without low temperature compartment: Part 1 energy consumption and performance (Third Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 6680 : 1992",
+      "title": "Railway carriagefans - Specification (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 13314 : 1992",
+      "title": "Solid state inverters run from storage batteries - Specification",
+      "committee": "ETD 31"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS/IEC 60898 : PART 1 : 2015",
+      "title": "Electrical accessories - Circuit - Breakers for overcurrent protection for household and similar installations: Part 1 circuit - Breakers for a.c. operation (First Revision)",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 9210 : 1979",
+      "title": "Refrigerated Display Cabinets",
+      "committee": "MED 03"
+    },
+    {
+      "number": "15",
+      "isNumber": "SP 7 : Group 1 : 2005",
+      "title": "National Building Code--Of India 2005 Group 1",
+      "committee": "CED 46"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 10550 : 1983",
+      "title": "Specification for medical treatment lamps",
+      "committee": "MHD 15"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 15368 : 2003",
+      "title": "Cable reels for household and similar purposes",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 371 : 1999",
+      "title": "Ceiling roses - Specification (Third Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS B371 : 1999",
+      "title": "Ceiling Roses \u00e2\u20ac\u201c Specification",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 8448 : 1989",
+      "title": "Automatic line voltage correctors (Step Type) for domestic use - Specification (First Revision)",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 8447 : 1989",
+      "title": "Manually operated voltage regulators for domestic use - Specification (First Revision)",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS/IEC 61558 : PART 2 : SEC 7 : 2007",
+      "title": "Safety of power transformers, power supplies reactors and similar products: Part 2 - 7 particular requirements and tests for transformers and power supplies for toys",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 9646 : 1992",
+      "title": "Moulds suitable for cast resin - Based joints for cables for voltages upto and including 1 100 V - Specification (First Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 10241 : Part 3 : 1987",
+      "title": "Specification for electric cables for aircraft: Part 3 nyvin type electric cables",
+      "committee": "TED 14"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 10322 (Part 1) : 2014",
+      "title": "Luminaires: Part 1 general requirements and tests (First Revision)",
+      "committee": "ETD 49"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 10322 : Part 5 : Sec 2 : 2012",
+      "title": "Luminaires: Part 5 particular requirements: Sec 2 recessed luminaires (First Revision)",
+      "committee": "ETD 49"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 10322 : Part 5 : Sec 7 : 2017",
+      "title": "Luminaires: Part 5 particular requirements: Sec 7 lighting chains (First Revision)",
+      "committee": "ETD 49"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 302 : Part 2 : Sec 35 : 2017",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 35 electric instantaneous water heaters (Second Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 302 : Part 2 : Sec 2 : 1997",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 2 vacuum cleaners and water suction cleaning appliances",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 302 : Part 2 : Sec 12 : 1993",
+      "title": "Safety of household and similar electrical appliances - Specification: Part 2 particular requirements: Sec 12 warming plates and similar appliances",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 302 : Part 2 : Sec 32 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 32 massage appliances",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 302 : Part 2 : Sec 45 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 45 electric heating tools",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 302 : Part 2 : Sec 209 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 209 low speed food grinding machines",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS/IEC 60730 : PART 1 : 1999",
+      "title": "Automatic electrical controls for household and similar use : part 1 General Requirements",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 10804 : Part 2 : 2018",
+      "title": "Recommended pumping systems for agricultural purposes: Part 2 submersible pump sets (Third Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 16636 : 2017",
+      "title": "Automatic power factor correction (APFC) panels for voltage rating up to and including 1000 V",
+      "committee": "ETD 29"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 616 : 2017",
+      "title": "Audio, video and similar electronic apparatus - Safety requirements (Fifth Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 8034 : 2018",
+      "title": "Submersible pumpsets - Specification (Third Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 4772 : 2019",
+      "title": "Code of practice for construction of sugar godowns (Second Revision)",
+      "committee": "FAD 02"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS 17048 : 2018",
+      "title": "Halogen free flame retardant (HFFR) cables for working voltages up to and including 1 100 Volts - Specification",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 17120 : 2019",
+      "title": "In - Cable control and protection device for mode 2 charging of electric road vehicles (Ic - Cpd)",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 3177 : 2020",
+      "title": "Electric Overhead Travelling Crane and Gantry Crane for all Applications \u2014 Code of Practice ( Third Revision )",
+      "committee": "MED 14"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 17017 : Part 2 : Sec 2 : 2020",
+      "title": "Electric Vehicle Conductive Charging System Part 2 Plugs, Socket - Outlets, Vehicle Connectors and Vehicle Inlets Section 2 Dimensional compatibility and interchangeability requirements for a.c. pin and contact-tube accessories",
+      "committee": "ETD 51"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 5116 : 2020",
+      "title": "Domestic and Commercial Equipment for Use with LPG \u2014 General Requirements ( Fourth Revision )",
+      "committee": "MED 23"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 1293 : 2005",
+      "title": "Plugs and socket - Outlets of rated Voltage up to and including 250 Volts and rated current up to and including 16 amperes - Specification (Third Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 17017 (Part 2/Sec 1) : 2020",
+      "title": "Electric Vehicle Conductive Charging System Part 2 Plugs, Socket-Outlets, Vehicle Connectors, and Vehicle Inlets Section 1 General requirements",
+      "committee": "ETD 51"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 17017 : Part 2 : Sec 3 : 2020",
+      "title": "Electric Vehicle Conductive Charging System Part 2 Plugs, Socket - Outlets, Vehicle Connectors and Vehicle Inlets Section 3 Dimensional compatibility and interchangeability requirements for d.c. and a.c./d.c. pin and contact-tube vehicle couplers",
+      "committee": "ETD 51"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS 17429 : 2020",
+      "title": "Solar Photovoltaic Water Pumping Systems - Testing Procedure - Guidelines",
+      "committee": "MED 20"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS 17040 : 2018",
+      "title": "Circuit Breakers \u00e2\u20ac\u201d Switched Protective Earth Portable Residual Current Devices for Class I and Battery Powered Vehicle Applications",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 15908 : 2011",
+      "title": "Selection, installation and maintenance of control and indicating equipments for fire detection and alarm system - Code of practice",
+      "committee": "CED 22"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 6392 : 1971",
+      "title": "Specification for steel pipe flanges",
+      "committee": "MTD 19"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS 13252 : Part 1 : 2010",
+      "title": "Information Technology Equipment - Safety Part 1: General Requirements (Second Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 17018 : Part 1 : 2018",
+      "title": "Solar photovoltaic water pumping systems: Part 1 centrifugal pumps - Specification",
+      "committee": "MED 20"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS/IEC 60721 : Part 3 : Sec 3 : 2019",
+      "title": "Classification of Environmental Conditions Part 3 Classification of groups of environmental parameters and their severities Section 3 Stationary use at weatherprotected locations",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 17454 : 2020",
+      "title": "Guidelines and General Requirement of Sanitary Napkin Vending Machine",
+      "committee": "TXD 14"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS/ISO 105 : Part N05 : 1993",
+      "title": "Textiles Tests for colour fastness Part N05: Colour fastness to stoving",
+      "committee": "TXD 05"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 1391 : Part 1 : 2017",
+      "title": "Room air conditioners - Specification: Part 1 unitary air conditioners (Third Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "58",
+      "isNumber": "IS 1391 : Part 2 : 2018",
+      "title": "Room air conditioners - Specification: Part 2 split air conditioners (Third Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "59",
+      "isNumber": "IS 3854 : 1997",
+      "title": "Switches for domestic and similar purposes - Specification (Second Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "60",
+      "isNumber": "IS 12459 : 1988",
+      "title": "Code of practice for fire safety in cable runs",
+      "committee": "CED 36"
+    },
+    {
+      "number": "61",
+      "isNumber": "IS 1258 : 2005",
+      "title": "Bayonet lamp holders (Fourth Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "62",
+      "isNumber": "IS 10276 : Part 1 : 1982",
+      "title": "Specification for edison screw lamp holders: Part 1 requirements and tests",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "63",
+      "isNumber": "IS 1475 : Part 1 : 2001",
+      "title": "Self - Contained drinking water coolers - Specification: Part 1 energy consumption and performance (Third Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "64",
+      "isNumber": "IS 3315 : 2019",
+      "title": "Evaporative air coolers (Desert Coolers) - Specification (Third Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "65",
+      "isNumber": "IS 302 : Part 1 : 2008",
+      "title": "Safety of household and similar electrical appliances: Part 1 general requirements (Sixth Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "66",
+      "isNumber": "IS 2746 : 2023",
+      "title": "SPRING BOARDS \u2014 SPECIFICATION",
+      "committee": "PGD 41"
+    },
+    {
+      "number": "67",
+      "isNumber": "IS 9283 : 2013",
+      "title": "Motors for submersible pumpsets - Specification (Second Revision)",
+      "committee": "ETD 15"
+    },
+    {
+      "number": "68",
+      "isNumber": "IS 7206 : Part 1 : 1986",
+      "title": "General requirements for direct circulation rotary drilling rigs: Part 1 with rotary table (First Revision)",
+      "committee": "MED 21"
+    },
+    {
+      "number": "69",
+      "isNumber": "IS 15449 : Part 1 : 2004",
+      "title": "Household zig - Zag sewing machine head: Part 1 general requirements",
+      "committee": "MED 29"
+    },
+    {
+      "number": "70",
+      "isNumber": "IS 4225 : 2021",
+      "title": "Steel \u2014 Ultrasonic Testing of Steel Flat Products of Thickness Equal to or Greater than 6 mm (Third Revision)",
+      "committee": "MTD 21"
+    },
+    {
+      "number": "71",
+      "isNumber": "IS 12225 : 1997",
+      "title": "Centrifugal jet pump - Specification (First Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "72",
+      "isNumber": "IS 15787 : 2008",
+      "title": "Switch - Socket - Outlets (Non - Interlock Type)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "73",
+      "isNumber": "IS 14434 : 2023",
+      "title": "Polycarbonate moulding and extrusion materials - Specification (First Revision)",
+      "committee": "PCD 12"
+    },
+    {
+      "number": "74",
+      "isNumber": "IS/IEC 62368 : Part 1 : 2018",
+      "title": "Audio / Video, Information and Communication Technology Equipment Part 1: Safety Requirements ( First Revision )",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "75",
+      "isNumber": "IS 18182 : 2023",
+      "title": "Management of Assets in Drinking Water Supply System - Guidelines",
+      "committee": "EED 04"
+    },
+    {
+      "number": "76",
+      "isNumber": "IS 18182 : 2023",
+      "title": "Management of Assets in Drinking Water Supply System - Guidelines",
+      "committee": "EED 04"
+    },
+    {
+      "number": "77",
+      "isNumber": "IS 18182 : 2023",
+      "title": "Management of Assets in Drinking Water Supply System - Guidelines",
+      "committee": "EED 04"
+    },
+    {
+      "number": "78",
+      "isNumber": "IS 18182 : 2023",
+      "title": "Management of Assets in Drinking Water Supply System - Guidelines",
+      "committee": "EED 04"
+    },
+    {
+      "number": "79",
+      "isNumber": "IS 18182 : 2023",
+      "title": "Management of Assets in Drinking Water Supply System - Guidelines",
+      "committee": "EED 04"
+    },
+    {
+      "number": "80",
+      "isNumber": "IS 8418 : 1999",
+      "title": "Pumps - Centrifugal self priming - Specification (First Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "81",
+      "isNumber": "IS 9203 : Part 2 : 2023",
+      "title": "FRICTION ROLLERS FOR MINE HAULAGE TRACKS SPECIFICATION PART 2 PARALLEL ROLLERS First Revision of IS 9203 Part 2",
+      "committee": "MED 08"
+    }
+  ],
+  "clauses": [
+    {
+      "clauseNumber": "Clause 7.1",
+      "title": "Conductor Resistance",
+      "content": "The electrical resistance of conductors shall not exceed the values specified in IS 8130 for annealed copper and aluminium.",
+      "isMandatory": true
+    },
+    {
+      "clauseNumber": "Clause 10.2",
+      "title": "Insulation Resistance & Spark Test",
+      "content": "Cables shall pass spark testing at 6 kV AC or 9 kV DC during extrusion without insulation puncture.",
+      "isMandatory": true
+    }
+  ],
+  "qco": null
+}

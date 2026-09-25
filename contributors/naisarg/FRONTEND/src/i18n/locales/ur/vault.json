@@ -1,0 +1,42 @@
+{
+  "eyebrow": "تعمیل والٹ",
+  "heading": "آپ کے محفوظ کردہ معیارات اور دستاویزات",
+  "subheading": "کیٹلاگ سے آپ کے بک مارک کردہ معیارات اور Document Cortex سے محفوظ کردہ دستاویزات، سب ایک ہی جگہ۔",
+  "searchPlaceholder": "محفوظ کردہ اشیاء تلاش کریں...",
+  "resultCount_one": "{{count}} محفوظ کردہ شے",
+  "resultCount_other": "{{count}} محفوظ کردہ اشیاء",
+  "filters": {
+    "all": "تمام",
+    "standards": "معیارات",
+    "documents": "دستاویزات"
+  },
+  "item": {
+    "standardBadge": "معیار",
+    "documentBadge": "دستاویز",
+    "savedOn": "{{date}} کو محفوظ کیا گیا",
+    "remove": "والٹ سے ہٹائیں",
+    "removeAriaLabel": "{{title}} کو والٹ سے ہٹائیں",
+    "viewStandard": "معیار دیکھیں",
+    "viewInCortex": "Document Cortex میں کھولیں"
+  },
+  "detail": {
+    "back": "واپس",
+    "standardNumberLabel": "معیار نمبر",
+    "categoryLabel": "زمرہ",
+    "fileNameLabel": "فائل کا نام",
+    "savedLabel": "محفوظ کیا گیا"
+  },
+  "empty": {
+    "title": "ابھی تک کچھ بھی محفوظ نہیں کیا گیا",
+    "description": "کیٹلاگ سے کسی معیار کو بک مارک کریں یا Document Cortex میں تجزیہ کردہ کوئی دستاویز محفوظ کریں — محفوظ کردہ اشیاء یہاں ظاہر ہوں گی۔",
+    "browseStandards": "معیارات براؤز کریں",
+    "openCortex": "Document Cortex کھولیں"
+  },
+  "actions": {
+    "save": "والٹ میں محفوظ کریں",
+    "saved": "والٹ میں محفوظ کر دیا گیا",
+    "saveAriaLabel": "{{title}} کو والٹ میں محفوظ کریں",
+    "savedAriaLabel": "{{title}} محفوظ ہے — والٹ سے ہٹائیں"
+  },
+  "disclaimer": "محفوظ کردہ اشیاء صرف اسی براؤزر میں موجود رہتی ہیں (کوئی حقیقی اکاؤنٹ یا بیک اینڈ نہیں) — سائٹ کا ڈیٹا صاف کرنے پر آپ کا والٹ بھی صاف ہو جائے گا۔"
+}

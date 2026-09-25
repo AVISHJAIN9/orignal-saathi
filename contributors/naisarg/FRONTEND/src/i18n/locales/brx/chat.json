@@ -1,0 +1,58 @@
+{
+  "title": "SAATHI - भारतीय थाखोनि सोमोन्दै सों",
+  "logo": "SAATHI",
+  "inputPlaceholder": "भारतारि माननि सोमोन्दै सों...",
+  "sendAriaLabel": "संदेश पठेनाय",
+  "thinking": "SAATHI सानगासिनो...",
+  "backToHome": "होमाव थांफिन जागाय",
+  "nav": {
+    "standardsBrowser": "थाखो ब्राउज़र",
+    "adminPanel": "व्यवस्थापक पैनल",
+    "documentManagement": "दस्तावेज़ प्रबंधन",
+    "conformityCheck": "अनुरूपता जांच",
+    "notifications": "सूचनाएं",
+    "regulatoryRadar": "नियामक रडार",
+    "intelFeed": "इंटेल फीड",
+    "documentCortex": "दस्तावेज़ कॉर्टेक्स",
+    "sectionCore": "मुख्य",
+    "sectionLifecycle": "प्रमाणन जीवनचक्र",
+    "sectionTools": "अनुपालन उपकरण",
+    "sectionAdmin": "व्यवस्थापक",
+    "retrievalQuality": "पुनर्प्राप्ति गुणवत्ता",
+    "newRegistration": "नया पंजीकरण",
+    "officerVisits": "अधिकारी यात्राएं",
+    "documentCorrections": "दस्तावेज़ सुधार",
+    "appealsDisputes": "अपील और विवाद",
+    "businessAccount": "व्यवसाय खाता",
+    "certificates": "प्रमाणपत्र",
+    "renewalReminders": "नवीनीकरण अनुस्मारक",
+    "complianceCalendar": "अनुपालन कैलेंडर",
+    "factoryAudits": "फ़ैक्टरी ऑडिट",
+    "recallsAlerts": "रिकॉल और अलर्ट",
+    "licenseActions": "लाइसेंस कार्रवाई",
+    "feeInvoices": "शुल्क चालान और रसीदें",
+    "manufacturingLocations": "विनिर्माण स्थान",
+    "schemeSelector": "योजना चयनकर्ता",
+    "complianceChain": "अनुपालन श्रृंखला",
+    "laboratoryMatcher": "प्रयोगशाला मिलानकर्ता",
+    "regulatoryAlerts": "नियामक अलर्ट",
+    "exploreFeatures": "सुविधाएं देखें"
+  },
+  "placeholder": {
+    "comingSoon": "बेयो मोनसे प्लेसहोल्डर बिजाब दङ — पूर्ण सुविधा जल्द बरगासिनो दङ।",
+    "roleRequired": "नोंथांनि दानि खान्थियाव बे बिजाबखौ नुनानै होखানाই जायाखै — मोनथिनोদখৌ लगনगানা लगथिना, लगआउट खालामनानै गुबुन खान्थि सोलायना लगइन खालाम।"
+  },
+  "clearChat": {
+    "emptyTitle": "गोदान रायजलायनाय",
+    "emptyDescription": "फिन जागायनायनि थाबाय SAATHI-खौ जेंबो भारतीय थाखोनि सोमोन्दै सों।"
+  },
+  "starterPrompts": [
+    "पैकेज्ड पेयजल के लिए कौन-सी लेबलिंग आवश्यक है?",
+    "LED लाइटिंग के लिए BIS लाइसेंस के लिए आवेदन कैसे करें?",
+    "ISI प्रमाणपत्र की वैधता अवधि क्या है?",
+    "घरेलू उपकरणों की विद्युत सुरक्षा किस मानक के अंतर्गत आती है?"
+  ],
+  "newChat": {
+    "trigger": "नई चैट"
+  }
+}

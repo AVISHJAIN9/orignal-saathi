@@ -1,0 +1,50 @@
+{
+  "eyebrow": "S24 · વૈધાનિક ઇન્વોઇસ અને જીએસટી રસીદો",
+  "heading": "ફી ઇન્વોઇસ અને જીએસટી-અનુપાલિત રસીદો",
+  "subheading": "વૈધાનિક ફી અનુસૂચિ, વિગતવાર જીએસટી વિભાજન વ્યવસ્થાપિત કરો, અને રસીદો ડાઉનલોડ કરો.",
+  "metrics": {
+    "totalInvoices": "કુલ ઇન્વોઇસ",
+    "paidAmount": "કુલ ચૂકવેલ રકમ",
+    "pendingAmount": "બાકી વૈધાનિક દેય",
+    "paidCount": "ચૂકવેલ રસીદો",
+    "pendingCount": "બાકી ઇન્વોઇસ"
+  },
+  "status": {
+    "paid": "ચૂકવાયેલ અને સમાધાનિત",
+    "pending": "ચુકવણી બાકી",
+    "overdue": "ચુકવણી મુદત વીતેલ"
+  },
+  "categories": {
+    "applicationGrant": "અરજી મંજૂરી ફી",
+    "annualMarkingFee": "વાર્ષિક લઘુત્તમ માર્કિંગ ફી",
+    "factorySurveillance": "ફેક્ટરી દેખરેખ ઓડિટ ફી",
+    "labTesting": "પ્રયોગશાળા પરીક્ષણ સરચાર્જ"
+  },
+  "labels": {
+    "invoiceNumber": "ઇન્વોઇસ નંબર",
+    "invoiceDate": "ઇન્વોઇસ તારીખ",
+    "dueDate": "ચુકવણી નિયત તારીખ",
+    "billedTo": "બિલ પ્રાપ્તકર્તા (અરજદાર)",
+    "issuingAuthority": "જારી કરનાર સત્તામંડળ",
+    "sacCode": "SAC કોડ",
+    "description": "વસ્તુ વર્ણન",
+    "rate": "એકમ દર",
+    "amount": "કરપાત્ર રકમ",
+    "subtotal": "ઉપ-કુલ (કરપાત્ર)",
+    "cgst": "CGST (9%)",
+    "sgst": "SGST (9%)",
+    "igst": "IGST (18%)",
+    "total": "કુલ ચૂકવવાપાત્ર રકમ",
+    "receiptTitle": "SAATHI નિદર્શન ચુકવણી રસીદ",
+    "receiptNumber": "રસીદ નંબર",
+    "receiptDate": "ચુકવણી તારીખ અને સમય",
+    "paymentMode": "પ્રેષણનું માધ્યમ",
+    "utr": "વ્યવહાર સંદર્ભ / UTR",
+    "amountInWords": "શબ્દોમાં રકમ",
+    "viewInvoice": "ઇન્વોઇસ જુઓ",
+    "viewReceipt": "રસીદ જુઓ",
+    "downloadPdf": "પ્રિન્ટ / PDF ડાઉનલોડ કરો",
+    "settleDemo": "ચુકવણી કરો"
+  },
+  "disclaimer": "SAATHI નિદર્શન ઇન્વોઇસ — ફક્ત SIH 2026 મૂલ્યાંકન માટે — સત્તાવાર સરકારી કર ઇન્વોઇસ નથી"
+}

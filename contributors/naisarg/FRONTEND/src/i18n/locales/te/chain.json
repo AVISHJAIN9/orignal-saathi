@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — అనుపాలన ఑ర్కేస్ట్రేశన",
+  "heading": "అనుపాలన శ్రృంఖలా (Compliance Chain)",
+  "subheading": "ఉత్పాద వర్గీకరణ సే ప్రమాణన తక ఆపకీ సంపూర్ణ బీఆఈఏస అనుపాలన యాత్రా౤",
+  "productContext": {
+    "product": "ఉత్పాద",
+    "standard": "మానక (Standard)",
+    "status": "వర్తమాన స్థితి",
+    "selectProduct": "ఉత్పాద సందర్భ చునేం",
+    "customQuery": "కస్టమ ఉత్పాద ఖోజేం"
+  },
+  "currentPosition": {
+    "title": "వర్తమాన స్థితి",
+    "completedHeading": "ఆపనే పూరా కర లియా హై:",
+    "nextRequiredHeading": "ఆపకీ అగలీ ఆవశ్యక కార్రవాఈ హై:",
+    "noCompletedYet": "అభీ తక కోఈ చరణ పూరా నహీం హుఆ హై౤",
+    "continueAction": "యాత్రా జారీ రఖేం"
+  },
+  "nextBestAction": {
+    "title": "సర్వోత్తమ అగలీ కార్రవాఈ (Next Best Action)",
+    "takeAction": "కార్రవాఈ కరేం",
+    "viewDetails": "వివరణ దేఖేం"
+  },
+  "chainJourney": {
+    "title": "అనుపాలన యాత్రా",
+    "subtitle": "అనివార్య బీఆఈఏస నియామక ఆవశ్యకతాఓం కీ చరణ-దర-చరణ ప్రగతి",
+    "viewStep": "దేఖేం",
+    "evidenceVerified": "సాక్ష్య సత్యాపిత",
+    "documentsCount": "దస్తావేజ఼: {{available}} / {{required}} అపలోడ కిఏ గఏ ({{missing}} గాయబ)",
+    "sourceLabel": "స్రోత:"
+  },
+  "regulatoryOverview": {
+    "title": "నియామక పదానుక్రమ (Regulatory Hierarchy)",
+    "subtitle": "బైకఏండ ద్వారా సత్యాపిత ఆధికారిక మానక, QCO ఔర యోజనా సంబంధ",
+    "standardLabel": "భారతీయ మానక (IS)",
+    "qcoLabel": "QCO స్థితి",
+    "schemeLabel": "బీఆఈఏస యోజనా",
+    "viewSource": "స్రోత దేఖేం",
+    "unverifiedSource": "సర్వర ద్వారా స్రోత వివరణ అసత్యాపిత"
+  },
+  "states": {
+    "completed": "పూర్ణ (Completed)",
+    "actionRequired": "కార్రవాఈ ఆవశ్యక (Action Required)",
+    "blocked": "అవరుద్ధ (Blocked)",
+    "notStarted": "శురూ నహీం హుఆ (Not Started)",
+    "notApplicable": "లాగూ నహీం (Not Applicable)",
+    "unavailable": "నిర్ధారిత కరనే మేం అసమర్థ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "వర్గీకరణ",
+    "standard": "భారతీయ మానక",
+    "qco": "గుణవత్తా నియంత్రణ ఆదేశ (QCO)",
+    "scheme": "బీఆఈఏస యోజనా",
+    "requirements": "తకనీకీ ఆవశ్యకతాఏం",
+    "testing": "ఉత్పాద పరీక్షణ",
+    "laboratory": "ప్రయోగశాలా మిలాన",
+    "documents": "అనుపాలన తిజోరీ / దస్తావేజ఼",
+    "compliance": "అనుపాలన అంతర",
+    "readiness": "ఆవేదన తైయారీ",
+    "certification": "బీఆఈఏస ప్రమాణన",
+    "radar": "నియామక నిగరానీ"
+  },
+  "errors": {
+    "title": "అభీ అనుపాలన యాత్రా లోడ నహీం కీ జా సకీ",
+    "description": "హమ అనుపాలన సేవా సే నహీం జుడ఼ సకే౤ కృపయా పునః ప్రయాస కరేం౤",
+    "retry": "పునః ప్రయాస కరేం",
+    "emptyTitle": "కోఈ అనుపాలన యాత్రా నహీం మిలీ",
+    "emptyDescription": "అనుపాలన శ్రృంఖలా ప్రస్తుత కరనే కే లిఏ కోఈ ఉత్పాద సందర్భ యా సత్ర పైరామీటర నహీం మిలే౤"
+  }
+}

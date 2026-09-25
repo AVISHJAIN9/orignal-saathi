@@ -1,0 +1,34 @@
+{
+  "eyebrow": "MULTI-FACTORY ENTERPRISE MANAGEMENT",
+  "heading": "Manufacturing Plants & Locations",
+  "subheading": "Manage plant-specific BIS Standard Mark licenses, scheduled factory audits, and compliance health across manufacturing units.",
+  "metrics": {
+    "totalPlants": "Manufacturing Plants",
+    "activeLicenses": "Active Licenses Across Plants",
+    "scheduledAudits": "Scheduled Audits",
+    "avgCompliance": "Enterprise Compliance Score"
+  },
+  "switcher": {
+    "label": "Active Plant Scope",
+    "allPlants": "Enterprise Multi-Plant Overview",
+    "switchNotice": "Switching active plant scopes location-relevant audit checklists and calendar events without altering your organization account."
+  },
+  "card": {
+    "primary": "Primary Facility",
+    "complianceScore": "Compliance Readiness",
+    "viewDetails": "Plant Details",
+    "scheduledAudit": "Audit Scheduled",
+    "licensesCount": "Licenses Active"
+  },
+  "dialog": {
+    "title": "Manufacturing Facility & License Details",
+    "standardsProduced": "Indian Standards & Scope of Manufacture",
+    "contactPerson": "Plant Technical In-Charge",
+    "auditHistory": "Factory Audit Record",
+    "actions": {
+      "openAudits": "View Factory Audits",
+      "openCalendar": "Plant Calendar",
+      "openLicenses": "View Certificates"
+    }
+  }
+}

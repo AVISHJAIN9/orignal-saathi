@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — चाचणी एवं प्रयोगशाला बुद्धिमत्ता",
+  "title": "इंटेलिजेंट प्रयोगशाला मैचर",
+  "subtitle": "अपने उत्पादनन के लिए आवश्यक चाचणी करने में सक्षम सत्यापित प्रयोगशालाएं शोधा।",
+  "context": {
+    "title": "उत्पादनन एवं चाचणी संदर्भ",
+    "product": "उत्पादनन",
+    "standard": "मानक",
+    "scheme": "योजना (स्कीम)",
+    "requiredTestsCount": "आवश्यक चाचणी",
+    "noStandardWarning": "आवश्यक चाचणी पथ की पहचान करने से पहले एक लागू भारतीय मानक आवश्यक है।",
+    "chooseStandard": "मानक चुनें",
+    "selectProduct": "उत्पादनन चुनें"
+  },
+  "requiredTests": {
+    "title": "आवश्यक चाचणी",
+    "mandatoryCount_one": "{{count}} अनिवार्य चाचणी",
+    "mandatoryCount_other": "{{count}} अनिवार्य चाचणी",
+    "noTestsWarning": "इस अनुपालन पथ के लिए कोई सत्यापित चाचणी आवश्यकताएं नाही मिलीं।"
+  },
+  "preferences": {
+    "title": "प्राथमिकताएं और फ़िल्टर",
+    "locationLabel": "स्थान / शहर",
+    "locationPlaceholder": "उदा. बेंगलुरु, दिल्ली, मुंबई",
+    "distanceLabel": "अधिकतम दूरी",
+    "distanceAny": "कोई भी दूरी",
+    "distance50": "50 किमी के भीतर",
+    "distance100": "100 किमी के भीतर",
+    "distance250": "250 किमी के भीतर",
+    "distance500": "500 किमी के भीतर",
+    "accreditationLabel": "मान्यता फ़िल्टर",
+    "accreditationAll": "सभी प्रयोगशालाएं",
+    "accreditationVerified": "केवल सत्यापित मान्यता प्राप्त",
+    "findLabsButton": "प्रयोगशालाएं शोधा",
+    "searchingLabs": "प्रयोगशालाएं खोजी जा रही हैं..."
+  },
+  "results": {
+    "bestMatchHeading": "सर्वश्रेष्ठ मैच",
+    "otherMatchesHeading": "अन्य मिलान प्रयोगशालाएं",
+    "viewDetails": "तपशील पहा",
+    "selectLab": "प्रयोगशाला चुनें",
+    "labSelected": "प्रयोगशाला का चयन हुआ",
+    "matchScore": "{{score}}% मैच",
+    "testsCovered": "{{covered}} / {{total}} चाचणी शामिल",
+    "fullCoverage": "पूर्ण चाचणी कवरेज सत्यापित",
+    "partialCoverage": "आंशिक चाचणी कवरेज",
+    "verified": "सत्यापित",
+    "unverified": "असत्यापित",
+    "unknown": "क्षमता अज्ञात",
+    "locationFit": "स्थान: {{location}}",
+    "distanceKm": "{{distance}} किमी दूर"
+  },
+  "breakdown": {
+    "title": "मैच स्कोर तपशील",
+    "testCoverage": "चाचणी कवरेज",
+    "standardMatch": "मानक मिलान",
+    "accreditation": "मान्यता प्राप्त होना",
+    "locationFit": "स्थान उपयुक्तता"
+  },
+  "details": {
+    "title": "प्रयोगशाला प्रोफ़ाइल और क्षमताएं",
+    "location": "स्थान",
+    "capabilities": "चाचणी क्षमताएं",
+    "standards": "प्रासंगिक भारतीय मानक",
+    "accreditation": "मान्यता स्थिती",
+    "contact": "सत्यापित संपर्क जानकारी",
+    "source": "आधिकारिक स्रोत सत्यापन",
+    "viewSource": "आधिकारिक स्रोत पहा",
+    "viewWebsite": "आधिकारिक वेबसाइट पहा",
+    "email": "ईमेल",
+    "phone": "फ़ोन",
+    "close": "बंद करा"
+  },
+  "states": {
+    "noMatchesTitle": "कोई सत्यापित प्रयोगशाला नाही मिली",
+    "noMatchesMsg": "आपकी वर्तमान मापदंडों के अनुसार आवश्यक चाचणी के लिए कोई सत्यापित प्रयोगशाला नाही मिली।",
+    "partialMatchesNotice": "कोई भी एकल सत्यापित प्रयोगशाला सभी आवश्यक चाचणीों को कवर नाही करती है। सर्वश्रेष्ठ उपलब्ध आंशिक मैच नीचे दिखाए गए हैं।",
+    "errorTitle": "प्रयोगशाला मिलान सेवा अनुपलब्ध",
+    "errorMsg": "प्रयोगशाला मिलान सेवा अस्थायी रूप से अनुपलब्ध है।",
+    "retry": "पुनः प्रयास करें",
+    "emptyContextTitle": "अनुपालन संदर्भ निर्दिष्ट करें",
+    "emptyContextMsg": "आवश्यक चाचणीों और उपयुक्त प्रयोगशालाओं की पहचान करने के लिए अपना उत्पादनन या अनुपालन पथ चुनें।"
+  }
+}

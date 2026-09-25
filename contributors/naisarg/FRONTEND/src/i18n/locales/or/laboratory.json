@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — ପରୀକ୍ଷଣ ଏଵଂ ପ୍ରଯୋଗଶାଲା ବୁଦ୍ଧିମତ୍ତା",
+  "title": "ଇଂଟେଲିଜେଂଟ ପ୍ରଯୋଗଶାଲା ମୈଚର",
+  "subtitle": "ଅପନେ ଉତ୍ପାଦ କେ ଲିଏ ଆଵଶ୍ଯକ ପରୀକ୍ଷଣ କରନେ ମେଂ ସକ୍ଷମ ସତ୍ଯାପିତ ପ୍ରଯୋଗଶାଲାଏଂ ଖୋଜେଂ୤",
+  "context": {
+    "title": "ଉତ୍ପାଦ ଏଵଂ ପରୀକ୍ଷଣ ସଂଦର୍ଭ",
+    "product": "ଉତ୍ପାଦ",
+    "standard": "ମାନକ",
+    "scheme": "ଯୋଜନା (ସ୍କୀମ)",
+    "requiredTestsCount": "ଆଵଶ୍ଯକ ପରୀକ୍ଷଣ",
+    "noStandardWarning": "ଆଵଶ୍ଯକ ପରୀକ୍ଷଣ ପଥ କୀ ପହଚାନ କରନେ ସେ ପହଲେ ଏକ ଲାଗୂ ଭାରତୀଯ ମାନକ ଆଵଶ୍ଯକ ହୈ୤",
+    "chooseStandard": "ମାନକ ଚୁନେଂ",
+    "selectProduct": "ଉତ୍ପାଦ ଚୁନେଂ"
+  },
+  "requiredTests": {
+    "title": "ଆଵଶ୍ଯକ ପରୀକ୍ଷଣ",
+    "mandatoryCount_one": "{{count}} ଅନିଵାର୍ଯ ପରୀକ୍ଷଣ",
+    "mandatoryCount_other": "{{count}} ଅନିଵାର୍ଯ ପରୀକ୍ଷଣ",
+    "noTestsWarning": "ଇସ ଅନୁପାଲନ ପଥ କେ ଲିଏ କୋଈ ସତ୍ଯାପିତ ପରୀକ୍ଷଣ ଆଵଶ୍ଯକତାଏଂ ନହୀଂ ମିଲୀଂ୤"
+  },
+  "preferences": {
+    "title": "ପ୍ରାଥମିକତାଏଂ ଔର ଫ଼ିଲ୍ଟର",
+    "locationLabel": "ସ୍ଥାନ / ଶହର",
+    "locationPlaceholder": "ଉଦା. ବେଂଗଲୁରୁ, ଦିଲ୍ଲୀ, ମୁଂବଈ",
+    "distanceLabel": "ଅଧିକତମ ଦୂରୀ",
+    "distanceAny": "କୋଈ ଭୀ ଦୂରୀ",
+    "distance50": "50 କିମୀ କେ ଭୀତର",
+    "distance100": "100 କିମୀ କେ ଭୀତର",
+    "distance250": "250 କିମୀ କେ ଭୀତର",
+    "distance500": "500 କିମୀ କେ ଭୀତର",
+    "accreditationLabel": "ମାନ୍ଯତା ଫ଼ିଲ୍ଟର",
+    "accreditationAll": "ସଭୀ ପ୍ରଯୋଗଶାଲାଏଂ",
+    "accreditationVerified": "କେଵଲ ସତ୍ଯାପିତ ମାନ୍ଯତା ପ୍ରାପ୍ତ",
+    "findLabsButton": "ପ୍ରଯୋଗଶାଲାଏଂ ଖୋଜେଂ",
+    "searchingLabs": "ପ୍ରଯୋଗଶାଲାଏଂ ଖୋଜୀ ଜା ରହୀ ହୈଂ..."
+  },
+  "results": {
+    "bestMatchHeading": "ସର୍ଵଶ୍ରେଷ୍ଠ ମୈଚ",
+    "otherMatchesHeading": "ଅନ୍ଯ ମିଲାନ ପ୍ରଯୋଗଶାଲାଏଂ",
+    "viewDetails": "ଵିଵରଣ ଦେଖେଂ",
+    "selectLab": "ପ୍ରଯୋଗଶାଲା ଚୁନେଂ",
+    "labSelected": "ପ୍ରଯୋଗଶାଲା କା ଚଯନ ହୁଆ",
+    "matchScore": "{{score}}% ମୈଚ",
+    "testsCovered": "{{covered}} / {{total}} ପରୀକ୍ଷଣ ଶାମିଲ",
+    "fullCoverage": "ପୂର୍ଣ ପରୀକ୍ଷଣ କଵରେଜ ସତ୍ଯାପିତ",
+    "partialCoverage": "ଆଂଶିକ ପରୀକ୍ଷଣ କଵରେଜ",
+    "verified": "ସତ୍ଯାପିତ",
+    "unverified": "ଅସତ୍ଯାପିତ",
+    "unknown": "କ୍ଷମତା ଅଜ୍ଞାତ",
+    "locationFit": "ସ୍ଥାନ: {{location}}",
+    "distanceKm": "{{distance}} କିମୀ ଦୂର"
+  },
+  "breakdown": {
+    "title": "ମୈଚ ସ୍କୋର ଵିଵରଣ",
+    "testCoverage": "ପରୀକ୍ଷଣ କଵରେଜ",
+    "standardMatch": "ମାନକ ମିଲାନ",
+    "accreditation": "ମାନ୍ଯତା ପ୍ରାପ୍ତ ହୋନା",
+    "locationFit": "ସ୍ଥାନ ଉପଯୁକ୍ତତା"
+  },
+  "details": {
+    "title": "ପ୍ରଯୋଗଶାଲା ପ୍ରୋଫ଼ାଇଲ ଔର କ୍ଷମତାଏଂ",
+    "location": "ସ୍ଥାନ",
+    "capabilities": "ପରୀକ୍ଷଣ କ୍ଷମତାଏଂ",
+    "standards": "ପ୍ରାସଂଗିକ ଭାରତୀଯ ମାନକ",
+    "accreditation": "ମାନ୍ଯତା ସ୍ଥିତି",
+    "contact": "ସତ୍ଯାପିତ ସଂପର୍କ ଜାନକାରୀ",
+    "source": "ଆଧିକାରିକ ସ୍ରୋତ ସତ୍ଯାପନ",
+    "viewSource": "ଆଧିକାରିକ ସ୍ରୋତ ଦେଖେଂ",
+    "viewWebsite": "ଆଧିକାରିକ ଵେବସାଇଟ ଦେଖେଂ",
+    "email": "ଈମେଲ",
+    "phone": "ଫ଼ୋନ",
+    "close": "ବଂଦ କରେଂ"
+  },
+  "states": {
+    "noMatchesTitle": "କୋଈ ସତ୍ଯାପିତ ପ୍ରଯୋଗଶାଲା ନହୀଂ ମିଲୀ",
+    "noMatchesMsg": "ଆପକୀ ଵର୍ତମାନ ମାପଦଂଡୋଂ କେ ଅନୁସାର ଆଵଶ୍ଯକ ପରୀକ୍ଷଣ କେ ଲିଏ କୋଈ ସତ୍ଯାପିତ ପ୍ରଯୋଗଶାଲା ନହୀଂ ମିଲୀ୤",
+    "partialMatchesNotice": "କୋଈ ଭୀ ଏକଲ ସତ୍ଯାପିତ ପ୍ରଯୋଗଶାଲା ସଭୀ ଆଵଶ୍ଯକ ପରୀକ୍ଷଣୋଂ କୋ କଵର ନହୀଂ କରତୀ ହୈ୤ ସର୍ଵଶ୍ରେଷ୍ଠ ଉପଲବ୍ଧ ଆଂଶିକ ମୈଚ ନୀଚେ ଦିଖାଏ ଗଏ ହୈଂ୤",
+    "errorTitle": "ପ୍ରଯୋଗଶାଲା ମିଲାନ ସେଵା ଅନୁପଲବ୍ଧ",
+    "errorMsg": "ପ୍ରଯୋଗଶାଲା ମିଲାନ ସେଵା ଅସ୍ଥାଯୀ ରୂପ ସେ ଅନୁପଲବ୍ଧ ହୈ୤",
+    "retry": "ପୁନଃ ପ୍ରଯାସ କରେଂ",
+    "emptyContextTitle": "ଅନୁପାଲନ ସଂଦର୍ଭ ନିର୍ଦିଷ୍ଟ କରେଂ",
+    "emptyContextMsg": "ଆଵଶ୍ଯକ ପରୀକ୍ଷଣୋଂ ଔର ଉପଯୁକ୍ତ ପ୍ରଯୋଗଶାଲାଓଂ କୀ ପହଚାନ କରନେ କେ ଲିଏ ଅପନା ଉତ୍ପାଦ ଯା ଅନୁପାଲନ ପଥ ଚୁନେଂ୤"
+  }
+}

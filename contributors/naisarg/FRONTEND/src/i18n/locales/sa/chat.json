@@ -1,0 +1,103 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified).",
+  "title": "SAATHI - भारतीय-मानदण्डान् विषये पृच्छतु",
+  "logo": "SAATHI",
+  "inputPlaceholder": "भारतीय-मानदण्डान् विषये पृच्छतु...",
+  "sendAriaLabel": "सन्देशं प्रेषयतु",
+  "thinking": "SAATHI चिन्तयति…",
+  "backToHome": "गृहपृष्ठं प्रति गच्छतु",
+  "nav": {
+    "dashboard": "सूचनापटलम्",
+    "knowledgeNexus": "ज्ञानकेन्द्रम्",
+    "vault": "अनुपालन-कोशः",
+    "grievance": "परिवाद: च सम्मतिः च",
+    "standardsBrowser": "मानदण्ड-अन्वेषकः",
+    "classification": "उत्पादःः-वर्गीकरणम्",
+    "adminPanel": "प्रशासन-फलकम्",
+    "documentManagement": "दस्तावेज-व्यवस्थापनम्",
+    "conformityCheck": "अनुरूपता-परीक्षणम्म्म्",
+    "newApplication": "नूतन-आवेदनम्म्म्",
+    "notifications": "सूचनाः",
+    "regulatoryRadar": "नियामक-रडार्",
+    "intelFeed": "सूचना-प्रवाहः",
+    "annualRenewal": "वार्षिक-नवीकरणम्",
+    "documentCortex": "दस्तावेज-कोर्टेक्स्",
+    "sampleTracker": "नमूना-परीक्षणम्म्-अनुरेखकः",
+    "sectionCore": "मुख्य",
+    "sectionLifecycle": "प्रमाणन जीवनचक्र",
+    "sectionTools": "अनुपालन उपकरण",
+    "sectionAdmin": "व्यवस्थापक",
+    "retrievalQuality": "पुनर्प्राप्ति गुणवत्ता",
+    "newRegistration": "नया पंजीकरण",
+    "officerVisits": "अधिकारी यात्राएं",
+    "documentCorrections": "दस्तावेज़ सुधार",
+    "appealsDisputes": "अपील और विवाद",
+    "businessAccount": "व्यवसाय खाता",
+    "certificates": "प्रमाणपत्र",
+    "renewalReminders": "नवीनीकरण अनुस्मारक",
+    "complianceCalendar": "अनुपालन कैलेंडर",
+    "factoryAudits": "फ़ैक्टरी ऑडिट",
+    "recallsAlerts": "रिकॉल और अलर्ट",
+    "licenseActions": "लाइसेंस कार्रवाई",
+    "feeInvoices": "शुल्क चालान और रसीदें",
+    "manufacturingLocations": "विनिर्माण स्थान",
+    "schemeSelector": "योजना चयनकर्ता",
+    "complianceChain": "अनुपालन श्रृंखला",
+    "laboratoryMatcher": "प्रयोगशाला मिलानकर्ता",
+    "regulatoryAlerts": "नियामक अलर्ट",
+    "exploreFeatures": "सुविधाएं देखें"
+  },
+  "placeholder": {
+    "comingSoon": "इदं स्थानधारकं मात्रम् अस्ति — सम्पूर्णम्म्ं कार्यं शीघ्रम् आगमिष्यति।",
+    "roleRequired": "भवतः वर्तमान-लेखस्य अस्य पृष्ठस्य प्रवेशाधिकारः नास्ति — निर्गम्य अन्येन लेख-प्रकारेण प्रविश्य एतत् पश्यतु।"
+  },
+  "profile": {
+    "open": "परिचय-अनुकूलनम् उद्घाटयतु",
+    "editTooltip": "परिचयं सम्पादयतु",
+    "title": "परिचय-अनुकूलनम्",
+    "description": "अस्मिन् उपकरणे भवतः Saathi कार्यक्षेत्रस्य दर्शनम् अनुकूलयतु।",
+    "nameLabel": "प्रदर्शन-नाम",
+    "focusLabel": "केन्द्रबिन्दु-नाम",
+    "tones": {
+      "navy": "नीलवर्ण-अवतार-स्वरः",
+      "sage": "हरित-अवतार-स्वरः",
+      "clay": "मृत्तिका-अवतार-स्वरः"
+    },
+    "cancel": "निरस्तं करोतु",
+    "save": "परिवर्तनानि रक्षतु"
+  },
+  "sidebar": {
+    "navigation": "दिक्सूचनम्"
+  },
+  "clearChat": {
+    "emptyTitle": "नूतनः वार्तालापः",
+    "emptyDescription": "पुनः आरम्भाय कस्यचित् भारतीय-मानदण्डस्य विषये SAATHI इत्यस्मात् पृच्छतु।"
+  },
+  "backgroundSettings": {
+    "open": "त्रि-आयामी-पृष्ठभूमि-चलन-विन्यासान् उद्घाटयतु",
+    "title": "त्रि-आयामी-पृष्ठभूमिः",
+    "animated": "चलितम्",
+    "animatedDescription": "प्लवन-गतिः निर्देशक-समान्तरता च",
+    "paused": "स्थगितम्",
+    "pausedDescription": "गतिं विना दृश्यं दृश्यमानं रक्षतु",
+    "off": "निष्क्रियम्",
+    "offDescription": "अलङ्कारिकं त्रि-आयामी-दृश्यं गोपयतु",
+    "hint": "लघु-प्रकारः चलदूरभाषे विद्युत्कोशं रक्षितुं साहाय्यं करोति।"
+  },
+  "feedback": {
+    "helpfulAriaLabel": "एतत् उत्तरं साहाय्यकरम् इति चिह्नितं करोतु",
+    "notHelpfulAriaLabel": "एतत् उत्तरं असाहाय्यकरम् इति चिह्नितं करोतु",
+    "commentPrompt": "अस्मिन् उत्तरे किं दोषम् आसीत्?",
+    "submit": "समर्पयतु",
+    "thanks": "प्रतिक्रियायै धन्यवादः।"
+  },
+  "starterPrompts": [
+    "पैकेज्ड पेयजल के लिए कौन-सी लेबलिंग आवश्यक है?",
+    "LED लाइटिंग के लिए BIS लाइसेंस के लिए आवेदन कैसे करें?",
+    "ISI प्रमाणपत्र की वैधता अवधि क्या है?",
+    "घरेलू उपकरणों की विद्युत सुरक्षा किस मानक के अंतर्गत आती है?"
+  ],
+  "newChat": {
+    "trigger": "नई चैट"
+  }
+}

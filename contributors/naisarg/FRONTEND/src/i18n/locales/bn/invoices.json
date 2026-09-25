@@ -1,0 +1,50 @@
+{
+  "eyebrow": "S24 · সংবিধিবদ্ধ চালান ও GST রসিদ",
+  "heading": "ফি চালান ও GST-সম্মত রসিদ",
+  "subheading": "সংবিধিবদ্ধ ফি তালিকা, খাতভিত্তিক GST বিবরণ পরিচালনা করুন এবং রসিদ ডাউনলোড করুন।",
+  "metrics": {
+    "totalInvoices": "মোট চালান",
+    "paidAmount": "মোট নিষ্পন্ন পরিমাণ",
+    "pendingAmount": "মুলতুবি সংবিধিবদ্ধ বকেয়া",
+    "paidCount": "নিষ্পন্ন রসিদ",
+    "pendingCount": "মুলতুবি চালান"
+  },
+  "status": {
+    "paid": "পরিশোধিত ও মিলকৃত",
+    "pending": "পেমেন্ট মুলতুবি",
+    "overdue": "পেমেন্ট বকেয়া মেয়াদোত্তীর্ণ"
+  },
+  "categories": {
+    "applicationGrant": "আবেদন অনুমোদন ফি",
+    "annualMarkingFee": "বার্ষিক ন্যূনতম মার্কিং ফি",
+    "factorySurveillance": "কারখানা নজরদারি অডিট ফি",
+    "labTesting": "পরীক্ষাগার পরীক্ষা সারচার্জ"
+  },
+  "labels": {
+    "invoiceNumber": "চালান নম্বর",
+    "invoiceDate": "চালানের তারিখ",
+    "dueDate": "পেমেন্টের নির্ধারিত তারিখ",
+    "billedTo": "বিল প্রাপক (আবেদনকারী)",
+    "issuingAuthority": "জারিকারী কর্তৃপক্ষ",
+    "sacCode": "SAC কোড",
+    "description": "আইটেমের বিবরণ",
+    "rate": "একক হার",
+    "amount": "করযোগ্য পরিমাণ",
+    "subtotal": "উপ-মোট (করযোগ্য)",
+    "cgst": "CGST (9%)",
+    "sgst": "SGST (9%)",
+    "igst": "IGST (18%)",
+    "total": "মোট প্রদেয় পরিমাণ",
+    "receiptTitle": "SAATHI প্রদর্শনী পেমেন্ট রসিদ",
+    "receiptNumber": "রসিদ নম্বর",
+    "receiptDate": "পেমেন্টের তারিখ ও সময়",
+    "paymentMode": "প্রেরণের মাধ্যম",
+    "utr": "লেনদেন রেফারেন্স / UTR",
+    "amountInWords": "কথায় পরিমাণ",
+    "viewInvoice": "চালান দেখুন",
+    "viewReceipt": "রসিদ দেখুন",
+    "downloadPdf": "প্রিন্ট / PDF ডাউনলোড করুন",
+    "settleDemo": "পেমেন্ট নিষ্পন্ন করুন"
+  },
+  "disclaimer": "SAATHI প্রদর্শনী চালান — শুধুমাত্র SIH 2026 মূল্যায়নের জন্য — এটি কোনো অফিসিয়াল সরকারি কর চালান নয়"
+}

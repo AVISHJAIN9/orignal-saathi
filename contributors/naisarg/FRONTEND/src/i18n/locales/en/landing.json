@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "brand": "SAATHI",
+    "openChat": "Start chatting",
+    "standards": "Standards",
+    "whySaathi": "Why SAATHI",
+    "whoFor": "Who it's for",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "tagline": "Built for SIH26107 · Bureau of Indian Standards",
+    "toolsServices": "Tools & Services",
+    "signInRequired": "Sign in required",
+    "replayIntro": "Replay Intro"
+  },
+  "hero": {
+    "kicker": "You've seen this mark stamped into a gold ring, a chain, a bangle.",
+    "heading": "Now you can ask what it actually means.",
+    "subheading": "SAATHI answers only from a verified Indian Standard — and tells you plainly when it can't.",
+    "cta": "Start chatting",
+    "example": {
+      "citedLabel": "Verified",
+      "declinedLabel": "No standard found",
+      "examples": [
+        {
+          "kind": "cited",
+          "question": "Is BIS certification mandatory for two-wheeler helmets?",
+          "answer": "Yes. Protective helmets for two-wheeler riders must conform to the BIS safety specification, and manufacturers are required to hold a valid BIS licence (ISI mark) before sale.",
+          "standard": "IS 4151",
+          "markType": "isi"
+        },
+        {
+          "kind": "cited",
+          "question": "Do household electrical appliances need BIS certification?",
+          "answer": "Yes, household electrical appliances must comply with the applicable BIS safety standard before they can be sold.",
+          "standard": "IS 302",
+          "markType": "isi"
+        },
+        {
+          "kind": "cited",
+          "question": "Is the BIS Hallmark mandatory for gold jewellery retailers?",
+          "answer": "The BIS Hallmark on gold jewellery certifies purity and is mandatory for retailers under the Hallmarking Scheme.",
+          "standard": "IS 1417",
+          "markType": "hallmark"
+        },
+        {
+          "kind": "cited",
+          "question": "Does packaged drinking water sold in India need BIS certification?",
+          "answer": "Packaged drinking water sold in India must be certified under the mandatory BIS scheme before it can be marketed.",
+          "standard": "IS 14543",
+          "markType": "isi"
+        },
+        {
+          "kind": "cited",
+          "question": "Do pressure cookers sold in India need an ISI mark?",
+          "answer": "Pressure cookers manufactured or sold in India must carry the ISI mark under this specification.",
+          "standard": "IS 2347",
+          "markType": "isi"
+        }
+      ]
+    }
+  },
+  "trust": {
+    "heading": "Cited, or honest. Never guessed.",
+    "body": "Every SAATHI answer traces back to a real IS standard number and clause. When no verified standard applies, SAATHI says so — it doesn't improvise one.",
+    "citedPoint": "A verified standard resolves into a stamped plate: the exact IS number, its clause, and where it comes from.",
+    "declinedPoint": "No verified match resolves into an empty plate — honestly unstamped, never invented.",
+    "eyebrow": "How SAATHI decides"
+  },
+  "audience": {
+    "heading": "Built for buying, certifying, and auditing.",
+    "eyebrow": "Tailored workflows",
+    "ticker": {
+      "eyebrow": "Greetings in India's official languages"
+    },
+    "consumer": {
+      "title": "Checking before you buy",
+      "badgeLabel": "Buying",
+      "subtitle": "Public citizens and everyday shoppers",
+      "body": "Is this helmet actually ISI-marked because it has to be, or because the box just says so? Ask before you hand over the money.",
+      "visualLabel": "Before you buy",
+      "chat": {
+        "question": "\"Is this three-pin plug actually ISI-marked because it has to be?\"",
+        "answer": "\"Yes — IS 1293:2019 makes this mandatory under the Quality Control Order.\""
+      },
+      "stat": {
+        "label": "Verification speed",
+        "value": "Instant"
+      }
+    },
+    "business": {
+      "title": "Certifying before you sell",
+      "badgeLabel": "Certifying",
+      "subtitle": "Manufacturers and compliance teams",
+      "body": "Which IS standard applies, which clause governs it, and which licence you need — before an audit finds the gap.",
+      "visualLabel": "Before you certify",
+      "chat": {
+        "question": "\"Generate the factory test checklist for Ordinary Portland Cement, 43 grade.\"",
+        "answer": "\"IS 269:2015 — minimum 43 MPa 28-day compressive strength, plus initial setting time.\""
+      },
+      "stat": {
+        "label": "Audit prep time",
+        "value": "Cut sharply"
+      }
+    },
+    "auditor": {
+      "title": "Verifying before you sign off",
+      "badgeLabel": "Auditing",
+      "subtitle": "Technical officers and conformity assessors",
+      "body": "Cross-check a lab report against the exact clause it's meant to satisfy, with the tolerance and citation attached — before it goes in the file.",
+      "visualLabel": "Before you sign off",
+      "chat": {
+        "question": "\"Check this lab result: lead at 0.03 mg/L in a water sample.\"",
+        "answer": "\"Non-compliant — IS 10500 Clause 4.2 caps lead at 0.01 mg/L, no exceptions.\""
+      },
+      "stat": {
+        "label": "Citation coverage",
+        "value": "Every claim traced"
+      }
+    }
+  },
+  "proof": {
+    "heading": "Real questions, real standards.",
+    "items": [
+      {
+        "question": "Do household electrical appliances need BIS certification?",
+        "answer": "Yes, household electrical appliances must comply with the applicable BIS safety standard before they can be sold.",
+        "standard": "IS 302",
+        "markType": "isi"
+      },
+      {
+        "question": "Is the BIS Hallmark mandatory for gold jewellery retailers?",
+        "answer": "The BIS Hallmark on gold jewellery certifies purity and is mandatory for retailers under the Hallmarking Scheme.",
+        "standard": "IS 1417",
+        "markType": "hallmark"
+      },
+      {
+        "question": "Do pressure cookers sold in India need an ISI mark?",
+        "answer": "Pressure cookers manufactured or sold in India must carry the ISI mark under this specification.",
+        "standard": "IS 2347",
+        "markType": "isi"
+      }
+    ]
+  },
+  "bilingual": {
+    "heading": "Ask in 22 Scheduled Indian Languages.",
+    "body": "Every citation, every decline, every answer — in any of the 22 official languages you ask in."
+  },
+  "closing": {
+    "heading": "Ask SAATHI.",
+    "cta": "Start chatting"
+  },
+  "footer": {
+    "credit": "Built for Smart India Hackathon — BIS Navigator.",
+    "disclaimer": "Answers above illustrate the citation format. Verify current requirements at bis.gov.in.",
+    "contactHeading": "Contact the team",
+    "contactBody": "Questions about SAATHI or want to collaborate? Reach the SAATHI team building it for SIH26107.",
+    "teamEmail": "team.saathi.sih26107@gmail.com",
+    "github": "View source on GitHub",
+    "quickNavHeading": "Quick Navigation",
+    "modulesHeading": "Assistant Modules",
+    "languageHeading": "Language",
+    "legalLink": "Legal & Disclaimer"
+  },
+  "stats": {
+    "heading": "A verification tool, not a guessing machine.",
+    "items": [
+      {
+        "value": "35,119",
+        "label": "verified Indian Standards in the knowledge base"
+      },
+      {
+        "value": "100",
+        "suffix": "%",
+        "label": "of answers trace back to a real IS clause"
+      },
+      {
+        "value": "0",
+        "label": "standards invented when none applies"
+      },
+      {
+        "value": "22",
+        "label": "languages — every answer in English or Hindi / supported Indian languages"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About the project",
+    "heading": "Built for SIH26107 — the BIS Navigator.",
+    "body": "SAATHI is built for the Smart India Hackathon 2024 under problem statement SIH26107. It is designed to make Indian Standards accessible: ask a question, get a cited answer, or an honest decline when no standard applies.",
+    "howItWorks": {
+      "heading": "How It Works: 3-Step Verification Flow",
+      "kicker": "Zero Hallucination",
+      "footer": "Traceable to authentic BIS data",
+      "steps": {
+        "ask": {
+          "badge": "Step 1 • Query",
+          "title": "Ask in Plain Language",
+          "subtitle": "Ask about a product, a mark, or a certification scheme in the language you're comfortable in."
+        },
+        "match": {
+          "badge": "Step 2 • Trace",
+          "title": "Match to a Verified IS Standard",
+          "subtitle": "SAATHI looks up the relevant Indian Standard in its verified knowledge base before answering."
+        },
+        "cite": {
+          "badge": "Step 3 • Verify",
+          "title": "Cited Answer or Honest Refusal",
+          "subtitle": "Get a pinpoint clause citation, or an explicit statement that no verified standard was found."
+        }
+      }
+    },
+    "coreRule": {
+      "kicker": "The Core Rule of SAATHI",
+      "quote": "Every answer must trace back to a real IS standard number and clause, or it plainly says no verified standard was found — it never guesses. And because compliance questions don't come in one language, SAATHI answers in the language you asked in.",
+      "attribution": "— SAATHI Assistant Architecture",
+      "context": "Smart India Hackathon 2024 · Problem Statement SIH26107"
+    },
+    "standardsCovered": {
+      "heading": "Standards Covered in the Knowledge Base",
+      "body": "Every standard below is a real, seeded entry — nothing here is invented.",
+      "count_one": "{{count}} verified Indian Standard",
+      "count_other": "{{count}} verified Indian Standards"
+    },
+    "pillars": {
+      "hackathon": {
+        "label": "Smart India Hackathon",
+        "body": "A national platform where students build solutions for real government problem statements."
+      },
+      "mission": {
+        "label": "Our mission",
+        "body": "Simplify BIS compliance for consumers, manufacturers, and certifiers through clear, standard-backed guidance."
+      },
+      "team": {
+        "label": "The team",
+        "body": "A student team building SAATHI as a credible, easy-to-use standards assistant for India."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Contact the Bureau of Indian Standards",
+    "helplineLabel": "BIS Helpline",
+    "helplineValue": "1800-11-4000",
+    "websiteLabel": "Official Website",
+    "websiteValue": "bis.gov.in",
+    "emailLabel": "Email",
+    "emailValue": "bis-hq@bis.gov.in",
+    "note": "These are BIS's own public contact channels, not SAATHI's. For questions about the SAATHI project itself, see Contact the Team below."
+  }
+}

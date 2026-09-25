@@ -1,0 +1,64 @@
+{
+  "title": "Jurisdiction — India Map",
+  "eyebrow": "State & Regional Regulatory Intelligence",
+  "heading": "India Regulatory Map & State Framework Explorer",
+  "subheading": "Explore how BIS certification reaches every state and union territory — Headquarters, Regional and Branch Offices, local industry clusters, and state-level regulatory notices.",
+  "disclaimer": "BIS office locations follow the official bis.gov.in directory. Coverage scores and state notices are illustrative; confirm current requirements with your BIS Regional or Branch Office.",
+  "stats": {
+    "statesCovered": "States & UTs Covered",
+    "statesWithOffice": "States with a BIS Office",
+    "recentLocalAmendments": "States with Recent Local Amendments",
+    "regionalHubs": "HQ & Regional Offices"
+  },
+  "map": {
+    "gridLabel": "India State Coverage Grid",
+    "headquarters": "BIS HQ",
+    "bisOffice": "BIS Office",
+    "activeUpdates": "Active Updates",
+    "zoomOut": "Back to full map",
+    "zoomHint": "Click any state to zoom in · Esc or click empty map space to reset"
+  },
+  "searchPlaceholder": "Search state, regional office, or scheme...",
+  "filterAll": "All States & UTs",
+  "categories": {
+    "high_relevance": "High Relevance",
+    "active_changes": "Recent Regulatory Changes",
+    "has_office": "Has Regional/Branch Office"
+  },
+  "emptyState": "No states or UTs match this search or filter.",
+  "zones": {
+    "North": "North",
+    "South": "South",
+    "East": "East",
+    "West": "West",
+    "Central": "Central",
+    "Northeast": "Northeast"
+  },
+  "status": {
+    "high_relevance": "High relevance",
+    "active_changes": "Active changes",
+    "standard": "Standard"
+  },
+  "officeTypes": {
+    "Headquarters": "Headquarters",
+    "Regional Office": "Regional Office",
+    "Branch Office": "Branch Office",
+    "Liaison Coverage": "Liaison Coverage"
+  },
+  "drawer": {
+    "framework": "Regulatory Framework & Laws",
+    "ecosystem": "Standards Ecosystem",
+    "schemes": "Mandatory Certification Schemes",
+    "authority": "Authority",
+    "coverageScore": "Coverage Score",
+    "recentNotices": "Recent State Regulatory Notices",
+    "affectedSectors": "Key Sectors Covered",
+    "hasDedicatedOffice": "Dedicated BIS Office",
+    "yesActive": "Yes",
+    "no": "No",
+    "impactLabel": "{{impact}} Impact",
+    "dateLabel": "Date: {{date}}",
+    "close": "Close panel",
+    "details": "Details"
+  }
+}

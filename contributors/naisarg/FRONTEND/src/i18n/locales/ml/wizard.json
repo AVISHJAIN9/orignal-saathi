@@ -1,0 +1,80 @@
+{
+  "trigger": "അപനേ ഉത്പാദ കാ വിവരണ ദേനേ മേം അസമര്ഥ ഹൈം?",
+  "dialogTitle": "ഉത്പാദ വര്ഗീകരണ വിജ഼ാര്ഡ",
+  "dialogDescription": "കുഛ ആസാന സവാലോം കേ ജവാബ ദേം — ഹമ ഉന്ഹേം സാഥീ കേ ലിഏ ഏക സവാല മേം ബദല ദേംഗേ൤",
+  "stepOf": "ചരണ {{current}} / {{total}}",
+  "back": "പീഛേ",
+  "getAnswer": "ഉത്തര പാഏം",
+  "steps": {
+    "category": {
+      "question": "ആപകാ ഉത്പാദ കിസ ശ്രേണീ മേം ആതാ ഹൈ?",
+      "options": {
+        "helmets": {
+          "label": "വ്യക്തിഗത സുരക്ഷാ",
+          "clause": "വ്യക്തിഗത സുരക്ഷാ"
+        },
+        "appliances": {
+          "label": "ഘരേലൂ ഉപകരണ",
+          "clause": "ഘരേലൂ ഉപകരണ"
+        },
+        "gold": {
+          "label": "ആഭൂഷണ",
+          "clause": "ആഭൂഷണ"
+        },
+        "water": {
+          "label": "ഖാദ്യ ഏവം പാനീ",
+          "clause": "ഖാദ്യ യാ പാനീ"
+        },
+        "cookers": {
+          "label": "ബര്തന",
+          "clause": "ബര്തന"
+        },
+        "toys": {
+          "label": "ഖിലൌനേ",
+          "clause": "ഖിലൌനാ"
+        }
+      }
+    },
+    "audience": {
+      "question": "യഹ കിസകേ ലിഏ ഹൈ?",
+      "options": {
+        "consumer": {
+          "label": "ഉപഭോക്താ ഉപയോഗ",
+          "clause": "ഉപഭോക്താ ഉപയോഗ"
+        },
+        "commercial": {
+          "label": "വ്യാവസായിക ബിക്രീ",
+          "clause": "വ്യാവസായിക ബിക്രീ"
+        },
+        "import": {
+          "label": "ആയാത",
+          "clause": "ആയാത"
+        }
+      }
+    },
+    "need": {
+      "question": "ആപകോ ക്യാ ജാനനാ ഹൈ?",
+      "options": {
+        "standard": {
+          "label": "കൌന സാ മാനക ലാഗൂ ഹോതാ ഹൈ",
+          "questionText": "ഇസ പര കൌന സാ മാനക ലാഗൂ ഹോതാ ഹൈ?"
+        },
+        "certification": {
+          "label": "പ്രമാണന പ്രക്രിയാ",
+          "questionText": "പ്രമാണന പ്രക്രിയാ ക്യാ ഹൈ?"
+        },
+        "testing": {
+          "label": "പരീക്ഷണ ആവശ്യകതാഏം",
+          "questionText": "ഇസകേ ലിഏ കൌന സീ പരീക്ഷണ ആവശ്യകതാഏം പൂരീ കരനീ ഹോംഗീ?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "അപനേ ഉത്തര ദേഖേം",
+    "category": "ശ്രേണീ",
+    "audience": "ഉപയോഗ",
+    "need": "ആപ ക്യാ ജാനനാ ചാഹതേ ഹൈം"
+  },
+  "generatedQuestion": "മേരേ പാസ ഏക {{category}} ഉത്പാദ ഹൈ, {{audience}} കേ ലിഏ൤ {{needQuestion}}"
+}

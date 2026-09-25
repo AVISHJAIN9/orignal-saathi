@@ -1,0 +1,57 @@
+{
+  "title": "उपयोग विश्लेषिकी",
+  "groundednessRate": "आधारित उत्तर की दर",
+  "declineRate": "अमान्यता दिल्लोि दर",
+  "totalQueries": "कुल प्रश्न",
+  "trendUpAriaLabel": "पिछली अवधि की तुलना में {{value}}% वृद्धि",
+  "trendDownAriaLabel": "पिछली अवधि की तुलना में {{value}}% गिरावट",
+  "topicsChartTitle": "शीर्ष प्रश्न विषय",
+  "topicsAverageLabel": "औसत: {{value}}",
+  "queriesChartTitle": "समय के साथ प्रश्न (पिछले 7 दिन)",
+  "queriesLabel": "प्रश्न",
+  "topics": {
+    "helmets": "हेलमेट",
+    "appliances": "उपकरण",
+    "gold": "सोने के आभूषण",
+    "water": "पैकेज्ड पानी",
+    "cookers": "प्रेशर कुकर",
+    "toys": "खिलौने"
+  },
+  "days": {
+    "mon": "सोम",
+    "tue": "मंगल",
+    "wed": "बुध",
+    "thu": "गुरु",
+    "fri": "शुक्र",
+    "sat": "शनि",
+    "sun": "रवि"
+  },
+  "documents": {
+    "pageTitle": "दस्तावेज़ प्रबंधन",
+    "dropzone": {
+      "title": "फ़ाइलें यहय खींचें और छोड़ें, या ब्राउज़ करने के लिए क्लिक करें",
+      "hint": "PDF, DOC, या DOCX"
+    },
+    "table": {
+      "name": "दस्तावेज़ का नाम",
+      "category": "श्रेणी",
+      "status": "स्थिती",
+      "lastUpdated": "अंतिम अद्यतन",
+      "actions": "कार्य"
+    },
+    "status": {
+      "queued": "कतारबद्ध",
+      "processing": "संसाधित हो रहा है",
+      "indexed": "अनुक्रमित",
+      "failed": "विफल"
+    },
+    "reingest": "पुनः-प्रोसेस करें",
+    "retire": "हटाएँ",
+    "uncategorized": "अवर्गीकृत",
+    "emptyState": "अभी कोई दस्तावेज़ ना — शुरू करने के लिए ऊपर एक अपलोड करें।"
+  },
+  "opsOnline": "SAATHI संचालन सक्रिय",
+  "statusOptimal": "उत्कृष्ट",
+  "statusLive": "लाइव",
+  "statusWatch": "निगरानी"
+}

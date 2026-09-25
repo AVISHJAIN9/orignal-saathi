@@ -1,0 +1,72 @@
+{
+  "title": "Knowledge Nexus",
+  "eyebrow": "Peer Community",
+  "heading": "Standards & Compliance Discussion Nexus",
+  "subheading": "Ask questions and compare notes with other applicants on BIS standards interpretation, certification hurdles, and implementation experience.",
+  "backToHome": "Portal Home",
+  "searchAndFilter": "Search & Filter Discussions",
+  "disclaimer": "Discussions and verification badges reflect peer community contributions, not official BIS determinations. Always confirm with BIS or the Standards Browser before relying on an answer here.",
+  "askQuestion": "Ask Community",
+  "searchPlaceholder": "Search questions, standards, or tags...",
+  "backToList": "Back to Discussions",
+  "featuredFeed": {
+    "eyebrow": "Community Knowledge Base",
+    "heading": "Knowledge Nexus Featured Discussions",
+    "description": "Applicant and peer discussion on Indian Standards interpretation, testing practices, and certification experience — community contributions, not official rulings.",
+    "count": "Showing {{count}} discussions",
+    "inspect": "View Discussion →"
+  },
+  "workbench": {
+    "eyebrow": "Search & Ask",
+    "heading": "Search, Filter & Ask the Community"
+  },
+  "filters": {
+    "all": "All Topics",
+    "saved": "Saved Posts",
+    "standards": "Standards & Interpretation",
+    "conformity": "Conformity Assessment",
+    "testing": "Testing & Labs",
+    "certification": "Licensing & Certification",
+    "regulatory": "QCOs & Regulatory",
+    "implementation": "Factory Implementation",
+    "open": "Unanswered"
+  },
+  "status": {
+    "open": "Open",
+    "discussed": "Active Discussion",
+    "verified": "Peer Verified",
+    "expert_verified": "Expert Verified"
+  },
+  "post": {
+    "replies": "Replies",
+    "views": "Views",
+    "helpful": "Helpful",
+    "bookmark": "Save Discussion",
+    "bookmarked": "Saved",
+    "expertBadge": "Verified Technical Expert",
+    "writeReply": "Share Your Insight",
+    "replyPlaceholder": "Share your experience or interpretation...",
+    "postReply": "Post Reply",
+    "citations": "Referenced Standards",
+    "you": "Community Member",
+    "justNow": "Just now",
+    "generalTag": "General Compliance"
+  },
+  "askDialog": {
+    "title": "Ask the Community",
+    "description": "Post your question to other applicants and peer specialists.",
+    "questionTitle": "Discussion Title",
+    "questionTitlePlaceholder": "e.g., How is a repaired item re-hallmarked under IS 1417?",
+    "category": "Topic Category",
+    "content": "Detailed Description",
+    "contentPlaceholder": "Give some background on your product, applicable standard, and what you're trying to confirm...",
+    "tags": "Tags (comma separated)",
+    "tagsPlaceholder": "e.g., IS 302, Imports, Testing",
+    "submit": "Publish Question",
+    "cancel": "Cancel"
+  },
+  "noResults": {
+    "title": "No discussions found",
+    "description": "Try searching for a different keyword or category."
+  }
+}

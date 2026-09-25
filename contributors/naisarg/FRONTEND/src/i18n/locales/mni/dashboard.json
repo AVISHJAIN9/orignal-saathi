@@ -1,0 +1,95 @@
+{
+  "eyebrow": "ডৈশবোর্ড · প্রোটোটাইপ",
+  "greeting": "঵াপসী পর স্঵াগত হৈ, {{name}}",
+  "subheading": "আপকে আ঵েদনোং, সময-সীমাওং ঔর লংবিত কার্যোং কা ঵্যক্তিগত দৃশ্য — যহ উদাহরণাত্মক ম৉ক ডেটা পর আধারিত এক ডেমো দৃশ্য হৈ, ন কি লাই঵ BIS ফ়ীড৤",
+  "loading": "আপকা ডৈশবোর্ড লোড হো রহা হৈ…",
+  "error": {
+    "heading": "আপকা ডৈশবোর্ড লোড নহীং হো সকা",
+    "retry": "ফির সে প্রযাস করেং"
+  },
+  "empty": {
+    "heading": "আপ পূরী তরহ অপডেট হৈং",
+    "body": "অভী আপকে পাস কোঈ সক্রিয আ঵েদন, সময-সীমা যা লংবিত কার্য নহীং হৈ৤"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} উপলব্ধ নহীং হৈ",
+    "retry": "পুনঃ প্রযাস করেং"
+  },
+  "sections": {
+    "progressSummary": "আ঵েদন স্থিতি",
+    "nextDeadline": "অগলী সময-সীমা",
+    "actionRequired": "আ঵শ্যক কার্র঵াঈ",
+    "upcomingDeadlines": "আগামী সময-সীমাএঁ",
+    "calendar": "কৈলেংডর",
+    "activeApplications": "সক্রিয আ঵েদন",
+    "recentActivity": "হাল কী গতি঵িধি",
+    "regulatoryAlerts": "নিযামক চেতা঵নিযাঁ",
+    "paymentAlerts": "ভুগতান চেতা঵নিযাঁ",
+    "sampleTesting": "নমূনা পরীক্ষণ স্থিতি"
+  },
+  "progressSummary": {
+    "completed": "পূর্ণ",
+    "inProgress": "প্রগতি মেং",
+    "pending": "সমীক্ষা লংবিত"
+  },
+  "urgency": {
+    "normal": "সামান্য",
+    "approaching": "নজ়দীক আ রহা হৈ",
+    "urgent": "অত্যা঵শ্যক",
+    "overdue": "সময-সীমা পার",
+    "dueInDays_one": "{{count}} দিন মেং দেয",
+    "dueInDays_other": "{{count}} দিনোং মেং দেয",
+    "dueToday": "আজ দেয",
+    "overdueByDays_one": "{{count}} দিন কী দেরী",
+    "overdueByDays_other": "{{count}} দিনোং কী দেরী"
+  },
+  "nextDeadline": {
+    "empty": "কোঈ আগামী সময-সীমা নহীং৤",
+    "viewApplication": "আ঵েদন দেখেং"
+  },
+  "actionRequired": {
+    "empty": "কোঈ কার্র঵াঈ আ঵শ্যক নহীং — আপ পূরী তরহ অপডেট হৈং৤",
+    "open": "খোলেং"
+  },
+  "upcomingDeadlines": {
+    "empty": "কোঈ আগামী সময-সীমা নহীং৤",
+    "addToCalendar": "কৈলেংডর মেং জোড়েং"
+  },
+  "calendar": {
+    "hint": "জিন দিনোং মেং সময-সীমা হৈ ঵ে চিহ্নিত হৈং — দেখনে কে লিএ এক চুনেং, যা নীচে সব কুছ নির্যাত করেং৤",
+    "exportAll": "কৈলেংডর মেং সব নির্যাত করেং (.ics)",
+    "addOne": "কৈলেংডর মেং জোড়েং",
+    "empty": "কৈলেংডর পর দিখানে কে লিএ কোঈ সময-সীমা নহীং৤",
+    "noneOnDay": "ইস দিন কোঈ সময-সীমা নহীং৤"
+  },
+  "activeApplications": {
+    "empty": "অভী তক কোঈ সক্রিয আ঵েদন নহীং৤",
+    "startOne": "নযা আ঵েদন শুরূ করেং",
+    "status": {
+      "draft": "ড্রাফ়্ট",
+      "submitted": "জমা কিযা গযা"
+    },
+    "readinessLabel": "তৈযারী",
+    "readinessStatus": {
+      "ready": "জমা করনে কে লিএ তৈযার",
+      "ready_with_non_blocking": "তৈযার — গৈর-অ঵রোধক মদ শেষ হৈং",
+      "not_ready": "তৈযার নহীং",
+      "insufficient_evidence": "অপর্যাপ্ত সাক্ষ্য"
+    },
+    "blockersLabel_one": "{{count}} অ঵রোধক সমস্যা",
+    "blockersLabel_other": "{{count}} অ঵রোধক সমস্যাএঁ",
+    "viewStandard": "মানক দেখেং"
+  },
+  "recentActivity": {
+    "empty": "কোঈ হাল কী গতি঵িধি নহীং৤"
+  },
+  "regulatoryAlerts": {
+    "empty": "কোঈ নঈ নিযামক চেতা঵নী নহীং৤",
+    "viewDetails": "঵ি঵রণ দেখেং"
+  },
+  "paymentAlerts": {
+    "empty": "অভী কোঈ লংবিত শুল্ক নহীং হৈ৤",
+    "viewPayment": "ভুগতান স্থিতি দেখেং"
+  },
+  "illustrativeNotice": "উদাহরণাত্মক ডেটা — যহ কোঈ ঵াস্ত঵িক BIS আ঵েদন যা ফাইলিংগ নহীং হৈ৤"
+}

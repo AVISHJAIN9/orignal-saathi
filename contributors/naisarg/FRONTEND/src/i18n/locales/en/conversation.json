@@ -1,0 +1,90 @@
+{
+  "seedMessages": [
+    {
+      "sender": "bot",
+      "text": "Hi! Ask me anything about Indian Standards."
+    },
+    {
+      "sender": "user",
+      "text": "Is BIS certification mandatory for two-wheeler helmets?"
+    },
+    {
+      "sender": "bot",
+      "text": "Yes. Protective helmets for two-wheeler riders must conform to the BIS safety specification, and manufacturers are required to hold a valid BIS licence (ISI mark) before sale.",
+      "citations": [
+        {
+          "standardNumber": "IS 4151",
+          "title": "Protective Helmets for Two-Wheeler Riders — Specification",
+          "section": "Clause 6 — Impact Absorption Requirements",
+          "sourceUrl": "https://www.bis.gov.in"
+        }
+      ]
+    },
+    {
+      "sender": "user",
+      "text": "What is the required thread pitch for M8 bolts used in solar mounting structures?"
+    },
+    {
+      "sender": "bot",
+      "text": "I don't have a verified standard for this — please check with the BIS helpdesk.",
+      "status": "declined"
+    },
+    {
+      "sender": "user",
+      "text": "Do household electrical appliances need BIS certification?"
+    },
+    {
+      "sender": "bot",
+      "text": "Yes, household electrical appliances must comply with the applicable BIS safety standard before they can be sold.",
+      "citations": [
+        {
+          "standardNumber": "IS 302",
+          "title": "Safety of Household Electrical Appliances"
+        }
+      ]
+    }
+  ],
+  "mockReplies": [
+    {
+      "text": "The BIS Hallmark on gold jewellery certifies purity and is mandatory for retailers under the Hallmarking Scheme.",
+      "citations": [
+        {
+          "standardNumber": "IS 1417",
+          "title": "Grades of Gold and Gold Alloys for Hallmarking",
+          "section": "Clause 4 — Fineness Grades",
+          "sourceUrl": "https://www.bis.gov.in"
+        }
+      ]
+    },
+    {
+      "text": "Packaged drinking water sold in India must be certified under the mandatory BIS scheme before it can be marketed.",
+      "citations": [
+        {
+          "standardNumber": "IS 14543",
+          "title": "Packaged Natural Mineral Water — Specification"
+        }
+      ]
+    },
+    {
+      "text": "Pressure cookers manufactured or sold in India must carry the ISI mark under this specification.",
+      "citations": [
+        {
+          "standardNumber": "IS 2347",
+          "title": "Aluminium Pressure Cookers — Specification",
+          "section": "Section 3 — Safety Requirements"
+        }
+      ]
+    },
+    {
+      "text": "Yes. Toys sold in India must comply with the BIS safety standard covering mechanical and physical hazards, and manufacturers need a valid BIS licence (ISI mark) before sale.",
+      "citations": [
+        {
+          "standardNumber": "IS 9873 (Part 1):2025",
+          "title": "Safety of Toys: Mechanical and Physical Properties",
+          "section": "Part 1 — Mechanical and Physical Properties",
+          "sourceUrl": "https://www.bis.gov.in"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "eyebrow": "Document Corrections",
+  "heading": "Document Corrections & Re-submission",
+  "subheading": "Review official scrutiny remarks from BIS examiners, replace deficient or missing documents, and track re-submission review status in real time.",
+  "filter": {
+    "all": "All Documents",
+    "correctionRequired": "Correction Required",
+    "underReview": "Under Review",
+    "resubmitted": "Re-submitted",
+    "approved": "Approved",
+    "allApplications": "All Applications",
+    "searchPlaceholder": "Search by document name, standard, or reason..."
+  },
+  "summary": {
+    "total": "Total Documents",
+    "actionRequired": "Correction Required",
+    "underReview": "Under Review",
+    "resubmitted": "Re-submitted",
+    "approved": "Approved"
+  },
+  "statuses": {
+    "CORRECTION_REQUIRED": "Correction Required",
+    "ACTION_REQUIRED": "Action Required",
+    "UNDER_REVIEW": "Under Review",
+    "REVIEW_PENDING": "Review Pending",
+    "RESUBMITTED": "Re-submitted",
+    "SUBMITTED": "Submitted",
+    "APPROVED": "Approved",
+    "REJECTED": "Rejected",
+    "CANCELLED": "Cancelled"
+  },
+  "card": {
+    "applicationLabel": "Application",
+    "standardLabel": "Standard",
+    "versionLabel": "Version",
+    "submittedOn": "Submitted on",
+    "lastUpdated": "Updated",
+    "officialFeedbackTitle": "Official Scrutiny Feedback",
+    "requiredActionTitle": "Required Correction Action",
+    "deadlineLabel": "Correction Deadline",
+    "relatedStandardClause": "Related Clause",
+    "relatedGapLabel": "Related Compliance Gap",
+    "correctDocument": "Correct Document",
+    "viewDetails": "View Details & History",
+    "trackStatus": "Track Status",
+    "daysLeft": "{{count}} days left",
+    "dueToday": "Due today",
+    "overdue": "Overdue"
+  },
+  "detailsDialog": {
+    "title": "Document Correction Details",
+    "description": "Comprehensive review findings and historical versions from the BIS scrutiny officer.",
+    "documentInfo": "Document Information",
+    "documentName": "Document Name",
+    "documentType": "Document Category",
+    "application": "Application Reference",
+    "status": "Current Status",
+    "officialFeedback": "Official Examiner Remarks",
+    "requiredAction": "Mandatory Corrective Action",
+    "deadline": "Filing Deadline",
+    "relatedClause": "Relevant Standard Clause",
+    "relatedGap": "Associated Compliance Gap",
+    "viewGap": "View in Compliance Gap Analyzer",
+    "historyTitle": "Document Submission History",
+    "historyEmpty": "No prior versions recorded for this document.",
+    "startCorrection": "Proceed to Re-submission",
+    "close": "Close"
+  },
+  "wizard": {
+    "dialogTitle": "Re-submit Corrected Document",
+    "dialogDescription": "Complete the 5-step guided workflow to submit your rectified document to BIS examiners.",
+    "steps": {
+      "step1": "1. Review Issue",
+      "step2": "2. Select File",
+      "step3": "3. Validate",
+      "step4": "4. Review",
+      "step5": "5. Re-submit"
+    },
+    "step1": {
+      "title": "Review Deficiencies & Requirements",
+      "subtitle": "Carefully examine the official reason for correction before selecting your replacement file.",
+      "feedbackHeading": "Examiner's Review Feedback",
+      "actionHeading": "Required Action",
+      "clauseHeading": "Applicable Standard Clause",
+      "deadlineNotice": "Please complete and submit the rectified document before the deadline to prevent application rejection."
+    },
+    "step2": {
+      "title": "Select Replacement Document",
+      "subtitle": "Upload a new document from your device or select an existing document from your Compliance Vault.",
+      "uploadTab": "Upload from Device",
+      "vaultTab": "Select from Compliance Vault",
+      "dropzoneTitle": "Upload corrected document",
+      "dropzoneHint": "Drag and drop your PDF or DOCX file here, or click to browse (Max 15MB)",
+      "vaultPrompt": "Select a pre-indexed document from your organization's verified repository.",
+      "openVault": "Browse Compliance Vault",
+      "selectedFile": "Selected Replacement File"
+    },
+    "step3": {
+      "title": "Validation & Cortex Pre-scan",
+      "subtitle": "Verifying file integrity, format compliance, and pre-screening with Document Cortex.",
+      "fileCheckTitle": "File Validation Checks",
+      "formatCheck": "Accepted File Format (PDF/DOCX)",
+      "sizeCheck": "File Size within 15MB limit",
+      "readabilityCheck": "Document Readability & Checksum Verified",
+      "cortexTitle": "Document Cortex Technical Pre-Scan",
+      "cortexAnalyzing": "Analyzing document structure and clause coverage...",
+      "cortexComplete": "Pre-scan analysis complete",
+      "cortexNote": "Document Cortex performs automated structural checks. Official compliance determination rests solely with BIS officers."
+    },
+    "step4": {
+      "title": "Review Re-submission Details",
+      "subtitle": "Confirm your replacement file and provide any optional explanatory remarks for the examiner.",
+      "comparisonHeading": "Submission Comparison",
+      "originalDoc": "Original Document (Deficient)",
+      "replacementDoc": "Replacement Document (Corrected)",
+      "remarksLabel": "Applicant Remarks / Rectification Notes (Optional)",
+      "remarksPlaceholder": "Describe the corrections made (e.g. added Clause 6.1 pressure test data tables on page 4)...",
+      "declaration": "I hereby declare that the replacement document submitted is authentic, accurate, and addresses all scrutiny feedback issued by BIS.",
+      "declarationRequired": "Please check the declaration box to proceed."
+    },
+    "step5": {
+      "title": "Submitting to BIS Portal",
+      "submittingText": "Transmitting corrected document and metadata to BIS Scrutiny Gateway...",
+      "doNotClose": "Please do not close this window while the submission is processing."
+    },
+    "success": {
+      "title": "Document Successfully Re-submitted",
+      "message": "Your rectified document has been submitted to the BIS scrutiny queue. The examiner will review the update.",
+      "submissionId": "Submission ID",
+      "status": "Updated Status",
+      "submittedAt": "Timestamp",
+      "version": "Document Version",
+      "viewApp": "View Full Application",
+      "viewChain": "Track in Compliance Chain",
+      "done": "Back to Corrections List"
+    },
+    "actions": {
+      "back": "Back",
+      "next": "Continue",
+      "submit": "Re-submit Document",
+      "cancel": "Cancel"
+    }
+  },
+  "vault": {
+    "dialogTitle": "Select Document from Compliance Vault",
+    "dialogDescription": "Choose a document previously uploaded and indexed in your Compliance Vault.",
+    "search": "Filter vault documents...",
+    "select": "Use Selected Document",
+    "empty": "No matching documents found in Compliance Vault.",
+    "cancel": "Cancel"
+  },
+  "emptyState": {
+    "title": "No Document Corrections Required",
+    "description": "All submitted documents across your active applications are up to date and in good standing with BIS scrutiny.",
+    "viewApps": "View Applications",
+    "viewChain": "Check Compliance Chain"
+  },
+  "errors": {
+    "title": "Unable to Load Document Corrections",
+    "description": "Failed to connect to the BIS Document Review Service. Please check your network connection and retry.",
+    "retry": "Retry",
+    "uploadFailed": "Failed to upload corrected file. Please verify format and size.",
+    "submissionFailed": "Failed to re-submit document. Server returned an error."
+  }
+}

@@ -1,0 +1,838 @@
+{
+  "master": {
+    "internal_id": 348,
+    "IS_number": "IS 13252 (Part 1):2010IEC 60950 Part 1:2005",
+    "clean_number": "13252",
+    "slug": "is-348",
+    "IS_title": "Information Technology Equipment - Safety Part 1: General Requirements (Second Revision)",
+    "superseding_IS": "None",
+    "degree_of_equivalence": "Identical under dual numbering",
+    "number_of_revisions": "2",
+    "number_of_amendments": "No amendment issued",
+    "aspect": "Safety Standard",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "LITD (Electronics and Information Technology Department)",
+    "technical_committee": "LITD 07 (Audio, Video, Multimedia Systems And Communication Equipment Sectional Committee Sectional Committee)",
+    "member_secretary": "VIJAY KUMAR GAURAW (SCIENTIST-D)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 0,
+    "gazette_document_count": 0,
+    "license_count": 0,
+    "product_manual_sit_count": 0,
+    "laboratory_count": 72,
+    "corrigendum_count": 0,
+    "catalogue_id": "6410",
+    "catalogue_is_no": "IS 13252 (Part 1):2010 IEC 60950 Part 1:2005 (Active)",
+    "catalogue_title": "Information Technology Equipment - Safety Part 1: General Requirements (Second Revision)",
+    "catalogue_amendments": "0",
+    "catalogue_technical_committee": "LITD 07",
+    "catalogue_aspect": "Safety Standard",
+    "catalogue_reaffirmation": "Identical under dual numbering",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/348",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=348",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/227/2",
+    "extracted_at": "2026-09-22T19:41:07.359Z",
+    "category_key": "electronics",
+    "category_label": "Electronics & IT",
+    "status": "Active",
+    "image_url": "/images/products/standard-fallback.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 8504 (Part 5/Sec 1):2012IEC 60216_4_1:2006",
+      "title": "Electrical Insulating Materials -Thermal Endurance Properties -Part 5 Ageing Ovens : Section 1 Single-chamber Ovens",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 1271:2012IEC 60085",
+      "title": "Electrical insulation - Thermal evaluation and designation (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 15382 (Part 1):202260664-1:2020",
+      "title": "Insulation coordination for equipment within low - Voltage systems: Part 1 principles, requirements and tests (First Revision)",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 2824:2007IEC 60112 : 2003",
+      "title": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 616:2017IEC 60065 : 2014",
+      "title": "Audio, video and similar electronic apparatus - Safety requirements (Fifth Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 694:2010",
+      "title": "Polyvinyl chloride insulated unsheathed and sheathed cables/cords with rigid and flexible conductor for rated voltages up to and including 1 100 V (Fourth Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 9000 (Part 4):2020IEC 60068-2-78 : 2012",
+      "title": "Environmental Testing Part 4 Tests - Test Cab: Damp Heat, Steady State ( Second Revision )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS/IEC 60309-1:202160309-1:2021",
+      "title": "Plugs, socket - Outlets and couplers for industrial purposes: Part 1 general requirements (First Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS/IEC 60309-2:202160309-2",
+      "title": "Plugs, socket - Outlets and couplers or industrial purposes: Part 2 dimensional interchangeability requirements for pin and contact - Tube accessories (First Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 13778 (Part 3):2024IEC 60851-3:2023",
+      "title": "Winding wires - Test methods: Part 3 mechanical properties (First Revision)",
+      "committee": "ETD 33"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 13778 (Part 5):2012IEC 60851-5 : 2008",
+      "title": "Winding wires - Test methods: Part 5 electrical properties (First Revision)",
+      "committee": "ETD 33"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 13778 (Part 6):2018IEC60851-6 : 2012",
+      "title": "Winding wires - Test methods: Part 6 thermal properties (Second Revision)",
+      "committee": "ETD 33"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 14624 (Part 2):2025IEC 60825-2:2021",
+      "title": "Safety of laser products: Part 2 safety of optical fibre communication systems (OFCS) (First Revision)",
+      "committee": "LITD 11"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 14901 (Part 5):2004IEC 60747-5",
+      "title": "Semiconductor devices - Discrete devices and integrated circuits: Part 5 optoelectronic devices",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS/IEC 60730-1:1999",
+      "title": "Automatic electrical controls for household and similar use : part 1 General Requirements",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS/IEC 60947-1:2020IEC 60947-1:2020",
+      "title": "Low - Voltage switchgear and controlgear: Part 1 general rules (First Revision)",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS/IEC 60695-2-11:2021IEC 60695-2-11:2021",
+      "title": "Fire Hazard Testing Part 2-11 Glowing / Hot-Wire Based Test Methods Glow-Wire Flammability Test Method for End-Products ( GWEPT )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS/IEC/TS 62351-2:2008",
+      "title": "Power systems management and associated information exchange - Data and communications: Security: Part 2 glossary of terms",
+      "committee": "LITD 10"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 13360 (Part 6/Sec 23):2006",
+      "title": "Plastics - Methods of testing: Part 6 thermal properties section 23 determination of burning behaviour of thin fiexibie verticai specimens in contact with smaii - Fiame ignition source",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 4218 (Part 2):2001ISO 261",
+      "title": "ISO general purpose metric screw threads: Part 2 general plan (Second Revision)",
+      "committee": "PGD 37"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 4218 (Part 4):2025ISO 262 : 2023",
+      "title": "ISO general purpose metric screw threads: Part 4 selected sizes for screws, bolts and nuts (Second Revision)",
+      "committee": "PGD 37"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS/IEC 60990:2016IEC 60990 : 1999",
+      "title": "Methods of Measurement of Touch Current and Protective Conductor Current (First Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS/IEC 61058-1:201661058-1: 2016",
+      "title": "Switches for appliances: Part 1 general requirements",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 13360 (Part 6/Sec 24):2024ISO 9772 : 2020",
+      "title": "Plastic - Method of testing: Part 6 thermal properties section 24 cellular plastics - Determination of horizontal burning characteristics of small specimens subjected to a small flame of cellular plastic",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 13360 (Part 5/Sec 4):2021",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 4 determination of izod impact strength (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 11000 (Part 2/Sec 2):2008IEC 60695-11-5: 2004",
+      "title": "Fire hazard testing: Part 2 test methods: Sec 2 needle - Flame test method - Apparatus, cofirmatory test arrangement and guidance (First Revision)",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 13360 (Part 5/Sec 5/Sub-Sec 1):2025",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 5 determination of charpy impact properties - Non - Instrumented impact test (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 13360 (Part 5/Sec 7):2022ISO 178 : 2019",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 7 determination of flexural properties (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 14624 (Part 2):2025IEC 60825-2:2021",
+      "title": "Safety of laser products: Part 2 safety of optical fibre communication systems (OFCS) (First Revision)",
+      "committee": "LITD 11"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 15382 (Part 1):202260664-1:2020",
+      "title": "Insulation coordination for equipment within low - Voltage systems: Part 1 principles, requirements and tests (First Revision)",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 4165:1991IEC 60335-2-73",
+      "title": "Thermostats for general purpose electric ovens",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 4218 (Part 2):2001ISO 261",
+      "title": "ISO general purpose metric screw threads: Part 2 general plan (Second Revision)",
+      "committee": "PGD 37"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 4218 (Part 4):2025ISO 262 : 2023",
+      "title": "ISO general purpose metric screw threads: Part 4 selected sizes for screws, bolts and nuts (Second Revision)",
+      "committee": "PGD 37"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS/QC 302400:1994",
+      "title": "Fixed capacitors for use in electronic equipment: Sectional specification for fixed capacitors for electromagnetic interference suppression and connection to the supply mains",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS/IEC 60990:2016IEC 60990 : 1999",
+      "title": "Methods of Measurement of Touch Current and Protective Conductor Current (First Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS/IEC 60320-2-2:1998",
+      "title": "Appliance couplers for household and similar general purposes: Part 2: Sec 2 interconnection couplers for household and similar equipment",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS/IEC 60320-1:202160320-1: 2021",
+      "title": "Appliance couplers for household and similar general purposes: Part 1 general requirements",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS/IEC 60320-2-3:201860320-2-3: 2018",
+      "title": "Appliance couplers for household and similar general purposes: Part 2 - 3 appliance couplers with a degree of protection higher than ipxo",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS/IEC 60947-1:2020IEC 60947-1:2020",
+      "title": "Low - Voltage switchgear and controlgear: Part 1 general rules (First Revision)",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS/IEC 61058-1:201661058-1: 2016",
+      "title": "Switches for appliances: Part 1 general requirements",
+      "committee": "ETD 14"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 8504 (Part 5/Sec 1):2012IEC 60216_4_1:2006",
+      "title": "Electrical Insulating Materials -Thermal Endurance Properties -Part 5 Ageing Ovens : Section 1 Single-chamber Ovens",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 1271:2012IEC 60085",
+      "title": "Electrical insulation - Thermal evaluation and designation (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 15382 (Part 1):202260664-1:2020",
+      "title": "Insulation coordination for equipment within low - Voltage systems: Part 1 principles, requirements and tests (First Revision)",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 2824:2007IEC 60112 : 2003",
+      "title": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 616:2017IEC 60065 : 2014",
+      "title": "Audio, video and similar electronic apparatus - Safety requirements (Fifth Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 694:2010",
+      "title": "Polyvinyl chloride insulated unsheathed and sheathed cables/cords with rigid and flexible conductor for rated voltages up to and including 1 100 V (Fourth Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 9000 (Part 4):2020IEC 60068-2-78 : 2012",
+      "title": "Environmental Testing Part 4 Tests - Test Cab: Damp Heat, Steady State ( Second Revision )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS/IEC 60309-1:202160309-1:2021",
+      "title": "Plugs, socket - Outlets and couplers for industrial purposes: Part 1 general requirements (First Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS/IEC 60309-2:202160309-2",
+      "title": "Plugs, socket - Outlets and couplers or industrial purposes: Part 2 dimensional interchangeability requirements for pin and contact - Tube accessories (First Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 13778 (Part 3):2024IEC 60851-3:2023",
+      "title": "Winding wires - Test methods: Part 3 mechanical properties (First Revision)",
+      "committee": "ETD 33"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 13778 (Part 5):2012IEC 60851-5 : 2008",
+      "title": "Winding wires - Test methods: Part 5 electrical properties (First Revision)",
+      "committee": "ETD 33"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 13778 (Part 6):2018IEC60851-6 : 2012",
+      "title": "Winding wires - Test methods: Part 6 thermal properties (Second Revision)",
+      "committee": "ETD 33"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 14624 (Part 2):2025IEC 60825-2:2021",
+      "title": "Safety of laser products: Part 2 safety of optical fibre communication systems (OFCS) (First Revision)",
+      "committee": "LITD 11"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 14901 (Part 5):2004IEC 60747-5",
+      "title": "Semiconductor devices - Discrete devices and integrated circuits: Part 5 optoelectronic devices",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS/IEC 60730-1:1999",
+      "title": "Automatic electrical controls for household and similar use : part 1 General Requirements",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS/IEC 60947-1:2020IEC 60947-1:2020",
+      "title": "Low - Voltage switchgear and controlgear: Part 1 general rules (First Revision)",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS/IEC 60695-2-11:2021IEC 60695-2-11:2021",
+      "title": "Fire Hazard Testing Part 2-11 Glowing / Hot-Wire Based Test Methods Glow-Wire Flammability Test Method for End-Products ( GWEPT )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS/IEC/TS 62351-2:2008",
+      "title": "Power systems management and associated information exchange - Data and communications: Security: Part 2 glossary of terms",
+      "committee": "LITD 10"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 13360 (Part 6/Sec 23):2006",
+      "title": "Plastics - Methods of testing: Part 6 thermal properties section 23 determination of burning behaviour of thin fiexibie verticai specimens in contact with smaii - Fiame ignition source",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 4218 (Part 2):2001ISO 261",
+      "title": "ISO general purpose metric screw threads: Part 2 general plan (Second Revision)",
+      "committee": "PGD 37"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 4218 (Part 4):2025ISO 262 : 2023",
+      "title": "ISO general purpose metric screw threads: Part 4 selected sizes for screws, bolts and nuts (Second Revision)",
+      "committee": "PGD 37"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS/IEC 60990:2016IEC 60990 : 1999",
+      "title": "Methods of Measurement of Touch Current and Protective Conductor Current (First Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS/IEC 61058-1:201661058-1: 2016",
+      "title": "Switches for appliances: Part 1 general requirements",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 13360 (Part 6/Sec 24):2024ISO 9772 : 2020",
+      "title": "Plastic - Method of testing: Part 6 thermal properties section 24 cellular plastics - Determination of horizontal burning characteristics of small specimens subjected to a small flame of cellular plastic",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 13360 (Part 5/Sec 4):2021",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 4 determination of izod impact strength (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 11000 (Part 2/Sec 2):2008IEC 60695-11-5: 2004",
+      "title": "Fire hazard testing: Part 2 test methods: Sec 2 needle - Flame test method - Apparatus, cofirmatory test arrangement and guidance (First Revision)",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 13360 (Part 5/Sec 5/Sub-Sec 1):2025",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 5 determination of charpy impact properties - Non - Instrumented impact test (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 13360 (Part 5/Sec 7):2022ISO 178 : 2019",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 7 determination of flexural properties (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 14624 (Part 2):2025IEC 60825-2:2021",
+      "title": "Safety of laser products: Part 2 safety of optical fibre communication systems (OFCS) (First Revision)",
+      "committee": "LITD 11"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 15382 (Part 1):202260664-1:2020",
+      "title": "Insulation coordination for equipment within low - Voltage systems: Part 1 principles, requirements and tests (First Revision)",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 4165:1991IEC 60335-2-73",
+      "title": "Thermostats for general purpose electric ovens",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 4218 (Part 2):2001ISO 261",
+      "title": "ISO general purpose metric screw threads: Part 2 general plan (Second Revision)",
+      "committee": "PGD 37"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 4218 (Part 4):2025ISO 262 : 2023",
+      "title": "ISO general purpose metric screw threads: Part 4 selected sizes for screws, bolts and nuts (Second Revision)",
+      "committee": "PGD 37"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS/QC 302400:1994",
+      "title": "Fixed capacitors for use in electronic equipment: Sectional specification for fixed capacitors for electromagnetic interference suppression and connection to the supply mains",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS/IEC 60990:2016IEC 60990 : 1999",
+      "title": "Methods of Measurement of Touch Current and Protective Conductor Current (First Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS/IEC 60320-2-2:1998",
+      "title": "Appliance couplers for household and similar general purposes: Part 2: Sec 2 interconnection couplers for household and similar equipment",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS/IEC 60320-1:202160320-1: 2021",
+      "title": "Appliance couplers for household and similar general purposes: Part 1 general requirements",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS/IEC 60320-2-3:201860320-2-3: 2018",
+      "title": "Appliance couplers for household and similar general purposes: Part 2 - 3 appliance couplers with a degree of protection higher than ipxo",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS/IEC 60947-1:2020IEC 60947-1:2020",
+      "title": "Low - Voltage switchgear and controlgear: Part 1 general rules (First Revision)",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS/IEC 61058-1:201661058-1: 2016",
+      "title": "Switches for appliances: Part 1 general requirements",
+      "committee": "ETD 14"
+    }
+  ],
+  "internationalReferences": [
+    {
+      "number": "1",
+      "standard": "IEC 60073 : 0 : 0 0"
+    },
+    {
+      "number": "2",
+      "standard": "IEC 60083 : 0 : 0 0"
+    },
+    {
+      "number": "3",
+      "standard": "IEC 60216 : 4 : 1"
+    },
+    {
+      "number": "4",
+      "standard": "IEC 60364 : 1 : 2001"
+    },
+    {
+      "number": "5",
+      "standard": "IEC 60245 : 0 : 0 0"
+    },
+    {
+      "number": "6",
+      "standard": "IEC 60695 : 2 : 11"
+    },
+    {
+      "number": "7",
+      "standard": "IEC 60695 : 2 : 20"
+    },
+    {
+      "number": "8",
+      "standard": "IEC 60825 : 1 : 0 0"
+    },
+    {
+      "number": "9",
+      "standard": "IEC 60851 : 3 : 0 0"
+    },
+    {
+      "number": "10",
+      "standard": "IEC 60885 : 1 : 1987"
+    },
+    {
+      "number": "11",
+      "standard": "IEC 60906 : 1 : 0 0"
+    },
+    {
+      "number": "12",
+      "standard": "IEC 60906 : 2 : 0 0"
+    },
+    {
+      "number": "13",
+      "standard": "IEC 61051 : 2 : 1991"
+    },
+    {
+      "number": "14",
+      "standard": "IEC 3864 : 0 : 0 0"
+    },
+    {
+      "number": "15",
+      "standard": "ISO 4892 : 1 : 0 0"
+    },
+    {
+      "number": "16",
+      "standard": "ISO 8256 : 0 : 0 0"
+    },
+    {
+      "number": "17",
+      "standard": "ISO 9772 : 0 : 0 0"
+    }
+  ],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 15244 : 2002",
+      "title": "Analog set top box - Specificaiton",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 15954 : 2012",
+      "title": "Digital Set Top Box for Mpeg - 4 DTH Services - Specificaiton",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 15964 : 2013",
+      "title": "Digital Free - To - Air Satellite Receiver - Specificaiton",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 16129 : 2014",
+      "title": "Set Top Box for Digital Terrestrial HDTV/SDTV Reception - Specificaiton",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 13252 : Part 21 : 2013",
+      "title": "Information Technology Equipment - Safety Part 21: Remote Power Feeding",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 13252 : Part 23 : 2014",
+      "title": "Information Technology Equipment - Safety Part 23: Large Data Storage Equipment",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 5571 : 2009",
+      "title": "Guide for selection and installation of electrical equipment in hazardous areas (Other Than Mines) (Third Revision)",
+      "committee": "ETD 22"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 616 : 2017",
+      "title": "Audio, video and similar electronic apparatus - Safety requirements (Fifth Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 16711 : 2017",
+      "title": "48 V ELVDC distribution system - Guidelines",
+      "committee": "ETD 50"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 732 : 2019",
+      "title": "Code of practice for electrical wiring installations (Fourth Revision)",
+      "committee": "ETD 20"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 17092 : 2019",
+      "title": "Electrical energy storage systems: safety requirements",
+      "committee": "ETD 52"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 13252 : Part 22 : 2019",
+      "title": "Information Technology Equipment - Safety Part 22: Equipment to be Installed Outdoors (First Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS/IEC 61730 : PART 2 : 2016",
+      "title": "Photovoltaic (PV) module safety qualification: Part 2 requirements for testing (First Revision)",
+      "committee": "ETD 28"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 17017 : Part 1 : 2018",
+      "title": "Electric Vehicle Conductive Charging System Part 1 General Requirements",
+      "committee": "ETD 51"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 17017 : Part 1 : 2018",
+      "title": "Electric Vehicle Conductive Charging System Part 1 General Requirements",
+      "committee": "ETD 51"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS/IEC 62642 : Part 1 : 2010",
+      "title": "Alarm Systems \u2014 Intrusion and Hold-up Systems Part 1 System Requirements",
+      "committee": "LITD 26"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS/IEC 62820 : Part 1 : Sec 1 : 2016",
+      "title": "Building Intercom Systems Part 1 System Requirements Section 1 General",
+      "committee": "LITD 26"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS/IEC 61204 : Part 3 : 2016",
+      "title": "Low-Voltage Switch Mode Power Supplies Part 3 Electromagnetic Compatibility ( EMC )",
+      "committee": "ETD 31"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 17387 : 2020",
+      "title": "General Safety and Performance Requirements of Battery Management Systems",
+      "committee": "ETD 52"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS/IEC 62688 : 2017",
+      "title": "Concentrator Photovoltaic (CPV) Modules and Assemblies Safety Qualification",
+      "committee": "ETD 28"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 16791 : 2018",
+      "title": "Digital Set Top Box for Iptv - Specification",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 16333 : Part 1 : 2015",
+      "title": "Mobile Phone Handsets Part 1 Safety Requirements",
+      "committee": "LITD 13"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 14132 : 1995",
+      "title": "Walk - through metal detector for usein weapon detection - Specificaiton",
+      "committee": "LITD 26"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 5339 : 2021",
+      "title": "Skin Powder for Infants",
+      "committee": "PCD 19"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 15586 : 2021",
+      "title": "Securities - Classification of financial instruments CFI code Second Revision",
+      "committee": "SSD 03"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 3025 : Part 77 : 2021",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 77 Determination of Soluble Silicates by Flow Analysis (FIA and CFA) and Photometric Detection",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 16422 : 2016",
+      "title": "Interoperability specifications of common external power supply (EPS) for use with data - Enabled mobile phones",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 508 : 2022",
+      "title": "Grease Graphited - Specification (fifth revision)",
+      "committee": "PCD 25"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 7704 : 2022",
+      "title": "4-Aminotoluene-3-Sulphonic Acid - Specification (Second Revision)",
+      "committee": "PCD 26"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS/ISO/IEC 22123 : Part 1 : 2021",
+      "title": "Information technology Cloud computing Part 1: Vocabulary",
+      "committee": "LITD 31"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS/ISO 5116 : Part 2 : 2021",
+      "title": "Improving transparency in financial and business reporting Harmonization topics - Part 2: Guidelines for data point modelling",
+      "committee": "SSD 03"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 13450 : Part 1 : 2018",
+      "title": "Medical electrical equipment: Part 1 general requirements for basic safety and essential performance (Second Revision)",
+      "committee": "MHD 15"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS/ISO/IEC/TR 12785 : Part 3 : 2012",
+      "title": "Information technology - Learning education and training - Content packaging Part 3: Best practice and implementation guide",
+      "committee": "LITD 19"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 2083 : 1991",
+      "title": "Flashlights - Specification (Second Revision)",
+      "committee": "ETD 10"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS/ISO 7240 : Part 4 : 2003",
+      "title": "Fire detection and alarm systems: Part 4 power supply equipment",
+      "committee": "CED 22"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 9316 : Part 1 : 2023",
+      "title": "METHODS OF TEST FOR RUBBER LATEX PART 1 DETERMINATION OF SURFACE TENSION RL : 1 ISO 1409:2020 IDT",
+      "committee": "PCD 29"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 16242 : Part 1 : 2014",
+      "title": "Uninterruptible power systems (UPS): Part 1 general and safety requirements for UPS",
+      "committee": "ETD 31"
+    }
+  ],
+  "clauses": [
+    {
+      "clauseNumber": "Clause 1.5",
+      "title": "Components Safety",
+      "content": "Components installed in information technology equipment must comply with the relevant safety requirements to protect operators against electric shock.",
+      "isMandatory": true
+    },
+    {
+      "clauseNumber": "Clause 2.1",
+      "title": "Protection Against Electric Shock",
+      "content": "Accessible parts shall not be live under normal and single-fault conditions; insulation clearances and creepage distances must be strictly maintained.",
+      "isMandatory": true
+    }
+  ],
+  "qco": null
+}

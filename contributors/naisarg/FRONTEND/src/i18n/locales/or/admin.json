@@ -1,0 +1,57 @@
+{
+  "title": "ଉପଯୋଗ ଵିଶ୍ଲେଷିକୀ",
+  "groundednessRate": "ଆଧାରିତ ଉତ୍ତର କୀ ଦର",
+  "declineRate": "ଅସ୍ଵୀକୃତି ଦର",
+  "totalQueries": "କୁଲ ପ୍ରଶ୍ନ",
+  "trendUpAriaLabel": "ପିଛଲୀ ଅଵଧି କୀ ତୁଲନା ମେଂ {{value}}% ଵୃଦ୍ଧି",
+  "trendDownAriaLabel": "ପିଛଲୀ ଅଵଧି କୀ ତୁଲନା ମେଂ {{value}}% ଗିରାଵଟ",
+  "topicsChartTitle": "ଶୀର୍ଷ ପ୍ରଶ୍ନ ଵିଷଯ",
+  "topicsAverageLabel": "ଔସତ: {{value}}",
+  "queriesChartTitle": "ସମଯ କେ ସାଥ ପ୍ରଶ୍ନ (ପିଛଲେ 7 ଦିନ)",
+  "queriesLabel": "ପ୍ରଶ୍ନ",
+  "topics": {
+    "helmets": "ହେଲମେଟ",
+    "appliances": "ଉପକରଣ",
+    "gold": "ସୋନେ କେ ଆଭୂଷଣ",
+    "water": "ପୈକେଜ୍ଡ ପାନୀ",
+    "cookers": "ପ୍ରେଶର କୁକର",
+    "toys": "ଖିଲୌନେ"
+  },
+  "days": {
+    "mon": "ସୋମ",
+    "tue": "ମଂଗଲ",
+    "wed": "ବୁଧ",
+    "thu": "ଗୁରୁ",
+    "fri": "ଶୁକ୍ର",
+    "sat": "ଶନି",
+    "sun": "ରଵି"
+  },
+  "documents": {
+    "pageTitle": "ଦସ୍ତାଵେଜ଼ ପ୍ରବଂଧନ",
+    "dropzone": {
+      "title": "ଫ଼ାଇଲେଂ ଯହାଁ ଖୀଂଚେଂ ଔର ଛୋଡ଼େଂ, ଯା ବ୍ରାଉଜ଼ କରନେ କେ ଲିଏ କ୍ଲିକ କରେଂ",
+      "hint": "PDF, DOC, ଯା DOCX"
+    },
+    "table": {
+      "name": "ଦସ୍ତାଵେଜ଼ କା ନାମ",
+      "category": "ଶ୍ରେଣୀ",
+      "status": "ସ୍ଥିତି",
+      "lastUpdated": "ଅଂତିମ ଅଦ୍ଯତନ",
+      "actions": "କାର୍ଯ"
+    },
+    "status": {
+      "queued": "କତାରବଦ୍ଧ",
+      "processing": "ସଂସାଧିତ ହୋ ରହା ହୈ",
+      "indexed": "ଅନୁକ୍ରମିତ",
+      "failed": "ଵିଫଲ"
+    },
+    "reingest": "ପୁନଃ-ପ୍ରୋସେସ କରେଂ",
+    "retire": "ହଟାଏଁ",
+    "uncategorized": "ଅଵର୍ଗୀକୃତ",
+    "emptyState": "ଅଭୀ କୋଈ ଦସ୍ତାଵେଜ଼ ନହୀଂ — ଶୁରୂ କରନେ କେ ଲିଏ ଊପର ଏକ ଅପଲୋଡ କରେଂ୤"
+  },
+  "opsOnline": "SAATHI ସଂଚାଲନ ସକ୍ରିଯ",
+  "statusOptimal": "ଉତ୍କୃଷ୍ଟ",
+  "statusLive": "ଲାଇଵ",
+  "statusWatch": "ନିଗରାନୀ"
+}

@@ -1,0 +1,50 @@
+{
+  "eyebrow": "STATUTORY INVOICES & GST RECEIPTS",
+  "heading": "Fee Invoices & GST-Compliant Receipts",
+  "subheading": "Manage statutory fee schedules, itemized GST breakdowns, and download receipts.",
+  "metrics": {
+    "totalInvoices": "Total Invoices",
+    "paidAmount": "Total Settled Amount",
+    "pendingAmount": "Pending Statutory Dues",
+    "paidCount": "Settled Receipts",
+    "pendingCount": "Pending Invoices"
+  },
+  "status": {
+    "paid": "PAID & RECONCILED",
+    "pending": "PENDING PAYMENT",
+    "overdue": "PAYMENT OVERDUE"
+  },
+  "categories": {
+    "applicationGrant": "Application Grant Fee",
+    "annualMarkingFee": "Annual Minimum Marking Fee",
+    "factorySurveillance": "Factory Surveillance Audit Fee",
+    "labTesting": "Laboratory Testing Surcharge"
+  },
+  "labels": {
+    "invoiceNumber": "Invoice Number",
+    "invoiceDate": "Invoice Date",
+    "dueDate": "Payment Due Date",
+    "billedTo": "Billed To (Applicant)",
+    "issuingAuthority": "Issuing Authority",
+    "sacCode": "SAC Code",
+    "description": "Item Description",
+    "rate": "Unit Rate",
+    "amount": "Taxable Amount",
+    "subtotal": "Subtotal (Taxable)",
+    "cgst": "CGST (9%)",
+    "sgst": "SGST (9%)",
+    "igst": "IGST (18%)",
+    "total": "Total Amount Payable",
+    "receiptTitle": "SAATHI PAYMENT RECEIPT",
+    "receiptNumber": "Receipt Number",
+    "receiptDate": "Payment Date & Time",
+    "paymentMode": "Mode of Remittance",
+    "utr": "Transaction Reference / UTR",
+    "amountInWords": "Amount in Words",
+    "viewInvoice": "View Invoice",
+    "viewReceipt": "View Receipt",
+    "downloadPdf": "Print / Download PDF",
+    "settleDemo": "Settle Payment"
+  },
+  "disclaimer": "SAATHI TAX INVOICE"
+}

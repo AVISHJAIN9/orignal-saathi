@@ -1,0 +1,161 @@
+{
+  "pageTitle": "Business Account & Team",
+  "pageSubtitle": "Manage organization compliance members, roles, permissions, invitations, and shared workspace activity.",
+  "badge": "Business Account",
+  "tabs": {
+    "members": "Team Members",
+    "invitations": "Pending Invitations",
+    "roles": "Roles & Permissions",
+    "workspace": "Workspace Context",
+    "activity": "Activity Audit Log"
+  },
+  "stats": {
+    "totalMembers": "Total Members",
+    "activeMembers": "Active Members",
+    "pendingInvites": "Pending Invites",
+    "assignedApps": "Active Applications"
+  },
+  "businessInfo": {
+    "title": "Organization Profile",
+    "entityType": "Entity Type",
+    "gstin": "GSTIN",
+    "cin": "CIN / Registration No.",
+    "registeredAddress": "Registered Address",
+    "currentRole": "Your Role in Business",
+    "switchWorkspace": "Switch Workspace",
+    "verifiedBusiness": "Verified BIS Enterprise"
+  },
+  "members": {
+    "searchPlaceholder": "Search members by name or email...",
+    "filterRoleAll": "All Roles",
+    "filterStatusAll": "All Statuses",
+    "inviteMember": "Invite Member",
+    "noMembers": "No team members found matching your search.",
+    "youBadge": "You",
+    "actions": "Actions",
+    "viewDetails": "View Details",
+    "changeRole": "Change Role",
+    "removeMember": "Remove Member",
+    "joined": "Joined",
+    "assignedModules": "Assigned Modules",
+    "status": {
+      "active": "Active",
+      "pending": "Pending",
+      "expired": "Expired",
+      "cancelled": "Cancelled",
+      "declined": "Declined",
+      "deactivated": "Deactivated"
+    }
+  },
+  "roles": {
+    "owner": "Business Owner / Authorized Signatory",
+    "complianceManager": "Compliance Manager",
+    "documentationLead": "Documentation Lead",
+    "testingEngineer": "Testing & Quality Engineer",
+    "financialOfficer": "Financial & Accounts Officer",
+    "auditorViewer": "Auditor / Read-only Viewer",
+    "descriptions": {
+      "owner": "Full administrative control over business profile, team members, applications, legal disputes, and compliance sign-offs.",
+      "complianceManager": "Oversees standard compliance, regulatory radar, officer inspection visits, and compliance gap closures.",
+      "documentationLead": "Manages document vault, official scrutiny corrections, test report uploads, and undertakings.",
+      "testingEngineer": "Coordinates laboratory matching, sample test tracking, test parameter review, and STI compliance.",
+      "financialOfficer": "Manages certification fee payments, receipt reconciliation, and treasury compliances.",
+      "auditorViewer": "Read-only access to compliance chains, applications, and audit reports without modification rights."
+    }
+  },
+  "permissions": {
+    "canManageBusiness": "Manage Business Profile & Settings",
+    "canInviteMembers": "Invite & Onboard Team Members",
+    "canChangeRoles": "Modify Member Roles & Permissions",
+    "canRemoveMembers": "Revoke Member Workspace Access",
+    "canManageDocuments": "Resubmit & Correct Scrutiny Documents",
+    "canManagePayments": "View & Authorize Fee Payments",
+    "canViewCompliance": "Access Full Compliance Chain",
+    "canManageVisits": "Schedule & Manage Officer Inspection Visits",
+    "canSubmitAppeals": "Lodge & Manage Official Appeals",
+    "canReviewAlerts": "Manage Regulatory Change Alerts",
+    "canAccessTesting": "Manage Testing & Laboratory Matcher"
+  },
+  "invitations": {
+    "title": "Pending Team Invitations",
+    "subtitle": "Invitations sent to team members awaiting acceptance.",
+    "noPending": "No pending invitations. All invited members have joined.",
+    "invitedBy": "Invited by",
+    "sentOn": "Sent on",
+    "expiresOn": "Expires on",
+    "cancelInvite": "Cancel Invitation",
+    "resendInvite": "Resend Invitation",
+    "dialogTitle": "Invite Team Member",
+    "dialogDesc": "Send an email invitation to add a colleague to this shared business compliance workspace.",
+    "emailLabel": "Work Email Address",
+    "emailPlaceholder": "colleague@organization.com",
+    "roleLabel": "Assigned Role",
+    "messageLabel": "Personal Note (Optional)",
+    "messagePlaceholder": "Join our BIS compliance workspace for Apex Engineering...",
+    "sendButton": "Send Invitation",
+    "sending": "Sending Invitation...",
+    "cancel": "Cancel",
+    "successTitle": "Invitation Sent Successfully",
+    "successDesc": "An invitation link with pre-assigned permissions has been dispatched to {{email}}.",
+    "cancelledSuccess": "Invitation has been cancelled.",
+    "resentSuccess": "Invitation has been resent to {{email}}."
+  },
+  "details": {
+    "title": "Team Member Profile",
+    "contactInfo": "Contact Details",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "roleAndStatus": "Role & Workspace Status",
+    "role": "Role",
+    "status": "Account Status",
+    "joinedDate": "Date Joined",
+    "permissionsTitle": "Authoritative Workspace Permissions",
+    "assignedTitle": "Assigned Responsibilities",
+    "recentActivityTitle": "Recent Member Activity",
+    "noActivity": "No recent individual activity logged for this member.",
+    "close": "Close"
+  },
+  "changeRole": {
+    "title": "Change Member Role",
+    "desc": "Update workspace permissions and access rights for {{name}}.",
+    "currentRole": "Current Role",
+    "newRole": "New Role",
+    "permissionChanges": "Permission Capabilities Preview",
+    "save": "Save Role Changes",
+    "saving": "Saving...",
+    "success": "Role for {{name}} updated to {{role}} successfully."
+  },
+  "removeMember": {
+    "title": "Remove Team Member?",
+    "desc": "Are you sure you want to remove {{name}} ({{email}}) from this business account? They will immediately lose access to all shared applications, documents, and compliance records.",
+    "confirm": "Remove Member",
+    "removing": "Removing...",
+    "cancel": "Keep Member",
+    "success": "{{name}} has been removed from this business workspace."
+  },
+  "workspaceSwitcher": {
+    "title": "Switch Business Workspace",
+    "desc": "Select a registered business organization to switch your active compliance context.",
+    "current": "Current Active Workspace",
+    "switch": "Switch to this Workspace",
+    "switching": "Switching...",
+    "allWorkspaces": "Your Organizations"
+  },
+  "activity": {
+    "title": "Business Activity & Audit Trail",
+    "subtitle": "Immutable, chronological log of compliance actions taken across this business account.",
+    "filterAll": "All Activities",
+    "noActivity": "No business activities recorded yet.",
+    "today": "Today",
+    "earlier": "Earlier",
+    "viewAction": "View Details"
+  },
+  "errors": {
+    "loadFailed": "Failed to load business account data. Please check your network or try again.",
+    "retry": "Retry",
+    "unauthorized": "You don't have permission to perform this action.",
+    "inviteFailed": "Failed to send invitation. Please verify the email and try again.",
+    "roleUpdateFailed": "Unable to update role. The member's role was not changed.",
+    "removeFailed": "Unable to remove team member. Access remains unchanged."
+  }
+}
