@@ -1,0 +1,53 @@
+{
+  "trigger": "اپنے مصنوعہ کی وضاحت کرنے میں غیر یقینی ہیں؟",
+  "dialogTitle": "مصنوعہ درجہ بندی وزرڈ",
+  "dialogDescription": "چند فوری سوالات کے جواب دیں اور ہم انہیں SAATHI کے لیے ایک سوال میں بدل دیں گے۔",
+  "stepOf": "مرحلہ {{current}} از {{total}}",
+  "back": "پیچھے",
+  "getAnswer": "جواب حاصل کریں",
+  "steps": {
+    "category": {
+      "question": "آپ کا مصنوعہ کس زمرے کا ہے؟",
+      "options": {
+        "helmets": { "label": "ذاتی حفاظت", "clause": "ذاتی حفاظت" },
+        "appliances": { "label": "گھریلو آلات", "clause": "گھریلو آلہ" },
+        "gold": { "label": "زیورات", "clause": "زیورات" },
+        "water": { "label": "خوراک اور پانی", "clause": "خوراک یا پانی" },
+        "cookers": { "label": "برتن", "clause": "برتن" },
+        "toys": { "label": "کھلونے", "clause": "کھلونا" }
+      }
+    },
+    "audience": {
+      "question": "یہ کس کے لیے ہے؟",
+      "options": {
+        "consumer": { "label": "صارف کا استعمال", "clause": "صارف کا استعمال" },
+        "commercial": { "label": "تجارتی فروخت", "clause": "تجارتی فروخت" },
+        "import": { "label": "درآمد", "clause": "درآمد" }
+      }
+    },
+    "need": {
+      "question": "آپ کیا جاننا چاہتے ہیں؟",
+      "options": {
+        "standard": {
+          "label": "کون سا معیار لاگو ہوتا ہے",
+          "questionText": "اس پر کون سا معیار لاگو ہوتا ہے؟"
+        },
+        "certification": {
+          "label": "تصدیقی عمل",
+          "questionText": "تصدیقی عمل کیا ہے؟"
+        },
+        "testing": {
+          "label": "جانچ کی ضروریات",
+          "questionText": "اسے کن جانچ کی ضروریات پر پورا اترنا ہوگا؟"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "اپنے جوابات کا جائزہ لیں",
+    "category": "زمرہ",
+    "audience": "استعمال کا معاملہ",
+    "need": "آپ جاننا چاہتے ہیں"
+  },
+  "generatedQuestion": "میرے پاس {{audience}} کے لیے ایک {{category}} مصنوعہ ہے۔ {{needQuestion}}"
+}

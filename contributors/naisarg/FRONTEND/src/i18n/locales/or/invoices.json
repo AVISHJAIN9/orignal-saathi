@@ -1,0 +1,50 @@
+{
+  "eyebrow": "S24 · ବିଧିବଦ୍ଧ ଇନଭଏସ୍ ଏବଂ GST ରସିଦ",
+  "heading": "ଶୁଳ୍କ ଇନଭଏସ୍ ଏବଂ GST-ଅନୁପାଳକ ରସିଦ",
+  "subheading": "ବିଧିବଦ୍ଧ ଶୁଳ୍କ ସୂଚୀ, ବିସ୍ତୃତ GST ବିଭାଜନ ପରିଚାଳନା କରନ୍ତୁ, ଏବଂ ରସିଦ ଡାଉନଲୋଡ୍ କରନ୍ତୁ।",
+  "metrics": {
+    "totalInvoices": "ମୋଟ ଇନଭଏସ୍",
+    "paidAmount": "ମୋଟ ପ୍ରଦତ୍ତ ରାଶି",
+    "pendingAmount": "ବିଚାରାଧୀନ ବିଧିବଦ୍ଧ ଦେୟ",
+    "paidCount": "ପ୍ରଦତ୍ତ ରସିଦ",
+    "pendingCount": "ବିଚାରାଧୀନ ଇନଭଏସ୍"
+  },
+  "status": {
+    "paid": "ପ୍ରଦତ୍ତ ଏବଂ ମେଳାଯାଇଛି",
+    "pending": "ଦେୟ ବିଚାରାଧୀନ",
+    "overdue": "ଦେୟ ବିଳମ୍ବିତ"
+  },
+  "categories": {
+    "applicationGrant": "ଆବେଦନ ମଞ୍ଜୁରୀ ଶୁଳ୍କ",
+    "annualMarkingFee": "ବାର୍ଷିକ ସର୍ବନିମ୍ନ ଚିହ୍ନଙ୍କନ ଶୁଳ୍କ",
+    "factorySurveillance": "କାରଖାନା ନିରୀକ୍ଷଣ ଅଡିଟ୍ ଶୁଳ୍କ",
+    "labTesting": "ପରୀକ୍ଷାଗାର ପରୀକ୍ଷଣ ଅଧିଭାର"
+  },
+  "labels": {
+    "invoiceNumber": "ଇନଭଏସ୍ ସଂଖ୍ୟା",
+    "invoiceDate": "ଇନଭଏସ୍ ତାରିଖ",
+    "dueDate": "ଦେୟ ନିର୍ଦ୍ଧାରିତ ତାରିଖ",
+    "billedTo": "ବିଲ୍ ପ୍ରାପ୍ତକର୍ତ୍ତା (ଆବେଦନକାରୀ)",
+    "issuingAuthority": "ଜାରିକାରୀ ପ୍ରାଧିକରଣ",
+    "sacCode": "SAC କୋଡ୍",
+    "description": "ବସ୍ତୁ ବିବରଣୀ",
+    "rate": "ଏକକ ହାର",
+    "amount": "କର ଯୋଗ୍ୟ ରାଶି",
+    "subtotal": "ଉପ-ମୋଟ (କର ଯୋଗ୍ୟ)",
+    "cgst": "CGST (9%)",
+    "sgst": "SGST (9%)",
+    "igst": "IGST (18%)",
+    "total": "ମୋଟ ଦେୟ ରାଶି",
+    "receiptTitle": "SAATHI ପ୍ରଦର୍ଶନ ଦେୟ ରସିଦ",
+    "receiptNumber": "ରସିଦ ସଂଖ୍ୟା",
+    "receiptDate": "ଦେୟ ତାରିଖ ଏବଂ ସମୟ",
+    "paymentMode": "ପ୍ରେଷଣ ମାଧ୍ୟମ",
+    "utr": "କାରବାର ସନ୍ଦର୍ଭ / UTR",
+    "amountInWords": "ଶବ୍ଦରେ ରାଶି",
+    "viewInvoice": "ଇନଭଏସ୍ ଦେଖନ୍ତୁ",
+    "viewReceipt": "ରସିଦ ଦେଖନ୍ତୁ",
+    "downloadPdf": "ପ୍ରିଣ୍ଟ / PDF ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "settleDemo": "ଦେୟ କରନ୍ତୁ"
+  },
+  "disclaimer": "SAATHI ପ୍ରଦର୍ଶନ ଇନଭଏସ୍ — କେବଳ SIH 2026 ମୂଲ୍ୟାଙ୍କନ ପାଇଁ — ଆଧିକାରିକ ସରକାରୀ କର ଇନଭଏସ୍ ନୁହେଁ"
+}

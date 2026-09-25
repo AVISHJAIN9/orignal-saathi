@@ -1,0 +1,84 @@
+{
+  "eyebrow": "TESTING & LABORATORY INTELLIGENCE",
+  "title": "Intelligent Laboratory Matcher",
+  "subtitle": "Find verified laboratories capable of performing the testing required for your product.",
+  "context": {
+    "title": "PRODUCT & TESTING CONTEXT",
+    "product": "Product",
+    "standard": "Standard",
+    "scheme": "Scheme",
+    "requiredTestsCount": "Required Tests",
+    "noStandardWarning": "We need an applicable Indian Standard before identifying required testing.",
+    "chooseStandard": "Choose Standard",
+    "selectProduct": "Select Product"
+  },
+  "requiredTests": {
+    "title": "REQUIRED TESTS",
+    "mandatoryCount_one": "{{count}} mandatory test",
+    "mandatoryCount_other": "{{count}} mandatory tests",
+    "noTestsWarning": "No verified testing requirements were found for this compliance path."
+  },
+  "preferences": {
+    "title": "PREFERENCES & FILTERS",
+    "locationLabel": "Location / City",
+    "locationPlaceholder": "e.g. Bengaluru, Delhi, Mumbai",
+    "distanceLabel": "Max Distance",
+    "distanceAny": "Any Distance",
+    "distance50": "Within 50 km",
+    "distance100": "Within 100 km",
+    "distance250": "Within 250 km",
+    "distance500": "Within 500 km",
+    "accreditationLabel": "Accreditation Filter",
+    "accreditationAll": "All Laboratories",
+    "accreditationVerified": "Verified Accreditation Only",
+    "findLabsButton": "Find Laboratories",
+    "searchingLabs": "Finding laboratories..."
+  },
+  "results": {
+    "bestMatchHeading": "BEST MATCH",
+    "otherMatchesHeading": "OTHER MATCHES",
+    "viewDetails": "View Details",
+    "selectLab": "Select Laboratory",
+    "labSelected": "Laboratory Selected",
+    "matchScore": "{{score}}% MATCH",
+    "testsCovered": "{{covered}} / {{total}} tests covered",
+    "fullCoverage": "Full Test Coverage Verified",
+    "partialCoverage": "Partial Test Coverage",
+    "verified": "Verified",
+    "unverified": "Unverified",
+    "unknown": "Capability Unknown",
+    "locationFit": "Location: {{location}}",
+    "distanceKm": "{{distance}} km away"
+  },
+  "breakdown": {
+    "title": "MATCH SCORE BREAKDOWN",
+    "testCoverage": "Test Coverage",
+    "standardMatch": "Standard Match",
+    "accreditation": "Accreditation",
+    "locationFit": "Location Fit"
+  },
+  "details": {
+    "title": "Laboratory Profile & Capabilities",
+    "location": "Location",
+    "capabilities": "Test Capabilities",
+    "standards": "Relevant Indian Standards",
+    "accreditation": "Accreditation Status",
+    "contact": "Verified Contact Info",
+    "source": "Official Source Verification",
+    "viewSource": "View Official Source",
+    "viewWebsite": "View Official Website",
+    "email": "Email",
+    "phone": "Phone",
+    "close": "Close"
+  },
+  "states": {
+    "noMatchesTitle": "No Verified Laboratories Found",
+    "noMatchesMsg": "No verified laboratory matching the required testing was found for your current criteria.",
+    "partialMatchesNotice": "No single verified laboratory covers all required tests. Showing best available partial matches.",
+    "errorTitle": "Laboratory Matching Unavailable",
+    "errorMsg": "Laboratory matching is temporarily unavailable.",
+    "retry": "Retry Search",
+    "emptyContextTitle": "Specify Compliance Context",
+    "emptyContextMsg": "Tell us which product or compliance path you are working with to identify required testing and suitable laboratories."
+  }
+}

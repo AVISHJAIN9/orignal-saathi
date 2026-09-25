@@ -1,0 +1,50 @@
+{
+  "eyebrow": "S24 · ਵਿਧਾਨਕ ਚਲਾਨ ਅਤੇ GST ਰਸੀਦਾਂ",
+  "heading": "ਫ਼ੀਸ ਚਲਾਨ ਅਤੇ GST-ਅਨੁਕੂਲ ਰਸੀਦਾਂ",
+  "subheading": "ਵਿਧਾਨਕ ਫ਼ੀਸ ਅਨੁਸੂਚੀਆਂ, ਵਿਸਤ੍ਰਿਤ GST ਵੇਰਵਿਆਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ, ਅਤੇ ਰਸੀਦਾਂ ਡਾਊਨਲੋਡ ਕਰੋ।",
+  "metrics": {
+    "totalInvoices": "ਕੁੱਲ ਚਲਾਨ",
+    "paidAmount": "ਕੁੱਲ ਚੁਕਤਾ ਰਾਸ਼ੀ",
+    "pendingAmount": "ਬਕਾਇਆ ਵਿਧਾਨਕ ਦੇਣਦਾਰੀਆਂ",
+    "paidCount": "ਚੁਕਤਾ ਰਸੀਦਾਂ",
+    "pendingCount": "ਬਕਾਇਆ ਚਲਾਨ"
+  },
+  "status": {
+    "paid": "ਭੁਗਤਾਨ ਪੂਰਾ ਅਤੇ ਮੇਲ ਖਾਂਦਾ",
+    "pending": "ਭੁਗਤਾਨ ਬਕਾਇਆ",
+    "overdue": "ਭੁਗਤਾਨ ਮਿਆਦ ਲੰਘਿਆ"
+  },
+  "categories": {
+    "applicationGrant": "ਅਰਜ਼ੀ ਗ੍ਰਾਂਟ ਫ਼ੀਸ",
+    "annualMarkingFee": "ਸਾਲਾਨਾ ਘੱਟੋ-ਘੱਟ ਮਾਰਕਿੰਗ ਫ਼ੀਸ",
+    "factorySurveillance": "ਫੈਕਟਰੀ ਨਿਗਰਾਨੀ ਆਡਿਟ ਫ਼ੀਸ",
+    "labTesting": "ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਟੈਸਟਿੰਗ ਸਰਚਾਰਜ"
+  },
+  "labels": {
+    "invoiceNumber": "ਚਲਾਨ ਨੰਬਰ",
+    "invoiceDate": "ਚਲਾਨ ਮਿਤੀ",
+    "dueDate": "ਭੁਗਤਾਨ ਦੀ ਨਿਯਤ ਮਿਤੀ",
+    "billedTo": "ਬਿਲ ਪ੍ਰਾਪਤਕਰਤਾ (ਅਰਜ਼ੀਕਾਰ)",
+    "issuingAuthority": "ਜਾਰੀਕਰਤਾ ਪ੍ਰਾਧਿਕਰਨ",
+    "sacCode": "SAC ਕੋਡ",
+    "description": "ਮੱਦ ਵੇਰਵਾ",
+    "rate": "ਇਕਾਈ ਦਰ",
+    "amount": "ਕਰਯੋਗ ਰਾਸ਼ੀ",
+    "subtotal": "ਉਪ-ਜੋੜ (ਕਰਯੋਗ)",
+    "cgst": "CGST (9%)",
+    "sgst": "SGST (9%)",
+    "igst": "IGST (18%)",
+    "total": "ਕੁੱਲ ਦੇਣਯੋਗ ਰਾਸ਼ੀ",
+    "receiptTitle": "SAATHI ਪ੍ਰਦਰਸ਼ਨ ਭੁਗਤਾਨ ਰਸੀਦ",
+    "receiptNumber": "ਰਸੀਦ ਨੰਬਰ",
+    "receiptDate": "ਭੁਗਤਾਨ ਮਿਤੀ ਅਤੇ ਸਮਾਂ",
+    "paymentMode": "ਪ੍ਰੇਸ਼ਣ ਮਾਧਿਅਮ",
+    "utr": "ਲੈਣ-ਦੇਣ ਸੰਦਰਭ / UTR",
+    "amountInWords": "ਸ਼ਬਦਾਂ ਵਿੱਚ ਰਾਸ਼ੀ",
+    "viewInvoice": "ਚਲਾਨ ਵੇਖੋ",
+    "viewReceipt": "ਰਸੀਦ ਵੇਖੋ",
+    "downloadPdf": "ਪ੍ਰਿੰਟ / PDF ਡਾਊਨਲੋਡ ਕਰੋ",
+    "settleDemo": "ਭੁਗਤਾਨ ਕਰੋ"
+  },
+  "disclaimer": "SAATHI ਪ੍ਰਦਰਸ਼ਨ ਚਲਾਨ — ਸਿਰਫ਼ SIH 2026 ਮੁਲਾਂਕਣ ਲਈ — ਕੋਈ ਅਧਿਕਾਰਤ ਸਰਕਾਰੀ ਟੈਕਸ ਚਲਾਨ ਨਹੀਂ"
+}

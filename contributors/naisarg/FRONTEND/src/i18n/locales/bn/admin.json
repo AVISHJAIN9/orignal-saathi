@@ -1,0 +1,57 @@
+{
+  "title": "ব্যবহারের বিশ্লেষণ",
+  "groundednessRate": "ভিত্তিযুক্ত উত্তরের হার",
+  "declineRate": "প্রত্যাখ্যানের হার",
+  "totalQueries": "মোট প্রশ্ন",
+  "trendUpAriaLabel": "পূর্ববর্তী সময়ের তুলনায় {{value}}% বৃদ্ধি",
+  "trendDownAriaLabel": "পূর্ববর্তী সময়ের তুলনায় {{value}}% হ্রাস",
+  "topicsChartTitle": "শীর্ষ প্রশ্নের বিষয়",
+  "topicsAverageLabel": "গড়: {{value}}",
+  "queriesChartTitle": "সময়ের সঙ্গে প্রশ্ন (গত ৭ দিন)",
+  "queriesLabel": "প্রশ্ন",
+  "topics": {
+    "helmets": "হেলমেট",
+    "appliances": "যন্ত্রপাতি",
+    "gold": "সোনার গয়না",
+    "water": "প্যাকেজড জল",
+    "cookers": "প্রেশার কুকার",
+    "toys": "খেলনা"
+  },
+  "days": {
+    "mon": "সোম",
+    "tue": "মঙ্গল",
+    "wed": "বুধ",
+    "thu": "বৃহ",
+    "fri": "শুক্র",
+    "sat": "শনি",
+    "sun": "রবি"
+  },
+  "documents": {
+    "pageTitle": "নথি ব্যবস্থাপনা",
+    "dropzone": {
+      "title": "ফাইলগুলি এখানে টেনে আনুন, অথবা ব্রাউজ করতে ক্লিক করুন",
+      "hint": "PDF, DOC, অথবা DOCX"
+    },
+    "table": {
+      "name": "নথির নাম",
+      "category": "বিভাগ",
+      "status": "অবস্থা",
+      "lastUpdated": "সর্বশেষ আপডেট",
+      "actions": "কার্যক্রম"
+    },
+    "status": {
+      "queued": "সারিবদ্ধ",
+      "processing": "প্রক্রিয়াকরণ চলছে",
+      "indexed": "সূচিবদ্ধ",
+      "failed": "ব্যর্থ"
+    },
+    "reingest": "পুনরায় প্রক্রিয়া করুন",
+    "retire": "অপসারণ করুন",
+    "uncategorized": "অশ্রেণীবদ্ধ",
+    "emptyState": "এখনও কোনো নথি নেই — শুরু করতে উপরে একটি আপলোড করুন।"
+  },
+  "opsOnline": "SAATHI অপারেশনস অনলাইন",
+  "statusOptimal": "সর্বোত্তম",
+  "statusLive": "লাইভ",
+  "statusWatch": "পর্যবেক্ষণ"
+}

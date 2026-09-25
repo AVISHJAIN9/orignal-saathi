@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — ಅನುಪಾಲನ ಑ರ್ಕೇಸ್ಟ್ರೇಶನ",
+  "heading": "ಅನುಪಾಲನ ಶ್ರೃಂಖಲಾ (Compliance Chain)",
+  "subheading": "ಉತ್ಪಾದ ವರ್ಗೀಕರಣ ಸೇ ಪ್ರಮಾಣನ ತಕ ಆಪಕೀ ಸಂಪೂರ್ಣ ಬೀಆಈಏಸ ಅನುಪಾಲನ ಯಾತ್ರಾ೤",
+  "productContext": {
+    "product": "ಉತ್ಪಾದ",
+    "standard": "ಮಾನಕ (Standard)",
+    "status": "ವರ್ತಮಾನ ಸ್ಥಿತಿ",
+    "selectProduct": "ಉತ್ಪಾದ ಸಂದರ್ಭ ಚುನೇಂ",
+    "customQuery": "ಕಸ್ಟಮ ಉತ್ಪಾದ ಖೋಜೇಂ"
+  },
+  "currentPosition": {
+    "title": "ವರ್ತಮಾನ ಸ್ಥಿತಿ",
+    "completedHeading": "ಆಪನೇ ಪೂರಾ ಕರ ಲಿಯಾ ಹೈ:",
+    "nextRequiredHeading": "ಆಪಕೀ ಅಗಲೀ ಆವಶ್ಯಕ ಕಾರ್ರವಾಈ ಹೈ:",
+    "noCompletedYet": "ಅಭೀ ತಕ ಕೋಈ ಚರಣ ಪೂರಾ ನಹೀಂ ಹುಆ ಹೈ೤",
+    "continueAction": "ಯಾತ್ರಾ ಜಾರೀ ರಖೇಂ"
+  },
+  "nextBestAction": {
+    "title": "ಸರ್ವೋತ್ತಮ ಅಗಲೀ ಕಾರ್ರವಾಈ (Next Best Action)",
+    "takeAction": "ಕಾರ್ರವಾಈ ಕರೇಂ",
+    "viewDetails": "ವಿವರಣ ದೇಖೇಂ"
+  },
+  "chainJourney": {
+    "title": "ಅನುಪಾಲನ ಯಾತ್ರಾ",
+    "subtitle": "ಅನಿವಾರ್ಯ ಬೀಆಈಏಸ ನಿಯಾಮಕ ಆವಶ್ಯಕತಾಓಂ ಕೀ ಚರಣ-ದರ-ಚರಣ ಪ್ರಗತಿ",
+    "viewStep": "ದೇಖೇಂ",
+    "evidenceVerified": "ಸಾಕ್ಷ್ಯ ಸತ್ಯಾಪಿತ",
+    "documentsCount": "ದಸ್ತಾವೇಜ಼: {{available}} / {{required}} ಅಪಲೋಡ ಕಿಏ ಗಏ ({{missing}} ಗಾಯಬ)",
+    "sourceLabel": "ಸ್ರೋತ:"
+  },
+  "regulatoryOverview": {
+    "title": "ನಿಯಾಮಕ ಪದಾನುಕ್ರಮ (Regulatory Hierarchy)",
+    "subtitle": "ಬೈಕಏಂಡ ದ್ವಾರಾ ಸತ್ಯಾಪಿತ ಆಧಿಕಾರಿಕ ಮಾನಕ, QCO ಔರ ಯೋಜನಾ ಸಂಬಂಧ",
+    "standardLabel": "ಭಾರತೀಯ ಮಾನಕ (IS)",
+    "qcoLabel": "QCO ಸ್ಥಿತಿ",
+    "schemeLabel": "ಬೀಆಈಏಸ ಯೋಜನಾ",
+    "viewSource": "ಸ್ರೋತ ದೇಖೇಂ",
+    "unverifiedSource": "ಸರ್ವರ ದ್ವಾರಾ ಸ್ರೋತ ವಿವರಣ ಅಸತ್ಯಾಪಿತ"
+  },
+  "states": {
+    "completed": "ಪೂರ್ಣ (Completed)",
+    "actionRequired": "ಕಾರ್ರವಾಈ ಆವಶ್ಯಕ (Action Required)",
+    "blocked": "ಅವರುದ್ಧ (Blocked)",
+    "notStarted": "ಶುರೂ ನಹೀಂ ಹುಆ (Not Started)",
+    "notApplicable": "ಲಾಗೂ ನಹೀಂ (Not Applicable)",
+    "unavailable": "ನಿರ್ಧಾರಿತ ಕರನೇ ಮೇಂ ಅಸಮರ್ಥ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "ವರ್ಗೀಕರಣ",
+    "standard": "ಭಾರತೀಯ ಮಾನಕ",
+    "qco": "ಗುಣವತ್ತಾ ನಿಯಂತ್ರಣ ಆದೇಶ (QCO)",
+    "scheme": "ಬೀಆಈಏಸ ಯೋಜನಾ",
+    "requirements": "ತಕನೀಕೀ ಆವಶ್ಯಕತಾಏಂ",
+    "testing": "ಉತ್ಪಾದ ಪರೀಕ್ಷಣ",
+    "laboratory": "ಪ್ರಯೋಗಶಾಲಾ ಮಿಲಾನ",
+    "documents": "ಅನುಪಾಲನ ತಿಜೋರೀ / ದಸ್ತಾವೇಜ಼",
+    "compliance": "ಅನುಪಾಲನ ಅಂತರ",
+    "readiness": "ಆವೇದನ ತೈಯಾರೀ",
+    "certification": "ಬೀಆಈಏಸ ಪ್ರಮಾಣನ",
+    "radar": "ನಿಯಾಮಕ ನಿಗರಾನೀ"
+  },
+  "errors": {
+    "title": "ಅಭೀ ಅನುಪಾಲನ ಯಾತ್ರಾ ಲೋಡ ನಹೀಂ ಕೀ ಜಾ ಸಕೀ",
+    "description": "ಹಮ ಅನುಪಾಲನ ಸೇವಾ ಸೇ ನಹೀಂ ಜುಡ಼ ಸಕೇ೤ ಕೃಪಯಾ ಪುನಃ ಪ್ರಯಾಸ ಕರೇಂ೤",
+    "retry": "ಪುನಃ ಪ್ರಯಾಸ ಕರೇಂ",
+    "emptyTitle": "ಕೋಈ ಅನುಪಾಲನ ಯಾತ್ರಾ ನಹೀಂ ಮಿಲೀ",
+    "emptyDescription": "ಅನುಪಾಲನ ಶ್ರೃಂಖಲಾ ಪ್ರಸ್ತುತ ಕರನೇ ಕೇ ಲಿಏ ಕೋಈ ಉತ್ಪಾದ ಸಂದರ್ಭ ಯಾ ಸತ್ರ ಪೈರಾಮೀಟರ ನಹೀಂ ಮಿಲೇ೤"
+  }
+}

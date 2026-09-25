@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — পরিপালন অর্কেস্ট্রেশন",
+  "heading": "পরিপালন চেইন",
+  "subheading": "পণ্য শ্রেণীবিভাগ থেকে প্রত্যয়ন পর্যন্ত আপনার সম্পূর্ণ BIS পরিপালন যাত্রা।",
+  "productContext": {
+    "product": "পণ্য",
+    "standard": "মান",
+    "status": "বর্তমান অবস্থা",
+    "selectProduct": "পণ্যের প্রসঙ্গ নির্বাচন করুন",
+    "customQuery": "কাস্টম পণ্য অনুসন্ধান করুন"
+  },
+  "currentPosition": {
+    "title": "বর্তমান অবস্থান",
+    "completedHeading": "আপনি সম্পন্ন করেছেন:",
+    "nextRequiredHeading": "আপনার পরবর্তী প্রয়োজনীয় পদক্ষেপ:",
+    "noCompletedYet": "এখনও কোনো ধাপ সম্পন্ন হয়নি।",
+    "continueAction": "যাত্রা চালিয়ে যান"
+  },
+  "nextBestAction": {
+    "title": "পরবর্তী সর্বোত্তম পদক্ষেপ",
+    "takeAction": "পদক্ষেপ নিন",
+    "viewDetails": "বিবরণ দেখুন"
+  },
+  "chainJourney": {
+    "title": "পরিপালন যাত্রা",
+    "subtitle": "বাধ্যতামূলক BIS নিয়ন্ত্রক প্রয়োজনীয়তার মধ্য দিয়ে ধাপে ধাপে অগ্রগতি",
+    "viewStep": "দেখুন",
+    "evidenceVerified": "প্রমাণ যাচাইকৃত",
+    "documentsCount": "নথি: {{available}} / {{required}} আপলোড করা হয়েছে ({{missing}}টি অনুপস্থিত)",
+    "sourceLabel": "উৎস:"
+  },
+  "regulatoryOverview": {
+    "title": "নিয়ন্ত্রক অনুক্রম",
+    "subtitle": "ব্যাকএন্ড দ্বারা যাচাইকৃত অফিসিয়াল মান, QCO এবং স্কিম সংযোগ",
+    "standardLabel": "ভারতীয় মান",
+    "qcoLabel": "QCO অবস্থা",
+    "schemeLabel": "BIS স্কিম",
+    "viewSource": "উৎস দেখুন",
+    "unverifiedSource": "সার্ভার দ্বারা উৎসের বিবরণ যাচাই করা হয়নি"
+  },
+  "states": {
+    "completed": "সম্পন্ন",
+    "actionRequired": "পদক্ষেপ প্রয়োজন",
+    "blocked": "অবরুদ্ধ",
+    "notStarted": "শুরু হয়নি",
+    "notApplicable": "প্রযোজ্য নয়",
+    "unavailable": "নির্ধারণ করা যায়নি"
+  },
+  "steps": {
+    "classification": "শ্রেণীবিভাগ",
+    "standard": "ভারতীয় মান",
+    "qco": "গুণমান নিয়ন্ত্রণ আদেশ (QCO)",
+    "scheme": "BIS স্কিম",
+    "requirements": "প্রযুক্তিগত প্রয়োজনীয়তা",
+    "testing": "পণ্য পরীক্ষা",
+    "laboratory": "পরীক্ষাগার মিলকারী",
+    "documents": "পরিপালন ভল্ট / নথি",
+    "compliance": "পরিপালনের ঘাটতি",
+    "readiness": "আবেদনের প্রস্তুতি",
+    "certification": "BIS প্রত্যয়ন",
+    "radar": "নিয়ন্ত্রক পর্যবেক্ষণ"
+  },
+  "errors": {
+    "title": "এই মুহূর্তে পরিপালন যাত্রা লোড করা যায়নি",
+    "description": "আমরা পরিপালন পরিষেবার সঙ্গে সংযোগ করতে পারিনি। অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "retry": "আবার চেষ্টা করুন",
+    "emptyTitle": "কোনো পরিপালন যাত্রা পাওয়া যায়নি",
+    "emptyDescription": "পরিপালন চেইন প্রদর্শনের জন্য কোনো পণ্যের প্রসঙ্গ বা সেশন প্যারামিটার পাওয়া যায়নি।"
+  }
+}

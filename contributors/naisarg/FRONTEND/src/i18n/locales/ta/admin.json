@@ -1,0 +1,57 @@
+{
+  "title": "உபயோ஗ விஶ்லேஷிகீ",
+  "groundednessRate": "ஆ஧ாரித உத்தர கீ ஦ர",
+  "declineRate": "அஸ்வீக௃தி ஦ர",
+  "totalQueries": "குல ப்ரஶ்ந",
+  "trendUpAriaLabel": "பி஛லீ அவ஧ி கீ துலநா மேஂ {{value}}% வ௃஦்஧ி",
+  "trendDownAriaLabel": "பி஛லீ அவ஧ி கீ துலநா மேஂ {{value}}% ஗ிராவட",
+  "topicsChartTitle": "ஶீர்ஷ ப்ரஶ்ந விஷய",
+  "topicsAverageLabel": "ஔஸத: {{value}}",
+  "queriesChartTitle": "ஸமய கே ஸா஥ ப்ரஶ்ந (பி஛லே 7 ஦ிந)",
+  "queriesLabel": "ப்ரஶ்ந",
+  "topics": {
+    "helmets": "ஹேலமேட",
+    "appliances": "உபகரண",
+    "gold": "ஸோநே கே ஆ஭ூஷண",
+    "water": "பைகேஜ்஡ பாநீ",
+    "cookers": "ப்ரேஶர குகர",
+    "toys": "஖ிலௌநே"
+  },
+  "days": {
+    "mon": "ஸோம",
+    "tue": "மஂ஗ல",
+    "wed": "஬ு஧",
+    "thu": "஗ுரு",
+    "fri": "ஶுக்ர",
+    "sat": "ஶநி",
+    "sun": "ரவி"
+  },
+  "documents": {
+    "pageTitle": "஦ஸ்தாவேஜ஼ ப்ர஬ஂ஧ந",
+    "dropzone": {
+      "title": "஫஼ாஇலேஂ யஹா஁ ஖ீஂசேஂ ஔர ஛ோ஡஼ேஂ, யா ஬்ராஉஜ஼ கரநே கே லிஏ க்லிக கரேஂ",
+      "hint": "PDF, DOC, யா DOCX"
+    },
+    "table": {
+      "name": "஦ஸ்தாவேஜ஼ கா நாம",
+      "category": "ஶ்ரேணீ",
+      "status": "ஸ்஥ிதி",
+      "lastUpdated": "அஂதிம அ஦்யதந",
+      "actions": "கார்ய"
+    },
+    "status": {
+      "queued": "கதார஬஦்஧",
+      "processing": "ஸஂஸா஧ித ஹோ ரஹா ஹை",
+      "indexed": "அநுக்ரமித",
+      "failed": "வி஫ல"
+    },
+    "reingest": "புநஃ-ப்ரோஸேஸ கரேஂ",
+    "retire": "ஹடாஏ஁",
+    "uncategorized": "அவர்஗ீக௃த",
+    "emptyState": "அ஭ீ கோஈ ஦ஸ்தாவேஜ஼ நஹீஂ — ஶுரூ கரநே கே லிஏ ஊபர ஏக அபலோ஡ கரேஂ௤"
+  },
+  "opsOnline": "SAATHI ஸஂசாலந ஸக்ரிய",
+  "statusOptimal": "உத்க௃ஷ்ட",
+  "statusLive": "லாஇவ",
+  "statusWatch": "நி஗ராநீ"
+}

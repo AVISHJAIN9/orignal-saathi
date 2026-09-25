@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — அநுபாலந ஑ர்கேஸ்ட்ரேஶந",
+  "heading": "அநுபாலந ஶ்ர௃ஂ஖லா (Compliance Chain)",
+  "subheading": "உத்பா஦ வர்஗ீகரண ஸே ப்ரமாணந தக ஆபகீ ஸஂபூர்ண ஬ீஆஈஏஸ அநுபாலந யாத்ரா௤",
+  "productContext": {
+    "product": "உத்பா஦",
+    "standard": "மாநக (Standard)",
+    "status": "வர்தமாந ஸ்஥ிதி",
+    "selectProduct": "உத்பா஦ ஸஂ஦ர்஭ சுநேஂ",
+    "customQuery": "கஸ்டம உத்பா஦ ஖ோஜேஂ"
+  },
+  "currentPosition": {
+    "title": "வர்தமாந ஸ்஥ிதி",
+    "completedHeading": "ஆபநே பூரா கர லியா ஹை:",
+    "nextRequiredHeading": "ஆபகீ அ஗லீ ஆவஶ்யக கார்ரவாஈ ஹை:",
+    "noCompletedYet": "அ஭ீ தக கோஈ சரண பூரா நஹீஂ ஹுஆ ஹை௤",
+    "continueAction": "யாத்ரா ஜாரீ ர஖ேஂ"
+  },
+  "nextBestAction": {
+    "title": "ஸர்வோத்தம அ஗லீ கார்ரவாஈ (Next Best Action)",
+    "takeAction": "கார்ரவாஈ கரேஂ",
+    "viewDetails": "விவரண ஦ே஖ேஂ"
+  },
+  "chainJourney": {
+    "title": "அநுபாலந யாத்ரா",
+    "subtitle": "அநிவார்ய ஬ீஆஈஏஸ நியாமக ஆவஶ்யகதாஓஂ கீ சரண-஦ர-சரண ப்ர஗தி",
+    "viewStep": "஦ே஖ேஂ",
+    "evidenceVerified": "ஸாக்ஷ்ய ஸத்யாபித",
+    "documentsCount": "஦ஸ்தாவேஜ஼: {{available}} / {{required}} அபலோ஡ கிஏ ஗ஏ ({{missing}} ஗ாய஬)",
+    "sourceLabel": "ஸ்ரோத:"
+  },
+  "regulatoryOverview": {
+    "title": "நியாமக ப஦ாநுக்ரம (Regulatory Hierarchy)",
+    "subtitle": "஬ைகஏஂ஡ ஦்வாரா ஸத்யாபித ஆ஧ிகாரிக மாநக, QCO ஔர யோஜநா ஸஂ஬ஂ஧",
+    "standardLabel": "஭ாரதீய மாநக (IS)",
+    "qcoLabel": "QCO ஸ்஥ிதி",
+    "schemeLabel": "஬ீஆஈஏஸ யோஜநா",
+    "viewSource": "ஸ்ரோத ஦ே஖ேஂ",
+    "unverifiedSource": "ஸர்வர ஦்வாரா ஸ்ரோத விவரண அஸத்யாபித"
+  },
+  "states": {
+    "completed": "பூர்ண (Completed)",
+    "actionRequired": "கார்ரவாஈ ஆவஶ்யக (Action Required)",
+    "blocked": "அவரு஦்஧ (Blocked)",
+    "notStarted": "ஶுரூ நஹீஂ ஹுஆ (Not Started)",
+    "notApplicable": "லா஗ூ நஹீஂ (Not Applicable)",
+    "unavailable": "நிர்஧ாரித கரநே மேஂ அஸமர்஥ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "வர்஗ீகரண",
+    "standard": "஭ாரதீய மாநக",
+    "qco": "஗ுணவத்தா நியஂத்ரண ஆ஦ேஶ (QCO)",
+    "scheme": "஬ீஆஈஏஸ யோஜநா",
+    "requirements": "தகநீகீ ஆவஶ்யகதாஏஂ",
+    "testing": "உத்பா஦ பரீக்ஷண",
+    "laboratory": "ப்ரயோ஗ஶாலா மிலாந",
+    "documents": "அநுபாலந திஜோரீ / ஦ஸ்தாவேஜ஼",
+    "compliance": "அநுபாலந அஂதர",
+    "readiness": "ஆவே஦ந தையாரீ",
+    "certification": "஬ீஆஈஏஸ ப்ரமாணந",
+    "radar": "நியாமக நி஗ராநீ"
+  },
+  "errors": {
+    "title": "அ஭ீ அநுபாலந யாத்ரா லோ஡ நஹீஂ கீ ஜா ஸகீ",
+    "description": "ஹம அநுபாலந ஸேவா ஸே நஹீஂ ஜு஡஼ ஸகே௤ க௃பயா புநஃ ப்ரயாஸ கரேஂ௤",
+    "retry": "புநஃ ப்ரயாஸ கரேஂ",
+    "emptyTitle": "கோஈ அநுபாலந யாத்ரா நஹீஂ மிலீ",
+    "emptyDescription": "அநுபாலந ஶ்ர௃ஂ஖லா ப்ரஸ்துத கரநே கே லிஏ கோஈ உத்பா஦ ஸஂ஦ர்஭ யா ஸத்ர பைராமீடர நஹீஂ மிலே௤"
+  }
+}

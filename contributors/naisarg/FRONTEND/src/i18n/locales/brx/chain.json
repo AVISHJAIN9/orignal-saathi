@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — अनुपालन ऑर्केस्ट्रेशन",
+  "heading": "अनुपालन श्रृंखला (Compliance Chain)",
+  "subheading": "मुवा वर्गीकरण से प्रमाणन तक आपकी संजोबबाय बीआईएस अनुपालन यात्रा।",
+  "productContext": {
+    "product": "मुवा",
+    "standard": "थाखो (Standard)",
+    "status": "वर्तमान थासारि",
+    "selectProduct": "मुवा संदर्भ चुनें",
+    "customQuery": "कस्टम मुवा नागिरनाय"
+  },
+  "currentPosition": {
+    "title": "वर्तमान थासारि",
+    "completedHeading": "आपने पूरा कर लिया है:",
+    "nextRequiredHeading": "आपकी अगली आवश्यक हाबा है:",
+    "noCompletedYet": "अभी तक कोई चरण पूरा नङा हुआ है।",
+    "continueAction": "यात्रा सोलिबाय था"
+  },
+  "nextBestAction": {
+    "title": "सर्वोत्तम अगली हाबा (Next Best Action)",
+    "takeAction": "हाबा करें",
+    "viewDetails": "गुवारै नायनाय"
+  },
+  "chainJourney": {
+    "title": "अनुपालन यात्रा",
+    "subtitle": "अनिवार्य बीआईएस नियामक आवश्यकताओं की चरण-दर-चरण प्रगति",
+    "viewStep": "नायनाय",
+    "evidenceVerified": "साक्ष्य सत्यापित",
+    "documentsCount": "दस्तावेज़: {{available}} / {{required}} अपलोड किए गए ({{missing}} गायब)",
+    "sourceLabel": "स्रोत:"
+  },
+  "regulatoryOverview": {
+    "title": "नियामक पदानुक्रम (Regulatory Hierarchy)",
+    "subtitle": "बैकएंड द्वारा सत्यापित आधिकारिक थाखो, QCO और योजना संबंध",
+    "standardLabel": "भारतीय थाखो (IS)",
+    "qcoLabel": "QCO थासारि",
+    "schemeLabel": "बीआईएस योजना",
+    "viewSource": "स्रोत नायनाय",
+    "unverifiedSource": "सर्वर द्वारा स्रोत गुवारै असत्यापित"
+  },
+  "states": {
+    "completed": "जोबबाय (Completed)",
+    "actionRequired": "हाबा आवश्यक (Action Required)",
+    "blocked": "अवरुद्ध (Blocked)",
+    "notStarted": "शुरू नङा हुआ (Not Started)",
+    "notApplicable": "लागू नङा (Not Applicable)",
+    "unavailable": "निर्धारित करने में असमर्थ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "वर्गीकरण",
+    "standard": "भारतीय थाखो",
+    "qco": "गुणवत्ता नियंत्रण आदेश (QCO)",
+    "scheme": "बीआईएस योजना",
+    "requirements": "तकनीकी आवश्यकताएं",
+    "testing": "मुवा आनदाद",
+    "laboratory": "आनदादसालि मिलान",
+    "documents": "अनुपालन तिजोरी / दस्तावेज़",
+    "compliance": "अनुपालन अंतर",
+    "readiness": "आरजलेथ तैयारी",
+    "certification": "बीआईएस प्रमाणन",
+    "radar": "नियामक निगरानी"
+  },
+  "errors": {
+    "title": "अभी अनुपालन यात्रा लोड नङा की जा सकी",
+    "description": "हम अनुपालन सेवा से नङा जुड़ सके। कृपया पुनः प्रयास करें।",
+    "retry": "पुनः प्रयास करें",
+    "emptyTitle": "कोई अनुपालन यात्रा नङा मिली",
+    "emptyDescription": "अनुपालन श्रृंखला प्रस्तुत करने के लिए कोई मुवा संदर्भ या सत्र पैरामीटर नङा मिले।"
+  }
+}

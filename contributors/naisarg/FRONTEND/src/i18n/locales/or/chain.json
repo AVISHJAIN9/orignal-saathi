@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — ଅନୁପାଲନ ଑ର୍କେସ୍ଟ୍ରେଶନ",
+  "heading": "ଅନୁପାଲନ ଶ୍ରୃଂଖଲା (Compliance Chain)",
+  "subheading": "ଉତ୍ପାଦ ଵର୍ଗୀକରଣ ସେ ପ୍ରମାଣନ ତକ ଆପକୀ ସଂପୂର୍ଣ ବୀଆଈଏସ ଅନୁପାଲନ ଯାତ୍ରା୤",
+  "productContext": {
+    "product": "ଉତ୍ପାଦ",
+    "standard": "ମାନକ (Standard)",
+    "status": "ଵର୍ତମାନ ସ୍ଥିତି",
+    "selectProduct": "ଉତ୍ପାଦ ସଂଦର୍ଭ ଚୁନେଂ",
+    "customQuery": "କସ୍ଟମ ଉତ୍ପାଦ ଖୋଜେଂ"
+  },
+  "currentPosition": {
+    "title": "ଵର୍ତମାନ ସ୍ଥିତି",
+    "completedHeading": "ଆପନେ ପୂରା କର ଲିଯା ହୈ:",
+    "nextRequiredHeading": "ଆପକୀ ଅଗଲୀ ଆଵଶ୍ଯକ କାର୍ରଵାଈ ହୈ:",
+    "noCompletedYet": "ଅଭୀ ତକ କୋଈ ଚରଣ ପୂରା ନହୀଂ ହୁଆ ହୈ୤",
+    "continueAction": "ଯାତ୍ରା ଜାରୀ ରଖେଂ"
+  },
+  "nextBestAction": {
+    "title": "ସର୍ଵୋତ୍ତମ ଅଗଲୀ କାର୍ରଵାଈ (Next Best Action)",
+    "takeAction": "କାର୍ରଵାଈ କରେଂ",
+    "viewDetails": "ଵିଵରଣ ଦେଖେଂ"
+  },
+  "chainJourney": {
+    "title": "ଅନୁପାଲନ ଯାତ୍ରା",
+    "subtitle": "ଅନିଵାର୍ଯ ବୀଆଈଏସ ନିଯାମକ ଆଵଶ୍ଯକତାଓଂ କୀ ଚରଣ-ଦର-ଚରଣ ପ୍ରଗତି",
+    "viewStep": "ଦେଖେଂ",
+    "evidenceVerified": "ସାକ୍ଷ୍ଯ ସତ୍ଯାପିତ",
+    "documentsCount": "ଦସ୍ତାଵେଜ଼: {{available}} / {{required}} ଅପଲୋଡ କିଏ ଗଏ ({{missing}} ଗାଯବ)",
+    "sourceLabel": "ସ୍ରୋତ:"
+  },
+  "regulatoryOverview": {
+    "title": "ନିଯାମକ ପଦାନୁକ୍ରମ (Regulatory Hierarchy)",
+    "subtitle": "ବୈକଏଂଡ ଦ୍ଵାରା ସତ୍ଯାପିତ ଆଧିକାରିକ ମାନକ, QCO ଔର ଯୋଜନା ସଂବଂଧ",
+    "standardLabel": "ଭାରତୀଯ ମାନକ (IS)",
+    "qcoLabel": "QCO ସ୍ଥିତି",
+    "schemeLabel": "ବୀଆଈଏସ ଯୋଜନା",
+    "viewSource": "ସ୍ରୋତ ଦେଖେଂ",
+    "unverifiedSource": "ସର୍ଵର ଦ୍ଵାରା ସ୍ରୋତ ଵିଵରଣ ଅସତ୍ଯାପିତ"
+  },
+  "states": {
+    "completed": "ପୂର୍ଣ (Completed)",
+    "actionRequired": "କାର୍ରଵାଈ ଆଵଶ୍ଯକ (Action Required)",
+    "blocked": "ଅଵରୁଦ୍ଧ (Blocked)",
+    "notStarted": "ଶୁରୂ ନହୀଂ ହୁଆ (Not Started)",
+    "notApplicable": "ଲାଗୂ ନହୀଂ (Not Applicable)",
+    "unavailable": "ନିର୍ଧାରିତ କରନେ ମେଂ ଅସମର୍ଥ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "ଵର୍ଗୀକରଣ",
+    "standard": "ଭାରତୀଯ ମାନକ",
+    "qco": "ଗୁଣଵତ୍ତା ନିଯଂତ୍ରଣ ଆଦେଶ (QCO)",
+    "scheme": "ବୀଆଈଏସ ଯୋଜନା",
+    "requirements": "ତକନୀକୀ ଆଵଶ୍ଯକତାଏଂ",
+    "testing": "ଉତ୍ପାଦ ପରୀକ୍ଷଣ",
+    "laboratory": "ପ୍ରଯୋଗଶାଲା ମିଲାନ",
+    "documents": "ଅନୁପାଲନ ତିଜୋରୀ / ଦସ୍ତାଵେଜ଼",
+    "compliance": "ଅନୁପାଲନ ଅଂତର",
+    "readiness": "ଆଵେଦନ ତୈଯାରୀ",
+    "certification": "ବୀଆଈଏସ ପ୍ରମାଣନ",
+    "radar": "ନିଯାମକ ନିଗରାନୀ"
+  },
+  "errors": {
+    "title": "ଅଭୀ ଅନୁପାଲନ ଯାତ୍ରା ଲୋଡ ନହୀଂ କୀ ଜା ସକୀ",
+    "description": "ହମ ଅନୁପାଲନ ସେଵା ସେ ନହୀଂ ଜୁଡ଼ ସକେ୤ କୃପଯା ପୁନଃ ପ୍ରଯାସ କରେଂ୤",
+    "retry": "ପୁନଃ ପ୍ରଯାସ କରେଂ",
+    "emptyTitle": "କୋଈ ଅନୁପାଲନ ଯାତ୍ରା ନହୀଂ ମିଲୀ",
+    "emptyDescription": "ଅନୁପାଲନ ଶ୍ରୃଂଖଲା ପ୍ରସ୍ତୁତ କରନେ କେ ଲିଏ କୋଈ ଉତ୍ପାଦ ସଂଦର୍ଭ ଯା ସତ୍ର ପୈରାମୀଟର ନହୀଂ ମିଲେ୤"
+  }
+}

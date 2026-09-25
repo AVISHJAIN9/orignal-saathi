@@ -1,0 +1,53 @@
+{
+  "trigger": "আপনার পণ্য বর্ণনা করতে অনিশ্চিত?",
+  "dialogTitle": "পণ্য শ্রেণীবিভাগ উইজার্ড",
+  "dialogDescription": "কয়েকটি দ্রুত প্রশ্নের উত্তর দিন এবং আমরা সেগুলিকে SAATHI-এর জন্য একটি প্রশ্নে পরিণত করব।",
+  "stepOf": "ধাপ {{current}} / {{total}}",
+  "back": "পেছনে",
+  "getAnswer": "উত্তর পান",
+  "steps": {
+    "category": {
+      "question": "আপনার পণ্য কোন বিভাগের?",
+      "options": {
+        "helmets": { "label": "ব্যক্তিগত সুরক্ষা", "clause": "ব্যক্তিগত সুরক্ষা" },
+        "appliances": { "label": "গৃহস্থালী যন্ত্রপাতি", "clause": "গৃহস্থালী যন্ত্রপাতি" },
+        "gold": { "label": "গয়না", "clause": "গয়না" },
+        "water": { "label": "খাদ্য ও জল", "clause": "খাদ্য বা জল" },
+        "cookers": { "label": "রান্নাঘরের সামগ্রী", "clause": "রান্নাঘরের সামগ্রী" },
+        "toys": { "label": "খেলনা", "clause": "খেলনা" }
+      }
+    },
+    "audience": {
+      "question": "এটি কার জন্য?",
+      "options": {
+        "consumer": { "label": "ভোক্তা ব্যবহার", "clause": "ভোক্তা ব্যবহার" },
+        "commercial": { "label": "বাণিজ্যিক বিক্রয়", "clause": "বাণিজ্যিক বিক্রয়" },
+        "import": { "label": "আমদানি", "clause": "আমদানি" }
+      }
+    },
+    "need": {
+      "question": "আপনার কী জানা দরকার?",
+      "options": {
+        "standard": {
+          "label": "কোন মান প্রযোজ্য",
+          "questionText": "এর জন্য কোন মান প্রযোজ্য?"
+        },
+        "certification": {
+          "label": "প্রত্যয়ন প্রক্রিয়া",
+          "questionText": "প্রত্যয়ন প্রক্রিয়া কী?"
+        },
+        "testing": {
+          "label": "পরীক্ষার প্রয়োজনীয়তা",
+          "questionText": "এর জন্য কোন পরীক্ষার প্রয়োজনীয়তা পূরণ করতে হবে?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "আপনার উত্তরগুলি পর্যালোচনা করুন",
+    "category": "বিভাগ",
+    "audience": "ব্যবহারের ক্ষেত্র",
+    "need": "আপনি জানতে চান"
+  },
+  "generatedQuestion": "আমার কাছে {{audience}}-এর জন্য একটি {{category}} পণ্য আছে। {{needQuestion}}"
+}

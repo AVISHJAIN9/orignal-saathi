@@ -1,0 +1,57 @@
+{
+  "title": "اوپیوگ ویشلےشیکی",
+  "groundednessRate": "آدھاریت اوتتر کی در",
+  "declineRate": "اسویکृتی در",
+  "totalQueries": "کول پرشن",
+  "trendUpAriaLabel": "پیچھلی اودھی کی تولنا مےں {{value}}% وृددھی",
+  "trendDownAriaLabel": "پیچھلی اودھی کی تولنا مےں {{value}}% گیراوٹ",
+  "topicsChartTitle": "شیرش پرشن ویشی",
+  "topicsAverageLabel": "اوست: {{value}}",
+  "queriesChartTitle": "سمی کے ساتھ پرشن (پیچھلے 7 دین)",
+  "queriesLabel": "پرشن",
+  "topics": {
+    "helmets": "ہےلمےٹ",
+    "appliances": "اوپکرण",
+    "gold": "سونے کے آبھوشण",
+    "water": "پےکےجڈ پانی",
+    "cookers": "پرےشر کوکر",
+    "toys": "کھیلونے"
+  },
+  "days": {
+    "mon": "سوم",
+    "tue": "مںگل",
+    "wed": "بودھ",
+    "thu": "گورو",
+    "fri": "شوکر",
+    "sat": "شنی",
+    "sun": "روی"
+  },
+  "documents": {
+    "pageTitle": "دستاوےج़ پربںدھن",
+    "dropzone": {
+      "title": "پھ़االےں یہاँ کھیںچےں اور چھوڈ़ےں, یا برااوج़ کرنے کے لیاے کلیک کرےں",
+      "hint": "PDF, DOC, یا DOCX"
+    },
+    "table": {
+      "name": "دستاوےج़ کا نام",
+      "category": "شرےणی",
+      "status": "ستھیتی",
+      "lastUpdated": "اںتیم ادیتن",
+      "actions": "کاری"
+    },
+    "status": {
+      "queued": "کتاربددھ",
+      "processing": "سںسادھیت ہو رہا ہے",
+      "indexed": "انوکرمیت",
+      "failed": "ویپھل"
+    },
+    "reingest": "پونः-پروسےس کرےں",
+    "retire": "ہٹااےँ",
+    "uncategorized": "اورگیکृت",
+    "emptyState": "ابھی کوای دستاوےج़ نہیں — شورو کرنے کے لیاے اوپر اےک اپلوڈ کرےں।"
+  },
+  "opsOnline": "SAATHI سںچالن سکریی",
+  "statusOptimal": "اوتکृشٹ",
+  "statusLive": "لااو",
+  "statusWatch": "نیگرانی"
+}

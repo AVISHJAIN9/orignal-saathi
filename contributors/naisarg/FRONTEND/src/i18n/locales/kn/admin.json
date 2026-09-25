@@ -1,0 +1,57 @@
+{
+  "title": "ಉಪಯೋಗ ವಿಶ್ಲೇಷಿಕೀ",
+  "groundednessRate": "ಆಧಾರಿತ ಉತ್ತರ ಕೀ ದರ",
+  "declineRate": "ಅಸ್ವೀಕೃತಿ ದರ",
+  "totalQueries": "ಕುಲ ಪ್ರಶ್ನ",
+  "trendUpAriaLabel": "ಪಿಛಲೀ ಅವಧಿ ಕೀ ತುಲನಾ ಮೇಂ {{value}}% ವೃದ್ಧಿ",
+  "trendDownAriaLabel": "ಪಿಛಲೀ ಅವಧಿ ಕೀ ತುಲನಾ ಮೇಂ {{value}}% ಗಿರಾವಟ",
+  "topicsChartTitle": "ಶೀರ್ಷ ಪ್ರಶ್ನ ವಿಷಯ",
+  "topicsAverageLabel": "ಔಸತ: {{value}}",
+  "queriesChartTitle": "ಸಮಯ ಕೇ ಸಾಥ ಪ್ರಶ್ನ (ಪಿಛಲೇ 7 ದಿನ)",
+  "queriesLabel": "ಪ್ರಶ್ನ",
+  "topics": {
+    "helmets": "ಹೇಲಮೇಟ",
+    "appliances": "ಉಪಕರಣ",
+    "gold": "ಸೋನೇ ಕೇ ಆಭೂಷಣ",
+    "water": "ಪೈಕೇಜ್ಡ ಪಾನೀ",
+    "cookers": "ಪ್ರೇಶರ ಕುಕರ",
+    "toys": "ಖಿಲೌನೇ"
+  },
+  "days": {
+    "mon": "ಸೋಮ",
+    "tue": "ಮಂಗಲ",
+    "wed": "ಬುಧ",
+    "thu": "ಗುರು",
+    "fri": "ಶುಕ್ರ",
+    "sat": "ಶನಿ",
+    "sun": "ರವಿ"
+  },
+  "documents": {
+    "pageTitle": "ದಸ್ತಾವೇಜ಼ ಪ್ರಬಂಧನ",
+    "dropzone": {
+      "title": "ಫ಼ಾಇಲೇಂ ಯಹಾಁ ಖೀಂಚೇಂ ಔರ ಛೋಡ಼ೇಂ, ಯಾ ಬ್ರಾಉಜ಼ ಕರನೇ ಕೇ ಲಿಏ ಕ್ಲಿಕ ಕರೇಂ",
+      "hint": "PDF, DOC, ಯಾ DOCX"
+    },
+    "table": {
+      "name": "ದಸ್ತಾವೇಜ಼ ಕಾ ನಾಮ",
+      "category": "ಶ್ರೇಣೀ",
+      "status": "ಸ್ಥಿತಿ",
+      "lastUpdated": "ಅಂತಿಮ ಅದ್ಯತನ",
+      "actions": "ಕಾರ್ಯ"
+    },
+    "status": {
+      "queued": "ಕತಾರಬದ್ಧ",
+      "processing": "ಸಂಸಾಧಿತ ಹೋ ರಹಾ ಹೈ",
+      "indexed": "ಅನುಕ್ರಮಿತ",
+      "failed": "ವಿಫಲ"
+    },
+    "reingest": "ಪುನಃ-ಪ್ರೋಸೇಸ ಕರೇಂ",
+    "retire": "ಹಟಾಏಁ",
+    "uncategorized": "ಅವರ್ಗೀಕೃತ",
+    "emptyState": "ಅಭೀ ಕೋಈ ದಸ್ತಾವೇಜ಼ ನಹೀಂ — ಶುರೂ ಕರನೇ ಕೇ ಲಿಏ ಊಪರ ಏಕ ಅಪಲೋಡ ಕರೇಂ೤"
+  },
+  "opsOnline": "SAATHI ಸಂಚಾಲನ ಸಕ್ರಿಯ",
+  "statusOptimal": "ಉತ್ಕೃಷ್ಟ",
+  "statusLive": "ಲಾಇವ",
+  "statusWatch": "ನಿಗರಾನೀ"
+}

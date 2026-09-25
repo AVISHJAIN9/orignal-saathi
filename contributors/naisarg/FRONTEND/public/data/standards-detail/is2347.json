@@ -1,0 +1,545 @@
+{
+  "master": {
+    "internal_id": 8874,
+    "IS_number": "IS 2347:2017",
+    "clean_number": "2347",
+    "slug": "is2347",
+    "IS_title": "Domestic pressure cooker - Specification (Sixth Revision) (Withdrawn)",
+    "superseding_IS": "",
+    "degree_of_equivalence": "Indigenous",
+    "number_of_revisions": "6",
+    "number_of_amendments": "7",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "MED (Mechanical Engineering Department)",
+    "technical_committee": "MED 33 (Utensils, Cutlery And Domestic Hardware Sectional Committee)",
+    "member_secretary": "Neha Thakur (SCIENTIST-C)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 0,
+    "gazette_document_count": 16,
+    "license_count": 2347,
+    "product_manual_sit_count": 0,
+    "laboratory_count": 2347,
+    "corrigendum_count": 0,
+    "catalogue_id": "19293",
+    "catalogue_is_no": "IS 2347:2017 (Withdrawn )",
+    "catalogue_title": "Domestic pressure cooker - Specification (Sixth Revision)",
+    "catalogue_amendments": "7",
+    "catalogue_technical_committee": "MED 33",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Indigenous",
+    "catalogue_withdrawn_status": "W",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/8874",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=8874",
+    "composition_url": "",
+    "extracted_at": "2026-09-23T12:48:58.730Z",
+    "category_key": "cookers",
+    "category_label": "Pressure Cookers",
+    "status": "Active",
+    "image_url": "/images/products/pressure-cooker.png"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 21:2025",
+      "title": "Wrought aluminium and aluminium alloys for manufacture of utensils specification (Fourth Revision)",
+      "committee": "MTD 07"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 228 (Part 1):2025",
+      "title": "Methods for chemical analysis ofsteels: Part 1 determination ofcarbon by volumetric method (For Carbon 0.05to 2.50 Percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 228 (Part 2):2024",
+      "title": "Methods for chemical analysis of steels part 2 determination of manganese in plain - Carbon and low alloy steels by arsenite method (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 228 (Part 3):2024",
+      "title": "Methods for chemical analysis 6f steels: Part 3 determination of phosphorus by alkalimetric method (Third Revision",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 228 (Part 4):2025",
+      "title": "Method for chemical analysis of steels: Part 4 determination of total carbon by gravimetric method (For Carbon R 0.1 Percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 228 (Part 5):1987",
+      "title": "Methods for chemical analysis of steels: Part 5 determination of nickel by dimethylglyoxime (Gravimetric) method (For Nickel)O - l percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 228 (Part 6):2024",
+      "title": "Methods for chemical analysis of steels: Part 6 determination of - Chromium by persulphate oxidation method (For Chromium \u00e2\u2030\u00a5 0.1 percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 228 (Part 8):1989",
+      "title": "Methods for chemicalanalysisofsteels: Part 8 determination of silicon by the gravimetric method (For Silicon 0.05 To 5.00 Percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 228 (Part 9):1989",
+      "title": "Methods for chemical analysis of steels : Part 9 determination of sulphur by evolution method (For Sulphur 0.01 To 0.25 Percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 228 (Part 11):1990",
+      "title": "Methods for chemical analysis of steels : Part 11 determination of total silicon by reduced molybdosilicate spectrophotometric method in carbon steels and low alloy steels (For Silicon 0.01 To 0.05 Percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 228 (Part 12):2001",
+      "title": "Methods for chemical of steels analysis: Part 12 determination of manganese by periodate spectrophotometric method in plain carbon, low alloy and high alloy steels (For Manganese 0.01 To 5.0 Percent) (Fourth Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 228 (Part 14):1988",
+      "title": "Methods for chemical analysis of steels: Part 14 determination of carbon by thermal conductivity method (For Carbon 0.005 To 2.000 Percent",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 17808 (Part 1):2022ISO 22744-1:2020",
+      "title": "Methods for Chemical Analysis of Steels - Part 20 : Determination of Carbon and Sulphur by Infra Red Absorption Method (for Carbon 0.005 to 2 Percent and Sulphur 0.001 to 0.35 Percent)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 302 (Part 1):2024IEC 60335-1: 2020",
+      "title": "Safety of household and similar electrical appliances: Part 1 general requirements (Sixth Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 302 (Part 2/Sec 15):2009IEC 60335-2-15",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 15 appliances for heating liquids (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 319:2007",
+      "title": "Free cutting brass bars, rods and section - Specification (Fifth Revision)",
+      "committee": "MTD 08"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 733:2025",
+      "title": "Specification for wrought aluminium and aluminium alloy bars, rods and sections (For General Engineering Purposes) (Third Revision)",
+      "committee": "MTD 07"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 739:1992",
+      "title": "Wrought aluminium and aluminium alloys - Wire for general engineering purposes - Specification (Third Revision)",
+      "committee": "MTD 07"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 740:1977",
+      "title": "Specification for wrought aluminium and aluminium alloy rivet stock for general engineering purposes (Second Revision)",
+      "committee": "MTD 07"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 1068:2025ISO 1456:2009",
+      "title": "Electroplated coatings of nickel plus chromium and copper plus nickel plus chromium - Specification (Third Revision)",
+      "committee": "MTD 24"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 1342:2019 Decision taken to Reaffirm and Archive",
+      "title": "Oil pressure stoves - Specification (Seventh Revision)",
+      "committee": "MED 26"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 4246:2025",
+      "title": "Domestic gas stoves for use with liquefied petroleum gases - Specification (Fifth Revision)",
+      "committee": "MED 23"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 4454 (Part 4):2001",
+      "title": "Steel wires for mechanical springs: Part 4 stainless steel wire (Second Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 4905:2015ISO 24153 : 2009",
+      "title": "Random sampling and randomization procedures (First Revision)",
+      "committee": "MSD 03"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 5522:2014",
+      "title": "Stainless steel sheets and strips for utensils - Specification (Third Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 5523:1983",
+      "title": "Methods of testing anodic coatings on aluminium and its alloys (First Revision)",
+      "committee": "MTD 24"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 6012:1992",
+      "title": "Measurement of coating thickness by eddy current method (First Revision)",
+      "committee": "MTD 24"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 6057:1988",
+      "title": "Specification for hard anodic coatings on aluminium and aluminium alloys (First Revision)",
+      "committee": "MTD 24"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 6527:1995",
+      "title": "Stainless steel wire rods - Specification (First Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 6528:2024",
+      "title": "Stainless steel wire - Specification (First Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 6603:2024",
+      "title": "Stainless steel bars and flats - Specification (First Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 6911:2026",
+      "title": "Stainless steel plate, sheet and strip - Specification (Second Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 19122:2025",
+      "title": "Rubber Gasket for Pressure Cooker - Specification ( Second Revision )",
+      "committee": "PCD 13"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 9730:2008",
+      "title": "Non - Stick unreinforced plastics coatings on domestic cooking utensils - Specification (First Revision)",
+      "committee": "MED 33"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 9806:2001",
+      "title": "Methods of test for and permissible limits of toxic materials released from ceramicware, vitreous enamelware, glassware and glass - Ceramicware in contact with food (First Revision)",
+      "committee": "CHD 09"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 17556:2021ISO 5521:1981",
+      "title": "Performance of Handles and Handle Assemblies Attached to Cookware - Specification ( First Revision )",
+      "committee": "MED 33"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 15960:2013",
+      "title": "Composite bottom stainless steel cooking utensils - Specification",
+      "committee": "MED 33"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 15997:2012",
+      "title": "Low nickel austenitic stainless steel plate, sheet, and strip for utensils and kitchen appliances - Specification",
+      "committee": "MTD 16"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 21:2025",
+      "title": "Wrought aluminium and aluminium alloys for manufacture of utensils specification (Fourth Revision)",
+      "committee": "MTD 07"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 228 (Part 1):2025",
+      "title": "Methods for chemical analysis ofsteels: Part 1 determination ofcarbon by volumetric method (For Carbon 0.05to 2.50 Percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 228 (Part 2):2024",
+      "title": "Methods for chemical analysis of steels part 2 determination of manganese in plain - Carbon and low alloy steels by arsenite method (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 228 (Part 3):2024",
+      "title": "Methods for chemical analysis 6f steels: Part 3 determination of phosphorus by alkalimetric method (Third Revision",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 228 (Part 4):2025",
+      "title": "Method for chemical analysis of steels: Part 4 determination of total carbon by gravimetric method (For Carbon R 0.1 Percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 228 (Part 5):1987",
+      "title": "Methods for chemical analysis of steels: Part 5 determination of nickel by dimethylglyoxime (Gravimetric) method (For Nickel)O - l percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 228 (Part 6):2024",
+      "title": "Methods for chemical analysis of steels: Part 6 determination of - Chromium by persulphate oxidation method (For Chromium \u00e2\u2030\u00a5 0.1 percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 228 (Part 8):1989",
+      "title": "Methods for chemicalanalysisofsteels: Part 8 determination of silicon by the gravimetric method (For Silicon 0.05 To 5.00 Percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 228 (Part 9):1989",
+      "title": "Methods for chemical analysis of steels : Part 9 determination of sulphur by evolution method (For Sulphur 0.01 To 0.25 Percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 228 (Part 11):1990",
+      "title": "Methods for chemical analysis of steels : Part 11 determination of total silicon by reduced molybdosilicate spectrophotometric method in carbon steels and low alloy steels (For Silicon 0.01 To 0.05 Percent) (Third Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 228 (Part 12):2001",
+      "title": "Methods for chemical of steels analysis: Part 12 determination of manganese by periodate spectrophotometric method in plain carbon, low alloy and high alloy steels (For Manganese 0.01 To 5.0 Percent) (Fourth Revision)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 228 (Part 14):1988",
+      "title": "Methods for chemical analysis of steels: Part 14 determination of carbon by thermal conductivity method (For Carbon 0.005 To 2.000 Percent",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 17808 (Part 1):2022ISO 22744-1:2020",
+      "title": "Methods for Chemical Analysis of Steels - Part 20 : Determination of Carbon and Sulphur by Infra Red Absorption Method (for Carbon 0.005 to 2 Percent and Sulphur 0.001 to 0.35 Percent)",
+      "committee": "MTD 34"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 302 (Part 1):2024IEC 60335-1: 2020",
+      "title": "Safety of household and similar electrical appliances: Part 1 general requirements (Sixth Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 302 (Part 2/Sec 15):2009IEC 60335-2-15",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 15 appliances for heating liquids (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 319:2007",
+      "title": "Free cutting brass bars, rods and section - Specification (Fifth Revision)",
+      "committee": "MTD 08"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 733:2025",
+      "title": "Specification for wrought aluminium and aluminium alloy bars, rods and sections (For General Engineering Purposes) (Third Revision)",
+      "committee": "MTD 07"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 739:1992",
+      "title": "Wrought aluminium and aluminium alloys - Wire for general engineering purposes - Specification (Third Revision)",
+      "committee": "MTD 07"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 740:1977",
+      "title": "Specification for wrought aluminium and aluminium alloy rivet stock for general engineering purposes (Second Revision)",
+      "committee": "MTD 07"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 1068:2025ISO 1456:2009",
+      "title": "Electroplated coatings of nickel plus chromium and copper plus nickel plus chromium - Specification (Third Revision)",
+      "committee": "MTD 24"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 1342:2019 Decision taken to Reaffirm and Archive",
+      "title": "Oil pressure stoves - Specification (Seventh Revision)",
+      "committee": "MED 26"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 4246:2025",
+      "title": "Domestic gas stoves for use with liquefied petroleum gases - Specification (Fifth Revision)",
+      "committee": "MED 23"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 4454 (Part 4):2001",
+      "title": "Steel wires for mechanical springs: Part 4 stainless steel wire (Second Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 4905:2015ISO 24153 : 2009",
+      "title": "Random sampling and randomization procedures (First Revision)",
+      "committee": "MSD 03"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 5522:2014",
+      "title": "Stainless steel sheets and strips for utensils - Specification (Third Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 5523:1983",
+      "title": "Methods of testing anodic coatings on aluminium and its alloys (First Revision)",
+      "committee": "MTD 24"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 6012:1992",
+      "title": "Measurement of coating thickness by eddy current method (First Revision)",
+      "committee": "MTD 24"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 6057:1988",
+      "title": "Specification for hard anodic coatings on aluminium and aluminium alloys (First Revision)",
+      "committee": "MTD 24"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 6527:1995",
+      "title": "Stainless steel wire rods - Specification (First Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 6528:2024",
+      "title": "Stainless steel wire - Specification (First Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 6603:2024",
+      "title": "Stainless steel bars and flats - Specification (First Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 6911:2026",
+      "title": "Stainless steel plate, sheet and strip - Specification (Second Revision)",
+      "committee": "MTD 16"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 19122:2025",
+      "title": "Rubber Gasket for Pressure Cooker - Specification ( Second Revision )",
+      "committee": "PCD 13"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 9730:2008",
+      "title": "Non - Stick unreinforced plastics coatings on domestic cooking utensils - Specification (First Revision)",
+      "committee": "MED 33"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 9806:2001",
+      "title": "Methods of test for and permissible limits of toxic materials released from ceramicware, vitreous enamelware, glassware and glass - Ceramicware in contact with food (First Revision)",
+      "committee": "CHD 09"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 17556:2021ISO 5521:1981",
+      "title": "Performance of Handles and Handle Assemblies Attached to Cookware - Specification ( First Revision )",
+      "committee": "MED 33"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 15960:2013",
+      "title": "Composite bottom stainless steel cooking utensils - Specification",
+      "committee": "MED 33"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 15997:2012",
+      "title": "Low nickel austenitic stainless steel plate, sheet, and strip for utensils and kitchen appliances - Specification",
+      "committee": "MTD 16"
+    }
+  ],
+  "internationalReferences": [],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 13395 : 1995",
+      "title": "Performance of handles and handle assemblies attached to cookware - Specification",
+      "committee": "MED 33"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 17675 : Part 4 : 2021",
+      "title": "Guidelines for Treated Wastewater Use for Irrigation Projects Part 4 Monitoring",
+      "committee": "EED 03"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS/ISO 20932 (Part 1) : 2018",
+      "title": "Amendment no. 1 to IS/ISO 20932 (Part 1) : 2018 Textiles - Determination of the elasticity of fabrics Part 1 Strip tests",
+      "committee": "TXD 01"
+    }
+  ],
+  "clauses": [],
+  "qco": {
+    "qcoId": "QCO-COOKER-2020",
+    "title": "Domestic Pressure Cookers (Quality Control) Order, 2020",
+    "product": "Domestic pressure cookers",
+    "scope": "Mandatory BIS certification under DPIIT Order S.O. 371(E). All domestic pressure cookers manufactured, imported, or sold in India must conform to IS 2347 and bear the Standard Mark (ISI mark).",
+    "effectiveDate": "2020-08-01",
+    "status": "applicable",
+    "exemptions": [
+      "Goods or articles meant exclusively for export are exempt from this Order."
+    ],
+    "requirements": [
+      "Mandatory BIS certification under Scheme-I (ISI Mark) under IS 2347.",
+      "Verification of thermal and pressure relief safety mechanisms and burst pressure test compliance.",
+      "Prohibition of manufacture, import, sale, distribution, storage, or exhibition without valid BIS Licence."
+    ],
+    "sourceUrl": "https://www.services.bis.gov.in",
+    "sourceType": "gazette_notification"
+  }
+}

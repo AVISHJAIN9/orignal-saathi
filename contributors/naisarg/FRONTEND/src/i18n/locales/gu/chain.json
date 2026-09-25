@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — અનુપાલન ઑર્કેસ્ટ્રેશન",
+  "heading": "અનુપાલન શ્રૃંખલા (Compliance Chain)",
+  "subheading": "ઉત્પાદ વર્ગીકરણ સે પ્રમાણન તક આપકી સંપૂર્ણ બીઆઈએસ અનુપાલન યાત્રા૤",
+  "productContext": {
+    "product": "ઉત્પાદ",
+    "standard": "માનક (Standard)",
+    "status": "વર્તમાન સ્થિતિ",
+    "selectProduct": "ઉત્પાદ સંદર્ભ ચુનેં",
+    "customQuery": "કસ્ટમ ઉત્પાદ ખોજેં"
+  },
+  "currentPosition": {
+    "title": "વર્તમાન સ્થિતિ",
+    "completedHeading": "આપને પૂરા કર લિયા હૈ:",
+    "nextRequiredHeading": "આપકી અગલી આવશ્યક કાર્રવાઈ હૈ:",
+    "noCompletedYet": "અભી તક કોઈ ચરણ પૂરા નહીં હુઆ હૈ૤",
+    "continueAction": "યાત્રા જારી રખેં"
+  },
+  "nextBestAction": {
+    "title": "સર્વોત્તમ અગલી કાર્રવાઈ (Next Best Action)",
+    "takeAction": "કાર્રવાઈ કરેં",
+    "viewDetails": "વિવરણ દેખેં"
+  },
+  "chainJourney": {
+    "title": "અનુપાલન યાત્રા",
+    "subtitle": "અનિવાર્ય બીઆઈએસ નિયામક આવશ્યકતાઓં કી ચરણ-દર-ચરણ પ્રગતિ",
+    "viewStep": "દેખેં",
+    "evidenceVerified": "સાક્ષ્ય સત્યાપિત",
+    "documentsCount": "દસ્તાવેજ઼: {{available}} / {{required}} અપલોડ કિએ ગએ ({{missing}} ગાયબ)",
+    "sourceLabel": "સ્રોત:"
+  },
+  "regulatoryOverview": {
+    "title": "નિયામક પદાનુક્રમ (Regulatory Hierarchy)",
+    "subtitle": "બૈકએંડ દ્વારા સત્યાપિત આધિકારિક માનક, QCO ઔર યોજના સંબંધ",
+    "standardLabel": "ભારતીય માનક (IS)",
+    "qcoLabel": "QCO સ્થિતિ",
+    "schemeLabel": "બીઆઈએસ યોજના",
+    "viewSource": "સ્રોત દેખેં",
+    "unverifiedSource": "સર્વર દ્વારા સ્રોત વિવરણ અસત્યાપિત"
+  },
+  "states": {
+    "completed": "પૂર્ણ (Completed)",
+    "actionRequired": "કાર્રવાઈ આવશ્યક (Action Required)",
+    "blocked": "અવરુદ્ધ (Blocked)",
+    "notStarted": "શુરૂ નહીં હુઆ (Not Started)",
+    "notApplicable": "લાગૂ નહીં (Not Applicable)",
+    "unavailable": "નિર્ધારિત કરને મેં અસમર્થ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "વર્ગીકરણ",
+    "standard": "ભારતીય માનક",
+    "qco": "ગુણવત્તા નિયંત્રણ આદેશ (QCO)",
+    "scheme": "બીઆઈએસ યોજના",
+    "requirements": "તકનીકી આવશ્યકતાએં",
+    "testing": "ઉત્પાદ પરીક્ષણ",
+    "laboratory": "પ્રયોગશાલા મિલાન",
+    "documents": "અનુપાલન તિજોરી / દસ્તાવેજ઼",
+    "compliance": "અનુપાલન અંતર",
+    "readiness": "આવેદન તૈયારી",
+    "certification": "બીઆઈએસ પ્રમાણન",
+    "radar": "નિયામક નિગરાની"
+  },
+  "errors": {
+    "title": "અભી અનુપાલન યાત્રા લોડ નહીં કી જા સકી",
+    "description": "હમ અનુપાલન સેવા સે નહીં જુડ઼ સકે૤ કૃપયા પુનઃ પ્રયાસ કરેં૤",
+    "retry": "પુનઃ પ્રયાસ કરેં",
+    "emptyTitle": "કોઈ અનુપાલન યાત્રા નહીં મિલી",
+    "emptyDescription": "અનુપાલન શ્રૃંખલા પ્રસ્તુત કરને કે લિએ કોઈ ઉત્પાદ સંદર્ભ યા સત્ર પૈરામીટર નહીં મિલે૤"
+  }
+}

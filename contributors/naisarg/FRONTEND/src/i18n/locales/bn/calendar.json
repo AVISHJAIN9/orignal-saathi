@@ -1,0 +1,65 @@
+{
+  "eyebrow": "S20 · পরিপালন ক্যালেন্ডার ও অনুস্মারক",
+  "heading": "পরিপালন ক্যালেন্ডার ও অনুস্মারক সিঙ্ক",
+  "subheading": "BIS-এর সময়সীমা, নির্ধারিত অডিট, আধিকারিক পরিদর্শন, সংবিধিবদ্ধ পেমেন্টের তারিখ এবং শংসাপত্র নবায়নের সংহত সময়রেখা।",
+  "viewMode": {
+    "month": "মাস",
+    "week": "সপ্তাহ",
+    "agenda": "কার্যসূচি"
+  },
+  "metrics": {
+    "dueThisWeek": "এই সপ্তাহে বকেয়া",
+    "criticalDeadlines": "গুরুতর সময়সীমা",
+    "scheduledAudits": "অডিট ও পরিদর্শন",
+    "totalEvents": "মোট ঘটনা"
+  },
+  "sync": {
+    "exportIcal": "iCal / ক্যালেন্ডারে রপ্তানি করুন (.ics)",
+    "syncTitle": "ক্যালেন্ডার সিঙ্কের অবস্থা",
+    "syncNotice": "সরাসরি দ্বি-মুখী Google Calendar ও Microsoft Outlook সিঙ্ক্রোনাইজেশনের জন্য এন্টারপ্রাইজ সংস্থার OAuth শংসাপত্র প্রয়োজন। সমস্ত ঘটনা সরাসরি আপনার ক্যালেন্ডার অ্যাপ্লিকেশনে আমদানি করতে স্ট্যান্ডার্ড .ics রপ্তানি ব্যবহার করুন।"
+  },
+  "filters": {
+    "allTypes": "সব ধরনের ঘটনা",
+    "allPriorities": "সব অগ্রাধিকার",
+    "searchPlaceholder": "ঘটনা, মান, আবেদন খুঁজুন..."
+  },
+  "eventTypes": {
+    "APPLICATION_DEADLINE": "আবেদনের সময়সীমা",
+    "DOCUMENT_DEADLINE": "নথির সময়সীমা",
+    "PAYMENT_DUE": "পেমেন্ট বকেয়া",
+    "FACTORY_AUDIT": "কারখানা অডিট",
+    "OFFICER_VISIT": "আধিকারিক পরিদর্শন",
+    "APPEAL_DEADLINE": "আপিলের সময়সীমা",
+    "CERTIFICATE_EXPIRY": "শংসাপত্রের মেয়াদোত্তীর্ণ",
+    "REGULATORY_CHANGE": "নিয়ন্ত্রক পরিবর্তন",
+    "REMINDER": "কর্মক্ষেত্রের অনুস্মারক"
+  },
+  "priorities": {
+    "CRITICAL": "গুরুতর",
+    "HIGH": "উচ্চ",
+    "MEDIUM": "মাঝারি",
+    "LOW": "নিম্ন"
+  },
+  "dialog": {
+    "title": "ঘটনার বিবরণ",
+    "relatedApplication": "সম্পর্কিত আবেদন",
+    "relatedStandard": "ভারতীয় মান",
+    "relatedCertificate": "BIS শংসাপত্র",
+    "assignedOfficer": "নিযুক্ত আধিকারিক",
+    "location": "অবস্থান",
+    "statutoryClause": "সংবিধিবদ্ধ কর্তৃপক্ষ",
+    "amountDue": "ফি-এর পরিমাণ",
+    "reminders": "অনুস্মারক বিজ্ঞপ্তি সেটিংস",
+    "reminderDesc": "এই পরিপালন মাইলফলকের জন্য কখন ইন-অ্যাপ ও ব্রাউজার বিজ্ঞপ্তি পেতে চান তা বেছে নিন।",
+    "notify1Day": "১ দিন আগে",
+    "notify3Days": "৩ দিন আগে",
+    "notify7Days": "৭ দিন আগে",
+    "exportSingle": "ঘটনা ডাউনলোড করুন (.ics)",
+    "saveReminders": "অনুস্মারক সংরক্ষণ করুন",
+    "savedToast": "অনুস্মারক পছন্দ সফলভাবে আপডেট হয়েছে"
+  },
+  "emptyState": {
+    "title": "কোনো ঘটনা পাওয়া যায়নি",
+    "description": "আপনার বর্তমান ফিল্টার নির্বাচনের সঙ্গে কোনো পরিপালন ঘটনা মেলে না।"
+  }
+}

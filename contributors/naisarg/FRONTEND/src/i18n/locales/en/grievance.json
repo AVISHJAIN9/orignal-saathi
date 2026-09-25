@@ -1,0 +1,38 @@
+{
+  "eyebrow": "Grievance & Consent",
+  "heading": "Grievance Officer & Consent",
+  "subheading": "Who to contact with a grievance, and the DPDP consent notice governing it.",
+  "officer": {
+    "heading": "Grievance Officer",
+    "disclaimer": {
+      "heading": "Contact information",
+      "body": "For an official BIS grievance, use BIS's channels at bis.gov.in."
+    },
+    "designationLabel": "Designation",
+    "designationValue": "Grievance Officer",
+    "nameLabel": "Name",
+    "nameValue": "Not yet designated",
+    "emailLabel": "Email",
+    "emailValue": "grievance-officer@example-saathi.test",
+    "phoneLabel": "Phone",
+    "phoneValue": "+91-00000-00000",
+    "addressLabel": "Address",
+    "addressValue": "Address not yet designated"
+  },
+  "consent": {
+    "heading": "DPDP Consent Notice",
+    "prototypeNote": "This notice demonstrates the UI shape a consent flow would have.",
+    "noticeIntro": "By accepting, you acknowledge that SAATHI may process the information you provide (name, email, and the details you enter into forms like the registration wizard) for the following purposes:",
+    "noticeItems": {
+      "purpose": "Purpose: to provide account, dashboard, and application-tracking features.",
+      "dataUsed": "Data used: the name/email you sign in with, plus any details you type into SAATHI's forms.",
+      "retention": "Retention: stored only in this browser (localStorage) — nothing is sent to or kept on a real server.",
+      "rights": "Your rights: you can request or delete your data at any time by clearing your browser's storage."
+    },
+    "signInToRecord": "Sign in to record your acceptance of this notice.",
+    "loading": "Checking your consent status…",
+    "acceptedOn": "You accepted this notice on {{date}}.",
+    "acceptButton": "I have read and accept this notice",
+    "submitting": "Recording…"
+  }
+}

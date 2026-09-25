@@ -1,0 +1,379 @@
+{
+  "master": {
+    "internal_id": 21223,
+    "IS_number": "IS 15885 (Part 1):2011",
+    "clean_number": "15885",
+    "slug": "is-21223",
+    "IS_title": "Safety of lamp controlgear: Part 1 general requirements",
+    "superseding_IS": "None",
+    "degree_of_equivalence": "Modified/Technically Equivalent",
+    "number_of_revisions": "New Standard",
+    "number_of_amendments": "1",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "ETD (Electrotechnical Department)",
+    "technical_committee": "ETD 23 (Lamps and Related Equipments Sectional Committee)",
+    "member_secretary": "JAINENDRA KUMAR (SCIENTIST-D)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 1,
+    "gazette_document_count": 0,
+    "license_count": 0,
+    "product_manual_sit_count": 0,
+    "laboratory_count": 0,
+    "corrigendum_count": 0,
+    "catalogue_id": "11771",
+    "catalogue_is_no": "IS 15885 (Part 1):2011 (Active)",
+    "catalogue_title": "Safety of lamp controlgear: Part 1 general requirements",
+    "catalogue_amendments": "1",
+    "catalogue_technical_committee": "ETD 23",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Modified/Technically Equivalent",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/21223",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=21223",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/257/2",
+    "extracted_at": "2026-09-23T10:24:47.373Z",
+    "category_key": "electrotechnical",
+    "category_label": "Electrotechnical",
+    "status": "Active",
+    "image_url": "/images/products/standard-fallback.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 616:2017IEC 60065 : 2014",
+      "title": "Audio, video and similar electronic apparatus - Safety requirements (Fifth Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 1534 (Part 1):1977IEC 82",
+      "title": "Ballasts for fluorescent lamps:Part 1 For switch start circuits",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 2215:2006IEC 60155",
+      "title": "Starters for fluorescent lamps (Third Revision)",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 2418 (Part 1):1977",
+      "title": "Tubular fluorescent lamps for general lighting service: Part 1 safety requirements (Second Revision)",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 2418 (Part 2):2018",
+      "title": "Tubular fluorescent lamps for general lighting service: Part 2 performance requirements (Second Revision)",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 2824:2007IEC 60112 : 2003",
+      "title": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 4261:2001",
+      "title": "Glossary of terms relating to paper and pulp based packaging materials (First Revision)",
+      "committee": "CHD 16"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 5921 (Part 1):1993IEC 249-1",
+      "title": "Metal-clad base materials for printed circuits for use in electronic and telecommunication equipment: Part 1 General requirements and test",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 10322 (Part 1):2026",
+      "title": "Luminaires: Part 1 general requirements and tests (First Revision)",
+      "committee": "ETD 49"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 10322 (Part 3):1984",
+      "title": "Luminaires - Part 3 : Screw and Screwless Terminals (Superseding IS 6585)",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 10322 (Part 4):1984",
+      "title": "Luminaires - Part 4 : Methods of Tests",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 11000 (Part 2/Sec 1):2018IEC 60695-2-10 : 2013",
+      "title": "Fire hazard testing: Part 2 test methods: Sec 1 glow - Wire apparatus and common test procedure (Second Revision)",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 11000 (Part 2/Sec 2):2008IEC 60695-11-5: 2004",
+      "title": "Fire hazard testing: Part 2 test methods: Sec 2 needle - Flame test method - Apparatus, cofirmatory test arrangement and guidance (First Revision)",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 12063:1987",
+      "title": "Classification of Degrees of Protection Provided by Enclosures of Electrical Equipment",
+      "committee": "ETD 01"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 13021 (Part 2):1991Reviewed In : 2024Reaffirmed but not taken up for revision",
+      "title": "AC supplied electronic ballasts for tubular fluorescent lamps - Specification: Part 2 performance requirements",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 13730:2018EC 60317-0-1 : 2013",
+      "title": "Specifications for particular types of winding wires: Part 0 general requirements: Sec 1 enamelled round copper wire (Second Revision)",
+      "committee": "ETD 33"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 15382 (Part 3):2019IEC 60664-3 : 2016",
+      "title": "Insulation Coordination for Equipment within Low-Voltage Systems Part 3 Use of Coating, Potting or Moulding for Protection against Pollution (First Revision)",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 15882:2009",
+      "title": "Ballasts for discharge lamps (Excluding Tubular Fluorescent Lamps) - Performance requirements",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 15885 (Part 2/Sec 1):2011Decision taken to Reaffirm and Archive",
+      "title": "Safety of lamp control gear: Part 2 particular requirements: Sec 1 starting devices (Other Than Glow Starters)",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 15885 (Part 2/Sec 8):2011Decision taken to Reaffirm and Archive",
+      "title": "Safety of lamp control gear: Part 2 particular requirements: Sec 8 ballasts for fluorescent lamps",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 15885 (Part 2/Sec 9):2011Decision taken to Reaffirm and Archive",
+      "title": "Safety of lamp control gear: Part 2 particular requirements: Sec 9 ballasts for discharge lamps (Excluding Fluorescent Lamps)",
+      "committee": "ETD 23"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 616:2017IEC 60065 : 2014",
+      "title": "Audio, video and similar electronic apparatus - Safety requirements (Fifth Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 1534 (Part 1):1977IEC 82",
+      "title": "Ballasts for fluorescent lamps:Part 1 For switch start circuits",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 2215:2006IEC 60155",
+      "title": "Starters for fluorescent lamps (Third Revision)",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 2418 (Part 1):1977",
+      "title": "Tubular fluorescent lamps for general lighting service: Part 1 safety requirements (Second Revision)",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 2418 (Part 2):2018",
+      "title": "Tubular fluorescent lamps for general lighting service: Part 2 performance requirements (Second Revision)",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 2824:2007IEC 60112 : 2003",
+      "title": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 4261:2001",
+      "title": "Glossary of terms relating to paper and pulp based packaging materials (First Revision)",
+      "committee": "CHD 16"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 5921 (Part 1):1993IEC 249-1",
+      "title": "Metal-clad base materials for printed circuits for use in electronic and telecommunication equipment: Part 1 General requirements and test",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 10322 (Part 1):2026",
+      "title": "Luminaires: Part 1 general requirements and tests (First Revision)",
+      "committee": "ETD 49"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 10322 (Part 3):1984",
+      "title": "Luminaires - Part 3 : Screw and Screwless Terminals (Superseding IS 6585)",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 10322 (Part 4):1984",
+      "title": "Luminaires - Part 4 : Methods of Tests",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 11000 (Part 2/Sec 1):2018IEC 60695-2-10 : 2013",
+      "title": "Fire hazard testing: Part 2 test methods: Sec 1 glow - Wire apparatus and common test procedure (Second Revision)",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 11000 (Part 2/Sec 2):2008IEC 60695-11-5: 2004",
+      "title": "Fire hazard testing: Part 2 test methods: Sec 2 needle - Flame test method - Apparatus, cofirmatory test arrangement and guidance (First Revision)",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 12063:1987",
+      "title": "Classification of Degrees of Protection Provided by Enclosures of Electrical Equipment",
+      "committee": "ETD 01"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 13021 (Part 2):1991Reviewed In : 2024Reaffirmed but not taken up for revision",
+      "title": "AC supplied electronic ballasts for tubular fluorescent lamps - Specification: Part 2 performance requirements",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 13730:2018EC 60317-0-1 : 2013",
+      "title": "Specifications for particular types of winding wires: Part 0 general requirements: Sec 1 enamelled round copper wire (Second Revision)",
+      "committee": "ETD 33"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 15382 (Part 3):2019IEC 60664-3 : 2016",
+      "title": "Insulation Coordination for Equipment within Low-Voltage Systems Part 3 Use of Coating, Potting or Moulding for Protection against Pollution (First Revision)",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 15882:2009",
+      "title": "Ballasts for discharge lamps (Excluding Tubular Fluorescent Lamps) - Performance requirements",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 15885 (Part 2/Sec 1):2011Decision taken to Reaffirm and Archive",
+      "title": "Safety of lamp control gear: Part 2 particular requirements: Sec 1 starting devices (Other Than Glow Starters)",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 15885 (Part 2/Sec 8):2011Decision taken to Reaffirm and Archive",
+      "title": "Safety of lamp control gear: Part 2 particular requirements: Sec 8 ballasts for fluorescent lamps",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 15885 (Part 2/Sec 9):2011Decision taken to Reaffirm and Archive",
+      "title": "Safety of lamp control gear: Part 2 particular requirements: Sec 9 ballasts for discharge lamps (Excluding Fluorescent Lamps)",
+      "committee": "ETD 23"
+    }
+  ],
+  "internationalReferences": [],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 15968 : 2013",
+      "title": "Ballasts for tubular fluorescent lamps - Performance requirements",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 16104 : 2012",
+      "title": "D.C. or A.C. supplied electronic control gear for led modules - Performance requirements",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 16102 : Part 1 : 2012",
+      "title": "Self - Ballasted led lamps for general lighting services: Part 1 safety requirements",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 15885 : Part 2 : Sec 13 : 2012",
+      "title": "Safety of lamp controlgear: Part 2 particular requirements: Sec 13 d.c. or a.c. supplied electronic controlgear for led modules",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 10322 : Part 5 : Sec 8 : 2013",
+      "title": "Luminaires: Part 5 particular requirements: Sec 8 emergency lighting",
+      "committee": "ETD 49"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 15885 : PART 1 : 2011",
+      "title": "Safety of lamp controlgear: Part 1 general requirements",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 15885 : PART 1 : 2011",
+      "title": "Safety of lamp controlgear: Part 1 general requirements",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 15885 : PART 1 : 2011",
+      "title": "Safety of lamp controlgear: Part 1 general requirements",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 15885 : PART 2 : SEC 3 : 2011",
+      "title": "Safety of lamp control gear: Part 2 particular requirements: Sec 3 ac supplied electronic ballasts for fluorescent lamps",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 16614 : Part 1 : 2018",
+      "title": "Double- Capped LED Linear Lamps Part1 Safety Specification",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 16103 : Part 1 : 2012",
+      "title": "Led modules for general lighting: Part 1 safety requirements",
+      "committee": "ETD 23"
+    }
+  ],
+  "clauses": [
+    {
+      "clauseNumber": "Clause 6.1",
+      "title": "LED Controlgear Safety",
+      "content": "DC or AC supplied electronic controlgear for LED modules shall provide SELV equivalent isolation and protection against abnormal overheating and voltage surges.",
+      "isMandatory": true
+    }
+  ],
+  "qco": null
+}

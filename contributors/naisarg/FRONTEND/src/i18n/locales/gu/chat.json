@@ -1,0 +1,40 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified) — scope limited to the empty-conversation state only; everything else falls back to English.",
+  "clearChat": {
+    "emptyTitle": "નવી વાતચીત",
+    "emptyDescription": "ફરીથી શરૂ કરવા માટે SAATHI ને ભારતીય ધોરણ વિશે પૂછો."
+  },
+  "nav": {
+    "sectionCore": "મુખ્ય",
+    "sectionLifecycle": "પ્રમાણન જીવનચક્ર",
+    "sectionTools": "અનુપાલન ઉપકરણ",
+    "sectionAdmin": "વ્યવસ્થાપક",
+    "standardsBrowser": "માનક બ્રાઉજ઼ર",
+    "adminPanel": "વ્યવસ્થાપક પૈનલ",
+    "documentManagement": "દસ્તાવેજ઼ પ્રબંધન",
+    "retrievalQuality": "પુનર્પ્રાપ્તિ ગુણવત્તા",
+    "conformityCheck": "અનુરૂપતા જાંચ",
+    "notifications": "સૂચનાએં",
+    "regulatoryRadar": "નિયામક રડાર",
+    "intelFeed": "ઇંટેલ ફીડ",
+    "documentCortex": "દસ્તાવેજ઼ કૉર્ટેક્સ",
+    "newRegistration": "નયા પંજીકરણ",
+    "officerVisits": "અધિકારી યાત્રાએં",
+    "documentCorrections": "દસ્તાવેજ઼ સુધાર",
+    "appealsDisputes": "અપીલ ઔર વિવાદ",
+    "businessAccount": "વ્યવસાય ખાતા",
+    "certificates": "પ્રમાણપત્ર",
+    "renewalReminders": "નવીનીકરણ અનુસ્મારક",
+    "complianceCalendar": "અનુપાલન કૈલેંડર",
+    "factoryAudits": "ફ઼ૈક્ટરી ઑડિટ",
+    "recallsAlerts": "રિકૉલ ઔર અલર્ટ",
+    "licenseActions": "લાઇસેંસ કાર્રવાઈ",
+    "feeInvoices": "શુલ્ક ચાલાન ઔર રસીદેં",
+    "manufacturingLocations": "વિનિર્માણ સ્થાન",
+    "schemeSelector": "યોજના ચયનકર્તા",
+    "complianceChain": "અનુપાલન શ્રૃંખલા",
+    "laboratoryMatcher": "પ્રયોગશાલા મિલાનકર્તા",
+    "regulatoryAlerts": "નિયામક અલર્ટ",
+    "exploreFeatures": "સુવિધાએં દેખેં"
+  }
+}

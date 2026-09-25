@@ -1,0 +1,40 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified) — scope limited to the empty-conversation state only; everything else falls back to English.",
+  "clearChat": {
+    "emptyTitle": "नवीन संभाषण",
+    "emptyDescription": "पुन्हा सुरू करण्यासाठी SAATHI ला एखाद्या भारतीय मानकाबद्दल विचारा."
+  },
+  "nav": {
+    "sectionCore": "मुख्य",
+    "sectionLifecycle": "प्रमाणन जीवनचक्र",
+    "sectionTools": "अनुपालन उपकरण",
+    "sectionAdmin": "व्यवस्थापक",
+    "standardsBrowser": "मानक ब्राउज़र",
+    "adminPanel": "व्यवस्थापक पैनल",
+    "documentManagement": "दस्तावेज़ प्रबंधन",
+    "retrievalQuality": "पुनर्प्राप्ति गुणवत्ता",
+    "conformityCheck": "अनुरूपता जांच",
+    "notifications": "सूचनाएं",
+    "regulatoryRadar": "नियामक रडार",
+    "intelFeed": "इंटेल फीड",
+    "documentCortex": "दस्तावेज़ कॉर्टेक्स",
+    "newRegistration": "नया पंजीकरण",
+    "officerVisits": "अधिकारी यात्राएं",
+    "documentCorrections": "दस्तावेज़ सुधार",
+    "appealsDisputes": "अपील और विवाद",
+    "businessAccount": "व्यवसाय खाता",
+    "certificates": "प्रमाणपत्र",
+    "renewalReminders": "नवीनीकरण अनुस्मारक",
+    "complianceCalendar": "अनुपालन कैलेंडर",
+    "factoryAudits": "फ़ैक्टरी ऑडिट",
+    "recallsAlerts": "रिकॉल और अलर्ट",
+    "licenseActions": "लाइसेंस कार्रवाई",
+    "feeInvoices": "शुल्क चालान और रसीदें",
+    "manufacturingLocations": "विनिर्माण स्थान",
+    "schemeSelector": "योजना चयनकर्ता",
+    "complianceChain": "अनुपालन श्रृंखला",
+    "laboratoryMatcher": "प्रयोगशाला मिलानकर्ता",
+    "regulatoryAlerts": "नियामक अलर्ट",
+    "exploreFeatures": "सुविधाएं देखें"
+  }
+}

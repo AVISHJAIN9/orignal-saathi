@@ -1,0 +1,71 @@
+{
+  "eyebrow": "Factory Audit Portal",
+  "heading": "Factory Audit Scheduling & Coordination",
+  "subheading": "Official workspace for Bureau of Indian Standards on-site factory inspections, preparation checklists, officer team coordination, and reschedule requests.",
+  "metrics": {
+    "totalAudits": "Total Audits",
+    "upcoming": "Upcoming Audits",
+    "actionRequired": "Action Required",
+    "completed": "Completed Audits",
+    "readiness": "Audit Readiness"
+  },
+  "tabs": {
+    "all": "All Audits",
+    "upcoming": "Upcoming",
+    "actionRequired": "Action Required",
+    "completed": "History & Completed"
+  },
+  "card": {
+    "auditNumber": "Audit No.",
+    "leadOfficer": "Lead Officer",
+    "scheduled": "Scheduled For",
+    "duration": "Duration",
+    "readinessScore": "Preparation Readiness",
+    "confirmAttendance": "Confirm Attendance",
+    "attendanceConfirmed": "Attendance Confirmed",
+    "requestReschedule": "Request Reschedule",
+    "viewAndCoordinate": "View & Coordinate",
+    "reschedulePending": "Reschedule Pending Review"
+  },
+  "dialog": {
+    "title": "Audit Coordination Workspace",
+    "tabs": {
+      "info": "Audit Information",
+      "checklist": "Preparation Checklist",
+      "documents": "Required Documents",
+      "instructions": "Official Directives",
+      "actions": "Coordination & Notes",
+      "history": "Prior History"
+    },
+    "plantAddress": "Plant Location",
+    "assignedTeam": "Assigned Inspection Officers",
+    "scopeTitle": "Scope of Audit Scrutiny",
+    "checklistDesc": "Mark preparation items as ready once verified by your quality assurance team.",
+    "documentsDesc": "Verify availability of key documents in the SAATHI Digital Vault.",
+    "internalNotes": "Internal Plant Coordination Notes",
+    "notesPlaceholder": "Add internal instructions for the testing lab supervisor or factory manager...",
+    "saveNotes": "Save Notes",
+    "notesSaved": "Internal notes updated successfully"
+  },
+  "reschedule": {
+    "title": "Request Audit Reschedule",
+    "disclaimer": "Reschedule requests are submitted for formal review by the designated BIS Branch Office Lead Officer. Inspection schedules cannot be unilaterally deferred.",
+    "reasonLabel": "Justification / Operational Reason",
+    "reasonPlaceholder": "State the technical or operational ground requiring date adjustment...",
+    "preferredDate1": "Preferred Alternate Date 1",
+    "preferredDate2": "Preferred Alternate Date 2 (Optional)",
+    "notes": "Additional Context for Officer",
+    "submit": "Submit Reschedule Request",
+    "submittedToast": "Reschedule request queued for officer review"
+  },
+  "statuses": {
+    "SCHEDULED": "Scheduled",
+    "CONFIRMED": "Confirmed",
+    "RESCHEDULE_REQUESTED": "Reschedule Requested",
+    "RESCHEDULED": "Rescheduled",
+    "IN_PROGRESS": "In Progress",
+    "COMPLETED": "Completed",
+    "CANCELLED": "Cancelled",
+    "ACTION_REQUIRED": "Action Required"
+  }
+}

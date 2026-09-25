@@ -1,0 +1,53 @@
+{
+  "trigger": "તમારા ઉત્પાદનનું વર્ણન કેવી રીતે કરવું તેની ખાતરી નથી?",
+  "dialogTitle": "ઉત્પાદન વર્ગીકરણ વિઝાર્ડ",
+  "dialogDescription": "થોડા ઝડપી પ્રશ્નોના જવાબ આપો અને અમે તેમને SAATHI માટેના પ્રશ્નમાં ફેરવીશું.",
+  "stepOf": "પગલું {{current}} / {{total}}",
+  "back": "પાછળ",
+  "getAnswer": "જવાબ મેળવો",
+  "steps": {
+    "category": {
+      "question": "તમારું ઉત્પાદન કઈ શ્રેણીનું છે?",
+      "options": {
+        "helmets": { "label": "વ્યક્તિગત સુરક્ષા", "clause": "વ્યક્તિગત સુરક્ષા" },
+        "appliances": { "label": "ઘરેલું ઉપકરણો", "clause": "ઘરેલું ઉપકરણ" },
+        "gold": { "label": "ઝવેરાત", "clause": "ઝવેરાત" },
+        "water": { "label": "ખોરાક અને પાણી", "clause": "ખોરાક અથવા પાણી" },
+        "cookers": { "label": "રસોડાનાં વાસણો", "clause": "રસોડાનાં વાસણો" },
+        "toys": { "label": "રમકડાં", "clause": "રમકડું" }
+      }
+    },
+    "audience": {
+      "question": "તે કોના માટે છે?",
+      "options": {
+        "consumer": { "label": "ગ્રાહક ઉપયોગ", "clause": "ગ્રાહક ઉપયોગ" },
+        "commercial": { "label": "વ્યાવસાયિક વેચાણ", "clause": "વ્યાવસાયિક વેચાણ" },
+        "import": { "label": "આયાત", "clause": "આયાત" }
+      }
+    },
+    "need": {
+      "question": "તમારે શું જાણવાની જરૂર છે?",
+      "options": {
+        "standard": {
+          "label": "કયો માનક લાગુ પડે છે",
+          "questionText": "તેના પર કયો માનક લાગુ પડે છે?"
+        },
+        "certification": {
+          "label": "પ્રમાણન પ્રક્રિયા",
+          "questionText": "પ્રમાણન પ્રક્રિયા શું છે?"
+        },
+        "testing": {
+          "label": "પરીક્ષણ આવશ્યકતાઓ",
+          "questionText": "તેને કઈ પરીક્ષણ આવશ્યકતાઓ પૂર્ણ કરવાની જરૂર છે?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "તમારા જવાબોની સમીક્ષા કરો",
+    "category": "શ્રેણી",
+    "audience": "ઉપયોગનો પ્રકાર",
+    "need": "તમારે શું જાણવું છે"
+  },
+  "generatedQuestion": "મારી પાસે {{audience}} માટેનું {{category}} ઉત્પાદન છે. {{needQuestion}}"
+}

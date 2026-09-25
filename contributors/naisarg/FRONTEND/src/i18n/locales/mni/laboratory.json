@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — পরীক্ষণ এ঵ং প্রযোগশালা বুদ্ধিমত্তা",
+  "title": "ইংটেলিজেংট প্রযোগশালা মৈচর",
+  "subtitle": "অপনে উত্পাদ কে লিএ আ঵শ্যক পরীক্ষণ করনে মেং সক্ষম সত্যাপিত প্রযোগশালাএং খোজেং৤",
+  "context": {
+    "title": "উত্পাদ এ঵ং পরীক্ষণ সংদর্ভ",
+    "product": "উত্পাদ",
+    "standard": "মানক",
+    "scheme": "যোজনা (স্কীম)",
+    "requiredTestsCount": "আ঵শ্যক পরীক্ষণ",
+    "noStandardWarning": "আ঵শ্যক পরীক্ষণ পথ কী পহচান করনে সে পহলে এক লাগূ ভারতীয মানক আ঵শ্যক হৈ৤",
+    "chooseStandard": "মানক চুনেং",
+    "selectProduct": "উত্পাদ চুনেং"
+  },
+  "requiredTests": {
+    "title": "আ঵শ্যক পরীক্ষণ",
+    "mandatoryCount_one": "{{count}} অনি঵ার্য পরীক্ষণ",
+    "mandatoryCount_other": "{{count}} অনি঵ার্য পরীক্ষণ",
+    "noTestsWarning": "ইস অনুপালন পথ কে লিএ কোঈ সত্যাপিত পরীক্ষণ আ঵শ্যকতাএং নহীং মিলীং৤"
+  },
+  "preferences": {
+    "title": "প্রাথমিকতাএং ঔর ফ়িল্টর",
+    "locationLabel": "স্থান / শহর",
+    "locationPlaceholder": "উদা. বেংগলুরু, দিল্লী, মুংবঈ",
+    "distanceLabel": "অধিকতম দূরী",
+    "distanceAny": "কোঈ ভী দূরী",
+    "distance50": "50 কিমী কে ভীতর",
+    "distance100": "100 কিমী কে ভীতর",
+    "distance250": "250 কিমী কে ভীতর",
+    "distance500": "500 কিমী কে ভীতর",
+    "accreditationLabel": "মান্যতা ফ়িল্টর",
+    "accreditationAll": "সভী প্রযোগশালাএং",
+    "accreditationVerified": "কে঵ল সত্যাপিত মান্যতা প্রাপ্ত",
+    "findLabsButton": "প্রযোগশালাএং খোজেং",
+    "searchingLabs": "প্রযোগশালাএং খোজী জা রহী হৈং..."
+  },
+  "results": {
+    "bestMatchHeading": "সর্঵শ্রেষ্ঠ মৈচ",
+    "otherMatchesHeading": "অন্য মিলান প্রযোগশালাএং",
+    "viewDetails": "঵ি঵রণ দেখেং",
+    "selectLab": "প্রযোগশালা চুনেং",
+    "labSelected": "প্রযোগশালা কা চযন হুআ",
+    "matchScore": "{{score}}% মৈচ",
+    "testsCovered": "{{covered}} / {{total}} পরীক্ষণ শামিল",
+    "fullCoverage": "পূর্ণ পরীক্ষণ ক঵রেজ সত্যাপিত",
+    "partialCoverage": "আংশিক পরীক্ষণ ক঵রেজ",
+    "verified": "সত্যাপিত",
+    "unverified": "অসত্যাপিত",
+    "unknown": "ক্ষমতা অজ্ঞাত",
+    "locationFit": "স্থান: {{location}}",
+    "distanceKm": "{{distance}} কিমী দূর"
+  },
+  "breakdown": {
+    "title": "মৈচ স্কোর ঵ি঵রণ",
+    "testCoverage": "পরীক্ষণ ক঵রেজ",
+    "standardMatch": "মানক মিলান",
+    "accreditation": "মান্যতা প্রাপ্ত হোনা",
+    "locationFit": "স্থান উপযুক্ততা"
+  },
+  "details": {
+    "title": "প্রযোগশালা প্রোফ়াইল ঔর ক্ষমতাএং",
+    "location": "স্থান",
+    "capabilities": "পরীক্ষণ ক্ষমতাএং",
+    "standards": "প্রাসংগিক ভারতীয মানক",
+    "accreditation": "মান্যতা স্থিতি",
+    "contact": "সত্যাপিত সংপর্ক জানকারী",
+    "source": "আধিকারিক স্রোত সত্যাপন",
+    "viewSource": "আধিকারিক স্রোত দেখেং",
+    "viewWebsite": "আধিকারিক ঵েবসাইট দেখেং",
+    "email": "ঈমেল",
+    "phone": "ফ়োন",
+    "close": "বংদ করেং"
+  },
+  "states": {
+    "noMatchesTitle": "কোঈ সত্যাপিত প্রযোগশালা নহীং মিলী",
+    "noMatchesMsg": "আপকী ঵র্তমান মাপদংডোং কে অনুসার আ঵শ্যক পরীক্ষণ কে লিএ কোঈ সত্যাপিত প্রযোগশালা নহীং মিলী৤",
+    "partialMatchesNotice": "কোঈ ভী একল সত্যাপিত প্রযোগশালা সভী আ঵শ্যক পরীক্ষণোং কো ক঵র নহীং করতী হৈ৤ সর্঵শ্রেষ্ঠ উপলব্ধ আংশিক মৈচ নীচে দিখাএ গএ হৈং৤",
+    "errorTitle": "প্রযোগশালা মিলান সে঵া অনুপলব্ধ",
+    "errorMsg": "প্রযোগশালা মিলান সে঵া অস্থাযী রূপ সে অনুপলব্ধ হৈ৤",
+    "retry": "পুনঃ প্রযাস করেং",
+    "emptyContextTitle": "অনুপালন সংদর্ভ নির্দিষ্ট করেং",
+    "emptyContextMsg": "আ঵শ্যক পরীক্ষণোং ঔর উপযুক্ত প্রযোগশালাওং কী পহচান করনে কে লিএ অপনা উত্পাদ যা অনুপালন পথ চুনেং৤"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — پریکشण اےوں پریوگشالا بوددھیمتتا",
+  "title": "اںٹےلیجےںٹ پریوگشالا مےچر",
+  "subtitle": "اپنے اوتپاد کے لیاے آوشیک پریکشण کرنے مےں سکشم ستیاپیت پریوگشالااےں کھوجےں।",
+  "context": {
+    "title": "اوتپاد اےوں پریکشण سںدربھ",
+    "product": "اوتپاد",
+    "standard": "مانک",
+    "scheme": "یوجنا (سکیم)",
+    "requiredTestsCount": "آوشیک پریکشण",
+    "noStandardWarning": "آوشیک پریکشण پتھ کی پہچان کرنے سے پہلے اےک لاگو بھارتیی مانک آوشیک ہے।",
+    "chooseStandard": "مانک چونےں",
+    "selectProduct": "اوتپاد چونےں"
+  },
+  "requiredTests": {
+    "title": "آوشیک پریکشण",
+    "mandatoryCount_one": "{{count}} انیواری پریکشण",
+    "mandatoryCount_other": "{{count}} انیواری پریکشण",
+    "noTestsWarning": "اس انوپالن پتھ کے لیاے کوای ستیاپیت پریکشण آوشیکتااےں نہیں میلیں।"
+  },
+  "preferences": {
+    "title": "پراتھمیکتااےں اور پھ़یلٹر",
+    "locationLabel": "ستھان / شہر",
+    "locationPlaceholder": "اودا. بےںگلورو, دیللی, موںبای",
+    "distanceLabel": "ادھیکتم دوری",
+    "distanceAny": "کوای بھی دوری",
+    "distance50": "50 کیمی کے بھیتر",
+    "distance100": "100 کیمی کے بھیتر",
+    "distance250": "250 کیمی کے بھیتر",
+    "distance500": "500 کیمی کے بھیتر",
+    "accreditationLabel": "مانیتا پھ़یلٹر",
+    "accreditationAll": "سبھی پریوگشالااےں",
+    "accreditationVerified": "کےول ستیاپیت مانیتا پراپت",
+    "findLabsButton": "پریوگشالااےں کھوجےں",
+    "searchingLabs": "پریوگشالااےں کھوجی جا رہی ہےں..."
+  },
+  "results": {
+    "bestMatchHeading": "سروشرےشٹھ مےچ",
+    "otherMatchesHeading": "انی میلان پریوگشالااےں",
+    "viewDetails": "ویورण دےکھےں",
+    "selectLab": "پریوگشالا چونےں",
+    "labSelected": "پریوگشالا کا چین ہوآ",
+    "matchScore": "{{score}}% مےچ",
+    "testsCovered": "{{covered}} / {{total}} پریکشण شامیل",
+    "fullCoverage": "پورण پریکشण کورےج ستیاپیت",
+    "partialCoverage": "آںشیک پریکشण کورےج",
+    "verified": "ستیاپیت",
+    "unverified": "استیاپیت",
+    "unknown": "کشمتا اجञات",
+    "locationFit": "ستھان: {{location}}",
+    "distanceKm": "{{distance}} کیمی دور"
+  },
+  "breakdown": {
+    "title": "مےچ سکور ویورण",
+    "testCoverage": "پریکشण کورےج",
+    "standardMatch": "مانک میلان",
+    "accreditation": "مانیتا پراپت ہونا",
+    "locationFit": "ستھان اوپیوکتتا"
+  },
+  "details": {
+    "title": "پریوگشالا پروپھ़اال اور کشمتااےں",
+    "location": "ستھان",
+    "capabilities": "پریکشण کشمتااےں",
+    "standards": "پراسںگیک بھارتیی مانک",
+    "accreditation": "مانیتا ستھیتی",
+    "contact": "ستیاپیت سںپرک جانکاری",
+    "source": "آدھیکاریک سروت ستیاپن",
+    "viewSource": "آدھیکاریک سروت دےکھےں",
+    "viewWebsite": "آدھیکاریک وےبسااٹ دےکھےں",
+    "email": "ایمےل",
+    "phone": "پھ़ون",
+    "close": "بںد کرےں"
+  },
+  "states": {
+    "noMatchesTitle": "کوای ستیاپیت پریوگشالا نہیں میلی",
+    "noMatchesMsg": "آپکی ورتمان ماپدںڈوں کے انوسار آوشیک پریکشण کے لیاے کوای ستیاپیت پریوگشالا نہیں میلی।",
+    "partialMatchesNotice": "کوای بھی اےکل ستیاپیت پریوگشالا سبھی آوشیک پریکشणوں کو کور نہیں کرتی ہے। سروشرےشٹھ اوپلبدھ آںشیک مےچ نیچے دیکھااے گاے ہےں।",
+    "errorTitle": "پریوگشالا میلان سےوا انوپلبدھ",
+    "errorMsg": "پریوگشالا میلان سےوا استھایی روپ سے انوپلبدھ ہے।",
+    "retry": "پونः پریاس کرےں",
+    "emptyContextTitle": "انوپالن سںدربھ نیردیشٹ کرےں",
+    "emptyContextMsg": "آوشیک پریکشणوں اور اوپیوکت پریوگشالااوں کی پہچان کرنے کے لیاے اپنا اوتپاد یا انوپالن پتھ چونےں।"
+  }
+}

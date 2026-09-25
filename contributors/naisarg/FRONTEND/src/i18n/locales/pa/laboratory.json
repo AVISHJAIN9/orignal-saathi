@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — ਪਰੀਕ੍਷ਣ ਏਵਂ ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਬੁਦ੍ਧਿਮਤ੍ਤਾ",
+  "title": "ਇਂਟੇਲਿਜੇਂਟ ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਮੈਚਰ",
+  "subtitle": "ਅਪਨੇ ਉਤ੍ਪਾਦ ਕੇ ਲਿਏ ਆਵਸ਼੍ਯਕ ਪਰੀਕ੍਷ਣ ਕਰਨੇ ਮੇਂ ਸਕ੍਷ਮ ਸਤ੍ਯਾਪਿਤ ਪ੍ਰਯੋਗਸ਼ਾਲਾਏਂ ਖੋਜੇਂ੤",
+  "context": {
+    "title": "ਉਤ੍ਪਾਦ ਏਵਂ ਪਰੀਕ੍਷ਣ ਸਂਦਰ੍ਭ",
+    "product": "ਉਤ੍ਪਾਦ",
+    "standard": "ਮਾਨਕ",
+    "scheme": "ਯੋਜਨਾ (ਸ੍ਕੀਮ)",
+    "requiredTestsCount": "ਆਵਸ਼੍ਯਕ ਪਰੀਕ੍਷ਣ",
+    "noStandardWarning": "ਆਵਸ਼੍ਯਕ ਪਰੀਕ੍਷ਣ ਪਥ ਕੀ ਪਹਚਾਨ ਕਰਨੇ ਸੇ ਪਹਲੇ ਏਕ ਲਾਗੂ ਭਾਰਤੀਯ ਮਾਨਕ ਆਵਸ਼੍ਯਕ ਹੈ੤",
+    "chooseStandard": "ਮਾਨਕ ਚੁਨੇਂ",
+    "selectProduct": "ਉਤ੍ਪਾਦ ਚੁਨੇਂ"
+  },
+  "requiredTests": {
+    "title": "ਆਵਸ਼੍ਯਕ ਪਰੀਕ੍਷ਣ",
+    "mandatoryCount_one": "{{count}} ਅਨਿਵਾਰ੍ਯ ਪਰੀਕ੍਷ਣ",
+    "mandatoryCount_other": "{{count}} ਅਨਿਵਾਰ੍ਯ ਪਰੀਕ੍਷ਣ",
+    "noTestsWarning": "ਇਸ ਅਨੁਪਾਲਨ ਪਥ ਕੇ ਲਿਏ ਕੋਈ ਸਤ੍ਯਾਪਿਤ ਪਰੀਕ੍਷ਣ ਆਵਸ਼੍ਯਕਤਾਏਂ ਨਹੀਂ ਮਿਲੀਂ੤"
+  },
+  "preferences": {
+    "title": "ਪ੍ਰਾਥਮਿਕਤਾਏਂ ਔਰ ਫ਼ਿਲ੍ਟਰ",
+    "locationLabel": "ਸ੍ਥਾਨ / ਸ਼ਹਰ",
+    "locationPlaceholder": "ਉਦਾ. ਬੇਂਗਲੁਰੁ, ਦਿਲ੍ਲੀ, ਮੁਂਬਈ",
+    "distanceLabel": "ਅਧਿਕਤਮ ਦੂਰੀ",
+    "distanceAny": "ਕੋਈ ਭੀ ਦੂਰੀ",
+    "distance50": "50 ਕਿਮੀ ਕੇ ਭੀਤਰ",
+    "distance100": "100 ਕਿਮੀ ਕੇ ਭੀਤਰ",
+    "distance250": "250 ਕਿਮੀ ਕੇ ਭੀਤਰ",
+    "distance500": "500 ਕਿਮੀ ਕੇ ਭੀਤਰ",
+    "accreditationLabel": "ਮਾਨ੍ਯਤਾ ਫ਼ਿਲ੍ਟਰ",
+    "accreditationAll": "ਸਭੀ ਪ੍ਰਯੋਗਸ਼ਾਲਾਏਂ",
+    "accreditationVerified": "ਕੇਵਲ ਸਤ੍ਯਾਪਿਤ ਮਾਨ੍ਯਤਾ ਪ੍ਰਾਪ੍ਤ",
+    "findLabsButton": "ਪ੍ਰਯੋਗਸ਼ਾਲਾਏਂ ਖੋਜੇਂ",
+    "searchingLabs": "ਪ੍ਰਯੋਗਸ਼ਾਲਾਏਂ ਖੋਜੀ ਜਾ ਰਹੀ ਹੈਂ..."
+  },
+  "results": {
+    "bestMatchHeading": "ਸਰ੍ਵਸ਼੍ਰੇ਷੍ਠ ਮੈਚ",
+    "otherMatchesHeading": "ਅਨ੍ਯ ਮਿਲਾਨ ਪ੍ਰਯੋਗਸ਼ਾਲਾਏਂ",
+    "viewDetails": "ਵਿਵਰਣ ਦੇਖੇਂ",
+    "selectLab": "ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਚੁਨੇਂ",
+    "labSelected": "ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਕਾ ਚਯਨ ਹੁਆ",
+    "matchScore": "{{score}}% ਮੈਚ",
+    "testsCovered": "{{covered}} / {{total}} ਪਰੀਕ੍਷ਣ ਸ਼ਾਮਿਲ",
+    "fullCoverage": "ਪੂਰ੍ਣ ਪਰੀਕ੍਷ਣ ਕਵਰੇਜ ਸਤ੍ਯਾਪਿਤ",
+    "partialCoverage": "ਆਂਸ਼ਿਕ ਪਰੀਕ੍਷ਣ ਕਵਰੇਜ",
+    "verified": "ਸਤ੍ਯਾਪਿਤ",
+    "unverified": "ਅਸਤ੍ਯਾਪਿਤ",
+    "unknown": "ਕ੍਷ਮਤਾ ਅਜ੍ਞਾਤ",
+    "locationFit": "ਸ੍ਥਾਨ: {{location}}",
+    "distanceKm": "{{distance}} ਕਿਮੀ ਦੂਰ"
+  },
+  "breakdown": {
+    "title": "ਮੈਚ ਸ੍ਕੋਰ ਵਿਵਰਣ",
+    "testCoverage": "ਪਰੀਕ੍਷ਣ ਕਵਰੇਜ",
+    "standardMatch": "ਮਾਨਕ ਮਿਲਾਨ",
+    "accreditation": "ਮਾਨ੍ਯਤਾ ਪ੍ਰਾਪ੍ਤ ਹੋਨਾ",
+    "locationFit": "ਸ੍ਥਾਨ ਉਪਯੁਕ੍ਤਤਾ"
+  },
+  "details": {
+    "title": "ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਪ੍ਰੋਫ਼ਾਇਲ ਔਰ ਕ੍਷ਮਤਾਏਂ",
+    "location": "ਸ੍ਥਾਨ",
+    "capabilities": "ਪਰੀਕ੍਷ਣ ਕ੍਷ਮਤਾਏਂ",
+    "standards": "ਪ੍ਰਾਸਂਗਿਕ ਭਾਰਤੀਯ ਮਾਨਕ",
+    "accreditation": "ਮਾਨ੍ਯਤਾ ਸ੍ਥਿਤਿ",
+    "contact": "ਸਤ੍ਯਾਪਿਤ ਸਂਪਰ੍ਕ ਜਾਨਕਾਰੀ",
+    "source": "ਆਧਿਕਾਰਿਕ ਸ੍ਰੋਤ ਸਤ੍ਯਾਪਨ",
+    "viewSource": "ਆਧਿਕਾਰਿਕ ਸ੍ਰੋਤ ਦੇਖੇਂ",
+    "viewWebsite": "ਆਧਿਕਾਰਿਕ ਵੇਬਸਾਇਟ ਦੇਖੇਂ",
+    "email": "ਈਮੇਲ",
+    "phone": "ਫ਼ੋਨ",
+    "close": "ਬਂਦ ਕਰੇਂ"
+  },
+  "states": {
+    "noMatchesTitle": "ਕੋਈ ਸਤ੍ਯਾਪਿਤ ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਨਹੀਂ ਮਿਲੀ",
+    "noMatchesMsg": "ਆਪਕੀ ਵਰ੍ਤਮਾਨ ਮਾਪਦਂਡੋਂ ਕੇ ਅਨੁਸਾਰ ਆਵਸ਼੍ਯਕ ਪਰੀਕ੍਷ਣ ਕੇ ਲਿਏ ਕੋਈ ਸਤ੍ਯਾਪਿਤ ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਨਹੀਂ ਮਿਲੀ੤",
+    "partialMatchesNotice": "ਕੋਈ ਭੀ ਏਕਲ ਸਤ੍ਯਾਪਿਤ ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਸਭੀ ਆਵਸ਼੍ਯਕ ਪਰੀਕ੍਷ਣੋਂ ਕੋ ਕਵਰ ਨਹੀਂ ਕਰਤੀ ਹੈ੤ ਸਰ੍ਵਸ਼੍ਰੇ਷੍ਠ ਉਪਲਬ੍ਧ ਆਂਸ਼ਿਕ ਮੈਚ ਨੀਚੇ ਦਿਖਾਏ ਗਏ ਹੈਂ੤",
+    "errorTitle": "ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਮਿਲਾਨ ਸੇਵਾ ਅਨੁਪਲਬ੍ਧ",
+    "errorMsg": "ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਮਿਲਾਨ ਸੇਵਾ ਅਸ੍ਥਾਯੀ ਰੂਪ ਸੇ ਅਨੁਪਲਬ੍ਧ ਹੈ੤",
+    "retry": "ਪੁਨਃ ਪ੍ਰਯਾਸ ਕਰੇਂ",
+    "emptyContextTitle": "ਅਨੁਪਾਲਨ ਸਂਦਰ੍ਭ ਨਿਰ੍ਦਿ਷੍ਟ ਕਰੇਂ",
+    "emptyContextMsg": "ਆਵਸ਼੍ਯਕ ਪਰੀਕ੍਷ਣੋਂ ਔਰ ਉਪਯੁਕ੍ਤ ਪ੍ਰਯੋਗਸ਼ਾਲਾਓਂ ਕੀ ਪਹਚਾਨ ਕਰਨੇ ਕੇ ਲਿਏ ਅਪਨਾ ਉਤ੍ਪਾਦ ਯਾ ਅਨੁਪਾਲਨ ਪਥ ਚੁਨੇਂ੤"
+  }
+}

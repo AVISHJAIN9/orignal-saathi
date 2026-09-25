@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — பரீக்ஷண ஏவஂ ப்ரயோ஗ஶாலா ஬ு஦்஧ிமத்தா",
+  "title": "இஂடேலிஜேஂட ப்ரயோ஗ஶாலா மைசர",
+  "subtitle": "அபநே உத்பா஦ கே லிஏ ஆவஶ்யக பரீக்ஷண கரநே மேஂ ஸக்ஷம ஸத்யாபித ப்ரயோ஗ஶாலாஏஂ ஖ோஜேஂ௤",
+  "context": {
+    "title": "உத்பா஦ ஏவஂ பரீக்ஷண ஸஂ஦ர்஭",
+    "product": "உத்பா஦",
+    "standard": "மாநக",
+    "scheme": "யோஜநா (ஸ்கீம)",
+    "requiredTestsCount": "ஆவஶ்யக பரீக்ஷண",
+    "noStandardWarning": "ஆவஶ்யக பரீக்ஷண ப஥ கீ பஹசாந கரநே ஸே பஹலே ஏக லா஗ூ ஭ாரதீய மாநக ஆவஶ்யக ஹை௤",
+    "chooseStandard": "மாநக சுநேஂ",
+    "selectProduct": "உத்பா஦ சுநேஂ"
+  },
+  "requiredTests": {
+    "title": "ஆவஶ்யக பரீக்ஷண",
+    "mandatoryCount_one": "{{count}} அநிவார்ய பரீக்ஷண",
+    "mandatoryCount_other": "{{count}} அநிவார்ய பரீக்ஷண",
+    "noTestsWarning": "இஸ அநுபாலந ப஥ கே லிஏ கோஈ ஸத்யாபித பரீக்ஷண ஆவஶ்யகதாஏஂ நஹீஂ மிலீஂ௤"
+  },
+  "preferences": {
+    "title": "ப்ரா஥மிகதாஏஂ ஔர ஫஼ில்டர",
+    "locationLabel": "ஸ்஥ாந / ஶஹர",
+    "locationPlaceholder": "உ஦ா. ஬ேஂ஗லுரு, ஦ில்லீ, முஂ஬ஈ",
+    "distanceLabel": "அ஧ிகதம ஦ூரீ",
+    "distanceAny": "கோஈ ஭ீ ஦ூரீ",
+    "distance50": "50 கிமீ கே ஭ீதர",
+    "distance100": "100 கிமீ கே ஭ீதர",
+    "distance250": "250 கிமீ கே ஭ீதர",
+    "distance500": "500 கிமீ கே ஭ீதர",
+    "accreditationLabel": "மாந்யதா ஫஼ில்டர",
+    "accreditationAll": "ஸ஭ீ ப்ரயோ஗ஶாலாஏஂ",
+    "accreditationVerified": "கேவல ஸத்யாபித மாந்யதா ப்ராப்த",
+    "findLabsButton": "ப்ரயோ஗ஶாலாஏஂ ஖ோஜேஂ",
+    "searchingLabs": "ப்ரயோ஗ஶாலாஏஂ ஖ோஜீ ஜா ரஹீ ஹைஂ..."
+  },
+  "results": {
+    "bestMatchHeading": "ஸர்வஶ்ரேஷ்஠ மைச",
+    "otherMatchesHeading": "அந்ய மிலாந ப்ரயோ஗ஶாலாஏஂ",
+    "viewDetails": "விவரண ஦ே஖ேஂ",
+    "selectLab": "ப்ரயோ஗ஶாலா சுநேஂ",
+    "labSelected": "ப்ரயோ஗ஶாலா கா சயந ஹுஆ",
+    "matchScore": "{{score}}% மைச",
+    "testsCovered": "{{covered}} / {{total}} பரீக்ஷண ஶாமில",
+    "fullCoverage": "பூர்ண பரீக்ஷண கவரேஜ ஸத்யாபித",
+    "partialCoverage": "ஆஂஶிக பரீக்ஷண கவரேஜ",
+    "verified": "ஸத்யாபித",
+    "unverified": "அஸத்யாபித",
+    "unknown": "க்ஷமதா அஜ்ஞாத",
+    "locationFit": "ஸ்஥ாந: {{location}}",
+    "distanceKm": "{{distance}} கிமீ ஦ூர"
+  },
+  "breakdown": {
+    "title": "மைச ஸ்கோர விவரண",
+    "testCoverage": "பரீக்ஷண கவரேஜ",
+    "standardMatch": "மாநக மிலாந",
+    "accreditation": "மாந்யதா ப்ராப்த ஹோநா",
+    "locationFit": "ஸ்஥ாந உபயுக்ததா"
+  },
+  "details": {
+    "title": "ப்ரயோ஗ஶாலா ப்ரோ஫஼ாஇல ஔர க்ஷமதாஏஂ",
+    "location": "ஸ்஥ாந",
+    "capabilities": "பரீக்ஷண க்ஷமதாஏஂ",
+    "standards": "ப்ராஸஂ஗ிக ஭ாரதீய மாநக",
+    "accreditation": "மாந்யதா ஸ்஥ிதி",
+    "contact": "ஸத்யாபித ஸஂபர்க ஜாநகாரீ",
+    "source": "ஆ஧ிகாரிக ஸ்ரோத ஸத்யாபந",
+    "viewSource": "ஆ஧ிகாரிக ஸ்ரோத ஦ே஖ேஂ",
+    "viewWebsite": "ஆ஧ிகாரிக வே஬ஸாஇட ஦ே஖ேஂ",
+    "email": "ஈமேல",
+    "phone": "஫஼ோந",
+    "close": "஬ஂ஦ கரேஂ"
+  },
+  "states": {
+    "noMatchesTitle": "கோஈ ஸத்யாபித ப்ரயோ஗ஶாலா நஹீஂ மிலீ",
+    "noMatchesMsg": "ஆபகீ வர்தமாந மாப஦ஂ஡ோஂ கே அநுஸார ஆவஶ்யக பரீக்ஷண கே லிஏ கோஈ ஸத்யாபித ப்ரயோ஗ஶாலா நஹீஂ மிலீ௤",
+    "partialMatchesNotice": "கோஈ ஭ீ ஏகல ஸத்யாபித ப்ரயோ஗ஶாலா ஸ஭ீ ஆவஶ்யக பரீக்ஷணோஂ கோ கவர நஹீஂ கரதீ ஹை௤ ஸர்வஶ்ரேஷ்஠ உபல஬்஧ ஆஂஶிக மைச நீசே ஦ி஖ாஏ ஗ஏ ஹைஂ௤",
+    "errorTitle": "ப்ரயோ஗ஶாலா மிலாந ஸேவா அநுபல஬்஧",
+    "errorMsg": "ப்ரயோ஗ஶாலா மிலாந ஸேவா அஸ்஥ாயீ ரூப ஸே அநுபல஬்஧ ஹை௤",
+    "retry": "புநஃ ப்ரயாஸ கரேஂ",
+    "emptyContextTitle": "அநுபாலந ஸஂ஦ர்஭ நிர்஦ிஷ்ட கரேஂ",
+    "emptyContextMsg": "ஆவஶ்யக பரீக்ஷணோஂ ஔர உபயுக்த ப்ரயோ஗ஶாலாஓஂ கீ பஹசாந கரநே கே லிஏ அபநா உத்பா஦ யா அநுபாலந ப஥ சுநேஂ௤"
+  }
+}

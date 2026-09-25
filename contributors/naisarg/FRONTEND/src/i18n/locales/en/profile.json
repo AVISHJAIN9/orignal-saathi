@@ -1,0 +1,52 @@
+{
+  "eyebrow": "Your Account",
+  "heading": "Your Profile",
+  "tabs": {
+    "identity": "Identity",
+    "preferences": "Preferences",
+    "account": "Account & Access",
+    "activity": "Activity"
+  },
+  "identity": {
+    "heading": "Identity",
+    "body": "Set once at sign-in — this section does not have an edit form."
+  },
+  "preferences": {
+    "heading": "Preferences",
+    "body": "How SAATHI addresses you while you chat — saved on this device only.",
+    "languageLabel": "Language",
+    "saved": "Saved",
+    "sms": {
+      "heading": "SMS Notifications",
+      "intro": "SMS notifications require a phone number on your account and are not yet available.",
+      "categories": {
+        "renewalAlerts": {
+          "label": "Renewal & expiry alerts",
+          "description": "An SMS reminder before a certification or licence renewal is due."
+        },
+        "criticalStatusChanges": {
+          "label": "Critical status changes",
+          "description": "An SMS when an application or payment status changes critically (e.g. rejected, overdue)."
+        }
+      },
+      "unavailableNote": "Not yet available — requires SMS integration."
+    },
+    "theme": {
+      "heading": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "account": {
+    "heading": "Account & Access",
+    "body": "Your current role and where to find the rest of your work.",
+    "roleLabel": "Role",
+    "linksHeading": "Go to"
+  },
+  "activity": {
+    "heading": "Recent Activity",
+    "body": "Sourced from your active applications — the same feed your dashboard shows.",
+    "empty": "No recent activity yet."
+  }
+}

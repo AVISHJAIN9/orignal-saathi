@@ -1,0 +1,927 @@
+{
+  "master": {
+    "internal_id": 30670,
+    "IS_number": "IS 14543:2024",
+    "clean_number": "14543",
+    "slug": "is14543",
+    "IS_title": "Packaged Drinking Water Other than Packaged Natural Mineral Water Specification Third Revision",
+    "superseding_IS": "IS 14543 : 2016",
+    "degree_of_equivalence": "Indigenous",
+    "number_of_revisions": "3",
+    "number_of_amendments": "No amendment issued",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "FAD (Food and Agriculture Department)",
+    "technical_committee": "FAD 14 (Drinking Water and Carbonated Beverages Sectional Committee)",
+    "member_secretary": "Abhijit Singh (SCIENTIST-C)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 0,
+    "gazette_document_count": 20,
+    "license_count": 1756,
+    "product_manual_sit_count": 1,
+    "laboratory_count": 67,
+    "corrigendum_count": 0,
+    "catalogue_id": "9270",
+    "catalogue_is_no": "IS 14543:2024 (Active)",
+    "catalogue_title": "Packaged Drinking Water Other than Packaged Natural Mineral Water Specification Third Revision",
+    "catalogue_amendments": "0",
+    "catalogue_technical_committee": "FAD 14",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Indigenous",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/30670",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=30670",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/281/2",
+    "extracted_at": "2026-09-23T09:44:02.461Z",
+    "category_key": "water",
+    "category_label": "Packaged Water",
+    "status": "Active",
+    "image_url": "/images/products/water.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 3025 (Part 2):2019ISO 11885 : 2007",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 2 Determination of Selected Elements by Inductively Coupled Plasma Optical Emission Spectrometry (ICP - OES) (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 15992 (Part 2):202115836-2",
+      "title": "METHODS OF SAMPLING AND TEST PHYSICAL AND CHEMICAL FOR WATER AND WASTE WATER PART 4 COLOUR Second Revision",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 3025 (Part 5):2018",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water: Part 5 Odour (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 19315:2025",
+      "title": "Methods of Sampling and Test Physical and Chemical For Water and Wastewater Part 8 Taste Rating Second Revision",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 19183 (Part 2):2025ISO 10069-2 : 2008",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 10 Turbidity Second Revision",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 3025 : Part 11 : 2022",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 11 pH value (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 18807:2024",
+      "title": "Methods of Sampling and Test Physical And Chemical for Water and Waste Water Part 16 Filterable Residue Total Dissolved Solids at 180 C Second Revision",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 3025 (Part 23) : 2023",
+      "title": "Methods of Sampling and Test (Physical and Chemical) For Water and Wastewater Part 23 Alkalinity (Second Revision) Amendment - 1",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 18284:2023",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 24 Sulphates Section 1 Gravimetric and Turbidity Methods (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 18180 (Part 4):2023ISO 17450-4:2017",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 24 Sulphates Section 2 Method by Continuous Flow Analysis",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 17590 (Part 1):2021IEC TS 63014-1 : 201",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 26 Chlorine Residual (Second Revision) of IS 3025Part 26",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS/IEC 61196-1-316:2005IEC 61196-1-316: 200",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 27 Cyanide Section 1 Titrimetic, Colorimetric and Ion-Selective Methods (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 8085 (Part 9):2023ISO 17696 : 2004",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 27 Cyanides Section 2 Methods Using Flow Injection Analysis",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 18113:2023ISO/TR 23304 : 2021",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 27 Cyanides Section 3 Methods Using Continuous Flow Analysis (CFA)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 18974:2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 29 Sulphide (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 3025 (Part 32):2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 32 Chloride (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 3025 (Part 34/Sec 1):2023",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and wastewater: Part 34 nitrogen (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 18438:2023ISO 18069:2015",
+      "title": "Methods and Sampling and Test (Physical and Chemical) for Water and Wastewater Part 37 Arsenic (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 17591:2021IEC TR 63127 : 2019",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 39 Oil and Grease ( Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 3025 (Part 40):2024",
+      "title": "Water and wastewater - Methods of Sampling and Test (Physical and Chemical): Part 40 Calcium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 3025 : Part 41 : 2023",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 41 Cadmium (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 3025 (Part 42):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 42 Copper (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 2314 (Part 1):2023",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 43 Phenol ( Section 1 4-Aminoantipyrine Method with and without Chloroform Extraction method ) ( Second Revision )",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 3025 (Part 45):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 45 Sodium and Potassium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 3025 (Part 46) : 2023",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 46 Magnesium (Second Revision) Amendment - 1",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 3025 (Part 47):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 47 Lead (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 3025 (Part 48):2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 48 Mercury (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 3025 (Part 49):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 49 Zinc (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 3025 (Part 53):2024",
+      "title": "Methods of sampling and test (Physical and Chemical) forwaterand wastewater: Part 53 iron (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 3025 (Part 55):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 55 Aluminium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 3025 (Part 56):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 56 Selenium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 3025 (Part 59):2023",
+      "title": "Methods of samplig and test (Physical And Chemical) for water and wastewater: Part 59 manganese (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 18913:2024ISO 16781 : 2021",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 60 Fluoride Section 1 Ion-selective electrode SPANDS and Liquid Chromatography methods (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS/ISO 8000-65:2020ISO 8000-65 : 2020",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 60 Fluoride Section 2 Method using flow injection analysis FIA and spectrometric detection after off-line distillation",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS/ISO/IEC 11801-5:2017ISO/IEC 11801-5 : 2017",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 60 Fluoride Section 3 Method using continuous flow analysis CFA with automated in-line distillation",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 18276:2023ISO 18309:2014",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 65 Application of Inductively Coupled Plasma Mass Spectrometry ( ICP-MS ) \u2014 Determination of selected elements including Uranium Isotopes (first revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 3025 (Part 67):2018ISO 15061 : 2001",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 67 Determination of Dissolved Bromate - Method by Liquid Chromatography of Ions",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 3025 (Part 68):2019",
+      "title": "Methods of Sampling and Test ( Physical and Chemical ) for Water and Wastewater Part 68 Anionic Surfactants",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 18301 (Part 3):2023ISO 13606-3:2019",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 75 Determination of Dissolved Anions by Liquid Chromatography of Ions - Determination of Bromide, Chloride, Fluoride, Nitrate, Nitrite Phosphate and Sulfate",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS/IEC 60195:2016IEC 60195:2016",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 78 Determination of the Methylene Blue Active Substances (MBAS) Index Method Using Continuous Flow Analysis (CFA)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 19312:2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 79 Silver",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 4905:2015ISO 24153 : 2009",
+      "title": "Random sampling and randomization procedures (First Revision)",
+      "committee": "MSD 03"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 5401 (Part 1):2012ISO 4832 : 2006",
+      "title": "Microbiology of food and animal feeding stuffs - Horizontal method for the detection and enumeration of coliforms: Part 1 colony count technique (Second Revision)",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 17700:2021ISO 14457:2017",
+      "title": "Microbiology of the food chain - Horizontal method for the enumeration of microorganisms- Part 1: Colony count at 30 C by the pour plate technique",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 5403:1999ISO 7954",
+      "title": "Method for yeast and mould count of foodstuffs and animal feeds (First Revision)",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 5887 (Part 2):1976",
+      "title": "Methods for detection of bacteria responsible for food poisoning: Part 2 Isolation, identification and enumeration of staphylococcus aureus and faecal streptococci ( First Revision)",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 18987:2025ISO 22598:2020",
+      "title": "Methods FOR Detection of Bacteria Responsible FOR Food Poisoning Part 5 Horizontal Method FOR the Determination of Vibrio spp Section 1 Detection of Potentially Enteropathogenic Vibrio parahaemolyticus Vibrio cholerae AND Vibrio vulnificus (Second Revision)",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS 5887 (Part 7):1999",
+      "title": "Methods for detection of bacteria responsible for food poisoning: Part 7 general guidance on methods for isolation and identification of shigella",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS 10500:2012",
+      "title": "Drinking Water - Specification (Second Revision)",
+      "committee": "FAD 14"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 11984:1986",
+      "title": "Specification for glass bottles for free flowing liquids",
+      "committee": "CHD 10"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 13428:2024",
+      "title": "Packaged Natural Mineral Water - Specification (Second Revision)",
+      "committee": "FAD 14"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS 14194 (Part 1):2023",
+      "title": "Radionuclides In Environmental Samples \u2014 Methods of Estimation Part 1 Gross Beta Activity Measurement ( Second Revision )",
+      "committee": "CHD 30"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 15256:2024ISO 11568:2023",
+      "title": "Radionuclides in environmental samples - Methods of estimation : Part 2 Gross alpha activity measurement (Second Revision)",
+      "committee": "CHD 30"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS 17599:2021ISO 2113:1996",
+      "title": "Radionuclides in environmental samples - Method of estimation : Part 3 Uranium (First Revision)",
+      "committee": "CHD 30"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 15185:2016ISO 9308-1 : 2014",
+      "title": "Water Quality - Detection And Enumeration of Echerichia Coli And Coliform Bacteria - Membrane Filtration Method For Water With Low Bacterial Background Flora (First Revision",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS 15186:2002ISO 7899-2",
+      "title": "Water Quality - Detection And Enumeration Of Intestinal Enterococci - Membrane Filtration Method",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 15187:2016ISO 19250 : 2010",
+      "title": "Water Quality - Detection Of Salmonella Species (First Revision)",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "58",
+      "isNumber": "IS 18301 (Part 1):2023ISO 13606-1:2019",
+      "title": "Water quality \u2014 General requirements and guidance for microbiological examinations by culture",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "59",
+      "isNumber": "IS 15302:2003",
+      "title": "Determination of Aluminum and Barium in Water By Direct Nitrous Oxide - Acetylene Flame Atomic Absorption Spectrometry",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "60",
+      "isNumber": "IS 15303:2003",
+      "title": "Determination of Antimony, Iron and Selenium in Water By Electrothermal Atomic Absorption Spectrometric Method",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "61",
+      "isNumber": "IS 15410:2025",
+      "title": "Containers for packaging of natural mineral water and packaged drinking water - Specification",
+      "committee": "PCD 21"
+    },
+    {
+      "number": "62",
+      "isNumber": "IS 15609:2005",
+      "title": "Polyethylene flexible pouches for the packing of natural mineral water and packaged drinking water - Specification",
+      "committee": "PCD 21"
+    },
+    {
+      "number": "63",
+      "isNumber": "IS 15669:2006ISO 10695",
+      "title": "Water quality - Determination of selected organic nitrogen and phosphorus compounds - Gas chromatographic method",
+      "committee": "FAD 27"
+    },
+    {
+      "number": "64",
+      "isNumber": "IS 15371 (Part 5):2023ISO 14253-5:2015",
+      "title": "Paperbased Multilayer Laminated/Extruded Composite Cartons (Aseptic and Non-Aseptic) for Processed Liquid Food Products and Beverages \u2014 Specification",
+      "committee": "CHD 16"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 3025 (Part 2):2019ISO 11885 : 2007",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 2 Determination of Selected Elements by Inductively Coupled Plasma Optical Emission Spectrometry (ICP - OES) (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 15992 (Part 2):202115836-2",
+      "title": "METHODS OF SAMPLING AND TEST PHYSICAL AND CHEMICAL FOR WATER AND WASTE WATER PART 4 COLOUR Second Revision",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 3025 (Part 5):2018",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water: Part 5 Odour (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 19315:2025",
+      "title": "Methods of Sampling and Test Physical and Chemical For Water and Wastewater Part 8 Taste Rating Second Revision",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 19183 (Part 2):2025ISO 10069-2 : 2008",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 10 Turbidity Second Revision",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 3025 : Part 11 : 2022",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 11 pH value (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 18807:2024",
+      "title": "Methods of Sampling and Test Physical And Chemical for Water and Waste Water Part 16 Filterable Residue Total Dissolved Solids at 180 C Second Revision",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 3025 (Part 23) : 2023",
+      "title": "Methods of Sampling and Test (Physical and Chemical) For Water and Wastewater Part 23 Alkalinity (Second Revision) Amendment - 1",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 18284:2023",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 24 Sulphates Section 1 Gravimetric and Turbidity Methods (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 18180 (Part 4):2023ISO 17450-4:2017",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 24 Sulphates Section 2 Method by Continuous Flow Analysis",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 17590 (Part 1):2021IEC TS 63014-1 : 201",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 26 Chlorine Residual (Second Revision) of IS 3025Part 26",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS/IEC 61196-1-316:2005IEC 61196-1-316: 200",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 27 Cyanide Section 1 Titrimetic, Colorimetric and Ion-Selective Methods (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 8085 (Part 9):2023ISO 17696 : 2004",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 27 Cyanides Section 2 Methods Using Flow Injection Analysis",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 18113:2023ISO/TR 23304 : 2021",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 27 Cyanides Section 3 Methods Using Continuous Flow Analysis (CFA)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 18974:2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water Part 29 Sulphide (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 3025 (Part 32):2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 32 Chloride (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 3025 (Part 34/Sec 1):2023",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and wastewater: Part 34 nitrogen (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 18438:2023ISO 18069:2015",
+      "title": "Methods and Sampling and Test (Physical and Chemical) for Water and Wastewater Part 37 Arsenic (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 17591:2021IEC TR 63127 : 2019",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 39 Oil and Grease ( Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 3025 (Part 40):2024",
+      "title": "Water and wastewater - Methods of Sampling and Test (Physical and Chemical): Part 40 Calcium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 3025 : Part 41 : 2023",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 41 Cadmium (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 3025 (Part 42):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 42 Copper (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 2314 (Part 1):2023",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 43 Phenol ( Section 1 4-Aminoantipyrine Method with and without Chloroform Extraction method ) ( Second Revision )",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 3025 (Part 45):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 45 Sodium and Potassium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 3025 (Part 46) : 2023",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 46 Magnesium (Second Revision) Amendment - 1",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 3025 (Part 47):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 47 Lead (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 3025 (Part 48):2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 48 Mercury (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 3025 (Part 49):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 49 Zinc (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 3025 (Part 53):2024",
+      "title": "Methods of sampling and test (Physical and Chemical) forwaterand wastewater: Part 53 iron (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 3025 (Part 55):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 55 Aluminium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 3025 (Part 56):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 56 Selenium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 3025 (Part 59):2023",
+      "title": "Methods of samplig and test (Physical And Chemical) for water and wastewater: Part 59 manganese (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 18913:2024ISO 16781 : 2021",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 60 Fluoride Section 1 Ion-selective electrode SPANDS and Liquid Chromatography methods (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS/ISO 8000-65:2020ISO 8000-65 : 2020",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 60 Fluoride Section 2 Method using flow injection analysis FIA and spectrometric detection after off-line distillation",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS/ISO/IEC 11801-5:2017ISO/IEC 11801-5 : 2017",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 60 Fluoride Section 3 Method using continuous flow analysis CFA with automated in-line distillation",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 18276:2023ISO 18309:2014",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 65 Application of Inductively Coupled Plasma Mass Spectrometry ( ICP-MS ) \u2014 Determination of selected elements including Uranium Isotopes (first revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 3025 (Part 67):2018ISO 15061 : 2001",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 67 Determination of Dissolved Bromate - Method by Liquid Chromatography of Ions",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 3025 (Part 68):2019",
+      "title": "Methods of Sampling and Test ( Physical and Chemical ) for Water and Wastewater Part 68 Anionic Surfactants",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 18301 (Part 3):2023ISO 13606-3:2019",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 75 Determination of Dissolved Anions by Liquid Chromatography of Ions - Determination of Bromide, Chloride, Fluoride, Nitrate, Nitrite Phosphate and Sulfate",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS/IEC 60195:2016IEC 60195:2016",
+      "title": "Methods of Sampling and Test Physical and Chemical for Water and Wastewater Part 78 Determination of the Methylene Blue Active Substances (MBAS) Index Method Using Continuous Flow Analysis (CFA)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 19312:2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 79 Silver",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 4905:2015ISO 24153 : 2009",
+      "title": "Random sampling and randomization procedures (First Revision)",
+      "committee": "MSD 03"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 5401 (Part 1):2012ISO 4832 : 2006",
+      "title": "Microbiology of food and animal feeding stuffs - Horizontal method for the detection and enumeration of coliforms: Part 1 colony count technique (Second Revision)",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 17700:2021ISO 14457:2017",
+      "title": "Microbiology of the food chain - Horizontal method for the enumeration of microorganisms- Part 1: Colony count at 30 C by the pour plate technique",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 5403:1999ISO 7954",
+      "title": "Method for yeast and mould count of foodstuffs and animal feeds (First Revision)",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 5887 (Part 2):1976",
+      "title": "Methods for detection of bacteria responsible for food poisoning: Part 2 Isolation, identification and enumeration of staphylococcus aureus and faecal streptococci ( First Revision)",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 18987:2025ISO 22598:2020",
+      "title": "Methods FOR Detection of Bacteria Responsible FOR Food Poisoning Part 5 Horizontal Method FOR the Determination of Vibrio spp Section 1 Detection of Potentially Enteropathogenic Vibrio parahaemolyticus Vibrio cholerae AND Vibrio vulnificus (Second Revision)",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS 5887 (Part 7):1999",
+      "title": "Methods for detection of bacteria responsible for food poisoning: Part 7 general guidance on methods for isolation and identification of shigella",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS 10500:2012",
+      "title": "Drinking Water - Specification (Second Revision)",
+      "committee": "FAD 14"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 11984:1986",
+      "title": "Specification for glass bottles for free flowing liquids",
+      "committee": "CHD 10"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 13428:2024",
+      "title": "Packaged Natural Mineral Water - Specification (Second Revision)",
+      "committee": "FAD 14"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS 14194 (Part 1):2023",
+      "title": "Radionuclides In Environmental Samples \u2014 Methods of Estimation Part 1 Gross Beta Activity Measurement ( Second Revision )",
+      "committee": "CHD 30"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 15256:2024ISO 11568:2023",
+      "title": "Radionuclides in environmental samples - Methods of estimation : Part 2 Gross alpha activity measurement (Second Revision)",
+      "committee": "CHD 30"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS 17599:2021ISO 2113:1996",
+      "title": "Radionuclides in environmental samples - Method of estimation : Part 3 Uranium (First Revision)",
+      "committee": "CHD 30"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 15185:2016ISO 9308-1 : 2014",
+      "title": "Water Quality - Detection And Enumeration of Echerichia Coli And Coliform Bacteria - Membrane Filtration Method For Water With Low Bacterial Background Flora (First Revision",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS 15186:2002ISO 7899-2",
+      "title": "Water Quality - Detection And Enumeration Of Intestinal Enterococci - Membrane Filtration Method",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 15187:2016ISO 19250 : 2010",
+      "title": "Water Quality - Detection Of Salmonella Species (First Revision)",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "58",
+      "isNumber": "IS 18301 (Part 1):2023ISO 13606-1:2019",
+      "title": "Water quality \u2014 General requirements and guidance for microbiological examinations by culture",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "59",
+      "isNumber": "IS 15302:2003",
+      "title": "Determination of Aluminum and Barium in Water By Direct Nitrous Oxide - Acetylene Flame Atomic Absorption Spectrometry",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "60",
+      "isNumber": "IS 15303:2003",
+      "title": "Determination of Antimony, Iron and Selenium in Water By Electrothermal Atomic Absorption Spectrometric Method",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "61",
+      "isNumber": "IS 15410:2025",
+      "title": "Containers for packaging of natural mineral water and packaged drinking water - Specification",
+      "committee": "PCD 21"
+    },
+    {
+      "number": "62",
+      "isNumber": "IS 15609:2005",
+      "title": "Polyethylene flexible pouches for the packing of natural mineral water and packaged drinking water - Specification",
+      "committee": "PCD 21"
+    },
+    {
+      "number": "63",
+      "isNumber": "IS 15669:2006ISO 10695",
+      "title": "Water quality - Determination of selected organic nitrogen and phosphorus compounds - Gas chromatographic method",
+      "committee": "FAD 27"
+    },
+    {
+      "number": "64",
+      "isNumber": "IS 15371 (Part 5):2023ISO 14253-5:2015",
+      "title": "Paperbased Multilayer Laminated/Extruded Composite Cartons (Aseptic and Non-Aseptic) for Processed Liquid Food Products and Beverages \u2014 Specification",
+      "committee": "CHD 16"
+    }
+  ],
+  "internationalReferences": [
+    {
+      "number": "1",
+      "standard": "ISO 16266 : 2 : 2018"
+    }
+  ],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 5346 : 1994",
+      "title": "Synthetic food colour - Preparations and mixtures - Specification (Second Revision)",
+      "committee": "FAD 08"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 7058 : 2005",
+      "title": "Table wines - Specification (Second Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 14398 : 2005",
+      "title": "Fortified wines - Specification (First Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 15588 : 2005",
+      "title": "Alcoholic drinks - Low alcoholic beverages",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 4450 : 2005",
+      "title": "Alcoholic Drinks - Brandies - Specification (Third Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 17819 : 2022",
+      "title": "Water quality Enumeration of Escherichia coli and coliform bacteria Part 2: Most probable number method",
+      "committee": "FAD 31"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 3811 : 2005",
+      "title": "Alcoholic Drinks - Rum - Specification (Third Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 4100 : 2005",
+      "title": "Alcoholic Drinks - Gin - Specification (Second Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 4449 : 2005",
+      "title": "Alcoholic Drinks - Whiskies - Specification (Fourth Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 14326 : 2005",
+      "title": "Cashew fenny - Specification (First Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 14327 : 2005",
+      "title": "Coconut fenny -Specification (First Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 5286 : 2005",
+      "title": "Alcoholic Drinks - Vodka - Specification (Second Revision)",
+      "committee": "FAD 29"
+    }
+  ],
+  "clauses": [
+    {
+      "clauseNumber": "Clause 4.1",
+      "title": "Hygienic Practice Requirements",
+      "content": "The water shall be processed, handled, packaged, and stored under strict hygienic conditions conforming to Good Manufacturing Practices (GMP).",
+      "isMandatory": true
+    },
+    {
+      "clauseNumber": "Clause 5.1",
+      "title": "Microbiological Requirements",
+      "content": "Total coliforms, faecal streptococci, Salmonella, and Pseudomonas aeruginosa must be completely absent in 250 ml packaged samples.",
+      "isMandatory": true
+    }
+  ],
+  "qco": {
+    "qcoId": "QCO-WATER-2021",
+    "title": "Drinking Water (Packaged) (Quality Control) Order, 2021",
+    "product": "Packaged natural mineral water and packaged drinking water",
+    "scope": "Mandatory BIS certification for packaged natural mineral water and packaged drinking water manufactured or sold in India, enforced jointly with FSSAI.",
+    "effectiveDate": "2021-01-01",
+    "status": "applicable",
+    "exemptions": [],
+    "requirements": [
+      "Valid BIS Licence under IS 14543 before packaging and sale.",
+      "Compliance with composition, contaminant, and hygiene limits specified in IS 14543.",
+      "Batch-wise testing records maintained at the manufacturing unit."
+    ],
+    "sourceUrl": "https://www.services.bis.gov.in",
+    "sourceType": "gazette_notification"
+  }
+}

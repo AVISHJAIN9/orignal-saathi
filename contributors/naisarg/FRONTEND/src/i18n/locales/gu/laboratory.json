@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — પરીક્ષણ એવં પ્રયોગશાલા બુદ્ધિમત્તા",
+  "title": "ઇંટેલિજેંટ પ્રયોગશાલા મૈચર",
+  "subtitle": "અપને ઉત્પાદ કે લિએ આવશ્યક પરીક્ષણ કરને મેં સક્ષમ સત્યાપિત પ્રયોગશાલાએં ખોજેં૤",
+  "context": {
+    "title": "ઉત્પાદ એવં પરીક્ષણ સંદર્ભ",
+    "product": "ઉત્પાદ",
+    "standard": "માનક",
+    "scheme": "યોજના (સ્કીમ)",
+    "requiredTestsCount": "આવશ્યક પરીક્ષણ",
+    "noStandardWarning": "આવશ્યક પરીક્ષણ પથ કી પહચાન કરને સે પહલે એક લાગૂ ભારતીય માનક આવશ્યક હૈ૤",
+    "chooseStandard": "માનક ચુનેં",
+    "selectProduct": "ઉત્પાદ ચુનેં"
+  },
+  "requiredTests": {
+    "title": "આવશ્યક પરીક્ષણ",
+    "mandatoryCount_one": "{{count}} અનિવાર્ય પરીક્ષણ",
+    "mandatoryCount_other": "{{count}} અનિવાર્ય પરીક્ષણ",
+    "noTestsWarning": "ઇસ અનુપાલન પથ કે લિએ કોઈ સત્યાપિત પરીક્ષણ આવશ્યકતાએં નહીં મિલીં૤"
+  },
+  "preferences": {
+    "title": "પ્રાથમિકતાએં ઔર ફ઼િલ્ટર",
+    "locationLabel": "સ્થાન / શહર",
+    "locationPlaceholder": "ઉદા. બેંગલુરુ, દિલ્લી, મુંબઈ",
+    "distanceLabel": "અધિકતમ દૂરી",
+    "distanceAny": "કોઈ ભી દૂરી",
+    "distance50": "50 કિમી કે ભીતર",
+    "distance100": "100 કિમી કે ભીતર",
+    "distance250": "250 કિમી કે ભીતર",
+    "distance500": "500 કિમી કે ભીતર",
+    "accreditationLabel": "માન્યતા ફ઼િલ્ટર",
+    "accreditationAll": "સભી પ્રયોગશાલાએં",
+    "accreditationVerified": "કેવલ સત્યાપિત માન્યતા પ્રાપ્ત",
+    "findLabsButton": "પ્રયોગશાલાએં ખોજેં",
+    "searchingLabs": "પ્રયોગશાલાએં ખોજી જા રહી હૈં..."
+  },
+  "results": {
+    "bestMatchHeading": "સર્વશ્રેષ્ઠ મૈચ",
+    "otherMatchesHeading": "અન્ય મિલાન પ્રયોગશાલાએં",
+    "viewDetails": "વિવરણ દેખેં",
+    "selectLab": "પ્રયોગશાલા ચુનેં",
+    "labSelected": "પ્રયોગશાલા કા ચયન હુઆ",
+    "matchScore": "{{score}}% મૈચ",
+    "testsCovered": "{{covered}} / {{total}} પરીક્ષણ શામિલ",
+    "fullCoverage": "પૂર્ણ પરીક્ષણ કવરેજ સત્યાપિત",
+    "partialCoverage": "આંશિક પરીક્ષણ કવરેજ",
+    "verified": "સત્યાપિત",
+    "unverified": "અસત્યાપિત",
+    "unknown": "ક્ષમતા અજ્ઞાત",
+    "locationFit": "સ્થાન: {{location}}",
+    "distanceKm": "{{distance}} કિમી દૂર"
+  },
+  "breakdown": {
+    "title": "મૈચ સ્કોર વિવરણ",
+    "testCoverage": "પરીક્ષણ કવરેજ",
+    "standardMatch": "માનક મિલાન",
+    "accreditation": "માન્યતા પ્રાપ્ત હોના",
+    "locationFit": "સ્થાન ઉપયુક્તતા"
+  },
+  "details": {
+    "title": "પ્રયોગશાલા પ્રોફ઼ાઇલ ઔર ક્ષમતાએં",
+    "location": "સ્થાન",
+    "capabilities": "પરીક્ષણ ક્ષમતાએં",
+    "standards": "પ્રાસંગિક ભારતીય માનક",
+    "accreditation": "માન્યતા સ્થિતિ",
+    "contact": "સત્યાપિત સંપર્ક જાનકારી",
+    "source": "આધિકારિક સ્રોત સત્યાપન",
+    "viewSource": "આધિકારિક સ્રોત દેખેં",
+    "viewWebsite": "આધિકારિક વેબસાઇટ દેખેં",
+    "email": "ઈમેલ",
+    "phone": "ફ઼ોન",
+    "close": "બંદ કરેં"
+  },
+  "states": {
+    "noMatchesTitle": "કોઈ સત્યાપિત પ્રયોગશાલા નહીં મિલી",
+    "noMatchesMsg": "આપકી વર્તમાન માપદંડોં કે અનુસાર આવશ્યક પરીક્ષણ કે લિએ કોઈ સત્યાપિત પ્રયોગશાલા નહીં મિલી૤",
+    "partialMatchesNotice": "કોઈ ભી એકલ સત્યાપિત પ્રયોગશાલા સભી આવશ્યક પરીક્ષણોં કો કવર નહીં કરતી હૈ૤ સર્વશ્રેષ્ઠ ઉપલબ્ધ આંશિક મૈચ નીચે દિખાએ ગએ હૈં૤",
+    "errorTitle": "પ્રયોગશાલા મિલાન સેવા અનુપલબ્ધ",
+    "errorMsg": "પ્રયોગશાલા મિલાન સેવા અસ્થાયી રૂપ સે અનુપલબ્ધ હૈ૤",
+    "retry": "પુનઃ પ્રયાસ કરેં",
+    "emptyContextTitle": "અનુપાલન સંદર્ભ નિર્દિષ્ટ કરેં",
+    "emptyContextMsg": "આવશ્યક પરીક્ષણોં ઔર ઉપયુક્ત પ્રયોગશાલાઓં કી પહચાન કરને કે લિએ અપના ઉત્પાદ યા અનુપાલન પથ ચુનેં૤"
+  }
+}

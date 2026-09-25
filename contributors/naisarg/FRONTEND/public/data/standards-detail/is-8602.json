@@ -1,0 +1,2221 @@
+{
+  "master": {
+    "internal_id": 8602,
+    "IS_number": "IS 2062:2011",
+    "clean_number": "2062",
+    "slug": "is-8602",
+    "IS_title": "Hot rolled medium and high tensile structural steel - Specification (Seventh Revision) (Withdrawn)",
+    "superseding_IS": "",
+    "degree_of_equivalence": "Not Equivalent",
+    "number_of_revisions": "7",
+    "number_of_amendments": "1",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "MTD (Metallurgical Engineering Department)",
+    "technical_committee": "MTD 04 (Wrought Steel Products Sectional Committee Sectional Committee)",
+    "member_secretary": "RAM SAI KUMAR GEDELA (SCIENTIST-C)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 0,
+    "gazette_document_count": 0,
+    "license_count": 2062,
+    "product_manual_sit_count": 0,
+    "laboratory_count": 2062,
+    "corrigendum_count": 0,
+    "catalogue_id": "18565",
+    "catalogue_is_no": "IS 2062:2011 (Active,Withdrawn )",
+    "catalogue_title": "Hot rolled medium and high tensile structural steel - Specification (Seventh Revision)",
+    "catalogue_amendments": "1",
+    "catalogue_technical_committee": "MTD 04",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Not Equivalent",
+    "catalogue_withdrawn_status": "W",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/8602",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=8602",
+    "composition_url": "",
+    "extracted_at": "2026-09-23T12:32:02.424Z",
+    "category_key": "metallurgy",
+    "category_label": "Metallurgy",
+    "status": "Active",
+    "image_url": "/images/products/standard-fallback.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 228:1959",
+      "title": "Methods of chemical analysis of pig iron, cast iron and plain carbon and low alloy steel",
+      "committee": "MTD 07"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 808:2021",
+      "title": "Dimensions for hot rolled steel beam, column, channel and angle sections (Third Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 1173:2025",
+      "title": "Specfication for Hot Rolled and Slit Steel Tee Bars (Second Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 1252:2025",
+      "title": "Hot Rolled Steel Bulb Angles - Dimensions (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 1599:2023ISO 7438 : 2020",
+      "title": "Metallic materials - Bend test (Fourth Revision)",
+      "committee": "MTD 03"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 1608:2005IS 1608:2005 / ISO 6892:1998",
+      "title": "Mechanical testing of metals - Tensile Testing",
+      "committee": "MTD 03"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 1730:1989Reviewed In : 2019Reaffirmed but not taken up for revision",
+      "title": "Steel Plates, Sheets Strips and Flats for Structural and General Engineering Purposes - Dimensions (Second Revision)",
+      "committee": "CED 07"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 228:1959",
+      "title": "Methods of chemical analysis of pig iron, cast iron and plain carbon and low alloy steel",
+      "committee": "MTD 07"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 808:2021",
+      "title": "Dimensions for hot rolled steel beam, column, channel and angle sections (Third Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 1173:2025",
+      "title": "Specfication for Hot Rolled and Slit Steel Tee Bars (Second Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 1252:2025",
+      "title": "Hot Rolled Steel Bulb Angles - Dimensions (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 1599:2023ISO 7438 : 2020",
+      "title": "Metallic materials - Bend test (Fourth Revision)",
+      "committee": "MTD 03"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 1608:2005IS 1608:2005 / ISO 6892:1998",
+      "title": "Mechanical testing of metals - Tensile Testing",
+      "committee": "MTD 03"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 1730:1989Reviewed In : 2019Reaffirmed but not taken up for revision",
+      "title": "Steel Plates, Sheets Strips and Flats for Structural and General Engineering Purposes - Dimensions (Second Revision)",
+      "committee": "CED 07"
+    }
+  ],
+  "internationalReferences": [],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 12778 : 2004",
+      "title": "Hot Rolled Parallel Flange Steel Sections for Beams, Columns and Bearing Piles - Dimensions and Section Properties (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 10987 : 1992",
+      "title": "Code of Practice for Design, Fabrication, Testing and Installation of Under - Ground/Above - Ground Horizontal CylindricalSteel Storage Tanks for Petroleum Products (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 6533 : Part 2 : 1989",
+      "title": "Code of Practice for Design and Construction of Steel Chimneys: Part 2 Structural Aspects (First Revision)",
+      "committee": "CED 38"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 2314 : 1986",
+      "title": "Steel Sheet Piling Sections",
+      "committee": "CED 07"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 805 : 1968",
+      "title": "Code of practice for use of steel in gravity water tanks",
+      "committee": "CED 7"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 803 : 1976",
+      "title": "Code of Practice for Design, Fabrication and Erection of Vertical Mild Steel Cylindrical Welded Oil Storage Tanks (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 1863 : 1979",
+      "title": "Specification for Rolled Steel Bulb Flats (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 1864 : 1979",
+      "title": "Specification for Hot Rolled Steel 'L' Sections for Ship Building (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 10658 : 1999",
+      "title": "Specification for Higher Capacity Dry Powder Fire Extinguisher (Trolley Mounted)",
+      "committee": "CED 22"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 9574 : 2004",
+      "title": "Leaf springs assembly clips - Specification (Second Revision)",
+      "committee": "TED 06"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 1134 : 2004",
+      "title": "Bicycles bottom bracket lock ring - Specification (Third Revision)",
+      "committee": "TED 16"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 625 : 2006",
+      "title": "Bicycle - Handle bars - Specification (Third Revision)",
+      "committee": "TED 16"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 626 : 2009",
+      "title": "Bicycle - Seat pillars - Specification (Third Revision)",
+      "committee": "TED 16"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 629 : 2013",
+      "title": "Bicycles \u2014 Hub Assembly \u2014 Specification (Fourth Revision)",
+      "committee": "TED 16"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 5131 : 2002",
+      "title": "Dividing Breeching with Control for Fire Brigade Use -Specification (Second Revision)",
+      "committee": "CED 22"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 13630 : Part 1TO15 : 2006",
+      "title": "Ceramic Tiles - Methods of Test, Sampling and Basis for Acceptance",
+      "committee": "CED 05"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 4457 : 2007",
+      "title": "Ceramic unglazed vitreous acid resisting tiles - Specification (Second Revision)",
+      "committee": "CED 05"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 3935 : 1966",
+      "title": "Code of practice for composite construction",
+      "committee": "CED 38"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 9178 : Part 2 : 1979",
+      "title": "Criteria for design of steel bins for storage of bulk materials: Part 2 design criteria",
+      "committee": "CED 38"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 432 : Part 1 : 1982",
+      "title": "Specification for Mild Steel and Medium Tensile Steel Bars and Hard-Drawn Steel Wire for Concrete Reinforcement: Part 1 Mild Steel and Medium Tensile Steel Bars (Third revision)",
+      "committee": "CED 54"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 10386 : PART 11 : 2012",
+      "title": "Safety Code for Construction, Operation and Maintenance of River Valley Projects: Part 11 Underground Excavation",
+      "committee": "WRD 21"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 3196 : Part 1 : 2013",
+      "title": "Welded low carbon steel cylinders exceeding 5 litres water capacity for low pressure liquefiable gases: Part 1 cylinders for liquefied petroleum gases (Lpg) - Specification (Sixth Revision)",
+      "committee": "MED 16"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 3843 : 1995",
+      "title": "Steel back flap hinges -Specification",
+      "committee": "CED 15"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 11388 : 2012",
+      "title": "Recommendations for design of trash racks for intakes (Second Revision)",
+      "committee": "WRD 14"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 5822 : 1994",
+      "title": "Code of practice for laying of electrically welded steel pipes for water supply (Second Revision)",
+      "committee": "CED 24"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 13152 : Part 1 : 2013",
+      "title": "Portable solid bio - Mass cookstove (Chulha) - Specification (First Revision)",
+      "committee": "MED 04"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 10552 : 1983",
+      "title": "Specification for buckets to be used in power driven bucket type sewer cleaning machine",
+      "committee": "CED 24"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 3196 : Part 2 : 2006",
+      "title": "Welded low carbon steel cylinders exceeding 5 litre water capacity for low pressure liquefiable gases: Part 2 cylinders for liquefiable non - Toxic gases other than lpg - Specification (First Revision)",
+      "committee": "MED 16"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 14345 : 1996",
+      "title": "Autoclave Apparatus - Specification",
+      "committee": "CED 02"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 3196 : Part 4 : 2001",
+      "title": "Welded low carbon steel cylinders exceeding 5 litre water capacity for low pressure liquefiable gases - Specification: Part 4 cylinders for toxic and corrosive gases",
+      "committee": "MED 16"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 14687 : 1999",
+      "title": "Falsework for Concrete Structures - Guidelines",
+      "committee": "CED 02"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 14391 : 1997",
+      "title": "Gas operated rifle (For shooting Pellets) - Specification",
+      "committee": "PGD 28"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 7418 : 1991",
+      "title": "Criteria for design of spiral casing (Concrete And Steel) (First Rewsion)",
+      "committee": "WRD 15"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 5496 : 1993",
+      "title": "Guide for preliminary dimensioning and layout of elbow type draft tubes for surface hydroelectric power stations (First Re Vision)",
+      "committee": "WRD 15"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 4247 : Part 3 : 1998",
+      "title": "Code of practicefor structural design of surfacehydel power stations: Part 3 sub - Structure (Second Revision)",
+      "committee": "WRD 15"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 4247 : Part 2 : 1992",
+      "title": "Code of practice for structural design of surface hydroelectric power station: Part 2 superstructure (Second Revision)",
+      "committee": "WRD 15"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 4622 : 2020",
+      "title": "Recommendations for Structural Design of Fixed-Wheel Gates ( Fourth Revision )",
+      "committee": "WRD 12"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 6938 : 2005",
+      "title": "Design of rope drum and chain hoists for hydraulic gates - Code of practice (Second Revision)",
+      "committee": "WRD 12"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 7332 : Part 1 : 1991",
+      "title": "Spherical valves for hydropower stations and systems: Part 1 criteria for structural and hydraulic design (Fl\"rsl Revision)",
+      "committee": "WRD 12"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS 10096 :Part 1 : Sec 2 : 2014",
+      "title": "Recommendations for inspection, testing and maintenance of radial gates and rope drum hoists: Part 1 inspection, testing and assembly at the manufacturing stage: Sec 2 rope drum hoists (First Revision)",
+      "committee": "WRD 12"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 10210 : 1993",
+      "title": "CrlTeria for design of hydraulic hoists for gates (First Revision)",
+      "committee": "WRD 12"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 4623 : 2000",
+      "title": "Recommendations for structural design of radial gates (Third Revision)",
+      "committee": "WRD 12"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 7326 : Part 1 : 1992",
+      "title": "Penstock and turbine inlet butterfly valves for hydropower stations and systems: Part 1 criteria for structural and hydraulic design (First Revision)",
+      "committee": "WRD 12"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 10451 : 1983",
+      "title": "Specification for steel sliding shutters (Top Hung Type)",
+      "committee": "CED 11"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 10521 : 1983",
+      "title": "Specification for collapsible gates",
+      "committee": "CED 11"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 9266 : Part 4 : 1990",
+      "title": "Press working die sets (Boss Type) - Specieication: Part 4 centre post reverse rectangular die sets",
+      "committee": "PGD 04"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 10068 : Part 4 : 1997",
+      "title": "Press working die sets (Plain Type): Part 4 rear post rectangular die sets - Specification",
+      "committee": "PGD 04"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS 10068 : Part 5 : 1996",
+      "title": "Press working die sets (Plain Type): Part 5 rear post square die sets - Specification",
+      "committee": "PGD 04"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS 10068 : Part 6 : 1996",
+      "title": "Press working die sets (Plain Type): Part 6 rear post round die sets - Specification",
+      "committee": "PGD 04"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 12984 : 1990",
+      "title": "Proforma for puruchase specification for plate bending machines",
+      "committee": "PGD 04"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 2804 : 1998",
+      "title": "Palm grips - Specification (First Revision)",
+      "committee": "PGD 35"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS 2909 : 1998",
+      "title": "Star grips - Specification (First Revision)",
+      "committee": "PGD 35"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 2975 : 1998",
+      "title": "Control levers with ball grip",
+      "committee": "PGD 35"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS 8125 : 1976",
+      "title": "Dimensions and Materials of Cement Rotary Kilns, Components and Auxiliaries (Dry Process With Suspension Preheater)",
+      "committee": "CED 02"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 807 : 2006",
+      "title": "Design, erection and testing (Structural Portion) of cranes and hoists - Code of practice (Second Revision)",
+      "committee": "MED 14"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS 3832 : 2005",
+      "title": "Hand - Operated chain pulley block - Specification (Third Revision)",
+      "committee": "MED 14"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 3938 : 1983",
+      "title": "Specification for electric wire rope hoists (Second Revision)",
+      "committee": "MED 14"
+    },
+    {
+      "number": "58",
+      "isNumber": "IS 4137 : 2015",
+      "title": "Heavy duty electric overhead travelling cranes including special service machines for use in steel work - Code of practice (Second Revision)",
+      "committee": "MED 14"
+    },
+    {
+      "number": "59",
+      "isNumber": "IS 13349 : 1992",
+      "title": "Cast iron single faced thimble mounted sluice gates - Specification",
+      "committee": "CED 03"
+    },
+    {
+      "number": "60",
+      "isNumber": "IS 14846 : 2000",
+      "title": "Sluice valve for water works purposes (50 To 1200 mm size) - Specification",
+      "committee": "CED 03"
+    },
+    {
+      "number": "61",
+      "isNumber": "IS 4594 : 1968",
+      "title": "Code of practice for design of portal and semi - Portal wharf cranes (Electrical)",
+      "committee": "MED 14"
+    },
+    {
+      "number": "62",
+      "isNumber": "IS 6521 : Part 1 : 1972",
+      "title": "Code of practice for design of tower cranes: Part 1 static and rail amounted",
+      "committee": "MED 14"
+    },
+    {
+      "number": "63",
+      "isNumber": "IS 6547 : 2015",
+      "title": "Electric chain hoists - Specification (First Revision)",
+      "committee": "MED 14"
+    },
+    {
+      "number": "64",
+      "isNumber": "IS 9507 : 1979",
+      "title": "Specification for general purpose electric power driven winches for lifting and hauling",
+      "committee": "MED 14"
+    },
+    {
+      "number": "65",
+      "isNumber": "IS 13308 : 1992",
+      "title": "Lifting appliances - Sheaves - Technical supply condition",
+      "committee": "MED 14"
+    },
+    {
+      "number": "66",
+      "isNumber": "IS 15419 : 2004",
+      "title": "Jib cranes - Code of practice",
+      "committee": "MED 14"
+    },
+    {
+      "number": "67",
+      "isNumber": "IS 10439 : 1983",
+      "title": "Code of practice for patent glazing",
+      "committee": "CED 13"
+    },
+    {
+      "number": "68",
+      "isNumber": "IS 14393 : 1996",
+      "title": "Shipbuilding - Derrick boom heel fittings - Main dimensions",
+      "committee": "TED 17"
+    },
+    {
+      "number": "69",
+      "isNumber": "IS 14660 : Part 1 : 1999",
+      "title": "Shipbuilding - Filling connection for . drinking water tanks: Part 1 general requirements",
+      "committee": "TED 17"
+    },
+    {
+      "number": "70",
+      "isNumber": "IS 14660 : Part 2 : 1999",
+      "title": "Shipbuilding - Filling connection for drinking water tanks: Part 2 components",
+      "committee": "TED 17"
+    },
+    {
+      "number": "71",
+      "isNumber": "SP 62 : 1997",
+      "title": "Handbook on causes and prevention of cracks in buildings",
+      "committee": "CED 13"
+    },
+    {
+      "number": "72",
+      "isNumber": "IS 3564 : 1995",
+      "title": "Hydraulically Regulated Door Closers -Specification",
+      "committee": "CED 15"
+    },
+    {
+      "number": "73",
+      "isNumber": "IS 7312 : 2018",
+      "title": "Welded and seamless steel dissolved acetylene gas cylinders - Specification (Third Revision)",
+      "committee": "MED 16"
+    },
+    {
+      "number": "74",
+      "isNumber": "IS 13065 : 1991",
+      "title": "Bulk handling equipment - Wagon marshalling equipment - Endless rope type - General requirements",
+      "committee": "MED 07"
+    },
+    {
+      "number": "75",
+      "isNumber": "IS 10506 : 1996",
+      "title": "Trolley for carrying jute bales - Specification (First Revision)",
+      "committee": "MED 07"
+    },
+    {
+      "number": "76",
+      "isNumber": "IS 11745 : 1986",
+      "title": "Technical supply conditions for positive displacement pumps - Reciprocating",
+      "committee": "MED 20"
+    },
+    {
+      "number": "77",
+      "isNumber": "IS 1046 : 2014",
+      "title": "Cash boxes - Specification (Fourth Revision)",
+      "committee": "MED 24"
+    },
+    {
+      "number": "78",
+      "isNumber": "IS 15369 : 2017",
+      "title": "Construction of vault (Strong - Room) - Code of practice (First Revision)",
+      "committee": "MED 24"
+    },
+    {
+      "number": "79",
+      "isNumber": "IS 14561 : 2014",
+      "title": "Fire resisting (Insulating) filing cabinets - Specification (Second Revision)",
+      "committee": "MED 24"
+    },
+    {
+      "number": "80",
+      "isNumber": "IS 14505 : 1998",
+      "title": "Fire resisting magnetic media protection cabinets",
+      "committee": "MED 24"
+    },
+    {
+      "number": "81",
+      "isNumber": "IS 655 : 2006",
+      "title": "Air ducts - Specification (Second Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "82",
+      "isNumber": "IS 13124 : 1993",
+      "title": "Reciprocating gas compressors - Technical supply conditions",
+      "committee": "MED 22"
+    },
+    {
+      "number": "83",
+      "isNumber": "IS 15947 : PART 2 : 2012",
+      "title": "Concrete delivery pipelines: Part 2 general requirements for pipeline accessories",
+      "committee": "MED 18"
+    },
+    {
+      "number": "84",
+      "isNumber": "IS 13404 : 2012",
+      "title": "Power trowel - General requirements (First Revision)",
+      "committee": "MED 18"
+    },
+    {
+      "number": "85",
+      "isNumber": "IS 13291 : 2012",
+      "title": "Concrete block making machines - General requirements (First Revision)",
+      "committee": "MED 18"
+    },
+    {
+      "number": "86",
+      "isNumber": "IS 12466 : 2012",
+      "title": "Builders Hoist - General Requirements",
+      "committee": "MED 18"
+    },
+    {
+      "number": "87",
+      "isNumber": "IS 5500 : Part 2 : 2004",
+      "title": "Vibratory roller - General requirements: Part 2 self - Propelled single drum (Third Revision)",
+      "committee": "MED 07"
+    },
+    {
+      "number": "88",
+      "isNumber": "IS 5500 : Part 1 : 2004",
+      "title": "Vibratory roller - General requirements: Part 1 self - Propelled tandem drum (Second Revision)",
+      "committee": "MED 07"
+    },
+    {
+      "number": "89",
+      "isNumber": "IS 14711 : 1999",
+      "title": "Textile machinery and accessories \u2013 Frame components of CHARKHAS \u2013 Specification",
+      "committee": "TXD 14"
+    },
+    {
+      "number": "90",
+      "isNumber": "IS 8003 : 2008",
+      "title": "Wheel axle assemblies for mine cars - Specification (First Revision)",
+      "committee": "MED 08"
+    },
+    {
+      "number": "91",
+      "isNumber": "IS 4001 : 2017",
+      "title": "Mine tubs - specification (Third Revision)",
+      "committee": "MED 08"
+    },
+    {
+      "number": "92",
+      "isNumber": "IS 14386 : 1996",
+      "title": "Belt conveyors - Travelling tripper - Motorised - For belt widths 650 mm to 1600 mm - Dimensions",
+      "committee": "MED 06"
+    },
+    {
+      "number": "93",
+      "isNumber": "IS 15333 : 2004",
+      "title": "Kero - Gas stove - Specification",
+      "committee": "MED 26"
+    },
+    {
+      "number": "94",
+      "isNumber": "IS 2787 : 2006",
+      "title": "Oil pressure heaters - Specification (Third Revision)",
+      "committee": "MED 26"
+    },
+    {
+      "number": "95",
+      "isNumber": "IS 1384 : 1999",
+      "title": "Oil pressure lanterns - Specification (Third Revision)",
+      "committee": "MED 26"
+    },
+    {
+      "number": "96",
+      "isNumber": "IS 13187 : 1991",
+      "title": "Road tankers for light petroleum products - Specification",
+      "committee": "MED 17"
+    },
+    {
+      "number": "97",
+      "isNumber": "IS 4503 : 1967",
+      "title": "Specification for shell and tube type heat exchangers",
+      "committee": "MED 01"
+    },
+    {
+      "number": "98",
+      "isNumber": "IS 2825 : 1969",
+      "title": "Code for unfired pressure vessels",
+      "committee": "MED 01"
+    },
+    {
+      "number": "99",
+      "isNumber": "IS 3502 : 2009",
+      "title": "Steel chequered plates (Third Revision)",
+      "committee": "MTD 4"
+    },
+    {
+      "number": "100",
+      "isNumber": "IS 2911 : Part 1 : Sec 3 : 2010",
+      "title": "Design and Construction of Pile Foundations \u00e2\u20ac\u201d Code Of Practice Part 1 Concrete Piles: Section 3 Driven Precast Concrete Piles (Second Revision)",
+      "committee": "CED 43"
+    },
+    {
+      "number": "101",
+      "isNumber": "IS 8461 : 1987",
+      "title": "Specification for cane knives (First Revision)",
+      "committee": "FAD 02"
+    },
+    {
+      "number": "102",
+      "isNumber": "IS 14522 : 1998",
+      "title": "Honey processing unit - Technical requirements",
+      "committee": "FAD 03"
+    },
+    {
+      "number": "103",
+      "isNumber": "IS 15562 : 2005",
+      "title": "Design and construction of fuel fired bogie hearth type heat treatment furnaces - Guidelines",
+      "committee": "MTD 26"
+    },
+    {
+      "number": "104",
+      "isNumber": "IS 9977 : 1998",
+      "title": "Design and construction of box type forging furnaces - Guidelines (First Revision)",
+      "committee": "MTD 26"
+    },
+    {
+      "number": "105",
+      "isNumber": "IS 13148 : Part 1 : 1999",
+      "title": "Mobile equipment for continuous handling of bulk materials: Part 1 rules for the design of steel structure (First Revision)",
+      "committee": "MED 07"
+    },
+    {
+      "number": "106",
+      "isNumber": "IS 4693 : 1968",
+      "title": "Specification for steel accessories for marine piping systems",
+      "committee": "TED 17"
+    },
+    {
+      "number": "107",
+      "isNumber": "IS 12594 : 1988",
+      "title": "Hot - Dip Zinc Coating on Structural Steel Bars for Concrete Reinforcement - Specification",
+      "committee": "CED 54"
+    },
+    {
+      "number": "108",
+      "isNumber": "IS 12592 : 2002",
+      "title": "Precast concrete manhole cover and frame - Specification (First Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "109",
+      "isNumber": "IS 8531 : 1986",
+      "title": "Specification for pulleys for belt conveyors (First Revision)",
+      "committee": "MED 06"
+    },
+    {
+      "number": "110",
+      "isNumber": "IS 1916 : 2018",
+      "title": "Steel cylinder pipes with concrete lining and coating - Specification (Second Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "111",
+      "isNumber": "IS 7322 : 1985",
+      "title": "specials for steel cylinder reinforced concrete pipes",
+      "committee": "CED 53"
+    },
+    {
+      "number": "112",
+      "isNumber": "IS 3347 : Part 8 : Sec 2 : 1992",
+      "title": "Dimensions for porcelain transformer bushings for use in lightly polluted atmospheres: Part 8 : 52 kV bushings: Sec 2 metal parts",
+      "committee": "ETD 06"
+    },
+    {
+      "number": "113",
+      "isNumber": "IS 10178 : 1995",
+      "title": "Co2 gas shielded metal - Arc welding of structural steels - Recommendations (First Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "114",
+      "isNumber": "IS 1323 : 1982",
+      "title": "Code of practice for Oxy - Acetylene welding for structural work in mild (Second Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "115",
+      "isNumber": "IS 9595 : 1996",
+      "title": "Metal - Arc welding of carbon and carbon manganese steels - Recommendations (Fifth Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "116",
+      "isNumber": "IS 15769 : 2008",
+      "title": "Flux cored (Tubular) electrodes for gas shielded and self - Shielded metal welding of carbon or carbon - Manganese steel",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "117",
+      "isNumber": "IS 4353 : 1995",
+      "title": "Submerged arc welding of mild steel and low alloy steels - Recommendations (First Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "118",
+      "isNumber": "IS 822 : 1970",
+      "title": "Code of procedure for inspection of welds",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "119",
+      "isNumber": "IS 6419 : 1996",
+      "title": "Welding rods and bare electrodes for gas shielded arc welding of structural steel - Specification (First Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "120",
+      "isNumber": "IS 1059 : 1994",
+      "title": "Legal metrology - Commercial length measures (Non - Flexible) - Specification (First Revision)",
+      "committee": "PGD 26"
+    },
+    {
+      "number": "121",
+      "isNumber": "IS 1161 : 2014",
+      "title": "Steel tubes for structural purposes - Specification (Fifth Revision)",
+      "committee": "MTD 19"
+    },
+    {
+      "number": "122",
+      "isNumber": "IS 10433 : Part 2 : 2002",
+      "title": "Male stud tee body (Stud Run) for oil - Hydraulic couplings - Specification: Part 2 made from bar stock (First Revision)",
+      "committee": "PGD 36"
+    },
+    {
+      "number": "123",
+      "isNumber": "IS 11125 : 1984",
+      "title": "General requirements for plate heat exchangers for marine use",
+      "committee": "TED 19"
+    },
+    {
+      "number": "124",
+      "isNumber": "IS 2192 : 1998",
+      "title": "Soil working equipment - Animal drawn mould board plough,fixed type specification (Second Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "125",
+      "isNumber": "IS 3342 : 1998",
+      "title": "Soil Working Equipment - Cultivators, Animal Drawn - Specification (Second Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "126",
+      "isNumber": "IS 3606 : 1998",
+      "title": "Soil Working Equipment - Disc Harrow, Animal Drawn - Specification (Second Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "127",
+      "isNumber": "IS 4358 : 1996",
+      "title": "Specification for Sickles (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "128",
+      "isNumber": "IS 5130 : 1969",
+      "title": "Specification for drums fitted to cargo and mooring winches",
+      "committee": "TED 19"
+    },
+    {
+      "number": "129",
+      "isNumber": "IS 5135 (Part 1) : 1994",
+      "title": "Specification for Hand - Rotary Duster : Part 1 Belly - Mounted Type (Second Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "130",
+      "isNumber": "IS 6813 : 2000",
+      "title": "Sowing equipment - Seed - Cum - Fertilizer drill - Specification (Second Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "131",
+      "isNumber": "IS 8213 : 2000",
+      "title": "Agricultural Tractor Trailer - Specification (Third Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "132",
+      "isNumber": "IS 14171 : 1994",
+      "title": "Inland vessels - Bellows for dredgers - Specification",
+      "committee": "TED 18"
+    },
+    {
+      "number": "133",
+      "isNumber": "IS 14646 : 1999",
+      "title": "Shipbuilding - Mooring buoy - Specification",
+      "committee": "TED 18"
+    },
+    {
+      "number": "134",
+      "isNumber": "IS 4647 : 1998",
+      "title": "Inland vessels - Detachable steel ladder - Specification (First Revision)",
+      "committee": "TED 18"
+    },
+    {
+      "number": "135",
+      "isNumber": "IS 4690 : 2013",
+      "title": "Buoy shackles - Specification (First Revision)",
+      "committee": "TED 18"
+    },
+    {
+      "number": "136",
+      "isNumber": "IS 10806 : 2003",
+      "title": "Trailers for Power Tillers - Specification (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "137",
+      "isNumber": "IS 11313 : 2007",
+      "title": "Hydraulic Power Sprayers - Specification (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "138",
+      "isNumber": "IS 14523 : 1998",
+      "title": "Forestry Tools - Dibbling Board - Specification",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "139",
+      "isNumber": "IS 14524 : 1998",
+      "title": "Forestry Tools - Dibble Iron - Specification",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "140",
+      "isNumber": "IS 14525 : 1998",
+      "title": "Forestry Tools - Seed Plucker - Specification",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "141",
+      "isNumber": "IS 14540 : 1998",
+      "title": "Intercultivation Equipment - Hand Hoes - Specification",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "142",
+      "isNumber": "IS 14541 : 1998",
+      "title": "Forestry and Plantation Tools - Hoes and Forks - Specification",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "143",
+      "isNumber": "IS 13485 : Part 2 : 1998",
+      "title": "Forestry Tools - Stalk Puller - Specification : Part 2 Heavy Duty",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "144",
+      "isNumber": "IS 1973 : 1999",
+      "title": "Sugarcane Crushers \u2014 Specification (Third Revision)",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "145",
+      "isNumber": "IS 13794 : 1993",
+      "title": "Oilseeds Milling Machinery - Power Ghanies Portable - Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "146",
+      "isNumber": "IS 15542 : 2005",
+      "title": "Power - Operated Chaff Cutter - Safety Requirements",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "147",
+      "isNumber": "IS 15561 : 2005",
+      "title": "Sugarcane Crushers \u2014 Safety Requirements",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "148",
+      "isNumber": "IS 15829 : 2009",
+      "title": "Cassava Chipping Machine - Hand Operated - Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "149",
+      "isNumber": "IS 15830 : 2009",
+      "title": "Surface Covered Cultivation - Plastics Mulching Laying Machine - Functional Requirements",
+      "committee": "FAD 22"
+    },
+    {
+      "number": "150",
+      "isNumber": "IS 15831 : 2009",
+      "title": "Grader \u2014 Citrus \u2014 Size Based",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "151",
+      "isNumber": "IS 15855 : 2010",
+      "title": "Cotton Seed Delinting Machinery - Surge Bin Machine - Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "152",
+      "isNumber": "IS 15856 : 2010",
+      "title": "Cotton Seed Delinting Machinery - Pre-Heating Machine - Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "153",
+      "isNumber": "IS 15857 : 2009",
+      "title": "Cotton Seed Delinting Machinery Mobile - Charging Machine - Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "154",
+      "isNumber": "IS 15863 : 2009",
+      "title": "Cotton Seed Delinting Machinery \u2014 Inclined Flight Belt Conveyor \u2014 Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "155",
+      "isNumber": "IS 15858 : 2013",
+      "title": "Cotton Seed Delinting Machinery - Delinting Machine with Electrical Heating and Hydraulic System - Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "156",
+      "isNumber": "IS 15859 : 2013",
+      "title": "Cotton Seed Delinting Machinery - Buffing Machine With Air Jet and Nylon Brush - Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "157",
+      "isNumber": "IS 15860 : 2013",
+      "title": "Cotton Seed Delinting Machinery - Ammonia Cotton Seed Neutralizer Machine With Ammonia Vaporizer - Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "158",
+      "isNumber": "IS 15861 : 2013",
+      "title": "Cotton Seed Delinting Machinery \u2014 Pollution Control System with Scrubber, Cyclone, Chimney, Hoods and Ducting \u2014 Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "159",
+      "isNumber": "IS 15862 : 2013",
+      "title": "Cotton Seed Delinting Machinery \u2014 HCL Gas Generation Unit \u2014 Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "160",
+      "isNumber": "IS 7825 : 2004",
+      "title": "Cylinder Type Hand Lawn Mower Specification (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "161",
+      "isNumber": "IS 16045 : 2013",
+      "title": "Copper alloy screw - Down stop valves and stop and check valves for marine application - Specification",
+      "committee": "TED 17"
+    },
+    {
+      "number": "162",
+      "isNumber": "IS 15998 : 2013",
+      "title": "Cast iron, spheroidal/nodular cast iron and cast steel screw - Down stop valves and stop and check valves for marine applications - Specification",
+      "committee": "TED 17"
+    },
+    {
+      "number": "163",
+      "isNumber": "IS 9448 : Part 3 : 1980",
+      "title": "Specification for marine guardrails and stanchions: Part 3 storm rails (Exterior)",
+      "committee": "TED 17"
+    },
+    {
+      "number": "164",
+      "isNumber": "IS 9448 : Part 2 : 1980",
+      "title": "Specification for marine guardrails and stanchions: Part 2 gates and portable guardrail sections for ships",
+      "committee": "TED 17"
+    },
+    {
+      "number": "165",
+      "isNumber": "IS 10558 : 2013",
+      "title": "Aluminium shore gangways - Specification (First Revision)",
+      "committee": "TED 17"
+    },
+    {
+      "number": "166",
+      "isNumber": "IS 6636 : 1972",
+      "title": "Specification for hood for air pipes of ships piping systems",
+      "committee": "TED 17"
+    },
+    {
+      "number": "167",
+      "isNumber": "IS B9020 : 2002",
+      "title": "Power Threshers - Safety Requirements (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "168",
+      "isNumber": "IS B9813 : 2002",
+      "title": "Tractor - Operated Blade Terracer - Specification (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "169",
+      "isNumber": "IS 456 : 2000",
+      "title": "Plain and reinforced concrete - Code of practice (Fourth Revision)",
+      "committee": "CED 02"
+    },
+    {
+      "number": "170",
+      "isNumber": "IS 16651 : 2017",
+      "title": "High Strength Deformed Stainless Steel Bars and Wires for Concrete Reinforcement - Specification",
+      "committee": "CED 54"
+    },
+    {
+      "number": "171",
+      "isNumber": "IS 16620 : 2017",
+      "title": "Jig back movement monocable ropeways with fixed grips - Code of practice",
+      "committee": "MED 06"
+    },
+    {
+      "number": "172",
+      "isNumber": "IS 16623 : 2017",
+      "title": "Pulsated movement monocable ropeways with fixed grips - Code of practice",
+      "committee": "MED 06"
+    },
+    {
+      "number": "173",
+      "isNumber": "IS 5230 : 2017",
+      "title": "To and fro (Jig Back) movement Bi - Cable ropeways - Code of practice (Second Revision)",
+      "committee": "MED 06"
+    },
+    {
+      "number": "174",
+      "isNumber": "IS 10109 : 2018",
+      "title": "Oil pressure stoves - Offset burner type - Specification (Second Revision)",
+      "committee": "MED 26"
+    },
+    {
+      "number": "175",
+      "isNumber": "IS 14667 : 2018",
+      "title": "Conveyor chains and slats used in sugar industry - Specification (First Revision)",
+      "committee": "FAD 02"
+    },
+    {
+      "number": "176",
+      "isNumber": "IS 9388 : Part 2 : 2019",
+      "title": "Equal elbow body for oil - Hydraulic couplings - Specification: Part 2 made from bar stock (First Revision)",
+      "committee": "PGD 36"
+    },
+    {
+      "number": "177",
+      "isNumber": "IS 784 : 2019",
+      "title": "Prestressed concrete pipes (Including Specials) - Specification (Third Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "178",
+      "isNumber": "IS 10323 : 2019",
+      "title": "Crank and chain wheel for moped - Specification (First Revision)",
+      "committee": "TED 02"
+    },
+    {
+      "number": "179",
+      "isNumber": "IS 10652 : 2019",
+      "title": "Pedal assembly for moped - Specification (First Revision)",
+      "committee": "TED 02"
+    },
+    {
+      "number": "180",
+      "isNumber": "IS 11139 : 2019",
+      "title": "Adjusters for control cables for moped - Specification (First Revision)",
+      "committee": "TED 02"
+    },
+    {
+      "number": "181",
+      "isNumber": "IS 13630 : Part 12 : 2019",
+      "title": "Ceramic Tiles \u00e2\u20ac\u201d Methods of Test, Sampling and Basis for Acceptance Part 12 Determination of Resistance to Deep Abrasion of Unglazed Tiles ( Second Revision )",
+      "committee": "CED 05"
+    },
+    {
+      "number": "182",
+      "isNumber": "IS 1342 : 2019",
+      "title": "Oil pressure stoves - Specification (Seventh Revision)",
+      "committee": "MED 26"
+    },
+    {
+      "number": "183",
+      "isNumber": "IS 17232 : 2019",
+      "title": "Continuous Movement Bicable/Tricable Ropeways with Detachable Grip - Code of Practice",
+      "committee": "MED 06"
+    },
+    {
+      "number": "184",
+      "isNumber": "IS 17239 : 2019",
+      "title": "Safety Requirements for Drives Used for Ropeway Installation for Passenger Transportation",
+      "committee": "MED 06"
+    },
+    {
+      "number": "185",
+      "isNumber": "IS 9228 : 2019",
+      "title": "Chairs for chairlifts - Specification (First Revision)",
+      "committee": "MED 06"
+    },
+    {
+      "number": "186",
+      "isNumber": "IS 9706 : 2019",
+      "title": "Material handling ropeways - Code of practice (Second Revision)",
+      "committee": "MED 06"
+    },
+    {
+      "number": "187",
+      "isNumber": "IS 2492 : 2019",
+      "title": "Stainless Steel Road Milk Tankers \u2014 Specification ( Second Revision )",
+      "committee": "FAD 33"
+    },
+    {
+      "number": "188",
+      "isNumber": "IS 3177 : 2020",
+      "title": "Electric Overhead Travelling Crane and Gantry Crane for all Applications \u2014 Code of Practice ( Third Revision )",
+      "committee": "MED 14"
+    },
+    {
+      "number": "189",
+      "isNumber": "Is 1791 : 2020",
+      "title": "General Requirements for Batch Type Concrete Mixers ( Third Revision ) Amendment - 1",
+      "committee": "MED 18"
+    },
+    {
+      "number": "190",
+      "isNumber": "IS 9390 : 2018",
+      "title": "Specification for straight coupling body for oil - Hydraulic couplings",
+      "committee": "PGD 36"
+    },
+    {
+      "number": "191",
+      "isNumber": "IS 9389 : Part 2 : 2018",
+      "title": "Specification for equal tee body for oil - Hydraulic couplings: Part 2 made from bar stock",
+      "committee": "PGD 36"
+    },
+    {
+      "number": "192",
+      "isNumber": "IS 5244 : 2020",
+      "title": "Safe Deposit Locker Cabinets - Specification ( Fourth Revision ) Amendment No- 3",
+      "committee": "MED 24"
+    },
+    {
+      "number": "193",
+      "isNumber": "IS 6392 : 2020",
+      "title": "Steel Pipes Flanges \u2014 Specification ( First Revision )",
+      "committee": "MTD 19"
+    },
+    {
+      "number": "194",
+      "isNumber": "IS 17429 : 2020",
+      "title": "Solar Photovoltaic Water Pumping Systems - Testing Procedure - Guidelines",
+      "committee": "MED 20"
+    },
+    {
+      "number": "195",
+      "isNumber": "IS 16544 : 2016",
+      "title": "All Glass Evacuated Tubes Solar Water Heating System",
+      "committee": "MED 04"
+    },
+    {
+      "number": "196",
+      "isNumber": "IS 16648 : Part 4 : 2018",
+      "title": "Concentrated Solar Thermal - Specification Part 4 Non-Imaging Concentrator",
+      "committee": "MED 04"
+    },
+    {
+      "number": "197",
+      "isNumber": "IS 4573 : 2020",
+      "title": "Power Driven Mobile Cranes \u2014 Specification ( Second Revision )",
+      "committee": "MED 14"
+    },
+    {
+      "number": "198",
+      "isNumber": "IS 1710 : 2021",
+      "title": "Vertical Turbine Pumps - Specification ( Third Revision )",
+      "committee": "MED 20"
+    },
+    {
+      "number": "199",
+      "isNumber": "IS 7152 : 1992",
+      "title": "Book room doors - Specifications (First Revision)",
+      "committee": "MED 24"
+    },
+    {
+      "number": "200",
+      "isNumber": "IS 6433 : 1972",
+      "title": "Specification for guniting equipment",
+      "committee": "MED 18"
+    },
+    {
+      "number": "201",
+      "isNumber": "IS 15298 : PART 3 : 2018",
+      "title": "Personal Protective Equipment Part 3 Protective Footwear",
+      "committee": "CHD 19"
+    },
+    {
+      "number": "202",
+      "isNumber": "IS 14387 : 2005",
+      "title": "Vaults - Air ventilators - Specification (First Revisiori)",
+      "committee": "MED 24"
+    },
+    {
+      "number": "203",
+      "isNumber": "IS 15155 : 2002",
+      "title": "Bar/wire wrapped steel cylinder pipes with mortar lining and coating (Including Specials) - Specification",
+      "committee": "CED 53"
+    },
+    {
+      "number": "204",
+      "isNumber": "IS 458 : 2003",
+      "title": "Precast concrete pipes(With And Without Reinforcement) - Specification (Fourth Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "205",
+      "isNumber": "IS 808 : 1989",
+      "title": "Dimensions for hot rolled steel beam, column, channel and angle sections (Third Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "206",
+      "isNumber": "IS 11330 : 1985",
+      "title": "Specification for refrigeration oil separator",
+      "committee": "MED 03"
+    },
+    {
+      "number": "207",
+      "isNumber": "IS 11188 : Part 1 : 2014",
+      "title": "Vault (Strong Room) doors: Part 1 specification (Second Revision)",
+      "committee": "MED 24"
+    },
+    {
+      "number": "208",
+      "isNumber": "IS 15500 : Part 1 to 8 : 2004",
+      "title": "Deepwell handpumps, components and special tools - Specification",
+      "committee": "MED 27"
+    },
+    {
+      "number": "209",
+      "isNumber": "IS/ISO 21549 : Part 3 : 2014",
+      "title": "Health Informatics -- Patient Healthcard Data -- Part 3: Limited Clinical Data",
+      "committee": "MHD 17"
+    },
+    {
+      "number": "210",
+      "isNumber": "IS 16323 : 2017",
+      "title": "SHIPS AND MARINE TECHNOLOGY - MARINE MAGNETIC COMPASSES, BINNACLES AND AZIMUTH READING DEVICES",
+      "committee": "TED 19"
+    },
+    {
+      "number": "211",
+      "isNumber": "IS/ISO/IEC 20547 : Part 3 : 2020",
+      "title": "Information Technology Big Data Reference Architecture Part 3: Reference Architecture",
+      "committee": "LITD 30"
+    },
+    {
+      "number": "212",
+      "isNumber": "IS/ISO 12812 : Part 1 : 2017",
+      "title": "Core banking- Mobile financial services- Part 1: General framework",
+      "committee": "SSD 03"
+    },
+    {
+      "number": "213",
+      "isNumber": "IS 17382 : 2021",
+      "title": "Syn Gas Ammonia Turbo Compressor Lubricating Oils Specification",
+      "committee": "PCD 25"
+    },
+    {
+      "number": "214",
+      "isNumber": "IS 10086 : 1982",
+      "title": "Specificaton for moulds for use in tests of cement and concrete",
+      "committee": "CED 02"
+    },
+    {
+      "number": "215",
+      "isNumber": "IS 550 : Part 1 : 2014",
+      "title": "Safes: Part 1 specification (Fifth Revision)",
+      "committee": "MED 24"
+    },
+    {
+      "number": "216",
+      "isNumber": "IS 5501 : 1969",
+      "title": "Specification for pneumatic tyred roller",
+      "committee": "MED 18"
+    },
+    {
+      "number": "217",
+      "isNumber": "IS 2438 : 1963",
+      "title": "Specification for roller pan mixer",
+      "committee": "MED 18"
+    },
+    {
+      "number": "218",
+      "isNumber": "IS 9917 : 1983",
+      "title": "Calcium base heat stable grease specification (First Revision)",
+      "committee": "PCD 25"
+    },
+    {
+      "number": "219",
+      "isNumber": "IS 2506 : 1985",
+      "title": "General requirements for concrete vibrators, screed board type (First Revision)",
+      "committee": "MED 18"
+    },
+    {
+      "number": "220",
+      "isNumber": "IS 2722 : 1964",
+      "title": "Specification for portable swing weighbatchers for concrete (Single And Double Bucket Type)",
+      "committee": "MED 18"
+    },
+    {
+      "number": "221",
+      "isNumber": "IS 3365 : 1965",
+      "title": "Specification for floor polishing machines",
+      "committee": "MED 18"
+    },
+    {
+      "number": "222",
+      "isNumber": "IS 5521 : 1980",
+      "title": "Specification for steel tanks for storage of molasses (First Revision)",
+      "committee": "FAD 02"
+    },
+    {
+      "number": "223",
+      "isNumber": "IS 5891 : 1970",
+      "title": "Specification for hand - Operated concrete mixers",
+      "committee": "MED 18"
+    },
+    {
+      "number": "224",
+      "isNumber": "IS 1060 : Part 5 : Sec 2 : 2021",
+      "title": "Methods of Sampling and Test for Paper and Allied Products Part 5 Methods of Test for Paper and Board Section 2 Determination of moisture content of a lot Oven-drying method",
+      "committee": "CHD 15"
+    },
+    {
+      "number": "225",
+      "isNumber": "IS 8035 : 1999",
+      "title": "Handpump - Shallow well - Specification (First Revision)",
+      "committee": "MED 27"
+    },
+    {
+      "number": "226",
+      "isNumber": "IS 17018 : Part 1 : 2018",
+      "title": "Solar photovoltaic water pumping systems: Part 1 centrifugal pumps - Specification",
+      "committee": "MED 20"
+    },
+    {
+      "number": "227",
+      "isNumber": "IS 15475 : Part 3 : 2004",
+      "title": "Code of recommended practice for amusement rides safety: Part 3 design, manufacture and erection",
+      "committee": "MED 06"
+    },
+    {
+      "number": "228",
+      "isNumber": "IS/IEC 60721 : Part 3 : Sec 3 : 2019",
+      "title": "Classification of Environmental Conditions Part 3 Classification of groups of environmental parameters and their severities Section 3 Stationary use at weatherprotected locations",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "229",
+      "isNumber": "IS 13009 : 2021",
+      "title": "Fallopian rings \u2014 Requirements and test methods",
+      "committee": "MHD 03"
+    },
+    {
+      "number": "230",
+      "isNumber": "IS 726 : 1982",
+      "title": "Specification for galvanized steel buckets for general use",
+      "committee": "MED 33"
+    },
+    {
+      "number": "231",
+      "isNumber": "IS/IEC 60110 : Part 1 : 1998",
+      "title": "Power Capacitors for Induction Heating Installations Part 1 General (First Revision)",
+      "committee": "ETD 29"
+    },
+    {
+      "number": "232",
+      "isNumber": "IS 1495 : 1970",
+      "title": "Specification for mild steel dust - Bins (First Revision)",
+      "committee": "MED 33"
+    },
+    {
+      "number": "233",
+      "isNumber": "IS 6591 : 1972",
+      "title": "Specification for rail milk tankers",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "234",
+      "isNumber": "IS 14203 : 2017",
+      "title": "Fire resisting record protection cabinets - Specification (Second Revision)",
+      "committee": "MED 24"
+    },
+    {
+      "number": "235",
+      "isNumber": "IS 9478 : 1989",
+      "title": "Family size bio - Gas plant - Code of practice (Second Revision)",
+      "committee": "MED 04"
+    },
+    {
+      "number": "236",
+      "isNumber": "IS 15109 : Part 1 : 2021",
+      "title": "DETERMINATION OF THE EFFECTS OF POLLUTANTS ON SOIL FLORA - PART 1: METHOD FOR THE MEASUREMENT OF INHIBITION OF ROOT GROWTH First Revision",
+      "committee": "FAD 07"
+    },
+    {
+      "number": "237",
+      "isNumber": "IS 3121 : 1981",
+      "title": "Specification for rigging screws and stretching screws (First Revision)",
+      "committee": "MED 10"
+    },
+    {
+      "number": "238",
+      "isNumber": "IS 2315 : 1978",
+      "title": "Specification for thimbles for wire ropes (First Revision)",
+      "committee": "MED 10"
+    },
+    {
+      "number": "239",
+      "isNumber": "IS 11228 : 1985",
+      "title": "Recommendations for design of screw hoists for hydraulic gates",
+      "committee": "WRD 12"
+    },
+    {
+      "number": "240",
+      "isNumber": "IS 5502 : 1988",
+      "title": "General requirements for smooth - Wheeled diesel road roller (Second Revision)",
+      "committee": "MED 07"
+    },
+    {
+      "number": "241",
+      "isNumber": "IS 2514 : 1963",
+      "title": "Specification for concrete vibrating tables",
+      "committee": "MED 18"
+    },
+    {
+      "number": "242",
+      "isNumber": "IS 8016 : 1996",
+      "title": "Hand trolley for gas cylinders (Oxygen And Dissolved Acetylene) for industrial use - Specification (First Revision)",
+      "committee": "MED 07"
+    },
+    {
+      "number": "243",
+      "isNumber": "IS 14130 : 1994",
+      "title": "Hydraulic lifting table - Specification",
+      "committee": "MED 07"
+    },
+    {
+      "number": "244",
+      "isNumber": "IS 12198 : 1987",
+      "title": "Specification for sprockets for sugar industry",
+      "committee": "FAD 02"
+    },
+    {
+      "number": "245",
+      "isNumber": "IS 4109 : 1967",
+      "title": "Specification for kadahies",
+      "committee": "MED 33"
+    },
+    {
+      "number": "246",
+      "isNumber": "IS 4925 : 2004",
+      "title": "Concrete batching and mixing plant - Specification (First Revision)",
+      "committee": "MED 18"
+    },
+    {
+      "number": "247",
+      "isNumber": "IS/ISO/IEC/TR 24029 : Part 1 : 2021",
+      "title": "Artificial Intelligence ( AI ) - Assessment of the Robustness of Neural Networks Part 1: Overview",
+      "committee": "LITD 30"
+    },
+    {
+      "number": "248",
+      "isNumber": "IS 7051 : 1973",
+      "title": "Specification for Power Maize Shellers",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "249",
+      "isNumber": "IS/IEC/TS 63042 (Part 301) : 2018",
+      "title": "UHV AC TRANSMISSION SYSTEMS Part 301: On-site acceptance tests",
+      "committee": "ETD 48"
+    },
+    {
+      "number": "250",
+      "isNumber": "IS 5324 : 1996",
+      "title": "Hand - Operated stillage truck - Lifting truck (Hand Elevating) - Specification (Second Revision)",
+      "committee": "MED 07"
+    },
+    {
+      "number": "251",
+      "isNumber": "IS 10453 : Part 2 : 1983",
+      "title": "Specification for taper male stud tee body (Stud Run) for oil - Hydraulic couplings - Part 2 : made from bar stock",
+      "committee": "PGD 36"
+    },
+    {
+      "number": "252",
+      "isNumber": "IS 3025 : Part 43 : Sec 1 : 2022",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater Part 43 Phenol ( Section 1 4-Aminoantipyrine Method with and without Chloroform Extraction method ) ( Second Revision )",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "253",
+      "isNumber": "IS 16316 : 2022",
+      "title": "Adventure tourism Leaders Personnel competence",
+      "committee": "SSD 02"
+    },
+    {
+      "number": "254",
+      "isNumber": "IS 4651 : Part 4 : 2014",
+      "title": "Planning and design of ports and harbours - Code of practice: Part 4 general design considerations (Third Revision)",
+      "committee": "CED 47"
+    },
+    {
+      "number": "255",
+      "isNumber": "IS 12886 : 1990",
+      "title": "Heart cam for jute spinning frame - Specification",
+      "committee": "TXD 14"
+    },
+    {
+      "number": "256",
+      "isNumber": "IS 14677 : 1999",
+      "title": "Spindles with bolsters for CHARKHAS \u2013 Specification",
+      "committee": "TXD 14"
+    },
+    {
+      "number": "257",
+      "isNumber": "IS 9725 : Part 2 : 1981",
+      "title": "Specification for male stud tee body (Stud Branch) for oil - Hydraulic couplings: Part 2 made from bar stock",
+      "committee": "PGD 36"
+    },
+    {
+      "number": "258",
+      "isNumber": "IS 6013 : 1970",
+      "title": "Specification for trowels for use in foundries",
+      "committee": "MTD 14"
+    },
+    {
+      "number": "259",
+      "isNumber": "IS 5841 : 1970",
+      "title": "Specification for fluted core cleaners for use in foundries",
+      "committee": "MTD 14"
+    },
+    {
+      "number": "260",
+      "isNumber": "IS/ISO/IEC GUIDE 37 : 2012",
+      "title": "Instructions for use of products by consumers (First Revision)",
+      "committee": "MSD 15"
+    },
+    {
+      "number": "261",
+      "isNumber": "IS/ISO/IEC GUIDE 76 : 2020",
+      "title": "DEVELOPMENT OF SERVICE STANDARDS - RECOMMENDATIONS FOR ADDRESSING CONSUMER ISSUES (First Revision)",
+      "committee": "MSD 15"
+    },
+    {
+      "number": "262",
+      "isNumber": "IS 250 : 2022",
+      "title": "POTASSIUM BICHROMATE TECHNICAL AND ANALYTICAL REAGENT - SPECIFICATION (SECOND REVISION)",
+      "committee": "CHD 01"
+    },
+    {
+      "number": "263",
+      "isNumber": "IS 9494 : 1980",
+      "title": "Specification for man - Riding cars used in mines",
+      "committee": "MED 08"
+    },
+    {
+      "number": "264",
+      "isNumber": "IS 12526 : 1988",
+      "title": "Specification for bucket for shaft sinking operations in mines",
+      "committee": "MED 08"
+    },
+    {
+      "number": "265",
+      "isNumber": "IS 6628 : 1972",
+      "title": "Specification for slide rails for use in abattoirs",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "266",
+      "isNumber": "IS 7891 : 1975",
+      "title": "Specification for inedible offals trolley",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "267",
+      "isNumber": "IS 11631 : 1985",
+      "title": "Specification for gambrels for sheep and goats",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "268",
+      "isNumber": "IS 6782 : 1972",
+      "title": "Specification for hog gambrels",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "269",
+      "isNumber": "IS 12189 : 1987",
+      "title": "Specification for sheep spreaders",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "270",
+      "isNumber": "IS 12486 : 1988",
+      "title": "Specification for meat inspection table",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "271",
+      "isNumber": "IS 12487 : 1988",
+      "title": "Specification for offal handling table for small animals",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "272",
+      "isNumber": "IS 10048 : 1999",
+      "title": "Rice Grader - Specification (Second Revision)",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "273",
+      "isNumber": "IS 11610 : 1986",
+      "title": "Rubber Rollers for Offset Printing - Specification",
+      "committee": "MED 25"
+    },
+    {
+      "number": "274",
+      "isNumber": "IS 9555 : 1999",
+      "title": "Rice Polisher - Specification (Second Revision)",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "275",
+      "isNumber": "IS 11787 : 1986",
+      "title": "Specification for Paddy Dehusker, Rubber Roll Type",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "276",
+      "isNumber": "IS 12396 : 1988",
+      "title": "Specification for Paddy Cleaner",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "277",
+      "isNumber": "IS 12411 : 1988",
+      "title": "Specification for Paddy Dehusker, Centrifugal Type",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "278",
+      "isNumber": "IS 12792 : 1989",
+      "title": "Agricultural Produce Milling Machinery - Mini Rice Mill - Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "279",
+      "isNumber": "IS 3494 : 1978",
+      "title": "Specification for Pruning Secateur (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "280",
+      "isNumber": "IS 2033 : 2022",
+      "title": "Textile Auxiliaries - Tapioca Flour for Cotton Textile Industry - Specification (Second Revision)",
+      "committee": "TXD 07"
+    },
+    {
+      "number": "281",
+      "isNumber": "IS 13055 : 1991",
+      "title": "Methods of sampling and test for anaerobic adhesives and sealants",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "282",
+      "isNumber": "IS 2559 : 1978",
+      "title": "Specification for Garden Rake (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "283",
+      "isNumber": "IS 7898 : 2001",
+      "title": "Manually - Operated Chaff Cutter - Specification (Second Revision)",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "284",
+      "isNumber": "IS 3092 : 1982",
+      "title": "Specification for Rubber Draining and Tapping Knife (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "285",
+      "isNumber": "IS 3093 : 1981",
+      "title": "Specification for Dah, Jungle Cutting (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "286",
+      "isNumber": "IS 11459 : 1985",
+      "title": "Specification for Power - Operated Chaff Cutter",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "287",
+      "isNumber": "IS 11620 : 1986",
+      "title": "Code of practice for fluid bed dryer",
+      "committee": "MED 17"
+    },
+    {
+      "number": "288",
+      "isNumber": "IS 10683 : 1983",
+      "title": "Specification for Khurpi",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "289",
+      "isNumber": "IS 2565 : 1979",
+      "title": "Specification for Ridger, Animal - Drawn (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "290",
+      "isNumber": "IS 14567 : 1998",
+      "title": "Winding in mines - Design of cages - Guidelines",
+      "committee": "MED 08"
+    },
+    {
+      "number": "291",
+      "isNumber": "IS 14460 : 1997",
+      "title": "Seed Processing Equipment - Gravity Separator - Specification",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "292",
+      "isNumber": "IS 14106 : 2018",
+      "title": "Direct action hand pumps - Specification (First Revision)",
+      "committee": "MED 27"
+    },
+    {
+      "number": "293",
+      "isNumber": "IS 9192 : 1979",
+      "title": "Specification for flameproof hand - Held rotary electric drilling machine for use in mines",
+      "committee": "MED 08"
+    },
+    {
+      "number": "294",
+      "isNumber": "IS 5820 : 1970",
+      "title": "Specification for precast concrete cable covers",
+      "committee": "CED 53"
+    },
+    {
+      "number": "295",
+      "isNumber": "IS 9757 : Part 2 : 1983",
+      "title": "Specification for bulkhead elbow body for oil - Hydraulic couplings: Part 2 made from bar stock",
+      "committee": "PGD 36"
+    },
+    {
+      "number": "296",
+      "isNumber": "IS 3941 : 1966",
+      "title": "Specification for cabin ventilators",
+      "committee": "TED 17"
+    },
+    {
+      "number": "297",
+      "isNumber": "IS 5889 : 1994",
+      "title": "Vibratory plate compactor - Specification (First Revision)",
+      "committee": "MED 18"
+    },
+    {
+      "number": "298",
+      "isNumber": "IS 6088 : 1988",
+      "title": "Specification for oil - To - Water heat exchangers for transformers (First Revision)",
+      "committee": "MED 17"
+    },
+    {
+      "number": "299",
+      "isNumber": "IS 7595 : Part 5 : 1991",
+      "title": "Fishing vessels - Otter boards: Part 5 vee type otter boards",
+      "committee": "TED 18"
+    },
+    {
+      "number": "300",
+      "isNumber": "IS 8442 : 2008",
+      "title": "Stand post type water and foam monitor for fire fighting - Specification (First Revision)",
+      "committee": "CED 22"
+    },
+    {
+      "number": "301",
+      "isNumber": "IS 6202 : 1971",
+      "title": "Specification for flat glass oil level gauges for oil storage tanks",
+      "committee": "MED 17"
+    },
+    {
+      "number": "302",
+      "isNumber": "IS 12190 : 1987",
+      "title": "Specification for sheep bleeding shackles",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "303",
+      "isNumber": "IS 9724 : Part 2 : 1981",
+      "title": "Specification for taper male stud tee body (Stud Branch) for oil - Hydraulic couplings: Part 2 made from bar stock",
+      "committee": "PGD 36"
+    },
+    {
+      "number": "304",
+      "isNumber": "IS 12682 : 1989",
+      "title": "Water well drilling - Percussion drilling rigs - General requirements",
+      "committee": "MED 21"
+    },
+    {
+      "number": "305",
+      "isNumber": "IS 9295 : 1983",
+      "title": "Specification for steel tubes for idlers for belt conveyors (First Revision)",
+      "committee": "MTD 19"
+    },
+    {
+      "number": "306",
+      "isNumber": "IS 11830 : Part 1 : 1991",
+      "title": "Waterwell drilling - Down - The - Hole hammer rigs: Part 1 general requirements for hydraulic rigs (With Or Without Rotary Mode) (First Revision)",
+      "committee": "MED 21"
+    },
+    {
+      "number": "307",
+      "isNumber": "IS 14442 : 1997",
+      "title": "Agricultural Produce Milling Machinery - Burr Mill - Test Code",
+      "committee": "FAD 20"
+    },
+    {
+      "number": "308",
+      "isNumber": "IS 7206 : Part 1 : 1986",
+      "title": "General requirements for direct circulation rotary drilling rigs: Part 1 with rotary table (First Revision)",
+      "committee": "MED 21"
+    },
+    {
+      "number": "309",
+      "isNumber": "IS 12953 : 1990",
+      "title": "Drawbar for Agricultural Tractors - Link Type - Specification",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "310",
+      "isNumber": "IS 12450 : Part 1 : 1988",
+      "title": "Steel headframes for mines: Part 1 principles of load computation and applicable factors of safety",
+      "committee": "MED 08"
+    },
+    {
+      "number": "311",
+      "isNumber": "IS 6834 : Part 3 : 1976",
+      "title": "Specification for conveyor chains, chain - Wheels and attachments: Part 3 attachments",
+      "committee": "MED 06"
+    },
+    {
+      "number": "312",
+      "isNumber": "IS 10684 : 1983",
+      "title": "Specification for Tree Pruner",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "313",
+      "isNumber": "IS 10046 : 1981",
+      "title": "Specification for dog spikes for mine haulage tracks",
+      "committee": "MED 08"
+    },
+    {
+      "number": "314",
+      "isNumber": "IS 12337 : 1988",
+      "title": "Specification for Manually Operated Fertilizer Broadcaster",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "315",
+      "isNumber": "IS 6686 : 1985",
+      "title": "Specification for nose bars for speed and ring spinning frames (first revision)",
+      "committee": "TXD 14"
+    },
+    {
+      "number": "316",
+      "isNumber": "IS 3942 : 1966",
+      "title": "Specification for marine sounding rods",
+      "committee": "TED 17"
+    },
+    {
+      "number": "317",
+      "isNumber": "IS 8066 : 1976",
+      "title": "Specification for mine cars",
+      "committee": "MED 08"
+    },
+    {
+      "number": "318",
+      "isNumber": "IS 12213 : 1987",
+      "title": "Code for mechanical vibrating screens",
+      "committee": "MED 17"
+    },
+    {
+      "number": "319",
+      "isNumber": "IS 1173 : 1978",
+      "title": "Specfication for Hot Rolled and Slit Steel Tee Bars (Second Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "320",
+      "isNumber": "IS 1252 : 1991",
+      "title": "Hot Rolled Steel Bulb Angles - Dimensions (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "321",
+      "isNumber": "IS 3299 : 1969",
+      "title": "Specification for oscillating rock shafts for sewing machines for household purposes (First Revision)",
+      "committee": "MED 29"
+    },
+    {
+      "number": "322",
+      "isNumber": "IS 8473 : 1988",
+      "title": "Specification for roof bars used in mines",
+      "committee": "MED 08"
+    },
+    {
+      "number": "323",
+      "isNumber": "IS 11830 : Part 2 : 1989",
+      "title": "Water - Well drilling - Down - The - Hole hammer rigs: Part 2 general requirements for pneumatic rigs",
+      "committee": "MED 21"
+    },
+    {
+      "number": "324",
+      "isNumber": "IS 18265 : 2023",
+      "title": "Timekeeping instruments -- Crowns and sealed tubes -- Designs and dimensions",
+      "committee": "PGD 23"
+    },
+    {
+      "number": "325",
+      "isNumber": "IS 884 : 1985",
+      "title": "Specification for first - Aid hose - Reel for fire fighting (First Revision)",
+      "committee": "CED 22"
+    },
+    {
+      "number": "326",
+      "isNumber": "IS 18057 : Part 3 : 2023",
+      "title": "Woodworking Machines Safety Part 3: Numerically Controlled NC Boring and Routing Machines",
+      "committee": "PGD 35"
+    },
+    {
+      "number": "327",
+      "isNumber": "IS 3816 : 1966",
+      "title": "Specification for connecting rods for sewing machines for household purposes",
+      "committee": "MED 29"
+    },
+    {
+      "number": "328",
+      "isNumber": "IS 7142 : 1995",
+      "title": "Welded low carbon steel cylinders for low pressure liquifiable gases not exceeding 5 litre water capacity - Specification (First Revision)",
+      "committee": "MED 16"
+    },
+    {
+      "number": "329",
+      "isNumber": "IS 1024 : 1999",
+      "title": "Use of welding in bridges and structures subject to dynamic loading - Code of practice (Second Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "330",
+      "isNumber": "IS/ISO 80000 : Part 1 : 2022",
+      "title": "Quantities and Units Part 1 General",
+      "committee": "PGD 01"
+    },
+    {
+      "number": "331",
+      "isNumber": "IS 9239 : 1999",
+      "title": "Winding in mines - Sheaves - Cast - Specification (First Revision)",
+      "committee": "MED 08"
+    },
+    {
+      "number": "332",
+      "isNumber": "IS 11033 : 1984",
+      "title": "Specification for Animal Drawn Potato Digger, Ridger Type",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "333",
+      "isNumber": "IS 18202 : 2023",
+      "title": "Nimba Azadirachta indica A Juss Fruit for use in Traditional Medicine Specification",
+      "committee": "AYD 01"
+    },
+    {
+      "number": "334",
+      "isNumber": "IS 3327 : 1982",
+      "title": "Specification for Pedal - Operated Paddy Threshers (First Revision)",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "335",
+      "isNumber": "IS 10854 : Part 2 : 1984",
+      "title": "Specification for cutter suction dredge components: Part 2 Suction Pipe",
+      "committee": "TED 18"
+    },
+    {
+      "number": "336",
+      "isNumber": "IS 10854 : Part 4 : 1984",
+      "title": "Specification for cutter suction dredge components: Part 4 spuds",
+      "committee": "TED 18"
+    },
+    {
+      "number": "337",
+      "isNumber": "IS 10854 : Part 3 : 1984",
+      "title": "Specification for cutter suction dredge components: Part 3 ladder",
+      "committee": "TED 18"
+    },
+    {
+      "number": "338",
+      "isNumber": "IS 17082 : 2019",
+      "title": "Guidelines for Design and Construction of Continuous Pusher Type Oil / Gas Top Fired Reheating Furnaces",
+      "committee": "MTD 26"
+    },
+    {
+      "number": "339",
+      "isNumber": "IS 3025 : Part 8 : 2023",
+      "title": "Methods of Sampling and Test Physical and Chemical For Water and Wastewater Part 8 Taste Rating Second Revision",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "340",
+      "isNumber": "IS 2342 : 1963",
+      "title": "Specification for manually operated milk - Can washer",
+      "committee": "FAD 33"
+    },
+    {
+      "number": "341",
+      "isNumber": "IS 6684 : 1972",
+      "title": "Specification for milk can trolleys",
+      "committee": "FAD 33"
+    },
+    {
+      "number": "342",
+      "isNumber": "IS 11905 : 1986",
+      "title": "Specification for Shaft Assembly for Rotavator for Power Tiller",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "343",
+      "isNumber": "IS 18273 : Part 3 : 2023",
+      "title": "Molecular biomarker analysis? Detection of animal-derived materials in foodstuffs and feedstuffs by real-time PCR? Part 3: Porcine DNA detection method",
+      "committee": "FAD 23"
+    },
+    {
+      "number": "344",
+      "isNumber": "IS 5604 : 1984",
+      "title": "Specification for hand - Operated universal gearless pulling and lifting machines (First Revision)",
+      "committee": "MED 14"
+    },
+    {
+      "number": "345",
+      "isNumber": "IS 1281 : 2014",
+      "title": "Bicycles - Cranks and chain wheels - Specification (Third Revision)",
+      "committee": "TED 16"
+    }
+  ],
+  "clauses": [
+    {
+      "clauseNumber": "Clause 6.1",
+      "title": "Chemical Composition",
+      "content": "Carbon content shall not exceed 0.20% for Grade E250 Quality A, with Carbon Equivalent (CE) max 0.42%.",
+      "isMandatory": true
+    },
+    {
+      "clauseNumber": "Clause 9.1",
+      "title": "Tensile Strength and Yield Stress",
+      "content": "Minimum yield stress for Grade E250 is 250 MPa for thickness < 20 mm; minimum tensile strength is 410 MPa with 23% elongation.",
+      "isMandatory": true
+    }
+  ],
+  "qco": null
+}

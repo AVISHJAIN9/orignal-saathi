@@ -1,0 +1,40 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified) — scope limited to the empty-conversation state only; everything else falls back to English.",
+  "clearChat": {
+    "emptyTitle": "نئی گفتگو",
+    "emptyDescription": "دوبارہ شروع کرنے کے لیے SAATHI سے کسی انڈین اسٹینڈرڈ کے بارے میں پوچھیں۔"
+  },
+  "nav": {
+    "sectionCore": "موکھی",
+    "sectionLifecycle": "پرماणن جیونچکر",
+    "sectionTools": "انوپالن اوپکرण",
+    "sectionAdmin": "ویوستھاپک",
+    "standardsBrowser": "مانک برااوج़ر",
+    "adminPanel": "ویوستھاپک پےنل",
+    "documentManagement": "دستاوےج़ پربںدھن",
+    "retrievalQuality": "پونرپراپتی گوणوتتا",
+    "conformityCheck": "انوروپتا جاںچ",
+    "notifications": "سوچنااےں",
+    "regulatoryRadar": "نییامک رڈار",
+    "intelFeed": "اںٹےل پھیڈ",
+    "documentCortex": "دستاوےج़ کॉرٹےکس",
+    "newRegistration": "نیا پںجیکرण",
+    "officerVisits": "ادھیکاری یاترااےں",
+    "documentCorrections": "دستاوےج़ سودھار",
+    "appealsDisputes": "اپیل اور ویواد",
+    "businessAccount": "ویوسای کھاتا",
+    "certificates": "پرماणپتر",
+    "renewalReminders": "نوینیکرण انوسمارک",
+    "complianceCalendar": "انوپالن کےلےںڈر",
+    "factoryAudits": "پھ़ےکٹری ऑڈیٹ",
+    "recallsAlerts": "ریکॉل اور الرٹ",
+    "licenseActions": "لااسےںس کاررواای",
+    "feeInvoices": "شولک چالان اور رسیدےں",
+    "manufacturingLocations": "وینیرماण ستھان",
+    "schemeSelector": "یوجنا چینکرتا",
+    "complianceChain": "انوپالن شرृںکھلا",
+    "laboratoryMatcher": "پریوگشالا میلانکرتا",
+    "regulatoryAlerts": "نییامک الرٹ",
+    "exploreFeatures": "سوویدھااےں دےکھےں"
+  }
+}
