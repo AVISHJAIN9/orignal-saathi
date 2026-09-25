@@ -1,0 +1,89 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good afternoon
+    - good evening
+    - hello bis assistant
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - exit
+    - quit
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thank you
+    - thanks a lot
+    - appreciate it
+    - that's helpful
+
+- intent: search_standard
+  examples: |
+    - find [IS 101](standard_number)
+    - search for [IS 10970:2026](standard_number)
+    - show me [IS 11319:2026](standard_number)
+    - find standards about [agricultural machinery](query)
+    - search [paint and varnish](query)
+    - find standards related to [medical equipment](query)
+    - search for [explosives](query)
+    - find standards about [mining equipment](query)
+    - show me standards for [glass](query)
+    - search BIS standards for [doors and windows](query)
+
+- intent: ask_standard_details
+  examples: |
+    - tell me about [IS 101](standard_number)
+    - give me details of [IS 10970:2026](standard_number)
+    - what is [IS 11319:2026](standard_number)
+    - details for [IS 11691:2026](standard_number)
+    - show details about [IS 14900:2026](standard_number)
+
+- intent: ask_committee
+  examples: |
+    - which committee handles [IS 101](standard_number)
+    - what is the sectional committee for [IS 10970:2026](standard_number)
+    - which committee is responsible for [IS 11691:2026](standard_number)
+    - tell me the committee for [IS 14900:2026](standard_number)
+
+- intent: ask_department
+  examples: |
+    - which department handles [IS 101](standard_number)
+    - what department is responsible for [IS 10970:2026](standard_number)
+    - tell me the department for [IS 11691:2026](standard_number)
+    - which BIS department handles [IS 14900:2026](standard_number)
+
+- intent: ask_standard_type
+  examples: |
+    - what type of standard is [IS 101](standard_number)
+    - tell me the standard type for [IS 10970:2026](standard_number)
+    - what kind of standard is [IS 11691:2026](standard_number)
+
+- intent: ask_publication_date
+  examples: |
+    - when was [IS 101](standard_number) published
+    - what is the publication date of [IS 10970:2026](standard_number)
+    - when was [IS 11691:2026](standard_number) published
+    - publication date for [IS 14900:2026](standard_number)
+
+- intent: classify_equivalence
+  examples: |
+    - classify [IS 16384:2026](standard_number)
+    - what is the degree of equivalence of [IS 16384:2026](standard_number)
+    - determine the equivalence of [IS 101](standard_number)
+    - classify this standard
+    - what is its degree of equivalence
+    - predict the equivalence category
+    - is this standard identical or modified
+    - classify [light conveyor belts](query)
+    - determine equivalence for [agricultural machinery](query)

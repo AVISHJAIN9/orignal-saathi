@@ -1,0 +1,22 @@
+recipe: default.v1
+language: en
+
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 3
+    max_ngram: 17
+  - name: DIETClassifier
+    epochs: 100
+    entity_recognition: true
+    use_masked_language_model: false
+    random_seed: 42
+
+policies:
+  - name: RulePolicy
+
+assistant_id: bis_rasa_assistant

@@ -1,0 +1,50 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - search_standard
+  - ask_standard_details
+  - ask_committee
+  - ask_department
+  - ask_standard_type
+  - ask_publication_date
+  - classify_equivalence
+
+entities:
+  - standard_number
+  - query
+
+slots:
+  standard_number:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: standard_number
+
+  query:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: query
+
+responses:
+
+  utter_greet:
+    - text: "Hello! I can help you search BIS standards and classify degree of equivalence."
+
+  utter_goodbye:
+    - text: "Goodbye!"
+
+  utter_thanks:
+    - text: "You're welcome!"
+
+actions:
+  - action_search_standard
+  - action_standard_details
+  - action_ask_committee
+  - action_ask_department
+  - action_ask_standard_type
+  - action_ask_publication_date
+  - action_classify_equivalence
