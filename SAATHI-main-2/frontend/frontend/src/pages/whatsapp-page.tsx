@@ -107,20 +107,20 @@ export function WhatsAppPage() {
           {/* QR Code Card */}
           <div className="flex items-center gap-4 rounded-xl border border-neutral-800 bg-neutral-900/80 p-4">
             <img
-              src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://wa.me/919999999999?text=Hi%20SAATHI"
+              src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://wa.me/15551676505?text=Hi%20SAATHI"
               alt="Scan to chat on WhatsApp"
               className="size-20 rounded-lg bg-white p-1"
             />
             <div className="space-y-1">
               <h4 className="font-semibold text-sm text-white">Scan to Test on Your Phone</h4>
-              <p className="text-xs text-neutral-400">Or click below to launch WhatsApp Web</p>
+              <p className="text-xs text-neutral-400">Official Meta Test Number: +1 (555) 167-6505</p>
               <a
-                href="https://wa.me/919999999999?text=Hi%20SAATHI"
+                href="https://wa.me/15551676505?text=Hi%20SAATHI"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-1.5 text-xs font-medium text-[#25D366] hover:underline"
               >
-                <span>Launch wa.me/919999999999</span>
+                <span>Launch wa.me/15551676505</span>
                 <ExternalLink className="size-3" />
               </a>
             </div>

@@ -140,17 +140,17 @@ export function WhatsAppWidget() {
                   <div className="rounded-xl border-4 border-[#25D366] bg-white p-4 shadow-lg">
                     {/* Visual QR Code Generator */}
                     <img
-                      src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://wa.me/919999999999?text=Hi%20SAATHI%20BIS%20Assistant"
+                      src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://wa.me/15551676505?text=Hi%20SAATHI%20BIS%20Assistant"
                       alt="WhatsApp QR Code"
                       className="size-40"
                     />
                   </div>
                   <h4 className="mt-4 font-semibold text-foreground text-sm">Scan with your Phone</h4>
                   <p className="mt-1 text-xs text-muted-foreground">
-                    Instantly chat with SAATHI on your personal WhatsApp
+                    Chat with official Meta test number: +1 (555) 167-6505
                   </p>
                   <a
-                    href="https://wa.me/919999999999?text=Hi%20SAATHI"
+                    href="https://wa.me/15551676505?text=Hi%20SAATHI"
                     target="_blank"
                     rel="noreferrer"
                     className="mt-4 inline-flex items-center gap-1.5 rounded-lg bg-[#25D366] px-4 py-2 text-xs font-semibold text-white shadow hover:bg-[#20bd5a]"

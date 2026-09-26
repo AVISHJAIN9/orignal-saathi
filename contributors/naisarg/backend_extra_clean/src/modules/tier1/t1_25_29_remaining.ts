@@ -230,12 +230,31 @@ export class T12529RemainingController {
       senderNumber = payload.from || senderNumber;
     }
 
-    // 3. Route internally to /qa/strict logic
-    const qaResult = await this.strictQA({ question: userMessage });
+    // 3. Route to Aditi's 116k RAG Microservice (port 5001) - exact same engine as website chat
+    let replyText = '';
+    let citations: any[] = [];
 
-    const replyText = qaResult.declined
-      ? `🙏 *SAATHI BIS Assistant*\n\nSorry, your question could not be answered because it is outside our verified BIS standards database.\n\n_Reason_: ${qaResult.reason}`
-      : `🇮🇳 *SAATHI BIS Standards Assistant*\n\n${qaResult.answer}\n\n*Verified Citation*: ${qaResult.groundedCitations[0]?.standardNumber} Clause ${qaResult.groundedCitations[0]?.clauseNumber}`;
+    try {
+      const ragRes = await axios.post(
+        'http://127.0.0.1:5001/api/v1/chat',
+        { query: userMessage, language: 'en' },
+        { timeout: 15000 }
+      );
+      const data = ragRes.data;
+      replyText = `🇮🇳 *SAATHI BIS Standards Assistant*\n\n${data.reply || data.answer}`;
+      if (data.citations && data.citations.length > 0) {
+        replyText += `\n\n*Verified Citations*:\n${data.citations.map((c: any) => `• ${c.standard_id || c.standard || 'IS Standard'} Clause ${c.clause || ''}`).join('\n')}`;
+      }
+      citations = data.citations || [];
+      this.logger.log(`WhatsApp query routed to Aditi 116k RAG successfully for ${senderNumber}`);
+    } catch (ragErr: any) {
+      this.logger.warn(`Aditi RAG port 5001 fallback: ${ragErr.message}`);
+      const qaResult = await this.strictQA({ question: userMessage });
+      replyText = qaResult.declined
+        ? `🙏 *SAATHI BIS Assistant*\n\nSorry, your question could not be answered because it is outside our verified BIS standards database.\n\n_Reason_: ${qaResult.reason}`
+        : `🇮🇳 *SAATHI BIS Standards Assistant*\n\n${qaResult.answer}\n\n*Verified Citation*: ${qaResult.groundedCitations[0]?.standardNumber} Clause ${qaResult.groundedCitations[0]?.clauseNumber}`;
+      citations = qaResult.groundedCitations;
+    }
 
     // 4. Send Message via WhatsApp Cloud API if credentials available
     let cloudApiSent = false;
@@ -260,8 +279,9 @@ export class T12529RemainingController {
           }
         );
         cloudApiSent = true;
+        this.logger.log(`Live WhatsApp message delivered to ${senderNumber} via Meta Cloud API.`);
       } catch (sendErr: any) {
-        this.logger.warn(`WhatsApp Cloud API message send failed: ${sendErr.message}`);
+        this.logger.warn(`WhatsApp Cloud API message send notification: ${sendErr.response?.data?.error?.message || sendErr.message}`);
       }
     }
 
@@ -270,8 +290,9 @@ export class T12529RemainingController {
       receivedFrom: senderNumber,
       queryProcessed: userMessage,
       routedToStrictQA: true,
-      declined: qaResult.declined,
+      declined: citations.length === 0 && replyText.includes('Sorry'),
       outgoingReply: replyText,
+      groundedCitations: citations,
       deliveryChannel: cloudApiSent ? 'WhatsApp Cloud API Live' : 'WhatsApp Cloud API Sandbox',
       cloudApiSent,
       timestamp: new Date().toISOString()
