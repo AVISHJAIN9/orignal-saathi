@@ -18,7 +18,9 @@ interface RegulatoryAlertProps {
 export function RegulatoryAlert({ items }: RegulatoryAlertProps) {
   const { t } = useTranslation(["dashboard", "notifications"]);
 
-  if (items.length === 0) {
+  const safeItems = Array.isArray(items) ? items : [];
+
+  if (safeItems.length === 0) {
     return (
       <EmptyState
         icon={Gavel}
@@ -31,7 +33,7 @@ export function RegulatoryAlert({ items }: RegulatoryAlertProps) {
 
   return (
     <ul className="flex flex-col gap-2">
-      {items.map((item) => {
+      {safeItems.map((item) => {
         const standard = item.standardKey
           ? getStandardByKey(item.standardKey)
           : undefined;

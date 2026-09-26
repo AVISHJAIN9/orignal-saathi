@@ -17,7 +17,9 @@ interface PaymentDueAlertCardProps {
 export function PaymentDueAlertCard({ items }: PaymentDueAlertCardProps) {
   const { t } = useTranslation(["dashboard", "notifications"]);
 
-  if (items.length === 0) {
+  const safeItems = Array.isArray(items) ? items : [];
+
+  if (safeItems.length === 0) {
     return (
       <EmptyState
         icon={Receipt}
@@ -30,7 +32,7 @@ export function PaymentDueAlertCard({ items }: PaymentDueAlertCardProps) {
 
   return (
     <ul className="flex flex-col gap-2">
-      {items.map((item) => (
+      {safeItems.map((item) => (
         <li
           key={item.key}
           className="flex flex-col gap-1.5 rounded-xl border border-border bg-background px-3 py-2.5"

@@ -20,7 +20,9 @@ interface ActionRequiredCardProps {
 export function ActionRequiredCard({ items }: ActionRequiredCardProps) {
   const { t } = useTranslation(["dashboard", "notifications"]);
 
-  if (items.length === 0) {
+  const safeItems = Array.isArray(items) ? items : [];
+
+  if (safeItems.length === 0) {
     return (
       <EmptyState
         icon={ClipboardCheck}
@@ -33,7 +35,7 @@ export function ActionRequiredCard({ items }: ActionRequiredCardProps) {
 
   return (
     <ul className="flex flex-col gap-2">
-      {items.map((item) => {
+      {safeItems.map((item) => {
         const standard = item.standardKey
           ? getStandardByKey(item.standardKey)
           : undefined;

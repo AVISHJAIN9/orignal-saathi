@@ -1,11 +1,7 @@
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
-@import "@fontsource-variable/inter";
-@import "@fontsource-variable/geist-mono";
-@import "@fontsource-variable/fraunces";
-@import "@fontsource-variable/anek-devanagari";
-@import "@fontsource-variable/noto-nastaliq-urdu";
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
 
 @custom-variant dark (&:is(.dark *));
 
