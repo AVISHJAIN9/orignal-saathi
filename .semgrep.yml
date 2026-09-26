@@ -1,0 +1,27 @@
+rules:
+  - id: jwt-none-algorithm-check
+    patterns:
+      - pattern-either:
+          - pattern: jwt.verify($TOKEN, $SECRET, { ... algorithms: [..., "none", ...] })
+          - pattern: jwt.decode($TOKEN, { verify: false })
+    message: "CRITICAL: JWT verification allows 'none' algorithm or disabled verification. This is a severe authentication bypass vector."
+    languages: [javascript, typescript]
+    severity: ERROR
+
+  - id: unparameterized-raw-sql-concatenation
+    patterns:
+      - pattern-either:
+          - pattern: $DB.query(`... ${$VAR} ...`)
+          - pattern: $DB.raw(`... ${$VAR} ...`)
+    message: "CRITICAL: Dynamic string interpolation in raw SQL query detected. Use parameterized queries ($1, $2) to prevent SQL Injection."
+    languages: [javascript, typescript]
+    severity: ERROR
+
+  - id: ssrf-unfiltered-egress-request
+    patterns:
+      - pattern-either:
+          - pattern: axios.get($REQ.body.$URL)
+          - pattern: fetch($REQ.body.$URL)
+    message: "WARNING: Unfiltered egress HTTP request using user input. Ensure URL passes validateSafeEgressUrl() to prevent SSRF against internal cloud metadata (169.254.169.254)."
+    languages: [javascript, typescript]
+    severity: WARNING

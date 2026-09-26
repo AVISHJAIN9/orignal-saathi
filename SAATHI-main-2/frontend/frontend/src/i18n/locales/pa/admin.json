@@ -1,0 +1,57 @@
+{
+  "title": "ਉਪਯੋਗ ਵਿਸ਼੍ਲੇ਷ਿਕੀ",
+  "groundednessRate": "ਆਧਾਰਿਤ ਉਤ੍ਤਰ ਕੀ ਦਰ",
+  "declineRate": "ਅਸ੍ਵੀਕ੃ਤਿ ਦਰ",
+  "totalQueries": "ਕੁਲ ਪ੍ਰਸ਼੍ਨ",
+  "trendUpAriaLabel": "ਪਿਛਲੀ ਅਵਧਿ ਕੀ ਤੁਲਨਾ ਮੇਂ {{value}}% ਵ੃ਦ੍ਧਿ",
+  "trendDownAriaLabel": "ਪਿਛਲੀ ਅਵਧਿ ਕੀ ਤੁਲਨਾ ਮੇਂ {{value}}% ਗਿਰਾਵਟ",
+  "topicsChartTitle": "ਸ਼ੀਰ੍਷ ਪ੍ਰਸ਼੍ਨ ਵਿ਷ਯ",
+  "topicsAverageLabel": "ਔਸਤ: {{value}}",
+  "queriesChartTitle": "ਸਮਯ ਕੇ ਸਾਥ ਪ੍ਰਸ਼੍ਨ (ਪਿਛਲੇ 7 ਦਿਨ)",
+  "queriesLabel": "ਪ੍ਰਸ਼੍ਨ",
+  "topics": {
+    "helmets": "ਹੇਲਮੇਟ",
+    "appliances": "ਉਪਕਰਣ",
+    "gold": "ਸੋਨੇ ਕੇ ਆਭੂ਷ਣ",
+    "water": "ਪੈਕੇਜ੍ਡ ਪਾਨੀ",
+    "cookers": "ਪ੍ਰੇਸ਼ਰ ਕੁਕਰ",
+    "toys": "ਖਿਲੌਨੇ"
+  },
+  "days": {
+    "mon": "ਸੋਮ",
+    "tue": "ਮਂਗਲ",
+    "wed": "ਬੁਧ",
+    "thu": "ਗੁਰੁ",
+    "fri": "ਸ਼ੁਕ੍ਰ",
+    "sat": "ਸ਼ਨਿ",
+    "sun": "ਰਵਿ"
+  },
+  "documents": {
+    "pageTitle": "ਦਸ੍ਤਾਵੇਜ਼ ਪ੍ਰਬਂਧਨ",
+    "dropzone": {
+      "title": "ਫ਼ਾਇਲੇਂ ਯਹਾਁ ਖੀਂਚੇਂ ਔਰ ਛੋਡ਼ੇਂ, ਯਾ ਬ੍ਰਾਉਜ਼ ਕਰਨੇ ਕੇ ਲਿਏ ਕ੍ਲਿਕ ਕਰੇਂ",
+      "hint": "PDF, DOC, ਯਾ DOCX"
+    },
+    "table": {
+      "name": "ਦਸ੍ਤਾਵੇਜ਼ ਕਾ ਨਾਮ",
+      "category": "ਸ਼੍ਰੇਣੀ",
+      "status": "ਸ੍ਥਿਤਿ",
+      "lastUpdated": "ਅਂਤਿਮ ਅਦ੍ਯਤਨ",
+      "actions": "ਕਾਰ੍ਯ"
+    },
+    "status": {
+      "queued": "ਕਤਾਰਬਦ੍ਧ",
+      "processing": "ਸਂਸਾਧਿਤ ਹੋ ਰਹਾ ਹੈ",
+      "indexed": "ਅਨੁਕ੍ਰਮਿਤ",
+      "failed": "ਵਿਫਲ"
+    },
+    "reingest": "ਪੁਨਃ-ਪ੍ਰੋਸੇਸ ਕਰੇਂ",
+    "retire": "ਹਟਾਏਁ",
+    "uncategorized": "ਅਵਰ੍ਗੀਕ੃ਤ",
+    "emptyState": "ਅਭੀ ਕੋਈ ਦਸ੍ਤਾਵੇਜ਼ ਨਹੀਂ — ਸ਼ੁਰੂ ਕਰਨੇ ਕੇ ਲਿਏ ਊਪਰ ਏਕ ਅਪਲੋਡ ਕਰੇਂ੤"
+  },
+  "opsOnline": "SAATHI ਸਂਚਾਲਨ ਸਕ੍ਰਿਯ",
+  "statusOptimal": "ਉਤ੍ਕ੃਷੍ਟ",
+  "statusLive": "ਲਾਇਵ",
+  "statusWatch": "ਨਿਗਰਾਨੀ"
+}

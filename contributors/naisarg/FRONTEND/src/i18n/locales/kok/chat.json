@@ -1,0 +1,58 @@
+{
+  "title": "SAATHI - भारतीय मानकां विशीं विचारात",
+  "logo": "SAATHI",
+  "inputPlaceholder": "भारतीय मानकां विशीं विचारचें...",
+  "sendAriaLabel": "संदेश धाडात",
+  "thinking": "SAATHI विचार करता...",
+  "backToHome": "परत होमाक वच",
+  "nav": {
+    "standardsBrowser": "मानक ब्राउज़र",
+    "adminPanel": "व्यवस्थापक पैनल",
+    "documentManagement": "दस्तावेज़ प्रबंधन",
+    "conformityCheck": "अनुरूपता जांच",
+    "notifications": "सूचनाएं",
+    "regulatoryRadar": "नियामक रडार",
+    "intelFeed": "इंटेल फीड",
+    "documentCortex": "दस्तावेज़ कॉर्टेक्स",
+    "sectionCore": "मुख्य",
+    "sectionLifecycle": "प्रमाणन जीवनचक्र",
+    "sectionTools": "अनुपालन उपकरण",
+    "sectionAdmin": "व्यवस्थापक",
+    "retrievalQuality": "पुनर्प्राप्ति गुणवत्ता",
+    "newRegistration": "नया पंजीकरण",
+    "officerVisits": "अधिकारी यात्राएं",
+    "documentCorrections": "दस्तावेज़ सुधार",
+    "appealsDisputes": "अपील और विवाद",
+    "businessAccount": "व्यवसाय खाता",
+    "certificates": "प्रमाणपत्र",
+    "renewalReminders": "नवीनीकरण अनुस्मारक",
+    "complianceCalendar": "अनुपालन कैलेंडर",
+    "factoryAudits": "फ़ैक्टरी ऑडिट",
+    "recallsAlerts": "रिकॉल और अलर्ट",
+    "licenseActions": "लाइसेंस कार्रवाई",
+    "feeInvoices": "शुल्क चालान और रसीदें",
+    "manufacturingLocations": "विनिर्माण स्थान",
+    "schemeSelector": "योजना चयनकर्ता",
+    "complianceChain": "अनुपालन श्रृंखला",
+    "laboratoryMatcher": "प्रयोगशाला मिलानकर्ता",
+    "regulatoryAlerts": "नियामक अलर्ट",
+    "exploreFeatures": "सुविधाएं देखें"
+  },
+  "placeholder": {
+    "comingSoon": "हें एक प्लेसहोल्डर आसा — पुराय सुविधा उपरांत येतली.",
+    "roleRequired": "तुमच्या सद्याच्या खात्याक ह्या पानाचो प्रवेश ना — हें पळोवपाक लॉगआऊट करात आनी दुसऱ्या खाता प्रकाराने लॉगीन करात."
+  },
+  "clearChat": {
+    "emptyTitle": "नवी उलोवणी",
+    "emptyDescription": "परतून सुरू करपाखातीर SAATHI कडेन एका भारतीय मानका विशीं विचारात."
+  },
+  "starterPrompts": [
+    "पैकेज्ड पेयजल के लिए कौन-सी लेबलिंग आवश्यक है?",
+    "LED लाइटिंग के लिए BIS लाइसेंस के लिए आवेदन कैसे करें?",
+    "ISI प्रमाणपत्र की वैधता अवधि क्या है?",
+    "घरेलू उपकरणों की विद्युत सुरक्षा किस मानक के अंतर्गत आती है?"
+  ],
+  "newChat": {
+    "trigger": "नई चैट"
+  }
+}

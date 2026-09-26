@@ -1,0 +1,95 @@
+{
+  "eyebrow": "ڈےشبورڈ · پروٹوٹااپ",
+  "greeting": "واپسی پر سواگت ہے, {{name}}",
+  "subheading": "آپکے آوےدنوں, سمی-سیمااوں اور لںبیت کاریوں کا ویکتیگت دृشی — یہ اوداہرणاتمک مॉک ڈےٹا پر آدھاریت اےک ڈےمو دृشی ہے, ن کی لااو BIS پھ़یڈ।",
+  "loading": "آپکا ڈےشبورڈ لوڈ ہو رہا ہے…",
+  "error": {
+    "heading": "آپکا ڈےشبورڈ لوڈ نہیں ہو سکا",
+    "retry": "پھیر سے پریاس کرےں"
+  },
+  "empty": {
+    "heading": "آپ پوری ترہ اپڈےٹ ہےں",
+    "body": "ابھی آپکے پاس کوای سکریی آوےدن, سمی-سیما یا لںبیت کاری نہیں ہے।"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} اوپلبدھ نہیں ہے",
+    "retry": "پونः پریاس کرےں"
+  },
+  "sections": {
+    "progressSummary": "آوےدن ستھیتی",
+    "nextDeadline": "اگلی سمی-سیما",
+    "actionRequired": "آوشیک کاررواای",
+    "upcomingDeadlines": "آگامی سمی-سیمااےँ",
+    "calendar": "کےلےںڈر",
+    "activeApplications": "سکریی آوےدن",
+    "recentActivity": "ہال کی گتیویدھی",
+    "regulatoryAlerts": "نییامک چےتاونییاँ",
+    "paymentAlerts": "بھوگتان چےتاونییاँ",
+    "sampleTesting": "نمونا پریکشण ستھیتی"
+  },
+  "progressSummary": {
+    "completed": "پورण",
+    "inProgress": "پرگتی مےں",
+    "pending": "سمیکشا لںبیت"
+  },
+  "urgency": {
+    "normal": "سامانی",
+    "approaching": "نج़دیک آ رہا ہے",
+    "urgent": "اتیاوشیک",
+    "overdue": "سمی-سیما پار",
+    "dueInDays_one": "{{count}} دین مےں دےی",
+    "dueInDays_other": "{{count}} دینوں مےں دےی",
+    "dueToday": "آج دےی",
+    "overdueByDays_one": "{{count}} دین کی دےری",
+    "overdueByDays_other": "{{count}} دینوں کی دےری"
+  },
+  "nextDeadline": {
+    "empty": "کوای آگامی سمی-سیما نہیں।",
+    "viewApplication": "آوےدن دےکھےں"
+  },
+  "actionRequired": {
+    "empty": "کوای کاررواای آوشیک نہیں — آپ پوری ترہ اپڈےٹ ہےں।",
+    "open": "کھولےں"
+  },
+  "upcomingDeadlines": {
+    "empty": "کوای آگامی سمی-سیما نہیں।",
+    "addToCalendar": "کےلےںڈر مےں جوڈ़ےں"
+  },
+  "calendar": {
+    "hint": "جین دینوں مےں سمی-سیما ہے وے چیہنیت ہےں — دےکھنے کے لیاے اےک چونےں, یا نیچے سب کوچھ نیریات کرےں।",
+    "exportAll": "کےلےںڈر مےں سب نیریات کرےں (.ics)",
+    "addOne": "کےلےںڈر مےں جوڈ़ےں",
+    "empty": "کےلےںڈر پر دیکھانے کے لیاے کوای سمی-سیما نہیں।",
+    "noneOnDay": "اس دین کوای سمی-سیما نہیں।"
+  },
+  "activeApplications": {
+    "empty": "ابھی تک کوای سکریی آوےدن نہیں।",
+    "startOne": "نیا آوےدن شورو کرےں",
+    "status": {
+      "draft": "ڈراپھ़ٹ",
+      "submitted": "جما کییا گیا"
+    },
+    "readinessLabel": "تےیاری",
+    "readinessStatus": {
+      "ready": "جما کرنے کے لیاے تےیار",
+      "ready_with_non_blocking": "تےیار — گےر-اورودھک مد شےش ہےں",
+      "not_ready": "تےیار نہیں",
+      "insufficient_evidence": "اپریاپت ساکشی"
+    },
+    "blockersLabel_one": "{{count}} اورودھک سمسیا",
+    "blockersLabel_other": "{{count}} اورودھک سمسیااےँ",
+    "viewStandard": "مانک دےکھےں"
+  },
+  "recentActivity": {
+    "empty": "کوای ہال کی گتیویدھی نہیں।"
+  },
+  "regulatoryAlerts": {
+    "empty": "کوای نای نییامک چےتاونی نہیں।",
+    "viewDetails": "ویورण دےکھےں"
+  },
+  "paymentAlerts": {
+    "empty": "ابھی کوای لںبیت شولک نہیں ہے।",
+    "viewPayment": "بھوگتان ستھیتی دےکھےں"
+  },
+  "illustrativeNotice": "اوداہرणاتمک ڈےٹا — یہ کوای واستویک BIS آوےدن یا پھاالیںگ نہیں ہے।"
+}

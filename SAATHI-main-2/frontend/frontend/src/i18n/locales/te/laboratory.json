@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — పరీక్షణ ఏవం ప్రయోగశాలా బుద్ధిమత్తా",
+  "title": "ఇంటేలిజేంట ప్రయోగశాలా మైచర",
+  "subtitle": "అపనే ఉత్పాద కే లిఏ ఆవశ్యక పరీక్షణ కరనే మేం సక్షమ సత్యాపిత ప్రయోగశాలాఏం ఖోజేం౤",
+  "context": {
+    "title": "ఉత్పాద ఏవం పరీక్షణ సందర్భ",
+    "product": "ఉత్పాద",
+    "standard": "మానక",
+    "scheme": "యోజనా (స్కీమ)",
+    "requiredTestsCount": "ఆవశ్యక పరీక్షణ",
+    "noStandardWarning": "ఆవశ్యక పరీక్షణ పథ కీ పహచాన కరనే సే పహలే ఏక లాగూ భారతీయ మానక ఆవశ్యక హై౤",
+    "chooseStandard": "మానక చునేం",
+    "selectProduct": "ఉత్పాద చునేం"
+  },
+  "requiredTests": {
+    "title": "ఆవశ్యక పరీక్షణ",
+    "mandatoryCount_one": "{{count}} అనివార్య పరీక్షణ",
+    "mandatoryCount_other": "{{count}} అనివార్య పరీక్షణ",
+    "noTestsWarning": "ఇస అనుపాలన పథ కే లిఏ కోఈ సత్యాపిత పరీక్షణ ఆవశ్యకతాఏం నహీం మిలీం౤"
+  },
+  "preferences": {
+    "title": "ప్రాథమికతాఏం ఔర ఫ఼ిల్టర",
+    "locationLabel": "స్థాన / శహర",
+    "locationPlaceholder": "ఉదా. బేంగలురు, దిల్లీ, ముంబఈ",
+    "distanceLabel": "అధికతమ దూరీ",
+    "distanceAny": "కోఈ భీ దూరీ",
+    "distance50": "50 కిమీ కే భీతర",
+    "distance100": "100 కిమీ కే భీతర",
+    "distance250": "250 కిమీ కే భీతర",
+    "distance500": "500 కిమీ కే భీతర",
+    "accreditationLabel": "మాన్యతా ఫ఼ిల్టర",
+    "accreditationAll": "సభీ ప్రయోగశాలాఏం",
+    "accreditationVerified": "కేవల సత్యాపిత మాన్యతా ప్రాప్త",
+    "findLabsButton": "ప్రయోగశాలాఏం ఖోజేం",
+    "searchingLabs": "ప్రయోగశాలాఏం ఖోజీ జా రహీ హైం..."
+  },
+  "results": {
+    "bestMatchHeading": "సర్వశ్రేష్ఠ మైచ",
+    "otherMatchesHeading": "అన్య మిలాన ప్రయోగశాలాఏం",
+    "viewDetails": "వివరణ దేఖేం",
+    "selectLab": "ప్రయోగశాలా చునేం",
+    "labSelected": "ప్రయోగశాలా కా చయన హుఆ",
+    "matchScore": "{{score}}% మైచ",
+    "testsCovered": "{{covered}} / {{total}} పరీక్షణ శామిల",
+    "fullCoverage": "పూర్ణ పరీక్షణ కవరేజ సత్యాపిత",
+    "partialCoverage": "ఆంశిక పరీక్షణ కవరేజ",
+    "verified": "సత్యాపిత",
+    "unverified": "అసత్యాపిత",
+    "unknown": "క్షమతా అజ్ఞాత",
+    "locationFit": "స్థాన: {{location}}",
+    "distanceKm": "{{distance}} కిమీ దూర"
+  },
+  "breakdown": {
+    "title": "మైచ స్కోర వివరణ",
+    "testCoverage": "పరీక్షణ కవరేజ",
+    "standardMatch": "మానక మిలాన",
+    "accreditation": "మాన్యతా ప్రాప్త హోనా",
+    "locationFit": "స్థాన ఉపయుక్తతా"
+  },
+  "details": {
+    "title": "ప్రయోగశాలా ప్రోఫ఼ాఇల ఔర క్షమతాఏం",
+    "location": "స్థాన",
+    "capabilities": "పరీక్షణ క్షమతాఏం",
+    "standards": "ప్రాసంగిక భారతీయ మానక",
+    "accreditation": "మాన్యతా స్థితి",
+    "contact": "సత్యాపిత సంపర్క జానకారీ",
+    "source": "ఆధికారిక స్రోత సత్యాపన",
+    "viewSource": "ఆధికారిక స్రోత దేఖేం",
+    "viewWebsite": "ఆధికారిక వేబసాఇట దేఖేం",
+    "email": "ఈమేల",
+    "phone": "ఫ఼ోన",
+    "close": "బంద కరేం"
+  },
+  "states": {
+    "noMatchesTitle": "కోఈ సత్యాపిత ప్రయోగశాలా నహీం మిలీ",
+    "noMatchesMsg": "ఆపకీ వర్తమాన మాపదండోం కే అనుసార ఆవశ్యక పరీక్షణ కే లిఏ కోఈ సత్యాపిత ప్రయోగశాలా నహీం మిలీ౤",
+    "partialMatchesNotice": "కోఈ భీ ఏకల సత్యాపిత ప్రయోగశాలా సభీ ఆవశ్యక పరీక్షణోం కో కవర నహీం కరతీ హై౤ సర్వశ్రేష్ఠ ఉపలబ్ధ ఆంశిక మైచ నీచే దిఖాఏ గఏ హైం౤",
+    "errorTitle": "ప్రయోగశాలా మిలాన సేవా అనుపలబ్ధ",
+    "errorMsg": "ప్రయోగశాలా మిలాన సేవా అస్థాయీ రూప సే అనుపలబ్ధ హై౤",
+    "retry": "పునః ప్రయాస కరేం",
+    "emptyContextTitle": "అనుపాలన సందర్భ నిర్దిష్ట కరేం",
+    "emptyContextMsg": "ఆవశ్యక పరీక్షణోం ఔర ఉపయుక్త ప్రయోగశాలాఓం కీ పహచాన కరనే కే లిఏ అపనా ఉత్పాద యా అనుపాలన పథ చునేం౤"
+  }
+}

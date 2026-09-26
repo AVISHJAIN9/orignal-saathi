@@ -1,0 +1,58 @@
+{
+  "title": "سٲتھی - ہِندوستٲنۍ مانکَن مُتعلِق پُچھِو",
+  "logo": "سٲتھی",
+  "inputPlaceholder": "ہِندوستٲنۍ معیارن مُتعلِق پُچھِو...",
+  "sendAriaLabel": "پیغام رَوانہٕ کٔرِو",
+  "thinking": "سٲتھی چھُ سوچان...",
+  "backToHome": "ہوم پؠٹھ واپَس",
+  "nav": {
+    "standardsBrowser": "مانک برااوج़ر",
+    "adminPanel": "ویوستھاپک پےنل",
+    "documentManagement": "دستاوےج़ پربںدھن",
+    "conformityCheck": "انوروپتا جاںچ",
+    "notifications": "سوچنااےں",
+    "regulatoryRadar": "نییامک رڈار",
+    "intelFeed": "اںٹےل پھیڈ",
+    "documentCortex": "دستاوےج़ کॉرٹےکس",
+    "sectionCore": "موکھی",
+    "sectionLifecycle": "پرماणن جیونچکر",
+    "sectionTools": "انوپالن اوپکرण",
+    "sectionAdmin": "ویوستھاپک",
+    "retrievalQuality": "پونرپراپتی گوणوتتا",
+    "newRegistration": "نیا پںجیکرण",
+    "officerVisits": "ادھیکاری یاترااےں",
+    "documentCorrections": "دستاوےج़ سودھار",
+    "appealsDisputes": "اپیل اور ویواد",
+    "businessAccount": "ویوسای کھاتا",
+    "certificates": "پرماणپتر",
+    "renewalReminders": "نوینیکرण انوسمارک",
+    "complianceCalendar": "انوپالن کےلےںڈر",
+    "factoryAudits": "پھ़ےکٹری ऑڈیٹ",
+    "recallsAlerts": "ریکॉل اور الرٹ",
+    "licenseActions": "لااسےںس کاررواای",
+    "feeInvoices": "شولک چالان اور رسیدےں",
+    "manufacturingLocations": "وینیرماण ستھان",
+    "schemeSelector": "یوجنا چینکرتا",
+    "complianceChain": "انوپالن شرृںکھلا",
+    "laboratoryMatcher": "پریوگشالا میلانکرتا",
+    "regulatoryAlerts": "نییامک الرٹ",
+    "exploreFeatures": "سوویدھااےں دےکھےں"
+  },
+  "placeholder": {
+    "comingSoon": "یہٕ چھُ اکھ عارضی صفحہٕ — پوری فعالیت چھِ جلد اننہٕ خٲطرٕ آمُت۔",
+    "roleRequired": "تُہنٛد وُچھِتھ اکاؤنٹ چھُ نہٕ اِس صفہٕ خاطرٕ رَسَایہٕ رٕکھان — لاگ آؤٹ کٔرِو تہٕ بےٕیہِ اکاؤنٹ قِسمَس مَنٛز لاگ اِن کٔرِو۔"
+  },
+  "clearChat": {
+    "emptyTitle": "نَوی گُفتگو",
+    "emptyDescription": "دوبارٕ شروٗع کرنہٕ خٲطرٕ سٲتھی سٟتؠ ہِندوستٲنۍ مانکَس مُتعلِق پُچھِو۔"
+  },
+  "starterPrompts": [
+    "پےکےجڈ پےیجل کے لیاے کاون-سی لےبلیںگ آوشیک ہے?",
+    "LED لااٹیںگ کے لیاے BIS لااسےںس کے لیاے آوےدن کےسے کرےں?",
+    "ISI پرماणپتر کی وےدھتا اودھی کیا ہے?",
+    "گھرےلو اوپکرणوں کی ویدیوت سورکشا کیس مانک کے اںترگت آتی ہے?"
+  ],
+  "newChat": {
+    "trigger": "نای چےٹ"
+  }
+}

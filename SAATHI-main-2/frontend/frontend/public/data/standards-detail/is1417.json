@@ -1,0 +1,161 @@
+{
+  "master": {
+    "internal_id": 5900,
+    "IS_number": "IS 1417:2016",
+    "clean_number": "1417",
+    "slug": "is1417",
+    "IS_title": "Gold and gold alloys, jewellery/ artefacts - Fineness and marking - Specification (Fourth Revision)",
+    "superseding_IS": "None",
+    "degree_of_equivalence": "Not Equivalent",
+    "number_of_revisions": "4",
+    "number_of_amendments": "2",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "MTD (Metallurgical Engineering Department)",
+    "technical_committee": "MTD 10 (Precious Metals Sectional Committee Sectional Committee)",
+    "member_secretary": "AJAY KUMAR SONI (SCIENTIST-C)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 2,
+    "gazette_document_count": 4,
+    "license_count": 46,
+    "product_manual_sit_count": 0,
+    "laboratory_count": 4,
+    "corrigendum_count": 1,
+    "catalogue_id": "8304",
+    "catalogue_is_no": "IS 1417:2016 (Active)",
+    "catalogue_title": "Gold and gold alloys, jewellery/ artefacts - Fineness and marking - Specification (Fourth Revision)",
+    "catalogue_amendments": "2",
+    "catalogue_technical_committee": "MTD 10",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Not Equivalent",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/5900",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=5900",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/33/2",
+    "extracted_at": "2026-09-23T09:24:11.472Z",
+    "category_key": "gold",
+    "category_label": "Gold Jewellery",
+    "status": "Active",
+    "image_url": "/images/products/gold-jewellery.png"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 1418:2009",
+      "title": "Determination of gold in gold bullion, gold alloys and gold jewellery/artefacts - Cupellation (Fire Assay) method (Third Revision)",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 3095:2025",
+      "title": "Gold solders for use in manufacture of jewellery specification (Second Revision)",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 15820:2024",
+      "title": "General requirements for competence of assaying and hallmarking centre",
+      "committee": "MTD 10"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 1418:2009",
+      "title": "Determination of gold in gold bullion, gold alloys and gold jewellery/artefacts - Cupellation (Fire Assay) method (Third Revision)",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 3095:2025",
+      "title": "Gold solders for use in manufacture of jewellery specification (Second Revision)",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 15820:2024",
+      "title": "General requirements for competence of assaying and hallmarking centre",
+      "committee": "MTD 10"
+    }
+  ],
+  "internationalReferences": [],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 1417 : 2016",
+      "title": "Gold and gold alloys, jewellery/ artefacts - Fineness and marking - Specification (Fourth Revision)",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 6890 : Part 2 : 1975",
+      "title": "Methods for chemical analysis of dental gold alloys: Part 2 determination of nickel and zinc",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS B2790 : 1999",
+      "title": "Guidelines for Manufacture of 23, 22, 21, 18, 14 and 9 Carat Gold Alloys(Bi-lingual)",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 1953 : 1973",
+      "title": "Methods of chemical analysis of silver anodes (First Revision)",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 2790 : 1999",
+      "title": "Guidelines for manufacture of 23,22,21,18,14 and 9 carat gold alloys (Second Revision)",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 1418 : 2009",
+      "title": "Determination of gold in gold bullion, gold alloys and gold jewellery/artefacts - Cupellation (Fire Assay) method (Third Revision)",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS/ISO/IEC 27002 : 2022",
+      "title": "Information Security, Cybersecurity and Privacy Protection - Information Security Controls ( First Revision )",
+      "committee": "LITD 17"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 15820 : 2009",
+      "title": "General requirements for competence of assaying and hallmarking centre",
+      "committee": "MTD 10"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 3095 : 1999",
+      "title": "Gold solders for use in manufacture of jewellery specification (Second Revision)",
+      "committee": "MTD 10"
+    }
+  ],
+  "clauses": [],
+  "qco": {
+    "qcoId": "QCO-GOLD-2020",
+    "title": "Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020",
+    "product": "Gold jewellery and gold artefacts",
+    "scope": "Mandatory hallmarking in notified districts under Ministry of Consumer Affairs, Food and Public Distribution, S.O. 322(E), enforcing certified fineness grades under IS 1417.",
+    "effectiveDate": "2021-06-16",
+    "status": "applicable",
+    "exemptions": [
+      "Export jewellery, medical artefacts, and manufacturers below threshold turnover are exempt."
+    ],
+    "requirements": [
+      "Registration with BIS for gold jewellery retailing.",
+      "Assaying and hallmarking exclusively at BIS-recognized Assaying and Hallmarking Centres (AHC).",
+      "Mandatory 6-digit alphanumeric HUID (Hallmark Unique Identification) stamped alongside BIS logo and purity grade."
+    ],
+    "sourceUrl": "https://www.services.bis.gov.in",
+    "sourceType": "gazette_notification"
+  }
+}

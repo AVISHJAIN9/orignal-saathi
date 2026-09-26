@@ -1,0 +1,144 @@
+{{/*
+D1 Chat Gateway Deployment
+*/}}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: d1-chat
+  namespace: {{ .Values.global.namespace }}
+  labels:
+    app: d1-chat
+    chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+    release: {{ .Release.Name }}
+    environment: {{ .Values.global.environment }}
+spec:
+  replicas: {{ .Values.replicaCounts.d1Chat }}
+  selector:
+    matchLabels:
+      app: d1-chat
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: d1-chat
+        release: {{ .Release.Name }}
+      annotations:
+        {{- if .Values.observability.prometheusAnnotations }}
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "{{ .Values.services.d1Chat.port }}"
+        prometheus.io/path: "/api/v1/metrics"
+        {{- end }}
+    spec:
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - weight: 100
+              podAffinityTerm:
+                labelSelector:
+                  matchExpressions:
+                    - key: app
+                      operator: In
+                      values: [d1-chat]
+                topologyKey: kubernetes.io/hostname
+      containers:
+        - name: d1-chat
+          image: "{{ .Values.global.imageRegistry }}/{{ .Values.images.d1Chat.repository }}:{{ .Values.images.d1Chat.tag }}"
+          imagePullPolicy: {{ .Values.global.imagePullPolicy }}
+          ports:
+            - containerPort: {{ .Values.services.d1Chat.port }}
+          env:
+            - name: NODE_ENV
+              value: {{ .Values.global.environment }}
+            - name: PORT
+              value: "{{ .Values.services.d1Chat.port }}"
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: saathi-secrets
+                  key: DATABASE_URL
+            - name: REDIS_URL
+              valueFrom:
+                secretKeyRef:
+                  name: saathi-secrets
+                  key: REDIS_URL
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: saathi-secrets
+                  key: JWT_SECRET
+            - name: SARVAM_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: saathi-secrets
+                  key: SARVAM_API_KEY
+            - name: M5_RAG_ENDPOINT
+              value: {{ .Values.config.m5RagEndpoint }}
+            - name: OTEL_SERVICE_NAME
+              value: d1-chat
+            - name: OTEL_EXPORTER_OTLP_ENDPOINT
+              value: {{ .Values.observability.otelEndpoint }}
+            - name: OTEL_ENVIRONMENT
+              value: {{ .Values.global.environment }}
+          resources:
+            requests:
+              cpu: {{ .Values.resources.d1Chat.requests.cpu }}
+              memory: {{ .Values.resources.d1Chat.requests.memory }}
+            limits:
+              cpu: {{ .Values.resources.d1Chat.limits.cpu }}
+              memory: {{ .Values.resources.d1Chat.limits.memory }}
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: {{ .Values.services.d1Chat.port }}
+            initialDelaySeconds: 10
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: {{ .Values.services.d1Chat.port }}
+            initialDelaySeconds: 30
+            periodSeconds: 15
+          lifecycle:
+            preStop:
+              exec:
+                command: ["/bin/sh", "-c", "sleep 5"]
+      terminationGracePeriodSeconds: 60
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: d1-chat
+  namespace: {{ .Values.global.namespace }}
+spec:
+  selector:
+    app: d1-chat
+  ports:
+    - port: 80
+      targetPort: {{ .Values.services.d1Chat.port }}
+  type: {{ .Values.services.d1Chat.type }}
+{{- if .Values.hpa.enabled }}
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: d1-chat-hpa
+  namespace: {{ .Values.global.namespace }}
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: d1-chat
+  minReplicas: {{ .Values.hpa.d1Chat.minReplicas }}
+  maxReplicas: {{ .Values.hpa.d1Chat.maxReplicas }}
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: {{ .Values.hpa.d1Chat.cpuThreshold }}
+{{- end }}

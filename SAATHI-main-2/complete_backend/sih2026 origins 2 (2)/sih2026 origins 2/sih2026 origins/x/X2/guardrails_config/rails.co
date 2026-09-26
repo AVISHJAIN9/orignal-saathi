@@ -1,0 +1,31 @@
+# Colang Guardrails Definition for SAATHI BIS Assistant
+
+define user ask general question
+  "What is the standard for cement?"
+  "Tell me about IS 10500"
+  "How do I apply for ISI mark?"
+  "What are the permissible limits of lead in drinking water?"
+
+define flow self check facts
+  $relevant_chunks = execute retrieve_m3_context()
+  $is_supported = execute check_facts_against_context(context=$relevant_chunks, response=$bot_response)
+
+  if not $is_supported
+    bot decline to x3 escalation
+    stop
+
+define flow self check hallucination
+  $relevant_chunks = execute retrieve_m3_context()
+  $has_hallucination = execute check_hallucination_against_context(context=$relevant_chunks, response=$bot_response)
+
+  if $has_hallucination
+    bot decline to x3 escalation
+    stop
+
+define bot decline to x3 escalation
+  "I don't have enough verified context from official BIS standards to answer this query with high certainty. Rather than providing an inaccurate response, I have routed this query to our BIS technical desk (X3 Escalation). You can also reach the BIS helpdesk at https://www.bis.gov.in or call 011-23230131 for official clarification."
+
+define flow generate answer with grounding
+  user ...
+  $bot_response = execute generate_rag_answer(query=$last_user_message)
+  bot $bot_response

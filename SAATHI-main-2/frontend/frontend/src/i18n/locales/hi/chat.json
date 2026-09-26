@@ -1,0 +1,94 @@
+{
+  "title": "साथी - भारतीय मानकों के बारे में पूछें",
+  "logo": "SAATHI",
+  "inputPlaceholder": "भारतीय मानकों के बारे में पूछें...",
+  "sendAriaLabel": "संदेश भेजें",
+  "thinking": "साथी सोच रहा है…",
+  "backToHome": "होम पर वापस जाएँ",
+  "nav": {
+    "sectionCore": "मुख्य",
+    "sectionLifecycle": "प्रमाणन जीवनचक्र",
+    "sectionTools": "अनुपालन उपकरण",
+    "sectionAdmin": "व्यवस्थापक",
+    "standardsBrowser": "मानक ब्राउज़र",
+    "adminPanel": "व्यवस्थापक पैनल",
+    "documentManagement": "दस्तावेज़ प्रबंधन",
+    "retrievalQuality": "पुनर्प्राप्ति गुणवत्ता",
+    "conformityCheck": "अनुरूपता जांच",
+    "notifications": "सूचनाएं",
+    "regulatoryRadar": "नियामक रडार",
+    "intelFeed": "इंटेल फीड",
+    "documentCortex": "दस्तावेज़ कॉर्टेक्स",
+    "newRegistration": "नया पंजीकरण",
+    "officerVisits": "अधिकारी यात्राएं",
+    "documentCorrections": "दस्तावेज़ सुधार",
+    "appealsDisputes": "अपील और विवाद",
+    "businessAccount": "व्यवसाय खाता",
+    "certificates": "प्रमाणपत्र",
+    "renewalReminders": "नवीनीकरण अनुस्मारक",
+    "complianceCalendar": "अनुपालन कैलेंडर",
+    "factoryAudits": "फ़ैक्टरी ऑडिट",
+    "recallsAlerts": "रिकॉल और अलर्ट",
+    "licenseActions": "लाइसेंस कार्रवाई",
+    "feeInvoices": "शुल्क चालान और रसीदें",
+    "manufacturingLocations": "विनिर्माण स्थान",
+    "schemeSelector": "योजना चयनकर्ता",
+    "complianceChain": "अनुपालन श्रृंखला",
+    "laboratoryMatcher": "प्रयोगशाला मिलानकर्ता",
+    "regulatoryAlerts": "नियामक अलर्ट",
+    "exploreFeatures": "सुविधाएं देखें"
+  },
+  "starterPrompts": [
+    "पैकेज्ड पेयजल के लिए कौन-सी लेबलिंग आवश्यक है?",
+    "LED लाइटिंग के लिए BIS लाइसेंस के लिए आवेदन कैसे करें?",
+    "ISI प्रमाणपत्र की वैधता अवधि क्या है?",
+    "घरेलू उपकरणों की विद्युत सुरक्षा किस मानक के अंतर्गत आती है?"
+  ],
+  "newChat": {
+    "trigger": "नई चैट"
+  },
+  "placeholder": {
+    "comingSoon": "यह एक प्लेसहोल्डर पृष्ठ है — पूर्ण सुविधा जल्द आ रही है।",
+    "roleRequired": "आपके वर्तमान खाते की इस पृष्ठ तक पहुंच नहीं है — इसे देखने के लिए लॉगआउट करें और किसी अन्य खाता प्रकार से लॉगिन करें।"
+  },
+  "profile": {
+    "open": "प्रोफ़ाइल कस्टमाइज़ेशन खोलें",
+    "editTooltip": "प्रोफ़ाइल संपादित करें",
+    "title": "प्रोफ़ाइल कस्टमाइज़ेशन",
+    "description": "इस डिवाइस पर अपने साथी कार्यक्षेत्र का रूप व्यक्तिगत बनाएं।",
+    "nameLabel": "प्रदर्शित नाम",
+    "focusLabel": "फोकस लेबल",
+    "tones": {
+      "navy": "नेवी अवतार रंग",
+      "sage": "सेज अवतार रंग",
+      "clay": "क्ले अवतार रंग"
+    },
+    "cancel": "रद्द करें",
+    "save": "बदलाव सहेजें"
+  },
+  "sidebar": {
+    "navigation": "नेविगेशन"
+  },
+  "clearChat": {
+    "emptyTitle": "नई बातचीत",
+    "emptyDescription": "फिर से शुरू करने के लिए साथी से किसी भारतीय मानक के बारे में पूछें।"
+  },
+  "backgroundSettings": {
+    "open": "पृष्ठभूमि एनीमेशन सेटिंग खोलें",
+    "title": "3D पृष्ठभूमि",
+    "animated": "एनिमेटेड",
+    "animatedDescription": "तैरती गति और कर्सर पैरालैक्स",
+    "paused": "रुका हुआ",
+    "pausedDescription": "दृश्य को बिना गति के दिखाएँ",
+    "off": "बंद",
+    "offDescription": "सजावटी 3D दृश्य छिपाएँ",
+    "hint": "मोबाइल पर बैटरी बचाने के लिए हल्का मोड उपयोगी है।"
+  },
+  "feedback": {
+    "helpfulAriaLabel": "इस उत्तर को सहायक के रूप में चिह्नित करें",
+    "notHelpfulAriaLabel": "इस उत्तर को असहायक के रूप में चिह्नित करें",
+    "commentPrompt": "इस उत्तर में क्या गलत था?",
+    "submit": "भेजें",
+    "thanks": "आपकी प्रतिक्रिया के लिए धन्यवाद।"
+  }
+}

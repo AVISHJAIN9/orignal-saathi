@@ -1,0 +1,1964 @@
+{
+  "master": {
+    "internal_id": 59,
+    "IS_number": "IS 302 (Part 1):2008",
+    "clean_number": "302",
+    "slug": "is302",
+    "IS_title": "Safety of household and similar electrical appliances: Part 1 general requirements (Sixth Revision)",
+    "superseding_IS": "None",
+    "degree_of_equivalence": "Identical under dual numbering",
+    "number_of_revisions": "6",
+    "number_of_amendments": "4",
+    "aspect": "Safety Standard",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "ETD (Electrotechnical Department)",
+    "technical_committee": "ETD 32 (Electrical Appliances Sectional Committee)",
+    "member_secretary": "Ankita Tripathi (SCIENTIST-D)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 4,
+    "gazette_document_count": 2,
+    "license_count": 25,
+    "product_manual_sit_count": 1,
+    "laboratory_count": 53,
+    "corrigendum_count": 2,
+    "catalogue_id": "20809",
+    "catalogue_is_no": "IS 302 (Part 1):2008 (Active,Concurrent Running )",
+    "catalogue_title": "Safety of household and similar electrical appliances: Part 1 general requirements (Sixth Revision)",
+    "catalogue_amendments": "4",
+    "catalogue_technical_committee": "ETD 32",
+    "catalogue_aspect": "Safety Standard",
+    "catalogue_reaffirmation": "Identical under dual numbering",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/59",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=59",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/265/2",
+    "extracted_at": "2026-09-23T13:11:15.426Z",
+    "category_key": "appliances",
+    "category_label": "Appliances",
+    "status": "Active",
+    "image_url": "/images/products/appliances.png"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS/ISO 26262-10:2018ISO 26262-10:2018",
+      "title": "Amendment no. 1 to IS/ISO 20932 (Part 3) : 2018 Textiles - Determination of the elasticity of fabrics Part 3 Narrow fabrics",
+      "committee": "TXD 01"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 9206:1979IEC 60061-1",
+      "title": "Dimensions of caps for tungsten filament general service electric lamps",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 616:2017IEC 60065 : 2014",
+      "title": "Audio, video and similar electronic apparatus - Safety requirements (Fifth Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS/IEC 60068 (Part 2/Sec 2) : 2007",
+      "title": "Environmental Testing Part 2: Tests - Test B Section 2: Dry Heat",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 9000 (Part 7/Sec 3):2019IEC 60068-2-31 : 2008",
+      "title": "Environmental testing: Part 7 tests :: Sec 3 test Ec: rough handling shocks, primarily for equipment - Types specimens (First Revision)",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 9000 (Part 7/Sec 7):2020IEC 60068-2-75 : 2014",
+      "title": "Environmental Testing Part 7 Tests Section 7 Test Eh: Hammer tests ( First Revision )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 9000 (Part 4):2020IEC 60068-2-78 : 2012",
+      "title": "Environmental Testing Part 4 Tests - Test Cab: Damp Heat, Steady State ( Second Revision )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 1271:2012IEC 60085",
+      "title": "Electrical insulation - Thermal evaluation and designation (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 2824:2007IEC 60112 : 2003",
+      "title": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS/IEC 60127-1:2023IEC 60127-1:2023",
+      "title": "Miniature fuses: Part 1 definitions for miniature fuses and general requirements for miniature fuse - Links (First Revision)",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS/IEC 60127-2:2014IEC 60127-2:2014 and Amd 1:2020",
+      "title": "Miniature Fuses Part 2 Cartridge Fuse - Links (First Revision)",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS/IEC 60127-4:2005",
+      "title": "Miniature fuses: Part 4 universal modular fuse - Links (Umf) - Through - Hole and surface mount types Amendment - 1",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 694:2010",
+      "title": "Polyvinyl chloride insulated unsheathed and sheathed cables/cords with rigid and flexible conductor for rated voltages up to and including 1 100 V (Fourth Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 4289 (Part 2):2000",
+      "title": "Flexible cables for lifts and other flexible connections - Specification: Part 2 pvc insulated circular cables",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 9968 (Part 1):2025",
+      "title": "Specification for elastomer insulated cables: Part 1 for working voltages up to and including 1 100 volts (First Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 2993 (Part 2):2024IEC 60252-2:2010",
+      "title": "A.C. motor capacitors (Second Revision)",
+      "committee": "ETD 29"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS/IEC 60309 : PART 2 : 2021",
+      "title": "Plugs fixed or portable socket-outlets and appliance inlets for industrial purposes Part 2: Dimensional compatibility requirements for pin and contact-tube accessories Second Revision",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS/IEC 60320 : PART 1 : 2021",
+      "title": "Appliance couplers for household and similar general purposes Part 1: General requirements Second Revision",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS/IEC 60320 : PART 2 : Sec 3 : 2018",
+      "title": "Appliance couplers for household and similar general purposes Part 2-3: Appliance couplers with a degree of protection higher than IPX0 Second Revision",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS/IEC 60529:2001",
+      "title": "Degrees of protection provided by enclosures (IP Code)",
+      "committee": "ETD 01"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 10322 (Part 1):2026",
+      "title": "Luminaires: Part 1 general requirements and tests (First Revision)",
+      "committee": "ETD 49"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 17634:2022",
+      "title": "Connectors for frequencies below 3 MHz for use with printed boards Part 11: Detail specification for concentric connectors dimensions for free connectors and fixed connectors",
+      "committee": "LITD 03"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 14980 (Part 3):2024ISO 8759-3:2018",
+      "title": "Insulation Coordination for Equipment Within Low-Voltage Systems Part 1 Principles Requirements and Tests",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 15382 (Part 3):2019IEC 60664-3 : 2016",
+      "title": "Insulation Coordination for Equipment within Low-Voltage Systems Part 3 Use of Coating, Potting or Moulding for Protection against Pollution (First Revision)",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 15382 (Part 4):2017IEC60664-4 : 2005",
+      "title": "Insulation Coordination for Equipment Within Low-voltage Systems Part 4 Consideration of High-frequency Voltage Stress (First Revision)",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS/IEC :2023IEC 60691:2023",
+      "title": "Thermal Links - Requirements and Application Guide (First Revision)",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 19210:2025",
+      "title": "Fire Hazard Testing Part 2: Glowinghot-wire based test methods Section 11: Glow-wire flammability test method for end products GWEPT",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 19136:2025",
+      "title": "Fire Hazard Testing Part 2: Glowinghot-wire based test methods Section 12: Glow-wire flammability index GWFI Test method for materials",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 18381 (Part 1):2023",
+      "title": "Fire Hazard Testing Part 2 GlowingHot wire based test methods Section 13 Glow-wire ignition temperature GWIT test method for materials",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS/IEC 60695-10-2:2014IEC 60695-10-2 : 2014",
+      "title": "Fire hazard testing: Part 10 Abnormal heat: Sec 2 ball pressure test method",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS/IEC 60695-11-5:2016IEC 60695-11-5 : 2016",
+      "title": "Fire Hazard Testing Part 11 Test Flames Section 5 Needle - Flame test method - Apparatus, confirmatory test arrangement and guidance ( First Revision )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS/IEC 60695-11-10:2013IEC 60695-11-10 : 2013",
+      "title": "Fire hazard testing: Part 11 test flames :: Sec 10 50 w horizontal and vertical flame test methods",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS/IEC 60730-1:1999",
+      "title": "Automatic electrical controls for household and similar use : part 1 General Requirements",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS/IEC 60730-2-9:2011IEC 60730-2-9 : 2011",
+      "title": "Automatic Electrical Controls for Household and Similar Use Part 2 Particular Requirements Section 9 Temperature Sensing Controls",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 11534 (Part 1):1985",
+      "title": "Specification for directly heated positive step - Function temperature coefficient thermistors: Part 1 general requirements and methods of tests",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS/IEC 60990:2016IEC 60990 : 1999",
+      "title": "Methods of Measurement of Touch Current and Protective Conductor Current (First Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 14700 (Part 4/Sec 2):201861000-4-2 : 2008",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 2 electrostatic discharge immunity test (Second Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 14700 (Part 4/Sec 3):2023IEC 61000-4-3: 2020",
+      "title": "Electromagnetic Compatibility (EMC) Part 4 Testing and Measurement Techniques Section 24 Test methods for protective devices for HEMP conducted disturbance ( First Revision )",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 14700 (Part 4/Sec 4):2018IEC 61000-4-4 : 2012",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 4 electrical fast transient / burst immunity test (Second Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS 14700 (Part 4/Sec 5):2019IEC 61000-4-5 : 2017",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 5 surge immunity test (First Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 14700 (Part 4/Sec 6):2026",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 6 immunity to conducted disturbances, induced by radio - Frequency fields",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 17792:2022",
+      "title": "Electromagnetic compatibility EMC: Part 4 testing and measurement techniques: Sec 11 voltage dips short interruptions and voltage variations immunity tests for equipment with input current up to 16 A per phase",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 14700 (Part 4/Sec 13):2016IEC 61000-4-13 : 2009",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 13 harmonics and interharmonics including mains signaling at a.c. power port, low frequency immunity test",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 14700 (Part 4/Sec 34):2017IEC 61000-4-34 : 2009",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 34 voltage dips, short interruptions and voltage variations immunity tests for current more than 16 A per phase",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 1401:2008IEC 61032Reaffirmed but not taken up for revision",
+      "title": "Protection of persons and equipment by enclosures - Probes for verification (Second Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 18996 (Part 1):2025ISO 9173-1:2016",
+      "title": "Switches for appliances: Part 1 general requirements First revision",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 16826:2018IEC 61180 : 2016",
+      "title": "High - Voltage Test Techniques For Low-Voltage Equipment - Definitions, Test and Procedure Requirements, Test Equipment",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS/IEC 61558-1:201761558-1",
+      "title": "Safety of power transformers, power supply units and similar: Part 1 general requirements and tests",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS/IEC 61558-2-6:202161558-2-6",
+      "title": "Safety of power transformers, power supply units and similar: Part 2 particular requirement: Sec 6 safety isolating transformers for general use",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 16046 (Part 1):2018IEC 62133-1 : 2017",
+      "title": "Secondary Cells and Batteries Containing Alkaline or Other Non-Acid Electrolytes - Safety Requirements for Portable Sealed Secondary Cells and for Batteries Made from Them for Use in Portable Applications Part 1 Nickel Systems ( Second Revision )",
+      "committee": "ETD 11"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 16046 (Part 2):2018IEC 62133-2 : 2017",
+      "title": "Secondary Cells and Batteries Containing Alkaline or Other Non-Acid Electrolytes - Safety Requirements for Portable Sealed Secondary Cells and for Batteries Made from Them for Use in Portable Applications Part 2 Lithium Systems ( Second Revision )",
+      "committee": "ETD 11"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS 16108:2012IEC 62471 :2006",
+      "title": "Photobiological safety of lamps and lamp systems",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 17048:2018",
+      "title": "Halogen free flame retardant (HFFR) cables for working voltages up to and including 1 100 Volts - Specification",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS 18470:2024",
+      "title": "PLASTICS METHOD OF TESTING PART 5 MECHANICAL PROPERTIES SECTION 7 DETERMINATION OF FLEXURAL PROPERTIES",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 4972 (Part 1):2022ISO 8430-1 : 2016",
+      "title": "Plastics - Methods of Testing Part 5 : Mechanical Properties Sec 4 Determination of Izod Impact Strength",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS 4774 (Part 3):2022ISO 3548-3 : 2012",
+      "title": "Plastics - Methods of testing: Part 5 Mechanical properties Section 1 Determination of tensile properties - General requirements Second Revision",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 13360 (Part 5/Sec 2):2017ISO 527-2 : 2012",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 2 determination of tensile properties - Test conditions for moulding and extrusion plastics (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "58",
+      "isNumber": "IS 17900 (Part 20):2024",
+      "title": "PLASTICS METHOD OF TESTING PART 5 MECHANICAL PROPERTIES SECTION 3 DETERMINATION OF TENSILE PROPERTIES TEST CONDITIONS FOR FILMS AND SHEETS",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "59",
+      "isNumber": "IS 13360 (Part 5/Sec 25):2004ISO 527-4",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 25 determination of tensile properties - Test conditions for isotropic and orthotropic fibre - Reinforced plastic composites",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "60",
+      "isNumber": "IS 2102 (Part 1):1993ISO 2768-1-89",
+      "title": "General tolerances: Part 1 tolerances for linear and angular dimensions without individual tolerance indications (Third Revision)",
+      "committee": "PGD 37"
+    },
+    {
+      "number": "61",
+      "isNumber": "IS 18370:2023ISO 20784:2021",
+      "title": "Plastics Methods of Exposure to Laboratory Light Sources: Part 1 General Guidance",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "62",
+      "isNumber": "IS 18372:2023ISO 13299 : 2016",
+      "title": "Plastics Methods of Exposure to Laboratory Light Sources: Part 2 Xenon-Arc Lamps",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "63",
+      "isNumber": "IS 19143 (Part 3/Sec 1):2025IEC 62933-3-1: 2018",
+      "title": "Graphical Symbols for Use on Equipment Registered Symbols",
+      "committee": "PGD 01"
+    },
+    {
+      "number": "64",
+      "isNumber": "IS 18365 (Part 2):2023ISO 13300-2:2006",
+      "title": "Plastics \u2014 Methods of Testing Part 5 Mechanical Properties Section 27 Determination of tensile-impact strength",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "65",
+      "isNumber": "IS 13360 : Part 6 : Sec 24 : 2024",
+      "title": "Plastics \u00e2\u20ac\u201d Methods of Testing Part 6 Thermal Properties Section 24 Cellular Plastics \u00e2\u20ac\u201d Determination of Horizontal Burning Characteristics of Small Specimens Subjected to a Small Flame (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "66",
+      "isNumber": "IS 13360 (Part 6/Sec 23):2006",
+      "title": "Plastics - Methods of testing: Part 6 thermal properties section 23 determination of burning behaviour of thin fiexibie verticai specimens in contact with smaii - Fiame ignition source",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "67",
+      "isNumber": "IS/IEC 62368-1:2023IEC 62368-1:2023",
+      "title": "Audio / Video, Information and Communication Technology Equipment Part 1: Safety Requirements ( First Revision )",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "68",
+      "isNumber": "IS 14700 (Part 4/Sec 2):201861000-4-2 : 2008",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 2 electrostatic discharge immunity test (Second Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "69",
+      "isNumber": "IS 14700 (Part 4/Sec 3):2023IEC 61000-4-3: 2020",
+      "title": "Electromagnetic Compatibility (EMC) Part 4 Testing and Measurement Techniques Section 24 Test methods for protective devices for HEMP conducted disturbance ( First Revision )",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "70",
+      "isNumber": "IS 14700 (Part 4/Sec 4):2018IEC 61000-4-4 : 2012",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 4 electrical fast transient / burst immunity test (Second Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "71",
+      "isNumber": "IS 14700 (Part 4/Sec 5):2019IEC 61000-4-5 : 2017",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 5 surge immunity test (First Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "72",
+      "isNumber": "IS 14700 (Part 4/Sec 6):2026",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 6 immunity to conducted disturbances, induced by radio - Frequency fields",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "73",
+      "isNumber": "IS 14700 (Part 4/Sec 34):2017IEC 61000-4-34 : 2009",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 34 voltage dips, short interruptions and voltage variations immunity tests for current more than 16 A per phase",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "74",
+      "isNumber": "IS/IEC 60127-5:2016IEC 60127-5 : 2016",
+      "title": "Miniature fuses: Part 5 guidelines for quality assessment of miniature fuse - Links",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "75",
+      "isNumber": "IS/IEC 60127-6:2023IEC 60127-6:2023",
+      "title": "Miniature fuses: Part 6 fuse holders for miniature cartridge fuse links - Specification",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "76",
+      "isNumber": "IS 10276 (Part 1):202460238: 2016",
+      "title": "Specification for edison screw lamp holders: Part 1 requirements and tests",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "77",
+      "isNumber": "IS 18980:2025",
+      "title": "Basic and Safety Principles for Man-Machine Interface Marking and Identification - Identification of Equipment Terminals Conductor Terminations and Conductors (First Revision)",
+      "committee": "ETD 01"
+    },
+    {
+      "number": "78",
+      "isNumber": "IS 19043:2025",
+      "title": "SWITCHES FOR APPLIANCES PART 1 GENERAL REQUIREMENTS SECTION 1 PARTICULAR REQUIREMENTS FOR MECHANICAL SWITCHES",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "79",
+      "isNumber": "IS 19071:2025",
+      "title": "SWITCHES FOR APPLIANCES PART 1 GENERAL REQUIREMENTS SECTION 2 PARTICULAR REQUIREMENTS FOR ELECTRONICS SWITCHES",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "80",
+      "isNumber": "IS 13360 (Part 5/Sec 5/Sub-Sec 1):2025",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 5 determination of charpy impact properties - Non - Instrumented impact test (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "81",
+      "isNumber": "IS 13360 : Part 5 : Sec 26 : 2023",
+      "title": "PLASTICS METHODS OF TESTING PART 5 MECHANICAL PROPERTIES SECTION 26 DETERMINATION OF TENSILE PROPERTIES TEST CONDITIONS FOR UNIDIRECTIONAL FIBRE-REINFORCED PLASTIC COMPOSITES",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "82",
+      "isNumber": "IS 13736 (Part 2/Sec 1):2020IEC 60721-2-1 : 2013",
+      "title": "Classification of Environmental Conditions Part 2 Environmental Conditions Appearing in Nature Section 1 Temperature and humidity ( First Revision )",
+      "committee": "LITD 01"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS/ISO 26262-10:2018ISO 26262-10:2018",
+      "title": "Amendment no. 1 to IS/ISO 20932 (Part 3) : 2018 Textiles - Determination of the elasticity of fabrics Part 3 Narrow fabrics",
+      "committee": "TXD 01"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 9206:1979IEC 60061-1",
+      "title": "Dimensions of caps for tungsten filament general service electric lamps",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 616:2017IEC 60065 : 2014",
+      "title": "Audio, video and similar electronic apparatus - Safety requirements (Fifth Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS/IEC 60068 (Part 2/Sec 2) : 2007",
+      "title": "Environmental Testing Part 2: Tests - Test B Section 2: Dry Heat",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 9000 (Part 7/Sec 3):2019IEC 60068-2-31 : 2008",
+      "title": "Environmental testing: Part 7 tests :: Sec 3 test Ec: rough handling shocks, primarily for equipment - Types specimens (First Revision)",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 9000 (Part 7/Sec 7):2020IEC 60068-2-75 : 2014",
+      "title": "Environmental Testing Part 7 Tests Section 7 Test Eh: Hammer tests ( First Revision )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 9000 (Part 4):2020IEC 60068-2-78 : 2012",
+      "title": "Environmental Testing Part 4 Tests - Test Cab: Damp Heat, Steady State ( Second Revision )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 1271:2012IEC 60085",
+      "title": "Electrical insulation - Thermal evaluation and designation (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 2824:2007IEC 60112 : 2003",
+      "title": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS/IEC 60127-1:2023IEC 60127-1:2023",
+      "title": "Miniature fuses: Part 1 definitions for miniature fuses and general requirements for miniature fuse - Links (First Revision)",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS/IEC 60127-2:2014IEC 60127-2:2014 and Amd 1:2020",
+      "title": "Miniature Fuses Part 2 Cartridge Fuse - Links (First Revision)",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS/IEC 60127-4:2005",
+      "title": "Miniature fuses: Part 4 universal modular fuse - Links (Umf) - Through - Hole and surface mount types Amendment - 1",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 694:2010",
+      "title": "Polyvinyl chloride insulated unsheathed and sheathed cables/cords with rigid and flexible conductor for rated voltages up to and including 1 100 V (Fourth Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 4289 (Part 2):2000",
+      "title": "Flexible cables for lifts and other flexible connections - Specification: Part 2 pvc insulated circular cables",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 9968 (Part 1):2025",
+      "title": "Specification for elastomer insulated cables: Part 1 for working voltages up to and including 1 100 volts (First Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 2993 (Part 2):2024IEC 60252-2:2010",
+      "title": "A.C. motor capacitors (Second Revision)",
+      "committee": "ETD 29"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS/IEC 60309 : PART 2 : 2021",
+      "title": "Plugs fixed or portable socket-outlets and appliance inlets for industrial purposes Part 2: Dimensional compatibility requirements for pin and contact-tube accessories Second Revision",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS/IEC 60320 : PART 1 : 2021",
+      "title": "Appliance couplers for household and similar general purposes Part 1: General requirements Second Revision",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS/IEC 60320 : PART 2 : Sec 3 : 2018",
+      "title": "Appliance couplers for household and similar general purposes Part 2-3: Appliance couplers with a degree of protection higher than IPX0 Second Revision",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS/IEC 60529:2001",
+      "title": "Degrees of protection provided by enclosures (IP Code)",
+      "committee": "ETD 01"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 10322 (Part 1):2026",
+      "title": "Luminaires: Part 1 general requirements and tests (First Revision)",
+      "committee": "ETD 49"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 17634:2022",
+      "title": "Connectors for frequencies below 3 MHz for use with printed boards Part 11: Detail specification for concentric connectors dimensions for free connectors and fixed connectors",
+      "committee": "LITD 03"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 14980 (Part 3):2024ISO 8759-3:2018",
+      "title": "Insulation Coordination for Equipment Within Low-Voltage Systems Part 1 Principles Requirements and Tests",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 15382 (Part 3):2019IEC 60664-3 : 2016",
+      "title": "Insulation Coordination for Equipment within Low-Voltage Systems Part 3 Use of Coating, Potting or Moulding for Protection against Pollution (First Revision)",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 15382 (Part 4):2017IEC60664-4 : 2005",
+      "title": "Insulation Coordination for Equipment Within Low-voltage Systems Part 4 Consideration of High-frequency Voltage Stress (First Revision)",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS/IEC :2023IEC 60691:2023",
+      "title": "Thermal Links - Requirements and Application Guide (First Revision)",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 19210:2025",
+      "title": "Fire Hazard Testing Part 2: Glowinghot-wire based test methods Section 11: Glow-wire flammability test method for end products GWEPT",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 19136:2025",
+      "title": "Fire Hazard Testing Part 2: Glowinghot-wire based test methods Section 12: Glow-wire flammability index GWFI Test method for materials",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 18381 (Part 1):2023",
+      "title": "Fire Hazard Testing Part 2 GlowingHot wire based test methods Section 13 Glow-wire ignition temperature GWIT test method for materials",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS/IEC 60695-10-2:2014IEC 60695-10-2 : 2014",
+      "title": "Fire hazard testing: Part 10 Abnormal heat: Sec 2 ball pressure test method",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS/IEC 60695-11-5:2016IEC 60695-11-5 : 2016",
+      "title": "Fire Hazard Testing Part 11 Test Flames Section 5 Needle - Flame test method - Apparatus, confirmatory test arrangement and guidance ( First Revision )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS/IEC 60695-11-10:2013IEC 60695-11-10 : 2013",
+      "title": "Fire hazard testing: Part 11 test flames :: Sec 10 50 w horizontal and vertical flame test methods",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS/IEC 60730-1:1999",
+      "title": "Automatic electrical controls for household and similar use : part 1 General Requirements",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS/IEC 60730-2-9:2011IEC 60730-2-9 : 2011",
+      "title": "Automatic Electrical Controls for Household and Similar Use Part 2 Particular Requirements Section 9 Temperature Sensing Controls",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 11534 (Part 1):1985",
+      "title": "Specification for directly heated positive step - Function temperature coefficient thermistors: Part 1 general requirements and methods of tests",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS/IEC 60990:2016IEC 60990 : 1999",
+      "title": "Methods of Measurement of Touch Current and Protective Conductor Current (First Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 14700 (Part 4/Sec 2):201861000-4-2 : 2008",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 2 electrostatic discharge immunity test (Second Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 14700 (Part 4/Sec 3):2023IEC 61000-4-3: 2020",
+      "title": "Electromagnetic Compatibility (EMC) Part 4 Testing and Measurement Techniques Section 24 Test methods for protective devices for HEMP conducted disturbance ( First Revision )",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 14700 (Part 4/Sec 4):2018IEC 61000-4-4 : 2012",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 4 electrical fast transient / burst immunity test (Second Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS 14700 (Part 4/Sec 5):2019IEC 61000-4-5 : 2017",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 5 surge immunity test (First Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 14700 (Part 4/Sec 6):2026",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 6 immunity to conducted disturbances, induced by radio - Frequency fields",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 17792:2022",
+      "title": "Electromagnetic compatibility EMC: Part 4 testing and measurement techniques: Sec 11 voltage dips short interruptions and voltage variations immunity tests for equipment with input current up to 16 A per phase",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 14700 (Part 4/Sec 13):2016IEC 61000-4-13 : 2009",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 13 harmonics and interharmonics including mains signaling at a.c. power port, low frequency immunity test",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 14700 (Part 4/Sec 34):2017IEC 61000-4-34 : 2009",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 34 voltage dips, short interruptions and voltage variations immunity tests for current more than 16 A per phase",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 1401:2008IEC 61032Reaffirmed but not taken up for revision",
+      "title": "Protection of persons and equipment by enclosures - Probes for verification (Second Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 18996 (Part 1):2025ISO 9173-1:2016",
+      "title": "Switches for appliances: Part 1 general requirements First revision",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 16826:2018IEC 61180 : 2016",
+      "title": "High - Voltage Test Techniques For Low-Voltage Equipment - Definitions, Test and Procedure Requirements, Test Equipment",
+      "committee": "ETD 19"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS/IEC 61558-1:201761558-1",
+      "title": "Safety of power transformers, power supply units and similar: Part 1 general requirements and tests",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS/IEC 61558-2-6:202161558-2-6",
+      "title": "Safety of power transformers, power supply units and similar: Part 2 particular requirement: Sec 6 safety isolating transformers for general use",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 16046 (Part 1):2018IEC 62133-1 : 2017",
+      "title": "Secondary Cells and Batteries Containing Alkaline or Other Non-Acid Electrolytes - Safety Requirements for Portable Sealed Secondary Cells and for Batteries Made from Them for Use in Portable Applications Part 1 Nickel Systems ( Second Revision )",
+      "committee": "ETD 11"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 16046 (Part 2):2018IEC 62133-2 : 2017",
+      "title": "Secondary Cells and Batteries Containing Alkaline or Other Non-Acid Electrolytes - Safety Requirements for Portable Sealed Secondary Cells and for Batteries Made from Them for Use in Portable Applications Part 2 Lithium Systems ( Second Revision )",
+      "committee": "ETD 11"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS 16108:2012IEC 62471 :2006",
+      "title": "Photobiological safety of lamps and lamp systems",
+      "committee": "ETD 23"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 17048:2018",
+      "title": "Halogen free flame retardant (HFFR) cables for working voltages up to and including 1 100 Volts - Specification",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS 18470:2024",
+      "title": "PLASTICS METHOD OF TESTING PART 5 MECHANICAL PROPERTIES SECTION 7 DETERMINATION OF FLEXURAL PROPERTIES",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 4972 (Part 1):2022ISO 8430-1 : 2016",
+      "title": "Plastics - Methods of Testing Part 5 : Mechanical Properties Sec 4 Determination of Izod Impact Strength",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS 4774 (Part 3):2022ISO 3548-3 : 2012",
+      "title": "Plastics - Methods of testing: Part 5 Mechanical properties Section 1 Determination of tensile properties - General requirements Second Revision",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 13360 (Part 5/Sec 2):2017ISO 527-2 : 2012",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 2 determination of tensile properties - Test conditions for moulding and extrusion plastics (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "58",
+      "isNumber": "IS 17900 (Part 20):2024",
+      "title": "PLASTICS METHOD OF TESTING PART 5 MECHANICAL PROPERTIES SECTION 3 DETERMINATION OF TENSILE PROPERTIES TEST CONDITIONS FOR FILMS AND SHEETS",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "59",
+      "isNumber": "IS 13360 (Part 5/Sec 25):2004ISO 527-4",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 25 determination of tensile properties - Test conditions for isotropic and orthotropic fibre - Reinforced plastic composites",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "60",
+      "isNumber": "IS 2102 (Part 1):1993ISO 2768-1-89",
+      "title": "General tolerances: Part 1 tolerances for linear and angular dimensions without individual tolerance indications (Third Revision)",
+      "committee": "PGD 37"
+    },
+    {
+      "number": "61",
+      "isNumber": "IS 18370:2023ISO 20784:2021",
+      "title": "Plastics Methods of Exposure to Laboratory Light Sources: Part 1 General Guidance",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "62",
+      "isNumber": "IS 18372:2023ISO 13299 : 2016",
+      "title": "Plastics Methods of Exposure to Laboratory Light Sources: Part 2 Xenon-Arc Lamps",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "63",
+      "isNumber": "IS 19143 (Part 3/Sec 1):2025IEC 62933-3-1: 2018",
+      "title": "Graphical Symbols for Use on Equipment Registered Symbols",
+      "committee": "PGD 01"
+    },
+    {
+      "number": "64",
+      "isNumber": "IS 18365 (Part 2):2023ISO 13300-2:2006",
+      "title": "Plastics \u2014 Methods of Testing Part 5 Mechanical Properties Section 27 Determination of tensile-impact strength",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "65",
+      "isNumber": "IS 13360 : Part 6 : Sec 24 : 2024",
+      "title": "Plastics \u00e2\u20ac\u201d Methods of Testing Part 6 Thermal Properties Section 24 Cellular Plastics \u00e2\u20ac\u201d Determination of Horizontal Burning Characteristics of Small Specimens Subjected to a Small Flame (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "66",
+      "isNumber": "IS 13360 (Part 6/Sec 23):2006",
+      "title": "Plastics - Methods of testing: Part 6 thermal properties section 23 determination of burning behaviour of thin fiexibie verticai specimens in contact with smaii - Fiame ignition source",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "67",
+      "isNumber": "IS/IEC 62368-1:2023IEC 62368-1:2023",
+      "title": "Audio / Video, Information and Communication Technology Equipment Part 1: Safety Requirements ( First Revision )",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "68",
+      "isNumber": "IS 14700 (Part 4/Sec 2):201861000-4-2 : 2008",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 2 electrostatic discharge immunity test (Second Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "69",
+      "isNumber": "IS 14700 (Part 4/Sec 3):2023IEC 61000-4-3: 2020",
+      "title": "Electromagnetic Compatibility (EMC) Part 4 Testing and Measurement Techniques Section 24 Test methods for protective devices for HEMP conducted disturbance ( First Revision )",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "70",
+      "isNumber": "IS 14700 (Part 4/Sec 4):2018IEC 61000-4-4 : 2012",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 4 electrical fast transient / burst immunity test (Second Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "71",
+      "isNumber": "IS 14700 (Part 4/Sec 5):2019IEC 61000-4-5 : 2017",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 5 surge immunity test (First Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "72",
+      "isNumber": "IS 14700 (Part 4/Sec 6):2026",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 6 immunity to conducted disturbances, induced by radio - Frequency fields",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "73",
+      "isNumber": "IS 14700 (Part 4/Sec 34):2017IEC 61000-4-34 : 2009",
+      "title": "Electromagnetic compatibility (EMC): Part 4 testing and measurement techniques: Sec 34 voltage dips, short interruptions and voltage variations immunity tests for current more than 16 A per phase",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "74",
+      "isNumber": "IS/IEC 60127-5:2016IEC 60127-5 : 2016",
+      "title": "Miniature fuses: Part 5 guidelines for quality assessment of miniature fuse - Links",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "75",
+      "isNumber": "IS/IEC 60127-6:2023IEC 60127-6:2023",
+      "title": "Miniature fuses: Part 6 fuse holders for miniature cartridge fuse links - Specification",
+      "committee": "ETD 39"
+    },
+    {
+      "number": "76",
+      "isNumber": "IS 10276 (Part 1):202460238: 2016",
+      "title": "Specification for edison screw lamp holders: Part 1 requirements and tests",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "77",
+      "isNumber": "IS 18980:2025",
+      "title": "Basic and Safety Principles for Man-Machine Interface Marking and Identification - Identification of Equipment Terminals Conductor Terminations and Conductors (First Revision)",
+      "committee": "ETD 01"
+    },
+    {
+      "number": "78",
+      "isNumber": "IS 19043:2025",
+      "title": "SWITCHES FOR APPLIANCES PART 1 GENERAL REQUIREMENTS SECTION 1 PARTICULAR REQUIREMENTS FOR MECHANICAL SWITCHES",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "79",
+      "isNumber": "IS 19071:2025",
+      "title": "SWITCHES FOR APPLIANCES PART 1 GENERAL REQUIREMENTS SECTION 2 PARTICULAR REQUIREMENTS FOR ELECTRONICS SWITCHES",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "80",
+      "isNumber": "IS 13360 (Part 5/Sec 5/Sub-Sec 1):2025",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 5 determination of charpy impact properties - Non - Instrumented impact test (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "81",
+      "isNumber": "IS 13360 : Part 5 : Sec 26 : 2023",
+      "title": "PLASTICS METHODS OF TESTING PART 5 MECHANICAL PROPERTIES SECTION 26 DETERMINATION OF TENSILE PROPERTIES TEST CONDITIONS FOR UNIDIRECTIONAL FIBRE-REINFORCED PLASTIC COMPOSITES",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "82",
+      "isNumber": "IS 13736 (Part 2/Sec 1):2020IEC 60721-2-1 : 2013",
+      "title": "Classification of Environmental Conditions Part 2 Environmental Conditions Appearing in Nature Section 1 Temperature and humidity ( First Revision )",
+      "committee": "LITD 01"
+    }
+  ],
+  "internationalReferences": [
+    {
+      "number": "1",
+      "standard": "IEC 60083 : 0 : 0 0"
+    },
+    {
+      "number": "2",
+      "standard": "IEC 60127 : 3 : 0 0"
+    },
+    {
+      "number": "3",
+      "standard": "IEC 60127 : 7 : 0 0"
+    },
+    {
+      "number": "4",
+      "standard": "IEC 60127 : 8 : 0 0"
+    },
+    {
+      "number": "5",
+      "standard": "IEC 60127 : 10 : 0 0"
+    },
+    {
+      "number": "6",
+      "standard": "IEC 60320 : 2 : 1"
+    },
+    {
+      "number": "7",
+      "standard": "IEC 60320 : 2 : 4"
+    },
+    {
+      "number": "8",
+      "standard": "IEC 60320 : 3 : 0 0"
+    },
+    {
+      "number": "9",
+      "standard": "IEC 60384 : 14 : 2013"
+    },
+    {
+      "number": "10",
+      "standard": "IEC 60417 : 0 : 0 0"
+    },
+    {
+      "number": "11",
+      "standard": "IEC 60730 : 2 : 8 2018"
+    },
+    {
+      "number": "12",
+      "standard": "IEC 60730 : 2 : 10"
+    },
+    {
+      "number": "13",
+      "standard": "IEC 60799 : 0 : 0 0"
+    },
+    {
+      "number": "14",
+      "standard": "IEC 60906 : 1 : 0 0"
+    },
+    {
+      "number": "15",
+      "standard": "IEC 60934 : 0 : 0 0"
+    },
+    {
+      "number": "16",
+      "standard": "IEC 60999 : 1 : 1999"
+    },
+    {
+      "number": "17",
+      "standard": "IEC 61210 : 0 : 0 0"
+    },
+    {
+      "number": "18",
+      "standard": "IEC 61558 : 2 : 16 2009"
+    },
+    {
+      "number": "19",
+      "standard": "IEC 61770 : 0 : 0 0"
+    },
+    {
+      "number": "20",
+      "standard": "IEC 62151 : 0 : 0 0"
+    },
+    {
+      "number": "21",
+      "standard": "IEC 62477 : 1 : 0 0"
+    },
+    {
+      "number": "22",
+      "standard": "ISO 1463 : 0 : 0 0"
+    },
+    {
+      "number": "23",
+      "standard": "ISO 2178 : 0 : 0 0"
+    },
+    {
+      "number": "24",
+      "standard": "IEC 62841 : 0 : 0 0"
+    },
+    {
+      "number": "25",
+      "standard": "IEC 60998 : 2 : 1"
+    },
+    {
+      "number": "26",
+      "standard": "IEC 60998 : 2 : 2"
+    }
+  ],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 1223 : 2001",
+      "title": "Apparatus for determination of milk fat by gerber method - Specification (Third Revision)",
+      "committee": "FAD 33"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 5309 : 2001",
+      "title": "Poultry Farming Equipment \u2014 Brooders \u2014 Specification (Second Revision)",
+      "committee": "FAD 32"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 5310 : 1987",
+      "title": "Specification for Poultry Incubators (First Revision)",
+      "committee": "FAD 32"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 7080 (Part 2) : 1992",
+      "title": "MTP suction apparatus - Specification: Part 2 electrical - Cum - Manually operated (First Revision)",
+      "committee": "MHD 03"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 13152 : Part 1 : 2013",
+      "title": "Portable solid bio - Mass cookstove (Chulha) - Specification (First Revision)",
+      "committee": "MED 04"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 7558 : 1974",
+      "title": "Code of practice for domestic hot water installations",
+      "committee": "CED 24"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 2370 : 2014",
+      "title": "Walk - In cold rooms - Specification (First Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 302 : Part 2 : Sec 80 : 2017",
+      "title": "Household and similar electrical appliances - Safety: Part 2 - 80 particular requirements for fans (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 6680 : 1992",
+      "title": "Railway carriagefans - Specification (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "10",
+      "isNumber": "SP 7 : 2016",
+      "title": "National Building Code of India 2016",
+      "committee": "CED 46"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 10550 : 1983",
+      "title": "Specification for medical treatment lamps",
+      "committee": "MHD 15"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 5941 : 1970",
+      "title": "Specification for dental engine, electric",
+      "committee": "MHD 08"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 13837 : 1993",
+      "title": "Braille duplicating machine specification",
+      "committee": "MHD 09"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 5827 : 1982",
+      "title": "Specification for paraffin wax bath (First Revision)",
+      "committee": "MHD 09"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 6302 : 1971",
+      "title": "Specification for whirlpool bath",
+      "committee": "MHD 09"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 6696 : 1972",
+      "title": "Specification for Egg Washing Machines",
+      "committee": "FAD 32"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS/IEC 60034 : PART 1 : 2004",
+      "title": "Rotating electrical machines : Part 1 Rating and performance",
+      "committee": "ETD 15"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 5571 : 2009",
+      "title": "Guide for selection and installation of electrical equipment in hazardous areas (Other Than Mines) (Third Revision)",
+      "committee": "ETD 22"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 9581 : 1980",
+      "title": "Safety and Operational Requirements for Pedestrian - Controlled Cylinder (Reel) Power Lawn Mowers",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 371 : 1999",
+      "title": "Ceiling roses - Specification (Third Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 4160 : 2005",
+      "title": "Interlocking switch socket outlets - Specification (First Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS B371 : 1999",
+      "title": "Ceiling Roses \u00e2\u20ac\u201c Specification",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 8448 : 1989",
+      "title": "Automatic line voltage correctors (Step Type) for domestic use - Specification (First Revision)",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 8447 : 1989",
+      "title": "Manually operated voltage regulators for domestic use - Specification (First Revision)",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 4533 : 1995",
+      "title": "Suction apparatus - Specification (Second Revision)",
+      "committee": "MHD 11"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 7583 : 1991",
+      "title": "Medical Electrical Equipment - High Frequency Surgical Equipment",
+      "committee": "MHD 15"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 10263 : 1982",
+      "title": "Specification for deep fat fryer, single and double pan electrically operated, for large catering establishments",
+      "committee": "MHD 12"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 10264 : 1982",
+      "title": "Specification for trolley, hot food, for hospital and industrial cantee - Ns",
+      "committee": "MHD 12"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 12430 : 1987",
+      "title": "Safety code for installation, servicing maintenanceand of sterilizers",
+      "committee": "MHD 12"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 3118 : 1978",
+      "title": "Specification for electric bacteriological incubators (First Revision)",
+      "committee": "MHD 10"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 3119 : 1978",
+      "title": "Specification for hot air sterilizers (First Revision)",
+      "committee": "MHD 12"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 5022 : 1989",
+      "title": "Sterilizer, instruments, table model (Third Revision)",
+      "committee": "MHD 12"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 6593 : 1972",
+      "title": "Specification for electric serological water - Baths",
+      "committee": "MHD 10"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 959 : 1994",
+      "title": "Specification for electric soldering irons (Third Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 1287 : 1993",
+      "title": "Electric toasters - Specification (Third Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 2082 : 2018",
+      "title": "Stationary storage type electric water heaters - Specification (Fifth Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 2268 : 1994",
+      "title": "Electrical call bells and buzzers for indoor use - Specification (Third Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 2994 : 1992",
+      "title": "Electric stoves - Specification (Second Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 3412 : 1994",
+      "title": "Electric water boilers - Specification (Second Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS 368 : 2014",
+      "title": "Electric immersion water heaters - Specification (Fifth Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 369 : 2019",
+      "title": "Household electric direct - Acting room heaters - Performance requirements (Fourth Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 7154 : 1994",
+      "title": "Mains operated electric hair dryers (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 11676 : 1995",
+      "title": "Microwave ovens for household and similar purposes - Specification (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 14144 : 1994",
+      "title": "Electric coffee makers",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 14145 : 1994",
+      "title": "Mains operated clocks specification",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 366 : 1991",
+      "title": "Electric iron - Specification (Fourth Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 302 : Part 2 : Sec 206 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 206 electric coffee makers",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS 302 : Part 2 : Sec 204 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 204 electric water boilers",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS 302 : Part 2 : Sec 203 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 203 electric call bells and buzzers for indoor use",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 302 : Part 2 : Sec 201 : 2008",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 201 electric immersion water heaters (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 302 : Part 2 : Sec 26 : 2014",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 26 clocks (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS 302 : Part 2 : Sec 25 : 2014",
+      "title": "Safety of household and similar electrical appliances: Part 2 Particular requirements: Section 25 Microwave ovens",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 302 (Part 2/Sec 24) : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 24 refrigerators, food - Freezers and ice - Makers",
+      "committee": "MED 03"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS 302 : Part 2 : Sec 23 : 2009",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 23 appliances for skin or hair care (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 302 : Part 2 : Sec 15 : 2009",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 15 appliances for heating liquids (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS 302 : Part 2 : Sec 14 : 2009",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 14 electric kitchen machines (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 302 : Part 2 : Sec 9 : 2009",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 9 toasters, grills, roasters and similar appliances (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "58",
+      "isNumber": "IS 302 : Part 2 : Sec 6 : 2009",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 6 cooking ranges, hobs, ovens and similar appliances (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "59",
+      "isNumber": "IS 302 : Part 2 : SEC 31 : 2009",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 31 range hoods",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "60",
+      "isNumber": "IS 302 : Part 2 : Sec 2 : 1997",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 2 vacuum cleaners and water suction cleaning appliances",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "61",
+      "isNumber": "IS 302 : Part 2 : Sec 4 : 1993",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 4 spin extractors",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "62",
+      "isNumber": "IS 302 : Part 2 : Sec 11 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 11 tumbler dryers",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "63",
+      "isNumber": "IS 302 : Part 2 : Sec 12 : 1993",
+      "title": "Safety of household and similar electrical appliances - Specification: Part 2 particular requirements: Sec 12 warming plates and similar appliances",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "64",
+      "isNumber": "IS 302 : Part 2 : Sec 32 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 32 massage appliances",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "65",
+      "isNumber": "IS 302 : Part 2 : Sec 45 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 45 electric heating tools",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "66",
+      "isNumber": "IS 302 : Part 2 : Sec 46 : 1993",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 46 electric steam cookers",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "67",
+      "isNumber": "IS 302 : Part 2 : Sec 76 : 1999",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 76 electric fence energizers",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "68",
+      "isNumber": "IS 302 : Part 2 : Sec 207 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 207 electric hot plates",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "69",
+      "isNumber": "IS 302 : Part 2 : Sec 208 : 1994",
+      "title": "Safety of household and similar electrtcal appliances: Part 2 particular requirements: Sec 208 single walled baking ovens",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "70",
+      "isNumber": "IS 302 : Part 2 : Sec 209 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 209 low speed food grinding machines",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "71",
+      "isNumber": "IS 6390 : Part 2 : 1992",
+      "title": "Domestic electrical clothes washing machines - Specification: Part 2 requirements for tumbler dryers",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "72",
+      "isNumber": "IS 302 : Part 2 : Sec 202 : 1992",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 202 electric stoves",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "73",
+      "isNumber": "IS 365 : 1983",
+      "title": "Specification for electric hot plates (Second Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "74",
+      "isNumber": "IS 1415 : 1966",
+      "title": "Specification for electric hand - Lamps (Revised)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "75",
+      "isNumber": "IS 3017 : 1985",
+      "title": "Thermostats for use with electric water heaters",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "76",
+      "isNumber": "IS 3481 : 1966",
+      "title": "Specification for electric portable lamp stands and brackets",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "77",
+      "isNumber": "IS 3725 : 1966",
+      "title": "Specification for resistance wires, tapes and strips for heating flements",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "78",
+      "isNumber": "IS 5161 : 1969",
+      "title": "Specification for flexible electric heating pads for domestic use",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "79",
+      "isNumber": "IS 5790 : 1985",
+      "title": "Specification for domestic electric cooking ovens (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "80",
+      "isNumber": "IS 6290 : 1986",
+      "title": "Specification for steam irons (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "81",
+      "isNumber": "IS 12289 : 1988",
+      "title": "Specification for hand held electric engraving tools",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "82",
+      "isNumber": "IS 10436 : 1983",
+      "title": "Specification for electric frying pans and deep fat fryers",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "83",
+      "isNumber": "IS 13231 : 1991",
+      "title": "Warming plates - Specification",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "84",
+      "isNumber": "IS 13886 : 1993",
+      "title": "Specification for bimetallic thermostats and thermal cutouts for use with electric iron",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "85",
+      "isNumber": "IS 9249 : Part 1 : 1979",
+      "title": "Safety requirements for indicating and recording electrical measuring instruments and their accessories: Part 1 common safety requirements for instruments",
+      "committee": "ETD 12"
+    },
+    {
+      "number": "86",
+      "isNumber": "IS 616 : 2017",
+      "title": "Audio, video and similar electronic apparatus - Safety requirements (Fifth Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "87",
+      "isNumber": "IS 16711 : 2017",
+      "title": "48 V ELVDC distribution system - Guidelines",
+      "committee": "ETD 50"
+    },
+    {
+      "number": "88",
+      "isNumber": "IS 1610 : 2018",
+      "title": "Household sewing machines - General requirements (Fourth Revision)",
+      "committee": "MED 29"
+    },
+    {
+      "number": "89",
+      "isNumber": "IS 8148 : 2018",
+      "title": "Ducted and package air - Conditioners - Specification (Second Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "90",
+      "isNumber": "IS 17017 : Part 1 : 2018",
+      "title": "Electric Vehicle Conductive Charging System Part 1 General Requirements",
+      "committee": "ETD 51"
+    },
+    {
+      "number": "91",
+      "isNumber": "IS 11037 : 2019",
+      "title": "Electronic Type Fan Regulators - Specification ( First Revision )",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "92",
+      "isNumber": "IS 10617 : 2018",
+      "title": "Hermetic compressors - Specification (Second Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "93",
+      "isNumber": "IS 444 : 1987",
+      "title": "General purpose rubber water hose (Superseding IS 445 : 1964 and IS 913 : 1968)",
+      "committee": "PCD 13"
+    },
+    {
+      "number": "94",
+      "isNumber": "IS 4159 : 2002",
+      "title": "Mineral filled sheathed heating elements - Specification (Third Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "95",
+      "isNumber": "IS 4105 : 1988",
+      "title": "Styrene (Vinyl Benzene)",
+      "committee": "PCD 09"
+    },
+    {
+      "number": "96",
+      "isNumber": "IS 15999 : Part 1 : 2016",
+      "title": "Rotating Electrical Machines Part 1 Rating and Performance (First Revision)",
+      "committee": "ETD 15"
+    },
+    {
+      "number": "97",
+      "isNumber": "IS 13247 : Part 2 : 1992",
+      "title": "Complete filter units for radio interference suppression: Part 2 Secal specification - Selection of methods of test and general requirements",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "98",
+      "isNumber": "IS 17586 : 2021",
+      "title": "E12 and E15 Fuel - Admixture of Anhydrous Ethanol and Motor Gasoline - For Positive Ignition Engine Powered Vehicles - Specification",
+      "committee": "PCD 03"
+    },
+    {
+      "number": "99",
+      "isNumber": "IS 11327 : 2007",
+      "title": "Requirements for refrigerant condensing units (First Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "100",
+      "isNumber": "IS/ISO 2408 : 2017",
+      "title": "Steel wire ropes Requirements",
+      "committee": "MED 10"
+    },
+    {
+      "number": "101",
+      "isNumber": "IS 16240 : 2015",
+      "title": "Reverse Osmosis (RO) Based Point-Of-Use (POU) Water Treatment System - Specification",
+      "committee": "FAD 30"
+    },
+    {
+      "number": "102",
+      "isNumber": "IS 14647 : 2022",
+      "title": "TOBACCO AND TOBACCO PRODUCTS - QUIWAM - SPECIFICATION ( First Revision ) Amendment - 1",
+      "committee": "FAD 04"
+    },
+    {
+      "number": "103",
+      "isNumber": "IS 17454 : 2020",
+      "title": "Guidelines and General Requirement of Sanitary Napkin Vending Machine",
+      "committee": "TXD 14"
+    },
+    {
+      "number": "104",
+      "isNumber": "IS 4665 : Part 1 : 1984",
+      "title": "Specification for portable electric motor - Operated tools: Part 1 general requirements and tests (First Revision)",
+      "committee": "ETD 15"
+    },
+    {
+      "number": "105",
+      "isNumber": "IS 1391 : Part 1 : 2017",
+      "title": "Room air conditioners - Specification: Part 1 unitary air conditioners (Third Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "106",
+      "isNumber": "IS 1391 : Part 2 : 2018",
+      "title": "Room air conditioners - Specification: Part 2 split air conditioners (Third Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "107",
+      "isNumber": "IS 2347 : 2017",
+      "title": "Domestic pressure cooker - Specification (Sixth Revision)",
+      "committee": "MED 33"
+    },
+    {
+      "number": "108",
+      "isNumber": "IS 16590 : 2017",
+      "title": "Water cooled chilling packages using the vapour compression cycle - Specification",
+      "committee": "MED 03"
+    },
+    {
+      "number": "109",
+      "isNumber": "IS 7704 : 2022",
+      "title": "4-Aminotoluene-3-Sulphonic Acid - Specification (Second Revision)",
+      "committee": "PCD 26"
+    },
+    {
+      "number": "110",
+      "isNumber": "IS 11951 : 2009",
+      "title": "PUMPSET FOR DESERT COOLERS - SPECIFICATION ( First Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "111",
+      "isNumber": "IS/ISO/IEC/TR 12785 : Part 3 : 2012",
+      "title": "Information technology - Learning education and training - Content packaging Part 3: Best practice and implementation guide",
+      "committee": "LITD 19"
+    },
+    {
+      "number": "112",
+      "isNumber": "IS 7080 : Part 3 : 1992",
+      "title": "MTP suction apparatus specification: Part 3 electrically operated (Second Revision)",
+      "committee": "MHD 03"
+    },
+    {
+      "number": "113",
+      "isNumber": "IS/IEC 62680 : Part 3 : Sec 1 : 2017",
+      "title": "Universal Serial Bus Interfaces for Data and Power Part 3-1: Universal Serial Bus 3.1 Specification",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "114",
+      "isNumber": "IS 1475 : Part 1 : 2001",
+      "title": "Self - Contained drinking water coolers - Specification: Part 1 energy consumption and performance (Third Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "115",
+      "isNumber": "IS 3315 : 2019",
+      "title": "Evaporative air coolers (Desert Coolers) - Specification (Third Revision)",
+      "committee": "MED 03"
+    },
+    {
+      "number": "116",
+      "isNumber": "IS 302 : Part 2 : Sec 21 : 2018",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 21 stationary storage type electric water heaters (Second Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "117",
+      "isNumber": "IS 302 : Part 2 : Sec 3 : 2007",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 3 electric iron (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "118",
+      "isNumber": "IS 302 : Part 2 : Sec 8 : 1994",
+      "title": "Safety of household and similar electrical appliances : part 2 particular requirements, section 8 electrical shavers hair, clippers and similar appliances",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "119",
+      "isNumber": "IS 302 : Part 2 : Sec 13 : 1994",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 13 frying pans, deep fat fryers and similar appliances",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "120",
+      "isNumber": "IS 302 : Part 2 : Sec 59 : 1999",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 59 insect killers",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "121",
+      "isNumber": "IS 17948 : Part 2 : 2023",
+      "title": "PLASTICS BIOBASED CONTENT : PART 2 DETERMINATION OF BIOBASED CARBON CONTENT",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "122",
+      "isNumber": "IS 4155 : 2023",
+      "title": "Glossary of Terms Relating to Chemical and Radiation Hazards and Hazardous Chemicals (First Revision)",
+      "committee": "CHD 7"
+    },
+    {
+      "number": "123",
+      "isNumber": "IS/ISO 22315 : 2014",
+      "title": "Societal Security Mass Evacuation Guidelines for planning",
+      "committee": "MSD 17"
+    },
+    {
+      "number": "124",
+      "isNumber": "IS 2746 : 2023",
+      "title": "SPRING BOARDS \u2014 SPECIFICATION",
+      "committee": "PGD 41"
+    },
+    {
+      "number": "125",
+      "isNumber": "IS 10072 : 1982",
+      "title": "Specification for plastics beakers",
+      "committee": "CHD 10"
+    },
+    {
+      "number": "126",
+      "isNumber": "IS 4225 : 2021",
+      "title": "Steel \u2014 Ultrasonic Testing of Steel Flat Products of Thickness Equal to or Greater than 6 mm (Third Revision)",
+      "committee": "MTD 21"
+    },
+    {
+      "number": "127",
+      "isNumber": "IS 16672 : Part 2 : 2017",
+      "title": "Refrigerated display cabinets: Part 2 classification, requirements and test conditions",
+      "committee": "MED 03"
+    },
+    {
+      "number": "128",
+      "isNumber": "IS 9815 : Part 1 : 1994",
+      "title": "Servo - Motor operated automatic line voltage correctors: Part 1 correctors for single - Phase applications - Specification (Second Revision)",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "129",
+      "isNumber": "IS 16923 : Part 3 : 2023",
+      "title": "THERMOCOUPLES - PART 3: EXTENSION AND COMPENSATING CABLES - TOLERANCES AND IDENTIFICATION SYSTEM",
+      "committee": "ETD 18"
+    },
+    {
+      "number": "130",
+      "isNumber": "IS 16923 : Part 3 : 2023",
+      "title": "THERMOCOUPLES - PART 3: EXTENSION AND COMPENSATING CABLES - TOLERANCES AND IDENTIFICATION SYSTEM",
+      "committee": "ETD 18"
+    },
+    {
+      "number": "131",
+      "isNumber": "IS 4250 : 1980",
+      "title": "Specification for domestic electric food - Mixers (Liquidizers And Grinders) (First Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "132",
+      "isNumber": "IS 996 : 2009",
+      "title": "Single phase a.c. induction motors for general purpose (Third Revision)",
+      "committee": "ETD 15"
+    },
+    {
+      "number": "133",
+      "isNumber": "IS 6365 : 1971",
+      "title": "Laboratory Electric Ovens",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "134",
+      "isNumber": "IS 9122 : 2023",
+      "title": "Inspection Gauges for Checking Type 2 Taper Thread of Gas Cylinder Valves, Taper 3 in 25 \u2014 Specification (Second Revision)",
+      "committee": "MED 16"
+    }
+  ],
+  "clauses": [],
+  "qco": {
+    "qcoId": "QCO-APPLIANCE-2020",
+    "title": "Electrical Appliances and Equipment (Quality Control) Order, 2020",
+    "product": "Household and similar electrical appliances",
+    "scope": "Mandatory BIS certification for household electrical appliances covered under IS 302 before they are manufactured, stored for sale, sold, or distributed in India under Ministry of Commerce and Industry Gazette Order.",
+    "effectiveDate": "2020-11-13",
+    "status": "applicable",
+    "exemptions": [
+      "Appliances manufactured exclusively for export are exempt from this Order."
+    ],
+    "requirements": [
+      "Valid BIS Licence (ISI mark) under IS 302 before manufacture, sale, or import.",
+      "Registration and testing at a BIS-recognised laboratory against general and specific safety requirements.",
+      "Display of the Standard Mark on every unit placed in the market."
+    ],
+    "sourceUrl": "https://www.services.bis.gov.in",
+    "sourceType": "gazette_notification"
+  }
+}

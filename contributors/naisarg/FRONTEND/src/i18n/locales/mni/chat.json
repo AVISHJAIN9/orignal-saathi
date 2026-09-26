@@ -1,0 +1,58 @@
+{
+  "title": "SAATHI - ꯚꯥꯔꯇꯤꯌ ꯃꯥꯅꯛꯀꯤ ꯃꯇꯥꯡꯗ ꯍꯪꯕꯤꯌꯨ",
+  "logo": "SAATHI",
+  "inputPlaceholder": "ইন্দিয়ান স্তেন্দার্দকী মরমদা হংবিয়ু...",
+  "sendAriaLabel": "ꯃꯦꯁꯦꯖ ꯊꯥꯗꯕꯤꯌꯨ",
+  "thinking": "SAATHI খল্লি...",
+  "backToHome": "ꯍꯣꯃꯗ ꯍꯜꯂꯛꯆꯤꯌꯨ",
+  "nav": {
+    "standardsBrowser": "ꯃꯥꯅꯛ ব্রাউজর",
+    "adminPanel": "ꯑꯦꯗꯃꯤꯟ ꯄꯦꯅꯦꯜ",
+    "documentManagement": "ꯗꯣꯀꯨꯃꯦꯟꯠ ꯃꯦꯅꯦꯖꯃꯦꯟꯠ",
+    "conformityCheck": "ꯀꯟꯐꯣꯔꯃꯤꯇꯤ ꯆꯦꯛ",
+    "notifications": "ꯅꯣꯇꯤꯐꯤꯀꯦꯁꯟꯁꯤꯡ",
+    "regulatoryRadar": "ꯔꯦꯒꯨꯂꯦꯇꯔꯤ ꯔꯦꯗꯥꯔ",
+    "intelFeed": "ꯏꯟꯇꯦꯜ ꯐꯤꯗ",
+    "documentCortex": "ꯗꯣꯀꯨꯃꯦꯟꯠ ꯀꯣꯔꯇꯦꯛꯁ",
+    "sectionCore": "মুখ্য",
+    "sectionLifecycle": "প্রমাণন জী঵নচক্র",
+    "sectionTools": "অনুপালন উপকরণ",
+    "sectionAdmin": "঵্য঵স্থাপক",
+    "retrievalQuality": "পুনর্প্রাপ্তি গুণ঵ত্তা",
+    "newRegistration": "নযা পংজীকরণ",
+    "officerVisits": "অধিকারী যাত্রাএং",
+    "documentCorrections": "দস্তা঵েজ় সুধার",
+    "appealsDisputes": "অপীল ঔর ঵ি঵াদ",
+    "businessAccount": "঵্য঵সায খাতা",
+    "certificates": "প্রমাণপত্র",
+    "renewalReminders": "ন঵ীনীকরণ অনুস্মারক",
+    "complianceCalendar": "অনুপালন কৈলেংডর",
+    "factoryAudits": "ফ়ৈক্টরী ঑ডিট",
+    "recallsAlerts": "রিক৉ল ঔর অলর্ট",
+    "licenseActions": "লাইসেংস কার্র঵াঈ",
+    "feeInvoices": "শুল্ক চালান ঔর রসীদেং",
+    "manufacturingLocations": "঵িনির্মাণ স্থান",
+    "schemeSelector": "যোজনা চযনকর্তা",
+    "complianceChain": "অনুপালন শ্রৃংখলা",
+    "laboratoryMatcher": "প্রযোগশালা মিলানকর্তা",
+    "regulatoryAlerts": "নিযামক অলর্ট",
+    "exploreFeatures": "সু঵িধাএং দেখেং"
+  },
+  "placeholder": {
+    "comingSoon": "ꯃꯁꯤ ꯄ্ꯂꯦꯁꯍꯣꯜꯗꯔ ꯅꯤ — ꯃꯄꯨꯡ ꯐꯥꯎꯕ ꯐাংꯛꯁꯅ ꯃꯊꯪꯗ ꯂꯥꯀ্ꯀꯅꯤ।",
+    "roleRequired": "ꯅꯍꯥꯛꯀꯤ ꯍꯧꯖꯤꯛꯀꯤ ꯑꯦꯀꯥꯎꯟꯇꯅ ꯃꯐꯝ ꯑꯁꯤ ꯌꯦꯡꯕ ꯉꯝꯗꯦ।"
+  },
+  "clearChat": {
+    "emptyTitle": "ꯑꯅꯧꯕ ꯋꯥꯔꯤ",
+    "emptyDescription": "ꯑꯃꯨꯛ ꯍꯧꯅꯕꯒꯤꯗꯃꯛ ꯚꯥꯔꯇꯤꯌ ꯃꯥꯅꯛꯀꯤ ꯃꯇꯥꯡꯗ SAATHI-ꯗ ꯍꯪꯕꯤꯌꯨ।"
+  },
+  "starterPrompts": [
+    "পৈকেজ্ড পেযজল কে লিএ কৌন-সী লেবলিংগ আ঵শ্যক হৈ?",
+    "LED লাইটিংগ কে লিএ BIS লাইসেংস কে লিএ আ঵েদন কৈসে করেং?",
+    "ISI প্রমাণপত্র কী ঵ৈধতা অ঵ধি ক্যা হৈ?",
+    "ঘরেলূ উপকরণোং কী ঵িদ্যুত সুরক্ষা কিস মানক কে অংতর্গত আতী হৈ?"
+  ],
+  "newChat": {
+    "trigger": "নঈ চৈট"
+  }
+}

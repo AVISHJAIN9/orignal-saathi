@@ -1,0 +1,50 @@
+{
+  "eyebrow": "S24 · वैधानिक चलन आणि GST पावती",
+  "heading": "शुल्क चलन आणि GST-अनुरूप पावत्या",
+  "subheading": "वैधानिक शुल्क वेळापत्रक, तपशीलवार GST विभाजन व्यवस्थापित करा आणि पावत्या डाउनलोड करा.",
+  "metrics": {
+    "totalInvoices": "एकूण चलन",
+    "paidAmount": "एकूण भरणा केलेली रक्कम",
+    "pendingAmount": "प्रप्रप्रलंबित वैधानिक देणी",
+    "paidCount": "भरणा झालेल्या पावत्या",
+    "pendingCount": "प्रप्रप्रलंबित चलन"
+  },
+  "status": {
+    "paid": "भरणा झाला व जुळवले",
+    "pending": "भरणा प्रप्रप्रलंबित",
+    "overdue": "भरणा थकीत"
+  },
+  "categories": {
+    "applicationGrant": "अर्ज मंजुरी शुल्क",
+    "annualMarkingFee": "वार्षिक किमान अंकन शुल्क",
+    "factorySurveillance": "कारखाना देखरेख तपासणी शुल्क",
+    "labTesting": "प्रयोगशाळा चाचणी अधिभार"
+  },
+  "labels": {
+    "invoiceNumber": "चलन क्रमांक",
+    "invoiceDate": "चलन दिनांक",
+    "dueDate": "भरणा देय तारीख",
+    "billedTo": "बिल प्राप्तकर्ता (अर्जदार)",
+    "issuingAuthority": "जारीकर्ता प्राधिकरण",
+    "sacCode": "SAC कोड",
+    "description": "बाब वर्णन",
+    "rate": "एकक दर",
+    "amount": "करपात्र रक्कम",
+    "subtotal": "उप-बेरीज (करपात्र)",
+    "cgst": "CGST (9%)",
+    "sgst": "SGST (9%)",
+    "igst": "IGST (18%)",
+    "total": "एकूण देय रक्कम",
+    "receiptTitle": "SAATHI प्रात्यक्षिक भरणा पावती",
+    "receiptNumber": "पावती क्रमांक",
+    "receiptDate": "भरणा दिनांक व वेळ",
+    "paymentMode": "प्रेषण पद्धत",
+    "utr": "व्यवहार संदर्भ / UTR",
+    "amountInWords": "शब्दांत रक्कम",
+    "viewInvoice": "चलन पहा",
+    "viewReceipt": "पावती पहा",
+    "downloadPdf": "प्रिंट / PDF डाउनलोड करा",
+    "settleDemo": "भरणा करा"
+  },
+  "disclaimer": "SAATHI प्रात्यक्षिक चलन — केवळ SIH 2026 मूल्यांकनासाठी — अधिकृत सरकारी कर चलन नाही"
+}

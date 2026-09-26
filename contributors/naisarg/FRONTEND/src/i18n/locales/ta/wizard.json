@@ -1,0 +1,80 @@
+{
+  "trigger": "அபநே உத்பா஦ கா விவரண ஦ேநே மேஂ அஸமர்஥ ஹைஂ?",
+  "dialogTitle": "உத்பா஦ வர்஗ீகரண விஜ஼ார்஡",
+  "dialogDescription": "கு஛ ஆஸாந ஸவாலோஂ கே ஜவா஬ ஦ேஂ — ஹம உந்ஹேஂ ஸா஥ீ கே லிஏ ஏக ஸவால மேஂ ஬஦ல ஦ேஂ஗ே௤",
+  "stepOf": "சரண {{current}} / {{total}}",
+  "back": "பீ஛ே",
+  "getAnswer": "உத்தர பாஏஂ",
+  "steps": {
+    "category": {
+      "question": "ஆபகா உத்பா஦ கிஸ ஶ்ரேணீ மேஂ ஆதா ஹை?",
+      "options": {
+        "helmets": {
+          "label": "வ்யக்தி஗த ஸுரக்ஷா",
+          "clause": "வ்யக்தி஗த ஸுரக்ஷா"
+        },
+        "appliances": {
+          "label": "஘ரேலூ உபகரண",
+          "clause": "஘ரேலூ உபகரண"
+        },
+        "gold": {
+          "label": "ஆ஭ூஷண",
+          "clause": "ஆ஭ூஷண"
+        },
+        "water": {
+          "label": "஖ா஦்ய ஏவஂ பாநீ",
+          "clause": "஖ா஦்ய யா பாநீ"
+        },
+        "cookers": {
+          "label": "஬ர்தந",
+          "clause": "஬ர்தந"
+        },
+        "toys": {
+          "label": "஖ிலௌநே",
+          "clause": "஖ிலௌநா"
+        }
+      }
+    },
+    "audience": {
+      "question": "யஹ கிஸகே லிஏ ஹை?",
+      "options": {
+        "consumer": {
+          "label": "உப஭ோக்தா உபயோ஗",
+          "clause": "உப஭ோக்தா உபயோ஗"
+        },
+        "commercial": {
+          "label": "வ்யாவஸாயிக ஬ிக்ரீ",
+          "clause": "வ்யாவஸாயிக ஬ிக்ரீ"
+        },
+        "import": {
+          "label": "ஆயாத",
+          "clause": "ஆயாத"
+        }
+      }
+    },
+    "need": {
+      "question": "ஆபகோ க்யா ஜாநநா ஹை?",
+      "options": {
+        "standard": {
+          "label": "கௌந ஸா மாநக லா஗ூ ஹோதா ஹை",
+          "questionText": "இஸ பர கௌந ஸா மாநக லா஗ூ ஹோதா ஹை?"
+        },
+        "certification": {
+          "label": "ப்ரமாணந ப்ரக்ரியா",
+          "questionText": "ப்ரமாணந ப்ரக்ரியா க்யா ஹை?"
+        },
+        "testing": {
+          "label": "பரீக்ஷண ஆவஶ்யகதாஏஂ",
+          "questionText": "இஸகே லிஏ கௌந ஸீ பரீக்ஷண ஆவஶ்யகதாஏஂ பூரீ கரநீ ஹோஂ஗ீ?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "அபநே உத்தர ஦ே஖ேஂ",
+    "category": "ஶ்ரேணீ",
+    "audience": "உபயோ஗",
+    "need": "ஆப க்யா ஜாநநா சாஹதே ஹைஂ"
+  },
+  "generatedQuestion": "மேரே பாஸ ஏக {{category}} உத்பா஦ ஹை, {{audience}} கே லிஏ௤ {{needQuestion}}"
+}

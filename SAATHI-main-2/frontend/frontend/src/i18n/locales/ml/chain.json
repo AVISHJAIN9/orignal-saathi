@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — അനുപാലന ഑ര്കേസ്ട്രേശന",
+  "heading": "അനുപാലന ശ്രൃംഖലാ (Compliance Chain)",
+  "subheading": "ഉത്പാദ വര്ഗീകരണ സേ പ്രമാണന തക ആപകീ സംപൂര്ണ ബീആഈഏസ അനുപാലന യാത്രാ൤",
+  "productContext": {
+    "product": "ഉത്പാദ",
+    "standard": "മാനക (Standard)",
+    "status": "വര്തമാന സ്ഥിതി",
+    "selectProduct": "ഉത്പാദ സംദര്ഭ ചുനേം",
+    "customQuery": "കസ്ടമ ഉത്പാദ ഖോജേം"
+  },
+  "currentPosition": {
+    "title": "വര്തമാന സ്ഥിതി",
+    "completedHeading": "ആപനേ പൂരാ കര ലിയാ ഹൈ:",
+    "nextRequiredHeading": "ആപകീ അഗലീ ആവശ്യക കാര്രവാഈ ഹൈ:",
+    "noCompletedYet": "അഭീ തക കോഈ ചരണ പൂരാ നഹീം ഹുആ ഹൈ൤",
+    "continueAction": "യാത്രാ ജാരീ രഖേം"
+  },
+  "nextBestAction": {
+    "title": "സര്വോത്തമ അഗലീ കാര്രവാഈ (Next Best Action)",
+    "takeAction": "കാര്രവാഈ കരേം",
+    "viewDetails": "വിവരണ ദേഖേം"
+  },
+  "chainJourney": {
+    "title": "അനുപാലന യാത്രാ",
+    "subtitle": "അനിവാര്യ ബീആഈഏസ നിയാമക ആവശ്യകതാഓം കീ ചരണ-ദര-ചരണ പ്രഗതി",
+    "viewStep": "ദേഖേം",
+    "evidenceVerified": "സാക്ഷ്യ സത്യാപിത",
+    "documentsCount": "ദസ്താവേജ഼: {{available}} / {{required}} അപലോഡ കിഏ ഗഏ ({{missing}} ഗായബ)",
+    "sourceLabel": "സ്രോത:"
+  },
+  "regulatoryOverview": {
+    "title": "നിയാമക പദാനുക്രമ (Regulatory Hierarchy)",
+    "subtitle": "ബൈകഏംഡ ദ്വാരാ സത്യാപിത ആധികാരിക മാനക, QCO ഔര യോജനാ സംബംധ",
+    "standardLabel": "ഭാരതീയ മാനക (IS)",
+    "qcoLabel": "QCO സ്ഥിതി",
+    "schemeLabel": "ബീആഈഏസ യോജനാ",
+    "viewSource": "സ്രോത ദേഖേം",
+    "unverifiedSource": "സര്വര ദ്വാരാ സ്രോത വിവരണ അസത്യാപിത"
+  },
+  "states": {
+    "completed": "പൂര്ണ (Completed)",
+    "actionRequired": "കാര്രവാഈ ആവശ്യക (Action Required)",
+    "blocked": "അവരുദ്ധ (Blocked)",
+    "notStarted": "ശുരൂ നഹീം ഹുആ (Not Started)",
+    "notApplicable": "ലാഗൂ നഹീം (Not Applicable)",
+    "unavailable": "നിര്ധാരിത കരനേ മേം അസമര്ഥ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "വര്ഗീകരണ",
+    "standard": "ഭാരതീയ മാനക",
+    "qco": "ഗുണവത്താ നിയംത്രണ ആദേശ (QCO)",
+    "scheme": "ബീആഈഏസ യോജനാ",
+    "requirements": "തകനീകീ ആവശ്യകതാഏം",
+    "testing": "ഉത്പാദ പരീക്ഷണ",
+    "laboratory": "പ്രയോഗശാലാ മിലാന",
+    "documents": "അനുപാലന തിജോരീ / ദസ്താവേജ഼",
+    "compliance": "അനുപാലന അംതര",
+    "readiness": "ആവേദന തൈയാരീ",
+    "certification": "ബീആഈഏസ പ്രമാണന",
+    "radar": "നിയാമക നിഗരാനീ"
+  },
+  "errors": {
+    "title": "അഭീ അനുപാലന യാത്രാ ലോഡ നഹീം കീ ജാ സകീ",
+    "description": "ഹമ അനുപാലന സേവാ സേ നഹീം ജുഡ഼ സകേ൤ കൃപയാ പുനഃ പ്രയാസ കരേം൤",
+    "retry": "പുനഃ പ്രയാസ കരേം",
+    "emptyTitle": "കോഈ അനുപാലന യാത്രാ നഹീം മിലീ",
+    "emptyDescription": "അനുപാലന ശ്രൃംഖലാ പ്രസ്തുത കരനേ കേ ലിഏ കോഈ ഉത്പാദ സംദര്ഭ യാ സത്ര പൈരാമീടര നഹീം മിലേ൤"
+  }
+}

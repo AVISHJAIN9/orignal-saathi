@@ -1,0 +1,89 @@
+---
+# NGINX Ingress for SAATHI
+# Requires: ingress-nginx controller deployed in the cluster
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: saathi-ingress
+  namespace: saathi-prod
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    # Rate limiting at ingress layer (supplementary to P1 ThrottlerGuard)
+    nginx.ingress.kubernetes.io/limit-rps: "100"
+    nginx.ingress.kubernetes.io/limit-connections: "50"
+    # TLS redirect
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    # Timeout: RAG can take up to 30s
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "35"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "35"
+    # SSE support
+    nginx.ingress.kubernetes.io/proxy-buffering: "off"
+    nginx.ingress.kubernetes.io/proxy-http-version: "1.1"
+    # CORS handled by services; don't double-apply here
+    nginx.ingress.kubernetes.io/enable-cors: "false"
+    # TLS cert from cert-manager (Let's Encrypt)
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+spec:
+  tls:
+    - hosts:
+        - api.saathi.bis.gov.in
+      secretName: saathi-tls-cert
+  rules:
+    - host: api.saathi.bis.gov.in
+      http:
+        paths:
+          # P1 Auth Service (all auth routes)
+          - path: /api/v1/auth
+            pathType: Prefix
+            backend:
+              service:
+                name: p1-auth
+                port:
+                  number: 80
+
+          # D1 Chat Gateway (main RAG chat + SSE streaming)
+          - path: /api/v1/chat
+            pathType: Prefix
+            backend:
+              service:
+                name: d1-chat
+                port:
+                  number: 80
+
+          # D5 Admin Panel
+          - path: /api/v1/admin
+            pathType: Prefix
+            backend:
+              service:
+                name: d5-admin
+                port:
+                  number: 80
+
+          # M1 Ingestion (admin-only; should be further protected by JWT)
+          - path: /api/v1/ingestion
+            pathType: Prefix
+            backend:
+              service:
+                name: m1-ingestion
+                port:
+                  number: 80
+
+          # WhatsApp Webhook
+          - path: /webhook/whatsapp
+            pathType: Prefix
+            backend:
+              service:
+                name: x6-whatsapp
+                port:
+                  number: 80
+
+          # Health check
+          - path: /health
+            pathType: Exact
+            backend:
+              service:
+                name: d1-chat
+                port:
+                  number: 80

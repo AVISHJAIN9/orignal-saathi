@@ -1,0 +1,43 @@
+{
+  "eyebrow": "Compliance Vault",
+  "heading": "Your Saved Standards & Documents",
+  "subheading": "Standards you've bookmarked from the catalogue and documents you've saved from Document Cortex, all in one place.",
+  "backToChat": "Back to chat",
+  "searchPlaceholder": "Search saved items...",
+  "resultCount_one": "{{count}} saved item",
+  "resultCount_other": "{{count}} saved items",
+  "filters": {
+    "all": "All",
+    "standards": "Standards",
+    "documents": "Documents"
+  },
+  "item": {
+    "standardBadge": "Standard",
+    "documentBadge": "Document",
+    "savedOn": "Saved {{date}}",
+    "remove": "Remove from Vault",
+    "removeAriaLabel": "Remove {{title}} from Vault",
+    "viewStandard": "View standard",
+    "viewInCortex": "Open in Document Cortex"
+  },
+  "detail": {
+    "back": "Back",
+    "standardNumberLabel": "Standard Number",
+    "categoryLabel": "Category",
+    "fileNameLabel": "File name",
+    "savedLabel": "Saved"
+  },
+  "empty": {
+    "title": "Nothing saved yet",
+    "description": "Bookmark a standard from the catalogue or save a document you've analyzed in Document Cortex — saved items show up here.",
+    "browseStandards": "Browse Standards",
+    "openCortex": "Open Document Cortex"
+  },
+  "actions": {
+    "save": "Save to Vault",
+    "saved": "Saved to Vault",
+    "saveAriaLabel": "Save {{title}} to Vault",
+    "savedAriaLabel": "{{title}} is saved — remove from Vault"
+  },
+  "disclaimer": "Saved items live only in this browser (not a real account or backend) — clearing site data clears your Vault too."
+}

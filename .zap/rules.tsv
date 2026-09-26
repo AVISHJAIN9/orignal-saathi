@@ -1,0 +1,9 @@
+# OWASP ZAP Rules Configuration for SAATHI Gateway
+# RuleId	Threshold	Comment
+10202	IGNORE	Absence of Anti-CSRF Tokens - false positive on stateless Bearer JWT APIs
+10096	WARN	Timestamp Disclosure - acceptable on internal standard telemetry endpoints
+40018	FAIL	SQL Injection - high severity blocking failure
+40012	FAIL	XSS Reflected - high severity blocking failure
+40014	FAIL	XSS Stored - high severity blocking failure
+40026	FAIL	Cross Site Scripting (DOM Based) - high severity blocking failure
+40034	FAIL	Remote Code Execution / Command Injection - high severity blocking failure

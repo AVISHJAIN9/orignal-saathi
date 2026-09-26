@@ -1,0 +1,103 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified).",
+  "title": "SAATHI - भारतीय मापदण्डहरूको बारेमा सोध्नुहोस्",
+  "logo": "SAATHI",
+  "inputPlaceholder": "भारतीय मापदण्डहरूको बारेमा सोध्नुहोस्...",
+  "sendAriaLabel": "सन्देश पठाउनुहोस्",
+  "thinking": "SAATHI सोच्दै छ…",
+  "backToHome": "गृहपृष्ठमा फर्कनुहोस्",
+  "nav": {
+    "dashboard": "ड्यासबोर्ड",
+    "knowledgeNexus": "ज्ञान केन्द्र",
+    "vault": "अनुपालन भल्ट",
+    "grievance": "गुनासो र सहमति",
+    "standardsBrowser": "मापदण्ड ब्राउजर",
+    "classification": "उत्पादननन वर्गीकरण",
+    "adminPanel": "प्रशासन प्यानल",
+    "documentManagement": "कागजात व्यवस्थापन",
+    "conformityCheck": "अनुरूपता जाँच",
+    "newApplication": "नयाँँँ आवेदन",
+    "notifications": "सूचनाहरू",
+    "regulatoryRadar": "नियामक रडार",
+    "intelFeed": "जानकारी फिड",
+    "annualRenewal": "वार्षिक नवीकरण",
+    "documentCortex": "कागजात कोर्टेक्स",
+    "sampleTracker": "नमूना परीक्षण ट्र्याकर",
+    "sectionCore": "मुख्य",
+    "sectionLifecycle": "प्रमाणन जीवनचक्र",
+    "sectionTools": "अनुपालन उपकरण",
+    "sectionAdmin": "व्यवस्थापक",
+    "retrievalQuality": "पुनर्प्राप्ति गुणवत्ता",
+    "newRegistration": "नया पंजीकरण",
+    "officerVisits": "अधिकारी यात्राएं",
+    "documentCorrections": "दस्तावेज़ सुधार",
+    "appealsDisputes": "अपील और विवाद",
+    "businessAccount": "व्यवसाय खाता",
+    "certificates": "प्रमाणपत्र",
+    "renewalReminders": "नवीनीकरण अनुस्मारक",
+    "complianceCalendar": "अनुपालन कैलेंडर",
+    "factoryAudits": "फ़ैक्टरी ऑडिट",
+    "recallsAlerts": "रिकॉल और अलर्ट",
+    "licenseActions": "लाइसेंस कार्रवाई",
+    "feeInvoices": "शुल्क चालान और रसीदें",
+    "manufacturingLocations": "विनिर्माण स्थान",
+    "schemeSelector": "योजना चयनकर्ता",
+    "complianceChain": "अनुपालन श्रृंखला",
+    "laboratoryMatcher": "प्रयोगशाला मिलानकर्ता",
+    "regulatoryAlerts": "नियामक अलर्ट",
+    "exploreFeatures": "सुविधाएं देखें"
+  },
+  "placeholder": {
+    "comingSoon": "यो एक प्लेसहोल्डर हो — सम्पन्न कार्यक्षमता चाँडै आउँदैछ।",
+    "roleRequired": "तपाईंको हालको खातामा यो पृष्ठमा पहुँच छैन — साइन आउट गरी अर्को खाता प्रकारले साइन इन गरी यसलाई हेर्नुहोस्।"
+  },
+  "profile": {
+    "open": "प्रोफाइल अनुकूलन खोल्नुहोस्",
+    "editTooltip": "प्रोफाइल सम्पादन गर्नुहोस्",
+    "title": "प्रोफाइल अनुकूलन",
+    "description": "यस उपकरणमा तपाईंको Saathi कार्यक्षेत्र कस्तो देखिन्छ भन्ने कुरा अनुकूलित गर्नुहोस्।",
+    "nameLabel": "प्रदर्शन नाम",
+    "focusLabel": "फोकस लेबल",
+    "tones": {
+      "navy": "नेवी अवतार टोन",
+      "sage": "सेज अवतार टोन",
+      "clay": "क्ले अवतार टोन"
+    },
+    "cancel": "रद्द गर्नुहोस्",
+    "save": "परिवर्तनहरू सुरक्षित गर्नुहोस्"
+  },
+  "sidebar": {
+    "navigation": "नेभिगेसन"
+  },
+  "clearChat": {
+    "emptyTitle": "नयाँँँ कुराकानी",
+    "emptyDescription": "फेरि सुरु गर्न कुनै भारतीय मापदण्डको बारेमा SAATHI लाई सोध्नुहोस्।"
+  },
+  "backgroundSettings": {
+    "open": "3D पृष्ठभूमि एनिमेसन सेटिङहरू खोल्नुहोस्",
+    "title": "3D पृष्ठभूमि",
+    "animated": "एनिमेटेड",
+    "animatedDescription": "उड्ने गति र कर्सर प्यारालाक्स",
+    "paused": "रोकिएको",
+    "pausedDescription": "गतिविना दृश्य देखिने बनाइराख्नुहोस्",
+    "off": "बन्द",
+    "offDescription": "सजावटी 3D दृश्य लुकाउनुहोस्",
+    "hint": "हल्का मोडले मोबाइलमा ब्याट्री जोगाउन मद्दत गर्छ।"
+  },
+  "feedback": {
+    "helpfulAriaLabel": "यो जवाफलाई उपयोगी भनी चिन्ह लगाउनुहोस्",
+    "notHelpfulAriaLabel": "यो जवाफलाई उपयोगी नभएको भनी चिन्ह लगाउनुहोस्",
+    "commentPrompt": "यो जवाफमा के गलत थियो?",
+    "submit": "पेश गर्नुहोस्",
+    "thanks": "प्रतिक्रियाको लागि धन्यवाद।"
+  },
+  "starterPrompts": [
+    "पैकेज्ड पेयजल के लिए कौन-सी लेबलिंग आवश्यक है?",
+    "LED लाइटिंग के लिए BIS लाइसेंस के लिए आवेदन कैसे करें?",
+    "ISI प्रमाणपत्र की वैधता अवधि क्या है?",
+    "घरेलू उपकरणों की विद्युत सुरक्षा किस मानक के अंतर्गत आती है?"
+  ],
+  "newChat": {
+    "trigger": "नई चैट"
+  }
+}

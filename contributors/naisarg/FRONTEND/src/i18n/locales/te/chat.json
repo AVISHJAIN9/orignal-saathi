@@ -1,0 +1,40 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified) — scope limited to the empty-conversation state only; everything else falls back to English.",
+  "clearChat": {
+    "emptyTitle": "కొత్త సంభాషణ",
+    "emptyDescription": "మళ్లీ ప్రారంభించడానికి ఒక భారతీయ ప్రమాణం గురించి SAATHIని అడగండి."
+  },
+  "nav": {
+    "sectionCore": "ముఖ్య",
+    "sectionLifecycle": "ప్రమాణన జీవనచక్ర",
+    "sectionTools": "అనుపాలన ఉపకరణ",
+    "sectionAdmin": "వ్యవస్థాపక",
+    "standardsBrowser": "మానక బ్రాఉజ఼ర",
+    "adminPanel": "వ్యవస్థాపక పైనల",
+    "documentManagement": "దస్తావేజ఼ ప్రబంధన",
+    "retrievalQuality": "పునర్ప్రాప్తి గుణవత్తా",
+    "conformityCheck": "అనురూపతా జాంచ",
+    "notifications": "సూచనాఏం",
+    "regulatoryRadar": "నియామక రడార",
+    "intelFeed": "ఇంటేల ఫీడ",
+    "documentCortex": "దస్తావేజ఼ క౉ర్టేక్స",
+    "newRegistration": "నయా పంజీకరణ",
+    "officerVisits": "అధికారీ యాత్రాఏం",
+    "documentCorrections": "దస్తావేజ఼ సుధార",
+    "appealsDisputes": "అపీల ఔర వివాద",
+    "businessAccount": "వ్యవసాయ ఖాతా",
+    "certificates": "ప్రమాణపత్ర",
+    "renewalReminders": "నవీనీకరణ అనుస్మారక",
+    "complianceCalendar": "అనుపాలన కైలేండర",
+    "factoryAudits": "ఫ఼ైక్టరీ ఑డిట",
+    "recallsAlerts": "రిక౉ల ఔర అలర్ట",
+    "licenseActions": "లాఇసేంస కార్రవాఈ",
+    "feeInvoices": "శుల్క చాలాన ఔర రసీదేం",
+    "manufacturingLocations": "వినిర్మాణ స్థాన",
+    "schemeSelector": "యోజనా చయనకర్తా",
+    "complianceChain": "అనుపాలన శ్రృంఖలా",
+    "laboratoryMatcher": "ప్రయోగశాలా మిలానకర్తా",
+    "regulatoryAlerts": "నియామక అలర్ట",
+    "exploreFeatures": "సువిధాఏం దేఖేం"
+  }
+}

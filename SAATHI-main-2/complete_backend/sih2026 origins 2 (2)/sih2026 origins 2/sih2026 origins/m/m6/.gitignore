@@ -1,0 +1,21 @@
+# Local environment secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Dependencies & Build artifacts
+node_modules/
+dist/
+build/
+
+# Python virtual environment & caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# System files
+.DS_Store

@@ -1,0 +1,95 @@
+{
+  "eyebrow": "஡ைஶ஬ோர்஡ · ப்ரோடோடாஇப",
+  "greeting": "வாபஸீ பர ஸ்வா஗த ஹை, {{name}}",
+  "subheading": "ஆபகே ஆவே஦நோஂ, ஸமய-ஸீமாஓஂ ஔர லஂ஬ித கார்யோஂ கா வ்யக்தி஗த ஦௃ஶ்ய — யஹ உ஦ாஹரணாத்மக ம௉க ஡ேடா பர ஆ஧ாரித ஏக ஡ேமோ ஦௃ஶ்ய ஹை, ந கி லாஇவ BIS ஫஼ீ஡௤",
+  "loading": "ஆபகா ஡ைஶ஬ோர்஡ லோ஡ ஹோ ரஹா ஹை…",
+  "error": {
+    "heading": "ஆபகா ஡ைஶ஬ோர்஡ லோ஡ நஹீஂ ஹோ ஸகா",
+    "retry": "஫ிர ஸே ப்ரயாஸ கரேஂ"
+  },
+  "empty": {
+    "heading": "ஆப பூரீ தரஹ அப஡ேட ஹைஂ",
+    "body": "அ஭ீ ஆபகே பாஸ கோஈ ஸக்ரிய ஆவே஦ந, ஸமய-ஸீமா யா லஂ஬ித கார்ய நஹீஂ ஹை௤"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} உபல஬்஧ நஹீஂ ஹை",
+    "retry": "புநஃ ப்ரயாஸ கரேஂ"
+  },
+  "sections": {
+    "progressSummary": "ஆவே஦ந ஸ்஥ிதி",
+    "nextDeadline": "அ஗லீ ஸமய-ஸீமா",
+    "actionRequired": "ஆவஶ்யக கார்ரவாஈ",
+    "upcomingDeadlines": "ஆ஗ாமீ ஸமய-ஸீமாஏ஁",
+    "calendar": "கைலேஂ஡ர",
+    "activeApplications": "ஸக்ரிய ஆவே஦ந",
+    "recentActivity": "ஹால கீ ஗திவி஧ி",
+    "regulatoryAlerts": "நியாமக சேதாவநியா஁",
+    "paymentAlerts": "஭ு஗தாந சேதாவநியா஁",
+    "sampleTesting": "நமூநா பரீக்ஷண ஸ்஥ிதி"
+  },
+  "progressSummary": {
+    "completed": "பூர்ண",
+    "inProgress": "ப்ர஗தி மேஂ",
+    "pending": "ஸமீக்ஷா லஂ஬ித"
+  },
+  "urgency": {
+    "normal": "ஸாமாந்ய",
+    "approaching": "நஜ஼஦ீக ஆ ரஹா ஹை",
+    "urgent": "அத்யாவஶ்யக",
+    "overdue": "ஸமய-ஸீமா பார",
+    "dueInDays_one": "{{count}} ஦ிந மேஂ ஦ேய",
+    "dueInDays_other": "{{count}} ஦ிநோஂ மேஂ ஦ேய",
+    "dueToday": "ஆஜ ஦ேய",
+    "overdueByDays_one": "{{count}} ஦ிந கீ ஦ேரீ",
+    "overdueByDays_other": "{{count}} ஦ிநோஂ கீ ஦ேரீ"
+  },
+  "nextDeadline": {
+    "empty": "கோஈ ஆ஗ாமீ ஸமய-ஸீமா நஹீஂ௤",
+    "viewApplication": "ஆவே஦ந ஦ே஖ேஂ"
+  },
+  "actionRequired": {
+    "empty": "கோஈ கார்ரவாஈ ஆவஶ்யக நஹீஂ — ஆப பூரீ தரஹ அப஡ேட ஹைஂ௤",
+    "open": "஖ோலேஂ"
+  },
+  "upcomingDeadlines": {
+    "empty": "கோஈ ஆ஗ாமீ ஸமய-ஸீமா நஹீஂ௤",
+    "addToCalendar": "கைலேஂ஡ர மேஂ ஜோ஡஼ேஂ"
+  },
+  "calendar": {
+    "hint": "ஜிந ஦ிநோஂ மேஂ ஸமய-ஸீமா ஹை வே சிஹ்நித ஹைஂ — ஦ே஖நே கே லிஏ ஏக சுநேஂ, யா நீசே ஸ஬ கு஛ நிர்யாத கரேஂ௤",
+    "exportAll": "கைலேஂ஡ர மேஂ ஸ஬ நிர்யாத கரேஂ (.ics)",
+    "addOne": "கைலேஂ஡ர மேஂ ஜோ஡஼ேஂ",
+    "empty": "கைலேஂ஡ர பர ஦ி஖ாநே கே லிஏ கோஈ ஸமய-ஸீமா நஹீஂ௤",
+    "noneOnDay": "இஸ ஦ிந கோஈ ஸமய-ஸீமா நஹீஂ௤"
+  },
+  "activeApplications": {
+    "empty": "அ஭ீ தக கோஈ ஸக்ரிய ஆவே஦ந நஹீஂ௤",
+    "startOne": "நயா ஆவே஦ந ஶுரூ கரேஂ",
+    "status": {
+      "draft": "஡்ரா஫஼்ட",
+      "submitted": "ஜமா கியா ஗யா"
+    },
+    "readinessLabel": "தையாரீ",
+    "readinessStatus": {
+      "ready": "ஜமா கரநே கே லிஏ தையார",
+      "ready_with_non_blocking": "தையார — ஗ைர-அவரோ஧க ம஦ ஶேஷ ஹைஂ",
+      "not_ready": "தையார நஹீஂ",
+      "insufficient_evidence": "அபர்யாப்த ஸாக்ஷ்ய"
+    },
+    "blockersLabel_one": "{{count}} அவரோ஧க ஸமஸ்யா",
+    "blockersLabel_other": "{{count}} அவரோ஧க ஸமஸ்யாஏ஁",
+    "viewStandard": "மாநக ஦ே஖ேஂ"
+  },
+  "recentActivity": {
+    "empty": "கோஈ ஹால கீ ஗திவி஧ி நஹீஂ௤"
+  },
+  "regulatoryAlerts": {
+    "empty": "கோஈ நஈ நியாமக சேதாவநீ நஹீஂ௤",
+    "viewDetails": "விவரண ஦ே஖ேஂ"
+  },
+  "paymentAlerts": {
+    "empty": "அ஭ீ கோஈ லஂ஬ித ஶுல்க நஹீஂ ஹை௤",
+    "viewPayment": "஭ு஗தாந ஸ்஥ிதி ஦ே஖ேஂ"
+  },
+  "illustrativeNotice": "உ஦ாஹரணாத்மக ஡ேடா — யஹ கோஈ வாஸ்தவிக BIS ஆவே஦ந யா ஫ாஇலிஂ஗ நஹீஂ ஹை௤"
+}

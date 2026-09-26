@@ -1,0 +1,95 @@
+{
+  "eyebrow": "ഡൈശബോര്ഡ · പ്രോടോടാഇപ",
+  "greeting": "വാപസീ പര സ്വാഗത ഹൈ, {{name}}",
+  "subheading": "ആപകേ ആവേദനോം, സമയ-സീമാഓം ഔര ലംബിത കാര്യോം കാ വ്യക്തിഗത ദൃശ്യ — യഹ ഉദാഹരണാത്മക മ൉ക ഡേടാ പര ആധാരിത ഏക ഡേമോ ദൃശ്യ ഹൈ, ന കി ലാഇവ BIS ഫ഼ീഡ൤",
+  "loading": "ആപകാ ഡൈശബോര്ഡ ലോഡ ഹോ രഹാ ഹൈ…",
+  "error": {
+    "heading": "ആപകാ ഡൈശബോര്ഡ ലോഡ നഹീം ഹോ സകാ",
+    "retry": "ഫിര സേ പ്രയാസ കരേം"
+  },
+  "empty": {
+    "heading": "ആപ പൂരീ തരഹ അപഡേട ഹൈം",
+    "body": "അഭീ ആപകേ പാസ കോഈ സക്രിയ ആവേദന, സമയ-സീമാ യാ ലംബിത കാര്യ നഹീം ഹൈ൤"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} ഉപലബ്ധ നഹീം ഹൈ",
+    "retry": "പുനഃ പ്രയാസ കരേം"
+  },
+  "sections": {
+    "progressSummary": "ആവേദന സ്ഥിതി",
+    "nextDeadline": "അഗലീ സമയ-സീമാ",
+    "actionRequired": "ആവശ്യക കാര്രവാഈ",
+    "upcomingDeadlines": "ആഗാമീ സമയ-സീമാഏഁ",
+    "calendar": "കൈലേംഡര",
+    "activeApplications": "സക്രിയ ആവേദന",
+    "recentActivity": "ഹാല കീ ഗതിവിധി",
+    "regulatoryAlerts": "നിയാമക ചേതാവനിയാഁ",
+    "paymentAlerts": "ഭുഗതാന ചേതാവനിയാഁ",
+    "sampleTesting": "നമൂനാ പരീക്ഷണ സ്ഥിതി"
+  },
+  "progressSummary": {
+    "completed": "പൂര്ണ",
+    "inProgress": "പ്രഗതി മേം",
+    "pending": "സമീക്ഷാ ലംബിത"
+  },
+  "urgency": {
+    "normal": "സാമാന്യ",
+    "approaching": "നജ഼ദീക ആ രഹാ ഹൈ",
+    "urgent": "അത്യാവശ്യക",
+    "overdue": "സമയ-സീമാ പാര",
+    "dueInDays_one": "{{count}} ദിന മേം ദേയ",
+    "dueInDays_other": "{{count}} ദിനോം മേം ദേയ",
+    "dueToday": "ആജ ദേയ",
+    "overdueByDays_one": "{{count}} ദിന കീ ദേരീ",
+    "overdueByDays_other": "{{count}} ദിനോം കീ ദേരീ"
+  },
+  "nextDeadline": {
+    "empty": "കോഈ ആഗാമീ സമയ-സീമാ നഹീം൤",
+    "viewApplication": "ആവേദന ദേഖേം"
+  },
+  "actionRequired": {
+    "empty": "കോഈ കാര്രവാഈ ആവശ്യക നഹീം — ആപ പൂരീ തരഹ അപഡേട ഹൈം൤",
+    "open": "ഖോലേം"
+  },
+  "upcomingDeadlines": {
+    "empty": "കോഈ ആഗാമീ സമയ-സീമാ നഹീം൤",
+    "addToCalendar": "കൈലേംഡര മേം ജോഡ഼േം"
+  },
+  "calendar": {
+    "hint": "ജിന ദിനോം മേം സമയ-സീമാ ഹൈ വേ ചിഹ്നിത ഹൈം — ദേഖനേ കേ ലിഏ ഏക ചുനേം, യാ നീചേ സബ കുഛ നിര്യാത കരേം൤",
+    "exportAll": "കൈലേംഡര മേം സബ നിര്യാത കരേം (.ics)",
+    "addOne": "കൈലേംഡര മേം ജോഡ഼േം",
+    "empty": "കൈലേംഡര പര ദിഖാനേ കേ ലിഏ കോഈ സമയ-സീമാ നഹീം൤",
+    "noneOnDay": "ഇസ ദിന കോഈ സമയ-സീമാ നഹീം൤"
+  },
+  "activeApplications": {
+    "empty": "അഭീ തക കോഈ സക്രിയ ആവേദന നഹീം൤",
+    "startOne": "നയാ ആവേദന ശുരൂ കരേം",
+    "status": {
+      "draft": "ഡ്രാഫ഼്ട",
+      "submitted": "ജമാ കിയാ ഗയാ"
+    },
+    "readinessLabel": "തൈയാരീ",
+    "readinessStatus": {
+      "ready": "ജമാ കരനേ കേ ലിഏ തൈയാര",
+      "ready_with_non_blocking": "തൈയാര — ഗൈര-അവരോധക മദ ശേഷ ഹൈം",
+      "not_ready": "തൈയാര നഹീം",
+      "insufficient_evidence": "അപര്യാപ്ത സാക്ഷ്യ"
+    },
+    "blockersLabel_one": "{{count}} അവരോധക സമസ്യാ",
+    "blockersLabel_other": "{{count}} അവരോധക സമസ്യാഏഁ",
+    "viewStandard": "മാനക ദേഖേം"
+  },
+  "recentActivity": {
+    "empty": "കോഈ ഹാല കീ ഗതിവിധി നഹീം൤"
+  },
+  "regulatoryAlerts": {
+    "empty": "കോഈ നഈ നിയാമക ചേതാവനീ നഹീം൤",
+    "viewDetails": "വിവരണ ദേഖേം"
+  },
+  "paymentAlerts": {
+    "empty": "അഭീ കോഈ ലംബിത ശുല്ക നഹീം ഹൈ൤",
+    "viewPayment": "ഭുഗതാന സ്ഥിതി ദേഖേം"
+  },
+  "illustrativeNotice": "ഉദാഹരണാത്മക ഡേടാ — യഹ കോഈ വാസ്തവിക BIS ആവേദന യാ ഫാഇലിംഗ നഹീം ഹൈ൤"
+}

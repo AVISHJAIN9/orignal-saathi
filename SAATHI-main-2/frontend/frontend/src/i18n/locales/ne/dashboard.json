@@ -1,0 +1,95 @@
+{
+  "eyebrow": "ड्यासबोर्ड · प्रोटोटाइप",
+  "greeting": "फर्कनुभएकोमा स्वागत छ, {{name}}",
+  "subheading": "आपके आवेदनहरू, समय-सीमाओं और विचाराधीन कार्यों का व्यक्तिगत दृश्य — यह उदाहरणात्मक मॉक डेटा पर आधारित एक डेमो दृश्य है, न कि लाइव BIS फ़ीड।",
+  "loading": "आपका ड्यासबोर्ड लोड हुँदैछ……",
+  "error": {
+    "heading": "आपका ड्यासबोर्ड लोड होइन हो सका",
+    "retry": "फिर से प्रयास करें"
+  },
+  "empty": {
+    "heading": "आप पूरी तरह अपडेट हैं",
+    "body": "अभी आपके पास कोई सक्रिय आवेदन, समय-सीमा या विचाराधीन कार्य होइन है।"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} उपलब्ध होइन है",
+    "retry": "पुनः प्रयास करें"
+  },
+  "sections": {
+    "progressSummary": "आवेदन स्थिति",
+    "nextDeadline": "अगली समय-सीमा",
+    "actionRequired": "आवश्यक कारबाही",
+    "upcomingDeadlines": "आगामी समय-सीमाएँ",
+    "calendar": "कैलेंडर",
+    "activeApplications": "सक्रिय आवेदन",
+    "recentActivity": "हाल की गतिविधि",
+    "regulatoryAlerts": "नियामक चेतावनियाँ",
+    "paymentAlerts": "भुगतान चेतावनियाँ",
+    "sampleTesting": "नमूना परीक्षण स्थिति"
+  },
+  "progressSummary": {
+    "completed": "सम्पन्न",
+    "inProgress": "प्रगतिमा",
+    "pending": "समीक्षा विचाराधीन"
+  },
+  "urgency": {
+    "normal": "सामान्य",
+    "approaching": "नज़दीक आ रहा है",
+    "urgent": "अत्यावश्यक",
+    "overdue": "समय-सीमा पार",
+    "dueInDays_one": "{{count}} दिन में देय",
+    "dueInDays_other": "{{count}} दिनों में देय",
+    "dueToday": "आज देय",
+    "overdueByDays_one": "{{count}} दिन की देरी",
+    "overdueByDays_other": "{{count}} दिनों की देरी"
+  },
+  "nextDeadline": {
+    "empty": "कोई आगामी समय-सीमा होइन।",
+    "viewApplication": "आवेदन हेर्नुहोस्"
+  },
+  "actionRequired": {
+    "empty": "कोई कारबाही आवश्यक होइन — आप पूरी तरह अपडेट हैं।",
+    "open": "खोलें"
+  },
+  "upcomingDeadlines": {
+    "empty": "कोई आगामी समय-सीमा होइन।",
+    "addToCalendar": "कैलेंडर में जोड़ें"
+  },
+  "calendar": {
+    "hint": "जिन दिनों में समय-सीमा है वे चिह्नित हैं — देखने के लिए एक चुनें, या नीचे सब कुछ निर्यात करें।",
+    "exportAll": "कैलेंडर में सब निर्यात करें (.ics)",
+    "addOne": "कैलेंडर में जोड़ें",
+    "empty": "कैलेंडर पर दिखाने के लिए कोई समय-सीमा होइन।",
+    "noneOnDay": "इस दिन कोई समय-सीमा होइन।"
+  },
+  "activeApplications": {
+    "empty": "अभी तक कोई सक्रिय आवेदन होइन।",
+    "startOne": "नयाँँ आवेदन शुरू करें",
+    "status": {
+      "draft": "ड्राफ़्ट",
+      "submitted": "जमा किया गया"
+    },
+    "readinessLabel": "तैयारी",
+    "readinessStatus": {
+      "ready": "जमा करने के लिए तैयार",
+      "ready_with_non_blocking": "तैयार — गैर-अवरोधक मद शेष हैं",
+      "not_ready": "तैयार होइन",
+      "insufficient_evidence": "अपर्याप्त साक्ष्य"
+    },
+    "blockersLabel_one": "{{count}} अवरोधक समस्या",
+    "blockersLabel_other": "{{count}} अवरोधक समस्याएँ",
+    "viewStandard": "मानक हेर्नुहोस्"
+  },
+  "recentActivity": {
+    "empty": "कोई हाल की गतिविधि होइन।"
+  },
+  "regulatoryAlerts": {
+    "empty": "कोई नई नियामक चेतावनी होइन।",
+    "viewDetails": "विवरण हेर्नुहोस्"
+  },
+  "paymentAlerts": {
+    "empty": "अभी कोई विचाराधीन शुल्क होइन है।",
+    "viewPayment": "भुगतान स्थिति हेर्नुहोस्"
+  },
+  "illustrativeNotice": "उदाहरणात्मक डेटा — यह कोई वास्तविक BIS आवेदन या फाइलिंग होइन है।"
+}

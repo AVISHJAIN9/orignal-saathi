@@ -1,0 +1,857 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/geist-mono";
+@import "@fontsource-variable/fraunces";
+@import "@fontsource-variable/anek-devanagari";
+@import "@fontsource-variable/noto-nastaliq-urdu";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*
+   * Indirection so html[lang='hi'] (below) can swap the active body
+   * typeface at runtime: @theme inline copies whatever this value is
+   * verbatim into every utility that reads --font-sans (font-sans,
+   * font-heading, the html { @apply font-sans } base rule) — if that
+   * value were a literal font stack instead of a var() reference, the
+   * literal would get baked into each compiled utility and no later
+   * selector could override it.
+   */
+  --font-body: "Inter Variable", sans-serif;
+
+  /*
+   * The app's tokens are the landing page's .saathi-landing plate palette
+   * (src/pages/landing-page.css), so the whole product shares one warm
+   * ivory/charcoal + institutional-navy identity:
+   *   --background        = --plate-ground-deep
+   *   --card/popover/sidebar = --plate-ground (one step up from the page)
+   *   --foreground        = --plate-ink
+   *   --muted-foreground  = --plate-muted (L 0.51 vs 0.52, for AA)
+   *   --border/--input    = --plate-line
+   *   --primary/--ring    = --plate-accent
+   *   --secondary/--accent: light tints of --plate-accent
+   *   --muted: a warm fill between --plate-ground-deep and --plate-surface
+   */
+  --background: oklch(0.93 0.018 73);
+
+  --foreground: oklch(0.28 0.025 60);
+
+  --card: oklch(0.97 0.012 75);
+
+  --card-foreground: oklch(0.28 0.025 60);
+
+  --popover: oklch(0.97 0.012 75);
+
+  --popover-foreground: oklch(0.28 0.025 60);
+
+  --primary: oklch(0.42 0.11 250);
+
+  --primary-foreground: oklch(0.97 0.012 75);
+
+  /* Base color for the shared AmbientBackground decoration (see src/components/ambient-background.tsx).
+     Pinned to the landing's --plate-accent-deep (the value --primary used
+     to have) rather than following --primary, matching .saathi-landing. */
+  --ambient-accent: oklch(0.32 0.1 250);
+
+  --secondary: oklch(0.94 0.02 250);
+
+  --secondary-foreground: oklch(0.42 0.11 250);
+
+  --muted: oklch(0.905 0.02 72);
+
+  /* --plate-muted is L 0.52, which is 4.497:1 on --background, a hair
+     under AA; 0.51 clears it (4.6:1) with no visible change. */
+  --muted-foreground: oklch(0.51 0.02 60);
+
+  --accent: oklch(0.92 0.028 250);
+
+  --accent-foreground: oklch(0.28 0.025 60);
+
+  /* Same hue as the shadcn default red, darkened (and brought back inside
+     sRGB) so error text clears AA: 4.99:1 on --background, 5.63:1 on
+     --card, 4.62:1 on --muted. The old 0.577 was 3.87:1 on the page. */
+  --destructive: oklch(0.52 0.21 27.325);
+
+  --border: oklch(0.8 0.018 70);
+
+  --input: oklch(0.8 0.018 70);
+
+  --ring: oklch(0.42 0.11 250);
+
+  /* 1 and 2 used to be the lightest steps (0.88 / 0.68), fading into the
+     ivory cards at 1.31:1 and 2.62:1. They now sit between the darker
+     steps: 3.6:1 and 6.8:1 against --card, ~1.35-1.4:1 between adjacent
+     steps — the light-mode mirror of the dark --chart-4/5 fix. */
+  --chart-1: oklch(0.6 0.11 250);
+
+  --chart-2: oklch(0.45 0.105 250);
+
+  --chart-3: oklch(0.52 0.11 250);
+
+  --chart-4: oklch(0.38 0.1 250);
+
+  --chart-5: oklch(0.26 0.08 250);
+
+  --radius: 0.625rem;
+
+  /*
+   * Elevation — a shared 3-level shadow scale for the whole app (chat
+   * sidebar, KPI/chart cards, standards & document tables, dialogs and
+   * sheets). Shadows are tinted with --primary (the navy accent) instead
+   * of pure black so a "lifted" surface still reads as part of the warm
+   * palette rather than a generic gray drop-shadow. Level 1 (subtle) is
+   * for list/table rows, level 2 (medium) for cards/panels/the sidebar,
+   * level 3 (higher) for modals, sheets, and other overlays. The
+   * "-hover" pairs are one notch stronger and are only ever applied via
+   * .elevation-lift's :hover/:focus-visible state below.
+   */
+  /* Literal (the landing's --plate-accent-deep), not var(--primary), so
+     lightening --primary above doesn't wash out every shadow. */
+  --shadow-tint: oklch(0.32 0.1 250);
+  --shadow-elevation-1:
+    0 1px 2px -1px color-mix(in oklch, var(--shadow-tint) 24%, transparent),
+    0 1px 1px -0.5px color-mix(in oklch, var(--shadow-tint) 14%, transparent);
+  --shadow-elevation-1-hover:
+    0 6px 14px -5px color-mix(in oklch, var(--shadow-tint) 32%, transparent),
+    0 2px 4px -1px color-mix(in oklch, var(--shadow-tint) 18%, transparent);
+  --shadow-elevation-2:
+    0 8px 20px -10px color-mix(in oklch, var(--shadow-tint) 32%, transparent),
+    0 2px 6px -2px color-mix(in oklch, var(--shadow-tint) 20%, transparent);
+  --shadow-elevation-2-hover:
+    0 16px 32px -12px color-mix(in oklch, var(--shadow-tint) 38%, transparent),
+    0 5px 12px -4px color-mix(in oklch, var(--shadow-tint) 24%, transparent);
+  --shadow-elevation-3:
+    0 20px 44px -16px color-mix(in oklch, var(--shadow-tint) 40%, transparent),
+    0 8px 18px -8px color-mix(in oklch, var(--shadow-tint) 24%, transparent);
+
+  /* Sidebar — the same --plate-ground surface as cards. */
+  --sidebar: oklch(0.97 0.012 75);
+
+  --sidebar-foreground: oklch(0.28 0.025 60);
+
+  --sidebar-primary: oklch(0.42 0.11 250);
+
+  --sidebar-primary-foreground: oklch(0.97 0.012 75);
+
+  --sidebar-accent: oklch(0.92 0.028 250);
+
+  --sidebar-accent-foreground: oklch(0.28 0.025 60);
+
+  --sidebar-border: oklch(0.8 0.018 70);
+
+  --sidebar-ring: oklch(0.42 0.11 250);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: var(--font-body);
+  --font-mono: "Geist Mono Variable", monospace;
+  /* Editorial display serif — used for large marketing/catalogue headings
+     (e.g. the public Standards page hero) via the font-serif utility, so
+     they read as an official document's masthead rather than the same
+     Geist used for UI. Body and UI stay on Geist. */
+  --font-serif: "Fraunces Variable", Georgia, serif;
+  /* Loaded via Google Fonts in index.html. Not used directly — html[lang='hi']
+     below repoints --font-body (and therefore --font-sans/--font-heading)
+     at this instead, so every component that already uses font-sans/
+     font-heading (chat bubbles, headings, buttons, sidebar, dialogs, every
+     page) automatically renders Hindi content in it with no per-component
+     changes. */
+  --font-devanagari: "Anek Devanagari", sans-serif;
+  /* Perso-Arabic script (Urdu, Kashmiri) — loaded via @fontsource-variable
+     above. Nastaliq is the correct calligraphic style for Urdu; Kashmiri's
+     own Perso-Arabic orthography renders acceptably in it too, and there's
+     no dedicated variable Nastaliq font for Kashmiri specifically. Repointed
+     onto --font-body below the same way html[lang='hi'] repoints it at
+     --font-devanagari. */
+  --font-perso-arabic: "Noto Nastaliq Urdu Variable", sans-serif;
+  /* The one eyebrow/label text size for the whole app (uppercase
+     tracking-wide badges, section kickers, meta captions) — added to
+     replace ~15 different arbitrary text-[...] values (0.5rem-0.72rem and
+     9-11px) that had drifted in one at a time across components with no
+     visual reason for the differences. Anything reading as body copy
+     stays on Tailwind's own text-xs/text-sm steps, not this token. */
+  --text-2xs: 0.6875rem;
+  --text-2xs--line-height: 1rem;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+.dark {
+  /*
+   * The landing page's dark .saathi-landing plate palette, mapped the same
+   * way as the light block above:
+   *   --background = --plate-ground   oklch(0.14 0.035 250)
+   *   --card/popover/sidebar = --plate-surface oklch(0.18 0.04 250)
+   *   --foreground = --plate-ink, --muted-foreground = --plate-muted,
+   *   --border/--input = --plate-line, --primary/--ring = --plate-accent.
+   * Cream text on --plate-accent (0.68) is too low-contrast for button
+   * labels, so --primary-foreground is --plate-ground navy instead.
+   */
+  --background:          oklch(0.14 0.035 250);
+  --foreground:          oklch(0.96 0.015 75);
+  --card:                oklch(0.18 0.04 250);
+  --card-foreground:     oklch(0.96 0.015 75);
+  --popover:             oklch(0.18 0.04 250);
+  --popover-foreground:  oklch(0.96 0.015 75);
+
+  --primary:             oklch(0.68 0.14 240);
+  --primary-foreground:  oklch(0.14 0.035 250);
+
+  /* Secondary/accent: dark tints of --plate-accent; muted: a step above --plate-surface */
+  --secondary:           oklch(0.26 0.05 245);
+  --secondary-foreground: oklch(0.96 0.015 75);
+  --muted:               oklch(0.22 0.04 250);
+  --muted-foreground:    oklch(0.72 0.025 240);
+  --accent:              oklch(0.24 0.045 245);
+  --accent-foreground:   oklch(0.96 0.015 75);
+
+  --destructive:         oklch(0.65 0.22 22);
+
+  --border:              oklch(0.28 0.04 250 / 60%);
+  --input:               oklch(0.28 0.04 250 / 60%);
+  --ring:                oklch(0.68 0.14 240);
+
+  /* Charts — accent family */
+  --chart-1: oklch(0.623 0.188 259.8);
+  --chart-2: oklch(0.714 0.143 254.6);
+  --chart-3: oklch(0.546 0.215 262.9);
+  /* 4 and 5 extend the ramp lighter, not darker: the old darker steps
+     (0.45 / 0.35) sank into the navy cards at 2.45:1 and 1.63:1. Now
+     10.1:1 and 14.0:1 against --card, ~1.4:1 between adjacent steps. */
+  --chart-4: oklch(0.8 0.1 255);
+  --chart-5: oklch(0.9 0.05 250);
+
+  /* Sidebar — the deepest navy layer */
+  --sidebar:                  oklch(0.18 0.04 250);
+  --sidebar-foreground:       oklch(0.96 0.015 75);
+  --sidebar-primary:          oklch(0.68 0.14 240);
+  --sidebar-primary-foreground: oklch(0.14 0.035 250);
+  --sidebar-accent:           oklch(0.24 0.045 245);
+  --sidebar-accent-foreground: oklch(0.96 0.015 75);
+  --sidebar-border:           oklch(0.28 0.04 250 / 60%);
+  --sidebar-ring:             oklch(0.68 0.14 240);
+
+  /* Navy-tinted shadows */
+  --shadow-tint: oklch(0.03 0.03 250);
+  --shadow-elevation-1:
+    0 1px 2px -1px color-mix(in oklch, var(--shadow-tint) 65%, transparent),
+    0 1px 1px -0.5px color-mix(in oklch, var(--shadow-tint) 45%, transparent);
+  --shadow-elevation-1-hover:
+    0 4px 10px -4px color-mix(in oklch, var(--shadow-tint) 72%, transparent),
+    0 1px 3px -1px color-mix(in oklch, var(--shadow-tint) 50%, transparent);
+  --shadow-elevation-2:
+    0 8px 20px -10px color-mix(in oklch, var(--shadow-tint) 78%, transparent),
+    0 2px 6px -2px color-mix(in oklch, var(--shadow-tint) 55%, transparent);
+  --shadow-elevation-2-hover:
+    0 14px 28px -12px color-mix(in oklch, var(--shadow-tint) 82%, transparent),
+    0 4px 10px -4px color-mix(in oklch, var(--shadow-tint) 60%, transparent);
+  --shadow-elevation-3:
+    0 20px 44px -16px color-mix(in oklch, var(--shadow-tint) 88%, transparent),
+    0 8px 18px -8px color-mix(in oklch, var(--shadow-tint) 60%, transparent);
+}
+
+/*
+ * Devanagari-script languages — src/i18n/index.ts keeps document.documentElement.lang
+ * in sync with the active i18next language, so this switches the whole
+ * document's body/heading typeface to Anek Devanagari for any language
+ * that uses the Devanagari script. Scoped to [lang] so every consumer of
+ * font-sans/font-heading gets it for free.
+ */
+html[lang="hi"],
+html[lang="mr"],
+html[lang="sa"],
+html[lang="ne"],
+html[lang="kok"],
+html[lang="brx"],
+html[lang="doi"],
+html[lang="mai"] {
+  --font-body: var(--font-devanagari);
+}
+
+/*
+ * Perso-Arabic script languages — Urdu and Kashmiri. Kashmiri used to be
+ * (wrongly) grouped into the Devanagari block above even though its actual
+ * locale content (src/i18n/locales/ks/*.json) is genuinely Perso-Arabic.
+ */
+html[lang="ur"],
+html[lang="ks"] {
+  --font-body: var(--font-perso-arabic);
+}
+
+/*
+ * RTL layout for Urdu (Perso-Arabic) and Kashmiri (Perso-Arabic).
+ * The direction attribute is set programmatically via syncDocumentLanguage()
+ * in src/i18n/index.ts, but this CSS rule makes it take effect globally.
+ */
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+
+  /* Thin, subtle, semantic-token scrollbar. Applied to `html` so every
+     route's native page-level scroll gets it for free (most "operate"
+     pages have no inner scroll container at all — the whole page just
+     grows and the browser scrolls it), and exposed as .custom-scrollbar
+     for any individual overflow-y/x-auto container that isn't using the
+     ScrollArea component. One definition here instead of repeating
+     scrollbar-color/width per file, so it can't drift or get missed on a
+     future page. Areas that warrant a heavier, custom-drawn thumb (the
+     sidebar history list, the main chat log) use ScrollArea instead,
+     which hides this native scrollbar entirely and renders its own. */
+  html,
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  html::-webkit-scrollbar,
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  html::-webkit-scrollbar-track,
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  html::-webkit-scrollbar-thumb,
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--border);
+    border-radius: 9999px;
+  }
+  html::-webkit-scrollbar-thumb:hover,
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: var(--muted-foreground);
+  }
+}
+
+/* ─── Glassmorphism utility ─────────────────────────────────────────────────
+ * A single canonical class for every frosted-glass surface in the app
+ * (sidebar, cards, dialogs, input pills, dropdowns).  The dark variant
+ * is intentionally slightly more opaque so the navy background still
+ * shows through without the content becoming hard to read.
+ */
+@layer components {
+  .glass {
+    @apply bg-card/40 backdrop-blur-xl border border-border/30 rounded-2xl shadow-[0_4px_32px_color-mix(in_oklch,var(--shadow-tint)_18%,transparent),inset_0_1px_0_rgba(255,255,255,0.06)];
+  }
+  .dark .glass {
+    @apply bg-card/30 border-border/20;
+  }
+
+  /* Inset top-highlight shimmer for glass surfaces in dark mode */
+  .dark .glass-highlight::before {
+    content: "";
+    @apply pointer-events-none absolute inset-x-0 top-0 h-px rounded-t-2xl;
+    background: linear-gradient(90deg, transparent, color-mix(in oklch, var(--primary) 40%, transparent), transparent);
+  }
+}
+
+/* ─── View-transition theme-change animation ─────────────────────────────── */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-old(root) {
+  z-index: 1;
+}
+::view-transition-new(root) {
+  z-index: 9999;
+}
+
+/* ─── Landing page dark-mode plate tokens ───────────────────────────────────
+ * Dark plate tokens for anything using --plate-* outside a page that
+ * imports landing-page.css (e.g. the standards browser, and the app-wide
+ * --ambient-accent). Identical to .dark .saathi-landing in
+ * landing-page.css, which still wins on the landing/legal pages.
+ */
+.dark {
+  --plate-ground: oklch(0.14 0.035 250);
+  --plate-ground-deep: oklch(0.11 0.03 250);
+  --plate-surface: oklch(0.18 0.04 250);
+  --plate-ink: oklch(0.96 0.015 75);
+  --plate-muted: oklch(0.72 0.025 240);
+  --plate-line: oklch(0.28 0.04 250 / 60%);
+  --plate-accent: oklch(0.68 0.14 240);
+  --plate-accent-deep: oklch(0.58 0.16 250);
+  --plate-accent-ground: oklch(0.19 0.05 250);
+  --plate-accent-line: oklch(0.68 0.14 240 / 35%);
+  --plate-shadow-light: oklch(0.25 0.04 250 / 50%);
+  --plate-shadow-dark: oklch(0.04 0.02 250 / 80%);
+  --ambient-accent: var(--plate-accent);
+}
+
+
+@keyframes chat-3d-base-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotateX(55deg) rotateZ(-14deg);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0) rotateX(58deg) rotateZ(-10deg);
+  }
+}
+
+
+@keyframes chat-3d-back-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, -80px) rotateY(-4deg);
+  }
+  50% {
+    transform: translate3d(10px, 0, -80px) rotateY(3deg);
+  }
+}
+
+@keyframes chat-3d-mid-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 22px) rotateY(3deg);
+  }
+  50% {
+    transform: translate3d(-8px, 8px, 22px) rotateY(-3deg);
+  }
+}
+
+@keyframes chat-3d-front-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 62px) rotateY(-2deg);
+  }
+  50% {
+    transform: translate3d(9px, -12px, 62px) rotateY(4deg);
+  }
+}
+
+@keyframes chat-3d-orb-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 132px) rotateY(0deg) rotateZ(0deg);
+  }
+  50% {
+    transform: translate3d(0, -18px, 132px) rotateY(12deg) rotateZ(8deg);
+  }
+}
+
+@keyframes chat-3d-mobile-card-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 24px);
+  }
+  50% {
+    transform: translate3d(0, 6px, 24px);
+  }
+}
+
+@keyframes chat-3d-mobile-orb-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 90px) rotateZ(0deg);
+  }
+  50% {
+    transform: translate3d(0, -10px, 90px) rotateZ(6deg);
+  }
+}
+
+.chat-3d-scene {
+  contain: layout paint style;
+  isolation: isolate;
+}
+
+.chat-3d-layer {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.chat-3d-animated .chat-3d-base {
+  animation: chat-3d-base-drift 16s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-back {
+  animation: chat-3d-back-drift 13s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-mid {
+  animation: chat-3d-mid-drift 11s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-front {
+  animation: chat-3d-front-drift 14s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-orb {
+  animation: chat-3d-orb-drift 6.5s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-mobile-card {
+  animation: chat-3d-mobile-card-drift 12s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-mobile-orb {
+  animation: chat-3d-mobile-orb-drift 7s ease-in-out infinite;
+}
+
+
+
+/* AmbientBackground's guilloche texture is part of the landing page's
+   paper-and-ink branding. Outside .saathi-landing the app canvas is flat. */
+.ambient-texture {
+  display: none;
+}
+.saathi-landing .ambient-texture {
+  display: block;
+}
+
+/* ─── Paper grain ───────────────────────────────────────────────────────────
+ * The "cream paper" halftone that originally lived only on .chat-sidebar,
+ * factored into one reusable class so every surface that carries it uses
+ * the same dots, blend and drift:
+ *   .plate-texture         the dot layer (::before); opacity via
+ *                          --plate-texture-opacity (default 0.22 — the page
+ *                          grain; the sidebars set their own, stronger)
+ *   .plate-texture-drift   adds the slow 28s drift (sidebar only)
+ *   .plate-texture-glow    adds the soft drifting glow blob (::after)
+ * The host must be positioned and keep its content above z-index 0.
+ * Light: navy dots + white flecks, multiplied into the ivory. Dark: multiply
+ * would vanish into navy, so light dots are screened on instead.
+ * Dots are 0.8px, not smaller: Chrome doesn't rasterise a hard-stop radial
+ * gradient under ~0.7px at 1x DPR at all, so a 0.65px dot drew nothing.
+ */
+:root {
+  --paper-dot: rgba(12, 50, 86, 0.12);
+  --paper-fleck: rgba(255, 255, 255, 0.72);
+  --paper-blend: multiply;
+  --paper-glow: rgba(198, 216, 226, 0.5);
+}
+.dark {
+  /* Stronger than the light values: screen blending on near-black needs
+     more alpha to register at all. The page layer's opacity is dialled
+     down separately (.dark .app-paper-texture) to keep it subtle. */
+  --paper-dot: oklch(0.82 0.05 245 / 50%);
+  --paper-fleck: oklch(1 0 0 / 10%);
+  --paper-blend: screen;
+  --paper-glow: color-mix(in oklch, var(--primary) 16%, transparent);
+}
+
+@keyframes plate-texture-drift {
+  0%,
+  100% {
+    background-position:
+      0 0,
+      0 0;
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    background-position:
+      18px -12px,
+      -14px 20px;
+    transform: translate3d(0, -4px, 0) rotate(0.35deg);
+  }
+}
+
+@keyframes plate-texture-glow-drift {
+  0%,
+  100% {
+    transform: translate3d(-12px, -6px, 0) scale(1);
+    opacity: 0.65;
+  }
+  50% {
+    transform: translate3d(18px, 10px, 0) scale(1.08);
+    opacity: 0.9;
+  }
+}
+
+.plate-texture::before {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  content: "";
+  background-image:
+    radial-gradient(var(--paper-dot) 0.8px, transparent 0.8px),
+    radial-gradient(var(--paper-fleck) 0.8px, transparent 0.8px);
+  background-position:
+    0 0,
+    14px 18px;
+  background-size:
+    18px 18px,
+    24px 24px;
+  mix-blend-mode: var(--paper-blend);
+  opacity: var(--plate-texture-opacity, 0.22);
+}
+
+.plate-texture-drift::before {
+  animation: plate-texture-drift 28s ease-in-out infinite;
+}
+
+.plate-texture-glow::after {
+  position: absolute;
+  top: -8rem;
+  right: -10rem;
+  z-index: 0;
+  width: 22rem;
+  height: 22rem;
+  pointer-events: none;
+  content: "";
+  border-radius: 999px;
+  background: radial-gradient(circle, var(--paper-glow), transparent 68%);
+  filter: blur(12px);
+  animation: plate-texture-glow-drift 18s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .plate-texture-drift::before,
+  .plate-texture-glow::after {
+    animation: none;
+  }
+}
+
+/* Page-level grain rendered by AmbientBackground on every app page; the
+   landing/legal/standards shell (.saathi-landing) keeps its own guilloche
+   instead, so it's switched off there. */
+.saathi-landing .app-paper-texture {
+  display: none;
+}
+/* Dark: 0.10 lifts a dot ~10/255 on the navy page, about the same
+   perceived step (~2 L*) as the light grain's ~5/255 darkening on ivory. */
+.dark .app-paper-texture {
+  --plate-texture-opacity: 0.1;
+}
+
+.chat-sidebar {
+  contain: paint;
+  isolation: isolate;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .chat-3d-animated .chat-3d-base,
+  .chat-3d-animated .chat-3d-back,
+  .chat-3d-animated .chat-3d-mid,
+  .chat-3d-animated .chat-3d-front,
+  .chat-3d-animated .chat-3d-orb,
+  .chat-3d-animated .chat-3d-mobile-card,
+  .chat-3d-animated .chat-3d-mobile-orb {
+    animation: none;
+  }
+}
+
+@layer components {
+  /* Elevation scale — see the --shadow-elevation-* tokens above. Apply a
+     level class on its own for static "resting" elevation (cards, panels,
+     dialogs), or pair it with .elevation-lift to also rise one notch on
+     hover/focus (rows, nav links, interactive cards). .elevation-lift can
+     be used alone (no base level) for elements that are flat at rest and
+     only gain a shadow once lifted, like sidebar nav links.
+
+     .elevation-lift only declares the hover/focus *state* (the shadow and
+     the 1px rise), not the transition itself — an element that doesn't
+     already animate anything else should also add .elevation-transition;
+     one that already has its own Tailwind transition-* utility (e.g.
+     transition-colors) should instead fold box-shadow/transform into that
+     utility's property list directly, since a second `transition`
+     shorthand from a different cascade layer would otherwise silently
+     replace it rather than combine with it. */
+  .elevation-1 {
+    box-shadow: var(--shadow-elevation-1);
+  }
+  .elevation-2 {
+    box-shadow: var(--shadow-elevation-2);
+  }
+  .elevation-3 {
+    box-shadow: var(--shadow-elevation-3);
+  }
+
+  .elevation-transition {
+    transition-property: box-shadow, transform;
+    transition-duration: 0.24s;
+    transition-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  }
+  .elevation-lift:hover,
+  .elevation-lift:focus-visible {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-elevation-1-hover);
+  }
+  .elevation-2.elevation-lift:hover,
+  .elevation-2.elevation-lift:focus-visible {
+    box-shadow: var(--shadow-elevation-2-hover);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .elevation-transition {
+      transition: none;
+    }
+    .elevation-lift:hover,
+    .elevation-lift:focus-visible {
+      transform: none;
+    }
+  }
+}
+
+/* Standards Browser video treatment: quiet institutional motion, deep navy field,
+   and parchment-compatible highlights. The rings stay subtle so the source
+   animation remains the focal point rather than reading as decorative noise. */
+@keyframes standards-motion-orbit {
+  from {
+    transform: translate(-50%, -50%) rotate(-24deg) scaleY(0.46);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(336deg) scaleY(0.46);
+  }
+}
+
+@keyframes standards-motion-orbit-reverse {
+  from {
+    transform: translate(-50%, -50%) rotate(26deg) scaleY(0.5);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-334deg) scaleY(0.5);
+  }
+}
+
+.standards-motion-stage {
+  isolation: isolate;
+  background:
+    radial-gradient(
+      circle at 50% 44%,
+      color-mix(in oklch, var(--plate-accent) 18%, transparent),
+      transparent 56%
+    ),
+    var(--plate-accent-ground);
+}
+
+.standards-motion-stage::before,
+.standards-motion-stage::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  width: 86%;
+  height: 60%;
+  pointer-events: none;
+  content: "";
+  border: 1px solid color-mix(in oklch, var(--plate-ground) 22%, transparent);
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  opacity: 0.55;
+}
+
+.standards-motion-stage::before {
+  animation: standards-motion-orbit 18s linear infinite;
+}
+
+.standards-motion-stage::after {
+  width: 68%;
+  height: 43%;
+  border-style: dashed;
+  border-color: color-mix(in oklch, var(--plate-ground) 16%, transparent);
+  animation: standards-motion-orbit-reverse 13s linear infinite;
+  opacity: 0.65;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .standards-motion-stage::before,
+  .standards-motion-stage::after {
+    animation: none;
+  }
+}
+
+/* The Standards Browser animation is part of the header artwork, not a media card.
+   A soft mask and restrained blend let the certification marks sit inside the
+   parchment composition while keeping the animation legible. */
+.standards-motion-stage {
+  background: transparent;
+  -webkit-mask-image: radial-gradient(
+    ellipse at center,
+    #000 46%,
+    rgb(0 0 0 / 0.7) 66%,
+    transparent 98%
+  );
+  mask-image: radial-gradient(ellipse at center, #000 46%, rgb(0 0 0 / 0.7) 66%, transparent 98%);
+}
+
+.standards-motion-video {
+  opacity: 0.8;
+  filter: saturate(0.7) contrast(0.72) brightness(1.42);
+  mix-blend-mode: screen;
+}
+
+.standards-motion-stage::before,
+.standards-motion-stage::after {
+  border-color: color-mix(in oklch, var(--plate-accent) 28%, transparent);
+  mix-blend-mode: multiply;
+  opacity: 0.45;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .standards-motion-video {
+    transition: none;
+  }
+}
+
+/* Let ThemeTogglerButton drive the ::view-transition-new(root) clip-path
+   reveal itself instead of the browser's default cross-fade. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}

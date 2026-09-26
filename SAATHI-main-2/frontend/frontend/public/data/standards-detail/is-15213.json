@@ -1,0 +1,744 @@
+{
+  "master": {
+    "internal_id": 15213,
+    "IS_number": "IS 814:2004",
+    "clean_number": "814",
+    "slug": "is-15213",
+    "IS_title": "Covered electrodes for manual metal arc welding of carbon and carbon manganese steel - Specification (Sixth Revision)",
+    "superseding_IS": "None",
+    "degree_of_equivalence": "Not Equivalent",
+    "number_of_revisions": "6",
+    "number_of_amendments": "3",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "MTD (Metallurgical Engineering Department)",
+    "technical_committee": "MTD 11 (Welding General and its Applications sectional Committee Sectional Committee)",
+    "member_secretary": "Vishal Kumar Rana (SCIENTIST-C)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 3,
+    "gazette_document_count": 1,
+    "license_count": 211,
+    "product_manual_sit_count": 1,
+    "laboratory_count": 10,
+    "corrigendum_count": 0,
+    "catalogue_id": "31596",
+    "catalogue_is_no": "IS 814:2004 (Active)",
+    "catalogue_title": "Covered electrodes for manual metal arc welding of carbon and carbon manganese steel - Specification (Sixth Revision)",
+    "catalogue_amendments": "3",
+    "catalogue_technical_committee": "MTD 11",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Not Equivalent",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/15213",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=15213",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/34/2",
+    "extracted_at": "2026-09-23T15:32:31.029Z",
+    "category_key": "metallurgy",
+    "category_label": "Metallurgy",
+    "status": "Active",
+    "image_url": "/images/products/standard-fallback.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 10987 : 1992",
+      "title": "Code of Practice for Design, Fabrication, Testing and Installation of Under - Ground/Above - Ground Horizontal CylindricalSteel Storage Tanks for Petroleum Products (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 800 : 2007",
+      "title": "General construction in steel - Code of practice (Third Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 6533 : Part 2 : 1989",
+      "title": "Code of Practice for Design and Construction of Steel Chimneys: Part 2 Structural Aspects (First Revision)",
+      "committee": "CED 38"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 804 : 1967",
+      "title": "Specification for Rectangular Pressed Steel Tanks (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 806 : 1968",
+      "title": "Code of Practice for Use of Steel Tubes in General Building Construction (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 803 : 1976",
+      "title": "Code of Practice for Design, Fabrication and Erection of Vertical Mild Steel Cylindrical Welded Oil Storage Tanks (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 9178 : Part 2 : 1979",
+      "title": "Criteria for design of steel bins for storage of bulk materials: Part 2 design criteria",
+      "committee": "CED 38"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 5878 : Part 6 : 1975",
+      "title": "Code of practice for construction of tunnels: Part 6 steel lining",
+      "committee": "WRD 14"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 5822 : 1994",
+      "title": "Code of practice for laying of electrically welded steel pipes for water supply (Second Revision)",
+      "committee": "CED 24"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 13896 : 1994",
+      "title": "Machine operators table and visual display unit (VDU) table-",
+      "committee": "CED 35"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 3498 : 1993",
+      "title": "Metal Table (office Type)-specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 8467 : 1977",
+      "title": "Specification for steel card - Index cabinets",
+      "committee": "CED 35"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 8126 : 1993",
+      "title": "Specification for composite office tables (First Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 8761 : 1978",
+      "title": "Specification for steel folding cots",
+      "committee": "CED 35"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 9236 : 1993",
+      "title": "Metal Letter-rests-",
+      "committee": "CED 35"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 9715 : 1981",
+      "title": "Specification for steel visible indexing system cabinets",
+      "committee": "CED 35"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 6189 : 1985",
+      "title": "Specification for metal stationery cupboards (First Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 5823 : 1986",
+      "title": "Dining Tables",
+      "committee": "CED 35"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 5974 : 1986",
+      "title": "Specification for divans and easy chairs (First Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 7760 : 1985",
+      "title": "Specification for steel glass - Front cabinets (First Revision J",
+      "committee": "CED 35"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 7761 : 1983",
+      "title": "Specification for steel book cases (First Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 4204 : 1974",
+      "title": "Functional requirements for drafting chairs (First Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 3762 : 1979",
+      "title": "Metal Waste Paper Bins - Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 3763 : 1983",
+      "title": "Metal Folding Chairs - Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 3313 : 1983",
+      "title": "Steel Filing Cabinets for General Office Purposes - Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 1829 : Part 2 : 2017",
+      "title": "Library furniture and fittings - Specification: Part 2 steel (Second Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 2695 : 1993",
+      "title": "Specification for drawing filing equipment (Second Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 3314 : 1984",
+      "title": "steel clothes lockers - Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 3499 : Part 2 : 1985",
+      "title": "metal chairs for office purposes Specification Part 2 Revolving and tilting",
+      "committee": "CED 35"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 4103 : 1977",
+      "title": "Metal Nesting Chairs- Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 4205 : 1989",
+      "title": "Drafting stools - Specification (Second Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 3499 : Part 1 : 1985",
+      "title": "Metal Chairs For Office Purposes Specification Part 1 Non-revolving And Non-tilting",
+      "committee": "CED 35"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 5391 : 1992",
+      "title": "Adjustable metal chairs for use of typists and operators in telephone exchanges-Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 3791 : 1983",
+      "title": "Metal Paper Trays - Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 3497 : 1992",
+      "title": "Steel Wardrobes (adjustable Type)-specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "36",
+      "isNumber": "SP 34 : 1987",
+      "title": "Handbook on Concrete Reinforcement and Detailing",
+      "committee": "CED 02"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 2825 : 1969",
+      "title": "Code for unfired pressure vessels",
+      "committee": "MED 01"
+    },
+    {
+      "number": "38",
+      "isNumber": "SP 57 (QAWSM) : 1993",
+      "title": "Handbook on pipes and fittings for drinking water supply",
+      "committee": "CED 50"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 1916 : 2018",
+      "title": "Steel cylinder pipes with concrete lining and coating - Specification (Second Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS 13851 : 1993",
+      "title": "Storage and redrying of covered electrodes before use - Recommendations",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 1395 : 1982",
+      "title": "Specification for low and medium alloy steel covered electrodes for manual metal arc welding (Third Revision",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 9595 : 1996",
+      "title": "Metal - Arc welding of carbon and carbon manganese steels - Recommendations (Fifth Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 9006 : 1978",
+      "title": "Recommended practice for welding of clad steels",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 2751 : 1979",
+      "title": "Code of practice for welding of mild steel plain and deformed bars for reinforced concrete construction (First Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 3525 : 1998",
+      "title": "Metal arc welding for hull construction of merchant ship in carbon and carbon manganese steels - Code of practice (Second Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 822 : 1970",
+      "title": "Code of procedure for inspection of welds",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 5687 : 1970",
+      "title": "Glossary of terms relating to welding of plastics",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS 817 : Part 1 : 1992",
+      "title": "Training of welders - Code of practice: Part 1 manual metal arc welding (Second Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS 6916 : 1973",
+      "title": "Code of practice for fabrication welding of steel castings",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 7304 : Part 3 : 1973",
+      "title": "Code for fabrication, installation and testing of salt water piping system for ship board use: Part 3 ferrous systems",
+      "committee": "TED 17"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 7304 : Part 1 : 1978",
+      "title": "Code for fabrication, installation and testing of salt water piping system for shipboard use: Part 1 general requirements",
+      "committee": "TED 17"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS 9417 : 2018",
+      "title": "Welding of High Strength Steel Bars for Reinforced Concrete Construction - Recommendations (Second Revision)",
+      "committee": "CED 54"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 17239 : 2019",
+      "title": "Safety Requirements for Drives Used for Ropeway Installation for Passenger Transportation",
+      "committee": "MED 06"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS 9228 : 2019",
+      "title": "Chairs for chairlifts - Specification (First Revision)",
+      "committee": "MED 06"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 805 : 1968",
+      "title": "Code of practice for use of steel in gravity water tanks",
+      "committee": "CED 7"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS 17614 (Part 15) : 2021",
+      "title": "Water quality -Sampling- Part 15 Guidance on the preservation and handling of sludge and sediment samples",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 1024 : 1999",
+      "title": "Use of welding in bridges and structures subject to dynamic loading - Code of practice (Second Revision)",
+      "committee": "MTD 11"
+    }
+  ],
+  "crossReferences": [],
+  "internationalReferences": [],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 10987 : 1992",
+      "title": "Code of Practice for Design, Fabrication, Testing and Installation of Under - Ground/Above - Ground Horizontal CylindricalSteel Storage Tanks for Petroleum Products (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 800 : 2007",
+      "title": "General construction in steel - Code of practice (Third Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 6533 : Part 2 : 1989",
+      "title": "Code of Practice for Design and Construction of Steel Chimneys: Part 2 Structural Aspects (First Revision)",
+      "committee": "CED 38"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 804 : 1967",
+      "title": "Specification for Rectangular Pressed Steel Tanks (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 806 : 1968",
+      "title": "Code of Practice for Use of Steel Tubes in General Building Construction (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 803 : 1976",
+      "title": "Code of Practice for Design, Fabrication and Erection of Vertical Mild Steel Cylindrical Welded Oil Storage Tanks (First Revision)",
+      "committee": "CED 07"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 9178 : Part 2 : 1979",
+      "title": "Criteria for design of steel bins for storage of bulk materials: Part 2 design criteria",
+      "committee": "CED 38"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 5878 : Part 6 : 1975",
+      "title": "Code of practice for construction of tunnels: Part 6 steel lining",
+      "committee": "WRD 14"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 5822 : 1994",
+      "title": "Code of practice for laying of electrically welded steel pipes for water supply (Second Revision)",
+      "committee": "CED 24"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 13896 : 1994",
+      "title": "Machine operators table and visual display unit (VDU) table-",
+      "committee": "CED 35"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 3498 : 1993",
+      "title": "Metal Table (office Type)-specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 8467 : 1977",
+      "title": "Specification for steel card - Index cabinets",
+      "committee": "CED 35"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 8126 : 1993",
+      "title": "Specification for composite office tables (First Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 8761 : 1978",
+      "title": "Specification for steel folding cots",
+      "committee": "CED 35"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 9236 : 1993",
+      "title": "Metal Letter-rests-",
+      "committee": "CED 35"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 9715 : 1981",
+      "title": "Specification for steel visible indexing system cabinets",
+      "committee": "CED 35"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 6189 : 1985",
+      "title": "Specification for metal stationery cupboards (First Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 5823 : 1986",
+      "title": "Dining Tables",
+      "committee": "CED 35"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 5974 : 1986",
+      "title": "Specification for divans and easy chairs (First Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 7760 : 1985",
+      "title": "Specification for steel glass - Front cabinets (First Revision J",
+      "committee": "CED 35"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 7761 : 1983",
+      "title": "Specification for steel book cases (First Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 4204 : 1974",
+      "title": "Functional requirements for drafting chairs (First Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 3762 : 1979",
+      "title": "Metal Waste Paper Bins - Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 3763 : 1983",
+      "title": "Metal Folding Chairs - Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 3313 : 1983",
+      "title": "Steel Filing Cabinets for General Office Purposes - Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 1829 : Part 2 : 2017",
+      "title": "Library furniture and fittings - Specification: Part 2 steel (Second Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 2695 : 1993",
+      "title": "Specification for drawing filing equipment (Second Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 3314 : 1984",
+      "title": "steel clothes lockers - Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 3499 : Part 2 : 1985",
+      "title": "metal chairs for office purposes Specification Part 2 Revolving and tilting",
+      "committee": "CED 35"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 4103 : 1977",
+      "title": "Metal Nesting Chairs- Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 4205 : 1989",
+      "title": "Drafting stools - Specification (Second Revision)",
+      "committee": "CED 35"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 3499 : Part 1 : 1985",
+      "title": "Metal Chairs For Office Purposes Specification Part 1 Non-revolving And Non-tilting",
+      "committee": "CED 35"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 5391 : 1992",
+      "title": "Adjustable metal chairs for use of typists and operators in telephone exchanges-Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 3791 : 1983",
+      "title": "Metal Paper Trays - Specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 3497 : 1992",
+      "title": "Steel Wardrobes (adjustable Type)-specification",
+      "committee": "CED 35"
+    },
+    {
+      "number": "36",
+      "isNumber": "SP 34 : 1987",
+      "title": "Handbook on Concrete Reinforcement and Detailing",
+      "committee": "CED 02"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 2825 : 1969",
+      "title": "Code for unfired pressure vessels",
+      "committee": "MED 01"
+    },
+    {
+      "number": "38",
+      "isNumber": "SP 57 (QAWSM) : 1993",
+      "title": "Handbook on pipes and fittings for drinking water supply",
+      "committee": "CED 50"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 1916 : 2018",
+      "title": "Steel cylinder pipes with concrete lining and coating - Specification (Second Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS 13851 : 1993",
+      "title": "Storage and redrying of covered electrodes before use - Recommendations",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 1395 : 1982",
+      "title": "Specification for low and medium alloy steel covered electrodes for manual metal arc welding (Third Revision",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 9595 : 1996",
+      "title": "Metal - Arc welding of carbon and carbon manganese steels - Recommendations (Fifth Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 9006 : 1978",
+      "title": "Recommended practice for welding of clad steels",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 2751 : 1979",
+      "title": "Code of practice for welding of mild steel plain and deformed bars for reinforced concrete construction (First Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 3525 : 1998",
+      "title": "Metal arc welding for hull construction of merchant ship in carbon and carbon manganese steels - Code of practice (Second Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 822 : 1970",
+      "title": "Code of procedure for inspection of welds",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 5687 : 1970",
+      "title": "Glossary of terms relating to welding of plastics",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS 817 : Part 1 : 1992",
+      "title": "Training of welders - Code of practice: Part 1 manual metal arc welding (Second Revision)",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS 6916 : 1973",
+      "title": "Code of practice for fabrication welding of steel castings",
+      "committee": "MTD 11"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 7304 : Part 3 : 1973",
+      "title": "Code for fabrication, installation and testing of salt water piping system for ship board use: Part 3 ferrous systems",
+      "committee": "TED 17"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 7304 : Part 1 : 1978",
+      "title": "Code for fabrication, installation and testing of salt water piping system for shipboard use: Part 1 general requirements",
+      "committee": "TED 17"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS 9417 : 2018",
+      "title": "Welding of High Strength Steel Bars for Reinforced Concrete Construction - Recommendations (Second Revision)",
+      "committee": "CED 54"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 17239 : 2019",
+      "title": "Safety Requirements for Drives Used for Ropeway Installation for Passenger Transportation",
+      "committee": "MED 06"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS 9228 : 2019",
+      "title": "Chairs for chairlifts - Specification (First Revision)",
+      "committee": "MED 06"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 805 : 1968",
+      "title": "Code of practice for use of steel in gravity water tanks",
+      "committee": "CED 7"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS 17614 (Part 15) : 2021",
+      "title": "Water quality -Sampling- Part 15 Guidance on the preservation and handling of sludge and sediment samples",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 1024 : 1999",
+      "title": "Use of welding in bridges and structures subject to dynamic loading - Code of practice (Second Revision)",
+      "committee": "MTD 11"
+    }
+  ],
+  "clauses": [
+    {
+      "clauseNumber": "Clause 5.1",
+      "title": "Covered Electrodes Classification",
+      "content": "Covered electrodes for manual metal arc welding of carbon and carbon manganese steels shall meet specified coating, deposition efficiency, and tensile properties.",
+      "isMandatory": true
+    }
+  ],
+  "qco": null
+}

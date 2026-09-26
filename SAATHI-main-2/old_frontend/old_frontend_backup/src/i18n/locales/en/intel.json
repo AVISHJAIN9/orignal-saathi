@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Intel Feed",
+  "subheading": "Compliance and regulatory intel from BIS, industry bodies, and the press.",
+  "backToChat": "Back to chat",
+  "filterAll": "All",
+  "categories": {
+    "bis": "BIS",
+    "standards": "Standards",
+    "certification": "Certification",
+    "international": "International",
+    "industry": "Industry"
+  },
+  "emptyState": "No intel in this category.",
+  "items": {
+    "i1": {
+      "headline": "BIS launches revised licensing portal for manufacturers",
+      "summary": "The new e-BIS portal cuts average licence-application processing time and adds real-time status tracking.",
+      "timestamp": "2 hours ago"
+    },
+    "i2": {
+      "headline": "Hallmarking compliance push sees 18% jump in registered jewellers",
+      "summary": "Enforcement drives across three states pushed more jewellers into the mandatory hallmarking scheme this quarter.",
+      "timestamp": "5 hours ago"
+    },
+    "i3": {
+      "headline": "India, EU discuss mutual recognition for electronics safety certification",
+      "summary": "Early-stage talks could let electronics certified under EU schemes fast-track BIS conformity assessment.",
+      "timestamp": "Yesterday"
+    },
+    "i4": {
+      "headline": "Draft amendment to toy safety standard opens for consultation",
+      "summary": "Stakeholders have until the end of the month to comment on proposed changes to mechanical safety clauses.",
+      "timestamp": "2 days ago"
+    },
+    "i5": {
+      "headline": "Appliance makers flag supply delays ahead of certification deadline",
+      "summary": "Industry associations warn that lab testing backlogs could push some manufacturers past the compliance window.",
+      "timestamp": "3 days ago"
+    },
+    "i6": {
+      "headline": "BIS expands Quality Control Order list to 12 new categories",
+      "summary": "The expanded QCO list brings additional electronics and household product categories under mandatory certification.",
+      "timestamp": "4 days ago"
+    },
+    "i7": {
+      "headline": "Industry body seeks simplified certification pathway for MSMEs",
+      "summary": "A proposal to reduce paperwork and fees for small manufacturers is under review by the standing committee.",
+      "timestamp": "5 days ago"
+    },
+    "i8": {
+      "headline": "New pressure cooker safety standard cuts testing turnaround",
+      "summary": "Revised test protocols under IS 2347 are reported to shorten typical lab turnaround by several weeks.",
+      "timestamp": "1 week ago"
+    },
+    "i9": {
+      "headline": "ISO revises household appliance safety benchmark",
+      "summary": "BIS says it will review alignment between the revised ISO benchmark and existing Indian Standards.",
+      "timestamp": "1 week ago"
+    },
+    "i10": {
+      "headline": "Toy exporters welcome faster BIS approval timelines",
+      "summary": "Exporters report shorter wait times for certification renewals following recent process changes.",
+      "timestamp": "2 weeks ago"
+    }
+  }
+}

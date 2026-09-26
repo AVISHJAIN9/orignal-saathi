@@ -1,0 +1,390 @@
+{
+  "master": {
+    "internal_id": 4400,
+    "IS_number": "IS 1293:2005",
+    "clean_number": "1293",
+    "slug": "is-4400",
+    "IS_title": "Plugs and socket - Outlets of rated Voltage up to and including 250 Volts and rated current up to and including 16 amperes - Specification (Third Revision) (Withdrawn)",
+    "superseding_IS": "",
+    "degree_of_equivalence": "Modified/Technically Equivalent",
+    "number_of_revisions": "4",
+    "number_of_amendments": "2",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "ETD (Electrotechnical Department)",
+    "technical_committee": "ETD 14 (Electrical Wiring Accessories Sectional Committee)",
+    "member_secretary": "Nitish Kumar Jain (SCIENTIST-C)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 0,
+    "gazette_document_count": 8,
+    "license_count": 0,
+    "product_manual_sit_count": 0,
+    "laboratory_count": 0,
+    "corrigendum_count": 0,
+    "catalogue_id": "5841",
+    "catalogue_is_no": "IS 1293:2005 (Withdrawn )",
+    "catalogue_title": "Plugs and socket - Outlets of rated Voltage up to and including 250 Volts and rated current up to and including 16 amperes - Specification (Third Revision)",
+    "catalogue_amendments": "2",
+    "catalogue_technical_committee": "ETD 14",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Modified/Technically Equivalent",
+    "catalogue_withdrawn_status": "W",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/4400",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=4400",
+    "composition_url": "",
+    "extracted_at": "2026-09-22T19:32:30.014Z",
+    "category_key": "electrotechnical",
+    "category_label": "Electrotechnical",
+    "status": "Active",
+    "image_url": "/images/products/standard-fallback.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 14772:2000",
+      "title": "Boxes and Enclosures for Electrical Accessories for Household and Similar Fixed Electrical Installations \u2014 General Requirements ( First Revision )",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 11000 (Part 2/Sec 1):2018IEC 60695-2-10 : 2013",
+      "title": "Fire hazard testing: Part 2 test methods: Sec 1 glow - Wire apparatus and common test procedure (Second Revision)",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 1401:2008IEC 61032Reaffirmed but not taken up for revision",
+      "title": "Protection of persons and equipment by enclosures - Probes for verification (Second Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 14340:1996",
+      "title": "Brass for current carrying parts in electrical wiring accessories - Specification",
+      "committee": "MTD 08"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 14763:202260423: 2007",
+      "title": "Conduits for electrical purposes - Outside diameters of conduits for electrical installation and threads for conduits and fittings - Specification",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 1885 (Part 74):2012IEC 60050-151 : 2001",
+      "title": "Electrotechnical vocabulary: Part 74 electrical and magnetic devices (First Revision)",
+      "committee": "ETD 01"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 2824:2007IEC 60112 : 2003",
+      "title": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 3854:2023",
+      "title": "Switches for domestic and similar purposes - Specification (Second Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 4160:2005IEC 60884-2-6",
+      "title": "Interlocking switch socket outlets - Specification (First Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 694:2010",
+      "title": "Polyvinyl chloride insulated unsheathed and sheathed cables/cords with rigid and flexible conductor for rated voltages up to and including 1 100 V (Fourth Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 9000 (Part 7/Sec 7):2020IEC 60068-2-75 : 2014",
+      "title": "Environmental Testing Part 7 Tests Section 7 Test Eh: Hammer tests ( First Revision )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 9968 (Part 1):2025",
+      "title": "Specification for elastomer insulated cables: Part 1 for working voltages up to and including 1 100 volts (First Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 9000 (Part 5/Sec 12):1981",
+      "title": "Basic environmental testing procedures for electronic and electrical items: Part 5 damp heat (Cyclic) test",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS/IEC 61058-1:201661058-1: 2016",
+      "title": "Switches for appliances: Part 1 general requirements",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS/IEC 60529:2001",
+      "title": "Degrees of protection provided by enclosures (IP Code)",
+      "committee": "ETD 01"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 14772:2000",
+      "title": "Boxes and Enclosures for Electrical Accessories for Household and Similar Fixed Electrical Installations \u2014 General Requirements ( First Revision )",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 11000 (Part 2/Sec 1):2018IEC 60695-2-10 : 2013",
+      "title": "Fire hazard testing: Part 2 test methods: Sec 1 glow - Wire apparatus and common test procedure (Second Revision)",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 1401:2008IEC 61032Reaffirmed but not taken up for revision",
+      "title": "Protection of persons and equipment by enclosures - Probes for verification (Second Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 14340:1996",
+      "title": "Brass for current carrying parts in electrical wiring accessories - Specification",
+      "committee": "MTD 08"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 14763:202260423: 2007",
+      "title": "Conduits for electrical purposes - Outside diameters of conduits for electrical installation and threads for conduits and fittings - Specification",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 1885 (Part 74):2012IEC 60050-151 : 2001",
+      "title": "Electrotechnical vocabulary: Part 74 electrical and magnetic devices (First Revision)",
+      "committee": "ETD 01"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 2824:2007IEC 60112 : 2003",
+      "title": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials (Second Revision)",
+      "committee": "ETD 02"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 3854:2023",
+      "title": "Switches for domestic and similar purposes - Specification (Second Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 4160:2005IEC 60884-2-6",
+      "title": "Interlocking switch socket outlets - Specification (First Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 694:2010",
+      "title": "Polyvinyl chloride insulated unsheathed and sheathed cables/cords with rigid and flexible conductor for rated voltages up to and including 1 100 V (Fourth Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 9000 (Part 7/Sec 7):2020IEC 60068-2-75 : 2014",
+      "title": "Environmental Testing Part 7 Tests Section 7 Test Eh: Hammer tests ( First Revision )",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 9968 (Part 1):2025",
+      "title": "Specification for elastomer insulated cables: Part 1 for working voltages up to and including 1 100 volts (First Revision)",
+      "committee": "ETD 09"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 9000 (Part 5/Sec 12):1981",
+      "title": "Basic environmental testing procedures for electronic and electrical items: Part 5 damp heat (Cyclic) test",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS/IEC 61058-1:201661058-1: 2016",
+      "title": "Switches for appliances: Part 1 general requirements",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS/IEC 60529:2001",
+      "title": "Degrees of protection provided by enclosures (IP Code)",
+      "committee": "ETD 01"
+    }
+  ],
+  "internationalReferences": [
+    {
+      "number": "1",
+      "standard": "IEC 60068 : 2 : 31 2008"
+    }
+  ],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 15886 : 2010",
+      "title": "Road Vehicles \u00e2\u20ac\u201d Battery Operated--Vehicles \u00e2\u20ac\u201d Code Of Practice",
+      "committee": "TED 27"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 12274 : 1987",
+      "title": "Safety requirements for electronic flash apparatus for photographic purposes",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 12640 : Part 2 : 2016",
+      "title": "Residual current operated circuit - Breakers with integral overcurrent protection for household and similar uses (Rcbos): Part 2 general rules",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 10052 : Part 2 : 1999",
+      "title": "SpecificatlOn for radio disturbance and immunity measuring apparatus and methods: Part 2 methods of measurement of disturbances and immunity (First Revision)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "5",
+      "isNumber": "SP 7 : Group 1 : 2005",
+      "title": "National Building Code--Of India 2005 Group 1",
+      "committee": "CED 46"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 15368 : 2003",
+      "title": "Cable reels for household and similar purposes",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 4160 : 2005",
+      "title": "Interlocking switch socket outlets - Specification (First Revision)",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 8448 : 1989",
+      "title": "Automatic line voltage correctors (Step Type) for domestic use - Specification (First Revision)",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 8447 : 1989",
+      "title": "Manually operated voltage regulators for domestic use - Specification (First Revision)",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS/IEC 61558 : PART 2 : SEC 7 : 2007",
+      "title": "Safety of power transformers, power supplies reactors and similar products: Part 2 - 7 particular requirements and tests for transformers and power supplies for toys",
+      "committee": "ETD 16"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 10264 : 1982",
+      "title": "Specification for trolley, hot food, for hospital and industrial cantee - Ns",
+      "committee": "MHD 12"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 10322 (Part 1) : 2014",
+      "title": "Luminaires: Part 1 general requirements and tests (First Revision)",
+      "committee": "ETD 49"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 10322 : Part 5 : Sec 7 : 2017",
+      "title": "Luminaires: Part 5 particular requirements: Sec 7 lighting chains (First Revision)",
+      "committee": "ETD 49"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 302 : Part 2 : Sec 35 : 2017",
+      "title": "Safety of household and similar electrical appliances: Part 2 particular requirements: Sec 35 electric instantaneous water heaters (Second Revision)",
+      "committee": "ETD 32"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 616 : 2017",
+      "title": "Audio, video and similar electronic apparatus - Safety requirements (Fifth Revision)",
+      "committee": "LITD 07"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 732 : 2019",
+      "title": "Code of practice for electrical wiring installations (Fourth Revision)",
+      "committee": "ETD 20"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 17119 : 2019",
+      "title": "Residual current devices with or without overcurrent protection for socket - Outlets for household and similar uses",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 17120 : 2019",
+      "title": "In - Cable control and protection device for mode 2 charging of electric road vehicles (Ic - Cpd)",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 17017 : Part 1 : 2018",
+      "title": "Electric Vehicle Conductive Charging System Part 1 General Requirements",
+      "committee": "ETD 51"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 17345 : Part 1 : 2020",
+      "title": "Power Track System Part 1 General Requirement",
+      "committee": "ETD 14"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 17040 : 2018",
+      "title": "Circuit Breakers \u00e2\u20ac\u201d Switched Protective Earth Portable Residual Current Devices for Class I and Battery Powered Vehicle Applications",
+      "committee": "ETD 07"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 4105 : 1988",
+      "title": "Styrene (Vinyl Benzene)",
+      "committee": "PCD 09"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 15475 : Part 3 : 2004",
+      "title": "Code of recommended practice for amusement rides safety: Part 3 design, manufacture and erection",
+      "committee": "MED 06"
+    }
+  ],
+  "clauses": [
+    {
+      "clauseNumber": "Clause 9.1",
+      "title": "Dimensions of Plugs and Socket-Outlets",
+      "content": "Plugs and sockets rated 6A, 10A, and 16A must conform to the standard gauge dimensions to prevent hazardous or incomplete pin engagement.",
+      "isMandatory": true
+    },
+    {
+      "clauseNumber": "Clause 13.1",
+      "title": "Temperature Rise",
+      "content": "Temperature rise of terminals shall not exceed 45 K during continuous rated current load testing.",
+      "isMandatory": true
+    }
+  ],
+  "qco": null
+}

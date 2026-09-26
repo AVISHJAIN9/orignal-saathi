@@ -1,0 +1,95 @@
+{
+  "eyebrow": "ಡೈಶಬೋರ್ಡ · ಪ್ರೋಟೋಟಾಇಪ",
+  "greeting": "ವಾಪಸೀ ಪರ ಸ್ವಾಗತ ಹೈ, {{name}}",
+  "subheading": "ಆಪಕೇ ಆವೇದನೋಂ, ಸಮಯ-ಸೀಮಾಓಂ ಔರ ಲಂಬಿತ ಕಾರ್ಯೋಂ ಕಾ ವ್ಯಕ್ತಿಗತ ದೃಶ್ಯ — ಯಹ ಉದಾಹರಣಾತ್ಮಕ ಮ೉ಕ ಡೇಟಾ ಪರ ಆಧಾರಿತ ಏಕ ಡೇಮೋ ದೃಶ್ಯ ಹೈ, ನ ಕಿ ಲಾಇವ BIS ಫ಼ೀಡ೤",
+  "loading": "ಆಪಕಾ ಡೈಶಬೋರ್ಡ ಲೋಡ ಹೋ ರಹಾ ಹೈ…",
+  "error": {
+    "heading": "ಆಪಕಾ ಡೈಶಬೋರ್ಡ ಲೋಡ ನಹೀಂ ಹೋ ಸಕಾ",
+    "retry": "ಫಿರ ಸೇ ಪ್ರಯಾಸ ಕರೇಂ"
+  },
+  "empty": {
+    "heading": "ಆಪ ಪೂರೀ ತರಹ ಅಪಡೇಟ ಹೈಂ",
+    "body": "ಅಭೀ ಆಪಕೇ ಪಾಸ ಕೋಈ ಸಕ್ರಿಯ ಆವೇದನ, ಸಮಯ-ಸೀಮಾ ಯಾ ಲಂಬಿತ ಕಾರ್ಯ ನಹೀಂ ಹೈ೤"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} ಉಪಲಬ್ಧ ನಹೀಂ ಹೈ",
+    "retry": "ಪುನಃ ಪ್ರಯಾಸ ಕರೇಂ"
+  },
+  "sections": {
+    "progressSummary": "ಆವೇದನ ಸ್ಥಿತಿ",
+    "nextDeadline": "ಅಗಲೀ ಸಮಯ-ಸೀಮಾ",
+    "actionRequired": "ಆವಶ್ಯಕ ಕಾರ್ರವಾಈ",
+    "upcomingDeadlines": "ಆಗಾಮೀ ಸಮಯ-ಸೀಮಾಏಁ",
+    "calendar": "ಕೈಲೇಂಡರ",
+    "activeApplications": "ಸಕ್ರಿಯ ಆವೇದನ",
+    "recentActivity": "ಹಾಲ ಕೀ ಗತಿವಿಧಿ",
+    "regulatoryAlerts": "ನಿಯಾಮಕ ಚೇತಾವನಿಯಾಁ",
+    "paymentAlerts": "ಭುಗತಾನ ಚೇತಾವನಿಯಾಁ",
+    "sampleTesting": "ನಮೂನಾ ಪರೀಕ್ಷಣ ಸ್ಥಿತಿ"
+  },
+  "progressSummary": {
+    "completed": "ಪೂರ್ಣ",
+    "inProgress": "ಪ್ರಗತಿ ಮೇಂ",
+    "pending": "ಸಮೀಕ್ಷಾ ಲಂಬಿತ"
+  },
+  "urgency": {
+    "normal": "ಸಾಮಾನ್ಯ",
+    "approaching": "ನಜ಼ದೀಕ ಆ ರಹಾ ಹೈ",
+    "urgent": "ಅತ್ಯಾವಶ್ಯಕ",
+    "overdue": "ಸಮಯ-ಸೀಮಾ ಪಾರ",
+    "dueInDays_one": "{{count}} ದಿನ ಮೇಂ ದೇಯ",
+    "dueInDays_other": "{{count}} ದಿನೋಂ ಮೇಂ ದೇಯ",
+    "dueToday": "ಆಜ ದೇಯ",
+    "overdueByDays_one": "{{count}} ದಿನ ಕೀ ದೇರೀ",
+    "overdueByDays_other": "{{count}} ದಿನೋಂ ಕೀ ದೇರೀ"
+  },
+  "nextDeadline": {
+    "empty": "ಕೋಈ ಆಗಾಮೀ ಸಮಯ-ಸೀಮಾ ನಹೀಂ೤",
+    "viewApplication": "ಆವೇದನ ದೇಖೇಂ"
+  },
+  "actionRequired": {
+    "empty": "ಕೋಈ ಕಾರ್ರವಾಈ ಆವಶ್ಯಕ ನಹೀಂ — ಆಪ ಪೂರೀ ತರಹ ಅಪಡೇಟ ಹೈಂ೤",
+    "open": "ಖೋಲೇಂ"
+  },
+  "upcomingDeadlines": {
+    "empty": "ಕೋಈ ಆಗಾಮೀ ಸಮಯ-ಸೀಮಾ ನಹೀಂ೤",
+    "addToCalendar": "ಕೈಲೇಂಡರ ಮೇಂ ಜೋಡ಼ೇಂ"
+  },
+  "calendar": {
+    "hint": "ಜಿನ ದಿನೋಂ ಮೇಂ ಸಮಯ-ಸೀಮಾ ಹೈ ವೇ ಚಿಹ್ನಿತ ಹೈಂ — ದೇಖನೇ ಕೇ ಲಿಏ ಏಕ ಚುನೇಂ, ಯಾ ನೀಚೇ ಸಬ ಕುಛ ನಿರ್ಯಾತ ಕರೇಂ೤",
+    "exportAll": "ಕೈಲೇಂಡರ ಮೇಂ ಸಬ ನಿರ್ಯಾತ ಕರೇಂ (.ics)",
+    "addOne": "ಕೈಲೇಂಡರ ಮೇಂ ಜೋಡ಼ೇಂ",
+    "empty": "ಕೈಲೇಂಡರ ಪರ ದಿಖಾನೇ ಕೇ ಲಿಏ ಕೋಈ ಸಮಯ-ಸೀಮಾ ನಹೀಂ೤",
+    "noneOnDay": "ಇಸ ದಿನ ಕೋಈ ಸಮಯ-ಸೀಮಾ ನಹೀಂ೤"
+  },
+  "activeApplications": {
+    "empty": "ಅಭೀ ತಕ ಕೋಈ ಸಕ್ರಿಯ ಆವೇದನ ನಹೀಂ೤",
+    "startOne": "ನಯಾ ಆವೇದನ ಶುರೂ ಕರೇಂ",
+    "status": {
+      "draft": "ಡ್ರಾಫ಼್ಟ",
+      "submitted": "ಜಮಾ ಕಿಯಾ ಗಯಾ"
+    },
+    "readinessLabel": "ತೈಯಾರೀ",
+    "readinessStatus": {
+      "ready": "ಜಮಾ ಕರನೇ ಕೇ ಲಿಏ ತೈಯಾರ",
+      "ready_with_non_blocking": "ತೈಯಾರ — ಗೈರ-ಅವರೋಧಕ ಮದ ಶೇಷ ಹೈಂ",
+      "not_ready": "ತೈಯಾರ ನಹೀಂ",
+      "insufficient_evidence": "ಅಪರ್ಯಾಪ್ತ ಸಾಕ್ಷ್ಯ"
+    },
+    "blockersLabel_one": "{{count}} ಅವರೋಧಕ ಸಮಸ್ಯಾ",
+    "blockersLabel_other": "{{count}} ಅವರೋಧಕ ಸಮಸ್ಯಾಏಁ",
+    "viewStandard": "ಮಾನಕ ದೇಖೇಂ"
+  },
+  "recentActivity": {
+    "empty": "ಕೋಈ ಹಾಲ ಕೀ ಗತಿವಿಧಿ ನಹೀಂ೤"
+  },
+  "regulatoryAlerts": {
+    "empty": "ಕೋಈ ನಈ ನಿಯಾಮಕ ಚೇತಾವನೀ ನಹೀಂ೤",
+    "viewDetails": "ವಿವರಣ ದೇಖೇಂ"
+  },
+  "paymentAlerts": {
+    "empty": "ಅಭೀ ಕೋಈ ಲಂಬಿತ ಶುಲ್ಕ ನಹೀಂ ಹೈ೤",
+    "viewPayment": "ಭುಗತಾನ ಸ್ಥಿತಿ ದೇಖೇಂ"
+  },
+  "illustrativeNotice": "ಉದಾಹರಣಾತ್ಮಕ ಡೇಟಾ — ಯಹ ಕೋಈ ವಾಸ್ತವಿಕ BIS ಆವೇದನ ಯಾ ಫಾಇಲಿಂಗ ನಹೀಂ ಹೈ೤"
+}

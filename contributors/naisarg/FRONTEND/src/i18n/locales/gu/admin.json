@@ -1,0 +1,57 @@
+{
+  "title": "ઉપયોગ વિશ્લેષિકી",
+  "groundednessRate": "આધારિત ઉત્તર કી દર",
+  "declineRate": "અસ્વીકૃતિ દર",
+  "totalQueries": "કુલ પ્રશ્ન",
+  "trendUpAriaLabel": "પિછલી અવધિ કી તુલના મેં {{value}}% વૃદ્ધિ",
+  "trendDownAriaLabel": "પિછલી અવધિ કી તુલના મેં {{value}}% ગિરાવટ",
+  "topicsChartTitle": "શીર્ષ પ્રશ્ન વિષય",
+  "topicsAverageLabel": "ઔસત: {{value}}",
+  "queriesChartTitle": "સમય કે સાથ પ્રશ્ન (પિછલે 7 દિન)",
+  "queriesLabel": "પ્રશ્ન",
+  "topics": {
+    "helmets": "હેલમેટ",
+    "appliances": "ઉપકરણ",
+    "gold": "સોને કે આભૂષણ",
+    "water": "પૈકેજ્ડ પાની",
+    "cookers": "પ્રેશર કુકર",
+    "toys": "ખિલૌને"
+  },
+  "days": {
+    "mon": "સોમ",
+    "tue": "મંગલ",
+    "wed": "બુધ",
+    "thu": "ગુરુ",
+    "fri": "શુક્ર",
+    "sat": "શનિ",
+    "sun": "રવિ"
+  },
+  "documents": {
+    "pageTitle": "દસ્તાવેજ઼ પ્રબંધન",
+    "dropzone": {
+      "title": "ફ઼ાઇલેં યહાઁ ખીંચેં ઔર છોડ઼ેં, યા બ્રાઉજ઼ કરને કે લિએ ક્લિક કરેં",
+      "hint": "PDF, DOC, યા DOCX"
+    },
+    "table": {
+      "name": "દસ્તાવેજ઼ કા નામ",
+      "category": "શ્રેણી",
+      "status": "સ્થિતિ",
+      "lastUpdated": "અંતિમ અદ્યતન",
+      "actions": "કાર્ય"
+    },
+    "status": {
+      "queued": "કતારબદ્ધ",
+      "processing": "સંસાધિત હો રહા હૈ",
+      "indexed": "અનુક્રમિત",
+      "failed": "વિફલ"
+    },
+    "reingest": "પુનઃ-પ્રોસેસ કરેં",
+    "retire": "હટાએઁ",
+    "uncategorized": "અવર્ગીકૃત",
+    "emptyState": "અભી કોઈ દસ્તાવેજ઼ નહીં — શુરૂ કરને કે લિએ ઊપર એક અપલોડ કરેં૤"
+  },
+  "opsOnline": "SAATHI સંચાલન સક્રિય",
+  "statusOptimal": "ઉત્કૃષ્ટ",
+  "statusLive": "લાઇવ",
+  "statusWatch": "નિગરાની"
+}

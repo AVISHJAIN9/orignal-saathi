@@ -1,0 +1,147 @@
+[
+  {
+    "standard_number": "IS 10500:2012",
+    "title": "Drinking Water — Specification (Second Revision)",
+    "division": "Food and Agriculture Division (FAD)",
+    "status": "ACTIVE",
+    "effective_date": "2012-05-01",
+    "scope": "Prescribes the quality requirements and permissible limits for drinking water intended for human consumption.",
+    "mandatory_clauses": [
+      {
+        "clause": "4.1",
+        "title": "Essential Requirements",
+        "content": "pH: 6.5 - 8.5; TDS acceptable limit: 500 mg/l, max 2000 mg/l."
+      },
+      {
+        "clause": "4.2",
+        "title": "Bacteriological Quality",
+        "content": "E. coli or thermotolerant coliform bacteria must be zero in any 100 ml sample."
+      },
+      {
+        "clause": "4.3",
+        "title": "Toxic Substances",
+        "content": "Lead max 0.01 mg/l, Arsenic max 0.01 mg/l, Fluoride max 1.0 mg/l."
+      }
+    ]
+  },
+  {
+    "standard_number": "IS 4984:2016",
+    "title": "High Density Polyethylene (HDPE) Pipes for Water Supply — Specification",
+    "division": "Civil Engineering Division (CED)",
+    "status": "ACTIVE",
+    "effective_date": "2016-08-15",
+    "scope": "Covers requirements for HDPE pipes from 16 mm to 1000 mm nominal outer diameter for water conveyance.",
+    "mandatory_clauses": [
+      {
+        "clause": "5.1",
+        "title": "Raw Material",
+        "content": "Virgin PE-63, PE-80, or PE-100 designation with designated MFI tolerance."
+      },
+      {
+        "clause": "7.3",
+        "title": "Hydrostatic Strength",
+        "content": "Must endure 100 hours at 80 deg C without rupture or localized ballooning."
+      }
+    ]
+  },
+  {
+    "standard_number": "IS 1293:2019",
+    "title": "Plugs and Socket-Outlets for Domestic and Similar Purposes of Rated Voltage up to and Including 250 V",
+    "division": "Electrotechnical Division (ETD)",
+    "status": "ACTIVE",
+    "effective_date": "2019-11-20",
+    "scope": "Specifications for 2-pin and 3-pin plugs and sockets (6A and 16A) for Indian household electrical installations.",
+    "mandatory_clauses": [
+      {
+        "clause": "10.1",
+        "title": "Protection Against Electric Shock",
+        "content": "Live parts shall not be accessible when plug is in partial or complete engagement."
+      },
+      {
+        "clause": "13.2",
+        "title": "Temperature Rise Test",
+        "content": "Max permissible rise of terminals is 45 K under nominal rated current for 1 hour."
+      }
+    ]
+  },
+  {
+    "standard_number": "IS 13252 (Part 1):2010",
+    "title": "Information Technology Equipment — Safety (General Requirements)",
+    "division": "Electronics & IT Division (LITD)",
+    "status": "ACTIVE",
+    "effective_date": "2010-06-01",
+    "scope": "Compulsory Registration Scheme (CRS) standard for power adapters, laptops, mobile phones, and visual display units.",
+    "mandatory_clauses": [
+      {
+        "clause": "1.5.1",
+        "title": "Components Safety",
+        "content": "Power cords and mains disconnect switches must comply with respective IS standards."
+      },
+      {
+        "clause": "2.1.1",
+        "title": "Electric Strength Test",
+        "content": "Withstand 3000 V AC between primary circuit and protective earth for 60 seconds."
+      }
+    ]
+  },
+  {
+    "standard_number": "IS 15885 (Part 2/Sec 13):2012",
+    "title": "Lamp Controlgear — Particular Requirements for DC or AC Supplied Electronic Controlgear for LED Modules",
+    "division": "Electrotechnical Division (ETD)",
+    "status": "ACTIVE",
+    "effective_date": "2012-09-01",
+    "scope": "Specifies safety requirements for electronic controlgear for use on d.c. supplies up to 250 V and a.c. supplies up to 1000 V.",
+    "mandatory_clauses": [
+      {
+        "clause": "8.1",
+        "title": "Insulation Resistance",
+        "content": "Minimum insulation resistance of 2 MOhm between live parts and enclosure."
+      },
+      {
+        "clause": "14.1",
+        "title": "Fault Conditions",
+        "content": "Driver must not emit flame or molten material under short circuit or open circuit."
+      }
+    ]
+  },
+  {
+    "standard_number": "IS 1786:2008",
+    "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+    "division": "Metallurgical Engineering Division (MTD)",
+    "status": "ACTIVE",
+    "effective_date": "2008-04-01",
+    "scope": "Covers technical requirements for Fe 415, Fe 500, Fe 550, and Fe 600 grade TMT steel bars for structural RCC construction.",
+    "mandatory_clauses": [
+      {
+        "clause": "6.2",
+        "title": "Chemical Composition",
+        "content": "Carbon max 0.25%, Sulfur max 0.045%, Phosphorus max 0.045%."
+      },
+      {
+        "clause": "8.1",
+        "title": "Tensile and Yield Properties",
+        "content": "Yield stress 500 N/mm2 min for Fe 500 with minimum 12.0% elongation at break."
+      }
+    ]
+  },
+  {
+    "standard_number": "IS 269:2015",
+    "title": "Ordinary Portland Cement — Specification (Sixth Revision)",
+    "division": "Civil Engineering Division (CED)",
+    "status": "ACTIVE",
+    "effective_date": "2015-12-01",
+    "scope": "Covers manufacture and chemical/physical requirements for 33, 43, and 53 grade Ordinary Portland Cement.",
+    "mandatory_clauses": [
+      {
+        "clause": "5.1",
+        "title": "Chemical Requirements",
+        "content": "Insoluble residue max 5.0%, Magnesia max 6.0%, Total sulfur content max 3.5%."
+      },
+      {
+        "clause": "6.2",
+        "title": "Compressive Strength",
+        "content": "28-day compressive strength must meet or exceed 53 MPa for 53-grade OPC."
+      }
+    ]
+  }
+]

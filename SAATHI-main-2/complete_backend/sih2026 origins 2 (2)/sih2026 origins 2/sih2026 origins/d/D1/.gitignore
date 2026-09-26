@@ -1,0 +1,17 @@
+# Compiled output
+dist/
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+__pycache__/
+.venv/
+venv/

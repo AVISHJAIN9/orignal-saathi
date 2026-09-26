@@ -1,0 +1,403 @@
+{
+  "master": {
+    "internal_id": 11694,
+    "IS_number": "IS 4984:2016",
+    "clean_number": "4984",
+    "slug": "is-11694",
+    "IS_title": "Polyethylene Pipes for Water Supply - Specification (Fifth Revision)",
+    "superseding_IS": "None",
+    "degree_of_equivalence": "Not Equivalent",
+    "number_of_revisions": "5",
+    "number_of_amendments": "2",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "CED (Civil Engineering Department)",
+    "technical_committee": "CED 50 (Plastic Piping System Sectional Committee)",
+    "member_secretary": "NISHIKANT SINGH (SCIENTIST-D)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 2,
+    "gazette_document_count": 2,
+    "license_count": 1064,
+    "product_manual_sit_count": 1,
+    "laboratory_count": 62,
+    "corrigendum_count": 0,
+    "catalogue_id": "24642",
+    "catalogue_is_no": "IS 4984:2016 (Active)",
+    "catalogue_title": "Polyethylene Pipes for Water Supply - Specification (Fifth Revision)",
+    "catalogue_amendments": "2",
+    "catalogue_technical_committee": "CED 50",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Not Equivalent",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/11694",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=11694",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/217/2",
+    "extracted_at": "2026-09-23T14:01:00.676Z",
+    "category_key": "civil",
+    "category_label": "Civil Engineering",
+    "status": "Active",
+    "image_url": "/images/products/standard-fallback.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 2530:2026",
+      "title": "Methods of test for polyethylene moulding materials and polyethylene compounds",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 4905:2015ISO 24153 : 2009",
+      "title": "Random sampling and randomization procedures (First Revision)",
+      "committee": "MSD 03"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 7328:2026",
+      "title": "Specification for polyethylene material for moulding and extrusion (Third Revision)",
+      "committee": "PCD 12"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 9845:1998",
+      "title": "Determination of overall migration of constituents of plastics materials and articles intended to come in contact with foodstuffs - Method of analysis (Second Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 10141:2001",
+      "title": "Positive List of Constituents of Polyethylene in Contact with Foodstuffs, Pharmaceuticals and Drinking Water",
+      "committee": "PCD 12"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 10146:1982",
+      "title": "Specification for polyethylene for its safe use in contact with foodstuffs, pharmaceuticals and drinking water",
+      "committee": "PCD 12"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 2530:2026",
+      "title": "Methods of test for polyethylene moulding materials and polyethylene compounds",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 4905:2015ISO 24153 : 2009",
+      "title": "Random sampling and randomization procedures (First Revision)",
+      "committee": "MSD 03"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 7328:2026",
+      "title": "Specification for polyethylene material for moulding and extrusion (Third Revision)",
+      "committee": "PCD 12"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 9845:1998",
+      "title": "Determination of overall migration of constituents of plastics materials and articles intended to come in contact with foodstuffs - Method of analysis (Second Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 10141:2001",
+      "title": "Positive List of Constituents of Polyethylene in Contact with Foodstuffs, Pharmaceuticals and Drinking Water",
+      "committee": "PCD 12"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 10146:1982",
+      "title": "Specification for polyethylene for its safe use in contact with foodstuffs, pharmaceuticals and drinking water",
+      "committee": "PCD 12"
+    }
+  ],
+  "internationalReferences": [],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 13385 : 1992",
+      "title": "Specification for Fire Extinguisher 50 Litre Capacity Wheel Mounted Water Type (gas Cartridge)",
+      "committee": "CED 22"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 13386 : 1992",
+      "title": "Specification for Fire Extinguisher 50 Litre Capacity , Mechanical Foam Type",
+      "committee": "CED 22"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 14951 : 2001",
+      "title": "Fire extinguisher - 135 litres capacity mechanical foam type - Specification",
+      "committee": "CED 22"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 6295 : 1986",
+      "title": "Code of practice for water supply and drainage in high altitudes and/or sub - Zero temperature regions (First Revision)",
+      "committee": "CED 24"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 8419 : Part 2 : 1984",
+      "title": "Requirements for rapid sand gravity filtration equipment: Part 2 underdrainage system",
+      "committee": "CED 24"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 10553 : Part 2 : 1983",
+      "title": "Requirements for chlorination equipment: Part 2 Vacuum feed type chlorinators",
+      "committee": "CED 24"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 10553 : Part 4 : 1983",
+      "title": "Requirements for chlorination equipment: Part 4 Gravity feed type gaseous chlorinators",
+      "committee": "CED 24"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 1742 : 1983",
+      "title": "Code of practice for building drainage (second revision)",
+      "committee": "CED 24"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 2065 : 1983",
+      "title": "Code of practice for water supply in buildings (Second Revision)",
+      "committee": "CED 24"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 4111 : Part 5 : 1993",
+      "title": "Code of Practice for Ancillary Structures in Sewerage System: Part 5 Tidal Outfalls",
+      "committee": "CED 24"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 9758 : 1981",
+      "title": "Specification for flush valves and fittings for water closets and urinals",
+      "committee": "CED 03"
+    },
+    {
+      "number": "12",
+      "isNumber": "SP 62 : 1997",
+      "title": "Handbook on causes and prevention of cracks in buildings",
+      "committee": "CED 13"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 14536 : 2018",
+      "title": "Selection, installation, operation and maintenance of submersible pumpset - Code of practice (First Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 11346 : 2002",
+      "title": "Tests for agricultural and water supply pumps - Code of acceptance (First Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 10804 : Part 1 : 2018",
+      "title": "Recommended pumping systems for agricultural purposes: Part 1 surface pumps (Third Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "16",
+      "isNumber": "SP 35 (S&T) : 1987",
+      "title": "Handbook on Water Supply and Drainage (with Special Emphasis on Plumbing)",
+      "committee": "CED 24"
+    },
+    {
+      "number": "17",
+      "isNumber": "SP 7 : 2016",
+      "title": "National Building Code of India 2016",
+      "committee": "CED 46"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 7634 : Part 1 : 1975",
+      "title": "Code of Practice for Plastics Pipe Work for Potable Water Supplies: Part 1 Choice of Materials and General Recommendations",
+      "committee": "CED 50"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 7634 : Part 2 : 2012",
+      "title": "Plastics Pipes Selection, Handling, Storage and Installation for Potable Water Supplies - Code of Practice: Part 2 Laying and Jointing of Polyethylene (PE) Pipes (First Revision)",
+      "committee": "CED 50"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 8008 : Part 1 : 2003",
+      "title": "Injection moulded/machined high density polyethylene (HDPE) fittings for potable water supplies - Specification: Part 1 general requirements for fittings (First Revision)",
+      "committee": "CED 50"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 8008 : Part 3 : 2003",
+      "title": "Injection Moulded/Machined High Density Polyethylene (HDPE) Fittings for Potable Water Supplies - - Part 3 : Specific Requirements for 90\u00c2\u00b0 TEES",
+      "committee": "CED 50"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 8008 : Part 4 : 2003",
+      "title": "Injection moulded/machined high density polyethylene (HDPE) fittings for potable water supplies - Specification: Part 4 specific requirements for reducers (First Revision)",
+      "committee": "CED 50"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 8008 : Part 6 : 2003",
+      "title": "Injection moulded/machined high density polyethylene (HDPE) fittings for potable water supplies - Specification: Part 6 specific requirements for pipe ends (First Revision)",
+      "committee": "CED 50"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 8008 : Part 8 : 2003",
+      "title": "Injection moulded/machined high density polyethylene (HDPE) fittings for potable water supplies - Specification: Part 8 specific requirements for reducing tees (First Revision)",
+      "committee": "CED 50"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 8008 : Part 9 : 2003",
+      "title": "Injection moulded/machined high density polyethylene (HDPE) fittings for potable water supplies - Specification: Part 9 specific requirements for ends caps (First Revision)",
+      "committee": "CED 50"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 8360 : Part 1 : 1977",
+      "title": "fabricated high density polyethylene (HDPE) fittings for potable water supplies: Part 1 General requirements",
+      "committee": "CED 50"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 8360 : Part 2 : 1977",
+      "title": "fabricated high density polyethylene (MDPE) fittings for potable water supplies, Part 2 Specific requirements for 90 degree tees",
+      "committee": "CED 50"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 8360 : Part 3 : 1977",
+      "title": "fabricated high density polyethylene (HDPE) fittings for potable water supplies, Part 3 Specifc requirements for 90 degree bends",
+      "committee": "CED 50"
+    },
+    {
+      "number": "29",
+      "isNumber": "SP 57 (QAWSM) : 1993",
+      "title": "Handbook on pipes and fittings for drinking water supply",
+      "committee": "CED 50"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 14151 : Part 1 : 1999",
+      "title": "Irrigation Equipment - Sprinkler Pipes - Specification : Part 1 Polyethylene Pipes (First Revision)",
+      "committee": "FAD 17"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 10804 : Part 2 : 2018",
+      "title": "Recommended pumping systems for agricultural purposes: Part 2 submersible pump sets (Third Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 8472 : 2019",
+      "title": "Centrifugal regenerative pumps for clear, cold water - Specification (Second Revision)",
+      "committee": "MED 20"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 7328 : 2020",
+      "title": "Specification for polyethylene material for moulding and extrusion (Third Revision)",
+      "committee": "PCD 12"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 17425 : 2020",
+      "title": "Irrigation Equipment - Quick Coupled Polyethylene Pipes and Fittings for Sprinkler Irrigation Systems - Specification",
+      "committee": "FAD 17"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 774 : 2004",
+      "title": "Flushing cisterns for water closets and urinals (Other Than Plastic Cisterns) - Specification (Fifth Revision)",
+      "committee": "CED 03"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 7231 : 1994",
+      "title": "plastic flushing cisterns for waterclosets and urinals",
+      "committee": "CED 03"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 17577 : 2021",
+      "title": "Reliability and availability evaluation of HVDC systems",
+      "committee": "ETD 40"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 15450 : 2004",
+      "title": "Polyethylene/aluminium/polyethylene composite pressure pipes for hot and cold water supplies - Specification",
+      "committee": "CED 50"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS/IEC 60721 : Part 3 : Sec 3 : 2019",
+      "title": "Classification of Environmental Conditions Part 3 Classification of groups of environmental parameters and their severities Section 3 Stationary use at weatherprotected locations",
+      "committee": "LITD 01"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS 9478 : 1989",
+      "title": "Family size bio - Gas plant - Code of practice (Second Revision)",
+      "committee": "MED 04"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 16616 : 2022",
+      "title": "Hard coal - Audibert-arnu dilatometer test (First Revision)",
+      "committee": "PCD 07"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 17881 : Part 2 : 2022",
+      "title": "Protective clothing against heat and flame - Part 2 Skin burn injury prediction - Calculation requirements and test cases",
+      "committee": "TXD 32"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 14961 : 2001",
+      "title": "Guidelines for rain water harvesting in hilly areas by roof water collection system",
+      "committee": "CED 56"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 5281 : 2023",
+      "title": "Fenitrothion Emulsifiable Concentrates - Specification",
+      "committee": "FAD 01"
+    }
+  ],
+  "clauses": [
+    {
+      "clauseNumber": "Clause 5.1",
+      "title": "Raw Material Classification",
+      "content": "Pipes shall be manufactured from virgin polyethylene material of designation PE-63, PE-80, or PE-100 containing 2.0 to 2.5% carbon black.",
+      "isMandatory": true
+    },
+    {
+      "clauseNumber": "Clause 8.1",
+      "title": "Hydrostatic Strength Test",
+      "content": "Pipes must withstand internal hydrostatic pressure test at 80\u00b0C for 165 hours without failure or leakage.",
+      "isMandatory": true
+    }
+  ],
+  "qco": null
+}

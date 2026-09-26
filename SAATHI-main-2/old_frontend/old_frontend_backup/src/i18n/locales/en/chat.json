@@ -1,0 +1,79 @@
+{
+  "title": "SAATHI - Ask about Indian Standards",
+  "logo": "SAATHI",
+  "inputPlaceholder": "Ask about Indian Standards...",
+  "sendAriaLabel": "Send message",
+  "thinking": "SAATHI is thinking…",
+  "backToHome": "Back to Home",
+  "nav": {
+    "dashboard": "Dashboard",
+    "knowledgeNexus": "Knowledge Nexus",
+    "vault": "Compliance Vault",
+    "grievance": "Grievance & Consent",
+    "standardsBrowser": "Standards Browser",
+    "classification": "Product Classification",
+    "adminPanel": "Admin Panel",
+    "documentManagement": "Document Management",
+    "conformityCheck": "Conformity Check",
+    "newApplication": "New Application",
+    "notifications": "Notifications",
+    "regulatoryRadar": "Regulatory Radar",
+    "intelFeed": "Intel Feed",
+    "annualRenewal": "Annual Renewal",
+    "documentCortex": "Document Cortex",
+    "sampleTracker": "Sample Testing Tracker"
+  },
+  "placeholder": {
+    "comingSoon": "This is a placeholder — full functionality is coming soon.",
+    "roleRequired": "Your current account doesn't have access to this page — log out and sign in with a different account type to preview it.",
+    "backToChat": "Back to chat"
+  },
+  "profile": {
+    "open": "Open profile customization",
+    "editTooltip": "Edit profile",
+    "title": "Profile customization",
+    "description": "Personalize how your Saathi workspace looks and sounds on this device.",
+    "nameLabel": "Display name",
+    "focusLabel": "Focus label",
+    "toneLabel": "Avatar tone",
+    "tones": {
+      "navy": "Navy avatar tone",
+      "sage": "Sage avatar tone",
+      "clay": "Clay avatar tone"
+    },
+    "soundLabel": "Sound feedback",
+    "soundDescription": "Play a soft tone when sending or clearing chat.",
+    "cancel": "Cancel",
+    "save": "Save changes"
+  },
+  "sidebar": {
+    "navigation": "Navigation"
+  },
+  "clearChat": {
+    "trigger": "Clear chat",
+    "title": "Clear this conversation?",
+    "description": "This removes the current messages and starts a clean chat on this device.",
+    "cancel": "Keep conversation",
+    "confirm": "Clear chat",
+    "emptyTitle": "Fresh conversation",
+    "emptyDescription": "Ask SAATHI about an Indian Standard to start again."
+  },
+  "backgroundSettings": {
+    "open": "Open background animation settings",
+    "title": "3D background",
+    "animated": "Animated",
+    "animatedDescription": "Floating motion and cursor parallax",
+    "paused": "Paused",
+    "pausedDescription": "Keep the scene visible without motion",
+    "off": "Off",
+    "offDescription": "Hide the decorative 3D scene",
+    "hint": "A lighter mode helps preserve battery on mobile."
+  },
+  "feedback": {
+    "helpfulAriaLabel": "Mark this answer as helpful",
+    "notHelpfulAriaLabel": "Mark this answer as not helpful",
+    "commentPrompt": "What was wrong with this answer?",
+    "submit": "Submit",
+    "thanks": "Thanks for the feedback."
+  }
+}

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.output/
+.nitro/
+
+# Dev / cache
+.tanstack/
+.vite/
+*.tsbuildinfo
+
+# Environment / secrets
+.env
+.env.*
+*.local
+
+# SQLite database (runtime, too large for Git)
+bis_standards.db
+bis_standards.db-shm
+bis_standards.db-wal
+
+# IDE / tool caches
+.claude/
+.wrangler/
+scratch/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Root-level screenshots (dev artifacts, not project assets)
+*.png
+# Override: keep images inside public/ and src/ (tracked by git add)
+!public/**/*.png
+!src/**/*.png

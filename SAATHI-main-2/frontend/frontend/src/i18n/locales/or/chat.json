@@ -1,0 +1,40 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified) — scope limited to the empty-conversation state only; everything else falls back to English.",
+  "clearChat": {
+    "emptyTitle": "ନୂଆ କଥୋପକଥନ",
+    "emptyDescription": "ପୁଣି ଆରମ୍ଭ କରିବାକୁ SAATHI କୁ ଏକ ଭାରତୀୟ ମାନକ ବିଷୟରେ ପଚାରନ୍ତୁ।"
+  },
+  "nav": {
+    "sectionCore": "ମୁଖ୍ଯ",
+    "sectionLifecycle": "ପ୍ରମାଣନ ଜୀଵନଚକ୍ର",
+    "sectionTools": "ଅନୁପାଲନ ଉପକରଣ",
+    "sectionAdmin": "ଵ୍ଯଵସ୍ଥାପକ",
+    "standardsBrowser": "ମାନକ ବ୍ରାଉଜ଼ର",
+    "adminPanel": "ଵ୍ଯଵସ୍ଥାପକ ପୈନଲ",
+    "documentManagement": "ଦସ୍ତାଵେଜ଼ ପ୍ରବଂଧନ",
+    "retrievalQuality": "ପୁନର୍ପ୍ରାପ୍ତି ଗୁଣଵତ୍ତା",
+    "conformityCheck": "ଅନୁରୂପତା ଜାଂଚ",
+    "notifications": "ସୂଚନାଏଂ",
+    "regulatoryRadar": "ନିଯାମକ ରଡାର",
+    "intelFeed": "ଇଂଟେଲ ଫୀଡ",
+    "documentCortex": "ଦସ୍ତାଵେଜ଼ କ୉ର୍ଟେକ୍ସ",
+    "newRegistration": "ନଯା ପଂଜୀକରଣ",
+    "officerVisits": "ଅଧିକାରୀ ଯାତ୍ରାଏଂ",
+    "documentCorrections": "ଦସ୍ତାଵେଜ଼ ସୁଧାର",
+    "appealsDisputes": "ଅପୀଲ ଔର ଵିଵାଦ",
+    "businessAccount": "ଵ୍ଯଵସାଯ ଖାତା",
+    "certificates": "ପ୍ରମାଣପତ୍ର",
+    "renewalReminders": "ନଵୀନୀକରଣ ଅନୁସ୍ମାରକ",
+    "complianceCalendar": "ଅନୁପାଲନ କୈଲେଂଡର",
+    "factoryAudits": "ଫ଼ୈକ୍ଟରୀ ଑ଡିଟ",
+    "recallsAlerts": "ରିକ୉ଲ ଔର ଅଲର୍ଟ",
+    "licenseActions": "ଲାଇସେଂସ କାର୍ରଵାଈ",
+    "feeInvoices": "ଶୁଲ୍କ ଚାଲାନ ଔର ରସୀଦେଂ",
+    "manufacturingLocations": "ଵିନିର୍ମାଣ ସ୍ଥାନ",
+    "schemeSelector": "ଯୋଜନା ଚଯନକର୍ତା",
+    "complianceChain": "ଅନୁପାଲନ ଶ୍ରୃଂଖଲା",
+    "laboratoryMatcher": "ପ୍ରଯୋଗଶାଲା ମିଲାନକର୍ତା",
+    "regulatoryAlerts": "ନିଯାମକ ଅଲର୍ଟ",
+    "exploreFeatures": "ସୁଵିଧାଏଂ ଦେଖେଂ"
+  }
+}

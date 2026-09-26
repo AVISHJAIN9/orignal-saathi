@@ -1,0 +1,80 @@
+{
+  "trigger": "অপনে উত্পাদ কা ঵ি঵রণ দেনে মেং অসমর্থ হৈং?",
+  "dialogTitle": "উত্পাদ ঵র্গীকরণ ঵িজ়ার্ড",
+  "dialogDescription": "কুছ আসান স঵ালোং কে জ঵াব দেং — হম উন্হেং সাথী কে লিএ এক স঵াল মেং বদল দেংগে৤",
+  "stepOf": "চরণ {{current}} / {{total}}",
+  "back": "পীছে",
+  "getAnswer": "উত্তর পাএং",
+  "steps": {
+    "category": {
+      "question": "আপকা উত্পাদ কিস শ্রেণী মেং আতা হৈ?",
+      "options": {
+        "helmets": {
+          "label": "঵্যক্তিগত সুরক্ষা",
+          "clause": "঵্যক্তিগত সুরক্ষা"
+        },
+        "appliances": {
+          "label": "ঘরেলূ উপকরণ",
+          "clause": "ঘরেলূ উপকরণ"
+        },
+        "gold": {
+          "label": "আভূষণ",
+          "clause": "আভূষণ"
+        },
+        "water": {
+          "label": "খাদ্য এ঵ং পানী",
+          "clause": "খাদ্য যা পানী"
+        },
+        "cookers": {
+          "label": "বর্তন",
+          "clause": "বর্তন"
+        },
+        "toys": {
+          "label": "খিলৌনে",
+          "clause": "খিলৌনা"
+        }
+      }
+    },
+    "audience": {
+      "question": "যহ কিসকে লিএ হৈ?",
+      "options": {
+        "consumer": {
+          "label": "উপভোক্তা উপযোগ",
+          "clause": "উপভোক্তা উপযোগ"
+        },
+        "commercial": {
+          "label": "঵্যা঵সাযিক বিক্রী",
+          "clause": "঵্যা঵সাযিক বিক্রী"
+        },
+        "import": {
+          "label": "আযাত",
+          "clause": "আযাত"
+        }
+      }
+    },
+    "need": {
+      "question": "আপকো ক্যা জাননা হৈ?",
+      "options": {
+        "standard": {
+          "label": "কৌন সা মানক লাগূ হোতা হৈ",
+          "questionText": "ইস পর কৌন সা মানক লাগূ হোতা হৈ?"
+        },
+        "certification": {
+          "label": "প্রমাণন প্রক্রিযা",
+          "questionText": "প্রমাণন প্রক্রিযা ক্যা হৈ?"
+        },
+        "testing": {
+          "label": "পরীক্ষণ আ঵শ্যকতাএং",
+          "questionText": "ইসকে লিএ কৌন সী পরীক্ষণ আ঵শ্যকতাএং পূরী করনী হোংগী?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "অপনে উত্তর দেখেং",
+    "category": "শ্রেণী",
+    "audience": "উপযোগ",
+    "need": "আপ ক্যা জাননা চাহতে হৈং"
+  },
+  "generatedQuestion": "মেরে পাস এক {{category}} উত্পাদ হৈ, {{audience}} কে লিএ৤ {{needQuestion}}"
+}

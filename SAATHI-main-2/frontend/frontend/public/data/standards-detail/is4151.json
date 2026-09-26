@@ -1,0 +1,161 @@
+{
+  "master": {
+    "internal_id": 10791,
+    "IS_number": "IS 4151:2015",
+    "clean_number": "4151",
+    "slug": "is4151",
+    "IS_title": "Protective helmets for motorcycle riders - Specification (Fourth Revision)",
+    "superseding_IS": "None",
+    "degree_of_equivalence": "Indigenous",
+    "number_of_revisions": "4",
+    "number_of_amendments": "2",
+    "aspect": "N/A",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "CED (Civil Engineering Department)",
+    "technical_committee": "CED 22 (Fire Fighting Sectional Committee)",
+    "member_secretary": "RAJESH CHOUDHARY (SCIENTIST-C)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 2,
+    "gazette_document_count": 2,
+    "license_count": 155,
+    "product_manual_sit_count": 1,
+    "laboratory_count": 6,
+    "corrigendum_count": 0,
+    "catalogue_id": "23085",
+    "catalogue_is_no": "IS 4151:2015 (Active)",
+    "catalogue_title": "Protective helmets for motorcycle riders - Specification (Fourth Revision)",
+    "catalogue_amendments": "2",
+    "catalogue_technical_committee": "CED 22",
+    "catalogue_aspect": "",
+    "catalogue_reaffirmation": "Indigenous",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/10791",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=10791",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/202/2",
+    "extracted_at": "2026-09-23T13:42:42.577Z",
+    "category_key": "helmets",
+    "category_label": "Helmets",
+    "status": "Active",
+    "image_url": "/images/products/helmets.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 1884:1993",
+      "title": "Automotive vehicles - Electric horns - Specification Amendment - 4",
+      "committee": "TED 11"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 7692:2024",
+      "title": "Headforms for testing of helmets - Specification (First Revision)",
+      "committee": "CED 22"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 9695:1980",
+      "title": "Methods for sampling of helmets",
+      "committee": "CED 22"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 9779:1981IEC 60651",
+      "title": "Sound Level Meters",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 9844:1981",
+      "title": "Methods of testing corrosion resistance of electroplated and anodized aluminium coatings by neutral salt spray test",
+      "committee": "MTD 24"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 9973:1981",
+      "title": "Specification for visor for scooter helmets",
+      "committee": "CED 22"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 1884:1993",
+      "title": "Automotive vehicles - Electric horns - Specification Amendment - 4",
+      "committee": "TED 11"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 7692:2024",
+      "title": "Headforms for testing of helmets - Specification (First Revision)",
+      "committee": "CED 22"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 9695:1980",
+      "title": "Methods for sampling of helmets",
+      "committee": "CED 22"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 9779:1981IEC 60651",
+      "title": "Sound Level Meters",
+      "committee": "LITD 05"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 9844:1981",
+      "title": "Methods of testing corrosion resistance of electroplated and anodized aluminium coatings by neutral salt spray test",
+      "committee": "MTD 24"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 9973:1981",
+      "title": "Specification for visor for scooter helmets",
+      "committee": "CED 22"
+    }
+  ],
+  "internationalReferences": [],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 4151 : 2015",
+      "title": "Protective helmets for motorcycle riders - Specification (Fourth Revision)",
+      "committee": "CED 22"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 1288 : 1982",
+      "title": "Methods of test for mineral gypsum (Second Revision)",
+      "committee": "CHD 01"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 10407 : 1998",
+      "title": "Automotive vehicles - Two wheelers - Acceleration performance - Method of evaluation (Second Revision)",
+      "committee": "TED 04"
+    }
+  ],
+  "clauses": [],
+  "qco": {
+    "qcoId": "QCO-HELMET-2021",
+    "title": "Protective Helmets for Two-Wheeler Riders (Quality Control) Order, 2021",
+    "product": "Protective helmets for two-wheeler riders",
+    "scope": "Mandatory BIS certification for all protective helmets manufactured, imported, stored for sale, or sold for use by two-wheeler riders and pillion passengers in India under Gazette Notification S.O. 4252(E).",
+    "effectiveDate": "2021-06-01",
+    "status": "applicable",
+    "exemptions": [
+      "Helmets manufactured solely for export, and not sold within India, are exempt from this Order."
+    ],
+    "requirements": [
+      "Valid BIS Licence (ISI mark) under IS 4151 prior to manufacture or import.",
+      "Each helmet must bear the Standard Mark (ISI mark) legibly and indelibly.",
+      "Compliance with impact absorption, penetration resistance, and retention system tests specified in IS 4151."
+    ],
+    "sourceUrl": "https://www.services.bis.gov.in",
+    "sourceType": "gazette_notification"
+  }
+}

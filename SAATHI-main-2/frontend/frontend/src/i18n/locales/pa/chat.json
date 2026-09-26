@@ -1,0 +1,40 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified) — scope limited to the empty-conversation state only; everything else falls back to English.",
+  "clearChat": {
+    "emptyTitle": "ਨਵੀਂ ਗੱਲਬਾਤ",
+    "emptyDescription": "ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨ ਲਈ SAATHI ਨੂੰ ਕਿਸੇ ਭਾਰਤੀ ਮਿਆਰ ਬਾਰੇ ਪੁੱਛੋ।"
+  },
+  "nav": {
+    "sectionCore": "ਮੁਖ੍ਯ",
+    "sectionLifecycle": "ਪ੍ਰਮਾਣਨ ਜੀਵਨਚਕ੍ਰ",
+    "sectionTools": "ਅਨੁਪਾਲਨ ਉਪਕਰਣ",
+    "sectionAdmin": "ਵ੍ਯਵਸ੍ਥਾਪਕ",
+    "standardsBrowser": "ਮਾਨਕ ਬ੍ਰਾਉਜ਼ਰ",
+    "adminPanel": "ਵ੍ਯਵਸ੍ਥਾਪਕ ਪੈਨਲ",
+    "documentManagement": "ਦਸ੍ਤਾਵੇਜ਼ ਪ੍ਰਬਂਧਨ",
+    "retrievalQuality": "ਪੁਨਰ੍ਪ੍ਰਾਪ੍ਤਿ ਗੁਣਵਤ੍ਤਾ",
+    "conformityCheck": "ਅਨੁਰੂਪਤਾ ਜਾਂਚ",
+    "notifications": "ਸੂਚਨਾਏਂ",
+    "regulatoryRadar": "ਨਿਯਾਮਕ ਰਡਾਰ",
+    "intelFeed": "ਇਂਟੇਲ ਫੀਡ",
+    "documentCortex": "ਦਸ੍ਤਾਵੇਜ਼ ਕ੉ਰ੍ਟੇਕ੍ਸ",
+    "newRegistration": "ਨਯਾ ਪਂਜੀਕਰਣ",
+    "officerVisits": "ਅਧਿਕਾਰੀ ਯਾਤ੍ਰਾਏਂ",
+    "documentCorrections": "ਦਸ੍ਤਾਵੇਜ਼ ਸੁਧਾਰ",
+    "appealsDisputes": "ਅਪੀਲ ਔਰ ਵਿਵਾਦ",
+    "businessAccount": "ਵ੍ਯਵਸਾਯ ਖਾਤਾ",
+    "certificates": "ਪ੍ਰਮਾਣਪਤ੍ਰ",
+    "renewalReminders": "ਨਵੀਨੀਕਰਣ ਅਨੁਸ੍ਮਾਰਕ",
+    "complianceCalendar": "ਅਨੁਪਾਲਨ ਕੈਲੇਂਡਰ",
+    "factoryAudits": "ਫ਼ੈਕ੍ਟਰੀ ਑ਡਿਟ",
+    "recallsAlerts": "ਰਿਕ੉ਲ ਔਰ ਅਲਰ੍ਟ",
+    "licenseActions": "ਲਾਇਸੇਂਸ ਕਾਰ੍ਰਵਾਈ",
+    "feeInvoices": "ਸ਼ੁਲ੍ਕ ਚਾਲਾਨ ਔਰ ਰਸੀਦੇਂ",
+    "manufacturingLocations": "ਵਿਨਿਰ੍ਮਾਣ ਸ੍ਥਾਨ",
+    "schemeSelector": "ਯੋਜਨਾ ਚਯਨਕਰ੍ਤਾ",
+    "complianceChain": "ਅਨੁਪਾਲਨ ਸ਼੍ਰ੃ਂਖਲਾ",
+    "laboratoryMatcher": "ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਮਿਲਾਨਕਰ੍ਤਾ",
+    "regulatoryAlerts": "ਨਿਯਾਮਕ ਅਲਰ੍ਟ",
+    "exploreFeatures": "ਸੁਵਿਧਾਏਂ ਦੇਖੇਂ"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "eyebrow": "অনুপালন ভল্ট",
+  "heading": "আপোনাৰ ছেভ কৰা মানক আৰু দস্তাবেজ",
+  "subheading": "কেটেলগৰ পৰা আপুনি বুকমাৰ্ক কৰা মানক আৰু Document Cortex-ৰ পৰা ছেভ কৰা দস্তাবেজ, সকলো এক ঠাইতে।",
+  "searchPlaceholder": "ছেভ কৰা বস্তু বিচাৰক...",
+  "resultCount_one": "{{count}} টা ছেভ কৰা বস্তু",
+  "resultCount_other": "{{count}} টা ছেভ কৰা বস্তু",
+  "filters": {
+    "all": "সকলো",
+    "standards": "মানক",
+    "documents": "দস্তাবেজ"
+  },
+  "item": {
+    "standardBadge": "মানক",
+    "documentBadge": "দস্তাবেজ",
+    "savedOn": "{{date}}ত ছেভ কৰা হ'ল",
+    "remove": "ভল্টৰ পৰা আঁতৰাওক",
+    "removeAriaLabel": "{{title}} ভল্টৰ পৰা আঁতৰাওক",
+    "viewStandard": "মানক চাওক",
+    "viewInCortex": "Document Cortex-ত খোলক"
+  },
+  "detail": {
+    "back": "পিছলৈ",
+    "standardNumberLabel": "মানক সংখ্যা",
+    "categoryLabel": "শ্ৰেণী",
+    "fileNameLabel": "ফাইলৰ নাম",
+    "savedLabel": "ছেভ কৰা হ'ল"
+  },
+  "empty": {
+    "title": "এতিয়ালৈকে একো ছেভ কৰা হোৱা নাই",
+    "description": "কেটেলগৰ পৰা এটা মানক বুকমাৰ্ক কৰক বা Document Cortex-ত বিশ্লেষণ কৰা এখন দস্তাবেজ ছেভ কৰক — ছেভ কৰা বস্তু ইয়াত দেখা যাব।",
+    "browseStandards": "মানক ব্ৰাউজ কৰক",
+    "openCortex": "Document Cortex খোলক"
+  },
+  "actions": {
+    "save": "ভল্টত ছেভ কৰক",
+    "saved": "ভল্টত ছেভ কৰা হ'ল",
+    "saveAriaLabel": "{{title}} ভল্টত ছেভ কৰক",
+    "savedAriaLabel": "{{title}} ছেভ কৰা হৈছে — ভল্টৰ পৰা আঁতৰাওক"
+  },
+  "disclaimer": "ছেভ কৰা বস্তুবোৰ কেৱল এই ব্ৰাউজাৰত থাকে (কোনো প্ৰকৃত একাউণ্ট বা বেকএণ্ড নহয়) — ছাইট ডাটা চাফা কৰিলে আপোনাৰ ভল্টো চাফা হৈ যাব।"
+}

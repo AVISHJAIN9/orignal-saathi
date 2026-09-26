@@ -1,0 +1,73 @@
+{
+  "eyebrow": "Sample Testing",
+  "title": "Sample Testing Status Tracker",
+  "subtitle": "A view of testing-stage progression for your submitted application.",
+  "backToDashboard": "Back to Dashboard",
+  "empty": "No submitted applications have a trackable sample yet — submit an application to see its testing status here.",
+  "selectSample": "Select a submitted application:",
+  "loadingMessages": [
+    "Checking your submitted applications…",
+    "Matching samples to their testing records…",
+    "Getting your testing status ready…"
+  ],
+  "disclaimer": {
+    "heading": "Testing data",
+    "body": "This tracker reflects the testing status of your submitted application — verify with BIS or your assigned lab for the authoritative record."
+  },
+  "simulator": {
+    "title": "Preview testing stage",
+    "description": "Preview how this tracker looks at each stage — this only changes what's shown to you in this browser, it doesn't reflect or affect any real laboratory activity.",
+    "reset": "Reset to real timeline"
+  },
+  "stages": {
+    "dispatched": "Sample Dispatched",
+    "received": "Sample Received",
+    "in_testing": "In Testing",
+    "passed": "Passed",
+    "failed": "Failed"
+  },
+  "stageDescriptions": {
+    "dispatched": "The sample for this application has been dispatched and is in transit.",
+    "received": "The sample has arrived and been logged for testing.",
+    "in_testing": "Testing is in progress. Results below fill in as they resolve.",
+    "passed": "All required parameters met the specified limits.",
+    "failed": "At least one required parameter did not meet the specified limit — see the breakdown below."
+  },
+  "widget": {
+    "viewStandard": "View Standard",
+    "labHeading": "Assigned laboratory",
+    "labBody": "No specific laboratory is named here yet — check back once one is assigned.",
+    "keyDates": "Timeline",
+    "submittedDate": "Submitted",
+    "estCompletion": "Est. completion",
+    "summaryHeading": "Test Summary",
+    "summaryNote": "A plain summary of the results below.",
+    "downloadSummary": "Download Test Summary",
+    "viewDocumentCortex": "Analyze related documents in Document Cortex",
+    "parametersHeading": "Parameter Results",
+    "clause": "Clause",
+    "parameter": "Parameter",
+    "requiredLimit": "Required Limit",
+    "observed": "Observed Value",
+    "status": "Result",
+    "observedInProgress": "Testing in progress",
+    "observedPending": "Awaiting test slot",
+    "parameterStatus": {
+      "passed": "Passed",
+      "warning": "Marginal",
+      "failed": "Failed",
+      "in_progress": "Testing",
+      "pending": "Pending"
+    },
+    "hideBreakdown": "Hide Breakdown",
+    "viewBreakdown": "View Breakdown"
+  },
+  "dashboardCard": {
+    "title": "Sample Testing Status",
+    "viewTracker": "Open Tracker",
+    "empty": "No samples currently in testing.",
+    "inProgressCount_one": "{{count}} sample in testing",
+    "inProgressCount_other": "{{count}} samples in testing",
+    "latestUpdate": "{{product}} — {{stage}}"
+  }
+}

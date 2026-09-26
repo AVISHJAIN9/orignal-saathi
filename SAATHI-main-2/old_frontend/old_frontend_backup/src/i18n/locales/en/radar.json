@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Regulatory Radar",
+  "subheading": "Amendments, new standards, and certification deadlines that affect BIS-regulated products.",
+  "backToChat": "Back to chat",
+  "filterAll": "All",
+  "categories": {
+    "bis": "BIS",
+    "standards": "Standards",
+    "certification": "Certification",
+    "international": "International",
+    "upcoming": "Upcoming"
+  },
+  "upcomingBadge": "Upcoming",
+  "emptyState": "No events in this category.",
+  "items": {
+    "r1": {
+      "title": "Clarification on pressure cooker marking requirements",
+      "description": "BIS issued a clarification on the marking and safety-valve labelling requirements under IS 2347 for pressure cookers."
+    },
+    "r2": {
+      "title": "ISO 9001:2026 revision aligns with BIS clauses",
+      "description": "The revised ISO 9001 quality-management clauses are now cross-referenced in BIS certification scheme audits."
+    },
+    "r3": {
+      "title": "LED luminaires move to mandatory QCO",
+      "description": "The certification scheme for LED luminaires transitioned from voluntary to a mandatory Quality Control Order."
+    },
+    "r4": {
+      "title": "New Indian Standard published for toy safety",
+      "description": "IS 9873 (Part 1):2025 was published, covering mechanical and physical safety requirements for toys."
+    },
+    "r5": {
+      "title": "Amendment to IS 4151:2025 (protective helmets)",
+      "description": "BIS notified an amendment to Clause 7.2 covering chin-strap strength requirements for protective helmets."
+    },
+    "r6": {
+      "title": "Licence transition deadline for household appliances",
+      "description": "Existing licences under IS 302 must transition to the IS 302 (Part 2):2026 revision by this date."
+    },
+    "r7": {
+      "title": "Draft QCO for packaged drinking water opens for comment",
+      "description": "A draft Quality Control Order for IS 14543 (packaged drinking water) opens for public comment."
+    },
+    "r8": {
+      "title": "Mandatory hallmarking extends to lighter jewellery",
+      "description": "Mandatory hallmarking under IS 1417 extends to gold jewellery items below 2 grams."
+    },
+    "r9": {
+      "title": "Public review opens for gold alloy standard amendment",
+      "description": "A proposed amendment to IS 1417 (gold and gold alloys) opens for public review and comment."
+    },
+    "r10": {
+      "title": "IEC 60335 household appliance safety revision in force",
+      "description": "The revised IEC 60335 household appliance safety standard enters into force internationally."
+    }
+  }
+}

@@ -1,0 +1,931 @@
+{
+  "master": {
+    "internal_id": 1333,
+    "IS_number": "IS 10500:2012",
+    "clean_number": "10500",
+    "slug": "is10500",
+    "IS_title": "Drinking Water - Specification (Second Revision)",
+    "superseding_IS": "None",
+    "degree_of_equivalence": "Indigenous",
+    "number_of_revisions": "2",
+    "number_of_amendments": "4",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "FAD (Food and Agriculture Department)",
+    "technical_committee": "FAD 14 (Drinking Water and Carbonated Beverages Sectional Committee)",
+    "member_secretary": "Abhijit Singh (SCIENTIST-C)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 4,
+    "gazette_document_count": 3,
+    "license_count": 0,
+    "product_manual_sit_count": 1,
+    "laboratory_count": 20,
+    "corrigendum_count": 0,
+    "catalogue_id": "1218",
+    "catalogue_is_no": "IS 10500:2012 (Active)",
+    "catalogue_title": "Drinking Water - Specification (Second Revision)",
+    "catalogue_amendments": "4",
+    "catalogue_technical_committee": "FAD 14",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Indigenous",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/1333",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=1333",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/281/2",
+    "extracted_at": "2026-09-22T17:40:23.928Z",
+    "category_key": "water",
+    "category_label": "Packaged Water",
+    "status": "Active",
+    "image_url": "/images/products/water.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 1622:2026",
+      "title": "Methods of sampling and microbiological examination or water (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 3025 (Part 1):1987",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and wastewater: Part 1 sampling (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 3025 (Part 2):2019ISO 11885 : 2007",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 2 Determination of Selected Elements by Inductively Coupled Plasma Optical Emission Spectrometry (ICP - OES) (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 3025 (Part 4):2021",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and waste water: Part 4 colour (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 3025 (Part 5):2018",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water: Part 5 Odour (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 3025 (Part 7):2017",
+      "title": "Methods of Sampling and Test (Physical And Chemical) for Water and Waste Water: Part 7 Taste Threshold (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 3025 (Part 8):2023",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and waste water: Part 8 taste rating (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 3025 (Part 10):2023",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and waste water: Part 10 turbidity (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 3025 (Part 11):2022ISO 10523:2008",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and waste water: Part 2 pH value (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 3025 (Part 16):2023",
+      "title": "Metiiods of sampling and test (Piiysical And Chemical) for water and waste water: Part 16 filterable residue (Total Dissolved Solids) (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 3025 (Part 21):2009",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water: Part 21 Hardness (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 3025 (Part 23):2023",
+      "title": "Metiiods of sampling and test (Physical and Chemical) for water and wastewater: Part 23 alkalinity (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 3025 (Part 24/Sec 1):2022",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 24 sulphates (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 3025:2021",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 26 chlorine, residual (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 3025 (Part 27/Sec 1):2021",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 27 cyanide (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 3025 (Part 29):2022",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and wastewater: Part 29 sulphide (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 3025 (Part 32):2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 32 Chloride (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 3025 (Part 34/Sec 1):2023",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and wastewater: Part 34 nitrogen (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 3025 (Part 37):2022",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 37 arsenic (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 3025:2021",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and wastewater: Part 39 oil and grease (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 3025 (Part 40):2024",
+      "title": "Water and wastewater - Methods of Sampling and Test (Physical and Chemical): Part 40 Calcium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 3025 (Part 41):2023",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater part 41 cadmium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 3025 (Part 42):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 42 Copper (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 3025 (Part 43/Sec 1):2022",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 43 phenols (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 3025 (Part 46):2023",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 46 magnesium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 3025 (Part 47):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 47 Lead (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 3025 (Part 48):2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 48 Mercury (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 3025 (Part 49):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 49 Zinc (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 3025 (Part 52):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 52 Chromium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 3025 (Part 53):2024",
+      "title": "Methods of sampling and test (Physical and Chemical) forwaterand wastewater: Part 53 iron (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 3025 (Part 54):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 54 Nickel (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 3025 (Part 55):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 55 Aluminium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 3025 (Part 56):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 56 Selenium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 3025 (Part 59):2023",
+      "title": "Methods of samplig and test (Physical And Chemical) for water and wastewater: Part 59 manganese (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 3025 (Part 60):2023",
+      "title": "Methods of sampling and test(Physical and Chemical) for water and wastewater: Part 60 fluoride (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 14194 (Part 1):2023",
+      "title": "Radionuclides In Environmental Samples \u2014 Methods of Estimation Part 1 Gross Beta Activity Measurement ( Second Revision )",
+      "committee": "CHD 30"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 14194 (Part 2):2022",
+      "title": "Radionuclides in environmental samples - Methods of estimation: Part 2 gross alpha activity measurement (First Revision)",
+      "committee": "CHD 30"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 15302:2003",
+      "title": "Determination of Aluminum and Barium in Water By Direct Nitrous Oxide - Acetylene Flame Atomic Absorption Spectrometry",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 15303:2003",
+      "title": "Determination of Antimony, Iron and Selenium in Water By Electrothermal Atomic Absorption Spectrometric Method",
+      "committee": "CHD 36"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 1622:2026",
+      "title": "Methods of sampling and microbiological examination or water (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 3025 (Part 1):1987",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and wastewater: Part 1 sampling (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 3025 (Part 2):2019ISO 11885 : 2007",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 2 Determination of Selected Elements by Inductively Coupled Plasma Optical Emission Spectrometry (ICP - OES) (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 3025 (Part 4):2021",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and waste water: Part 4 colour (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 3025 (Part 5):2018",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water: Part 5 Odour (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 3025 (Part 7):2017",
+      "title": "Methods of Sampling and Test (Physical And Chemical) for Water and Waste Water: Part 7 Taste Threshold (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 3025 (Part 8):2023",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and waste water: Part 8 taste rating (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 3025 (Part 10):2023",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and waste water: Part 10 turbidity (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 3025 (Part 11):2022ISO 10523:2008",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and waste water: Part 2 pH value (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 3025 (Part 16):2023",
+      "title": "Metiiods of sampling and test (Piiysical And Chemical) for water and waste water: Part 16 filterable residue (Total Dissolved Solids) (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 3025 (Part 21):2009",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Waste Water: Part 21 Hardness (Second Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 3025 (Part 23):2023",
+      "title": "Metiiods of sampling and test (Physical and Chemical) for water and wastewater: Part 23 alkalinity (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 3025 (Part 24/Sec 1):2022",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 24 sulphates (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 3025:2021",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 26 chlorine, residual (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 3025 (Part 27/Sec 1):2021",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 27 cyanide (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 3025 (Part 29):2022",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and wastewater: Part 29 sulphide (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 3025 (Part 32):2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 32 Chloride (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 3025 (Part 34/Sec 1):2023",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and wastewater: Part 34 nitrogen (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 3025 (Part 37):2022",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 37 arsenic (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 3025:2021",
+      "title": "Methods of sampling and test (Physical And Chemical) for water and wastewater: Part 39 oil and grease (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 3025 (Part 40):2024",
+      "title": "Water and wastewater - Methods of Sampling and Test (Physical and Chemical): Part 40 Calcium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 3025 (Part 41):2023",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater part 41 cadmium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 3025 (Part 42):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 42 Copper (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 3025 (Part 43/Sec 1):2022",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 43 phenols (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 3025 (Part 46):2023",
+      "title": "Methods of sampling and test (Physical and Chemical) for water and wastewater: Part 46 magnesium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 3025 (Part 47):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 47 Lead (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 3025 (Part 48):2025",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 48 Mercury (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 3025 (Part 49):2024",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 49 Zinc (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 3025 (Part 52):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 52 Chromium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 3025 (Part 53):2024",
+      "title": "Methods of sampling and test (Physical and Chemical) forwaterand wastewater: Part 53 iron (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 3025 (Part 54):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 54 Nickel (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 3025 (Part 55):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 55 Aluminium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 3025 (Part 56):2003",
+      "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater: Part 56 Selenium (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 3025 (Part 59):2023",
+      "title": "Methods of samplig and test (Physical And Chemical) for water and wastewater: Part 59 manganese (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 3025 (Part 60):2023",
+      "title": "Methods of sampling and test(Physical and Chemical) for water and wastewater: Part 60 fluoride (First Revision)",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 14194 (Part 1):2023",
+      "title": "Radionuclides In Environmental Samples \u2014 Methods of Estimation Part 1 Gross Beta Activity Measurement ( Second Revision )",
+      "committee": "CHD 30"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 14194 (Part 2):2022",
+      "title": "Radionuclides in environmental samples - Methods of estimation: Part 2 gross alpha activity measurement (First Revision)",
+      "committee": "CHD 30"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 15302:2003",
+      "title": "Determination of Aluminum and Barium in Water By Direct Nitrous Oxide - Acetylene Flame Atomic Absorption Spectrometry",
+      "committee": "CHD 36"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 15303:2003",
+      "title": "Determination of Antimony, Iron and Selenium in Water By Electrothermal Atomic Absorption Spectrometric Method",
+      "committee": "CHD 36"
+    }
+  ],
+  "internationalReferences": [],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 5346 : 1994",
+      "title": "Synthetic food colour - Preparations and mixtures - Specification (Second Revision)",
+      "committee": "FAD 08"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 7058 : 2005",
+      "title": "Table wines - Specification (Second Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 15689 : 2006",
+      "title": "Bamboo shoot in brine - Specification",
+      "committee": "FAD 10"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 14399 : Part 1 and 2 : 1996",
+      "title": "Hot press moulded thermosetting glass fibre reinforced polyester resin (GRP) sectional water storage tanks: Part 1 Specification for panels: Part 2 Guidelines for assembly, installation and testing",
+      "committee": "CED 03"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 14724 : 1999",
+      "title": "Water Purifiers With Ultra - Violet Disinfection - Specification",
+      "committee": "FAD 30"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 2800 : Part 1 : 1991",
+      "title": "Code of Practice for Construction and Testing of Tubewells/Borewells - Part 1 : Construction",
+      "committee": "MED 21"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 14182 : 1994",
+      "title": "Solvent cement for use with unplasticized polyvinyl chloride plastic pipe and fittings - Specifications",
+      "committee": "PCD 12"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 14398 : 2005",
+      "title": "Fortified wines - Specification (First Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 15588 : 2005",
+      "title": "Alcoholic drinks - Low alcoholic beverages",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 4450 : 2005",
+      "title": "Alcoholic Drinks - Brandies - Specification (Third Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "11",
+      "isNumber": "SP 7 : 2016",
+      "title": "National Building Code of India 2016",
+      "committee": "CED 46"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 16019 : 2012",
+      "title": "Food retail management basic requirements",
+      "committee": "FAD 15"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 16020 : 2012",
+      "title": "Food safety management - Requirements for good hygiene practices",
+      "committee": "FAD 15"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 16021 : 2012",
+      "title": "Good manufacturing practices (GMP) - Requirements for organizations in the food processing sector",
+      "committee": "FAD 15"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 16601 : 2016",
+      "title": "Habitat and welfare requirements for construction workers - Guidelines",
+      "committee": "CED 29"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 14520 : 2018",
+      "title": "Fish industry - Operational cleanliness and layout of market - Guidelines (First Revision)",
+      "committee": "FAD 12"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 1981 : 2018",
+      "title": "Animal casings - grades and specification (Second Revision)",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 17130 : 2019",
+      "title": "Table olive - Specification",
+      "committee": "FAD 10"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 4238 : 2020",
+      "title": "Sterilized and Ultra High Temperature Sterilized Milk \u2014 Specification ( First Revision )",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 17482 : 2020",
+      "title": "Drinking Water Supply Management System \u00e2\u20ac\u201d Requirements for Piped Drinking Water Supply Service",
+      "committee": "EED 04"
+    },
+    {
+      "number": "21",
+      "isNumber": "IS 4884 : 1968",
+      "title": "Specification for sterilized cream",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 1167 : 1965",
+      "title": "Specification for casein (Edible Quality) (Revised)",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 13690 : 1992",
+      "title": "Pasteurtzed butter - Specification",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 4709 : 1968",
+      "title": "Specification for flavoured milk",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 550 : Part 2 : 2021",
+      "title": "Safes - Part 2 : Tests for Burglary Resistance (Sixth Revision)",
+      "committee": "MED 24"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 17605 : 2021",
+      "title": "Carbon fibre Determination of size content",
+      "committee": "TXD 40"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 1166 : 1986",
+      "title": "Specification for condensed milk, partly skimmed and skimmed condensed milk (Second Revision)",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 2802 : 1964",
+      "title": "Specification for ice-cream",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 2785 : 1979",
+      "title": "Specification for natural cheese (Hard Variety), processed cheese, processed cheese spread and soft cheese (First Revision)",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 9532 : 1980",
+      "title": "Specification for chakka and shrikhand",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "31",
+      "isNumber": "IS 9267 : 2021",
+      "title": "Textiles - Tubular nylon webbing for aerospace purposes - Specification (first revision)",
+      "committee": "TXD 13"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 17424 : Part 5 : 2021",
+      "title": "Glossary of Ayurvedic Terminology Part 5 Standardized Terminology for Body Structure and Function",
+      "committee": "AYD 01"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 16240 : 2015",
+      "title": "Reverse Osmosis (RO) Based Point-Of-Use (POU) Water Treatment System - Specification",
+      "committee": "FAD 30"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 3661 : 2019",
+      "title": "Bulk Milk Cooling Tanks \u2014 Specification ( First Revision )",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 14647 : 2022",
+      "title": "TOBACCO AND TOBACCO PRODUCTS - QUIWAM - SPECIFICATION ( First Revision ) Amendment - 1",
+      "committee": "FAD 04"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 17661 : Part 1 : 2022",
+      "title": "Ships and marine technology Marine NOX Reduction Agent AUS 40 Part 1: Quality Requirements",
+      "committee": "PCD 03"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 12898 : 1989",
+      "title": "Dairy products - Yoghurt specification",
+      "committee": "FAD 19"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 1723 : 1973",
+      "title": "Specification for pork (First Revision)",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 17392 : 2020",
+      "title": "Activities Relating to Drinking Water and Wastewater Services - Crisis Management of Water Utilities",
+      "committee": "EED 04"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS 8182 : 1976",
+      "title": "Code of hygienic conditions for processed meat products",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 3811 : 2005",
+      "title": "Alcoholic Drinks - Rum - Specification (Third Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 4100 : 2005",
+      "title": "Alcoholic Drinks - Gin - Specification (Second Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 4449 : 2005",
+      "title": "Alcoholic Drinks - Whiskies - Specification (Fourth Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 14326 : 2005",
+      "title": "Cashew fenny - Specification (First Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 14327 : 2005",
+      "title": "Coconut fenny -Specification (First Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 7049 : 1973",
+      "title": "Code for handling, processing, quality evaluation and storage of poultry",
+      "committee": "FAD 18"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 5286 : 2005",
+      "title": "Alcoholic Drinks - Vodka - Specification (Second Revision)",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS 13428 : 2005",
+      "title": "Packaged Natural Mineral Water - Specification (Second Revision)",
+      "committee": "FAD 14"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS 14543 : 2016",
+      "title": "Packaged Drinking Water (Other Than Packaged Natural Mineral Water) - Specification (Second Revision)",
+      "committee": "FAD 14"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 17928 : Part 2 : 2022",
+      "title": "Plastics - Poly (methyl methacrylate) (pmma) moulding and extrusion materials : Part 2 preparation of test specimens and determination of properties",
+      "committee": "PCD 12"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 17982 : 2022",
+      "title": "Methyl methacrylate - Specification",
+      "committee": "PCD 09"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS/ISO 6621 : PART 2 : 2020",
+      "title": "Internal combustion engines - Piston rings - Part 2: Inspection measuring principles",
+      "committee": "TED 02"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 6541 : 1972",
+      "title": "Code for hygienic conditions for establishment and maintenance of midday school meal programmes",
+      "committee": "FAD 15"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS 4682 : Part 1 : 1994",
+      "title": "Code of practice for lining of vessels and equipment for chemical processes: Part 1 rubber lining (First Revision)",
+      "committee": "MED 17"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 5837 : 1970",
+      "title": "Code For Hygienic Conditions For Soft Drink Manufacturing Units",
+      "committee": "FAD 14"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS 16676 : 2017",
+      "title": "Solventless liquid epoxy system for application on interior and exterior surfaces of steel water pipeline - Specification",
+      "committee": "CHD 20"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 6969 : 1973",
+      "title": "Code For Hygienic Conditions For Handling And Sale Of Refrigerated Drinking Water",
+      "committee": "FAD 14"
+    },
+    {
+      "number": "58",
+      "isNumber": "IS 4682 : Part 4 : 1998",
+      "title": "Code of practice for lining of vessels and equipment for chemical processes: Part 4 lining with sheet thermoplastics (First Revision)",
+      "committee": "MED 17"
+    },
+    {
+      "number": "59",
+      "isNumber": "IS 2491 : 2013",
+      "title": "Food hygiene - General principles - Code of practice (Third Revision)",
+      "committee": "FAD 15"
+    },
+    {
+      "number": "60",
+      "isNumber": "IS 5527 : 1969",
+      "title": "Layout plan for sugar factory laboratories",
+      "committee": "FAD 02"
+    },
+    {
+      "number": "61",
+      "isNumber": "IS 18138 : 2023",
+      "title": "Animal feeding stuffs \u00ef\u00bf\u00bd Determination of starch content \u00ef\u00bf\u00bd Polarimetric method",
+      "committee": "FAD 05"
+    },
+    {
+      "number": "62",
+      "isNumber": "IS 11082 : 1984",
+      "title": "Technical Requirements of Agricultural Tractors for Wet Land Cultivation",
+      "committee": "FAD 11"
+    },
+    {
+      "number": "63",
+      "isNumber": "IS 14348 : 1996",
+      "title": "Code for hygienic conditions for alcoholic beverage industry",
+      "committee": "FAD 29"
+    },
+    {
+      "number": "64",
+      "isNumber": "IS 5117 : 2023",
+      "title": "COMMERCIAL BURNING BURNERS FOR USE WITH LPG SPECIFICATION Second Revision of IS 5117",
+      "committee": "MED 23"
+    },
+    {
+      "number": "65",
+      "isNumber": "IS 14349 : 1996",
+      "title": "Code for hygienic conditions for edible oil and vanaspati manufacaturing units",
+      "committee": "FAD 13"
+    }
+  ],
+  "clauses": [
+    {
+      "clauseNumber": "Clause 4.1",
+      "title": "Essential Requirements (Table 1)",
+      "content": "pH value must be between 6.5 and 8.5 without relaxation. Total Dissolved Solids (TDS) acceptable limit is 500 mg/l, permissible up to 2000 mg/l in the absence of an alternate source.",
+      "isMandatory": true
+    },
+    {
+      "clauseNumber": "Clause 4.2",
+      "title": "Bacteriological Quality",
+      "content": "All water intended for drinking shall not contain E. coli or thermotolerant coliform bacteria in any 100 ml sample.",
+      "isMandatory": true
+    },
+    {
+      "clauseNumber": "Clause 4.3",
+      "title": "Toxic Substances (Table 2)",
+      "content": "Lead (as Pb) max 0.01 mg/l, Arsenic (as As) max 0.01 mg/l, Fluoride (as F) max 1.0 mg/l (permissible up to 1.5 mg/l).",
+      "isMandatory": true
+    }
+  ],
+  "qco": null
+}

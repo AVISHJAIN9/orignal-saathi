@@ -1,0 +1,8 @@
+fastapi==0.115.0
+uvicorn==0.31.0
+scikit-learn==1.7.2
+pandas==2.2.3
+joblib==1.5.2
+pydantic==2.9.2
+sentence-transformers==6.0.1
+faiss-cpu==1.15.0

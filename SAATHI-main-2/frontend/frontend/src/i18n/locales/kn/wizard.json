@@ -1,0 +1,80 @@
+{
+  "trigger": "ಅಪನೇ ಉತ್ಪಾದ ಕಾ ವಿವರಣ ದೇನೇ ಮೇಂ ಅಸಮರ್ಥ ಹೈಂ?",
+  "dialogTitle": "ಉತ್ಪಾದ ವರ್ಗೀಕರಣ ವಿಜ಼ಾರ್ಡ",
+  "dialogDescription": "ಕುಛ ಆಸಾನ ಸವಾಲೋಂ ಕೇ ಜವಾಬ ದೇಂ — ಹಮ ಉನ್ಹೇಂ ಸಾಥೀ ಕೇ ಲಿಏ ಏಕ ಸವಾಲ ಮೇಂ ಬದಲ ದೇಂಗೇ೤",
+  "stepOf": "ಚರಣ {{current}} / {{total}}",
+  "back": "ಪೀಛೇ",
+  "getAnswer": "ಉತ್ತರ ಪಾಏಂ",
+  "steps": {
+    "category": {
+      "question": "ಆಪಕಾ ಉತ್ಪಾದ ಕಿಸ ಶ್ರೇಣೀ ಮೇಂ ಆತಾ ಹೈ?",
+      "options": {
+        "helmets": {
+          "label": "ವ್ಯಕ್ತಿಗತ ಸುರಕ್ಷಾ",
+          "clause": "ವ್ಯಕ್ತಿಗತ ಸುರಕ್ಷಾ"
+        },
+        "appliances": {
+          "label": "ಘರೇಲೂ ಉಪಕರಣ",
+          "clause": "ಘರೇಲೂ ಉಪಕರಣ"
+        },
+        "gold": {
+          "label": "ಆಭೂಷಣ",
+          "clause": "ಆಭೂಷಣ"
+        },
+        "water": {
+          "label": "ಖಾದ್ಯ ಏವಂ ಪಾನೀ",
+          "clause": "ಖಾದ್ಯ ಯಾ ಪಾನೀ"
+        },
+        "cookers": {
+          "label": "ಬರ್ತನ",
+          "clause": "ಬರ್ತನ"
+        },
+        "toys": {
+          "label": "ಖಿಲೌನೇ",
+          "clause": "ಖಿಲೌನಾ"
+        }
+      }
+    },
+    "audience": {
+      "question": "ಯಹ ಕಿಸಕೇ ಲಿಏ ಹೈ?",
+      "options": {
+        "consumer": {
+          "label": "ಉಪಭೋಕ್ತಾ ಉಪಯೋಗ",
+          "clause": "ಉಪಭೋಕ್ತಾ ಉಪಯೋಗ"
+        },
+        "commercial": {
+          "label": "ವ್ಯಾವಸಾಯಿಕ ಬಿಕ್ರೀ",
+          "clause": "ವ್ಯಾವಸಾಯಿಕ ಬಿಕ್ರೀ"
+        },
+        "import": {
+          "label": "ಆಯಾತ",
+          "clause": "ಆಯಾತ"
+        }
+      }
+    },
+    "need": {
+      "question": "ಆಪಕೋ ಕ್ಯಾ ಜಾನನಾ ಹೈ?",
+      "options": {
+        "standard": {
+          "label": "ಕೌನ ಸಾ ಮಾನಕ ಲಾಗೂ ಹೋತಾ ಹೈ",
+          "questionText": "ಇಸ ಪರ ಕೌನ ಸಾ ಮಾನಕ ಲಾಗೂ ಹೋತಾ ಹೈ?"
+        },
+        "certification": {
+          "label": "ಪ್ರಮಾಣನ ಪ್ರಕ್ರಿಯಾ",
+          "questionText": "ಪ್ರಮಾಣನ ಪ್ರಕ್ರಿಯಾ ಕ್ಯಾ ಹೈ?"
+        },
+        "testing": {
+          "label": "ಪರೀಕ್ಷಣ ಆವಶ್ಯಕತಾಏಂ",
+          "questionText": "ಇಸಕೇ ಲಿಏ ಕೌನ ಸೀ ಪರೀಕ್ಷಣ ಆವಶ್ಯಕತಾಏಂ ಪೂರೀ ಕರನೀ ಹೋಂಗೀ?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "ಅಪನೇ ಉತ್ತರ ದೇಖೇಂ",
+    "category": "ಶ್ರೇಣೀ",
+    "audience": "ಉಪಯೋಗ",
+    "need": "ಆಪ ಕ್ಯಾ ಜಾನನಾ ಚಾಹತೇ ಹೈಂ"
+  },
+  "generatedQuestion": "ಮೇರೇ ಪಾಸ ಏಕ {{category}} ಉತ್ಪಾದ ಹೈ, {{audience}} ಕೇ ಲಿಏ೤ {{needQuestion}}"
+}

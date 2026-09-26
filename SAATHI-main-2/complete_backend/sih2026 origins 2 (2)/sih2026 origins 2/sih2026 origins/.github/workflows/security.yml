@@ -1,0 +1,148 @@
+name: Security & Dependency Scan
+
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+    branches: [main, master, develop]
+
+jobs:
+  # ─────────────────────────────────────────────────────────────
+  # 1. Secret Detection — blocks on any committed credential
+  # ─────────────────────────────────────────────────────────────
+  secret-scan:
+    name: Secret Scan (gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history needed for historical secret scan
+
+      - name: Run gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          config-path: .gitleaks.toml
+
+  # ─────────────────────────────────────────────────────────────
+  # 2. Node.js Dependency Audit — blocks on high/critical CVEs
+  # ─────────────────────────────────────────────────────────────
+  node-audit:
+    name: Node.js npm audit
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        module:
+          - .          # root package.json
+          - d/D1
+          - d/D4
+          - d/D5
+          - d/D9
+          - d/D10
+          - d/d2
+          - d/d3
+          - m/M1
+          - p/p1
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install (no scripts, audit only)
+        working-directory: ${{ matrix.module }}
+        run: |
+          if [ -f package.json ]; then
+            npm install --ignore-scripts --prefer-offline 2>/dev/null || true
+          fi
+
+      - name: npm audit (fail on high/critical)
+        working-directory: ${{ matrix.module }}
+        run: |
+          if [ -f package.json ]; then
+            npm audit --audit-level=high --json | tee audit-report.json
+            VULNS=$(cat audit-report.json | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('metadata',{}).get('vulnerabilities',{}).get('high',0) + d.get('metadata',{}).get('vulnerabilities',{}).get('critical',0))" 2>/dev/null || echo "0")
+            if [ "$VULNS" -gt "0" ]; then
+              echo "::error::Found $VULNS high/critical vulnerabilities in ${{ matrix.module }}"
+              exit 1
+            fi
+          fi
+
+  # ─────────────────────────────────────────────────────────────
+  # 3. Python Dependency Audit — blocks on high/critical CVEs
+  # ─────────────────────────────────────────────────────────────
+  python-audit:
+    name: Python pip-audit
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        module:
+          - m/M2
+          - m/m3
+          - m/m4
+          - m/m5
+          - m/m6
+          - m/m7
+          - m/m8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install pip-audit
+        run: pip install pip-audit
+
+      - name: Run pip-audit
+        working-directory: ${{ matrix.module }}
+        run: |
+          if [ -f requirements.txt ]; then
+            pip-audit -r requirements.txt --severity high --fail-on-vuln
+          else
+            echo "No requirements.txt in ${{ matrix.module }} — skipping"
+          fi
+
+  # ─────────────────────────────────────────────────────────────
+  # 4. .env.example Cleanliness Check
+  #    Fails if any .env.example contains a real-looking secret value
+  # ─────────────────────────────────────────────────────────────
+  env-example-check:
+    name: .env.example cleanliness
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for real secrets in .env.example files
+        run: |
+          # Find all .env.example files in SAATHI source (not third-party)
+          FILES=$(find . -name ".env.example" \
+            -not -path "*/node_modules/*" \
+            -not -path "*/PaddleOCR-main/*" \
+            -not -path "*/cal.diy-main/*" \
+            -not -path "*/Guardrails-develop/*" \
+            -not -path "*/gigachad-grc-main/*" \
+            -not -path "*/india-compliance-develop/*" \
+            -not -path "*/BERTopic-master/*")
+
+          FOUND_REAL=0
+          for f in $FILES; do
+            # A real secret looks like: KEY=sk_abc123... (not KEY=CHANGE_ME or KEY=your_...)
+            HITS=$(grep -nE "=['\"]?[A-Za-z0-9+/]{20,}['\"]?\s*$" "$f" \
+              | grep -v "CHANGE_ME\|your_\|example\|placeholder\|localhost\|127\.0\.0\|postgres\|redis\|saathi" \
+              || true)
+            if [ -n "$HITS" ]; then
+              echo "::error file=$f::Possible real secret in .env.example:"
+              echo "$HITS"
+              FOUND_REAL=1
+            fi
+          done
+
+          if [ "$FOUND_REAL" -eq "1" ]; then
+            echo "::error::One or more .env.example files contain what looks like a real secret."
+            echo "Replace all real values with CHANGE_ME placeholders."
+            exit 1
+          fi
+          echo "✅ All .env.example files are clean."

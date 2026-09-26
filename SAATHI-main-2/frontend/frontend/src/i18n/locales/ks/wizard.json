@@ -1,0 +1,80 @@
+{
+  "trigger": "اپنے اوتپاد کا ویورण دےنے مےں اسمرتھ ہےں?",
+  "dialogTitle": "اوتپاد ورگیکرण ویج़ارڈ",
+  "dialogDescription": "کوچھ آسان سوالوں کے جواب دےں — ہم اونہےں ساتھی کے لیاے اےک سوال مےں بدل دےںگے।",
+  "stepOf": "چرण {{current}} / {{total}}",
+  "back": "پیچھے",
+  "getAnswer": "اوتتر پااےں",
+  "steps": {
+    "category": {
+      "question": "آپکا اوتپاد کیس شرےणی مےں آتا ہے?",
+      "options": {
+        "helmets": {
+          "label": "ویکتیگت سورکشا",
+          "clause": "ویکتیگت سورکشا"
+        },
+        "appliances": {
+          "label": "گھرےلو اوپکرण",
+          "clause": "گھرےلو اوپکرण"
+        },
+        "gold": {
+          "label": "آبھوشण",
+          "clause": "آبھوشण"
+        },
+        "water": {
+          "label": "کھادی اےوں پانی",
+          "clause": "کھادی یا پانی"
+        },
+        "cookers": {
+          "label": "برتن",
+          "clause": "برتن"
+        },
+        "toys": {
+          "label": "کھیلونے",
+          "clause": "کھیلونا"
+        }
+      }
+    },
+    "audience": {
+      "question": "یہ کیسکے لیاے ہے?",
+      "options": {
+        "consumer": {
+          "label": "اوپبھوکتا اوپیوگ",
+          "clause": "اوپبھوکتا اوپیوگ"
+        },
+        "commercial": {
+          "label": "ویاوساییک بیکری",
+          "clause": "ویاوساییک بیکری"
+        },
+        "import": {
+          "label": "آیات",
+          "clause": "آیات"
+        }
+      }
+    },
+    "need": {
+      "question": "آپکو کیا جاننا ہے?",
+      "options": {
+        "standard": {
+          "label": "کون سا مانک لاگو ہوتا ہے",
+          "questionText": "اس پر کون سا مانک لاگو ہوتا ہے?"
+        },
+        "certification": {
+          "label": "پرماणن پرکرییا",
+          "questionText": "پرماणن پرکرییا کیا ہے?"
+        },
+        "testing": {
+          "label": "پریکشण آوشیکتااےں",
+          "questionText": "اسکے لیاے کون سی پریکشण آوشیکتااےں پوری کرنی ہوںگی?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "اپنے اوتتر دےکھےں",
+    "category": "شرےणی",
+    "audience": "اوپیوگ",
+    "need": "آپ کیا جاننا چاہتے ہےں"
+  },
+  "generatedQuestion": "مےرے پاس اےک {{category}} اوتپاد ہے, {{audience}} کے لیاے। {{needQuestion}}"
+}

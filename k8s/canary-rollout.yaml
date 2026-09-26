@@ -1,0 +1,80 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: saathi-gateway
+  namespace: production
+spec:
+  replicas: 10
+  revisionHistoryLimit: 5
+  selector:
+    matchLabels:
+      app: saathi-gateway
+  strategy:
+    canary:
+      steps:
+        - setWeight: 5
+        - pause: { duration: 2m }
+        - setWeight: 20
+        - pause: { duration: 5m }
+        - setWeight: 50
+        - pause: { duration: 5m }
+        - setWeight: 100
+      analysis:
+        templates:
+          - templateName: success-rate-and-latency-check
+        startingStep: 1
+  template:
+    metadata:
+      labels:
+        app: saathi-gateway
+    spec:
+      containers:
+        - name: gateway
+          image: saathi/gateway:v1.0.0
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "512Mi"
+            limits:
+              cpu: "1000m"
+              memory: "1Gi"
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 3000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+---
+apiVersion: argoproj.io/v1alpha1
+kind: AnalysisTemplate
+metadata:
+  name: success-rate-and-latency-check
+  namespace: production
+spec:
+  metrics:
+    - name: error-rate
+      interval: 1m
+      count: 5
+      successCondition: result[0] < 0.01
+      failureLimit: 2
+      provider:
+        prometheus:
+          address: http://prometheus-k8s.monitoring:9090
+          query: |
+            sum(rate(http_requests_total{job="saathi-gateway",status=~"5.."}[1m]))
+            /
+            sum(rate(http_requests_total{job="saathi-gateway"}[1m]))
+    - name: p99-latency
+      interval: 1m
+      count: 5
+      successCondition: result[0] < 0.800
+      failureLimit: 2
+      provider:
+        prometheus:
+          address: http://prometheus-k8s.monitoring:9090
+          query: |
+            histogram_quantile(0.99,
+              sum(rate(http_request_duration_seconds_bucket{job="saathi-gateway"}[1m])) by (le)
+            )

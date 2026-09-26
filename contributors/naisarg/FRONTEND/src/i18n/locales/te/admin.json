@@ -1,0 +1,57 @@
+{
+  "title": "ఉపయోగ విశ్లేషికీ",
+  "groundednessRate": "ఆధారిత ఉత్తర కీ దర",
+  "declineRate": "అస్వీకృతి దర",
+  "totalQueries": "కుల ప్రశ్న",
+  "trendUpAriaLabel": "పిఛలీ అవధి కీ తులనా మేం {{value}}% వృద్ధి",
+  "trendDownAriaLabel": "పిఛలీ అవధి కీ తులనా మేం {{value}}% గిరావట",
+  "topicsChartTitle": "శీర్ష ప్రశ్న విషయ",
+  "topicsAverageLabel": "ఔసత: {{value}}",
+  "queriesChartTitle": "సమయ కే సాథ ప్రశ్న (పిఛలే 7 దిన)",
+  "queriesLabel": "ప్రశ్న",
+  "topics": {
+    "helmets": "హేలమేట",
+    "appliances": "ఉపకరణ",
+    "gold": "సోనే కే ఆభూషణ",
+    "water": "పైకేజ్డ పానీ",
+    "cookers": "ప్రేశర కుకర",
+    "toys": "ఖిలౌనే"
+  },
+  "days": {
+    "mon": "సోమ",
+    "tue": "మంగల",
+    "wed": "బుధ",
+    "thu": "గురు",
+    "fri": "శుక్ర",
+    "sat": "శని",
+    "sun": "రవి"
+  },
+  "documents": {
+    "pageTitle": "దస్తావేజ఼ ప్రబంధన",
+    "dropzone": {
+      "title": "ఫ఼ాఇలేం యహాఁ ఖీంచేం ఔర ఛోడ఼ేం, యా బ్రాఉజ఼ కరనే కే లిఏ క్లిక కరేం",
+      "hint": "PDF, DOC, యా DOCX"
+    },
+    "table": {
+      "name": "దస్తావేజ఼ కా నామ",
+      "category": "శ్రేణీ",
+      "status": "స్థితి",
+      "lastUpdated": "అంతిమ అద్యతన",
+      "actions": "కార్య"
+    },
+    "status": {
+      "queued": "కతారబద్ధ",
+      "processing": "సంసాధిత హో రహా హై",
+      "indexed": "అనుక్రమిత",
+      "failed": "విఫల"
+    },
+    "reingest": "పునః-ప్రోసేస కరేం",
+    "retire": "హటాఏఁ",
+    "uncategorized": "అవర్గీకృత",
+    "emptyState": "అభీ కోఈ దస్తావేజ఼ నహీం — శురూ కరనే కే లిఏ ఊపర ఏక అపలోడ కరేం౤"
+  },
+  "opsOnline": "SAATHI సంచాలన సక్రియ",
+  "statusOptimal": "ఉత్కృష్ట",
+  "statusLive": "లాఇవ",
+  "statusWatch": "నిగరానీ"
+}

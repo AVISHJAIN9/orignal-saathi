@@ -1,0 +1,56 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: PodChaos
+metadata:
+  name: saathi-pod-kill-drill
+  namespace: production
+spec:
+  action: pod-kill
+  mode: one
+  selector:
+    namespaces: [production]
+    labelSelectors:
+      app: saathi-gateway
+  scheduler:
+    cron: "@every 15m"
+  duration: "30s"
+---
+apiVersion: chaos-mesh.org/v1alpha1
+kind: NetworkChaos
+metadata:
+  name: saathi-db-latency-injection
+  namespace: production
+spec:
+  action: delay
+  mode: all
+  selector:
+    namespaces: [production]
+    labelSelectors:
+      app: saathi-gateway
+  delay:
+    latency: "1500ms"
+    jitter: "150ms"
+    correlation: "50"
+  direction: to
+  target:
+    selector:
+      namespaces: [production]
+      labelSelectors:
+        app: postgres-pooler
+    mode: all
+  duration: "3m"
+---
+apiVersion: chaos-mesh.org/v1alpha1
+kind: NetworkChaos
+metadata:
+  name: saathi-packet-loss-drill
+  namespace: production
+spec:
+  action: loss
+  mode: all
+  selector:
+    labelSelectors:
+      app: saathi-gateway
+  loss:
+    loss: "20"
+    correlation: "25"
+  duration: "2m"

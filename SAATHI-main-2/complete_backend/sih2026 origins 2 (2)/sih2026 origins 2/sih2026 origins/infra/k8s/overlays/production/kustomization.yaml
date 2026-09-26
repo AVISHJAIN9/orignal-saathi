@@ -1,0 +1,38 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+bases:
+  - ../../base
+
+namespace: saathi-prod
+
+commonLabels:
+  environment: production
+
+patches:
+  # Production: D1 starts at 5 replicas
+  - patch: |-
+      - op: replace
+        path: /spec/replicas
+        value: 5
+    target:
+      kind: Deployment
+      name: d1-chat
+
+  # Production: M5 starts at 5 replicas
+  - patch: |-
+      - op: replace
+        path: /spec/replicas
+        value: 5
+    target:
+      kind: Deployment
+      name: m5-rag
+
+  # Production: DB pool size higher
+  - patch: |-
+      - op: replace
+        path: /data/DB_POOL_MAX
+        value: "50"
+    target:
+      kind: ConfigMap
+      name: saathi-config

@@ -1,0 +1,157 @@
+{
+  "hero": {
+    "eyebrow": "LEGAL",
+    "heading": "Privacy, terms & responsible use",
+    "subheading": "How SAATHI is intended to be used, how information is handled, and the limits of AI-assisted responses.",
+    "prototypeBadge": "Prototype / Informational Use",
+    "lastUpdated": "Last updated: September 2026"
+  },
+  "nav": {
+    "disclaimer": "AI Disclaimer",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "authority": "Official Authority Notice"
+  },
+  "disclaimer": {
+    "eyebrow": "IMPORTANT NOTICE",
+    "heading": "AI & Prototype Disclaimer",
+    "subheading": "Read this before relying on anything SAATHI tells you.",
+    "banner": "SAATHI is an informational assistance tool, not a substitute for official BIS documentation or professional regulatory advice.",
+    "points": [
+      {
+        "title": "AI-assisted, not infallible",
+        "desc": "SAATHI uses retrieval-augmented generation to explain standards from indexed clauses. Language models can occasionally misread nuance or summarize incompletely."
+      },
+      {
+        "title": "Non-authoritative outputs",
+        "desc": "Nothing SAATHI generates is an official statutory ruling, certification grant, or binding legal determination."
+      },
+      {
+        "title": "Mandatory source verification",
+        "desc": "Always confirm cited standard numbers and clause references against the official document before making a compliance or manufacturing decision."
+      },
+      {
+        "title": "Demonstration data",
+        "desc": "In this prototype, parts of the catalogue, classification wizard, and analysis results use sample data to illustrate the intended workflow."
+      },
+      {
+        "title": "Roadmap vs. active features",
+        "desc": "Some workflows and panels represent planned capabilities rather than features that are live today."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "DATA & PRIVACY",
+    "heading": "Privacy Policy",
+    "intro": "This policy describes how information is handled within the SAATHI research and demonstration prototype, built for SIH26107. As an exploratory system, SAATHI favors transparent and cautious data handling over collecting more than it needs.",
+    "sections": {
+      "collection": {
+        "title": "Information We May Collect",
+        "content": "Depending on which features are enabled, SAATHI may process:",
+        "items": [
+          "Information you choose to share during a conversation.",
+          "Role selections where applicable (citizen, MSME, professional, auditor).",
+          "The questions and search queries you submit.",
+          "Documents you upload for analysis or clause matching.",
+          "Basic technical telemetry needed to operate and secure the service."
+        ],
+        "note": "SAATHI does not sell personal data or use it for marketing. In the current prototype, sessions run locally or against sandbox endpoints without persistent user tracking."
+      },
+      "usage": {
+        "title": "How Information May Be Used",
+        "content": "Any information processed is used only for these purposes:",
+        "items": [
+          "Answering your question and surfacing relevant standards.",
+          "Responding accurately to search and navigation requests.",
+          "Improving retrieval relevance and answer accuracy over time.",
+          "Maintaining the security and stability of the service.",
+          "Diagnosing and fixing prototype errors."
+        ]
+      },
+      "documents": {
+        "title": "Documents & Queries",
+        "content": "When using document analysis or classification features, avoid submitting confidential, proprietary, or personally sensitive material unless the deployed service explicitly provides enterprise-grade protections for it."
+      },
+      "retention": {
+        "title": "Data Retention",
+        "content": "Retention depends on the deployed environment and hosting infrastructure. In prototype environments, query logs and transient data may be cleared periodically or kept only long enough for debugging and evaluation."
+      },
+      "security": {
+        "title": "Data Security",
+        "content": "Reasonable technical and organizational safeguards protect prototype communications and endpoints. No digital service, AI-backed or otherwise, can guarantee absolute security."
+      },
+      "thirdParty": {
+        "title": "Third-Party Services",
+        "content": "Depending on configuration, the deployed system may rely on third-party cloud infrastructure, vector databases, or AI providers for natural-language processing. Requests may pass through these underlying services."
+      },
+      "rights": {
+        "title": "User Rights",
+        "content": "You may have rights to access, correct, or delete your information, depending on applicable regional data-protection regulations and the deployment's own policies."
+      },
+      "contact": {
+        "title": "Contact & Inquiries",
+        "content": "For questions about these privacy practices, reach the project team via",
+        "linkText": "the contact section below"
+      }
+    }
+  },
+  "terms": {
+    "eyebrow": "TERMS & CONDITIONS",
+    "heading": "Terms of Use",
+    "intro": "By using the SAATHI prototype, you agree to the terms below, which define acceptable use and the scope of this assistive tool.",
+    "sections": {
+      "purpose": {
+        "title": "Purpose of SAATHI",
+        "content": "SAATHI is an assistive navigation prototype that helps citizens, MSMEs, manufacturers, and professionals discover and understand Indian Standards (IS) and Bureau of Indian Standards (BIS) services."
+      },
+      "acceptableUse": {
+        "title": "Acceptable Use",
+        "content": "You agree to use SAATHI responsibly and lawfully. Specifically, you must:",
+        "items": [
+          "Use the platform only for lawful, educational, and exploratory purposes.",
+          "Avoid automated scraping or abusive interactions that degrade availability.",
+          "Not attempt to disrupt, reverse-engineer, or compromise the prototype's infrastructure.",
+          "Avoid submitting unlawful, defamatory, or malicious content through the query interface.",
+          "Independently verify any critical regulatory or conformity requirement."
+        ]
+      },
+      "accuracy": {
+        "title": "Accuracy & Availability",
+        "content": "While SAATHI aims for accurate, citation-backed guidance:",
+        "items": [
+          "Information may be incomplete, summarized, or open to interpretation.",
+          "AI-assisted responses can occasionally contain errors or omissions.",
+          "Standards and Quality Control Orders (QCOs) change over time.",
+          "The service is offered on an \"as-is\" and \"as-available\" demonstration basis."
+        ]
+      },
+      "officialSources": {
+        "title": "Official Sources & Verification",
+        "content": "SAATHI is an informational guide, not a statutory authority. Consult official BIS publications, gazettes, and portals for binding regulatory decisions."
+      },
+      "ip": {
+        "title": "Intellectual Property",
+        "content": "Indian Standards (IS specifications), official trademarks, and certification marks (such as ISI and Hallmark) belong to the Bureau of Indian Standards or their respective owners. SAATHI claims no ownership of official standards or regulatory materials."
+      },
+      "limitation": {
+        "title": "Limitation of Responsibility",
+        "content": "SAATHI is provided for demonstration and exploratory purposes without warranty of any kind. Neither SAATHI nor its contributors are liable for business decisions, filings, certification outcomes, or legal liabilities arising from reliance on prototype outputs. SAATHI does not provide legal, engineering, or certification advice."
+      },
+      "changesService": {
+        "title": "Changes to the Service",
+        "content": "Features, datasets, and interface components may be modified, added, or removed at any time as the project evolves."
+      },
+      "changesTerms": {
+        "title": "Changes to These Terms",
+        "content": "These terms may be updated periodically to reflect prototype changes, regulatory updates, or deployment context."
+      }
+    }
+  },
+  "authority": {
+    "title": "Official Authority & Reference Notice",
+    "content": "For authoritative information, refer to official Bureau of Indian Standards publications, standards, notifications, and applicable regulatory documents at",
+    "portalUrl": "https://www.bis.gov.in",
+    "portalName": "bis.gov.in",
+    "context": "SAATHI is an exploratory, student-built prototype created for Smart India Hackathon 2026 under problem statement SIH26107. It is not an officially authorized BIS service."
+  }
+}

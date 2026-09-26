@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — अनुपालन ऑर्केस्ट्रेशन",
+  "heading": "अनुपालन श्रृंखला (Compliance Chain)",
+  "subheading": "उत्पादःः वर्गीकरण से प्रमाणन तक आपकी संपूर्णम्म् बीआईएस अनुपालन यात्रा।",
+  "productContext": {
+    "product": "उत्पादःः",
+    "standard": "मानकम्म् (Standard)",
+    "status": "वर्तमान स्थितिःः",
+    "selectProduct": "उत्पादःः संदर्भ चुनें",
+    "customQuery": "कस्टम उत्पादःः अन्वेषणं करोतु"
+  },
+  "currentPosition": {
+    "title": "वर्तमान स्थितिःः",
+    "completedHeading": "आपने पूरा कर लिया है:",
+    "nextRequiredHeading": "आपकी अगली आवश्यक कार्यविधिः है:",
+    "noCompletedYet": "अभी तक कोई चरण पूरा न हुआ है।",
+    "continueAction": "यात्रा अनुवर्तताम्"
+  },
+  "nextBestAction": {
+    "title": "सर्वोत्तम अगली कार्यविधिः (Next Best Action)",
+    "takeAction": "कार्यविधिः करें",
+    "viewDetails": "विवरणम्म् पश्यतु"
+  },
+  "chainJourney": {
+    "title": "अनुपालन यात्रा",
+    "subtitle": "अनिवार्य बीआईएस नियामक आवश्यकताओं की चरण-दर-चरण प्रगति",
+    "viewStep": "पश्यतु",
+    "evidenceVerified": "साक्ष्य सत्यापित",
+    "documentsCount": "दस्तावेज़: {{available}} / {{required}} अपलोड किए गए ({{missing}} गायब)",
+    "sourceLabel": "स्रोत:"
+  },
+  "regulatoryOverview": {
+    "title": "नियामक पदानुक्रम (Regulatory Hierarchy)",
+    "subtitle": "बैकएंड द्वारा सत्यापित आधिकारिक मानकम्म्, QCO और योजना संबंध",
+    "standardLabel": "भारतीय मानकम्म् (IS)",
+    "qcoLabel": "QCO स्थितिःः",
+    "schemeLabel": "बीआईएस योजना",
+    "viewSource": "स्रोत पश्यतु",
+    "unverifiedSource": "सर्वर द्वारा स्रोत विवरणम्म् असत्यापित"
+  },
+  "states": {
+    "completed": "पूर्णम्म् (Completed)",
+    "actionRequired": "कार्यविधिः आवश्यक (Action Required)",
+    "blocked": "अवरुद्ध (Blocked)",
+    "notStarted": "शुरू न हुआ (Not Started)",
+    "notApplicable": "लागू न (Not Applicable)",
+    "unavailable": "निर्धारित करने में असमर्थ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "वर्गीकरण",
+    "standard": "भारतीय मानकम्म्",
+    "qco": "गुणवत्ता नियंत्रण आदेश (QCO)",
+    "scheme": "बीआईएस योजना",
+    "requirements": "तकनीकी आवश्यकताएं",
+    "testing": "उत्पादःः परीक्षणम्म्",
+    "laboratory": "प्रयोगशाला मिलान",
+    "documents": "अनुपालन तिजोरी / दस्तावेज़",
+    "compliance": "अनुपालन अंतर",
+    "readiness": "आवेदनम्म् तैयारी",
+    "certification": "बीआईएस प्रमाणन",
+    "radar": "नियामक निगरानी"
+  },
+  "errors": {
+    "title": "अभी अनुपालन यात्रा लोड न की जा सकी",
+    "description": "हम अनुपालन सेवा से न जुड़ सके। कृपया पुनः प्रयास करें।",
+    "retry": "पुनः प्रयास करें",
+    "emptyTitle": "कोई अनुपालन यात्रा न मिली",
+    "emptyDescription": "अनुपालन श्रृंखला प्रस्तुत करने के लिए कोई उत्पादःः संदर्भ या सत्र पैरामीटर न मिले।"
+  }
+}

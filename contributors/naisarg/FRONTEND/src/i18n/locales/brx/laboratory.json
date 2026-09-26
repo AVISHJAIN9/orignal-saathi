@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — आनदाद एवं आनदादसालि बुद्धिमत्ता",
+  "title": "इंटेलिजेंट आनदादसालि मैचर",
+  "subtitle": "अपने मुवा के लिए आवश्यक आनदाद करने में सक्षम सत्यापित आनदादसालिएं नागिरनाय।",
+  "context": {
+    "title": "मुवा एवं आनदाद संदर्भ",
+    "product": "मुवा",
+    "standard": "थाखो",
+    "scheme": "योजना (स्कीम)",
+    "requiredTestsCount": "आवश्यक आनदाद",
+    "noStandardWarning": "आवश्यक आनदाद पथ की पहचान करने से पहले एक लागू भारतीय थाखो आवश्यक है।",
+    "chooseStandard": "थाखो चुनें",
+    "selectProduct": "मुवा चुनें"
+  },
+  "requiredTests": {
+    "title": "आवश्यक आनदाद",
+    "mandatoryCount_one": "{{count}} अनिवार्य आनदाद",
+    "mandatoryCount_other": "{{count}} अनिवार्य आनदाद",
+    "noTestsWarning": "इस अनुपालन पथ के लिए कोई सत्यापित आनदाद आवश्यकताएं नङा मिलीं।"
+  },
+  "preferences": {
+    "title": "प्राथमिकताएं और फ़िल्टर",
+    "locationLabel": "स्थान / शहर",
+    "locationPlaceholder": "उदा. बेंगलुरु, दिल्ली, मुंबई",
+    "distanceLabel": "अधिकतम दूरी",
+    "distanceAny": "कोई भी दूरी",
+    "distance50": "50 किमी के भीतर",
+    "distance100": "100 किमी के भीतर",
+    "distance250": "250 किमी के भीतर",
+    "distance500": "500 किमी के भीतर",
+    "accreditationLabel": "मान्यता फ़िल्टर",
+    "accreditationAll": "सभी आनदादसालिएं",
+    "accreditationVerified": "केवल सत्यापित मान्यता प्राप्त",
+    "findLabsButton": "आनदादसालिएं नागिरनाय",
+    "searchingLabs": "आनदादसालिएं खोजी जा रही हैं..."
+  },
+  "results": {
+    "bestMatchHeading": "सर्वश्रेष्ठ मैच",
+    "otherMatchesHeading": "अन्य मिलान आनदादसालिएं",
+    "viewDetails": "गुवारै नायनाय",
+    "selectLab": "आनदादसालि चुनें",
+    "labSelected": "आनदादसालि का चयन हुआ",
+    "matchScore": "{{score}}% मैच",
+    "testsCovered": "{{covered}} / {{total}} आनदाद शामिल",
+    "fullCoverage": "जोबबाय आनदाद कवरेज सत्यापित",
+    "partialCoverage": "आंशिक आनदाद कवरेज",
+    "verified": "सत्यापित",
+    "unverified": "असत्यापित",
+    "unknown": "क्षमता अज्ञात",
+    "locationFit": "स्थान: {{location}}",
+    "distanceKm": "{{distance}} किमी दूर"
+  },
+  "breakdown": {
+    "title": "मैच स्कोर गुवारै",
+    "testCoverage": "आनदाद कवरेज",
+    "standardMatch": "थाखो मिलान",
+    "accreditation": "मान्यता प्राप्त होना",
+    "locationFit": "स्थान उपयुक्तता"
+  },
+  "details": {
+    "title": "आनदादसालि प्रोफाइल और क्षमताएं",
+    "location": "स्थान",
+    "capabilities": "आनदाद क्षमताएं",
+    "standards": "प्रासंगिक भारतीय थाखो",
+    "accreditation": "मान्यता थासारि",
+    "contact": "सत्यापित संपर्क जानकारी",
+    "source": "आधिकारिक स्रोत सत्यापन",
+    "viewSource": "आधिकारिक स्रोत नायनाय",
+    "viewWebsite": "आधिकारिक वेबसाइट नायनाय",
+    "email": "ईमेल",
+    "phone": "फ़ोन",
+    "close": "बन्द खालाम"
+  },
+  "states": {
+    "noMatchesTitle": "कोई सत्यापित आनदादसालि नङा मिली",
+    "noMatchesMsg": "आपकी वर्तमान मापदंडों के अनुसार आवश्यक आनदाद के लिए कोई सत्यापित आनदादसालि नङा मिली।",
+    "partialMatchesNotice": "कोई भी एकल सत्यापित आनदादसालि सभी आवश्यक आनदादों को कवर नङा करती है। सर्वश्रेष्ठ उपलब्ध आंशिक मैच नीचे दिखाए गए हैं।",
+    "errorTitle": "आनदादसालि मिलान सेवा अनुपलब्ध",
+    "errorMsg": "आनदादसालि मिलान सेवा अस्थायी रूप से अनुपलब्ध है।",
+    "retry": "पुनः प्रयास करें",
+    "emptyContextTitle": "अनुपालन संदर्भ निर्दिष्ट करें",
+    "emptyContextMsg": "आवश्यक आनदादों और उपयुक्त आनदादसालिओं की पहचान करने के लिए अपना मुवा या अनुपालन पथ चुनें।"
+  }
+}

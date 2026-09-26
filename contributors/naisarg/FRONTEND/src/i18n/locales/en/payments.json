@@ -1,0 +1,45 @@
+{
+  "eyebrow": "Payments",
+  "heading": "Payment & Fee Status",
+  "backToDashboard": "Back to dashboard",
+  "overall": {
+    "upToDate": "Up to date",
+    "paymentRequired": "Payment required",
+    "totalDue": "Total Due",
+    "totalPaid": "Total Paid",
+    "outstanding": "Outstanding",
+    "nextDue": "Next payment due {{date}}"
+  },
+  "table": {
+    "heading": "Fee Breakdown",
+    "fee": "Fee",
+    "amount": "Amount",
+    "status": "Status",
+    "date": "Date",
+    "reference": "Reference"
+  },
+  "history": {
+    "heading": "Payment History",
+    "empty": "No payment history yet."
+  },
+  "status": {
+    "paid": "Paid",
+    "pending": "Pending",
+    "due": "Due",
+    "failed": "Failed",
+    "refunded": "Refunded",
+    "not_due": "Not Yet Due"
+  },
+  "noDate": "—",
+  "noReference": "Not available",
+  "loading": "Loading payment status…",
+  "error": {
+    "heading": "Couldn't load payment status",
+    "body": "Something went wrong reaching payment information for this application.",
+    "retry": "Try again"
+  },
+  "empty": {
+    "heading": "No payment records",
+    "body": "There's no fee information on file for this application yet."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "heading": "BIS Certificate Center",
+  "subheading": "Official Standard Mark (ISI) licenses, compliance certificates, lifecycle records, and public verification.",
+  "eyebrow": "Certification Authority",
+  "stats": {
+    "total": "Total Certificates",
+    "active": "Active & Valid",
+    "expiringSoon": "Expiring in 90 Days",
+    "suspended": "Suspended / Revoked"
+  },
+  "searchPlaceholder": "Search certificate number, product, standard, or holder...",
+  "filterAll": "All Statuses",
+  "filterActive": "Active",
+  "filterExpired": "Expired",
+  "filterSuspended": "Suspended",
+  "filterRenewal": "Under Renewal",
+  "card": {
+    "certNo": "Certificate No.",
+    "product": "Product",
+    "standard": "Standard",
+    "holder": "Certificate Holder",
+    "issued": "Issued",
+    "validUntil": "Valid Until",
+    "scheme": "Scheme",
+    "viewDetails": "View Details",
+    "downloadPdf": "Download PDF",
+    "history": "History",
+    "qrCode": "QR Verification",
+    "verifyOnline": "Public Verify"
+  },
+  "status": {
+    "ACTIVE": "Active & Valid",
+    "EXPIRED": "Expired",
+    "SUSPENDED": "Suspended",
+    "CANCELLED": "Cancelled",
+    "REVOKED": "Revoked",
+    "UNDER_RENEWAL": "Under Renewal"
+  },
+  "details": {
+    "dialogTitle": "Official BIS Certificate Details",
+    "dialogDescription": "Authoritative certification grant record from the Bureau of Indian Standards.",
+    "licenseSummary": "License Summary",
+    "manufacturingUnit": "Manufacturing Facility",
+    "standardAndScope": "Standard & Scope of License",
+    "grantingAuthority": "Granting Branch Office",
+    "officerSignatory": "Authorized Signatory",
+    "close": "Close",
+    "downloadOfficial": "Download Official Certificate (PDF)",
+    "openPublicLink": "Open Public Verification Link",
+    "copyLink": "Copy Verification Link",
+    "copied": "Link copied to clipboard!"
+  },
+  "history": {
+    "dialogTitle": "Certificate Revision & Renewal History",
+    "dialogDescription": "Chronological audit trail of grants, annual renewals, and scope endorsements.",
+    "version": "Revision",
+    "effectiveFrom": "Effective From",
+    "validTo": "Valid To",
+    "orderRef": "Order Reference",
+    "remarks": "Official Remarks",
+    "empty": "No prior revision history recorded for this certificate."
+  },
+  "qr": {
+    "dialogTitle": "BIS Digital QR Verification",
+    "dialogDescription": "Scan this official QR code with any scanner to verify authenticity directly against the BIS national registry.",
+    "scanInstructions": "The QR payload encodes the official cryptographic verification endpoint for this certificate.",
+    "payloadUrl": "Verification Destination",
+    "copyUrl": "Copy URL",
+    "openUrl": "Open Verification Page"
+  },
+  "publicVerification": {
+    "title": "BIS Public Certificate Verification",
+    "subtitle": "Instant, authoritative verification of Indian Standards Mark (ISI) licenses and conformity certificates.",
+    "inputLabel": "BIS Certificate / License Number",
+    "inputPlaceholder": "e.g. CM/L-XXXXXXX",
+    "verifyBtn": "Verify Certificate",
+    "verifying": "Verifying with BIS Central Registry...",
+    "privacyNotice": "Public Verification Privacy: Only publicly authorized certificate metadata is displayed. Internal documents, compliance scores, and private business information are never exposed.",
+    "verifiedHeading": "Official BIS Certificate Verified",
+    "verifiedBadge": "Authoritative BIS Record",
+    "unverifiedHeading": "Certificate Not Verified",
+    "unverifiedNotice": "We could not verify this certificate number against the national registry.",
+    "possibleReasons": "Possible reasons: The certificate number was typed incorrectly, the license has not yet been synchronized, or the record is under administrative hold.",
+    "serviceUnavailableHeading": "Verification Service Temporarily Unavailable",
+    "serviceUnavailableNotice": "Unable to contact the BIS verification service right now. Please try again shortly.",
+    "retry": "Try Again",
+    "verifiedAgainst": "Verified Against",
+    "verifiedAt": "Timestamp",
+    "downloadOfficial": "View Official Document",
+    "shareLink": "Share Verification Result"
+  },
+  "emptyState": {
+    "title": "No Certificates Found",
+    "description": "No BIS certificates match your filter criteria. Newly granted licenses from submitted applications will appear here."
+  },
+  "errorState": {
+    "title": "Certificate Center Unavailable",
+    "description": "Could not retrieve certificate records from the server.",
+    "retry": "Retry"
+  }
+}

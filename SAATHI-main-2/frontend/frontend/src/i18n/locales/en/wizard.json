@@ -1,0 +1,53 @@
+{
+  "trigger": "Not sure how to describe your product?",
+  "dialogTitle": "Product Classification Wizard",
+  "dialogDescription": "Answer a few quick questions and we'll turn them into a question for SAATHI.",
+  "stepOf": "Step {{current}} of {{total}}",
+  "back": "Back",
+  "getAnswer": "Get Answer",
+  "steps": {
+    "category": {
+      "question": "What category is your product?",
+      "options": {
+        "helmets": { "label": "Personal Safety", "clause": "personal safety" },
+        "appliances": { "label": "Household Appliances", "clause": "household appliance" },
+        "gold": { "label": "Jewellery", "clause": "jewellery" },
+        "water": { "label": "Food & Water", "clause": "food or water" },
+        "cookers": { "label": "Kitchenware", "clause": "kitchenware" },
+        "toys": { "label": "Toys", "clause": "toy" }
+      }
+    },
+    "audience": {
+      "question": "Who is it for?",
+      "options": {
+        "consumer": { "label": "Consumer use", "clause": "consumer use" },
+        "commercial": { "label": "Commercial sale", "clause": "commercial sale" },
+        "import": { "label": "Import", "clause": "import" }
+      }
+    },
+    "need": {
+      "question": "What do you need to know?",
+      "options": {
+        "standard": {
+          "label": "Which standard applies",
+          "questionText": "Which standard applies to it?"
+        },
+        "certification": {
+          "label": "Certification process",
+          "questionText": "What is the certification process?"
+        },
+        "testing": {
+          "label": "Testing requirements",
+          "questionText": "What testing requirements does it need to meet?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "Review your answers",
+    "category": "Category",
+    "audience": "Use case",
+    "need": "You want to know"
+  },
+  "generatedQuestion": "I have a {{category}} product for {{audience}}. {{needQuestion}}"
+}

@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — अनुपालन ऑर्केस्ट्रेशन",
+  "heading": "अनुपालन श्रृंखला (Compliance Chain)",
+  "subheading": "उत्पादनन वर्गीकरण से प्रमाणन तक आपकी संसम्पन्न बीआईएस अनुपालन यात्रा।",
+  "productContext": {
+    "product": "उत्पादनन",
+    "standard": "मानक (Standard)",
+    "status": "वर्तमान स्थिति",
+    "selectProduct": "उत्पादनन संदर्भ चुनें",
+    "customQuery": "कस्टम उत्पादनन खोज्नुहोस्"
+  },
+  "currentPosition": {
+    "title": "वर्तमान स्थिति",
+    "completedHeading": "आपने पूरा कर लिया है:",
+    "nextRequiredHeading": "आपकी अगली आवश्यक कारबाही है:",
+    "noCompletedYet": "अभी तक कोई चरण पूरा होइन हुआ है।",
+    "continueAction": "यात्रा जारी राख्नुहोस्"
+  },
+  "nextBestAction": {
+    "title": "सर्वोत्तम अगली कारबाही (Next Best Action)",
+    "takeAction": "कारबाही करें",
+    "viewDetails": "विवरण हेर्नुहोस्"
+  },
+  "chainJourney": {
+    "title": "अनुपालन यात्रा",
+    "subtitle": "अनिवार्य बीआईएस नियामक आवश्यकताओं की चरण-दर-चरण प्रगति",
+    "viewStep": "हेर्नुहोस्",
+    "evidenceVerified": "साक्ष्य सत्यापित",
+    "documentsCount": "दस्तावेज़: {{available}} / {{required}} अपलोड किए गए ({{missing}} गायब)",
+    "sourceLabel": "स्रोत:"
+  },
+  "regulatoryOverview": {
+    "title": "नियामक पदानुक्रम (Regulatory Hierarchy)",
+    "subtitle": "बैकएंड द्वारा सत्यापित आधिकारिक मानक, QCO और योजना संबंध",
+    "standardLabel": "भारतीय मानक (IS)",
+    "qcoLabel": "QCO स्थिति",
+    "schemeLabel": "बीआईएस योजना",
+    "viewSource": "स्रोत हेर्नुहोस्",
+    "unverifiedSource": "सर्वर द्वारा स्रोत विवरण असत्यापित"
+  },
+  "states": {
+    "completed": "सम्पन्न (Completed)",
+    "actionRequired": "कारबाही आवश्यक (Action Required)",
+    "blocked": "अवरुद्ध (Blocked)",
+    "notStarted": "शुरू होइन हुआ (Not Started)",
+    "notApplicable": "लागू होइन (Not Applicable)",
+    "unavailable": "निर्धारित करने में असमर्थ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "वर्गीकरण",
+    "standard": "भारतीय मानक",
+    "qco": "गुणवत्ता नियंत्रण आदेश (QCO)",
+    "scheme": "बीआईएस योजना",
+    "requirements": "तकनीकी आवश्यकताएं",
+    "testing": "उत्पादनन परीक्षण",
+    "laboratory": "प्रयोगशाला मिलान",
+    "documents": "अनुपालन तिजोरी / दस्तावेज़",
+    "compliance": "अनुपालन अंतर",
+    "readiness": "आवेदन तैयारी",
+    "certification": "बीआईएस प्रमाणन",
+    "radar": "नियामक निगरानी"
+  },
+  "errors": {
+    "title": "अभी अनुपालन यात्रा लोड होइन की जा सकी",
+    "description": "हम अनुपालन सेवा से होइन जुड़ सके। कृपया पुनः प्रयास करें।",
+    "retry": "पुनः प्रयास करें",
+    "emptyTitle": "कोई अनुपालन यात्रा होइन मिली",
+    "emptyDescription": "अनुपालन श्रृंखला प्रस्तुत करने के लिए कोई उत्पादनन संदर्भ या सत्र पैरामीटर होइन मिले।"
+  }
+}

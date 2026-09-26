@@ -1,0 +1,57 @@
+{
+  "title": "ഉപയോഗ വിശ്ലേഷികീ",
+  "groundednessRate": "ആധാരിത ഉത്തര കീ ദര",
+  "declineRate": "അസ്വീകൃതി ദര",
+  "totalQueries": "കുല പ്രശ്ന",
+  "trendUpAriaLabel": "പിഛലീ അവധി കീ തുലനാ മേം {{value}}% വൃദ്ധി",
+  "trendDownAriaLabel": "പിഛലീ അവധി കീ തുലനാ മേം {{value}}% ഗിരാവട",
+  "topicsChartTitle": "ശീര്ഷ പ്രശ്ന വിഷയ",
+  "topicsAverageLabel": "ഔസത: {{value}}",
+  "queriesChartTitle": "സമയ കേ സാഥ പ്രശ്ന (പിഛലേ 7 ദിന)",
+  "queriesLabel": "പ്രശ്ന",
+  "topics": {
+    "helmets": "ഹേലമേട",
+    "appliances": "ഉപകരണ",
+    "gold": "സോനേ കേ ആഭൂഷണ",
+    "water": "പൈകേജ്ഡ പാനീ",
+    "cookers": "പ്രേശര കുകര",
+    "toys": "ഖിലൌനേ"
+  },
+  "days": {
+    "mon": "സോമ",
+    "tue": "മംഗല",
+    "wed": "ബുധ",
+    "thu": "ഗുരു",
+    "fri": "ശുക്ര",
+    "sat": "ശനി",
+    "sun": "രവി"
+  },
+  "documents": {
+    "pageTitle": "ദസ്താവേജ഼ പ്രബംധന",
+    "dropzone": {
+      "title": "ഫ഼ാഇലേം യഹാഁ ഖീംചേം ഔര ഛോഡ഼േം, യാ ബ്രാഉജ഼ കരനേ കേ ലിഏ ക്ലിക കരേം",
+      "hint": "PDF, DOC, യാ DOCX"
+    },
+    "table": {
+      "name": "ദസ്താവേജ഼ കാ നാമ",
+      "category": "ശ്രേണീ",
+      "status": "സ്ഥിതി",
+      "lastUpdated": "അംതിമ അദ്യതന",
+      "actions": "കാര്യ"
+    },
+    "status": {
+      "queued": "കതാരബദ്ധ",
+      "processing": "സംസാധിത ഹോ രഹാ ഹൈ",
+      "indexed": "അനുക്രമിത",
+      "failed": "വിഫല"
+    },
+    "reingest": "പുനഃ-പ്രോസേസ കരേം",
+    "retire": "ഹടാഏഁ",
+    "uncategorized": "അവര്ഗീകൃത",
+    "emptyState": "അഭീ കോഈ ദസ്താവേജ഼ നഹീം — ശുരൂ കരനേ കേ ലിഏ ഊപര ഏക അപലോഡ കരേം൤"
+  },
+  "opsOnline": "SAATHI സംചാലന സക്രിയ",
+  "statusOptimal": "ഉത്കൃഷ്ട",
+  "statusLive": "ലാഇവ",
+  "statusWatch": "നിഗരാനീ"
+}

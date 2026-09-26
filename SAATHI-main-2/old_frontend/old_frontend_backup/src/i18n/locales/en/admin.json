@@ -1,0 +1,58 @@
+{
+  "title": "Usage Analytics",
+  "backToChat": "Back to chat",
+  "groundednessRate": "Groundedness Rate",
+  "declineRate": "Decline Rate",
+  "totalQueries": "Total Queries",
+  "trendUpAriaLabel": "Up {{value}}% vs previous period",
+  "trendDownAriaLabel": "Down {{value}}% vs previous period",
+  "topicsChartTitle": "Top Query Topics",
+  "topicsAverageLabel": "Avg: {{value}}",
+  "queriesChartTitle": "Queries Over Time (Last 7 Days)",
+  "queriesLabel": "Queries",
+  "topics": {
+    "helmets": "Helmets",
+    "appliances": "Appliances",
+    "gold": "Gold Jewellery",
+    "water": "Packaged Water",
+    "cookers": "Pressure Cookers",
+    "toys": "Toys"
+  },
+  "days": {
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  },
+  "documents": {
+    "pageTitle": "Document Management",
+    "dropzone": {
+      "title": "Drag & drop files here, or click to browse",
+      "hint": "PDF, DOC, or DOCX"
+    },
+    "table": {
+      "name": "Document Name",
+      "category": "Category",
+      "status": "Status",
+      "lastUpdated": "Last Updated",
+      "actions": "Actions"
+    },
+    "status": {
+      "queued": "Queued",
+      "processing": "Processing",
+      "indexed": "Indexed",
+      "failed": "Failed"
+    },
+    "reingest": "Re-ingest",
+    "retire": "Retire",
+    "uncategorized": "Uncategorized",
+    "emptyState": "No documents yet — upload one above to get started."
+  },
+  "opsOnline": "SAATHI Ops Online",
+  "statusOptimal": "Optimal",
+  "statusLive": "Live",
+  "statusWatch": "Watch"
+}

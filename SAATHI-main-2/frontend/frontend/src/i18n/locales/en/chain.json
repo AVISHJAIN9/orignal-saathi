@@ -1,0 +1,70 @@
+{
+  "eyebrow": "Compliance Orchestration",
+  "heading": "Compliance Chain",
+  "subheading": "Your complete BIS compliance journey, from product classification to certification.",
+  "productContext": {
+    "product": "Product",
+    "standard": "Standard",
+    "status": "Current Status",
+    "selectProduct": "Select Product Context",
+    "customQuery": "Query Custom Product"
+  },
+  "currentPosition": {
+    "title": "Current Position",
+    "completedHeading": "You have completed:",
+    "nextRequiredHeading": "Your next required action is:",
+    "noCompletedYet": "No steps completed yet.",
+    "continueAction": "Continue Journey"
+  },
+  "nextBestAction": {
+    "title": "Next Best Action",
+    "takeAction": "Take Action",
+    "viewDetails": "View Details"
+  },
+  "chainJourney": {
+    "title": "Compliance Journey",
+    "subtitle": "Step-by-step progress through mandatory BIS regulatory requirements",
+    "viewStep": "View",
+    "evidenceVerified": "Evidence Verified",
+    "documentsCount": "Documents: {{available}} / {{required}} uploaded ({{missing}} missing)",
+    "sourceLabel": "Source:"
+  },
+  "regulatoryOverview": {
+    "title": "Regulatory Hierarchy",
+    "subtitle": "Official standard, QCO, and scheme bindings verified by backend",
+    "standardLabel": "Indian Standard",
+    "qcoLabel": "QCO Status",
+    "schemeLabel": "BIS Scheme",
+    "viewSource": "View Source",
+    "unverifiedSource": "Source details unverified by server"
+  },
+  "states": {
+    "completed": "Completed",
+    "actionRequired": "Action Required",
+    "blocked": "Blocked",
+    "notStarted": "Not Started",
+    "notApplicable": "Not Applicable",
+    "unavailable": "Unable to Determine"
+  },
+  "steps": {
+    "classification": "Classification",
+    "standard": "Indian Standard",
+    "qco": "Quality Control Order (QCO)",
+    "scheme": "BIS Scheme",
+    "requirements": "Technical Requirements",
+    "testing": "Product Testing",
+    "laboratory": "Laboratory Matcher",
+    "documents": "Compliance Vault / Documents",
+    "compliance": "Compliance Gaps",
+    "readiness": "Application Readiness",
+    "certification": "BIS Certification",
+    "radar": "Regulatory Monitoring"
+  },
+  "errors": {
+    "title": "Compliance journey could not be loaded right now",
+    "description": "We couldn't connect to the compliance service. Please try again.",
+    "retry": "Retry",
+    "emptyTitle": "No compliance journey found",
+    "emptyDescription": "No product context or session parameters were found to render a compliance chain."
+  }
+}

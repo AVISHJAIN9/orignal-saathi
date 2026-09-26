@@ -1,0 +1,67 @@
+{
+  "eyebrow": "High-Trust Regulatory Intelligence",
+  "heading": "Product Recall & Non-Conformance Alert System",
+  "subheading": "Authoritative alerts for surveillance non-conformances, standard withdrawals, and product recalls issued under official Bureau of Indian Standards directives.",
+  "metrics": {
+    "totalAlerts": "Total Directives",
+    "criticalAlerts": "Critical Non-Conformances",
+    "highAlerts": "High Severity Advisories",
+    "activeAlerts": "Active Directives",
+    "resolvedAlerts": "Resolved Cases"
+  },
+  "filters": {
+    "allSeverities": "All Severities",
+    "allTypes": "All Directive Types",
+    "allStatuses": "All Statuses",
+    "searchPlaceholder": "Search alerts, orders, products, standards..."
+  },
+  "card": {
+    "whatHappened": "What Happened",
+    "whyItMatters": "Why It Matters",
+    "affectedProduct": "Affected Product",
+    "affectedStandard": "Indian Standard & Clause",
+    "requiredAction": "Required Remediation Action",
+    "officialSource": "Authoritative BIS Order",
+    "effectiveDate": "Effective Date",
+    "deadline": "Remediation Deadline",
+    "viewDetails": "View Directive Details",
+    "startRemediation": "Launch Remediation Flow",
+    "viewGaps": "View Compliance Gaps",
+    "addToCalendar": "Add Deadline to Calendar"
+  },
+  "dialog": {
+    "title": "Authoritative Regulatory Directive Details",
+    "scopeTitle": "Affected Production & Distribution Scope",
+    "batches": "Affected Production Batches",
+    "estUnits": "Estimated Affected Units",
+    "standardClause": "Statutory Testing Clause",
+    "gazette": "Gazette / Statutory Reference",
+    "publishedDate": "Order Issuance Date",
+    "downloadOrder": "Download Official BIS Order PDF",
+    "orderRef": "Order Reference Number",
+    "actionTitle": "Mandatory Corrective Steps",
+    "remediationAction": "Remediation Action Required",
+    "remediationNotice": "This directive has an associated remediation workflow. Submitting an approved CAPA package to the BIS Branch Office is required to clear this alert."
+  },
+  "types": {
+    "PRODUCT_RECALL": "Product Recall Directive",
+    "NON_CONFORMANCE": "Surveillance Non-Conformance",
+    "SAFETY_ALERT": "Mandatory Safety Advisory",
+    "STANDARD_WITHDRAWAL": "Standard Clause Withdrawal",
+    "CERTIFICATION_ACTION": "Certification Scrutiny Action",
+    "REGULATORY_ACTION": "Statutory Regulatory Order"
+  },
+  "severities": {
+    "CRITICAL": "Critical Non-Conformance",
+    "HIGH": "High Severity",
+    "MEDIUM": "Medium Severity",
+    "LOW": "Informational"
+  },
+  "statuses": {
+    "ACTIVE": "Active Directive",
+    "ACTION_REQUIRED": "Action Required",
+    "UNDER_REMEDIATION": "Remediation In Progress",
+    "RESOLVED": "Resolved & Closed",
+    "CLOSED": "Closed"
+  }
+}

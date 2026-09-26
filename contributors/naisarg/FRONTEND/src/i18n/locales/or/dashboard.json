@@ -1,0 +1,95 @@
+{
+  "eyebrow": "ଡୈଶବୋର୍ଡ · ପ୍ରୋଟୋଟାଇପ",
+  "greeting": "ଵାପସୀ ପର ସ୍ଵାଗତ ହୈ, {{name}}",
+  "subheading": "ଆପକେ ଆଵେଦନୋଂ, ସମଯ-ସୀମାଓଂ ଔର ଲଂବିତ କାର୍ଯୋଂ କା ଵ୍ଯକ୍ତିଗତ ଦୃଶ୍ଯ — ଯହ ଉଦାହରଣାତ୍ମକ ମ୉କ ଡେଟା ପର ଆଧାରିତ ଏକ ଡେମୋ ଦୃଶ୍ଯ ହୈ, ନ କି ଲାଇଵ BIS ଫ଼ୀଡ୤",
+  "loading": "ଆପକା ଡୈଶବୋର୍ଡ ଲୋଡ ହୋ ରହା ହୈ…",
+  "error": {
+    "heading": "ଆପକା ଡୈଶବୋର୍ଡ ଲୋଡ ନହୀଂ ହୋ ସକା",
+    "retry": "ଫିର ସେ ପ୍ରଯାସ କରେଂ"
+  },
+  "empty": {
+    "heading": "ଆପ ପୂରୀ ତରହ ଅପଡେଟ ହୈଂ",
+    "body": "ଅଭୀ ଆପକେ ପାସ କୋଈ ସକ୍ରିଯ ଆଵେଦନ, ସମଯ-ସୀମା ଯା ଲଂବିତ କାର୍ଯ ନହୀଂ ହୈ୤"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} ଉପଲବ୍ଧ ନହୀଂ ହୈ",
+    "retry": "ପୁନଃ ପ୍ରଯାସ କରେଂ"
+  },
+  "sections": {
+    "progressSummary": "ଆଵେଦନ ସ୍ଥିତି",
+    "nextDeadline": "ଅଗଲୀ ସମଯ-ସୀମା",
+    "actionRequired": "ଆଵଶ୍ଯକ କାର୍ରଵାଈ",
+    "upcomingDeadlines": "ଆଗାମୀ ସମଯ-ସୀମାଏଁ",
+    "calendar": "କୈଲେଂଡର",
+    "activeApplications": "ସକ୍ରିଯ ଆଵେଦନ",
+    "recentActivity": "ହାଲ କୀ ଗତିଵିଧି",
+    "regulatoryAlerts": "ନିଯାମକ ଚେତାଵନିଯାଁ",
+    "paymentAlerts": "ଭୁଗତାନ ଚେତାଵନିଯାଁ",
+    "sampleTesting": "ନମୂନା ପରୀକ୍ଷଣ ସ୍ଥିତି"
+  },
+  "progressSummary": {
+    "completed": "ପୂର୍ଣ",
+    "inProgress": "ପ୍ରଗତି ମେଂ",
+    "pending": "ସମୀକ୍ଷା ଲଂବିତ"
+  },
+  "urgency": {
+    "normal": "ସାମାନ୍ଯ",
+    "approaching": "ନଜ଼ଦୀକ ଆ ରହା ହୈ",
+    "urgent": "ଅତ୍ଯାଵଶ୍ଯକ",
+    "overdue": "ସମଯ-ସୀମା ପାର",
+    "dueInDays_one": "{{count}} ଦିନ ମେଂ ଦେଯ",
+    "dueInDays_other": "{{count}} ଦିନୋଂ ମେଂ ଦେଯ",
+    "dueToday": "ଆଜ ଦେଯ",
+    "overdueByDays_one": "{{count}} ଦିନ କୀ ଦେରୀ",
+    "overdueByDays_other": "{{count}} ଦିନୋଂ କୀ ଦେରୀ"
+  },
+  "nextDeadline": {
+    "empty": "କୋଈ ଆଗାମୀ ସମଯ-ସୀମା ନହୀଂ୤",
+    "viewApplication": "ଆଵେଦନ ଦେଖେଂ"
+  },
+  "actionRequired": {
+    "empty": "କୋଈ କାର୍ରଵାଈ ଆଵଶ୍ଯକ ନହୀଂ — ଆପ ପୂରୀ ତରହ ଅପଡେଟ ହୈଂ୤",
+    "open": "ଖୋଲେଂ"
+  },
+  "upcomingDeadlines": {
+    "empty": "କୋଈ ଆଗାମୀ ସମଯ-ସୀମା ନହୀଂ୤",
+    "addToCalendar": "କୈଲେଂଡର ମେଂ ଜୋଡ଼େଂ"
+  },
+  "calendar": {
+    "hint": "ଜିନ ଦିନୋଂ ମେଂ ସମଯ-ସୀମା ହୈ ଵେ ଚିହ୍ନିତ ହୈଂ — ଦେଖନେ କେ ଲିଏ ଏକ ଚୁନେଂ, ଯା ନୀଚେ ସବ କୁଛ ନିର୍ଯାତ କରେଂ୤",
+    "exportAll": "କୈଲେଂଡର ମେଂ ସବ ନିର୍ଯାତ କରେଂ (.ics)",
+    "addOne": "କୈଲେଂଡର ମେଂ ଜୋଡ଼େଂ",
+    "empty": "କୈଲେଂଡର ପର ଦିଖାନେ କେ ଲିଏ କୋଈ ସମଯ-ସୀମା ନହୀଂ୤",
+    "noneOnDay": "ଇସ ଦିନ କୋଈ ସମଯ-ସୀମା ନହୀଂ୤"
+  },
+  "activeApplications": {
+    "empty": "ଅଭୀ ତକ କୋଈ ସକ୍ରିଯ ଆଵେଦନ ନହୀଂ୤",
+    "startOne": "ନଯା ଆଵେଦନ ଶୁରୂ କରେଂ",
+    "status": {
+      "draft": "ଡ୍ରାଫ଼୍ଟ",
+      "submitted": "ଜମା କିଯା ଗଯା"
+    },
+    "readinessLabel": "ତୈଯାରୀ",
+    "readinessStatus": {
+      "ready": "ଜମା କରନେ କେ ଲିଏ ତୈଯାର",
+      "ready_with_non_blocking": "ତୈଯାର — ଗୈର-ଅଵରୋଧକ ମଦ ଶେଷ ହୈଂ",
+      "not_ready": "ତୈଯାର ନହୀଂ",
+      "insufficient_evidence": "ଅପର୍ଯାପ୍ତ ସାକ୍ଷ୍ଯ"
+    },
+    "blockersLabel_one": "{{count}} ଅଵରୋଧକ ସମସ୍ଯା",
+    "blockersLabel_other": "{{count}} ଅଵରୋଧକ ସମସ୍ଯାଏଁ",
+    "viewStandard": "ମାନକ ଦେଖେଂ"
+  },
+  "recentActivity": {
+    "empty": "କୋଈ ହାଲ କୀ ଗତିଵିଧି ନହୀଂ୤"
+  },
+  "regulatoryAlerts": {
+    "empty": "କୋଈ ନଈ ନିଯାମକ ଚେତାଵନୀ ନହୀଂ୤",
+    "viewDetails": "ଵିଵରଣ ଦେଖେଂ"
+  },
+  "paymentAlerts": {
+    "empty": "ଅଭୀ କୋଈ ଲଂବିତ ଶୁଲ୍କ ନହୀଂ ହୈ୤",
+    "viewPayment": "ଭୁଗତାନ ସ୍ଥିତି ଦେଖେଂ"
+  },
+  "illustrativeNotice": "ଉଦାହରଣାତ୍ମକ ଡେଟା — ଯହ କୋଈ ଵାସ୍ତଵିକ BIS ଆଵେଦନ ଯା ଫାଇଲିଂଗ ନହୀଂ ହୈ୤"
+}

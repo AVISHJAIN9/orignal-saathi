@@ -1,0 +1,57 @@
+{
+  "title": "উপযোগ ঵িশ্লেষিকী",
+  "groundednessRate": "আধারিত উত্তর কী দর",
+  "declineRate": "অস্঵ীকৃতি দর",
+  "totalQueries": "কুল প্রশ্ন",
+  "trendUpAriaLabel": "পিছলী অ঵ধি কী তুলনা মেং {{value}}% ঵ৃদ্ধি",
+  "trendDownAriaLabel": "পিছলী অ঵ধি কী তুলনা মেং {{value}}% গিরা঵ট",
+  "topicsChartTitle": "শীর্ষ প্রশ্ন ঵িষয",
+  "topicsAverageLabel": "ঔসত: {{value}}",
+  "queriesChartTitle": "সময কে সাথ প্রশ্ন (পিছলে 7 দিন)",
+  "queriesLabel": "প্রশ্ন",
+  "topics": {
+    "helmets": "হেলমেট",
+    "appliances": "উপকরণ",
+    "gold": "সোনে কে আভূষণ",
+    "water": "পৈকেজ্ড পানী",
+    "cookers": "প্রেশর কুকর",
+    "toys": "খিলৌনে"
+  },
+  "days": {
+    "mon": "সোম",
+    "tue": "মংগল",
+    "wed": "বুধ",
+    "thu": "গুরু",
+    "fri": "শুক্র",
+    "sat": "শনি",
+    "sun": "র঵ি"
+  },
+  "documents": {
+    "pageTitle": "দস্তা঵েজ় প্রবংধন",
+    "dropzone": {
+      "title": "ফ়াইলেং যহাঁ খীংচেং ঔর ছোড়েং, যা ব্রাউজ় করনে কে লিএ ক্লিক করেং",
+      "hint": "PDF, DOC, যা DOCX"
+    },
+    "table": {
+      "name": "দস্তা঵েজ় কা নাম",
+      "category": "শ্রেণী",
+      "status": "স্থিতি",
+      "lastUpdated": "অংতিম অদ্যতন",
+      "actions": "কার্য"
+    },
+    "status": {
+      "queued": "কতারবদ্ধ",
+      "processing": "সংসাধিত হো রহা হৈ",
+      "indexed": "অনুক্রমিত",
+      "failed": "঵িফল"
+    },
+    "reingest": "পুনঃ-প্রোসেস করেং",
+    "retire": "হটাএঁ",
+    "uncategorized": "অ঵র্গীকৃত",
+    "emptyState": "অভী কোঈ দস্তা঵েজ় নহীং — শুরূ করনে কে লিএ ঊপর এক অপলোড করেং৤"
+  },
+  "opsOnline": "SAATHI সংচালন সক্রিয",
+  "statusOptimal": "উত্কৃষ্ট",
+  "statusLive": "লাই঵",
+  "statusWatch": "নিগরানী"
+}

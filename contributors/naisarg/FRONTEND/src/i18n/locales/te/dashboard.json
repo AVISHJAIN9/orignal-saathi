@@ -1,0 +1,95 @@
+{
+  "eyebrow": "డైశబోర్డ · ప్రోటోటాఇప",
+  "greeting": "వాపసీ పర స్వాగత హై, {{name}}",
+  "subheading": "ఆపకే ఆవేదనోం, సమయ-సీమాఓం ఔర లంబిత కార్యోం కా వ్యక్తిగత దృశ్య — యహ ఉదాహరణాత్మక మ౉క డేటా పర ఆధారిత ఏక డేమో దృశ్య హై, న కి లాఇవ BIS ఫ఼ీడ౤",
+  "loading": "ఆపకా డైశబోర్డ లోడ హో రహా హై…",
+  "error": {
+    "heading": "ఆపకా డైశబోర్డ లోడ నహీం హో సకా",
+    "retry": "ఫిర సే ప్రయాస కరేం"
+  },
+  "empty": {
+    "heading": "ఆప పూరీ తరహ అపడేట హైం",
+    "body": "అభీ ఆపకే పాస కోఈ సక్రియ ఆవేదన, సమయ-సీమా యా లంబిత కార్య నహీం హై౤"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} ఉపలబ్ధ నహీం హై",
+    "retry": "పునః ప్రయాస కరేం"
+  },
+  "sections": {
+    "progressSummary": "ఆవేదన స్థితి",
+    "nextDeadline": "అగలీ సమయ-సీమా",
+    "actionRequired": "ఆవశ్యక కార్రవాఈ",
+    "upcomingDeadlines": "ఆగామీ సమయ-సీమాఏఁ",
+    "calendar": "కైలేండర",
+    "activeApplications": "సక్రియ ఆవేదన",
+    "recentActivity": "హాల కీ గతివిధి",
+    "regulatoryAlerts": "నియామక చేతావనియాఁ",
+    "paymentAlerts": "భుగతాన చేతావనియాఁ",
+    "sampleTesting": "నమూనా పరీక్షణ స్థితి"
+  },
+  "progressSummary": {
+    "completed": "పూర్ణ",
+    "inProgress": "ప్రగతి మేం",
+    "pending": "సమీక్షా లంబిత"
+  },
+  "urgency": {
+    "normal": "సామాన్య",
+    "approaching": "నజ఼దీక ఆ రహా హై",
+    "urgent": "అత్యావశ్యక",
+    "overdue": "సమయ-సీమా పార",
+    "dueInDays_one": "{{count}} దిన మేం దేయ",
+    "dueInDays_other": "{{count}} దినోం మేం దేయ",
+    "dueToday": "ఆజ దేయ",
+    "overdueByDays_one": "{{count}} దిన కీ దేరీ",
+    "overdueByDays_other": "{{count}} దినోం కీ దేరీ"
+  },
+  "nextDeadline": {
+    "empty": "కోఈ ఆగామీ సమయ-సీమా నహీం౤",
+    "viewApplication": "ఆవేదన దేఖేం"
+  },
+  "actionRequired": {
+    "empty": "కోఈ కార్రవాఈ ఆవశ్యక నహీం — ఆప పూరీ తరహ అపడేట హైం౤",
+    "open": "ఖోలేం"
+  },
+  "upcomingDeadlines": {
+    "empty": "కోఈ ఆగామీ సమయ-సీమా నహీం౤",
+    "addToCalendar": "కైలేండర మేం జోడ఼ేం"
+  },
+  "calendar": {
+    "hint": "జిన దినోం మేం సమయ-సీమా హై వే చిహ్నిత హైం — దేఖనే కే లిఏ ఏక చునేం, యా నీచే సబ కుఛ నిర్యాత కరేం౤",
+    "exportAll": "కైలేండర మేం సబ నిర్యాత కరేం (.ics)",
+    "addOne": "కైలేండర మేం జోడ఼ేం",
+    "empty": "కైలేండర పర దిఖానే కే లిఏ కోఈ సమయ-సీమా నహీం౤",
+    "noneOnDay": "ఇస దిన కోఈ సమయ-సీమా నహీం౤"
+  },
+  "activeApplications": {
+    "empty": "అభీ తక కోఈ సక్రియ ఆవేదన నహీం౤",
+    "startOne": "నయా ఆవేదన శురూ కరేం",
+    "status": {
+      "draft": "డ్రాఫ఼్ట",
+      "submitted": "జమా కియా గయా"
+    },
+    "readinessLabel": "తైయారీ",
+    "readinessStatus": {
+      "ready": "జమా కరనే కే లిఏ తైయార",
+      "ready_with_non_blocking": "తైయార — గైర-అవరోధక మద శేష హైం",
+      "not_ready": "తైయార నహీం",
+      "insufficient_evidence": "అపర్యాప్త సాక్ష్య"
+    },
+    "blockersLabel_one": "{{count}} అవరోధక సమస్యా",
+    "blockersLabel_other": "{{count}} అవరోధక సమస్యాఏఁ",
+    "viewStandard": "మానక దేఖేం"
+  },
+  "recentActivity": {
+    "empty": "కోఈ హాల కీ గతివిధి నహీం౤"
+  },
+  "regulatoryAlerts": {
+    "empty": "కోఈ నఈ నియామక చేతావనీ నహీం౤",
+    "viewDetails": "వివరణ దేఖేం"
+  },
+  "paymentAlerts": {
+    "empty": "అభీ కోఈ లంబిత శుల్క నహీం హై౤",
+    "viewPayment": "భుగతాన స్థితి దేఖేం"
+  },
+  "illustrativeNotice": "ఉదాహరణాత్మక డేటా — యహ కోఈ వాస్తవిక BIS ఆవేదన యా ఫాఇలింగ నహీం హై౤"
+}

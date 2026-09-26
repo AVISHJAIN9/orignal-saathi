@@ -1,0 +1,104 @@
+{
+  "title": "Document Cortex",
+  "eyebrow": "AI document analysis",
+  "heading": "Upload a document. Get a compliance read.",
+  "subheading": "Upload a spec, label, or test report and see the product it describes, the standards that apply, and what's missing before certification.",
+  "analyzing": "Scanning document for compliance signals…",
+  "demoNotice": "Demo analysis — illustrates the result format using a sample outcome, not a real parse of this file's contents.",
+  "demoHint": "Tip: a filename containing \"helmet\", \"cooker\", \"appliance\", or \"toy\" shows a matching demo scenario.",
+  "tryAnother": "Analyze another document",
+  "severityCritical": "Critical",
+  "severityMinor": "Minor",
+  "recentDocuments": {
+    "title": "Recent documents",
+    "analyzedBadge": "Analyzed",
+    "viewAction": "View analysis",
+    "justNow": "Just now",
+    "threeDaysAgo": "3 days ago",
+    "oneWeekAgo": "1 week ago",
+    "twoWeeksAgo": "2 weeks ago"
+  },
+  "sections": {
+    "detectedProduct": "Detected product",
+    "relevantStandards": "Relevant standards",
+    "potentialIssues": "Potential issues",
+    "issuesEmpty": "No issues flagged in this demo scenario.",
+    "missingInformation": "Missing information",
+    "recommendations": "Recommendations"
+  },
+  "results": {
+    "helmetSpec": {
+      "product": "Protective Helmet (Two-Wheeler)",
+      "issues": {
+        "chinStrap": {
+          "title": "Chin strap retention test missing",
+          "description": "IS 4151 requires a documented dynamic retention test report for the chin strap assembly — not present in this document."
+        },
+        "peripheralVision": {
+          "title": "Peripheral vision field unspecified",
+          "description": "The document doesn't state the peripheral vision field angle required under IS 4151 §5.3."
+        }
+      },
+      "missing": {
+        "impactReport": "Impact absorption test report",
+        "licenceNumber": "BIS licence number for IS 4151"
+      },
+      "recommendations": {
+        "attachChinStrapReport": "Attach a third-party lab report for chin-strap retention testing.",
+        "addLicenceNumber": "Include the BIS licence number on the document's cover page."
+      }
+    },
+    "cookerSpec": {
+      "product": "Pressure Cooker (Aluminium)",
+      "issues": {
+        "valveRating": {
+          "title": "Safety valve rating not cross-referenced",
+          "description": "The stated safety-valve pressure rating isn't matched against the IS 2347 Table 3 limits for this cooker size."
+        }
+      },
+      "missing": {
+        "hydrostaticCert": "Hydrostatic test certificate"
+      },
+      "recommendations": {
+        "referenceValveTable": "Cross-reference the safety-valve pressure rating against IS 2347 Table 3.",
+        "attachHydrostaticCert": "Attach the hydrostatic test certificate for this batch."
+      }
+    },
+    "applianceSpec": {
+      "product": "Household Electrical Appliance",
+      "issues": {
+        "earthContinuity": {
+          "title": "Earth continuity test not documented",
+          "description": "IS 302 requires a passed earth-continuity test report — none is referenced in this document."
+        },
+        "insulationLabel": {
+          "title": "Insulation class not labelled",
+          "description": "The document doesn't state the appliance's insulation class (Class I/II) required for the safety marking."
+        }
+      },
+      "missing": {
+        "earthContinuityReport": "Earth continuity test report"
+      },
+      "recommendations": {
+        "retestEarthContinuity": "Commission an earth-continuity test and attach the report.",
+        "clarifyInsulationClass": "State the insulation class (Class I or II) explicitly in the document."
+      }
+    },
+    "toySpec": {
+      "product": "Children's Toy (Mechanical)",
+      "issues": {
+        "smallParts": {
+          "title": "Small-parts choke test not documented",
+          "description": "IS 9873 (Part 1) requires a small-parts cylinder test for products intended for children under 3 — not present here."
+        }
+      },
+      "missing": {
+        "chokeHazardWarning": "Choke-hazard warning label text"
+      },
+      "recommendations": {
+        "addChokeWarning": "Add the required choke-hazard warning label text to the packaging artwork.",
+        "resubmitSmallPartsTest": "Resubmit with a small-parts cylinder test report from an accredited lab."
+      }
+    }
+  }
+}

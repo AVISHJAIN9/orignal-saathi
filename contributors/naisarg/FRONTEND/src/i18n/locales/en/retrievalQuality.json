@@ -1,0 +1,29 @@
+{
+  "eyebrow": "RAG RETRIEVAL HEALTH & OPS METRICS",
+  "heading": "Live Retrieval-Quality Metrics & Ops",
+  "subheading": "Internal operations telemetry monitoring citation groundedness, safe decline rates, and retrieval latency across Indian Standards knowledge bases.",
+  "metrics": {
+    "groundedness": "Groundedness Rate",
+    "groundednessTooltip": "Percentage of generated statements directly supported by cited verified standards. (Not raw prediction accuracy).",
+    "declineRate": "Cite-or-Decline Rate",
+    "declineTooltip": "Percentage of ambiguous or unverified queries safely declined under the cite-or-decline safety policy.",
+    "retrievalSuccess": "Retrieval Success Rate",
+    "retrievalLatency": "Avg. Retrieval Latency",
+    "generationLatency": "Avg. Answer Latency",
+    "queriesEvaluated": "Queries Evaluated",
+    "citationCoverage": "Citation Coverage Rate",
+    "lowConfidence": "Low-Confidence Rate"
+  },
+  "sections": {
+    "trends": "Groundedness & Decline Rate Over Time",
+    "failures": "Top Retrieval Failure Categories & Mitigation",
+    "coverageGaps": "Standards with Retrieval Coverage Gaps",
+    "rangeFilter": "Evaluation Window"
+  },
+  "status": {
+    "demoTelemetry": "TELEMETRY",
+    "liveTelemetry": "LIVE PRODUCTION TELEMETRY",
+    "healthy": "Optimal Parameter",
+    "watch": "Needs Review"
+  }
+}

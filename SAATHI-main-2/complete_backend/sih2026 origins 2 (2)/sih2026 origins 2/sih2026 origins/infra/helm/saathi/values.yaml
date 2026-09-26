@@ -1,0 +1,121 @@
+# SAATHI Helm Chart — Default Values
+# Override with: -f values.staging.yaml or -f values.prod.yaml
+
+global:
+  environment: development
+  imageRegistry: "ghcr.io/saathi"
+  imagePullPolicy: Always
+  namespace: saathi-dev
+
+# ── Image tags ──────────────────────────────────────────────────────────────
+images:
+  d1Chat:
+    repository: saathi/d1-chat
+    tag: latest
+  m5Rag:
+    repository: saathi/m5-rag
+    tag: latest
+  m1Ingestion:
+    repository: saathi/m1-ingestion
+    tag: latest
+  p1Auth:
+    repository: saathi/p1-auth
+    tag: latest
+  pgbouncer:
+    repository: bitnami/pgbouncer
+    tag: "1.22.1"
+
+# ── Replica counts (overridden in prod/staging values) ────────────────────
+replicaCounts:
+  d1Chat: 1
+  m5Rag: 1
+  m1Ingestion: 1
+  p1Auth: 1
+  pgbouncer: 1
+
+# ── HPA (enable in prod only) ─────────────────────────────────────────────
+hpa:
+  enabled: false
+  d1Chat:
+    minReplicas: 3
+    maxReplicas: 50
+    cpuThreshold: 60
+  m5Rag:
+    minReplicas: 3
+    maxReplicas: 30
+    cpuThreshold: 55
+
+# ── Service configuration ─────────────────────────────────────────────────
+services:
+  d1Chat:
+    port: 5001
+    type: ClusterIP
+  m5Rag:
+    port: 8000
+    type: ClusterIP
+  m1Ingestion:
+    port: 5011
+    type: ClusterIP
+  p1Auth:
+    port: 8001
+    type: ClusterIP
+  pgbouncer:
+    port: 5432
+    type: ClusterIP
+
+# ── Resource requests/limits ─────────────────────────────────────────────
+resources:
+  d1Chat:
+    requests: { cpu: 250m, memory: 512Mi }
+    limits:   { cpu: 1000m, memory: 1Gi }
+  m5Rag:
+    requests: { cpu: 500m, memory: 1Gi }
+    limits:   { cpu: 2000m, memory: 2Gi }
+  m1Ingestion:
+    requests: { cpu: 200m, memory: 256Mi }
+    limits:   { cpu: 500m, memory: 512Mi }
+  p1Auth:
+    requests: { cpu: 200m, memory: 256Mi }
+    limits:   { cpu: 500m, memory: 512Mi }
+  pgbouncer:
+    requests: { cpu: 100m, memory: 128Mi }
+    limits:   { cpu: 500m, memory: 256Mi }
+
+# ── Ingress ───────────────────────────────────────────────────────────────
+ingress:
+  enabled: true
+  className: nginx
+  host: api.saathi.bis.gov.in
+  tls: true
+  certManagerIssuer: letsencrypt-prod
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "35"
+    nginx.ingress.kubernetes.io/proxy-buffering: "off"
+    nginx.ingress.kubernetes.io/limit-rps: "100"
+
+# ── Secrets (never hardcode — injected via external-secrets or kubectl) ───
+secrets:
+  databaseUrl: ""          # Injected: DATABASE_URL
+  redisUrl: ""             # Injected: REDIS_URL
+  jwtSecret: ""            # Injected: JWT_SECRET
+  sarvamApiKey: ""         # Injected: SARVAM_API_KEY
+  openaiApiKey: ""         # Injected: OPENAI_API_KEY
+  hcaptchaSecretKey: ""    # Injected: HCAPTCHA_SECRET_KEY
+
+# ── Config ────────────────────────────────────────────────────────────────
+config:
+  embeddingProvider: openai
+  embeddingModel: text-embedding-3-small
+  crawlerTimeoutMs: "15000"
+  m5RagEndpoint: http://m5-rag/api/v1/generate
+  m3RetrievalEndpoint: http://m3-retrieval/retrieve
+  corsOrigins: "https://saathi.bis.gov.in"
+  dbPoolMax: "20"
+  dbSsl: "true"
+
+# ── Observability ─────────────────────────────────────────────────────────
+observability:
+  enabled: true
+  otelEndpoint: http://jaeger:4318
+  prometheusAnnotations: true

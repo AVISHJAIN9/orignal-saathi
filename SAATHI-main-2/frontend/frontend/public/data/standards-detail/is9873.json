@@ -1,0 +1,168 @@
+{
+  "master": {
+    "internal_id": 17302,
+    "IS_number": "IS 9873 (Part 1):2019ISO 8124-1 : 2018",
+    "clean_number": "9873",
+    "slug": "is9873",
+    "IS_title": "SAFETY OF TOYS PART 1: SAFETY ASPECTS RELATED TO MECHANICAL AND PHYSICAL PROPERTIES (Fifth Revision)",
+    "superseding_IS": "None",
+    "degree_of_equivalence": "Identical under dual numbering",
+    "number_of_revisions": "New Standard",
+    "number_of_amendments": "No amendment issued",
+    "aspect": "Safety Standard",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "PCD (Petroleum, Coal and Related Products Department)",
+    "technical_committee": "PCD 30 (Toys and Related test Methods Sectional Committee)",
+    "member_secretary": "Anmol Agarwal (SCIENTIST-C)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 0,
+    "gazette_document_count": 2,
+    "license_count": 1145,
+    "product_manual_sit_count": 1,
+    "laboratory_count": 25,
+    "corrigendum_count": 0,
+    "catalogue_id": "34803",
+    "catalogue_is_no": "IS 9873 (Part 1):2019 ISO 8124-1 : 2018 (Active)",
+    "catalogue_title": "SAFETY OF TOYS PART 1: SAFETY ASPECTS RELATED TO MECHANICAL AND PHYSICAL PROPERTIES (Fifth Revision)",
+    "catalogue_amendments": "0",
+    "catalogue_technical_committee": "PCD 30",
+    "catalogue_aspect": "Safety Standard",
+    "catalogue_reaffirmation": "Identical under dual numbering",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/17302",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=17302",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/431/2",
+    "extracted_at": "2026-09-23T16:07:25.355Z",
+    "category_key": "toys",
+    "category_label": "Toys",
+    "status": "Active",
+    "image_url": "/images/products/toys.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 13360 (Part 5/Sec 11):2013ISO 868 : 2003",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 11 determination of indentation hardness by means of durometer (Shore Hardness) (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 1586:2000",
+      "title": "Method for Rockwell Hardness Test for Metallic Material (Scales A-B-C-D-E-F-G-H-K 15N, 30N, 45N, 15T, 30T and 45T)",
+      "committee": "MTD 03"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 13360 (Part 5/Sec 11):2013ISO 868 : 2003",
+      "title": "Plastics - Methods of testing: Part 5 mechanical properties section 11 determination of indentation hardness by means of durometer (Shore Hardness) (First Revision)",
+      "committee": "PCD 27"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 1586:2000",
+      "title": "Method for Rockwell Hardness Test for Metallic Material (Scales A-B-C-D-E-F-G-H-K 15N, 30N, 45N, 15T, 30T and 45T)",
+      "committee": "MTD 03"
+    }
+  ],
+  "internationalReferences": [
+    {
+      "number": "1",
+      "standard": "ISO 4287 : 0 : 0 0"
+    },
+    {
+      "number": "2",
+      "standard": "ISO 6508 : 1 : 0 0"
+    },
+    {
+      "number": "3",
+      "standard": "IEC 61672 : 1 : 0 0"
+    },
+    {
+      "number": "4",
+      "standard": "ISO 11201 : 0 : 0 0"
+    },
+    {
+      "number": "5",
+      "standard": "ISO 11202 : 0 : 0 0"
+    },
+    {
+      "number": "6",
+      "standard": "ISO 11204 : 0 : 0 0"
+    }
+  ],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 9873 : Part 2 : 2017",
+      "title": "SAFETY OF TOYS PART 2 FLAMMABILITY (Fourth Revision)",
+      "committee": "PCD 30"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 9873 (Part 4) : 2017",
+      "title": "Safety of toys: Part 4 swings, slides and similar activity toys for indoor and outdoor family domestic use",
+      "committee": "PCD 30"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS/IEC 61730 : PART 2 : 2016",
+      "title": "Photovoltaic (PV) module safety qualification: Part 2 requirements for testing (First Revision)",
+      "committee": "ETD 28"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS/IEC 62688 : 2017",
+      "title": "Concentrator Photovoltaic (CPV) Modules and Assemblies Safety Qualification",
+      "committee": "ETD 28"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 9873 : Part 3 : 2017",
+      "title": "Safety of toys: Part 3 migration of certain elements (Second Revision)",
+      "committee": "PCD 12"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 9873 : Part 6 : 2017",
+      "title": "Safety of Toys Part 6 Determination of Certain Pthalate Esters in Toys and Children's Products",
+      "committee": "PCD 12"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS/IEC 62209 : Part 3 : 2019",
+      "title": "Measurement procedure for the assessment of specific absorption rate of human exposure to radio frequency fields from hand-held and body-mounted wireless communication devices Part 3: Vector measurement-based systems Frequency range of 600 MHz to 6 Ghz)",
+      "committee": "LITD 09"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 15533 : 2018",
+      "title": "Cycles - Safety requirements for bicycles for young children (First Revision)",
+      "committee": "TED 16"
+    }
+  ],
+  "clauses": [],
+  "qco": {
+    "qcoId": "QCO-TOYS-2020",
+    "title": "Toys (Quality Control) Order, 2020",
+    "product": "Toys intended for use by children under 14 years",
+    "scope": "Mandatory BIS certification under Scheme I (ISI mark) for toys manufactured, imported, or sold in India, covering mechanical, physical, and chemical safety under DPIIT Gazette Notification S.O. 853(E).",
+    "effectiveDate": "2020-09-25",
+    "status": "applicable",
+    "exemptions": [
+      "Toys manufactured exclusively for export are exempt from this Order."
+    ],
+    "requirements": [
+      "Valid BIS Licence (ISI mark) under IS 9873 prior to manufacture or import.",
+      "Compliance with mechanical and physical safety requirements, including small-parts and sharp-edge tests.",
+      "Every toy or its packaging must bear the Standard Mark."
+    ],
+    "sourceUrl": "https://www.services.bis.gov.in",
+    "sourceType": "gazette_notification"
+  }
+}

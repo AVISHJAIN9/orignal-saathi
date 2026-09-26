@@ -1,0 +1,178 @@
+{
+  "eyebrow": "Resolution Portal",
+  "heading": "Appeals & Dispute Resolution",
+  "subheading": "Review official decisions, assess available resolution options, submit structured appeals or review requests, and track dispute proceedings under BIS conformity regulations.",
+  "selectApplication": "Select Application",
+  "allApplications": "All Applications",
+  "tabs": {
+    "all": "All Requests",
+    "active": "Active Requests",
+    "actionRequired": "Action Required",
+    "resolved": "Resolved / History"
+  },
+  "decisionContext": {
+    "title": "Official Decision / Finding Under Scrutiny",
+    "application": "Application Ref",
+    "product": "Product",
+    "standard": "Indian Standard",
+    "clause": "Governing Clause",
+    "decisionType": "Decision Type",
+    "outcome": "Official Finding",
+    "date": "Decision Date",
+    "deadline": "Appeal Submission Deadline",
+    "officialExplanation": "Authority Remarks & Basis",
+    "viewFullDecision": "View Scrutiny Record",
+    "appealAvailable": "Resolution Options Available",
+    "noAppeal": "This decision is in final status and not eligible for further dispute review."
+  },
+  "resolutionPaths": {
+    "title": "Available Resolution Options",
+    "subtitle": "Select an officially supported course of action based on your assessment of the decision:",
+    "APPEAL": {
+      "title": "Formal Appeal",
+      "description": "File a statutory appeal before the Appellate Authority against license refusal, rejection, or cancellation.",
+      "action": "Initiate Appeal"
+    },
+    "REVIEW_REQUEST": {
+      "title": "Request for Review",
+      "description": "Request re-evaluation of specific test parameters or scrutiny observations with clarifying technical data.",
+      "action": "Request Review"
+    },
+    "CLARIFICATION_REQUEST": {
+      "title": "Request Clarification",
+      "description": "Seek formal guidance on interpretation of standard clauses or technical test report observations.",
+      "action": "Request Clarification"
+    },
+    "GRIEVANCE": {
+      "title": "Grievance / Dispute Notice",
+      "description": "Lodge an administrative grievance regarding procedural delays, inspection conduct, or fee calculations.",
+      "action": "File Grievance"
+    },
+    "ASSESSMENT_RESPONSE": {
+      "title": "Assessment Response",
+      "description": "Submit a formal written response to non-conformity findings identified during factory surveillance or market sampling.",
+      "action": "Submit Response"
+    }
+  },
+  "categories": {
+    "CERTIFICATION_DECISION": "Certification Decision",
+    "INSPECTION_FINDING": "Factory / Surveillance Inspection Finding",
+    "APPLICATION_DECISION": "Application Scrutiny Decision",
+    "COMPLIANCE_ASSESSMENT": "Compliance & Gap Assessment",
+    "TESTING_DEFICIENCY": "Laboratory Test Report Deficiency",
+    "OTHER": "Other Supported Administrative Matter"
+  },
+  "statuses": {
+    "DRAFT": "Draft",
+    "SUBMITTED": "Submitted",
+    "ACKNOWLEDGED": "Acknowledged",
+    "UNDER_REVIEW": "Under Review",
+    "ADDITIONAL_INFORMATION_REQUIRED": "Additional Information Required",
+    "RESOLVED": "Resolved",
+    "REJECTED": "Rejected / Dismissed",
+    "CLOSED": "Closed",
+    "WITHDRAWN": "Withdrawn"
+  },
+  "actions": {
+    "viewDetails": "View Details",
+    "provideInfo": "Provide Information",
+    "withdraw": "Withdraw Request",
+    "withdrawConfirm": "Are you sure you want to withdraw this request?",
+    "refresh": "Refresh",
+    "retry": "Retry",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next Step",
+    "submit": "Submit Request",
+    "submitting": "Submitting to Authority...",
+    "selectFromVault": "Select from Compliance Vault",
+    "uploadNew": "Upload Evidence Document",
+    "browse": "Browse Files",
+    "cancel": "Cancel",
+    "viewApplication": "View Application",
+    "viewComplianceChain": "View in Compliance Chain",
+    "viewGap": "View Related Gap",
+    "viewReadiness": "View Readiness Impact"
+  },
+  "wizard": {
+    "title": "Dispute Resolution Wizard",
+    "step1Title": "Select Issue & Resolution Path",
+    "step1Desc": "Choose the type of issue you wish to dispute and the resolution path supported by the authority.",
+    "step2Title": "Reason & Explanation",
+    "step2Desc": "Provide a factual and clear statement explaining why this review or appeal is requested.",
+    "step3Title": "Supporting Evidence",
+    "step3Desc": "Attach technical test reports, calibrated lab certificates, or existing documents from Compliance Vault.",
+    "step4Title": "Review & Declaration",
+    "step4Desc": "Verify all submission details before transmitting to the competent appellate authority.",
+    "step5Title": "Request Submitted",
+    "step5Desc": "Your request has been officially recorded in the BIS portal.",
+    "issueLabel": "Dispute Category",
+    "resolutionPathLabel": "Selected Resolution Path",
+    "reasonLabel": "Summary of Grounds",
+    "reasonPlaceholder": "E.g., Discrepancy in ambient temperature test conditions during re-testing (IS 14543 Clause 6.1)...",
+    "explanationLabel": "Detailed Technical Explanation",
+    "explanationPlaceholder": "Provide a comprehensive, factual explanation. State specific clauses, test methods, or procedural observations.",
+    "reasonMinLength": "Explanation must be at least 30 characters.",
+    "charCount": "{{count}} / 2000 characters",
+    "neutralNotice": "Note: Submissions are evaluated strictly against verified test records and applicable Indian Standards. Please ensure statements are factual and verifiable.",
+    "declarationText": "I hereby declare that the information and evidence submitted herein are authentic, accurate, and reflect verifiable compliance records.",
+    "declarationRequired": "You must confirm the declaration before submitting.",
+    "referenceId": "Official Reference ID",
+    "submittedOn": "Submitted At",
+    "status": "Current Status",
+    "successMessage": "Your resolution request has been transmitted. An official acknowledgment has been generated.",
+    "trackStatus": "Track Request Status"
+  },
+  "additionalInfo": {
+    "title": "Additional Information Requested",
+    "badge": "Action Required by Authority",
+    "officerRequest": "Authority Observation / Requirement",
+    "deadlineNotice": "Please respond by {{date}} to prevent administrative closure.",
+    "responseLabel": "Your Response & Clarifications",
+    "responsePlaceholder": "Enter your detailed response addressing the specific observations requested by the reviewing officer...",
+    "attachDocs": "Attach Additional Evidence",
+    "submitResponse": "Submit Response to Authority",
+    "submitting": "Submitting Response...",
+    "successMessage": "Additional information has been submitted successfully."
+  },
+  "resolution": {
+    "title": "Official Resolution & Order",
+    "outcomeLabel": "Decision Outcome",
+    "orderRef": "Order Reference",
+    "resolvedOn": "Resolution Date",
+    "summary": "Authority Findings & Summary",
+    "impact": "Impact on Application Status",
+    "nextSteps": "Recommended Next Steps",
+    "UPHELD": "Upheld — Original Decision Maintained",
+    "MODIFIED": "Modified — Decision Revised / Relief Granted",
+    "DISMISSED": "Dismissed — Appeal Disallowed",
+    "CLARIFIED": "Clarified — Guidance & Standard Interpretation Provided"
+  },
+  "timeline": {
+    "title": "Dispute Progress Timeline",
+    "noEvents": "No timeline events recorded yet."
+  },
+  "evidence": {
+    "title": "Supporting Evidence Documents",
+    "dropzoneTitle": "Drag & drop supporting files here, or",
+    "dropzoneSub": "PDF, DOCX up to 15MB. Calibrated test reports and QAP charts accepted.",
+    "fromVault": "Imported from Compliance Vault",
+    "cortexAnalyzed": "Document Cortex Verified",
+    "cortexScore": "Structure Match: {{score}}%",
+    "empty": "No supporting evidence documents attached."
+  },
+  "empty": {
+    "noActive": "No Active Requests",
+    "noActiveDesc": "There are currently no active resolution requests or appeals associated with your applications.",
+    "noHistory": "No Dispute History",
+    "noHistoryDesc": "No historical appeals or resolved dispute records found for this account.",
+    "noOptions": "No Resolution Action Available",
+    "noOptionsDesc": "There is currently no supported appeal or dispute action for this application."
+  },
+  "errors": {
+    "loadFailed": "Appeal Information Unavailable",
+    "loadFailedDesc": "We could not retrieve the latest appeal or dispute information from the server.",
+    "submitFailed": "Unable to Submit Request",
+    "submitFailedDesc": "Your request could not be processed at this time. Please check your network connection and try again."
+  }
+}

@@ -1,0 +1,54 @@
+name: Validate Contributor Folder
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-folder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify Changed Files
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: |
+          echo "PR submitted by: $PR_AUTHOR"
+          
+          # Allow repository admin complete access
+          if [ "$PR_AUTHOR" = "AVISHJAIN9" ]; then
+            echo "Admin detected. Full access granted."
+            exit 0
+          fi
+
+          # Map GitHub handles to folder names (lowercase)
+          case "$PR_AUTHOR" in
+            khushikhetan31)   ALLOWED_FOLDER="contributors/khushi/" ;;
+            AditiKhare-26)    ALLOWED_FOLDER="contributors/aditi/" ;;
+            NaisargPurohit)   ALLOWED_FOLDER="contributors/naisarg/" ;;
+            Kartavvya-07)     ALLOWED_FOLDER="contributors/kartavya/" ;;
+            REAL_HANDLE)       ALLOWED_FOLDER="contributors/bhaskar/" ;;
+            *)
+              echo "Error: Contributor '$PR_AUTHOR' has no mapped upload folder."
+              exit 1
+              ;;
+          esac
+
+          echo "Allowed folder: $ALLOWED_FOLDER"
+
+          # Get all files modified in this PR against origin/main
+          CHANGED_FILES=$(git diff --name-only origin/main...HEAD)
+
+          for file in $CHANGED_FILES; do
+            if [[ "$file" != "$ALLOWED_FOLDER"* ]]; then
+              echo "PERMISSION DENIED: You cannot edit '$file'."
+              echo "You are only permitted to upload inside '$ALLOWED_FOLDER'."
+              exit 1
+            fi
+          done
+
+          echo "All modified files are strictly within $ALLOWED_FOLDER. Verification passed!"

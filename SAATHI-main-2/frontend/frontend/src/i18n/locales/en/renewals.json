@@ -1,0 +1,41 @@
+{
+  "eyebrow": "STATUTORY RENEWALS & COMPLIANCE MILESTONES",
+  "heading": "License Renewal Timeline & Reminders",
+  "subheading": "Track automated 90-day, 30-day, and 7-day statutory license renewal milestones, kept in sync with your Certificates.",
+  "metrics": {
+    "totalRenewals": "Active Licenses Tracked",
+    "criticalCount": "Critical Renewals (≤30 Days)",
+    "upcomingCount": "Advisory Window (≤90 Days)",
+    "onTrack": "Valid & In Good Standing"
+  },
+  "milestones": {
+    "issued": "License Granted",
+    "reminder90": "90-Day Advisory",
+    "reminder30": "30-Day Critical",
+    "reminder7": "7-Day Urgent",
+    "expiry": "License Expiry",
+    "renewed": "Re-Endorsed"
+  },
+  "status": {
+    "onTrack": "Valid & On Track",
+    "actionRequired": "Action Required",
+    "criticalWindow": "Critical Window (≤30d)",
+    "underRenewal": "Renewal Under Review",
+    "expired": "Validity Lapsed"
+  },
+  "actions": {
+    "viewCertificate": "View Certificate",
+    "openTimeline": "Inspect Timeline",
+    "continueRenewal": "Continue Renewal",
+    "syncCalendar": "Calendar Sync",
+    "payFee": "Generate Invoice",
+    "prepareAudit": "Audit Checklist"
+  },
+  "dialog": {
+    "title": "Renewal Timeline & Milestone Progression",
+    "daysRemaining": "Days Remaining",
+    "nextAction": "Recommended Next Action",
+    "deliveryNotice": "Notifications delivered through the in-app Notification Center and statutory email.",
+    "demoDisclaimer": "Renewal schedule synchronized with Apex Engineering's certificates."
+  }
+}

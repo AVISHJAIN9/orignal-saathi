@@ -1,0 +1,80 @@
+{
+  "trigger": "अपने उत्पाद का विवरण देने में असमर्थ हैं?",
+  "dialogTitle": "उत्पाद वर्गीकरण विज़ार्ड",
+  "dialogDescription": "कुछ आसान सवालों के जवाब दें — हम उन्हें साथी के लिए एक सवाल में बदल देंगे।",
+  "stepOf": "चरण {{current}} / {{total}}",
+  "back": "पीछे",
+  "getAnswer": "उत्तर पाएं",
+  "steps": {
+    "category": {
+      "question": "आपका उत्पाद किस श्रेणी में आता है?",
+      "options": {
+        "helmets": {
+          "label": "व्यक्तिगत सुरक्षा",
+          "clause": "व्यक्तिगत सुरक्षा"
+        },
+        "appliances": {
+          "label": "घरेलू उपकरण",
+          "clause": "घरेलू उपकरण"
+        },
+        "gold": {
+          "label": "आभूषण",
+          "clause": "आभूषण"
+        },
+        "water": {
+          "label": "खाद्य एवं पानी",
+          "clause": "खाद्य या पानी"
+        },
+        "cookers": {
+          "label": "बर्तन",
+          "clause": "बर्तन"
+        },
+        "toys": {
+          "label": "खिलौने",
+          "clause": "खिलौना"
+        }
+      }
+    },
+    "audience": {
+      "question": "यह किसके लिए है?",
+      "options": {
+        "consumer": {
+          "label": "उपभोक्ता उपयोग",
+          "clause": "उपभोक्ता उपयोग"
+        },
+        "commercial": {
+          "label": "व्यावसायिक बिक्री",
+          "clause": "व्यावसायिक बिक्री"
+        },
+        "import": {
+          "label": "आयात",
+          "clause": "आयात"
+        }
+      }
+    },
+    "need": {
+      "question": "आपको क्या जानना है?",
+      "options": {
+        "standard": {
+          "label": "कौन सा मानक लागू होता है",
+          "questionText": "इस पर कौन सा मानक लागू होता है?"
+        },
+        "certification": {
+          "label": "प्रमाणन प्रक्रिया",
+          "questionText": "प्रमाणन प्रक्रिया क्या है?"
+        },
+        "testing": {
+          "label": "परीक्षण आवश्यकताएं",
+          "questionText": "इसके लिए कौन सी परीक्षण आवश्यकताएं पूरी करनी होंगी?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "अपने उत्तर देखू",
+    "category": "श्रेणी",
+    "audience": "उपयोग",
+    "need": "आप क्या जानना चाहते हैं"
+  },
+  "generatedQuestion": "मेरे पास एक {{category}} उत्पाद है, {{audience}} के लिए। {{needQuestion}}"
+}

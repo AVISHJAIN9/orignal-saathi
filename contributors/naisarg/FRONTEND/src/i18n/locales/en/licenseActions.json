@@ -1,0 +1,84 @@
+{
+  "eyebrow": "License Enforcement & Remediation",
+  "heading": "License Suspension & Remediation Flow",
+  "subheading": "Structured compliance workspace for reviewing Bureau of Indian Standards suspension orders, immediate directives, and submitting verifiable CAPA remediation packages.",
+  "metrics": {
+    "totalNotices": "Total Notices",
+    "activeSuspensions": "Active Suspensions",
+    "remediationRequired": "Remediation Required",
+    "underReview": "Submissions Under Scrutiny",
+    "reinstated": "Reinstated Licenses"
+  },
+  "filters": {
+    "allStatuses": "All Statuses",
+    "allTypes": "All Notice Types",
+    "searchPlaceholder": "Search notices, license numbers, products..."
+  },
+  "card": {
+    "noticeNumber": "Notice No.",
+    "licenseNumber": "License / Certificate",
+    "issuingBranch": "Issuing Branch",
+    "effectiveDate": "Effective Date",
+    "deadline": "Remediation Deadline",
+    "reason": "Enforcement Reason",
+    "viewNotice": "Inspect Official Notice",
+    "openRemediation": "Launch Remediation Flow",
+    "viewAppeals": "Appellate Recourse"
+  },
+  "dialog": {
+    "title": "Official License Action Order",
+    "authority": "Issuing Authority",
+    "signatory": "Competent Signatory",
+    "officialOrderRef": "Order Reference",
+    "explanation": "Authoritative Order Text",
+    "affectedScope": "Affected Product & Market Scope",
+    "immediateActions": "Immediate Directives & Mandatory Actions",
+    "timelineTitle": "Enforcement Action Timeline",
+    "remediationRequirements": "Required Corrective Evidence Items",
+    "startWorkflow": "Start 6-Step Remediation Workflow"
+  },
+  "workflow": {
+    "title": "Structured 6-Step Remediation Workflow",
+    "step1": "1. Understand Notice",
+    "step2": "2. Identify Clauses",
+    "step3": "3. Review Gaps",
+    "step4": "4. Prepare Evidence",
+    "step5": "5. Submit Package",
+    "step6": "6. Track Scrutiny",
+    "step1Desc": "Review official grounds, findings, and statutory directives issued by the BIS Branch Office.",
+    "step2Desc": "Examine relevant standard clauses under IS 14543:2018 requiring corrective engineering.",
+    "step3Desc": "Verify conformity benchmarks and root causes in the SAATHI Gap Analysis tool.",
+    "step4Desc": "Prepare mandatory Root Cause Analysis (RCA), calibration proof, and replacement batch test reports.",
+    "step5Desc": "Furnish authorized signatory declaration and dispatch the complete digital remediation dossier.",
+    "step6Desc": "Monitor BIS scrutiny milestone progress and reinstatement order status.",
+    "signatoryName": "Authorized Signatory Name",
+    "signatoryDesignation": "Signatory Designation",
+    "rcaSummary": "Root Cause Analysis (RCA) Summary",
+    "rcaPlaceholder": "Detail technical root cause (e.g., winding enamel pinhole, stator potting gap)...",
+    "correctiveSummary": "Corrective Actions Implemented (CAPA)",
+    "correctivePlaceholder": "Detail manufacturing process modifications and tooling upgrades...",
+    "preventiveSummary": "Preventive Quality Controls",
+    "preventivePlaceholder": "Detail new in-line inspection gates and automated HV testing checks...",
+    "declarationText": "I hereby certify under penalties of statutory perjury that the corrective measures described have been implemented in the manufacturing plant and all statements are true and verifiable by BIS inspecting officers.",
+    "submitButton": "Submit Remediation Dossier to BIS",
+    "submissionSuccess": "Remediation Dossier Submitted Successfully! Reference: ",
+    "statusSubmitted": "Remediation Package Under Review by BIS Technical Scrutiny Officer"
+  },
+  "types": {
+    "SUSPENSION_NOTICE": "License Suspension Notice",
+    "SHOW_CAUSE_NOTICE": "Statutory Show-Cause Notice",
+    "STOP_MARKING_ORDER": "Immediate Stop-Marking Order",
+    "CANCELLATION_NOTICE": "License Cancellation Order",
+    "REINSTATEMENT_ORDER": "Official Reinstatement Order"
+  },
+  "statuses": {
+    "NOTICE_ISSUED": "Notice Issued",
+    "SUSPENDED": "License Suspended",
+    "REMEDIATION_REQUIRED": "Remediation Required",
+    "REMEDIATION_SUBMITTED": "Remediation Submitted",
+    "UNDER_REVIEW": "Under BIS Review",
+    "REINSTATED": "License Reinstated",
+    "CANCELLED": "License Cancelled",
+    "CLOSED": "Closed"
+  }
+}

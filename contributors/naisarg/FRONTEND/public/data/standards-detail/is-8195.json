@@ -1,0 +1,465 @@
+{
+  "master": {
+    "internal_id": 8195,
+    "IS_number": "IS 1786:2008",
+    "clean_number": "1786",
+    "slug": "is-8195",
+    "IS_title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification (Fourth Revision)",
+    "superseding_IS": "IS 1139 : 1966",
+    "degree_of_equivalence": "Not Equivalent",
+    "number_of_revisions": "4",
+    "number_of_amendments": "4",
+    "aspect": "Product Specification",
+    "language": "English",
+    "reaffirmation_year": "",
+    "technical_department": "CED (Civil Engineering Department)",
+    "technical_committee": "CED 54 (Concrete Reinforcement Sectional Committee)",
+    "member_secretary": "NISHIKANT SINGH (SCIENTIST-D)",
+    "group_name": "",
+    "sub_group": "",
+    "sub_sub_group": "",
+    "certification": "",
+    "amendment_count": 4,
+    "gazette_document_count": 1,
+    "license_count": 559,
+    "product_manual_sit_count": 1,
+    "laboratory_count": 58,
+    "corrigendum_count": 0,
+    "catalogue_id": "15266",
+    "catalogue_is_no": "IS 1786:2008 (Active)",
+    "catalogue_title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification (Fourth Revision)",
+    "catalogue_amendments": "4",
+    "catalogue_technical_committee": "CED 54",
+    "catalogue_aspect": "Product Specification",
+    "catalogue_reaffirmation": "Not Equivalent",
+    "catalogue_withdrawn_status": "",
+    "detail_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/8195",
+    "download_url": "https://standardsbis.bsbedge.com/search_redirect.aspx?id=8195",
+    "composition_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/dgdashboard/committee_sso/composition/220/2",
+    "extracted_at": "2026-09-23T11:17:03.022Z",
+    "category_key": "civil",
+    "category_label": "Civil Engineering",
+    "status": "Active",
+    "image_url": "/images/products/standard-fallback.jpg"
+  },
+  "indianReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 1608:2005IS 1608:2005 / ISO 6892:1998",
+      "title": "Mechanical testing of metals - Tensile Testing",
+      "committee": "MTD 03"
+    }
+  ],
+  "crossReferences": [
+    {
+      "number": "1",
+      "isNumber": "IS 1608:2005IS 1608:2005 / ISO 6892:1998",
+      "title": "Mechanical testing of metals - Tensile Testing",
+      "committee": "MTD 03"
+    }
+  ],
+  "internationalReferences": [],
+  "referredBy": [
+    {
+      "number": "1",
+      "isNumber": "IS 13920 : 2016",
+      "title": "Ductile Design and Detailing of Reinforced Concrete Structures Subjected to Seismic Forces - Code of Practice (First Revision)",
+      "committee": "CED 39"
+    },
+    {
+      "number": "2",
+      "isNumber": "IS 3201 : 1988",
+      "title": "Criteria for Design and Construction of Precast Concrete Trusses and Purlins (First Revisio)",
+      "committee": "CED 32"
+    },
+    {
+      "number": "3",
+      "isNumber": "IS 6073 : 2006",
+      "title": "Autoclaved Reinforced Cellular Concrete Floor and Roof Slabs - Specification (First Revision)",
+      "committee": "CED 32"
+    },
+    {
+      "number": "4",
+      "isNumber": "IS 1893 : Part 3 : 2014",
+      "title": "Criteria for Earthquake Resistant Design of Structures Part 3 Bridges and Retaining Walls",
+      "committee": "CED 39"
+    },
+    {
+      "number": "5",
+      "isNumber": "IS 3935 : 1966",
+      "title": "Code of practice for composite construction",
+      "committee": "CED 38"
+    },
+    {
+      "number": "6",
+      "isNumber": "IS 4995 : Part 2 : 1974",
+      "title": "Criteria for design of reinforced concrete bins for storage of granular and powdery materials: Part 2 design criteria (First Revision)",
+      "committee": "CED 38"
+    },
+    {
+      "number": "7",
+      "isNumber": "IS 6494 : 1988",
+      "title": "Code of practice for waterproofing of underground water reservoirs and swimming pools (First Revision)",
+      "committee": "CED 41"
+    },
+    {
+      "number": "8",
+      "isNumber": "IS 6061 : Part 3 : 1981",
+      "title": "Construction of floor and roof with joists and filler blocks: Part 3 with precast hollow clay block joists and hollow clay filler blocks",
+      "committee": "CED 13"
+    },
+    {
+      "number": "9",
+      "isNumber": "IS 6061 : Part 4 : 1981",
+      "title": "Code of practice for construction of floor and roof with joists and filler blocks: Part 4 with precast hollow clay block slab panels",
+      "committee": "CED 13"
+    },
+    {
+      "number": "10",
+      "isNumber": "IS 10440 : 1983",
+      "title": "Code of practice for construction of RB and RBC floors and roofs",
+      "committee": "CED 13"
+    },
+    {
+      "number": "11",
+      "isNumber": "IS 10386 : PART 11 : 2012",
+      "title": "Safety Code for Construction, Operation and Maintenance of River Valley Projects: Part 11 Underground Excavation",
+      "committee": "WRD 21"
+    },
+    {
+      "number": "12",
+      "isNumber": "IS 7357 : 1974",
+      "title": "Code of practice for structural design of surge tanks",
+      "committee": "WRD 14"
+    },
+    {
+      "number": "13",
+      "isNumber": "IS 9527 : Part 6 : 1989",
+      "title": "Design and construction of port and harbour structures code of practice: Part 6 block work",
+      "committee": "CED 47"
+    },
+    {
+      "number": "14",
+      "isNumber": "IS 4247 : Part 3 : 1998",
+      "title": "Code of practicefor structural design of surfacehydel power stations: Part 3 sub - Structure (Second Revision)",
+      "committee": "WRD 15"
+    },
+    {
+      "number": "15",
+      "isNumber": "IS 4247 : Part 2 : 1992",
+      "title": "Code of practice for structural design of surface hydroelectric power station: Part 2 superstructure (Second Revision)",
+      "committee": "WRD 15"
+    },
+    {
+      "number": "16",
+      "isNumber": "IS 5525 : 1969",
+      "title": "Recommendations for Detailing of Reinforcement in Reinforced Concrete works",
+      "committee": "CED 02"
+    },
+    {
+      "number": "17",
+      "isNumber": "IS 12303 : 1987",
+      "title": "Criteria for Design of RCC Hinges",
+      "committee": "CED 02"
+    },
+    {
+      "number": "18",
+      "isNumber": "IS 5499 : 1969",
+      "title": "Code of practice for construction of underground air - Raid shelters in natural soil",
+      "committee": "CED 12"
+    },
+    {
+      "number": "19",
+      "isNumber": "IS 2502 : 1963",
+      "title": "Code of Practice for Bending and Fixing of Bars for Concrete Reinforcement",
+      "committee": "CED 02"
+    },
+    {
+      "number": "20",
+      "isNumber": "IS 6509 : 1985",
+      "title": "Code of practice for 1nstallation of joints in concrete pavements (First Revision)",
+      "committee": "CED 13"
+    },
+    {
+      "number": "21",
+      "isNumber": "SP 62 : 1997",
+      "title": "Handbook on causes and prevention of cracks in buildings",
+      "committee": "CED 13"
+    },
+    {
+      "number": "22",
+      "isNumber": "IS 13517 : 1992",
+      "title": "Rock bolts - Resin type - Specification",
+      "committee": "MED 08"
+    },
+    {
+      "number": "23",
+      "isNumber": "IS 13219 : 1992",
+      "title": "Rock bolts for mines (Cement Grouted) - General requirements",
+      "committee": "MED 08"
+    },
+    {
+      "number": "24",
+      "isNumber": "IS 2911 : Part 1 : Sec 4 : 2010",
+      "title": "Design and construction of pile foundations - Code of practice: Part 1 concrete piles: Sec 4 precast concrete piles in prebored holes (First Revision)",
+      "committee": "CED 43"
+    },
+    {
+      "number": "25",
+      "isNumber": "IS 2911 : Part 1 : Sec 1 : 2010",
+      "title": "Design and construction of pile foundations - Code of practice: Part 1 concrete piles: Sec 1 driven cast in-situ concrete piles (Second Revision)",
+      "committee": "CED 43"
+    },
+    {
+      "number": "26",
+      "isNumber": "IS 2911 : Part 1 : Sec 2 : 2010",
+      "title": "Design and construction of pile foundations - Code of practice: Part 1 concrete piles: Sec 2 bored cast in-situ concrete piles (Second Revision)",
+      "committee": "CED 43"
+    },
+    {
+      "number": "27",
+      "isNumber": "IS 9556 : 1980",
+      "title": "Code of practice for design and construction of diaphragm walls",
+      "committee": "CED 43"
+    },
+    {
+      "number": "28",
+      "isNumber": "IS 2974 : Part 3 : 1992",
+      "title": "Code of practice for design and construction of machine foundations: Part 3 Foundations for rotary type machines (Medium and high frequency)",
+      "committee": "CED 43"
+    },
+    {
+      "number": "29",
+      "isNumber": "IS 2911 : Part 1 : Sec 3 : 2010",
+      "title": "Design and Construction of Pile Foundations \u00e2\u20ac\u201d Code Of Practice Part 1 Concrete Piles: Section 3 Driven Precast Concrete Piles (Second Revision)",
+      "committee": "CED 43"
+    },
+    {
+      "number": "30",
+      "isNumber": "IS 4091 : 1979",
+      "title": "Code of practice for design and construction of foundations for transmission line towers and poles (First Revision)",
+      "committee": "CED 43"
+    },
+    {
+      "number": "31",
+      "isNumber": "SP 7 : Group 1 : 2005",
+      "title": "National Building Code--Of India 2005 Group 1",
+      "committee": "CED 46"
+    },
+    {
+      "number": "32",
+      "isNumber": "IS 13994 : 1994",
+      "title": "Design and Construction of Floor and Roof with Precast Reinforced Concrete Planks and Joists - Code of Practice",
+      "committee": "CED 32"
+    },
+    {
+      "number": "33",
+      "isNumber": "IS 14201 : 1994",
+      "title": "Precast reinforced concrete channel units for construction of floors and roofs - Specification",
+      "committee": "CED 32"
+    },
+    {
+      "number": "34",
+      "isNumber": "IS 14241 : 1995",
+      "title": "Precast Reinforced Concrete L-Panel for Roofing - Specification",
+      "committee": "CED 32"
+    },
+    {
+      "number": "35",
+      "isNumber": "IS 13620 : 1993",
+      "title": "Fusion Bonded Epoxy Coated Reinforcing Bars - Specification",
+      "committee": "CED 54"
+    },
+    {
+      "number": "36",
+      "isNumber": "IS 12594 : 1988",
+      "title": "Hot - Dip Zinc Coating on Structural Steel Bars for Concrete Reinforcement - Specification",
+      "committee": "CED 54"
+    },
+    {
+      "number": "37",
+      "isNumber": "IS 12592 : 2002",
+      "title": "Precast concrete manhole cover and frame - Specification (First Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "38",
+      "isNumber": "IS 1332 : 1986",
+      "title": "precast reinforced concrete street lighting poles",
+      "committee": "CED 53"
+    },
+    {
+      "number": "39",
+      "isNumber": "IS 4996 : 1984",
+      "title": "Specification for reinforced concrete fence posts (First Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "40",
+      "isNumber": "IS 6041 : 1985",
+      "title": "Code of practice for construction of autoclaved cellular concrete block masonry (First Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "41",
+      "isNumber": "IS 785 : 1998",
+      "title": "Reinforced concrete poles for overhead power and telecommunication lines - Specification (Second Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "42",
+      "isNumber": "IS 9375 : 1979",
+      "title": "Precast Reinforced Concrete Plant Guards",
+      "committee": "CED 53"
+    },
+    {
+      "number": "43",
+      "isNumber": "IS 9872 : 1981",
+      "title": "Specification for precast concrete septic tanks",
+      "committee": "CED 53"
+    },
+    {
+      "number": "44",
+      "isNumber": "IS 9893 : 1981",
+      "title": "Precast Concrete Blocks For Lintels And Sills",
+      "committee": "CED 53"
+    },
+    {
+      "number": "45",
+      "isNumber": "IS 456 : 2000",
+      "title": "Plain and reinforced concrete - Code of practice (Fourth Revision)",
+      "committee": "CED 02"
+    },
+    {
+      "number": "46",
+      "isNumber": "IS 16651 : 2017",
+      "title": "High Strength Deformed Stainless Steel Bars and Wires for Concrete Reinforcement - Specification",
+      "committee": "CED 54"
+    },
+    {
+      "number": "47",
+      "isNumber": "IS 9417 : 2018",
+      "title": "Welding of High Strength Steel Bars for Reinforced Concrete Construction - Recommendations (Second Revision)",
+      "committee": "CED 54"
+    },
+    {
+      "number": "48",
+      "isNumber": "IS 784 : 2019",
+      "title": "Prestressed concrete pipes (Including Specials) - Specification (Third Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "49",
+      "isNumber": "IS 17237 : 2019",
+      "title": "Code of Practice for Design and Construction of Civil Engineering Works for Ropeways - General Requirements",
+      "committee": "MED 06"
+    },
+    {
+      "number": "50",
+      "isNumber": "IS 17164 : 2020",
+      "title": "Design and Construction of Cyclone Shelters - Guidelines",
+      "committee": "CED 57"
+    },
+    {
+      "number": "51",
+      "isNumber": "IS 11504 : 2020",
+      "title": "Criteria for Structural Design of Reinforced Concrete Natural Draught Cooling Towers ( First Revision )",
+      "committee": "CED 38"
+    },
+    {
+      "number": "52",
+      "isNumber": "IS 14344 : 1996",
+      "title": "Design and construction of diaphragms for under - Seepage control - Code of practice",
+      "committee": "WRD 08"
+    },
+    {
+      "number": "53",
+      "isNumber": "IS 458 : 2003",
+      "title": "Precast concrete pipes(With And Without Reinforcement) - Specification (Fourth Revision)",
+      "committee": "CED 53"
+    },
+    {
+      "number": "54",
+      "isNumber": "IS 2911 : Part 3 : 1980",
+      "title": "Code of practice for design and construction of pile foundations: Part 3 Under-reamed piles",
+      "committee": "CED 43"
+    },
+    {
+      "number": "55",
+      "isNumber": "IS 17673 : 2021",
+      "title": "Soy Amrakhand",
+      "committee": "FAD 16"
+    },
+    {
+      "number": "56",
+      "isNumber": "IS 1060 : Part 5 : Sec 2 : 2021",
+      "title": "Methods of Sampling and Test for Paper and Allied Products Part 5 Methods of Test for Paper and Board Section 2 Determination of moisture content of a lot Oven-drying method",
+      "committee": "CHD 15"
+    },
+    {
+      "number": "57",
+      "isNumber": "IS 2210 : 1988",
+      "title": "Criteria for design of reinforced concrete shell structures and folded plates (First Revision)",
+      "committee": "CED 38"
+    },
+    {
+      "number": "58",
+      "isNumber": "IS 16172 : 2014",
+      "title": "Reinforcement couplers for mechanical splices of bars in concrete - Specification",
+      "committee": "CED 54"
+    },
+    {
+      "number": "59",
+      "isNumber": "IS 6072 : 1971",
+      "title": "Specification for autoclaved reinforced cellular concrete wall slabs",
+      "committee": "CED 32"
+    },
+    {
+      "number": "60",
+      "isNumber": "IS 5820 : 1970",
+      "title": "Specification for precast concrete cable covers",
+      "committee": "CED 53"
+    },
+    {
+      "number": "61",
+      "isNumber": "IS 6461 : Part 3 : 1972",
+      "title": "Glossary of Terms Relating to Cement Concrete: Part 3 Concrete Reinforcement",
+      "committee": "CED 02"
+    },
+    {
+      "number": "62",
+      "isNumber": "IS 18205 : 2023",
+      "title": "Nirgundi Vitex negundo L Dunal Leaf for use in Traditional Medicine Specification",
+      "committee": "AYD 01"
+    }
+  ],
+  "clauses": [
+    {
+      "clauseNumber": "Clause 4.2",
+      "title": "Chemical Requirements",
+      "content": "Maximum carbon content shall be 0.30% for Fe 415, 0.25% for Fe 500D; sulphur and phosphorus shall not exceed 0.040% each for D grades.",
+      "isMandatory": true
+    },
+    {
+      "clauseNumber": "Clause 8.1",
+      "title": "Mechanical Properties",
+      "content": "Proof stress (0.2%) min 500 N/mm\u00b2 for Fe 500D, tensile strength min 565 N/mm\u00b2, elongation min 16.0%, and total elongation at max force min 5%.",
+      "isMandatory": true
+    }
+  ],
+  "qco": {
+    "qcoId": "QCO-STEEL-2020",
+    "title": "Steel and Steel Products (Quality Control) Order, 2020",
+    "product": "High strength deformed steel bars and wires for concrete reinforcement",
+    "scope": "Mandatory ISI mark certification under Ministry of Steel Order S.O. 2452(E). Conformance to IS 1786 is compulsory for manufacturing, import, and commercial sale in India.",
+    "effectiveDate": "2020-10-01",
+    "status": "applicable",
+    "exemptions": [],
+    "requirements": [
+      "Mandatory BIS Licence (ISI Mark) under IS 1786.",
+      "Strict adherence to chemical limits (carbon, sulphur, phosphorus) and bend/rebend tests."
+    ],
+    "sourceUrl": "https://www.services.bis.gov.in",
+    "sourceType": "gazette_notification"
+  }
+}

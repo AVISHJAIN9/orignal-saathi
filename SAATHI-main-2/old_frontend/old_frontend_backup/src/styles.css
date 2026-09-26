@@ -1,0 +1,649 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
+@import "@fontsource-variable/fraunces";
+@import "@fontsource-variable/anek-devanagari";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*
+   * Indirection so html[lang='hi'] (below) can swap the active body
+   * typeface at runtime: @theme inline copies whatever this value is
+   * verbatim into every utility that reads --font-sans (font-sans,
+   * font-heading, the html { @apply font-sans } base rule) — if that
+   * value were a literal font stack instead of a var() reference, the
+   * literal would get baked into each compiled utility and no later
+   * selector could override it.
+   */
+  --font-body: "Geist Variable", sans-serif;
+
+  /*
+   * Warm ivory/charcoal neutrals with a solid institutional-navy accent —
+   * the same family as the landing page's .saathi-landing plate tokens
+   * (src/pages/landing-page.css), so the chat app and dashboard read as
+   * one product rather than two different visual systems.
+   */
+  --background: oklch(0.93 0.018 73);
+
+  --foreground: oklch(0.28 0.025 60);
+
+  --card: oklch(0.975 0.014 74);
+
+  --card-foreground: oklch(0.28 0.025 60);
+
+  --popover: oklch(0.975 0.014 74);
+
+  --popover-foreground: oklch(0.28 0.025 60);
+
+  --primary: oklch(0.32 0.1 250);
+
+  --primary-foreground: oklch(0.98 0.006 75);
+
+  /* Base color for the shared AmbientBackground decoration (see src/components/ambient-background.tsx). */
+  --ambient-accent: var(--primary);
+
+  --secondary: oklch(0.94 0.02 250);
+
+  --secondary-foreground: oklch(0.32 0.1 250);
+
+  --muted: oklch(0.92 0.02 73);
+
+  --muted-foreground: oklch(0.52 0.02 60);
+
+  --accent: oklch(0.915 0.018 74);
+
+  --accent-foreground: oklch(0.28 0.025 60);
+
+  --destructive: oklch(0.577 0.245 27.325);
+
+  --border: oklch(0.83 0.02 71);
+
+  --input: oklch(0.83 0.02 71);
+
+  --ring: oklch(0.708 0 0);
+
+  --chart-1: oklch(0.88 0.06 250);
+
+  --chart-2: oklch(0.68 0.09 250);
+
+  --chart-3: oklch(0.52 0.11 250);
+
+  --chart-4: oklch(0.38 0.1 250);
+
+  --chart-5: oklch(0.26 0.08 250);
+
+  --radius: 0.625rem;
+
+  /*
+   * Elevation — a shared 3-level shadow scale for the whole app (chat
+   * sidebar, KPI/chart cards, standards & document tables, dialogs and
+   * sheets). Shadows are tinted with --primary (the navy accent) instead
+   * of pure black so a "lifted" surface still reads as part of the warm
+   * palette rather than a generic gray drop-shadow. Level 1 (subtle) is
+   * for list/table rows, level 2 (medium) for cards/panels/the sidebar,
+   * level 3 (higher) for modals, sheets, and other overlays. The
+   * "-hover" pairs are one notch stronger and are only ever applied via
+   * .elevation-lift's :hover/:focus-visible state below.
+   */
+  --shadow-tint: var(--primary);
+  --shadow-elevation-1:
+    0 1px 2px -1px color-mix(in oklch, var(--shadow-tint) 24%, transparent),
+    0 1px 1px -0.5px color-mix(in oklch, var(--shadow-tint) 14%, transparent);
+  --shadow-elevation-1-hover:
+    0 6px 14px -5px color-mix(in oklch, var(--shadow-tint) 32%, transparent),
+    0 2px 4px -1px color-mix(in oklch, var(--shadow-tint) 18%, transparent);
+  --shadow-elevation-2:
+    0 8px 20px -10px color-mix(in oklch, var(--shadow-tint) 32%, transparent),
+    0 2px 6px -2px color-mix(in oklch, var(--shadow-tint) 20%, transparent);
+  --shadow-elevation-2-hover:
+    0 16px 32px -12px color-mix(in oklch, var(--shadow-tint) 38%, transparent),
+    0 5px 12px -4px color-mix(in oklch, var(--shadow-tint) 24%, transparent);
+  --shadow-elevation-3:
+    0 20px 44px -16px color-mix(in oklch, var(--shadow-tint) 40%, transparent),
+    0 8px 18px -8px color-mix(in oklch, var(--shadow-tint) 24%, transparent);
+
+  --sidebar: oklch(0.985 0 0);
+
+  --sidebar-foreground: oklch(0.145 0 0);
+
+  --sidebar-primary: oklch(0.205 0 0);
+
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+
+  --sidebar-accent: oklch(0.97 0 0);
+
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+
+  --sidebar-border: oklch(0.922 0 0);
+
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+body {
+  margin: 0;
+}
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: var(--font-body);
+  --font-mono: "Geist Mono Variable", monospace;
+  /* Editorial display serif — used for large marketing/catalogue headings
+     (e.g. the public Standards page hero) via the font-serif utility, so
+     they read as an official document's masthead rather than the same
+     Geist used for UI. Body and UI stay on Geist. */
+  --font-serif: "Fraunces Variable", Georgia, serif;
+  /* Loaded via Google Fonts in index.html. Not used directly — html[lang='hi']
+     below repoints --font-body (and therefore --font-sans/--font-heading)
+     at this instead, so every component that already uses font-sans/
+     font-heading (chat bubbles, headings, buttons, sidebar, dialogs, every
+     page) automatically renders Hindi content in it with no per-component
+     changes. */
+  --font-devanagari: "Anek Devanagari", sans-serif;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.75 0.09 220);
+  --primary-foreground: oklch(0.2 0.05 220);
+  --secondary: oklch(0.28 0.04 220);
+  --secondary-foreground: oklch(0.92 0.02 220);
+  --muted: oklch(0.26 0.02 85);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+
+  /* A navy-black tint (rather than switching to neutral black) keeps
+   * elevation reading as the same palette once the surface itself goes
+   * dark — plain black would either vanish or look like an unrelated
+   * generic shadow system. */
+  --shadow-tint: oklch(0.05 0.02 250);
+  --shadow-elevation-1:
+    0 1px 2px -1px color-mix(in oklch, var(--shadow-tint) 55%, transparent),
+    0 1px 1px -0.5px color-mix(in oklch, var(--shadow-tint) 35%, transparent);
+  --shadow-elevation-1-hover:
+    0 4px 10px -4px color-mix(in oklch, var(--shadow-tint) 65%, transparent),
+    0 1px 3px -1px color-mix(in oklch, var(--shadow-tint) 40%, transparent);
+  --shadow-elevation-2:
+    0 8px 20px -10px color-mix(in oklch, var(--shadow-tint) 70%, transparent),
+    0 2px 6px -2px color-mix(in oklch, var(--shadow-tint) 45%, transparent);
+  --shadow-elevation-2-hover:
+    0 14px 28px -12px color-mix(in oklch, var(--shadow-tint) 75%, transparent),
+    0 4px 10px -4px color-mix(in oklch, var(--shadow-tint) 50%, transparent);
+  --shadow-elevation-3:
+    0 20px 44px -16px color-mix(in oklch, var(--shadow-tint) 80%, transparent),
+    0 8px 18px -8px color-mix(in oklch, var(--shadow-tint) 50%, transparent);
+}
+
+/*
+ * Hindi typography — src/i18n/index.ts keeps document.documentElement.lang
+ * in sync with the active i18next language, so this switches the whole
+ * document's body/heading typeface to the Devanagari-native Anek
+ * Devanagari the moment the language toggle is set to HI, and back to
+ * Geist for EN. Scoped to the [lang] attribute (rather than each
+ * component checking i18n.language) so every consumer of font-sans/
+ * font-heading gets it for free — chat bubbles, nav/sidebar links,
+ * buttons, dialog and sheet titles, and every page.
+ */
+html[lang="hi"] {
+  --font-body: var(--font-devanagari);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+
+  /* Thin, subtle, semantic-token scrollbar. Applied to `html` so every
+     route's native page-level scroll gets it for free (most "operate"
+     pages have no inner scroll container at all — the whole page just
+     grows and the browser scrolls it), and exposed as .custom-scrollbar
+     for any individual overflow-y/x-auto container that isn't using the
+     ScrollArea component. One definition here instead of repeating
+     scrollbar-color/width per file, so it can't drift or get missed on a
+     future page. Areas that warrant a heavier, custom-drawn thumb (the
+     sidebar history list, the main chat log) use ScrollArea instead,
+     which hides this native scrollbar entirely and renders its own. */
+  html,
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  html::-webkit-scrollbar,
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  html::-webkit-scrollbar-track,
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  html::-webkit-scrollbar-thumb,
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--border);
+    border-radius: 9999px;
+  }
+  html::-webkit-scrollbar-thumb:hover,
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: var(--muted-foreground);
+  }
+}
+
+@keyframes chat-3d-base-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotateX(55deg) rotateZ(-14deg);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0) rotateX(58deg) rotateZ(-10deg);
+  }
+}
+
+@keyframes chat-3d-back-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, -80px) rotateY(-4deg);
+  }
+  50% {
+    transform: translate3d(10px, 0, -80px) rotateY(3deg);
+  }
+}
+
+@keyframes chat-3d-mid-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 22px) rotateY(3deg);
+  }
+  50% {
+    transform: translate3d(-8px, 8px, 22px) rotateY(-3deg);
+  }
+}
+
+@keyframes chat-3d-front-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 62px) rotateY(-2deg);
+  }
+  50% {
+    transform: translate3d(9px, -12px, 62px) rotateY(4deg);
+  }
+}
+
+@keyframes chat-3d-orb-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 132px) rotateY(0deg) rotateZ(0deg);
+  }
+  50% {
+    transform: translate3d(0, -18px, 132px) rotateY(12deg) rotateZ(8deg);
+  }
+}
+
+@keyframes chat-3d-mobile-card-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 24px);
+  }
+  50% {
+    transform: translate3d(0, 6px, 24px);
+  }
+}
+
+@keyframes chat-3d-mobile-orb-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 90px) rotateZ(0deg);
+  }
+  50% {
+    transform: translate3d(0, -10px, 90px) rotateZ(6deg);
+  }
+}
+
+.chat-3d-scene {
+  contain: layout paint style;
+  isolation: isolate;
+}
+
+.chat-3d-layer {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.chat-3d-animated .chat-3d-base {
+  animation: chat-3d-base-drift 16s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-back {
+  animation: chat-3d-back-drift 13s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-mid {
+  animation: chat-3d-mid-drift 11s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-front {
+  animation: chat-3d-front-drift 14s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-orb {
+  animation: chat-3d-orb-drift 6.5s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-mobile-card {
+  animation: chat-3d-mobile-card-drift 12s ease-in-out infinite;
+}
+
+.chat-3d-animated .chat-3d-mobile-orb {
+  animation: chat-3d-mobile-orb-drift 7s ease-in-out infinite;
+}
+
+@keyframes chat-sidebar-texture-drift {
+  0%,
+  100% {
+    background-position:
+      0 0,
+      0 0;
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    background-position:
+      18px -12px,
+      -14px 20px;
+    transform: translate3d(0, -4px, 0) rotate(0.35deg);
+  }
+}
+
+@keyframes chat-sidebar-glow-drift {
+  0%,
+  100% {
+    transform: translate3d(-12px, -6px, 0) scale(1);
+    opacity: 0.65;
+  }
+  50% {
+    transform: translate3d(18px, 10px, 0) scale(1.08);
+    opacity: 0.9;
+  }
+}
+
+.chat-sidebar {
+  contain: paint;
+  isolation: isolate;
+}
+
+.chat-sidebar::before {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  content: "";
+  background-image:
+    radial-gradient(rgba(12, 50, 86, 0.12) 0.65px, transparent 0.65px),
+    radial-gradient(rgba(255, 255, 255, 0.72) 0.8px, transparent 0.8px);
+  background-position:
+    0 0,
+    14px 18px;
+  background-size:
+    18px 18px,
+    24px 24px;
+  mix-blend-mode: multiply;
+  opacity: 0.26;
+  animation: chat-sidebar-texture-drift 28s ease-in-out infinite;
+}
+
+.chat-sidebar::after {
+  position: absolute;
+  top: -8rem;
+  right: -10rem;
+  z-index: 0;
+  width: 22rem;
+  height: 22rem;
+  pointer-events: none;
+  content: "";
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(198, 216, 226, 0.5), rgba(198, 216, 226, 0) 68%);
+  filter: blur(12px);
+  animation: chat-sidebar-glow-drift 18s ease-in-out infinite;
+}
+
+.chat-mobile-sidebar .chat-sidebar::before {
+  opacity: 0.2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chat-3d-animated .chat-3d-base,
+  .chat-3d-animated .chat-3d-back,
+  .chat-3d-animated .chat-3d-mid,
+  .chat-3d-animated .chat-3d-front,
+  .chat-3d-animated .chat-3d-orb,
+  .chat-3d-animated .chat-3d-mobile-card,
+  .chat-3d-animated .chat-3d-mobile-orb {
+    animation: none;
+  }
+}
+
+@layer components {
+  /* Elevation scale — see the --shadow-elevation-* tokens above. Apply a
+     level class on its own for static "resting" elevation (cards, panels,
+     dialogs), or pair it with .elevation-lift to also rise one notch on
+     hover/focus (rows, nav links, interactive cards). .elevation-lift can
+     be used alone (no base level) for elements that are flat at rest and
+     only gain a shadow once lifted, like sidebar nav links.
+
+     .elevation-lift only declares the hover/focus *state* (the shadow and
+     the 1px rise), not the transition itself — an element that doesn't
+     already animate anything else should also add .elevation-transition;
+     one that already has its own Tailwind transition-* utility (e.g.
+     transition-colors) should instead fold box-shadow/transform into that
+     utility's property list directly, since a second `transition`
+     shorthand from a different cascade layer would otherwise silently
+     replace it rather than combine with it. */
+  .elevation-1 {
+    box-shadow: var(--shadow-elevation-1);
+  }
+  .elevation-2 {
+    box-shadow: var(--shadow-elevation-2);
+  }
+  .elevation-3 {
+    box-shadow: var(--shadow-elevation-3);
+  }
+
+  .elevation-transition {
+    transition-property: box-shadow, transform;
+    transition-duration: 0.24s;
+    transition-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  }
+  .elevation-lift:hover,
+  .elevation-lift:focus-visible {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-elevation-1-hover);
+  }
+  .elevation-2.elevation-lift:hover,
+  .elevation-2.elevation-lift:focus-visible {
+    box-shadow: var(--shadow-elevation-2-hover);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .elevation-transition {
+      transition: none;
+    }
+    .elevation-lift:hover,
+    .elevation-lift:focus-visible {
+      transform: none;
+    }
+  }
+}
+
+/* Standards Browser video treatment: quiet institutional motion, deep navy field,
+   and parchment-compatible highlights. The rings stay subtle so the source
+   animation remains the focal point rather than reading as decorative noise. */
+@keyframes standards-motion-orbit {
+  from {
+    transform: translate(-50%, -50%) rotate(-24deg) scaleY(0.46);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(336deg) scaleY(0.46);
+  }
+}
+
+@keyframes standards-motion-orbit-reverse {
+  from {
+    transform: translate(-50%, -50%) rotate(26deg) scaleY(0.5);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-334deg) scaleY(0.5);
+  }
+}
+
+.standards-motion-stage {
+  isolation: isolate;
+  background:
+    radial-gradient(
+      circle at 50% 44%,
+      color-mix(in oklch, var(--plate-accent) 18%, transparent),
+      transparent 56%
+    ),
+    var(--plate-accent-ground);
+}
+
+.standards-motion-stage::before,
+.standards-motion-stage::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  width: 86%;
+  height: 60%;
+  pointer-events: none;
+  content: "";
+  border: 1px solid color-mix(in oklch, var(--plate-ground) 22%, transparent);
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  opacity: 0.55;
+}
+
+.standards-motion-stage::before {
+  animation: standards-motion-orbit 18s linear infinite;
+}
+
+.standards-motion-stage::after {
+  width: 68%;
+  height: 43%;
+  border-style: dashed;
+  border-color: color-mix(in oklch, var(--plate-ground) 16%, transparent);
+  animation: standards-motion-orbit-reverse 13s linear infinite;
+  opacity: 0.65;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .standards-motion-stage::before,
+  .standards-motion-stage::after {
+    animation: none;
+  }
+}
+
+/* The Standards Browser animation is part of the header artwork, not a media card.
+   A soft mask and restrained blend let the certification marks sit inside the
+   parchment composition while keeping the animation legible. */
+.standards-motion-stage {
+  background: transparent;
+  -webkit-mask-image: radial-gradient(
+    ellipse at center,
+    #000 46%,
+    rgb(0 0 0 / 0.7) 66%,
+    transparent 98%
+  );
+  mask-image: radial-gradient(ellipse at center, #000 46%, rgb(0 0 0 / 0.7) 66%, transparent 98%);
+}
+
+.standards-motion-video {
+  opacity: 0.8;
+  filter: saturate(0.7) contrast(0.72) brightness(1.42);
+  mix-blend-mode: screen;
+}
+
+.standards-motion-stage::before,
+.standards-motion-stage::after {
+  border-color: color-mix(in oklch, var(--plate-accent) 28%, transparent);
+  mix-blend-mode: multiply;
+  opacity: 0.45;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .standards-motion-video {
+    transition: none;
+  }
+}

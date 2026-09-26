@@ -1,0 +1,183 @@
+{
+  "eyebrow": "Annual Renewal",
+  "heading": "Annual Licence Renewal",
+  "backToDashboard": "Back to Dashboard",
+  "backToTimeline": "Back to Renewal Timeline",
+  "switchLicence": "Switch Licence",
+  "empty": "No submitted application is eligible for renewal yet — submit an application first, then return here.",
+  "notEligible": "This application is not eligible for renewal yet — it has not been submitted, or its standard could not be resolved.",
+  "disclaimer": {
+    "heading": "Renewal data",
+    "body": "This renewal flow tracks fees and the receipt for your licence renewal."
+  },
+  "demoToolbar": {
+    "title": "Preview renewal branch",
+    "description": "Toggle the surveillance-audit condition to preview both renewal branches — this only changes what's shown in this browser.",
+    "triggerLabel": "Surveillance Audit",
+    "triggerOn": "Triggered (mandatory audit)",
+    "triggerOff": "Routine (fee checkout only)"
+  },
+  "stepper": {
+    "stepOf": "Step {{current}} of {{total}}",
+    "licence": "Licence Overview",
+    "production": "Production & Marking",
+    "surveillance": "Surveillance Audit",
+    "fees": "Fees & Payment",
+    "confirmation": "Confirmation"
+  },
+  "step1": {
+    "title": "Licence & Operative Unit Details",
+    "subtitle": "Review your submitted application's details and this renewal's validity window.",
+    "licenceNumber": "Licence Number",
+    "standard": "Indian Standard",
+    "product": "Certified Product",
+    "validity": "Valid From",
+    "validUntil": "Valid Until: {{date}}",
+    "daysLeft": "{{count}} days remaining to expiry",
+    "factoryUnit": "Business & Contact Details",
+    "organizationName": "Organization Name",
+    "address": "Address",
+    "contactPerson": "Contact Person",
+    "phone": "Phone",
+    "email": "Email",
+    "statusBanner": {
+      "triggeredHeading": "Surveillance Audit Applies to This Renewal",
+      "triggeredBadge": "Audit Suggested",
+      "triggeredDesc": "A rule flags a surveillance-audit step for this renewal — see the reasons below.",
+      "routineHeading": "Routine Renewal — No Surveillance Audit Flagged",
+      "routineBadge": "Fee Checkout Only",
+      "routineDesc": "You may proceed directly to production returns and fee checkout."
+    },
+    "reasonsHeading": "Why this was flagged:",
+    "reasonsHeadingReal": "QCO-based assessment (independent of the toggle above):",
+    "testingCallout": {
+      "failedHeading": "Sample testing on this application did not pass",
+      "failedBody": "A BIS renewal process would not proceed until this is resolved. You can still preview the renewal flow below.",
+      "inProgressBody": "Sample testing on this application is still in progress.",
+      "link": "View Sample Testing Tracker"
+    },
+    "nextBtn": "Proceed to Production Declaration"
+  },
+  "step2": {
+    "title": "Production Returns & Marking Fee Declaration",
+    "subtitle": "Declare certified production volume for the preceding 12-month period to determine the marking fee.",
+    "reportingPeriod": "Reporting Period",
+    "periodValue": "Previous 12 Months",
+    "productionQuantity": "Total Certified Units Manufactured",
+    "sliderHint": "Adjust quantity or type exact units below to see the marking fee update:",
+    "turnover": "Estimated Certified Goods Turnover (₹)",
+    "markingRate": "Marking Fee Rate",
+    "minimumFee": "Minimum Marking Fee",
+    "calculatedFee": "Calculated Marking Fee",
+    "productionUpload": "Production Log (Optional)",
+    "attachStatement": "Attach Production Statement",
+    "attachingFile": "Attaching file…",
+    "attestation": "I hereby declare and affirm that the figures of production and sales turnover stated above are true and accurate to the best of my knowledge.",
+    "nextBtn": "Continue to Audit Scheduling",
+    "nextBtnRoutine": "Continue to Fee Breakdown",
+    "backBtn": "Back to Licence Details"
+  },
+  "step3": {
+    "title": "Surveillance Audit Scheduling & Readiness",
+    "mandatoryBadge": "Suggested Step",
+    "subtitle": "Coordinate an on-site factory surveillance audit and allocate a QC lead contact.",
+    "alertHeading": "Why a surveillance audit is suggested for this renewal:",
+    "schedulingSection": "Inspection Date & Slot Selection",
+    "preferredDate": "Preferred Audit Date",
+    "altDate": "Alternative Inspection Date",
+    "timeSlot": "Preferred Inspection Time Slot",
+    "slotLabels": {
+      "morning": "Morning Session",
+      "afternoon": "Afternoon Session",
+      "fullday": "Full Day Audit"
+    },
+    "slots": {
+      "morning": "09:30 - 13:30",
+      "afternoon": "14:00 - 18:00",
+      "fullday": "09:30 - 17:30"
+    },
+    "qcLeadSection": "Factory QC In-Charge for Audit Escort",
+    "qcName": "Full Name of QC In-Charge",
+    "qcNamePlaceholder": "e.g. Devendra Kumar",
+    "qcPhone": "Direct Mobile Number",
+    "qcEmail": "Email",
+    "checklistSection": "Surveillance Readiness Checklist",
+    "checklistHelp": "Confirm operational preparedness of factory test apparatus and batch records:",
+    "checklist": {
+      "qcLabCalibrated": "In-house testing laboratory equipment is calibrated and records are up to date",
+      "markingEquipmentOperational": "Standard-mark marking equipment is operational and maintained",
+      "testRecordsAvailable": "Daily routine testing records and raw material test certificates are maintained for the past 12 months",
+      "sampleBatchReady": "Finished product stock is available in standard commercial packaging for sample extraction"
+    },
+    "uploadsSection": "Audit Readiness Documents (optional)",
+    "calibrationDoc": "Equipment Calibration Certificates",
+    "testLogDoc": "Routine Batch Testing Register (Past 30 Days)",
+    "uploadCalibration": "Attach Calibration Certificate (PDF)",
+    "uploadTestLog": "Attach Test Log (PDF)",
+    "notesSection": "Special Factory Directives / Access Notes (Optional)",
+    "notesPlaceholder": "Enter directions for the inspection team, security gate clearance, or PPE requirements...",
+    "errors": {
+      "date": "Please select a preferred inspection date.",
+      "contact": "Please provide QC in-charge contact details."
+    },
+    "nextBtn": "Proceed to Fee Payment",
+    "backBtn": "Back to Production Declaration"
+  },
+  "step4": {
+    "title": "Renewal Fees",
+    "subtitle": "Itemized fee ledger for this renewal.",
+    "feeLedger": "Itemized Fee Schedule",
+    "feeItem": "Fee Description",
+    "feeAmount": "Amount (INR)",
+    "appFee": "Application Renewal Fee",
+    "licenceFee": "Annual Licence Fee",
+    "markingFee": "Production Marking Fee",
+    "markingFeeNote": "Based on the production quantity you declared",
+    "auditFee": "Surveillance Audit Fee",
+    "auditFeeBadge": "Audit Suggested",
+    "exempt": "Exempt",
+    "auditFeeExempt": "Audit fee not applicable for a routine renewal cycle",
+    "subtotal": "Subtotal",
+    "gst": "GST (18%)",
+    "total": "Total",
+    "simulatedPaymentNote": "Clicking below records your payment for this renewal.",
+    "simulatePayment": "Pay {{amount}}",
+    "submitting": "Processing...",
+    "backBtn": "Back"
+  },
+  "step5": {
+    "successTitle": "Renewal Recorded",
+    "successSubtitle": "Logged under reference {{id}}.",
+    "provisionalBanner": {
+      "title": "Certification Extension",
+      "body": "Licence {{licence}}'s validity is now extended through {{date}}."
+    },
+    "auditCard": {
+      "title": "Surveillance Audit Window",
+      "desc": "Your preferred inspection window has been recorded.",
+      "calendarBtn": "Add to Calendar (.ics)"
+    },
+    "noAuditCard": {
+      "title": "No Surveillance Audit for This Cycle",
+      "desc": "No surveillance audit was flagged for this renewal."
+    },
+    "summaryTitle": "Filing Summary",
+    "labels": {
+      "licenceNumber": "Licence Number",
+      "standard": "Standard",
+      "certifiedUnits": "Certified Units",
+      "extendedTo": "Extended To",
+      "window": "Inspection Window",
+      "location": "Location",
+      "liaison": "Factory Liaison",
+      "directContact": "Direct Contact",
+      "totalRemitted": "Total",
+      "paymentReference": "Payment Reference"
+    },
+    "actions": {
+      "downloadSummary": "Download Renewal Summary",
+      "viewLicence": "Return to Dashboard",
+      "renewAnother": "Renew Another Licence"
+    }
+  }
+}

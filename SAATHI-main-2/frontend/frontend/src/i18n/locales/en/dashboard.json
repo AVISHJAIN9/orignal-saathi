@@ -1,0 +1,94 @@
+{
+  "eyebrow": "Dashboard",
+  "greeting": "Welcome back, {{name}}",
+  "subheading": "A personalized view of your applications, deadlines, and outstanding actions.",
+  "loading": "Loading your dashboard…",
+  "error": {
+    "heading": "Couldn't load your dashboard",
+    "retry": "Try again"
+  },
+  "empty": {
+    "heading": "You're all caught up",
+    "body": "You have no active applications, deadlines, or outstanding actions right now."
+  },
+  "sectionError": {
+    "unavailable": "{{section}} unavailable",
+    "retry": "Retry"
+  },
+  "sections": {
+    "progressSummary": "Application Status",
+    "nextDeadline": "Next Deadline",
+    "actionRequired": "Action Required",
+    "upcomingDeadlines": "Upcoming Deadlines",
+    "calendar": "Calendar",
+    "activeApplications": "Active Applications",
+    "recentActivity": "Recent Activity",
+    "regulatoryAlerts": "Regulatory Alerts",
+    "paymentAlerts": "Payment Alerts",
+    "sampleTesting": "Sample Testing Status"
+  },
+  "progressSummary": {
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "pending": "Pending Review"
+  },
+  "urgency": {
+    "normal": "Normal",
+    "approaching": "Approaching",
+    "urgent": "Urgent",
+    "overdue": "Overdue",
+    "dueInDays_one": "Due in {{count}} day",
+    "dueInDays_other": "Due in {{count}} days",
+    "dueToday": "Due today",
+    "overdueByDays_one": "{{count}} day overdue",
+    "overdueByDays_other": "{{count}} days overdue"
+  },
+  "nextDeadline": {
+    "empty": "No upcoming deadlines.",
+    "viewApplication": "View application"
+  },
+  "actionRequired": {
+    "empty": "No action required — you're all caught up.",
+    "open": "Open"
+  },
+  "upcomingDeadlines": {
+    "empty": "No upcoming deadlines.",
+    "addToCalendar": "Add to calendar"
+  },
+  "calendar": {
+    "hint": "Days with a deadline are marked — select one to see it, or export everything below.",
+    "exportAll": "Export all to calendar (.ics)",
+    "addOne": "Add to calendar",
+    "empty": "No deadlines to show on the calendar.",
+    "noneOnDay": "No deadlines on this day."
+  },
+  "activeApplications": {
+    "empty": "No active applications yet.",
+    "startOne": "Start a new application",
+    "status": {
+      "draft": "Draft",
+      "submitted": "Submitted"
+    },
+    "readinessLabel": "Readiness",
+    "readinessStatus": {
+      "ready": "Ready to submit",
+      "ready_with_non_blocking": "Ready — non-blocking items remain",
+      "not_ready": "Not ready",
+      "insufficient_evidence": "Insufficient evidence"
+    },
+    "blockersLabel_one": "{{count}} blocking issue",
+    "blockersLabel_other": "{{count}} blocking issues",
+    "viewStandard": "View standard"
+  },
+  "recentActivity": {
+    "empty": "No recent activity."
+  },
+  "regulatoryAlerts": {
+    "empty": "No new regulatory alerts.",
+    "viewDetails": "View details"
+  },
+  "paymentAlerts": {
+    "empty": "No outstanding fees right now.",
+    "viewPayment": "View payment status"
+  }
+}

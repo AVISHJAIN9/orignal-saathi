@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — ਅਨੁਪਾਲਨ ਑ਰ੍ਕੇਸ੍ਟ੍ਰੇਸ਼ਨ",
+  "heading": "ਅਨੁਪਾਲਨ ਸ਼੍ਰ੃ਂਖਲਾ (Compliance Chain)",
+  "subheading": "ਉਤ੍ਪਾਦ ਵਰ੍ਗੀਕਰਣ ਸੇ ਪ੍ਰਮਾਣਨ ਤਕ ਆਪਕੀ ਸਂਪੂਰ੍ਣ ਬੀਆਈਏਸ ਅਨੁਪਾਲਨ ਯਾਤ੍ਰਾ੤",
+  "productContext": {
+    "product": "ਉਤ੍ਪਾਦ",
+    "standard": "ਮਾਨਕ (Standard)",
+    "status": "ਵਰ੍ਤਮਾਨ ਸ੍ਥਿਤਿ",
+    "selectProduct": "ਉਤ੍ਪਾਦ ਸਂਦਰ੍ਭ ਚੁਨੇਂ",
+    "customQuery": "ਕਸ੍ਟਮ ਉਤ੍ਪਾਦ ਖੋਜੇਂ"
+  },
+  "currentPosition": {
+    "title": "ਵਰ੍ਤਮਾਨ ਸ੍ਥਿਤਿ",
+    "completedHeading": "ਆਪਨੇ ਪੂਰਾ ਕਰ ਲਿਯਾ ਹੈ:",
+    "nextRequiredHeading": "ਆਪਕੀ ਅਗਲੀ ਆਵਸ਼੍ਯਕ ਕਾਰ੍ਰਵਾਈ ਹੈ:",
+    "noCompletedYet": "ਅਭੀ ਤਕ ਕੋਈ ਚਰਣ ਪੂਰਾ ਨਹੀਂ ਹੁਆ ਹੈ੤",
+    "continueAction": "ਯਾਤ੍ਰਾ ਜਾਰੀ ਰਖੇਂ"
+  },
+  "nextBestAction": {
+    "title": "ਸਰ੍ਵੋਤ੍ਤਮ ਅਗਲੀ ਕਾਰ੍ਰਵਾਈ (Next Best Action)",
+    "takeAction": "ਕਾਰ੍ਰਵਾਈ ਕਰੇਂ",
+    "viewDetails": "ਵਿਵਰਣ ਦੇਖੇਂ"
+  },
+  "chainJourney": {
+    "title": "ਅਨੁਪਾਲਨ ਯਾਤ੍ਰਾ",
+    "subtitle": "ਅਨਿਵਾਰ੍ਯ ਬੀਆਈਏਸ ਨਿਯਾਮਕ ਆਵਸ਼੍ਯਕਤਾਓਂ ਕੀ ਚਰਣ-ਦਰ-ਚਰਣ ਪ੍ਰਗਤਿ",
+    "viewStep": "ਦੇਖੇਂ",
+    "evidenceVerified": "ਸਾਕ੍਷੍ਯ ਸਤ੍ਯਾਪਿਤ",
+    "documentsCount": "ਦਸ੍ਤਾਵੇਜ਼: {{available}} / {{required}} ਅਪਲੋਡ ਕਿਏ ਗਏ ({{missing}} ਗਾਯਬ)",
+    "sourceLabel": "ਸ੍ਰੋਤ:"
+  },
+  "regulatoryOverview": {
+    "title": "ਨਿਯਾਮਕ ਪਦਾਨੁਕ੍ਰਮ (Regulatory Hierarchy)",
+    "subtitle": "ਬੈਕਏਂਡ ਦ੍ਵਾਰਾ ਸਤ੍ਯਾਪਿਤ ਆਧਿਕਾਰਿਕ ਮਾਨਕ, QCO ਔਰ ਯੋਜਨਾ ਸਂਬਂਧ",
+    "standardLabel": "ਭਾਰਤੀਯ ਮਾਨਕ (IS)",
+    "qcoLabel": "QCO ਸ੍ਥਿਤਿ",
+    "schemeLabel": "ਬੀਆਈਏਸ ਯੋਜਨਾ",
+    "viewSource": "ਸ੍ਰੋਤ ਦੇਖੇਂ",
+    "unverifiedSource": "ਸਰ੍ਵਰ ਦ੍ਵਾਰਾ ਸ੍ਰੋਤ ਵਿਵਰਣ ਅਸਤ੍ਯਾਪਿਤ"
+  },
+  "states": {
+    "completed": "ਪੂਰ੍ਣ (Completed)",
+    "actionRequired": "ਕਾਰ੍ਰਵਾਈ ਆਵਸ਼੍ਯਕ (Action Required)",
+    "blocked": "ਅਵਰੁਦ੍ਧ (Blocked)",
+    "notStarted": "ਸ਼ੁਰੂ ਨਹੀਂ ਹੁਆ (Not Started)",
+    "notApplicable": "ਲਾਗੂ ਨਹੀਂ (Not Applicable)",
+    "unavailable": "ਨਿਰ੍ਧਾਰਿਤ ਕਰਨੇ ਮੇਂ ਅਸਮਰ੍ਥ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "ਵਰ੍ਗੀਕਰਣ",
+    "standard": "ਭਾਰਤੀਯ ਮਾਨਕ",
+    "qco": "ਗੁਣਵਤ੍ਤਾ ਨਿਯਂਤ੍ਰਣ ਆਦੇਸ਼ (QCO)",
+    "scheme": "ਬੀਆਈਏਸ ਯੋਜਨਾ",
+    "requirements": "ਤਕਨੀਕੀ ਆਵਸ਼੍ਯਕਤਾਏਂ",
+    "testing": "ਉਤ੍ਪਾਦ ਪਰੀਕ੍਷ਣ",
+    "laboratory": "ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਮਿਲਾਨ",
+    "documents": "ਅਨੁਪਾਲਨ ਤਿਜੋਰੀ / ਦਸ੍ਤਾਵੇਜ਼",
+    "compliance": "ਅਨੁਪਾਲਨ ਅਂਤਰ",
+    "readiness": "ਆਵੇਦਨ ਤੈਯਾਰੀ",
+    "certification": "ਬੀਆਈਏਸ ਪ੍ਰਮਾਣਨ",
+    "radar": "ਨਿਯਾਮਕ ਨਿਗਰਾਨੀ"
+  },
+  "errors": {
+    "title": "ਅਭੀ ਅਨੁਪਾਲਨ ਯਾਤ੍ਰਾ ਲੋਡ ਨਹੀਂ ਕੀ ਜਾ ਸਕੀ",
+    "description": "ਹਮ ਅਨੁਪਾਲਨ ਸੇਵਾ ਸੇ ਨਹੀਂ ਜੁਡ਼ ਸਕੇ੤ ਕ੃ਪਯਾ ਪੁਨਃ ਪ੍ਰਯਾਸ ਕਰੇਂ੤",
+    "retry": "ਪੁਨਃ ਪ੍ਰਯਾਸ ਕਰੇਂ",
+    "emptyTitle": "ਕੋਈ ਅਨੁਪਾਲਨ ਯਾਤ੍ਰਾ ਨਹੀਂ ਮਿਲੀ",
+    "emptyDescription": "ਅਨੁਪਾਲਨ ਸ਼੍ਰ੃ਂਖਲਾ ਪ੍ਰਸ੍ਤੁਤ ਕਰਨੇ ਕੇ ਲਿਏ ਕੋਈ ਉਤ੍ਪਾਦ ਸਂਦਰ੍ਭ ਯਾ ਸਤ੍ਰ ਪੈਰਾਮੀਟਰ ਨਹੀਂ ਮਿਲੇ੤"
+  }
+}

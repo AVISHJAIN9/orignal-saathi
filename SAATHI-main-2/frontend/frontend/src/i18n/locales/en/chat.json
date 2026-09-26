@@ -1,0 +1,143 @@
+{
+  "title": "SAATHI - Ask about Indian Standards",
+  "logo": "SAATHI",
+  "inputPlaceholder": "Ask about Indian Standards...",
+  "sendAriaLabel": "Send message",
+  "thinking": "SAATHI is thinking…",
+  "backToHome": "Back to Home",
+  "nav": {
+    "sectionCore": "Core",
+    "sectionLifecycle": "Certification Lifecycle",
+    "sectionTools": "Compliance Tools",
+    "sectionAdmin": "Admin",
+    "standardsBrowser": "Standards Browser",
+    "adminPanel": "Admin Panel",
+    "documentManagement": "Document Management",
+    "retrievalQuality": "Retrieval Quality",
+    "conformityCheck": "Conformity Check",
+    "notifications": "Notifications",
+    "regulatoryRadar": "Regulatory Radar",
+    "intelFeed": "Intel Feed",
+    "documentCortex": "Document Cortex",
+    "newRegistration": "New Registration",
+    "officerVisits": "Officer Visits",
+    "documentCorrections": "Document Corrections",
+    "appealsDisputes": "Appeals & Disputes",
+    "businessAccount": "Business Account",
+    "certificates": "Certificates",
+    "renewalReminders": "Renewal Reminders",
+    "complianceCalendar": "Compliance Calendar",
+    "factoryAudits": "Factory Audits",
+    "recallsAlerts": "Recalls & Alerts",
+    "licenseActions": "License Actions",
+    "feeInvoices": "Fee Invoices & Receipts",
+    "manufacturingLocations": "Manufacturing Locations",
+    "schemeSelector": "Scheme Selector",
+    "complianceChain": "Compliance Chain",
+    "laboratoryMatcher": "Laboratory Matcher",
+    "regulatoryAlerts": "Regulatory Alerts",
+    "exploreFeatures": "Explore features",
+    "chatLink": "Chat",
+    "dashboardLink": "Dashboard",
+    "sectionMain": "Navigate",
+    "menuTitle": "Menu",
+    "openMenu": "Open navigation menu",
+    "knowledgeNexus": "Knowledge Nexus",
+    "classification": "Product Classification",
+    "jurisdiction": "Jurisdiction",
+    "complianceVault": "Compliance Vault",
+    "sampleTracker": "Sample Tracker",
+    "verifyCertificate": "Verify a Certificate",
+    "developers": "Developers",
+    "grievance": "Grievances",
+    "profile": "Profile"
+  },
+  "starterPrompts": [
+    "What labelling is required for packaged drinking water?",
+    "How do I apply for a BIS licence for LED lighting?",
+    "What's the validity period of an ISI certificate?",
+    "Which standard covers electrical safety for household appliances?"
+  ],
+  "newChat": {
+    "trigger": "New chat"
+  },
+  "placeholder": {
+    "comingSoon": "This is a placeholder — full functionality is coming soon.",
+    "roleRequired": "Your current account doesn't have access to this page — log out and sign in with a different account type to preview it."
+  },
+  "profile": {
+    "open": "Open profile customization",
+    "editTooltip": "Edit profile",
+    "title": "Profile customization",
+    "description": "Personalize how your Saathi workspace looks on this device.",
+    "nameLabel": "Display name",
+    "focusLabel": "Focus label",
+    "tones": {
+      "navy": "Navy avatar tone",
+      "sage": "Sage avatar tone",
+      "clay": "Clay avatar tone"
+    },
+    "cancel": "Cancel",
+    "save": "Save changes",
+    "avatar": {
+      "changePhoto": "Change photo",
+      "takePhoto": "Take photo",
+      "useCamera": "Use webcam",
+      "cameraStarting": "Starting camera…",
+      "chooseFile": "Choose from files",
+      "removePhoto": "Remove photo",
+      "dialogTitle": "Update your photo",
+      "dialogDescription": "Stored on this device only — there is no server to upload it to.",
+      "cameraPermissionDenied": "Camera access was denied. Choose a photo from your files instead.",
+      "cameraUnavailable": "No camera was found on this device. Choose a photo from your files instead.",
+      "cameraPreviewLabel": "Live camera preview",
+      "capture": "Capture",
+      "previewAlt": "New profile photo preview",
+      "chooseDifferent": "Choose a different photo",
+      "usePhoto": "Use photo",
+      "invalidFileType": "Please choose a JPEG, PNG, or WEBP image.",
+      "fileTooLarge": "That image is too large — please choose one under 8 MB.",
+      "processingError": "Something went wrong reading that image. Please try another one.",
+      "deviceOnlyNotice": "This photo is stored only on this device — there is no account backup.",
+      "chooseCharacter": "Pick a character",
+      "characterLabel": "{{character}} avatar",
+      "sectionLabel": "Avatar",
+      "modesLabel": "Avatar style",
+      "modes": {
+        "initials": "Initials",
+        "character": "Character",
+        "photo": "Photo"
+      },
+      "currentMode": "(current)",
+      "addPhoto": "Add a photo",
+      "editAvatar": "Change avatar",
+      "deviceOnlyNoticeAvatar": "Your avatar is stored only on this device — there is no account backup."
+    }
+  },
+  "sidebar": {
+    "navigation": "Navigation"
+  },
+  "clearChat": {
+    "emptyTitle": "Fresh conversation",
+    "emptyDescription": "Ask SAATHI about an Indian Standard to start again."
+  },
+  "backgroundSettings": {
+    "open": "Open background animation settings",
+    "title": "3D background",
+    "animated": "Animated",
+    "animatedDescription": "Floating motion and cursor parallax",
+    "paused": "Paused",
+    "pausedDescription": "Keep the scene visible without motion",
+    "off": "Off",
+    "offDescription": "Hide the decorative 3D scene",
+    "hint": "A lighter mode helps preserve battery on mobile."
+  },
+  "feedback": {
+    "helpfulAriaLabel": "Mark this answer as helpful",
+    "notHelpfulAriaLabel": "Mark this answer as not helpful",
+    "commentPrompt": "What was wrong with this answer?",
+    "submit": "Submit",
+    "thanks": "Thanks for the feedback."
+  },
+  "inputDisclaimer": "SAATHI cites BIS standards, but always confirm requirements against the official text."
+}

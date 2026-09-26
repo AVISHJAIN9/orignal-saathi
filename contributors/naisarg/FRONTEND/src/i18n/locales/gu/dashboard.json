@@ -1,0 +1,95 @@
+{
+  "eyebrow": "ડૈશબોર્ડ · પ્રોટોટાઇપ",
+  "greeting": "વાપસી પર સ્વાગત હૈ, {{name}}",
+  "subheading": "આપકે આવેદનોં, સમય-સીમાઓં ઔર લંબિત કાર્યોં કા વ્યક્તિગત દૃશ્ય — યહ ઉદાહરણાત્મક મૉક ડેટા પર આધારિત એક ડેમો દૃશ્ય હૈ, ન કિ લાઇવ BIS ફ઼ીડ૤",
+  "loading": "આપકા ડૈશબોર્ડ લોડ હો રહા હૈ…",
+  "error": {
+    "heading": "આપકા ડૈશબોર્ડ લોડ નહીં હો સકા",
+    "retry": "ફિર સે પ્રયાસ કરેં"
+  },
+  "empty": {
+    "heading": "આપ પૂરી તરહ અપડેટ હૈં",
+    "body": "અભી આપકે પાસ કોઈ સક્રિય આવેદન, સમય-સીમા યા લંબિત કાર્ય નહીં હૈ૤"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} ઉપલબ્ધ નહીં હૈ",
+    "retry": "પુનઃ પ્રયાસ કરેં"
+  },
+  "sections": {
+    "progressSummary": "આવેદન સ્થિતિ",
+    "nextDeadline": "અગલી સમય-સીમા",
+    "actionRequired": "આવશ્યક કાર્રવાઈ",
+    "upcomingDeadlines": "આગામી સમય-સીમાએઁ",
+    "calendar": "કૈલેંડર",
+    "activeApplications": "સક્રિય આવેદન",
+    "recentActivity": "હાલ કી ગતિવિધિ",
+    "regulatoryAlerts": "નિયામક ચેતાવનિયાઁ",
+    "paymentAlerts": "ભુગતાન ચેતાવનિયાઁ",
+    "sampleTesting": "નમૂના પરીક્ષણ સ્થિતિ"
+  },
+  "progressSummary": {
+    "completed": "પૂર્ણ",
+    "inProgress": "પ્રગતિ મેં",
+    "pending": "સમીક્ષા લંબિત"
+  },
+  "urgency": {
+    "normal": "સામાન્ય",
+    "approaching": "નજ઼દીક આ રહા હૈ",
+    "urgent": "અત્યાવશ્યક",
+    "overdue": "સમય-સીમા પાર",
+    "dueInDays_one": "{{count}} દિન મેં દેય",
+    "dueInDays_other": "{{count}} દિનોં મેં દેય",
+    "dueToday": "આજ દેય",
+    "overdueByDays_one": "{{count}} દિન કી દેરી",
+    "overdueByDays_other": "{{count}} દિનોં કી દેરી"
+  },
+  "nextDeadline": {
+    "empty": "કોઈ આગામી સમય-સીમા નહીં૤",
+    "viewApplication": "આવેદન દેખેં"
+  },
+  "actionRequired": {
+    "empty": "કોઈ કાર્રવાઈ આવશ્યક નહીં — આપ પૂરી તરહ અપડેટ હૈં૤",
+    "open": "ખોલેં"
+  },
+  "upcomingDeadlines": {
+    "empty": "કોઈ આગામી સમય-સીમા નહીં૤",
+    "addToCalendar": "કૈલેંડર મેં જોડ઼ેં"
+  },
+  "calendar": {
+    "hint": "જિન દિનોં મેં સમય-સીમા હૈ વે ચિહ્નિત હૈં — દેખને કે લિએ એક ચુનેં, યા નીચે સબ કુછ નિર્યાત કરેં૤",
+    "exportAll": "કૈલેંડર મેં સબ નિર્યાત કરેં (.ics)",
+    "addOne": "કૈલેંડર મેં જોડ઼ેં",
+    "empty": "કૈલેંડર પર દિખાને કે લિએ કોઈ સમય-સીમા નહીં૤",
+    "noneOnDay": "ઇસ દિન કોઈ સમય-સીમા નહીં૤"
+  },
+  "activeApplications": {
+    "empty": "અભી તક કોઈ સક્રિય આવેદન નહીં૤",
+    "startOne": "નયા આવેદન શુરૂ કરેં",
+    "status": {
+      "draft": "ડ્રાફ઼્ટ",
+      "submitted": "જમા કિયા ગયા"
+    },
+    "readinessLabel": "તૈયારી",
+    "readinessStatus": {
+      "ready": "જમા કરને કે લિએ તૈયાર",
+      "ready_with_non_blocking": "તૈયાર — ગૈર-અવરોધક મદ શેષ હૈં",
+      "not_ready": "તૈયાર નહીં",
+      "insufficient_evidence": "અપર્યાપ્ત સાક્ષ્ય"
+    },
+    "blockersLabel_one": "{{count}} અવરોધક સમસ્યા",
+    "blockersLabel_other": "{{count}} અવરોધક સમસ્યાએઁ",
+    "viewStandard": "માનક દેખેં"
+  },
+  "recentActivity": {
+    "empty": "કોઈ હાલ કી ગતિવિધિ નહીં૤"
+  },
+  "regulatoryAlerts": {
+    "empty": "કોઈ નઈ નિયામક ચેતાવની નહીં૤",
+    "viewDetails": "વિવરણ દેખેં"
+  },
+  "paymentAlerts": {
+    "empty": "અભી કોઈ લંબિત શુલ્ક નહીં હૈ૤",
+    "viewPayment": "ભુગતાન સ્થિતિ દેખેં"
+  },
+  "illustrativeNotice": "ઉદાહરણાત્મક ડેટા — યહ કોઈ વાસ્તવિક BIS આવેદન યા ફાઇલિંગ નહીં હૈ૤"
+}

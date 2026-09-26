@@ -1,0 +1,79 @@
+{
+  "eyebrow": "Developer Platform",
+  "status": "API Operational",
+  "heading": "SAATHI API Reference",
+  "subheading": "Integrate SAATHI's citation-backed compliance answers, standards search, conformity classification, and document analysis directly into your own tools.",
+  "backToChat": "Back to Chat",
+  "disclaimer": "Prototype notice: this API reference documents an illustrative interface for SIH26107. No live API keys are issued yet — endpoints, schemas, and rate limits are subject to change before a production release.",
+  "baseUrlLabel": "Base API Gateway Endpoint",
+  "docIndex": "Documentation Index",
+  "endpointsHeading": "API Endpoints Reference",
+  "copy": "Copy",
+  "copied": "Copied",
+  "collapseSpec": "Collapse Spec",
+  "expandSpec": "Expand Spec",
+  "nav": {
+    "assistantApi": "Assistant API",
+    "standardsApi": "Standards API",
+    "conformityApi": "Conformity API",
+    "documentsApi": "Documents API"
+  },
+  "table": {
+    "header": "Header",
+    "exampleValue": "Example Value",
+    "description": "Description",
+    "parameter": "Parameter",
+    "type": "Type",
+    "required": "Required",
+    "statusCode": "Status Code",
+    "meaning": "Meaning & Description"
+  },
+  "sections": {
+    "overview": {
+      "navTitle": "Overview",
+      "title": "Overview",
+      "p1": "The SAATHI API gives developers programmatic access to the same citation-backed compliance engine that powers the chat assistant — natural-language queries, standards search, product conformity classification, and laboratory document analysis.",
+      "p2": "Every substantive response is grounded in a verified Indian Standard or explicitly declines when no standard applies, matching the citation-required trust model used throughout the rest of SAATHI."
+    },
+    "authentication": {
+      "navTitle": "Authentication",
+      "title": "Authentication",
+      "description": "All requests must include a bearer token issued for your registered application. Keys are scoped per environment and rotate independently of your account password."
+    },
+    "quickstart": {
+      "navTitle": "Quick Start",
+      "title": "Quick Start",
+      "description": "Pick an endpoint below, copy the cURL, JavaScript, or Python snippet, swap in your own API key, and run it against the base URL above. Every endpoint returns JSON, including on decline responses."
+    },
+    "parameters": "Parameters",
+    "headers": "Request Headers",
+    "required": "Required",
+    "optional": "Optional",
+    "requestBody": "Request Body",
+    "responseBody": "Response Body",
+    "implementation": "Request Implementation",
+    "rateLimits": {
+      "navTitle": "Rate Limits",
+      "title": "Rate Limits",
+      "tier1": "Standard tier: 60 requests per minute, 5,000 per day",
+      "tier2": "Partner tier: 300 requests per minute, 50,000 per day",
+      "headersNote": "Current usage is returned on every response via the X-RateLimit-Remaining and X-RateLimit-Reset headers."
+    },
+    "errors": {
+      "navTitle": "Errors & Status Codes",
+      "title": "Errors & Status Codes",
+      "e200": "Request succeeded; see the response body for the result or decline.",
+      "e400": "Malformed request — check required fields and value types.",
+      "e401": "Missing or invalid API key.",
+      "e429": "Rate limit exceeded — see the X-RateLimit-Reset header.",
+      "e500": "Unexpected server error — retry with backoff, then contact support."
+    },
+    "changelog": {
+      "navTitle": "Changelog",
+      "title": "API Changelog",
+      "version": "v1.4.2 (Current Staging)",
+      "date": "Aug 2026",
+      "note": "Added the /api/v1/documents/analyze endpoint for laboratory report analysis with automated clause flags."
+    }
+  }
+}

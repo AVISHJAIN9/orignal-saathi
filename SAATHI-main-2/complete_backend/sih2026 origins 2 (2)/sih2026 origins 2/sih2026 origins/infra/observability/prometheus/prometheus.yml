@@ -1,0 +1,63 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    environment: production
+    service: saathi-bis
+
+rule_files:
+  - "/etc/prometheus/alerts.yml"
+
+scrape_configs:
+  # ── SAATHI NestJS Services ────────────────────────────────────────────────
+  - job_name: saathi-d1-chat
+    static_configs:
+      - targets: ['d1-chat:5001']
+    metrics_path: /api/v1/metrics
+    scrape_interval: 10s
+
+  - job_name: saathi-d4-history
+    static_configs:
+      - targets: ['d4-history:5004']
+    metrics_path: /metrics
+
+  - job_name: saathi-d5-admin
+    static_configs:
+      - targets: ['d5-admin:5005']
+    metrics_path: /metrics
+
+  - job_name: saathi-d9-audit
+    static_configs:
+      - targets: ['d9-audit:5009']
+    metrics_path: /metrics
+
+  - job_name: saathi-m1-ingestion
+    static_configs:
+      - targets: ['m1-ingestion:5011']
+    metrics_path: /api/v1/metrics
+
+  - job_name: saathi-p1-auth
+    static_configs:
+      - targets: ['p1-auth:8001']
+    metrics_path: /api/v1/metrics
+    scrape_interval: 10s
+
+  # ── Python FastAPI Services ───────────────────────────────────────────────
+  - job_name: saathi-m5-rag
+    static_configs:
+      - targets: ['m5-rag:8000']
+    metrics_path: /metrics
+    scrape_interval: 10s
+
+  # ── Infrastructure ────────────────────────────────────────────────────────
+  - job_name: postgres
+    static_configs:
+      - targets: ['postgres-exporter:9187']
+
+  - job_name: redis
+    static_configs:
+      - targets: ['redis-exporter:9121']
+
+  - job_name: node-exporter
+    static_configs:
+      - targets: ['node-exporter:9100']

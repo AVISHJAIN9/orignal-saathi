@@ -1,0 +1,31 @@
+{
+  "title": "Conformity Check",
+  "eyebrow": "Industry workbench",
+  "heading": "Upload a spec. See where it stands.",
+  "subheading": "Check a product specification against active BIS standards before you certify — the same citation-or-decline standard SAATHI holds itself to in chat.",
+  "dropzoneHeading": "Drop a specification file",
+  "dropzoneSubheading": "Or click to browse",
+  "selectFiles": "Select file",
+  "fileTypes": "PDF, DOCX, or PNG",
+  "demoNotice": "Demo analysis — illustrates the result format using a sample outcome, not a real parse of this file's contents.",
+  "analyzing": "Checking against active standards…",
+  "gapsPanelTitle": "Compliance Gaps",
+  "gapsEmpty": "Awaiting a specification upload to begin.",
+  "gapsFound_one": "{{count}} gap found",
+  "gapsFound_other": "{{count}} gaps found",
+  "passedChecks": "{{count}} checks passed",
+  "severityCritical": "Critical",
+  "severityMinor": "Minor",
+  "resultPassedHeading": "No gaps found",
+  "resultPassedBody": "This demo spec clears every checked requirement in {{standard}}.",
+  "resultFailedHeading": "Gaps found against {{standard}}",
+  "tryAnother": "Try another file",
+  "gaps": {
+    "chinStrapTitle": "Chin strap retention test missing",
+    "chinStrapBody": "IS 4151 requires a documented dynamic retention test report for the chin strap assembly — not present in this upload.",
+    "peripheralVisionTitle": "Peripheral vision field unspecified",
+    "peripheralVisionBody": "The spec doesn't state the peripheral vision field angle required under IS 4151 §5.3."
+  },
+  "gapsNoneOnPass": "No gaps to show — this spec passed clean.",
+  "demoHint": "Tip: a filename containing \"helmet\" shows a gaps-found demo; \"cooker\" shows a clean pass."
+}

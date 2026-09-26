@@ -1,0 +1,95 @@
+{
+  "eyebrow": "गाहाय बिखूं · प्रोटोटाइप",
+  "greeting": "गाहायनो खुल्लुमबाय, {{name}}",
+  "subheading": "आपके आरजलेथों, सम सीमाओं और नेनाय कार्यों का व्यक्तिगत दृश्य — यह उदाहरणात्मक मॉक डेटा पर आधारित एक डेमो दृश्य है, न कि लाइव BIS फ़ीड।",
+  "loading": "आपका गाहाय बिखूं लोड जाबायनाय……",
+  "error": {
+    "heading": "आपका गाहाय बिखूं लोड नङा हो सका",
+    "retry": "फिर से प्रयास करें"
+  },
+  "empty": {
+    "heading": "आप पूरी तरह अपडेट हैं",
+    "body": "अभी आपके पास कोई सक्रिय आरजलेथ, सम सीमा या नेनाय कार्य नङा है।"
+  },
+  "sectionError": {
+    "unavailable": "{{section}} उपलब्ध नङा है",
+    "retry": "पुनः प्रयास करें"
+  },
+  "sections": {
+    "progressSummary": "आरजलेथ थासारि",
+    "nextDeadline": "अगली सम सीमा",
+    "actionRequired": "आवश्यक हाबा",
+    "upcomingDeadlines": "आगामी सम सीमाएँ",
+    "calendar": "कैलेंडर",
+    "activeApplications": "सक्रिय आरजलेथ",
+    "recentActivity": "हाल की गतिविधि",
+    "regulatoryAlerts": "नियामक चेतावनियाँ",
+    "paymentAlerts": "भुगतान चेतावनियाँ",
+    "sampleTesting": "नमूना आनदाद थासारि"
+  },
+  "progressSummary": {
+    "completed": "जोबबाय",
+    "inProgress": "सोलिगासिनो दङ",
+    "pending": "बिजिरनाय नेनाय"
+  },
+  "urgency": {
+    "normal": "सामान्य",
+    "approaching": "नज़दीक आ रहा है",
+    "urgent": "अत्यावश्यक",
+    "overdue": "सम सीमा पार",
+    "dueInDays_one": "{{count}} सान में देय",
+    "dueInDays_other": "{{count}} सानों में देय",
+    "dueToday": "सानै देय",
+    "overdueByDays_one": "{{count}} सान की देरी",
+    "overdueByDays_other": "{{count}} सानों की देरी"
+  },
+  "nextDeadline": {
+    "empty": "कोई आगामी सम सीमा नङा।",
+    "viewApplication": "आरजलेथ नायनाय"
+  },
+  "actionRequired": {
+    "empty": "कोई हाबा आवश्यक नङा — आप पूरी तरह अपडेट हैं।",
+    "open": "खोलें"
+  },
+  "upcomingDeadlines": {
+    "empty": "कोई आगामी सम सीमा नङा।",
+    "addToCalendar": "कैलेंडर में जोड़ें"
+  },
+  "calendar": {
+    "hint": "जिन सानों में सम सीमा है वे चिह्नित हैं — देखने के लिए एक चुनें, या नीचे सब कुछ निर्यात करें।",
+    "exportAll": "कैलेंडर में सब निर्यात करें (.ics)",
+    "addOne": "कैलेंडर में जोड़ें",
+    "empty": "कैलेंडर पर दिखाने के लिए कोई सम सीमा नङा।",
+    "noneOnDay": "इस सान कोई सम सीमा नङा।"
+  },
+  "activeApplications": {
+    "empty": "अभी तक कोई सक्रिय आरजलेथ नङा।",
+    "startOne": "गोदान आरजलेथ शुरू करें",
+    "status": {
+      "draft": "ड्राफ़्ट",
+      "submitted": "होगारनाय जाबाय"
+    },
+    "readinessLabel": "तैयारी",
+    "readinessStatus": {
+      "ready": "जमा करने के लिए तैयार",
+      "ready_with_non_blocking": "तैयार — गैर-अवरोधक मद शेष हैं",
+      "not_ready": "तैयार नङा",
+      "insufficient_evidence": "अपर्याप्त साक्ष्य"
+    },
+    "blockersLabel_one": "{{count}} अवरोधक समस्या",
+    "blockersLabel_other": "{{count}} अवरोधक समस्याएँ",
+    "viewStandard": "थाखो नायनाय"
+  },
+  "recentActivity": {
+    "empty": "कोई हाल की गतिविधि नङा।"
+  },
+  "regulatoryAlerts": {
+    "empty": "कोई नई नियामक चेतावनी नङा।",
+    "viewDetails": "गुवारै नायनाय"
+  },
+  "paymentAlerts": {
+    "empty": "अभी कोई नेनाय शुल्क नङा है।",
+    "viewPayment": "भुगतान थासारि नायनाय"
+  },
+  "illustrativeNotice": "उदाहरणात्मक डेटा — यह कोई वास्तविक BIS आरजलेथ या फाइलिंग नङा है।"
+}

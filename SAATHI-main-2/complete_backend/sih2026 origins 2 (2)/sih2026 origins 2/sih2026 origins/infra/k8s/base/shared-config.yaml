@@ -1,0 +1,86 @@
+---
+# Shared ConfigMap for all SAATHI services
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: saathi-config
+  namespace: saathi-prod
+data:
+  # Service discovery (internal cluster DNS)
+  M5_RAG_ENDPOINT: "http://m5-rag.saathi-prod.svc.cluster.local/api/v1/generate"
+  M3_RETRIEVAL_ENDPOINT: "http://m3-retrieval.saathi-prod.svc.cluster.local/retrieve"
+  M1_INGESTION_ENDPOINT: "http://m1-ingestion.saathi-prod.svc.cluster.local/api/v1"
+  P1_AUTH_ENDPOINT: "http://p1-auth.saathi-prod.svc.cluster.local/api/v1"
+
+  # Embedding provider (set to openai or gemini once DPA is executed)
+  EMBEDDING_PROVIDER: "openai"
+  EMBEDDING_MODEL: "text-embedding-3-small"
+  EMBEDDING_DIM: "1536"
+
+  # Crawler
+  CRAWLER_TIMEOUT_MS: "15000"
+  ENABLE_LOCAL_EMBEDDING_FALLBACK: "false"
+
+  # DB pool
+  DB_POOL_MAX: "20"
+  DB_SSL: "true"
+
+  # CORS (comma-separated allowed origins)
+  CORS_ORIGINS: "https://saathi.bis.gov.in,https://www.bis.gov.in"
+
+  # BullMQ
+  INGESTION_QUEUE_CONCURRENCY: "5"
+---
+# Namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: saathi-prod
+  labels:
+    environment: production
+    managed-by: helm
+---
+# NetworkPolicy: only allow intra-namespace and ingress traffic
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: saathi-default-deny
+  namespace: saathi-prod
+spec:
+  podSelector: {}
+  policyTypes:
+    - Ingress
+    - Egress
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: saathi-prod
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: ingress-nginx
+  egress:
+    - {}                              # Allow all egress (LLM APIs, BIS website, etc.)
+---
+# PodDisruptionBudget: ensure at least 2 D1 pods during node drains
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: d1-chat-pdb
+  namespace: saathi-prod
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels:
+      app: d1-chat
+---
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: m5-rag-pdb
+  namespace: saathi-prod
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels:
+      app: m5-rag

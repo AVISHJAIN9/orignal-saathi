@@ -1,0 +1,50 @@
+{
+  "eyebrow": "S24 · قانونی انوائسز اور جی ایس ٹی رسیدیں",
+  "heading": "فیس انوائسز اور جی ایس ٹی کے مطابق رسیدیں",
+  "subheading": "قانونی فیس شیڈول، تفصیلی جی ایس ٹی بریک ڈاؤن کا انتظام کریں، اور رسیدیں ڈاؤن لوڈ کریں۔",
+  "metrics": {
+    "totalInvoices": "کل انوائسز",
+    "paidAmount": "کل ادا شدہ رقم",
+    "pendingAmount": "زیرِ التوا قانونی واجبات",
+    "paidCount": "ادا شدہ رسیدیں",
+    "pendingCount": "زیرِ التوا انوائسز"
+  },
+  "status": {
+    "paid": "ادا شدہ اور مصالحت شدہ",
+    "pending": "ادائیگی زیرِ التوا",
+    "overdue": "ادائیگی میں تاخیر"
+  },
+  "categories": {
+    "applicationGrant": "درخواست منظوری فیس",
+    "annualMarkingFee": "سالانہ کم از کم مارکنگ فیس",
+    "factorySurveillance": "فیکٹری نگرانی آڈٹ فیس",
+    "labTesting": "لیبارٹری ٹیسٹنگ سرچارج"
+  },
+  "labels": {
+    "invoiceNumber": "انوائس نمبر",
+    "invoiceDate": "انوائس کی تاریخ",
+    "dueDate": "ادائیگی کی آخری تاریخ",
+    "billedTo": "بل موصول کنندہ (درخواست گزار)",
+    "issuingAuthority": "جاری کنندہ ادارہ",
+    "sacCode": "SAC کوڈ",
+    "description": "شے کی تفصیل",
+    "rate": "اکائی کی شرح",
+    "amount": "قابلِ ٹیکس رقم",
+    "subtotal": "ذیلی مجموعہ (قابلِ ٹیکس)",
+    "cgst": "CGST (9%)",
+    "sgst": "SGST (9%)",
+    "igst": "IGST (18%)",
+    "total": "کل واجب الادا رقم",
+    "receiptTitle": "SAATHI نمائشی ادائیگی رسید",
+    "receiptNumber": "رسید نمبر",
+    "receiptDate": "ادائیگی کی تاریخ اور وقت",
+    "paymentMode": "ترسیل کا طریقہ",
+    "utr": "لین دین کا حوالہ / UTR",
+    "amountInWords": "رقم بالفاظ",
+    "viewInvoice": "انوائس دیکھیں",
+    "viewReceipt": "رسید دیکھیں",
+    "downloadPdf": "پرنٹ / پی ڈی ایف ڈاؤن لوڈ کریں",
+    "settleDemo": "ادائیگی کریں"
+  },
+  "disclaimer": "SAATHI نمائشی انوائس — صرف SIH 2026 کی تشخیص کے لیے — سرکاری حکومتی ٹیکس انوائس نہیں"
+}

@@ -1,0 +1,294 @@
+version: '3.8'
+
+networks:
+  saathi-network:
+    driver: bridge
+
+services:
+  # ============================================================================
+  # 1. PostgreSQL 16 with pgvector & UUID support
+  # ============================================================================
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: saathi-prod-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USERNAME:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_DATABASE:-saathi_db}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USERNAME:-postgres} -d ${DB_DATABASE:-saathi_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - saathi-network
+
+  # ============================================================================
+  # 2. Redis 7 (BullMQ Queue & Semantic Caching)
+  # ============================================================================
+  redis:
+    image: redis:7-alpine
+    container_name: saathi-prod-redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - saathi-network
+
+  # ============================================================================
+  # 3. Python FastAPI M5 RAG & Guardrail Microservice
+  # ============================================================================
+  m5-rag:
+    build:
+      context: ./m/m5
+      dockerfile: Dockerfile
+    container_name: saathi-prod-m5-rag
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - DATABASE_URL=postgresql://${DB_USERNAME:-postgres}:${DB_PASSWORD:-postgres}@postgres:5432/${DB_DATABASE:-saathi_db}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - LLM_MODEL=${LLM_MODEL:-gpt-4o-mini}
+      - CONFIDENCE_THRESHOLD=${CONFIDENCE_THRESHOLD:-0.75}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - saathi-network
+
+  # ============================================================================
+  # 4. NestJS D1 Conversational Chat Gateway & Real-time SSE
+  # ============================================================================
+  d1-chat:
+    build:
+      context: ./d/D1
+      dockerfile: Dockerfile
+    container_name: saathi-prod-d1-chat
+    restart: always
+    ports:
+      - "5001:5001"
+    environment:
+      - PORT=5001
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USERNAME=${DB_USERNAME:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-postgres}
+      - DB_DATABASE=${DB_DATABASE:-saathi_db}
+      - RAG_SERVICE_URL=http://m5-rag:8000
+      - SARVAM_API_KEY=${SARVAM_API_KEY:?SARVAM_API_KEY must be set in environment — never hardcode API keys}
+      - THROTTLE_TTL=60
+      - THROTTLE_LIMIT=60
+    depends_on:
+      postgres:
+        condition: service_healthy
+      m5-rag:
+        condition: service_started
+    networks:
+      - saathi-network
+
+  # ============================================================================
+  # 5. NestJS D4 Conversation History & Session Store
+  # ============================================================================
+  d4-history:
+    build:
+      context: ./d/D4
+      dockerfile: Dockerfile
+    container_name: saathi-prod-d4-history
+    restart: always
+    ports:
+      - "5004:5004"
+    environment:
+      - PORT=5004
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USERNAME=${DB_USERNAME:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-postgres}
+      - DB_DATABASE=${DB_DATABASE:-saathi_db}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - saathi-network
+
+  # ============================================================================
+  # 6. NestJS P1 Authentication & RBAC Service (Port 8001)
+  # ============================================================================
+  p1-auth:
+    build:
+      context: ./p/p1
+      dockerfile: Dockerfile
+    container_name: saathi-prod-p1-auth
+    restart: always
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+      - HOST=0.0.0.0
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USERNAME=${DB_USERNAME:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-postgres}
+      - DB_DATABASE=${DB_DATABASE:-saathi_db}
+      - JWT_SECRET=${JWT_SECRET:-saathi_jwt_production_secret_key_2026}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - saathi-network
+
+  # ============================================================================
+  # 7. NestJS P2 Data Retention & Privacy (Port 8002)
+  # ============================================================================
+  p2-retention:
+    build:
+      context: ./p/p2
+      dockerfile: Dockerfile
+    container_name: saathi-prod-p2-retention
+    restart: always
+    ports:
+      - "8002:8002"
+    environment:
+      - PORT=8002
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USERNAME=${DB_USERNAME:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-postgres}
+      - DB_DATABASE=${DB_DATABASE:-saathi_db}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - saathi-network
+
+  # ============================================================================
+  # 8. NestJS P3 LLM Telemetry & Cost Monitoring (Port 8003)
+  # ============================================================================
+  p3-telemetry:
+    build:
+      context: ./p/p3
+      dockerfile: Dockerfile
+    container_name: saathi-prod-p3-telemetry
+    restart: always
+    ports:
+      - "8003:8003"
+    environment:
+      - PORT=8003
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USERNAME=${DB_USERNAME:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-postgres}
+      - DB_DATABASE=${DB_DATABASE:-saathi_db}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - saathi-network
+
+  # ============================================================================
+  # 9. NestJS P4 System Health & Ops (Port 8004)
+  # ============================================================================
+  p4-ops:
+    build:
+      context: ./p/p4
+      dockerfile: Dockerfile
+    container_name: saathi-prod-p4-ops
+    restart: always
+    ports:
+      - "8004:8004"
+    environment:
+      - PORT=8004
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USERNAME=${DB_USERNAME:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-postgres}
+      - DB_DATABASE=${DB_DATABASE:-saathi_db}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - saathi-network
+
+  # ============================================================================
+  # 10. NestJS D5 Document Store & Metadata Service (Port 5005)
+  # ============================================================================
+  d5-docs:
+    build:
+      context: ./d/D5
+      dockerfile: Dockerfile
+    container_name: saathi-prod-d5-docs
+    restart: always
+    ports:
+      - "5005:5005"
+    environment:
+      - PORT=5005
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USERNAME=${DB_USERNAME:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-postgres}
+      - DB_DATABASE=${DB_DATABASE:-saathi_db}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - saathi-network
+
+  # ============================================================================
+  # 11. NestJS D10 Analytics & Monitoring (Port 5010)
+  # ============================================================================
+  d10-analytics:
+    build:
+      context: ./d/D10
+      dockerfile: Dockerfile
+    container_name: saathi-prod-d10-analytics
+    restart: always
+    ports:
+      - "5010:5010"
+    environment:
+      - PORT=5010
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USERNAME=${DB_USERNAME:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-postgres}
+      - DB_DATABASE=${DB_DATABASE:-saathi_db}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - saathi-network
+
+volumes:
+  postgres_data:
+  redis_data:
+

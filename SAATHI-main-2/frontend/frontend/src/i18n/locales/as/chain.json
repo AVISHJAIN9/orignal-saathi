@@ -1,0 +1,70 @@
+{
+  "eyebrow": "C6 — অনুপালন ঑র্কেস্ট্রেশন",
+  "heading": "অনুপালন শ্রৃংখলা (Compliance Chain)",
+  "subheading": "উত্পাদ ঵র্গীকরণ সে প্রমাণন তক আপকী সংপূর্ণ বীআঈএস অনুপালন যাত্রা৤",
+  "productContext": {
+    "product": "উত্পাদ",
+    "standard": "মানক (Standard)",
+    "status": "঵র্তমান স্থিতি",
+    "selectProduct": "উত্পাদ সংদর্ভ চুনেং",
+    "customQuery": "কস্টম উত্পাদ খোজেং"
+  },
+  "currentPosition": {
+    "title": "঵র্তমান স্থিতি",
+    "completedHeading": "আপনে পূরা কর লিযা হৈ:",
+    "nextRequiredHeading": "আপকী অগলী আ঵শ্যক কার্র঵াঈ হৈ:",
+    "noCompletedYet": "অভী তক কোঈ চরণ পূরা নহীং হুআ হৈ৤",
+    "continueAction": "যাত্রা জারী রখেং"
+  },
+  "nextBestAction": {
+    "title": "সর্঵োত্তম অগলী কার্র঵াঈ (Next Best Action)",
+    "takeAction": "কার্র঵াঈ করেং",
+    "viewDetails": "঵ি঵রণ দেখেং"
+  },
+  "chainJourney": {
+    "title": "অনুপালন যাত্রা",
+    "subtitle": "অনি঵ার্য বীআঈএস নিযামক আ঵শ্যকতাওং কী চরণ-দর-চরণ প্রগতি",
+    "viewStep": "দেখেং",
+    "evidenceVerified": "সাক্ষ্য সত্যাপিত",
+    "documentsCount": "দস্তা঵েজ়: {{available}} / {{required}} অপলোড কিএ গএ ({{missing}} গাযব)",
+    "sourceLabel": "স্রোত:"
+  },
+  "regulatoryOverview": {
+    "title": "নিযামক পদানুক্রম (Regulatory Hierarchy)",
+    "subtitle": "বৈকএংড দ্঵ারা সত্যাপিত আধিকারিক মানক, QCO ঔর যোজনা সংবংধ",
+    "standardLabel": "ভারতীয মানক (IS)",
+    "qcoLabel": "QCO স্থিতি",
+    "schemeLabel": "বীআঈএস যোজনা",
+    "viewSource": "স্রোত দেখেং",
+    "unverifiedSource": "সর্঵র দ্঵ারা স্রোত ঵ি঵রণ অসত্যাপিত"
+  },
+  "states": {
+    "completed": "পূর্ণ (Completed)",
+    "actionRequired": "কার্র঵াঈ আ঵শ্যক (Action Required)",
+    "blocked": "অ঵রুদ্ধ (Blocked)",
+    "notStarted": "শুরূ নহীং হুআ (Not Started)",
+    "notApplicable": "লাগূ নহীং (Not Applicable)",
+    "unavailable": "নির্ধারিত করনে মেং অসমর্থ (Unable to Determine)"
+  },
+  "steps": {
+    "classification": "঵র্গীকরণ",
+    "standard": "ভারতীয মানক",
+    "qco": "গুণ঵ত্তা নিযংত্রণ আদেশ (QCO)",
+    "scheme": "বীআঈএস যোজনা",
+    "requirements": "তকনীকী আ঵শ্যকতাএং",
+    "testing": "উত্পাদ পরীক্ষণ",
+    "laboratory": "প্রযোগশালা মিলান",
+    "documents": "অনুপালন তিজোরী / দস্তা঵েজ়",
+    "compliance": "অনুপালন অংতর",
+    "readiness": "আ঵েদন তৈযারী",
+    "certification": "বীআঈএস প্রমাণন",
+    "radar": "নিযামক নিগরানী"
+  },
+  "errors": {
+    "title": "অভী অনুপালন যাত্রা লোড নহীং কী জা সকী",
+    "description": "হম অনুপালন সে঵া সে নহীং জুড় সকে৤ কৃপযা পুনঃ প্রযাস করেং৤",
+    "retry": "পুনঃ প্রযাস করেং",
+    "emptyTitle": "কোঈ অনুপালন যাত্রা নহীং মিলী",
+    "emptyDescription": "অনুপালন শ্রৃংখলা প্রস্তুত করনে কে লিএ কোঈ উত্পাদ সংদর্ভ যা সত্র পৈরামীটর নহীং মিলে৤"
+  }
+}

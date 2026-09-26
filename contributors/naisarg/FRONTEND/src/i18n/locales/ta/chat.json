@@ -1,0 +1,103 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified).",
+  "title": "SAATHI - இந்திய தரநிலைகள் பற்றி கேளுங்கள்",
+  "logo": "SAATHI",
+  "inputPlaceholder": "இந்திய தரநிலைகள் பற்றி கேளுங்கள்...",
+  "sendAriaLabel": "செய்தியை அனுப்பு",
+  "thinking": "SAATHI யோசிக்கிறது…",
+  "backToHome": "முகப்புக்குத் திரும்பு",
+  "nav": {
+    "dashboard": "டாஷ்போர்டு",
+    "knowledgeNexus": "அறிவு மையம்",
+    "vault": "இணக்க பெட்டகம்",
+    "grievance": "குறை & ஒப்புதல்",
+    "standardsBrowser": "தரநிலை உலாவி",
+    "classification": "தயாரிப்பு வகைப்பாடு",
+    "adminPanel": "நிர்வாகப் பலகை",
+    "documentManagement": "ஆவண மேலாண்மை",
+    "conformityCheck": "இணக்கச் சரிபார்ப்பு",
+    "newApplication": "புதிய விண்ணப்பம்",
+    "notifications": "அறிவிப்புகள்",
+    "regulatoryRadar": "ஒழுங்குமுறை ரேடார்",
+    "intelFeed": "தகவல் ஊட்டம்",
+    "annualRenewal": "வருடாந்திர புதுப்பித்தல்",
+    "documentCortex": "ஆவண கார்டெக்ஸ்",
+    "sampleTracker": "மாதிரி சோதனை கண்காணிப்பான்",
+    "sectionCore": "மு஖்ய",
+    "sectionLifecycle": "ப்ரமாணந ஜீவநசக்ர",
+    "sectionTools": "அநுபாலந உபகரண",
+    "sectionAdmin": "வ்யவஸ்஥ாபக",
+    "retrievalQuality": "புநர்ப்ராப்தி ஗ுணவத்தா",
+    "newRegistration": "நயா பஂஜீகரண",
+    "officerVisits": "அ஧ிகாரீ யாத்ராஏஂ",
+    "documentCorrections": "஦ஸ்தாவேஜ஼ ஸு஧ார",
+    "appealsDisputes": "அபீல ஔர விவா஦",
+    "businessAccount": "வ்யவஸாய ஖ாதா",
+    "certificates": "ப்ரமாணபத்ர",
+    "renewalReminders": "நவீநீகரண அநுஸ்மாரக",
+    "complianceCalendar": "அநுபாலந கைலேஂ஡ர",
+    "factoryAudits": "஫஼ைக்டரீ ஑஡ிட",
+    "recallsAlerts": "ரிக௉ல ஔர அலர்ட",
+    "licenseActions": "லாஇஸேஂஸ கார்ரவாஈ",
+    "feeInvoices": "ஶுல்க சாலாந ஔர ரஸீ஦ேஂ",
+    "manufacturingLocations": "விநிர்மாண ஸ்஥ாந",
+    "schemeSelector": "யோஜநா சயநகர்தா",
+    "complianceChain": "அநுபாலந ஶ்ர௃ஂ஖லா",
+    "laboratoryMatcher": "ப்ரயோ஗ஶாலா மிலாநகர்தா",
+    "regulatoryAlerts": "நியாமக அலர்ட",
+    "exploreFeatures": "ஸுவி஧ாஏஂ ஦ே஖ேஂ"
+  },
+  "placeholder": {
+    "comingSoon": "இது ஒரு இடம்பிடிப்பான் — முழு செயல்பாடு விரைவில் வரும்.",
+    "roleRequired": "உங்கள் தற்போதைய கணக்கிற்கு இந்தப் பக்கத்திற்கான அணுகல் இல்லை — வெளியேறி வேறு கணக்கு வகையுடன் உள்நுழைந்து இதைப் பார்வையிடவும்."
+  },
+  "profile": {
+    "open": "சுயவிவர தனிப்பயனாக்கத்தைத் திற",
+    "editTooltip": "சுயவிவரத்தைத் திருத்து",
+    "title": "சுயவிவர தனிப்பயனாக்கம்",
+    "description": "இந்த சாதனத்தில் உங்கள் Saathi பணியிடம் எப்படி தெரிகிறது என்பதை தனிப்பயனாக்குங்கள்.",
+    "nameLabel": "காட்சிப் பெயர்",
+    "focusLabel": "கவனப் பெயர்",
+    "tones": {
+      "navy": "நேவி அவதார் தொனி",
+      "sage": "சேஜ் அவதார் தொனி",
+      "clay": "கிளே அவதார் தொனி"
+    },
+    "cancel": "ரத்துசெய்",
+    "save": "மாற்றங்களைச் சேமி"
+  },
+  "sidebar": {
+    "navigation": "வழிசெலுத்தல்"
+  },
+  "clearChat": {
+    "emptyTitle": "புதிய உரையாடல்",
+    "emptyDescription": "மீண்டும் தொடங்க ஒரு இந்திய தரநிலை பற்றி SAATHI-இடம் கேளுங்கள்."
+  },
+  "backgroundSettings": {
+    "open": "3D பின்னணி அசைவு அமைப்புகளைத் திற",
+    "title": "3D பின்னணி",
+    "animated": "அசைவூட்டப்பட்டது",
+    "animatedDescription": "மிதக்கும் அசைவு மற்றும் கர்சர் பாரலாக்ஸ்",
+    "paused": "இடைநிறுத்தப்பட்டது",
+    "pausedDescription": "அசைவு இல்லாமல் காட்சியைத் தெரியும்படி வை",
+    "off": "அணை",
+    "offDescription": "அலங்கார 3D காட்சியை மறை",
+    "hint": "மொபைலில் பேட்டரியைப் பாதுகாக்க இலகுவான பயன்முறை உதவும்."
+  },
+  "feedback": {
+    "helpfulAriaLabel": "இந்த பதிலை உதவியாக குறி",
+    "notHelpfulAriaLabel": "இந்த பதிலை உதவாதது என குறி",
+    "commentPrompt": "இந்த பதிலில் என்ன தவறு?",
+    "submit": "சமர்ப்பி",
+    "thanks": "பின்னூட்டத்திற்கு நன்றி."
+  },
+  "starterPrompts": [
+    "பைகேஜ்஡ பேயஜல கே லிஏ கௌந-ஸீ லே஬லிஂ஗ ஆவஶ்யக ஹை?",
+    "LED லாஇடிஂ஗ கே லிஏ BIS லாஇஸேஂஸ கே லிஏ ஆவே஦ந கைஸே கரேஂ?",
+    "ISI ப்ரமாணபத்ர கீ வை஧தா அவ஧ி க்யா ஹை?",
+    "஘ரேலூ உபகரணோஂ கீ வி஦்யுத ஸுரக்ஷா கிஸ மாநக கே அஂதர்஗த ஆதீ ஹை?"
+  ],
+  "newChat": {
+    "trigger": "நஈ சைட"
+  }
+}

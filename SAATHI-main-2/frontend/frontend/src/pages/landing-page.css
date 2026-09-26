@@ -1,0 +1,131 @@
+/*
+ * Landing-page material tokens: warm ivory/charcoal neutrals (never pure
+ * white or pure black — reduces the harsh-contrast eyestrain of #FFF/#000)
+ * carrying an institutional blue accent for CTAs, marks, and full-bleed
+ * bands, the way an official document reads as cream paper with blue ink
+ * and seals rather than a stark black-on-white printout. Scoped to
+ * .saathi-landing so the chat app's own token system (--primary,
+ * --background, etc. in src/index.css) is never touched.
+ */
+.saathi-landing {
+  --plate-ground: oklch(0.97 0.012 75);
+  --plate-ground-deep: oklch(0.93 0.018 73);
+  --plate-surface: oklch(0.9 0.022 72);
+  --plate-ink: oklch(0.28 0.025 60);
+  --plate-muted: oklch(0.52 0.02 60);
+  --plate-line: oklch(0.8 0.018 70);
+  --plate-accent: oklch(0.42 0.11 250);
+  --plate-accent-deep: oklch(0.32 0.1 250);
+  --plate-accent-ground: oklch(0.24 0.075 252);
+  --plate-accent-line: oklch(0.5 0.09 250 / 45%);
+  --plate-shadow-light: oklch(0.97 0.015 75 / 70%);
+  --plate-shadow-dark: oklch(0.22 0.03 55 / 40%);
+
+  /* Base color for the shared AmbientBackground decoration (see src/components/ambient-background.tsx). */
+  --ambient-accent: var(--plate-accent-deep);
+
+  /*
+   * Dedicated text color for content sitting on the permanently-dark
+   * accent bands (TrustSection, ClosingSection, the top nav tagline
+   * strip, the solid StampCta, the active language pill) — their
+   * backgrounds (--plate-accent-ground/--plate-accent-deep) don't change
+   * enough between themes to need the text to change either, so unlike
+   * every other --plate-* token this one carries the SAME value in both
+   * the light and dark blocks below. It used to be borrowed from
+   * --plate-ground, which worked by coincidence only because
+   * --plate-ground's light-mode value happened to be light — once
+   * --plate-ground correctly started tracking the page background (and
+   * therefore going dark in dark mode), that borrowed usage broke into
+   * near-invisible dark-on-dark text. Fixed value is --plate-ground's old
+   * light-mode value.
+   */
+  --plate-on-accent: oklch(0.97 0.012 75);
+
+  /* Standards Browser category tokens - preserves exact palette */
+  --plate-cat-helmets-bg: rgba(216, 185, 167, 0.3);
+  --plate-cat-helmets-fg: #81533e;
+  --plate-cat-appliances-bg: rgba(181, 204, 220, 0.35);
+  --plate-cat-appliances-fg: #2a5874;
+  --plate-cat-gold-bg: rgba(222, 198, 138, 0.38);
+  --plate-cat-gold-fg: #80652d;
+  --plate-cat-water-bg: rgba(182, 213, 215, 0.35);
+  --plate-cat-water-fg: #2d6970;
+  --plate-cat-cookers-bg: rgba(186, 210, 191, 0.38);
+  --plate-cat-cookers-fg: #3f6847;
+  --plate-cat-toys-bg: rgba(216, 192, 216, 0.35);
+  --plate-cat-toys-fg: #754e72;
+
+  /*
+   * Dedicated footer tokens — dark grounding strip anchoring the page
+   * across themes, preventing the footer from inverting into a bright white box.
+   */
+  --plate-footer-bg: oklch(0.24 0.025 60);
+  --plate-footer-border: oklch(0.97 0.012 75 / 15%);
+  --plate-footer-fg: oklch(0.97 0.012 75);
+  --plate-footer-muted: oklch(0.78 0.015 75);
+  --plate-footer-faint: oklch(0.62 0.015 75);
+  --plate-footer-link-underline: oklch(0.97 0.012 75 / 35%);
+}
+
+/*
+ * Dark theme palette for the landing/Legal shell: keeps the same warm
+ * navy/cream identity as the light plate, just inverted — a deep navy
+ * ground and surfaces, cream ink, and a brighter, more luminous accent
+ * blue (the light theme's accent is a deep navy that would disappear
+ * against a dark ground). Values match what was reported from the
+ * reference implementation.
+ */
+.dark .saathi-landing,
+.dark.saathi-landing {
+  --plate-ground: oklch(0.14 0.035 250);
+  --plate-ground-deep: oklch(0.11 0.03 250);
+  --plate-surface: oklch(0.18 0.04 250);
+  --plate-ink: oklch(0.96 0.015 75);
+  --plate-muted: oklch(0.72 0.025 240);
+  --plate-line: oklch(0.28 0.04 250 / 60%);
+  --plate-accent: oklch(0.68 0.14 240);
+  --plate-accent-deep: oklch(0.58 0.16 250);
+  --plate-accent-ground: oklch(0.19 0.05 250);
+  --plate-accent-line: oklch(0.68 0.14 240 / 35%);
+  --plate-shadow-light: oklch(0.25 0.04 250 / 50%);
+  --plate-shadow-dark: oklch(0.04 0.02 250 / 80%);
+
+  --ambient-accent: var(--plate-accent);
+
+  /* Fixed in both themes — see the light block's comment above for why. */
+  --plate-on-accent: oklch(0.97 0.012 75);
+
+  /*
+   * Standards Browser category tokens, dark variant: no reference existed
+   * for these (they're specific to this repo, not present in the
+   * reference file), so each pair was designed here — same hue identity
+   * per category as the light set, with foregrounds lightened to a pastel
+   * tint of that hue (for contrast against the dark ground, the same way
+   * --plate-ink flips dark-on-light to light-on-dark) and backgrounds
+   * shifted to a mid-tone version of the hue so the low-alpha tint still
+   * reads against near-black instead of disappearing into it.
+   */
+  --plate-cat-helmets-bg: rgba(148, 100, 66, 0.28);
+  --plate-cat-helmets-fg: #d9a87e;
+  --plate-cat-appliances-bg: rgba(53, 103, 145, 0.28);
+  --plate-cat-appliances-fg: #8cc2e6;
+  --plate-cat-gold-bg: rgba(163, 129, 56, 0.28);
+  --plate-cat-gold-fg: #e8c778;
+  --plate-cat-water-bg: rgba(48, 118, 120, 0.28);
+  --plate-cat-water-fg: #7ed2d4;
+  --plate-cat-cookers-bg: rgba(62, 117, 79, 0.28);
+  --plate-cat-cookers-fg: #90d19f;
+  --plate-cat-toys-bg: rgba(138, 88, 136, 0.28);
+  --plate-cat-toys-fg: #d7a6d4;
+
+  /*
+   * Dedicated footer tokens (Dark mode) — deep midnight ground (darker than
+   * page background) with crisp luminous accents and high-contrast typography.
+   */
+  --plate-footer-bg: oklch(0.09 0.03 250);
+  --plate-footer-border: oklch(0.28 0.04 250 / 60%);
+  --plate-footer-fg: oklch(0.96 0.015 75);
+  --plate-footer-muted: oklch(0.72 0.025 240);
+  --plate-footer-faint: oklch(0.52 0.025 240);
+  --plate-footer-link-underline: oklch(0.68 0.14 240 / 45%);
+}

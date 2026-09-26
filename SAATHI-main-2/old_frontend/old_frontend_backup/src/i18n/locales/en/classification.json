@@ -1,0 +1,52 @@
+{
+  "eyebrow": "Product Classification · Prototype",
+  "heading": "Classify Your Product",
+  "subheading": "Answer a few questions and SAATHI will match your product to the applicable Indian Standard.",
+  "backToChat": "Back to chat",
+  "disclaimer": "This is an illustrative classification against a small seeded catalogue, not a live BIS determination — verify directly with BIS or the Standards Browser before relying on it.",
+  "stepOf": "Step {{current}} of {{total}}",
+  "loading": "Starting your classification session…",
+  "errors": {
+    "backendUnavailableHeading": "Couldn't start classification",
+    "backendUnavailableBody": "Something went wrong reaching the classification service. Try again.",
+    "retry": "Try again",
+    "submitFailed": "Couldn't submit that answer. Try again."
+  },
+  "steps": {
+    "category": {
+      "question": "What category does your product fall under?"
+    },
+    "applicantType": {
+      "question": "What's your role for this product?"
+    },
+    "description": {
+      "question": "Briefly describe the product.",
+      "placeholder": "e.g. full-face helmet for two-wheeler riders",
+      "helpText": "A short description helps confirm the category you picked."
+    },
+    "safetyCritical": {
+      "question": "Does this product have a safety-critical use — e.g. child use, direct food/water contact, or electrical operation?",
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "back": "Back",
+  "continue": "Continue",
+  "submitting": "Checking…",
+  "restart": "Classify Another Product",
+  "result": {
+    "heading": "Classification Result",
+    "riskTier": {
+      "standard": "Standard Risk",
+      "safety_critical": "Safety-Critical"
+    },
+    "standardLabel": "Applicable Standard",
+    "categoryLabel": "Category",
+    "applicantTypeLabel": "Applicant Type",
+    "descriptionLabel": "Your description",
+    "safetyCriticalNote": "This product was declared to have a safety-critical use — BIS certification for safety-critical categories typically requires additional testing evidence before submission.",
+    "viewStandard": "View Standard",
+    "checkComplianceGaps": "Check Compliance Gaps",
+    "reviewTestingRequirements": "Review Testing Requirements"
+  }
+}

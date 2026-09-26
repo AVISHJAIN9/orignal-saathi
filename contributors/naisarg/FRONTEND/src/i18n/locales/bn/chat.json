@@ -1,0 +1,40 @@
+{
+  "$comment": "AI-generated demo translation (not professionally verified) — scope limited to the empty-conversation state only; everything else falls back to English.",
+  "clearChat": {
+    "emptyTitle": "নতুন কথোপকথন",
+    "emptyDescription": "আবার শুরু করতে একটি ভারতীয় মান সম্পর্কে SAATHI-কে জিজ্ঞাসা করুন।"
+  },
+  "nav": {
+    "sectionCore": "মুখ্য",
+    "sectionLifecycle": "প্রমাণন জী঵নচক্র",
+    "sectionTools": "অনুপালন উপকরণ",
+    "sectionAdmin": "঵্য঵স্থাপক",
+    "standardsBrowser": "মানক ব্রাউজ়র",
+    "adminPanel": "঵্য঵স্থাপক পৈনল",
+    "documentManagement": "দস্তা঵েজ় প্রবংধন",
+    "retrievalQuality": "পুনর্প্রাপ্তি গুণ঵ত্তা",
+    "conformityCheck": "অনুরূপতা জাংচ",
+    "notifications": "সূচনাএং",
+    "regulatoryRadar": "নিযামক রডার",
+    "intelFeed": "ইংটেল ফীড",
+    "documentCortex": "দস্তা঵েজ় ক৉র্টেক্স",
+    "newRegistration": "নযা পংজীকরণ",
+    "officerVisits": "অধিকারী যাত্রাএং",
+    "documentCorrections": "দস্তা঵েজ় সুধার",
+    "appealsDisputes": "অপীল ঔর ঵ি঵াদ",
+    "businessAccount": "঵্য঵সায খাতা",
+    "certificates": "প্রমাণপত্র",
+    "renewalReminders": "ন঵ীনীকরণ অনুস্মারক",
+    "complianceCalendar": "অনুপালন কৈলেংডর",
+    "factoryAudits": "ফ়ৈক্টরী ঑ডিট",
+    "recallsAlerts": "রিক৉ল ঔর অলর্ট",
+    "licenseActions": "লাইসেংস কার্র঵াঈ",
+    "feeInvoices": "শুল্ক চালান ঔর রসীদেং",
+    "manufacturingLocations": "঵িনির্মাণ স্থান",
+    "schemeSelector": "যোজনা চযনকর্তা",
+    "complianceChain": "অনুপালন শ্রৃংখলা",
+    "laboratoryMatcher": "প্রযোগশালা মিলানকর্তা",
+    "regulatoryAlerts": "নিযামক অলর্ট",
+    "exploreFeatures": "সু঵িধাএং দেখেং"
+  }
+}

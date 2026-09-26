@@ -1,0 +1,80 @@
+{
+  "trigger": "ଅପନେ ଉତ୍ପାଦ କା ଵିଵରଣ ଦେନେ ମେଂ ଅସମର୍ଥ ହୈଂ?",
+  "dialogTitle": "ଉତ୍ପାଦ ଵର୍ଗୀକରଣ ଵିଜ଼ାର୍ଡ",
+  "dialogDescription": "କୁଛ ଆସାନ ସଵାଲୋଂ କେ ଜଵାବ ଦେଂ — ହମ ଉନ୍ହେଂ ସାଥୀ କେ ଲିଏ ଏକ ସଵାଲ ମେଂ ବଦଲ ଦେଂଗେ୤",
+  "stepOf": "ଚରଣ {{current}} / {{total}}",
+  "back": "ପୀଛେ",
+  "getAnswer": "ଉତ୍ତର ପାଏଂ",
+  "steps": {
+    "category": {
+      "question": "ଆପକା ଉତ୍ପାଦ କିସ ଶ୍ରେଣୀ ମେଂ ଆତା ହୈ?",
+      "options": {
+        "helmets": {
+          "label": "ଵ୍ଯକ୍ତିଗତ ସୁରକ୍ଷା",
+          "clause": "ଵ୍ଯକ୍ତିଗତ ସୁରକ୍ଷା"
+        },
+        "appliances": {
+          "label": "ଘରେଲୂ ଉପକରଣ",
+          "clause": "ଘରେଲୂ ଉପକରଣ"
+        },
+        "gold": {
+          "label": "ଆଭୂଷଣ",
+          "clause": "ଆଭୂଷଣ"
+        },
+        "water": {
+          "label": "ଖାଦ୍ଯ ଏଵଂ ପାନୀ",
+          "clause": "ଖାଦ୍ଯ ଯା ପାନୀ"
+        },
+        "cookers": {
+          "label": "ବର୍ତନ",
+          "clause": "ବର୍ତନ"
+        },
+        "toys": {
+          "label": "ଖିଲୌନେ",
+          "clause": "ଖିଲୌନା"
+        }
+      }
+    },
+    "audience": {
+      "question": "ଯହ କିସକେ ଲିଏ ହୈ?",
+      "options": {
+        "consumer": {
+          "label": "ଉପଭୋକ୍ତା ଉପଯୋଗ",
+          "clause": "ଉପଭୋକ୍ତା ଉପଯୋଗ"
+        },
+        "commercial": {
+          "label": "ଵ୍ଯାଵସାଯିକ ବିକ୍ରୀ",
+          "clause": "ଵ୍ଯାଵସାଯିକ ବିକ୍ରୀ"
+        },
+        "import": {
+          "label": "ଆଯାତ",
+          "clause": "ଆଯାତ"
+        }
+      }
+    },
+    "need": {
+      "question": "ଆପକୋ କ୍ଯା ଜାନନା ହୈ?",
+      "options": {
+        "standard": {
+          "label": "କୌନ ସା ମାନକ ଲାଗୂ ହୋତା ହୈ",
+          "questionText": "ଇସ ପର କୌନ ସା ମାନକ ଲାଗୂ ହୋତା ହୈ?"
+        },
+        "certification": {
+          "label": "ପ୍ରମାଣନ ପ୍ରକ୍ରିଯା",
+          "questionText": "ପ୍ରମାଣନ ପ୍ରକ୍ରିଯା କ୍ଯା ହୈ?"
+        },
+        "testing": {
+          "label": "ପରୀକ୍ଷଣ ଆଵଶ୍ଯକତାଏଂ",
+          "questionText": "ଇସକେ ଲିଏ କୌନ ସୀ ପରୀକ୍ଷଣ ଆଵଶ୍ଯକତାଏଂ ପୂରୀ କରନୀ ହୋଂଗୀ?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "ଅପନେ ଉତ୍ତର ଦେଖେଂ",
+    "category": "ଶ୍ରେଣୀ",
+    "audience": "ଉପଯୋଗ",
+    "need": "ଆପ କ୍ଯା ଜାନନା ଚାହତେ ହୈଂ"
+  },
+  "generatedQuestion": "ମେରେ ପାସ ଏକ {{category}} ଉତ୍ପାଦ ହୈ, {{audience}} କେ ଲିଏ୤ {{needQuestion}}"
+}

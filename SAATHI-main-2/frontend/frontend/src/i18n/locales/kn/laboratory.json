@@ -1,0 +1,84 @@
+{
+  "eyebrow": "C7 — ಪರೀಕ್ಷಣ ಏವಂ ಪ್ರಯೋಗಶಾಲಾ ಬುದ್ಧಿಮತ್ತಾ",
+  "title": "ಇಂಟೇಲಿಜೇಂಟ ಪ್ರಯೋಗಶಾಲಾ ಮೈಚರ",
+  "subtitle": "ಅಪನೇ ಉತ್ಪಾದ ಕೇ ಲಿಏ ಆವಶ್ಯಕ ಪರೀಕ್ಷಣ ಕರನೇ ಮೇಂ ಸಕ್ಷಮ ಸತ್ಯಾಪಿತ ಪ್ರಯೋಗಶಾಲಾಏಂ ಖೋಜೇಂ೤",
+  "context": {
+    "title": "ಉತ್ಪಾದ ಏವಂ ಪರೀಕ್ಷಣ ಸಂದರ್ಭ",
+    "product": "ಉತ್ಪಾದ",
+    "standard": "ಮಾನಕ",
+    "scheme": "ಯೋಜನಾ (ಸ್ಕೀಮ)",
+    "requiredTestsCount": "ಆವಶ್ಯಕ ಪರೀಕ್ಷಣ",
+    "noStandardWarning": "ಆವಶ್ಯಕ ಪರೀಕ್ಷಣ ಪಥ ಕೀ ಪಹಚಾನ ಕರನೇ ಸೇ ಪಹಲೇ ಏಕ ಲಾಗೂ ಭಾರತೀಯ ಮಾನಕ ಆವಶ್ಯಕ ಹೈ೤",
+    "chooseStandard": "ಮಾನಕ ಚುನೇಂ",
+    "selectProduct": "ಉತ್ಪಾದ ಚುನೇಂ"
+  },
+  "requiredTests": {
+    "title": "ಆವಶ್ಯಕ ಪರೀಕ್ಷಣ",
+    "mandatoryCount_one": "{{count}} ಅನಿವಾರ್ಯ ಪರೀಕ್ಷಣ",
+    "mandatoryCount_other": "{{count}} ಅನಿವಾರ್ಯ ಪರೀಕ್ಷಣ",
+    "noTestsWarning": "ಇಸ ಅನುಪಾಲನ ಪಥ ಕೇ ಲಿಏ ಕೋಈ ಸತ್ಯಾಪಿತ ಪರೀಕ್ಷಣ ಆವಶ್ಯಕತಾಏಂ ನಹೀಂ ಮಿಲೀಂ೤"
+  },
+  "preferences": {
+    "title": "ಪ್ರಾಥಮಿಕತಾಏಂ ಔರ ಫ಼ಿಲ್ಟರ",
+    "locationLabel": "ಸ್ಥಾನ / ಶಹರ",
+    "locationPlaceholder": "ಉದಾ. ಬೇಂಗಲುರು, ದಿಲ್ಲೀ, ಮುಂಬಈ",
+    "distanceLabel": "ಅಧಿಕತಮ ದೂರೀ",
+    "distanceAny": "ಕೋಈ ಭೀ ದೂರೀ",
+    "distance50": "50 ಕಿಮೀ ಕೇ ಭೀತರ",
+    "distance100": "100 ಕಿಮೀ ಕೇ ಭೀತರ",
+    "distance250": "250 ಕಿಮೀ ಕೇ ಭೀತರ",
+    "distance500": "500 ಕಿಮೀ ಕೇ ಭೀತರ",
+    "accreditationLabel": "ಮಾನ್ಯತಾ ಫ಼ಿಲ್ಟರ",
+    "accreditationAll": "ಸಭೀ ಪ್ರಯೋಗಶಾಲಾಏಂ",
+    "accreditationVerified": "ಕೇವಲ ಸತ್ಯಾಪಿತ ಮಾನ್ಯತಾ ಪ್ರಾಪ್ತ",
+    "findLabsButton": "ಪ್ರಯೋಗಶಾಲಾಏಂ ಖೋಜೇಂ",
+    "searchingLabs": "ಪ್ರಯೋಗಶಾಲಾಏಂ ಖೋಜೀ ಜಾ ರಹೀ ಹೈಂ..."
+  },
+  "results": {
+    "bestMatchHeading": "ಸರ್ವಶ್ರೇಷ್ಠ ಮೈಚ",
+    "otherMatchesHeading": "ಅನ್ಯ ಮಿಲಾನ ಪ್ರಯೋಗಶಾಲಾಏಂ",
+    "viewDetails": "ವಿವರಣ ದೇಖೇಂ",
+    "selectLab": "ಪ್ರಯೋಗಶಾಲಾ ಚುನೇಂ",
+    "labSelected": "ಪ್ರಯೋಗಶಾಲಾ ಕಾ ಚಯನ ಹುಆ",
+    "matchScore": "{{score}}% ಮೈಚ",
+    "testsCovered": "{{covered}} / {{total}} ಪರೀಕ್ಷಣ ಶಾಮಿಲ",
+    "fullCoverage": "ಪೂರ್ಣ ಪರೀಕ್ಷಣ ಕವರೇಜ ಸತ್ಯಾಪಿತ",
+    "partialCoverage": "ಆಂಶಿಕ ಪರೀಕ್ಷಣ ಕವರೇಜ",
+    "verified": "ಸತ್ಯಾಪಿತ",
+    "unverified": "ಅಸತ್ಯಾಪಿತ",
+    "unknown": "ಕ್ಷಮತಾ ಅಜ್ಞಾತ",
+    "locationFit": "ಸ್ಥಾನ: {{location}}",
+    "distanceKm": "{{distance}} ಕಿಮೀ ದೂರ"
+  },
+  "breakdown": {
+    "title": "ಮೈಚ ಸ್ಕೋರ ವಿವರಣ",
+    "testCoverage": "ಪರೀಕ್ಷಣ ಕವರೇಜ",
+    "standardMatch": "ಮಾನಕ ಮಿಲಾನ",
+    "accreditation": "ಮಾನ್ಯತಾ ಪ್ರಾಪ್ತ ಹೋನಾ",
+    "locationFit": "ಸ್ಥಾನ ಉಪಯುಕ್ತತಾ"
+  },
+  "details": {
+    "title": "ಪ್ರಯೋಗಶಾಲಾ ಪ್ರೋಫ಼ಾಇಲ ಔರ ಕ್ಷಮತಾಏಂ",
+    "location": "ಸ್ಥಾನ",
+    "capabilities": "ಪರೀಕ್ಷಣ ಕ್ಷಮತಾಏಂ",
+    "standards": "ಪ್ರಾಸಂಗಿಕ ಭಾರತೀಯ ಮಾನಕ",
+    "accreditation": "ಮಾನ್ಯತಾ ಸ್ಥಿತಿ",
+    "contact": "ಸತ್ಯಾಪಿತ ಸಂಪರ್ಕ ಜಾನಕಾರೀ",
+    "source": "ಆಧಿಕಾರಿಕ ಸ್ರೋತ ಸತ್ಯಾಪನ",
+    "viewSource": "ಆಧಿಕಾರಿಕ ಸ್ರೋತ ದೇಖೇಂ",
+    "viewWebsite": "ಆಧಿಕಾರಿಕ ವೇಬಸಾಇಟ ದೇಖೇಂ",
+    "email": "ಈಮೇಲ",
+    "phone": "ಫ಼ೋನ",
+    "close": "ಬಂದ ಕರೇಂ"
+  },
+  "states": {
+    "noMatchesTitle": "ಕೋಈ ಸತ್ಯಾಪಿತ ಪ್ರಯೋಗಶಾಲಾ ನಹೀಂ ಮಿಲೀ",
+    "noMatchesMsg": "ಆಪಕೀ ವರ್ತಮಾನ ಮಾಪದಂಡೋಂ ಕೇ ಅನುಸಾರ ಆವಶ್ಯಕ ಪರೀಕ್ಷಣ ಕೇ ಲಿಏ ಕೋಈ ಸತ್ಯಾಪಿತ ಪ್ರಯೋಗಶಾಲಾ ನಹೀಂ ಮಿಲೀ೤",
+    "partialMatchesNotice": "ಕೋಈ ಭೀ ಏಕಲ ಸತ್ಯಾಪಿತ ಪ್ರಯೋಗಶಾಲಾ ಸಭೀ ಆವಶ್ಯಕ ಪರೀಕ್ಷಣೋಂ ಕೋ ಕವರ ನಹೀಂ ಕರತೀ ಹೈ೤ ಸರ್ವಶ್ರೇಷ್ಠ ಉಪಲಬ್ಧ ಆಂಶಿಕ ಮೈಚ ನೀಚೇ ದಿಖಾಏ ಗಏ ಹೈಂ೤",
+    "errorTitle": "ಪ್ರಯೋಗಶಾಲಾ ಮಿಲಾನ ಸೇವಾ ಅನುಪಲಬ್ಧ",
+    "errorMsg": "ಪ್ರಯೋಗಶಾಲಾ ಮಿಲಾನ ಸೇವಾ ಅಸ್ಥಾಯೀ ರೂಪ ಸೇ ಅನುಪಲಬ್ಧ ಹೈ೤",
+    "retry": "ಪುನಃ ಪ್ರಯಾಸ ಕರೇಂ",
+    "emptyContextTitle": "ಅನುಪಾಲನ ಸಂದರ್ಭ ನಿರ್ದಿಷ್ಟ ಕರೇಂ",
+    "emptyContextMsg": "ಆವಶ್ಯಕ ಪರೀಕ್ಷಣೋಂ ಔರ ಉಪಯುಕ್ತ ಪ್ರಯೋಗಶಾಲಾಓಂ ಕೀ ಪಹಚಾನ ಕರನೇ ಕೇ ಲಿಏ ಅಪನಾ ಉತ್ಪಾದ ಯಾ ಅನುಪಾಲನ ಪಥ ಚುನೇಂ೤"
+  }
+}

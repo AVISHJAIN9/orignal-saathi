@@ -1,0 +1,53 @@
+{
+  "trigger": "ਆਪਣੇ ਉਤਪਾਦ ਦਾ ਵਰਣਨ ਕਰਨ ਵਿੱਚ ਯਕੀਨੀ ਨਹੀਂ ਹੋ?",
+  "dialogTitle": "ਉਤਪਾਦ ਵਰਗੀਕਰਨ ਵਿਜ਼ਾਰਡ",
+  "dialogDescription": "ਕੁਝ ਤੇਜ਼ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦਿਓ ਅਤੇ ਅਸੀਂ ਉਹਨਾਂ ਨੂੰ SAATHI ਲਈ ਇੱਕ ਸਵਾਲ ਵਿੱਚ ਬਦਲ ਦੇਵਾਂਗੇ।",
+  "stepOf": "ਪੜਾਅ {{current}} / {{total}}",
+  "back": "ਪਿੱਛੇ",
+  "getAnswer": "ਜਵਾਬ ਪ੍ਰਾਪਤ ਕਰੋ",
+  "steps": {
+    "category": {
+      "question": "ਤੁਹਾਡਾ ਉਤਪਾਦ ਕਿਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ ਆਉਂਦਾ ਹੈ?",
+      "options": {
+        "helmets": { "label": "ਨਿੱਜੀ ਸੁਰੱਖਿਆ", "clause": "ਨਿੱਜੀ ਸੁਰੱਖਿਆ" },
+        "appliances": { "label": "ਘਰੇਲੂ ਉਪਕਰਨ", "clause": "ਘਰੇਲੂ ਉਪਕਰਨ" },
+        "gold": { "label": "ਗਹਿਣੇ", "clause": "ਗਹਿਣੇ" },
+        "water": { "label": "ਭੋਜਨ ਅਤੇ ਪਾਣੀ", "clause": "ਭੋਜਨ ਜਾਂ ਪਾਣੀ" },
+        "cookers": { "label": "ਰਸੋਈ ਦੇ ਭਾਂਡੇ", "clause": "ਰਸੋਈ ਦੇ ਭਾਂਡੇ" },
+        "toys": { "label": "ਖਿਡੌਣੇ", "clause": "ਖਿਡੌਣਾ" }
+      }
+    },
+    "audience": {
+      "question": "ਇਹ ਕਿਸ ਲਈ ਹੈ?",
+      "options": {
+        "consumer": { "label": "ਉਪਭੋਗਤਾ ਵਰਤੋਂ", "clause": "ਉਪਭੋਗਤਾ ਵਰਤੋਂ" },
+        "commercial": { "label": "ਵਪਾਰਕ ਵਿਕਰੀ", "clause": "ਵਪਾਰਕ ਵਿਕਰੀ" },
+        "import": { "label": "ਆਯਾਤ", "clause": "ਆਯਾਤ" }
+      }
+    },
+    "need": {
+      "question": "ਤੁਹਾਨੂੰ ਕੀ ਜਾਣਨ ਦੀ ਲੋੜ ਹੈ?",
+      "options": {
+        "standard": {
+          "label": "ਕਿਹੜਾ ਮਾਨਕ ਲਾਗੂ ਹੁੰਦਾ ਹੈ",
+          "questionText": "ਇਸ 'ਤੇ ਕਿਹੜਾ ਮਾਨਕ ਲਾਗੂ ਹੁੰਦਾ ਹੈ?"
+        },
+        "certification": {
+          "label": "ਪ੍ਰਮਾਣੀਕਰਨ ਪ੍ਰਕਿਰਿਆ",
+          "questionText": "ਪ੍ਰਮਾਣੀਕਰਨ ਪ੍ਰਕਿਰਿਆ ਕੀ ਹੈ?"
+        },
+        "testing": {
+          "label": "ਟੈਸਟਿੰਗ ਲੋੜਾਂ",
+          "questionText": "ਇਸ ਲਈ ਕਿਹੜੀਆਂ ਟੈਸਟਿੰਗ ਲੋੜਾਂ ਪੂਰੀਆਂ ਕਰਨੀਆਂ ਪੈਣਗੀਆਂ?"
+        }
+      }
+    }
+  },
+  "summary": {
+    "title": "ਆਪਣੇ ਜਵਾਬ ਵੇਖੋ",
+    "category": "ਸ਼੍ਰੇਣੀ",
+    "audience": "ਵਰਤੋਂ",
+    "need": "ਤੁਸੀਂ ਕੀ ਜਾਣਨਾ ਚਾਹੁੰਦੇ ਹੋ"
+  },
+  "generatedQuestion": "ਮੇਰੇ ਕੋਲ ਇੱਕ {{category}} ਉਤਪਾਦ ਹੈ, {{audience}} ਲਈ। {{needQuestion}}"
+}

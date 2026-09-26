@@ -1,0 +1,48 @@
+{
+  "eyebrow": "Your Account · Prototype",
+  "heading": "Your Profile",
+  "backToChat": "Back to chat",
+  "disclaimer": "This is a prototype account page backed by a mock sign-in — nothing here is a real BIS-issued identity or credential.",
+  "tabs": {
+    "identity": "Identity",
+    "preferences": "Preferences",
+    "account": "Account & Access",
+    "activity": "Activity"
+  },
+  "identity": {
+    "heading": "Identity",
+    "body": "Set once at sign-in by this prototype's mock session — there's no edit form here because nothing in this demo actually updates it."
+  },
+  "preferences": {
+    "heading": "Preferences",
+    "body": "How SAATHI addresses you and sounds while you chat — saved on this device only.",
+    "languageLabel": "Language",
+    "saved": "Saved",
+    "sms": {
+      "heading": "SMS Notifications",
+      "intro": "This prototype has no SMS provider and no phone number on your account, so these are non-functional toggles scaffolding a future integration — not a working feature.",
+      "categories": {
+        "renewalAlerts": {
+          "label": "Renewal & expiry alerts",
+          "description": "An SMS reminder before a certification or licence renewal is due."
+        },
+        "criticalStatusChanges": {
+          "label": "Critical status changes",
+          "description": "An SMS when an application or payment status changes critically (e.g. rejected, overdue)."
+        }
+      },
+      "unavailableNote": "Not available in this prototype — requires backend SMS integration."
+    }
+  },
+  "account": {
+    "heading": "Account & Access",
+    "body": "Your current role and where to find the rest of your work.",
+    "roleLabel": "Role",
+    "linksHeading": "Go to"
+  },
+  "activity": {
+    "heading": "Recent Activity",
+    "body": "Sourced from your active applications — the same feed your dashboard shows.",
+    "empty": "No recent activity yet."
+  }
+}
