@@ -14,6 +14,11 @@ export default defineConfig({
       // Needed only for the temporary sandbox preview URL; localhost remains available without this.
       allowedHosts: true,
     },
+    preview: {
+      host: "0.0.0.0",
+      port: Number(process.env.PORT) || 3000,
+      allowedHosts: true,
+    },
   },
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
