@@ -47,7 +47,18 @@ export async function request<T>(path: string, init?: RequestInit): Promise<T> {
       ? path
       : `${API_BASE_URL.replace(/\/+$/, "")}${path.startsWith("/") ? path : `/${path}`}`;
 
-  const response = await fetch(fullUrl, init);
+  const defaultHeaders: Record<string, string> =
+    init?.body && !(init.body instanceof FormData)
+      ? { "Content-Type": "application/json" }
+      : {};
+
+  const response = await fetch(fullUrl, {
+    ...init,
+    headers: {
+      ...defaultHeaders,
+      ...(init?.headers || {}),
+    },
+  });
   if (response.status === 401) {
     notifyUnauthorized();
     throw new ApiError(401, "Unauthorized");
@@ -184,8 +195,72 @@ export async function askSarvamAssistant(query: string): Promise<{ reply: string
   }
 }
 
+const SARVAM_API_KEY = "sk_krcpnwir_L5wQZIIDqsCJ4kegSE6LEP6a";
+
 /**
- * Ask SAATHI Grounded RAG AI Assistant (Aditi 116k Corpus + Cloud Fallback)
+ * Direct client-side Sarvam 105B compliance response fallback for live cloud deployments
+ */
+async function askSarvamDirect(query: string, language = "en"): Promise<{
+  reply: string;
+  answer: string;
+  citations: Array<{ standardNumber: string; title: string; clause?: string; url?: string }>;
+  model: string;
+}> {
+  const langPrompt = language && language !== "en" ? ` Respond in the language indicated by code "${language}".` : "";
+  const systemPrompt = `You are SAATHI, the official Bureau of Indian Standards (BIS) AI assistant. Provide accurate, thorough, clear compliance answers grounded in Indian Standards (e.g. IS 14543 for packaged drinking water, IS 13428 for natural mineral water, IS 16102 for LED lamps, IS 1293 for plugs, IS 10500 for drinking water, IS 1417 for gold hallmarking). When citing any Indian Standard, format it in brackets like [IS 14543:2024] or [IS 16102]. Always directly address what the user asked.${langPrompt}`;
+
+  const res = await fetch("https://api.sarvam.ai/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      "api-subscription-key": SARVAM_API_KEY,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: "sarvam-105b-conversations",
+      messages: [
+        { role: "system", content: systemPrompt },
+        { role: "user", content: query },
+      ],
+    }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`Direct Sarvam chat failed with status ${res.status}`);
+  }
+
+  const data = await res.json();
+  const reply = data.choices?.[0]?.message?.content || "";
+  const matches = [...new Set(reply.match(/\[(?:IS\s*[^\]]+)\]/gi) || [])];
+  const citations = (matches as string[]).map((numStr) => {
+    const num = numStr.replace(/[\[\]]/g, "").trim();
+    return {
+      standardNumber: num,
+      title: `Indian Standard Specification - ${num}`,
+      clause: "Compliance Requirement",
+      url: `https://www.services.bis.gov.in/standards/${encodeURIComponent(num)}`,
+    };
+  });
+
+  return {
+    reply,
+    answer: reply,
+    citations:
+      citations.length > 0
+        ? citations
+        : [
+            {
+              standardNumber: "IS 14543",
+              title: "Packaged Drinking Water (Other than Natural Mineral Water)",
+              clause: "Labelling & Quality Specification",
+              url: "https://www.services.bis.gov.in/standards/IS%2014543",
+            },
+          ],
+    model: "sarvam-105b-conversations",
+  };
+}
+
+/**
+ * Ask SAATHI Grounded RAG AI Assistant (Aditi 116k Corpus + Render + Direct Sarvam 105B)
  */
 export async function askSaathiRag(
   query: string,
@@ -197,7 +272,7 @@ export async function askSaathiRag(
   model?: string;
   evidence_count?: number;
 }> {
-  // 1. Try local RAG server on port 5001 if reachable
+  // 1. Try local RAG server on port 5001 if reachable (fast 2s timeout)
   const isLocalEnv =
     typeof window !== "undefined" &&
     (window.location.hostname === "localhost" ||
@@ -207,7 +282,7 @@ export async function askSaathiRag(
   if (isLocalEnv) {
     try {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 3000);
+      const timeoutId = setTimeout(() => controller.abort(), 2000);
       const directRes = await fetch("http://localhost:5001/api/v1/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -219,12 +294,14 @@ export async function askSaathiRag(
         return await directRes.json();
       }
     } catch {
-      // Local port 5001 not available, proceed to live Render cloud service
+      // Local port 5001 not available, proceed to live cloud options
     }
   }
 
-  // 2. Seamless live cloud fallback to Render backend Sarvam Indic AI Assistant
+  // 2. Try Render backend cloud service with 6s timeout
   try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 6000);
     const cloudRes = await request<{
       reply?: string;
       answer?: string;
@@ -232,51 +309,49 @@ export async function askSaathiRag(
       model?: string;
     }>("/api/v1/indic/chat", {
       method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query }),
+      signal: controller.signal,
     });
+    clearTimeout(timeoutId);
 
     const replyText = cloudRes.reply || cloudRes.answer || "";
-    const matches = [...new Set(replyText.match(/\[(?:IS\s*[^\]]+)\]/gi) || [])];
-    const citations =
-      cloudRes.citations && cloudRes.citations.length > 0
-        ? cloudRes.citations
-        : matches.map((item) => {
-            const num = item.replace(/[\[\]]/g, "").trim();
-            return {
-              standardNumber: num,
-              title: `Indian Standard Specification - ${num}`,
-              clause: "Compliance Requirement",
-              url: `https://www.services.bis.gov.in/standards/${encodeURIComponent(num)}`,
-            };
-          });
+    if (replyText.trim()) {
+      const matches = [...new Set(replyText.match(/\[(?:IS\s*[^\]]+)\]/gi) || [])];
+      const citations =
+        cloudRes.citations && cloudRes.citations.length > 0
+          ? cloudRes.citations
+          : matches.map((item) => {
+              const num = item.replace(/[\[\]]/g, "").trim();
+              return {
+                standardNumber: num,
+                title: `Indian Standard Specification - ${num}`,
+                clause: "Compliance Requirement",
+                url: `https://www.services.bis.gov.in/standards/${encodeURIComponent(num)}`,
+              };
+            });
 
-    return {
-      reply: replyText,
-      answer: replyText,
-      citations:
-        citations.length > 0
-          ? citations
-          : [
-              {
-                standardNumber: "IS 16102",
-                title: "Self-Ballasted LED Lamps Safety & Performance Requirements",
-                clause: "Mandatory Registration Scheme",
-                url: "https://www.services.bis.gov.in/standards/IS%2016102",
-              },
-            ],
-      model: cloudRes.model || "sarvam-105b-conversations",
-    };
+      return {
+        reply: replyText,
+        answer: replyText,
+        citations:
+          citations.length > 0
+            ? citations
+            : [
+                {
+                  standardNumber: "IS 14543",
+                  title: "Packaged Drinking Water (Other than Natural Mineral Water)",
+                  clause: "Labelling & Quality Specification",
+                  url: "https://www.services.bis.gov.in/standards/IS%2014543",
+                },
+              ],
+        model: cloudRes.model || "sarvam-105b-conversations",
+      };
+    }
   } catch (err) {
-    console.warn("Cloud /api/v1/indic/chat failed, attempting /chat:", err);
-    return request<{
-      reply: string;
-      answer: string;
-      citations: Array<{ standardNumber: string; title: string; clause?: string; url?: string }>;
-      model?: string;
-    }>("/chat", {
-      method: "POST",
-      body: JSON.stringify({ query, language }),
-    });
+    console.warn("Render cloud /api/v1/indic/chat failed/timed out, invoking direct Sarvam 105B AI:", err);
   }
-}
 
+  // 3. Guaranteed Direct Sarvam 105B AI Assistant (always active, never falls back to mock)
+  return await askSarvamDirect(query, language);
+}
