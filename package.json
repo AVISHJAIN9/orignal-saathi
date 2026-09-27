@@ -1,0 +1,12 @@
+{
+  "name": "orignal-saathi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SAATHI (SIH26107 - BIS Standards Assistant) Production Monorepo",
+  "scripts": {
+    "build": "node scripts/build-vercel.js",
+    "build:frontend": "node scripts/build-vercel.js",
+    "build:backend": "npm --prefix contributors/naisarg/backend_extra_clean run build",
+    "start:backend": "npm --prefix contributors/naisarg/backend_extra_clean run start:prod"
+  }
+}

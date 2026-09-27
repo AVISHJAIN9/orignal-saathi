@@ -11,6 +11,10 @@ build/
 **/build/
 .output/
 **/.output/
+.vercel/
+**/.vercel/
+.wrangler/
+**/.wrangler/
 .tanstack/
 **/.tanstack/
 .nitro/
