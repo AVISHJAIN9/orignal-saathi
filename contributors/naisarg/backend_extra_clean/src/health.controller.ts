@@ -32,4 +32,12 @@ export class HealthController {
       timestamp: new Date().toISOString()
     };
   }
+
+  @Public()
+  @Get('favicon.ico')
+  @HttpCode(HttpStatus.NO_CONTENT)
+  @ApiOperation({ summary: 'Favicon no-content handler to avoid 404 logs' })
+  getFavicon() {
+    return;
+  }
 }
