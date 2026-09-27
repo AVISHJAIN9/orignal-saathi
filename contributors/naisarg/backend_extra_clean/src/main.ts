@@ -18,6 +18,15 @@ async function bootstrap() {
     }
   });
 
+  // Early middleware to intercept GET /favicon.ico immediately with 204 No Content
+  app.use((req: any, res: any, next: any) => {
+    if (req.url === '/favicon.ico' || req.originalUrl === '/favicon.ico' || req.path === '/favicon.ico') {
+      res.status(204).end();
+      return;
+    }
+    next();
+  });
+
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
