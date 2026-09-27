@@ -121,7 +121,11 @@ export function SampleTrackerPage() {
         {loading ? (
           <div className="flex flex-col gap-4">
             <LoadingMessage
-              messages={t("loadingMessages", { returnObjects: true }) as string[]}
+              messages={
+                Array.isArray(t("loadingMessages", { returnObjects: true }))
+                  ? (t("loadingMessages", { returnObjects: true }) as string[])
+                  : []
+              }
               className="text-xs font-medium text-muted-foreground"
             />
             <Skeleton className="h-24 w-full rounded-2xl" />
