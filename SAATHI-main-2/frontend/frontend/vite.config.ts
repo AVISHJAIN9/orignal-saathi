@@ -25,7 +25,9 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { 
       entry: "server",
-      preset: "node-server" // Overrides the Cloudflare default for standard Node.js hosting
+      preset: process.env.VERCEL
+        ? "vercel"
+        : (process.env.NITRO_PRESET || "node-server"),
     },
   },
 });
