@@ -46,6 +46,13 @@ export class T10304OcrController implements OnModuleInit, OnModuleDestroy {
     const connection = getRedisConnectionOptions();
     this.certQueue = new Queue('cert-validation', { connection });
     this.consignmentQueue = new Queue('consignment-bulk', { connection });
+
+    this.certQueue.on('error', (err) => {
+      this.logger.warn(`BullMQ certQueue error: ${err?.message || err}`);
+    });
+    this.consignmentQueue.on('error', (err) => {
+      this.logger.warn(`BullMQ consignmentQueue error: ${err?.message || err}`);
+    });
   }
 
   onModuleInit() {
@@ -77,6 +84,10 @@ export class T10304OcrController implements OnModuleInit, OnModuleDestroy {
       },
       { connection }
     );
+
+    this.embeddedWorker.on('error', (err) => {
+      this.logger.warn(`BullMQ embeddedWorker error: ${err?.message || err}`);
+    });
 
     this.logger.log('BullMQ Queue (cert-validation) & Worker initialized on Redis.');
   }

@@ -47,6 +47,9 @@ export class T122ConsignmentBulkController implements OnModuleDestroy {
   constructor(private readonly db: DatabaseService) {
     const connection = getRedisConnectionOptions();
     this.consignmentQueue = new Queue('consignment-bulk', { connection });
+    this.consignmentQueue.on('error', (err) => {
+      this.logger.warn(`BullMQ consignmentQueue error: ${err?.message || err}`);
+    });
   }
 
   async onModuleDestroy() {

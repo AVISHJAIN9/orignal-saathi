@@ -30,6 +30,9 @@ export class Tier3Controller implements OnModuleDestroy {
   constructor(private readonly db: DatabaseService) {
     const connection = getRedisConnectionOptions();
     this.officerQueue = new Queue('officer-escalations', { connection });
+    this.officerQueue.on('error', (err) => {
+      this.logger.warn(`BullMQ officerQueue error: ${err?.message || err}`);
+    });
   }
 
   async onModuleDestroy() {

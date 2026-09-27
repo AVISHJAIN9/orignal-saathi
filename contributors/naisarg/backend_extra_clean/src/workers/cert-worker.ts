@@ -47,6 +47,10 @@ certWorker.on('failed', (job: Job | undefined, err: Error) => {
   console.error(`[cert-validation] Job ${job?.id} FAILED:`, err);
 });
 
+certWorker.on('error', (err: Error) => {
+  console.error('[cert-validation] Worker error:', err?.message || err);
+});
+
 // 2. Worker for 'consignment-bulk' queue
 export const consignmentWorker = new Worker(
   'consignment-bulk',
@@ -70,6 +74,10 @@ export const consignmentWorker = new Worker(
   { connection }
 );
 
+consignmentWorker.on('error', (err: Error) => {
+  console.error('[consignment-bulk] Worker error:', err?.message || err);
+});
+
 // 3. Worker for 'officer-escalations' queue
 export const escalationWorker = new Worker(
   'officer-escalations',
@@ -84,5 +92,9 @@ export const escalationWorker = new Worker(
   },
   { connection }
 );
+
+escalationWorker.on('error', (err: Error) => {
+  console.error('[officer-escalations] Worker error:', err?.message || err);
+});
 
 console.log('✅ SAATHI BullMQ Workers listening on cert-validation, consignment-bulk, and officer-escalations queues.');
