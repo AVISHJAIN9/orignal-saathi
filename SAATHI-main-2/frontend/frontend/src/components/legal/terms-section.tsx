@@ -16,14 +16,17 @@ import { Reveal } from "@/components/landing/reveal";
 export function TermsSection() {
   const { t } = useTranslation("legal");
 
-  const acceptableUseItems =
-    (t("terms.sections.acceptableUse.items", {
-      returnObjects: true,
-    }) as string[]) || [];
+  const rawAcceptable = t("terms.sections.acceptableUse.items", {
+    returnObjects: true,
+  });
+  const acceptableUseItems: string[] = Array.isArray(rawAcceptable)
+    ? (rawAcceptable as string[])
+    : [];
 
-  const accuracyItems =
-    (t("terms.sections.accuracy.items", { returnObjects: true }) as string[]) ||
-    [];
+  const rawAccuracy = t("terms.sections.accuracy.items", { returnObjects: true });
+  const accuracyItems: string[] = Array.isArray(rawAccuracy)
+    ? (rawAccuracy as string[])
+    : [];
 
   return (
     <section id="terms" className="scroll-mt-32 px-6 py-12 sm:px-10 sm:py-16">

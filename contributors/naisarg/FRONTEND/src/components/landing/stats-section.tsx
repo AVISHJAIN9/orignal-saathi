@@ -8,6 +8,26 @@ interface StatItem {
   label: string;
 }
 
+const DEFAULT_STATS: StatItem[] = [
+  {
+    value: "35,119",
+    label: "verified Indian Standards in the knowledge base",
+  },
+  {
+    value: "100",
+    suffix: "%",
+    label: "of answers trace back to a real IS clause",
+  },
+  {
+    value: "0",
+    label: "standards invented when none applies",
+  },
+  {
+    value: "22",
+    label: "languages — every answer in English or Hindi / supported Indian languages",
+  },
+];
+
 /**
  * A band of big impact numbers, the device that makes institutional landing
  * pages (e.g. itaipu.energy) feel substantial — translated here into SAATHI's
@@ -19,7 +39,12 @@ interface StatItem {
  */
 export function StatsSection() {
   const { t } = useTranslation("landing");
-  const items = t("stats.items", { returnObjects: true }) as StatItem[];
+  const rawItems = t("stats.items", { returnObjects: true });
+  const items: StatItem[] =
+    Array.isArray(rawItems) && rawItems.length > 0
+      ? (rawItems as StatItem[])
+      : DEFAULT_STATS;
+
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.4 });
 
@@ -27,7 +52,7 @@ export function StatsSection() {
     <section className="border-y border-[var(--plate-line)] bg-[var(--plate-ground-deep)] px-6 py-20 sm:px-10 sm:py-28">
       <div ref={ref} className="mx-auto flex max-w-5xl flex-col gap-14">
         <h2 className="max-w-2xl font-serif text-3xl leading-tight font-semibold tracking-tight text-[var(--plate-accent-deep)] sm:text-4xl">
-          {t("stats.heading")}
+          {t("stats.heading", "A verification tool, not a guessing machine.")}
         </h2>
         <div className="grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item, i) => (
@@ -38,8 +63,8 @@ export function StatsSection() {
               transition={{ type: "spring", stiffness: 120, damping: 18, delay: i * 0.1 }}
               className="flex flex-col gap-3 border-l-2 border-[var(--plate-accent)]/30 pl-5"
             >
-              <StatNumber value={item.value} suffix={item.suffix} play={inView} />
-              <p className="text-sm leading-relaxed text-[var(--plate-muted)]">{item.label}</p>
+              <StatNumber value={item?.value || "0"} suffix={item?.suffix} play={inView} />
+              <p className="text-sm leading-relaxed text-[var(--plate-muted)]">{item?.label || ""}</p>
             </motion.div>
           ))}
         </div>

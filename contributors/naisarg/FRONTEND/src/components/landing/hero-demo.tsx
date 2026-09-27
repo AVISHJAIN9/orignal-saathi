@@ -14,6 +14,30 @@ interface HeroExample {
   markType?: MarkType;
 }
 
+const DEFAULT_HERO_EXAMPLES: HeroExample[] = [
+  {
+    kind: "cited",
+    question: "Is BIS certification mandatory for two-wheeler helmets?",
+    answer: "Yes. Protective helmets for two-wheeler riders must conform to the BIS safety specification (IS 4151).",
+    standard: "IS 4151",
+    markType: "isi",
+  },
+  {
+    kind: "cited",
+    question: "Do household electrical appliances need BIS certification?",
+    answer: "Yes, household electrical appliances must comply with the applicable BIS safety standard (IS 302).",
+    standard: "IS 302",
+    markType: "isi",
+  },
+  {
+    kind: "cited",
+    question: "Is the BIS Hallmark mandatory for gold jewellery retailers?",
+    answer: "The BIS Hallmark on gold jewellery certifies purity and is mandatory for retailers under IS 1417.",
+    standard: "IS 1417",
+    markType: "hallmark",
+  },
+];
+
 /**
  * Live-resolving demo cycling through every real seed example — proving
  * SAATHI's citation-required mechanism across the schemes it actually
@@ -29,17 +53,23 @@ interface HeroExample {
  */
 export function HeroDemo() {
   const { t } = useTranslation("landing");
-  const examples = t("hero.example.examples", { returnObjects: true }) as HeroExample[];
+  const rawExamples = t("hero.example.examples", { returnObjects: true });
+  const examples: HeroExample[] =
+    Array.isArray(rawExamples) && rawExamples.length > 0
+      ? (rawExamples as HeroExample[])
+      : DEFAULT_HERO_EXAMPLES;
+
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
+    if (!examples.length) return;
     const timer = window.setTimeout(() => {
       setIndex((i) => (i + 1) % examples.length);
     }, HOLD_MS);
     return () => window.clearTimeout(timer);
   }, [index, examples.length]);
 
-  const current = examples[index];
+  const current = examples[index] || DEFAULT_HERO_EXAMPLES[0];
   const isCited = current.kind === "cited";
 
   return (

@@ -10,37 +10,62 @@ interface ProofItem {
   markType: MarkType;
 }
 
+const DEFAULT_PROOF_ITEMS: ProofItem[] = [
+  {
+    question: "Is BIS certification mandatory for two-wheeler helmets?",
+    answer: "Yes, under IS 4151. Every helmet sold or manufactured in India must carry the ISI mark.",
+    standard: "IS 4151",
+    markType: "isi",
+  },
+  {
+    question: "Do household electrical appliances need BIS safety certification?",
+    answer: "Yes, under IS 302. Safety standards apply to all electrical appliances across India.",
+    standard: "IS 302",
+    markType: "isi",
+  },
+  {
+    question: "Is gold jewellery hallmarking mandatory across all districts?",
+    answer: "Yes, under IS 1417. Hallmarking certifies gold purity with a unique HUID mark.",
+    standard: "IS 1417",
+    markType: "hallmark",
+  },
+];
+
 export function ProofSection() {
   const { t } = useTranslation("landing");
-  const items = t("proof.items", { returnObjects: true }) as ProofItem[];
+  const rawItems = t("proof.items", { returnObjects: true });
+  const items: ProofItem[] =
+    Array.isArray(rawItems) && rawItems.length > 0
+      ? (rawItems as ProofItem[])
+      : DEFAULT_PROOF_ITEMS;
 
   return (
     <section className="bg-[var(--plate-surface)] px-6 py-24 sm:px-10 sm:py-32">
       <div className="mx-auto flex max-w-7xl flex-col gap-14 sm:gap-16">
         <Reveal>
           <h2 className="max-w-2xl text-4xl font-bold tracking-tight text-[var(--plate-ink)] sm:text-5xl lg:text-[3.25rem]">
-            {t("proof.heading")}
+            {t("proof.heading", "Verified Standards in Action")}
           </h2>
         </Reveal>
         <div className="grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-8 lg:gap-12 xl:gap-14">
           {items.map((item, i) => (
             <Reveal
-              key={item.standard}
+              key={item?.standard || i}
               delay={i * 0.1}
               className="flex flex-col gap-6 sm:gap-7"
             >
               <MarkPlate
                 variant="cited"
-                markType={item.markType}
-                label={t("hero.demo.citedLabel")}
-                standard={item.standard}
+                markType={item?.markType || "isi"}
+                label={t("hero.demo.citedLabel", "Verified")}
+                standard={item?.standard || "IS Standard"}
               />
               <div className="flex flex-col gap-3 sm:gap-3.5">
                 <h3 className="text-xl font-bold tracking-tight text-[var(--plate-ink)] sm:text-2xl lg:text-[1.75rem] lg:leading-[1.3]">
-                  {item.question}
+                  {item?.question || ""}
                 </h3>
                 <p className="text-base font-normal leading-relaxed text-[var(--plate-muted)] sm:text-lg lg:text-xl lg:leading-relaxed">
-                  {item.answer}
+                  {item?.answer || ""}
                 </p>
               </div>
             </Reveal>

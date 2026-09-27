@@ -20,18 +20,19 @@ export function LoadingMessage({
   className,
   intervalMs = 1800,
 }: LoadingMessageProps) {
+  const safeMessages = Array.isArray(messages) ? messages : [];
   const [index, setIndex] = useState(0);
   const prefersReducedMotion = useReducedMotion();
 
   useEffect(() => {
-    if (messages.length <= 1) return;
+    if (safeMessages.length <= 1) return;
     const timer = window.setInterval(() => {
-      setIndex((prev) => (prev + 1) % messages.length);
+      setIndex((prev) => (prev + 1) % safeMessages.length);
     }, intervalMs);
     return () => window.clearInterval(timer);
-  }, [messages.length, intervalMs]);
+  }, [safeMessages.length, intervalMs]);
 
-  if (messages.length === 0) return null;
+  if (safeMessages.length === 0) return null;
 
   return (
     <AnimatePresence mode="wait">
@@ -43,7 +44,7 @@ export function LoadingMessage({
         transition={{ duration: 0.25 }}
         className={className}
       >
-        {messages[index]}
+        {safeMessages[index] || ""}
       </motion.p>
     </AnimatePresence>
   );

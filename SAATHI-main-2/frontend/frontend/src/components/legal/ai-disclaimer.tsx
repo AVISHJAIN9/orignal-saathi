@@ -16,11 +16,10 @@ export function AiDisclaimer() {
 
   const pointIcons = [Bot, AlertCircle, FileCheck2, Database, Sparkles];
 
-  const points =
-    (t("disclaimer.points", { returnObjects: true }) as Array<{
-      title: string;
-      desc: string;
-    }>) || [];
+  const rawPoints = t("disclaimer.points", { returnObjects: true });
+  const points: Array<{ title: string; desc: string }> = Array.isArray(rawPoints)
+    ? (rawPoints as Array<{ title: string; desc: string }>)
+    : [];
 
   return (
     <section
