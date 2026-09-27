@@ -39,6 +39,7 @@ import {
   FEATURE_NAV_SECTIONS,
   type FeatureNavEntry,
 } from "@/lib/feature-nav-entries";
+import { BackendStatus } from "@/components/BackendStatus";
 import { setPendingAuthRedirect } from "@/lib/auth";
 import { useRole } from "@/lib/role";
 import { Link } from "@/lib/router-compat";
@@ -190,6 +191,7 @@ export function AppHeader() {
               triggerLabel={t("nav.openMenu")}
             />
             <div className="flex items-center gap-1.5">
+              <BackendStatus />
               <LanguageToggle />
               <ThemeTogglerButton variant="ghost" size="icon" />
             </div>
