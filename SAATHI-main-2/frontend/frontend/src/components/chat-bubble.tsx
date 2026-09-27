@@ -59,8 +59,14 @@ export function ChatBubble({
   const isBot = message.sender === "bot";
 
   const handleToggleVoice = async () => {
-    if (isPlayingAudio && audioElement) {
-      audioElement.pause();
+    if (isPlayingAudio) {
+      if (audioElement) {
+        audioElement.pause();
+        audioElement.currentTime = 0;
+      }
+      if (typeof window !== "undefined" && "speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+      }
       setIsPlayingAudio(false);
       return;
     }
@@ -68,16 +74,35 @@ export function ChatBubble({
     try {
       setIsSynthesizing(true);
       const textToSpeak = translatedContent || message.text;
-      const res = await synthesizeSpeech(textToSpeak, targetLang, "ritu");
-      if (res.audioBase64) {
-        const audio = new Audio(`data:audio/wav;base64,${res.audioBase64}`);
-        audio.onended = () => setIsPlayingAudio(false);
-        audio.play();
-        setAudioElement(audio);
+      try {
+        const res = await synthesizeSpeech(textToSpeak, targetLang, "ritu");
+        if (res && res.audioBase64) {
+          const audio = new Audio(`data:audio/wav;base64,${res.audioBase64}`);
+          audio.onended = () => setIsPlayingAudio(false);
+          audio.onerror = () => setIsPlayingAudio(false);
+          await audio.play();
+          setAudioElement(audio);
+          setIsPlayingAudio(true);
+          return;
+        }
+      } catch (ttsErr) {
+        console.warn("Sarvam TTS service unavailable, trying Web Speech fallback:", ttsErr);
+      }
+
+      // Browser Web Speech API fallback
+      if (typeof window !== "undefined" && "speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+        const cleanText = textToSpeak.replace(/\[(?:IS[A-Za-z0-9/:\-\s—]+)\]/g, "").replace(/https?:\/\/\S+/g, "");
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        utterance.lang = targetLang.replace("_", "-");
+        utterance.onend = () => setIsPlayingAudio(false);
+        utterance.onerror = () => setIsPlayingAudio(false);
+        window.speechSynthesis.speak(utterance);
         setIsPlayingAudio(true);
       }
     } catch (err) {
-      console.warn("Sarvam TTS error:", err);
+      console.warn("Speech synthesis error:", err);
+      setIsPlayingAudio(false);
     } finally {
       setIsSynthesizing(false);
     }
@@ -149,11 +174,11 @@ export function ChatBubble({
           {isDeclined && <Info className="mt-0.5 size-4 shrink-0" />}
           <span className="min-w-0 break-words [word-break:break-word]">
             {translatedContent ? (
-              <div className="space-y-1">
+              <div className="space-y-1.5">
                 <div className="flex items-center gap-1 text-2xs font-semibold text-primary">
-                  <span>🇮🇳 Indic Translation (Mayura)</span>
+                  <span>🇮🇳 Indic Translation</span>
                 </div>
-                <p>{translatedContent}</p>
+                <p className="whitespace-pre-line leading-relaxed text-sm sm:text-base">{translatedContent}</p>
               </div>
             ) : (
               displayedText
@@ -192,14 +217,14 @@ export function ChatBubble({
                 onClick={() => handleTranslate()}
                 disabled={isTranslating}
                 className="flex items-center gap-1.5 rounded-md px-2 py-1 hover:bg-background/80 transition-colors"
-                title="Translate technical clause (Sarvam Mayura:v1)"
+                title="Translate technical clause (Sarvam AI)"
               >
                 {isTranslating ? (
                   <Loader2 className="size-3.5 animate-spin text-primary" />
                 ) : (
                   <Globe className="size-3.5 text-primary" />
                 )}
-                <span>{translatedContent ? "Show Original" : "Translate"}</span>
+                <span>{translatedContent ? "Show Original" : isTranslating ? "Translating..." : "Translate"}</span>
               </button>
 
               <button

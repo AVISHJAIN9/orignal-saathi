@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 from contextlib import asynccontextmanager
 
+import requests
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -280,19 +281,58 @@ def semantic_search(query: str, top_k: int = 5) -> List[Dict[str, Any]]:
         q_emb = embedding_model.encode([query], normalize_embeddings=True)
         q_emb = np.array(q_emb, dtype=np.float32)
         faiss.normalize_L2(q_emb)
-        distances, indices = faiss_index.search(q_emb, top_k * 4)
+        distances, indices = faiss_index.search(q_emb, top_k * 8)
         evidence = []
         for idx in indices[0]:
             if 0 <= idx < len(corpus):
                 doc = corpus[idx]
-                if str(doc.get("document_type", "")) == "standard_core":
+                dtype = str(doc.get("document_type", ""))
+                if dtype == "standard_core":
                     evidence.append(standard_to_evidence(doc, source="semantic"))
-                    if len(evidence) >= top_k:
-                        break
+                elif dtype in ("referred_by", "cross_references", "international_references"):
+                    ident = extract_doc_identifier(doc)
+                    title = extract_doc_title(doc)
+                    if not ident:
+                        m = re.search(r"Referenc(?:ing|ed|ing)?\s*IS:\s*(.+?)(?=\s*\||\s*\n|$)", doc.get("text", ""))
+                        if m:
+                            ident = normalize_identifier(m.group(1))
+                    evidence.append({
+                        "evidence_type": "standard",
+                        "source": f"semantic_{dtype}",
+                        "internal_id": str(doc.get("internal_id", "")),
+                        "identifier": ident or f"Standard-{doc.get('internal_id', '')}",
+                        "title": title or str(doc.get("text", "")).splitlines()[0][:120],
+                        "text": str(doc.get("text", "") or "")[:1500],
+                    })
+                if len(evidence) >= top_k:
+                    break
         return evidence
     except Exception as e:
         print("Semantic search error:", e)
         return []
+
+
+def lexical_search(query: str, top_k: int = 5) -> List[Dict[str, Any]]:
+    stopwords = {"how", "what", "which", "where", "apply", "for", "with", "the", "and", "under", "can", "does", "about", "indian", "standards", "standard", "licence", "license"}
+    tokens = [w for w in re.findall(r"\b[A-Za-z0-9]+\b", query.lower()) if len(w) > 2 and w not in stopwords]
+    if not tokens:
+        return []
+    scored = []
+    seen = set()
+    for idx in standard_core_indices:
+        if idx < len(corpus):
+            doc = corpus[idx]
+            text_lower = str(doc.get("text", "")).lower()
+            score = sum(1 for t in tokens if t in text_lower)
+            if score > 0:
+                ident = extract_doc_identifier(doc)
+                if ident and ident not in seen:
+                    seen.add(ident)
+                    scored.append((score, standard_to_evidence(doc, source="lexical")))
+                    if len(scored) >= 200:
+                        break
+    scored.sort(key=lambda x: x[0], reverse=True)
+    return [s[1] for s in scored[:top_k]]
 
 
 def deduplicate_evidence(evidence: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -341,6 +381,11 @@ def retrieve_evidence_api(query: str, semantic_top_k: int = 5) -> Dict[str, Any]
         evidence.extend(sem_ev)
         if sem_ev:
             plan.append("semantic")
+        if len(evidence) < semantic_top_k:
+            lex_ev = lexical_search(query, top_k=semantic_top_k)
+            evidence.extend(lex_ev)
+            if lex_ev:
+                plan.append("lexical")
             
     evidence = deduplicate_evidence(evidence)
     return {
@@ -358,9 +403,19 @@ def retrieve_evidence_api(query: str, semantic_top_k: int = 5) -> Dict[str, Any]
 # GROUNDED LLM GENERATION & CITATION VALIDATION
 # ================================================================
 
-def generate_grounded_answer(query: str, evidence: List[Dict[str, Any]]) -> Dict[str, Any]:
+def generate_grounded_answer(query: str, evidence: List[Dict[str, Any]], language: Optional[str] = "en") -> Dict[str, Any]:
     evidence_text = json.dumps(evidence[:15], indent=2, ensure_ascii=False)
     
+    lang_names = {
+        "en": "English", "hi": "Hindi", "gu": "Gujarati", "ta": "Tamil",
+        "te": "Telugu", "kn": "Kannada", "ml": "Malayalam", "mr": "Marathi",
+        "bn": "Bengali", "pa": "Punjabi", "or": "Odia", "as": "Assamese", "ur": "Urdu"
+    }
+    target_lang = lang_names.get(language, "English")
+    lang_instruction = ""
+    if language and language != "en":
+        lang_instruction = f"\n5. IMPORTANT: Reply fluently and naturally in {target_lang}. Keep all Indian Standard numbers (such as [IS 16102], [IS 302]) intact in English bracket notation."
+
     prompt = f"""You are SAATHI, the official AI Compliance and Standards Navigator for the Bureau of Indian Standards (BIS).
 Answer the citizen/MSME inquiry with strict adherence to the provided BIS Evidence.
 
@@ -371,22 +426,12 @@ BIS Evidence:
 
 Instructions:
 1. Provide a professional, concise, and technically accurate explanation.
-2. ALWAYS cite the standard numbers (e.g. [IS 302-1], [IS/IEC 60691:2023]) where applicable.
+2. ALWAYS cite the standard numbers (e.g. [IS 302-1], [IS/IEC 60691:2023], [IS 16102]) where applicable.
 3. If specific clauses, committees, or references are in the evidence, list them clearly.
-4. If asked about references or which standards refer to a given standard, list the referring standards clearly.
+4. If asked about references or which standards refer to a given standard, list the referring standards clearly.{lang_instruction}
 """
     
-    # Try Gemini 1.5 Flash
-    if HAS_GEMINI and GEMINI_KEY:
-        try:
-            model = genai.GenerativeModel("gemini-1.5-flash")
-            resp = model.generate_content(prompt)
-            if resp and resp.text:
-                return {"answer": resp.text.strip(), "model": "gemini-1.5-flash", "success": True}
-        except Exception as e:
-            print("Gemini generation fallback:", e)
-            
-    # Try Sarvam 105B
+    # 1. Try Sarvam 105B (Production Indic Conversational LLM)
     if SARVAM_KEY:
         try:
             headers = {
@@ -404,8 +449,18 @@ Instructions:
                 return {"answer": content.strip(), "model": "sarvam-105b-conversations", "success": True}
         except Exception as e:
             print("Sarvam generation fallback:", e)
+
+    # 2. Try Gemini 1.5 Flash if available
+    if HAS_GEMINI and GEMINI_KEY:
+        try:
+            model = genai.GenerativeModel("gemini-1.5-flash")
+            resp = model.generate_content(prompt)
+            if resp and resp.text:
+                return {"answer": resp.text.strip(), "model": "gemini-1.5-flash", "success": True}
+        except Exception as e:
+            print("Gemini generation fallback:", e)
             
-    # Extractive structured fallback
+    # 3. Extractive structured fallback
     lines = [f"Official BIS Standards Navigator Report for '{query}':\n"]
     for item in evidence:
         if item.get("evidence_type") == "standard":
@@ -500,14 +555,19 @@ async def lifespan(app: FastAPI):
         print(f"International-reference source standards: {len(international_by_internal_id):,}")
         print(f"Reverse-reference target standards: {len(referred_by_internal_id):,}")
         
-    # 3. Load Embedding Model
-    if HAS_SENTENCE_TRANSFORMERS:
-        try:
-            embedding_model = SentenceTransformer("BAAI/bge-small-en-v1.5")
-            print("Loaded BAAI/bge-small-en-v1.5 embedding model")
-        except Exception as e:
-            print("Embedding model warning:", e)
-            
+    # 3. Load Embedding Model asynchronously
+    def load_embed():
+        global embedding_model
+        if HAS_SENTENCE_TRANSFORMERS:
+            try:
+                embedding_model = SentenceTransformer("BAAI/bge-small-en-v1.5")
+                print("Loaded BAAI/bge-small-en-v1.5 embedding model")
+            except Exception as e:
+                print("Embedding model warning:", e)
+
+    import threading
+    threading.Thread(target=load_embed, daemon=True).start()
+
     print(f"RAG Runtime ready in {time.time() - start_time:.2f}s")
     yield
     print("Shutting down AIML service")
@@ -564,7 +624,7 @@ def chat_endpoint(req: ChatRequest):
     evidence = retrieval.get("evidence", [])
     
     # 2. Grounded LLM Generation
-    gen_res = generate_grounded_answer(req.query, evidence)
+    gen_res = generate_grounded_answer(req.query, evidence, language=req.language or "en")
     
     # 3. Citation Extraction & Verification
     citations = validate_citations(gen_res["answer"], evidence)
@@ -574,10 +634,123 @@ def chat_endpoint(req: ChatRequest):
         "answer": gen_res["answer"],
         "text": gen_res["answer"],
         "citations": citations,
-        "model": gen_res.get("model", "gemini-1.5-flash"),
+        "model": gen_res.get("model", "sarvam-105b-conversations"),
         "evidence_count": len(evidence),
         "retrieval_plan": retrieval.get("retrieval_plan", []),
     }
+
+class TranslateRequest(BaseModel):
+    text: str
+    target_language_code: Optional[str] = "hi-IN"
+    source_language_code: Optional[str] = "en-IN"
+
+class TTSRequest(BaseModel):
+    text: str
+    target_language_code: Optional[str] = "hi-IN"
+    speaker: Optional[str] = "ritu"
+
+@app.post("/indic/translate")
+@app.post("/api/v1/indic/translate")
+def translate_endpoint(req: TranslateRequest):
+    if not req.text or not req.text.strip():
+        return {"translatedText": "", "translated_text": ""}
+    
+    lang_names = {
+        "hi-IN": "Hindi", "ta-IN": "Tamil", "te-IN": "Telugu", "mr-IN": "Marathi",
+        "bn-IN": "Bengali", "gu-IN": "Gujarati", "kn-IN": "Kannada", "ml-IN": "Malayalam",
+        "pa-IN": "Punjabi", "od-IN": "Odia", "or-IN": "Odia", "ur-IN": "Urdu",
+        "as-IN": "Assamese", "hi": "Hindi", "gu": "Gujarati", "ta": "Tamil", "te": "Telugu",
+        "mr": "Marathi", "bn": "Bengali", "kn": "Kannada", "ml": "Malayalam", "pa": "Punjabi",
+    }
+    target_lang = lang_names.get(req.target_language_code, "Hindi")
+
+    if SARVAM_KEY:
+        # 1. Use Sarvam 105B (Handles full-length responses without 1000 char restriction)
+        try:
+            headers = {
+                "api-subscription-key": SARVAM_KEY,
+                "Content-Type": "application/json",
+            }
+            prompt = (
+                f"Translate the following Indian Standards compliance text accurately and fluently into {target_lang}. "
+                "Keep all Indian Standard numbers (such as [IS 16102], [IS 17803:2022], [IS 302]) intact in English bracket notation. "
+                "Maintain all paragraphs, bullet points, and numbered lists. "
+                "Return ONLY the direct translation without introductory or meta commentary:\n\n"
+                f"{req.text}"
+            )
+            payload = {
+                "model": "sarvam-105b-conversations",
+                "messages": [{"role": "user", "content": prompt}],
+            }
+            resp = requests.post("https://api.sarvam.ai/v1/chat/completions", headers=headers, json=payload, timeout=30)
+            if resp.status_code == 200:
+                data = resp.json()
+                t_text = data["choices"][0]["message"]["content"].strip()
+                if t_text:
+                    return {"translatedText": t_text, "translated_text": t_text}
+            else:
+                print("Sarvam 105B translate error:", resp.status_code, resp.text)
+        except Exception as e:
+            print("Sarvam 105B translate exception:", e)
+
+        # 2. Fallback to Sarvam Mayura for short texts (< 900 chars)
+        if len(req.text) <= 900:
+            try:
+                payload = {
+                    "input": req.text,
+                    "source_language_code": req.source_language_code or "en-IN",
+                    "target_language_code": req.target_language_code or "hi-IN",
+                    "speaker_gender": "Female",
+                    "mode": "formal",
+                }
+                resp = requests.post("https://api.sarvam.ai/translate", headers=headers, json=payload, timeout=20)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    t_text = data.get("translated_text", "")
+                    if t_text:
+                        return {"translatedText": t_text, "translated_text": t_text}
+            except Exception as e:
+                print("Sarvam mayura translate exception:", e)
+
+    return {"translatedText": req.text, "translated_text": req.text}
+
+@app.post("/indic/text-to-speech")
+@app.post("/api/v1/indic/text-to-speech")
+def tts_endpoint(req: TTSRequest):
+    if not req.text or not req.text.strip():
+        raise HTTPException(status_code=400, detail="Text is required")
+    if SARVAM_KEY:
+        try:
+            headers = {
+                "api-subscription-key": SARVAM_KEY,
+                "Content-Type": "application/json",
+            }
+            clean_text = re.sub(r"\[.*?\]", "", req.text)
+            clean_text = re.sub(r"https?://\S+", "", clean_text)
+            clean_text = re.sub(r"[*#_`•]", " ", clean_text)
+            clean_text = re.sub(r"\s+", " ", clean_text).strip()
+            if len(clean_text) > 450:
+                clean_text = clean_text[:450]
+                last_punc = max(clean_text.rfind("."), clean_text.rfind("।"), clean_text.rfind(","))
+                if last_punc > 200:
+                    clean_text = clean_text[:last_punc + 1]
+
+            payload = {
+                "inputs": [clean_text],
+                "target_language_code": req.target_language_code or "hi-IN",
+                "speaker": req.speaker or "ritu",
+            }
+            resp = requests.post("https://api.sarvam.ai/text-to-speech", headers=headers, json=payload, timeout=25)
+            if resp.status_code == 200:
+                data = resp.json()
+                audios = data.get("audios", [])
+                if audios:
+                    return {"audioBase64": audios[0], "speaker": req.speaker or "ritu"}
+            else:
+                print("Sarvam TTS status:", resp.status_code, resp.text)
+        except Exception as e:
+            print("Sarvam TTS exception:", e)
+    raise HTTPException(status_code=500, detail="Speech synthesis unavailable")
 
 if __name__ == "__main__":
     import uvicorn

@@ -57,7 +57,7 @@ export function ProofSection() {
               <MarkPlate
                 variant="cited"
                 markType={item?.markType || "isi"}
-                label={t("hero.demo.citedLabel", "Verified")}
+                label={t("hero.example.citedLabel", "Verified")}
                 standard={item?.standard || "IS Standard"}
               />
               <div className="flex flex-col gap-3 sm:gap-3.5">

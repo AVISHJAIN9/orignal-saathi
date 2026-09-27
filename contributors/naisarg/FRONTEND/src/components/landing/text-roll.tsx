@@ -8,21 +8,71 @@ import { cn } from "@/lib/utils";
 const STAGGER = 0.035;
 
 /**
- * TextRoll — per-character rolling hover animation.
+ * Detects whether the string contains non-Latin scripts (Indic, Arabic, Perso-Arabic,
+ * Ol Chiki, Meitei, etc.) or Unicode combining marks that require complex OpenType shaping.
+ * Splitting such strings into individual character spans detaches vowel marks (matras),
+ * viramas, and nuktas, causing browsers to render fallback dotted circles (U+25CC).
+ */
+const hasComplexScript = (str: string): boolean => {
+  return (
+    /[\p{M}\u0600-\u0DFF\u1C50-\u1C7F\uA800-\uA82F]/u.test(str) ||
+    !/^[\p{Script=Latin}\p{P}\p{N}\p{Z}\p{S}]*$/u.test(str)
+  );
+};
+
+/**
+ * TextRoll — per-character rolling hover animation for Latin text,
+ * and seamless word-level rolling animation for complex Indic/non-Latin scripts.
  *
- * On hover every letter scrolls upward out of view while an identical
- * letter scrolls in from below, with a stagger delay that radiates
- * outward from the centre of the string (when `center` is true) or
- * left-to-right (when `center` is false).
- *
- * Adapted from the user-provided Skiper58 sample, ported to
- * `motion/react` and the project's design-token palette.
+ * For Latin text, every letter scrolls upward out of view while an identical
+ * letter scrolls in from below, with a stagger delay.
+ * For complex scripts (Hindi, Bengali, Telugu, Tamil, etc.), character-level
+ * splitting is avoided to keep all aksharas, matras, and ligatures intact.
  */
 export const TextRoll: React.FC<{
   children: string;
   className?: string;
   center?: boolean;
 }> = ({ children, className, center = true }) => {
+  const isComplex = hasComplexScript(children);
+
+  if (isComplex) {
+    return (
+      <motion.span
+        initial="initial"
+        whileHover="hovered"
+        className={cn("relative inline-block overflow-hidden", className)}
+        style={{ lineHeight: 1.35 }}
+      >
+        {/* Primary token — slide UP on hover */}
+        <motion.span
+          variants={{
+            initial: { y: 0 },
+            hovered: { y: "-100%" },
+          }}
+          transition={{ ease: "easeInOut", duration: 0.28 }}
+          className="inline-block"
+          aria-hidden="true"
+        >
+          {children}
+        </motion.span>
+
+        {/* Duplicate token — slide IN from below on hover */}
+        <motion.span
+          variants={{
+            initial: { y: "100%" },
+            hovered: { y: 0 },
+          }}
+          transition={{ ease: "easeInOut", duration: 0.28 }}
+          className="absolute inset-0 inline-block"
+          aria-hidden="true"
+        >
+          {children}
+        </motion.span>
+      </motion.span>
+    );
+  }
+
   return (
     <motion.span
       initial="initial"

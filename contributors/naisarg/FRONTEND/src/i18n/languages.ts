@@ -110,7 +110,7 @@ export const SUPPORTED_LANGUAGES: SupportedLanguage[] = [
   },
   {
     code: "sat",
-    nativeName: "संताली",
+    nativeName: "ᱥᱟᱱᱛᱟᱲᱤ",
     englishName: "Santali",
     greeting: "ᱡᱚᱦᱟᱨ",
     script: "Ol Chiki",

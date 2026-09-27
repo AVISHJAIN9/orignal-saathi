@@ -186,7 +186,7 @@
   "about": {
     "eyebrow": "About the project",
     "heading": "Built for SIH26107 — the BIS Navigator.",
-    "body": "SAATHI is built for the Smart India Hackathon 2024 under problem statement SIH26107. It is designed to make Indian Standards accessible: ask a question, get a cited answer, or an honest decline when no standard applies.",
+    "body": "SAATHI is built for the Smart India Hackathon 2026 under problem statement SIH26107. It is designed to make Indian Standards accessible: ask a question, get a cited answer, or an honest decline when no standard applies.",
     "howItWorks": {
       "heading": "How It Works: 3-Step Verification Flow",
       "kicker": "Zero Hallucination",
@@ -213,7 +213,7 @@
       "kicker": "The Core Rule of SAATHI",
       "quote": "Every answer must trace back to a real IS standard number and clause, or it plainly says no verified standard was found — it never guesses. And because compliance questions don't come in one language, SAATHI answers in the language you asked in.",
       "attribution": "— SAATHI Assistant Architecture",
-      "context": "Smart India Hackathon 2024 · Problem Statement SIH26107"
+      "context": "Smart India Hackathon 2026 · Problem Statement SIH26107"
     },
     "standardsCovered": {
       "heading": "Standards Covered in the Knowledge Base",
