@@ -35,13 +35,13 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { FEATURE_NAV_SECTIONS } from "@/lib/feature-nav-entries";
 
-type NavItem = { key: string; href: string; external?: boolean };
+type NavItem = { key: string; href: string; defaultLabel: string; external?: boolean };
 const NAV_ITEMS: NavItem[] = [
-  { key: "whySaathi", href: "#why" },
-  { key: "whoFor", href: "#who" },
-  { key: "standards", href: "/standards", external: true },
-  { key: "about", href: "#about" },
-  { key: "contact", href: "#contact" },
+  { key: "whySaathi", href: "#why", defaultLabel: "Why SAATHI" },
+  { key: "whoFor", href: "#who", defaultLabel: "Who it's for" },
+  { key: "standards", href: "/standards", defaultLabel: "Standards", external: true },
+  { key: "about", href: "#about", defaultLabel: "About Us" },
+  { key: "contact", href: "#contact", defaultLabel: "Contact Us" },
 ];
 
 const ANCHOR_KEYS = NAV_ITEMS.filter((item) => !item.external).map((item) =>
@@ -130,7 +130,7 @@ export function LandingNav({
       id: "landing",
       items: NAV_ITEMS.map((item) => ({
         id: item.key,
-        label: t(`landing:nav.${item.key}`),
+        label: t(`landing:nav.${item.key}`, item.defaultLabel),
         href: pathname === "/" ? item.href : (item.external ? item.href : `/${item.href}`),
         kind: item.external || pathname !== "/" ? "route" : "anchor",
         active: item.external
@@ -147,13 +147,13 @@ export function LandingNav({
     },
     ...FEATURE_NAV_SECTIONS.map((section) => ({
       id: section.headingKey,
-      heading: t(`chat:${section.headingKey}`),
+      heading: t(`chat:${section.headingKey}`, section.headingKey),
       items: section.entries.map((entry) => ({
         id: entry.to,
-        label: t(`chat:${entry.labelKey}`),
+        label: t(`chat:${entry.labelKey}`, entry.to),
         href: entry.to,
         icon: entry.icon,
-        badge: entry.signInRequired ? t("landing:nav.signInRequired") : undefined,
+        badge: entry.signInRequired ? t("landing:nav.signInRequired", "Sign in required") : undefined,
         onSelect: (e: React.MouseEvent<HTMLAnchorElement>) =>
           gateFeatureLink(e, entry.to),
       })),
@@ -173,7 +173,7 @@ export function LandingNav({
             className="size-3.5 shrink-0 text-[var(--plate-on-accent)]/70"
             aria-hidden
           />
-          {t("landing:nav.tagline")}
+          {t("landing:nav.tagline", "Built for SIH26107 · Bureau of Indian Standards")}
         </motion.div>
       )}
 
@@ -202,7 +202,7 @@ export function LandingNav({
               const isActive =
                 (!item.external && pathname === "/" && activeAnchor === item.href.slice(1)) ||
                 isCurrentRoute;
-              const label = t(`landing:nav.${item.key}`);
+              const label = t(`landing:nav.${item.key}`, item.defaultLabel);
               const commonClass = navLinkClassName({
                 active: isActive,
                 tone: "plate",
