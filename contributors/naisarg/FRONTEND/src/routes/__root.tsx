@@ -19,6 +19,7 @@ import { RoleProvider } from "../components/role-provider";
 import { ThemeProvider } from "../components/theme-provider";
 import { UserProfileProvider } from "../components/user-profile-provider";
 import { TooltipProvider } from "../components/ui/tooltip";
+import { WhatsAppWidget } from "../components/whatsapp-widget";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { NotFoundPage } from "../pages/not-found-page";
 
@@ -136,6 +137,7 @@ function RootComponent() {
                   {showAppHeader && <AppHeader />}
                   {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
                   <Outlet />
+                  <WhatsAppWidget />
                   {!hideFooter && <LandingFooter />}
                 </UserProfileProvider>
               </RoleProvider>

@@ -836,8 +836,8 @@ function StandardCard({
   const cardKey = card.key || `std-${card.id}`;
 
   useEffect(() => {
-    setSaved(isStandardSaved(card.key));
-  }, [card.key]);
+    setSaved(isStandardSaved(card.key || cardKey));
+  }, [card.key, cardKey]);
 
   // Parse metadata from description
   const parsed = useMemo(() => parseDescription(card.description), [card.description]);
@@ -851,7 +851,8 @@ function StandardCard({
       navigate("/");
       return;
     }
-    void toggleStandardSaved(card.key).then(setSaved);
+    const keyToSave = card.key || cardKey;
+    void toggleStandardSaved(keyToSave, card).then(setSaved);
   }
 
   // Desktop hover handlers with a small delay before collapsing to prevent flicker

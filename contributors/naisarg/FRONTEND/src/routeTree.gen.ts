@@ -44,6 +44,7 @@ import { Route as SampleTrackerRouteImport } from './routes/sample-tracker'
 import { Route as SchemeSelectorRouteImport } from './routes/scheme-selector'
 import { Route as StandardsRouteImport } from './routes/standards'
 import { Route as VaultRouteImport } from './routes/vault'
+import { Route as WhatsappRouteImport } from './routes/whatsapp'
 import { Route as AdminIndexRouteImport } from './routes/admin.index'
 import { Route as AdminDocumentsRouteImport } from './routes/admin.documents'
 import { Route as AdminRetrievalQualityRouteImport } from './routes/admin.retrieval-quality'
@@ -231,6 +232,11 @@ const VaultRoute = VaultRouteImport.update({
   path: '/vault',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WhatsappRoute = WhatsappRouteImport.update({
+  id: '/whatsapp',
+  path: '/whatsapp',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AdminIndexRoute = AdminIndexRouteImport.update({
   id: '/admin/',
   path: '/admin/',
@@ -325,6 +331,7 @@ export interface FileRoutesByFullPath {
   '/scheme-selector': typeof SchemeSelectorRoute
   '/standards': typeof StandardsRouteWithChildren
   '/vault': typeof VaultRoute
+  '/whatsapp': typeof WhatsappRoute
   '/admin/documents': typeof AdminDocumentsRoute
   '/admin/retrieval-quality': typeof AdminRetrievalQualityRoute
   '/payments/$applicationId': typeof PaymentsApplicationIdRoute
@@ -371,6 +378,7 @@ export interface FileRoutesByTo {
   '/sample-tracker': typeof SampleTrackerRoute
   '/scheme-selector': typeof SchemeSelectorRoute
   '/vault': typeof VaultRoute
+  '/whatsapp': typeof WhatsappRoute
   '/admin/documents': typeof AdminDocumentsRoute
   '/admin/retrieval-quality': typeof AdminRetrievalQualityRoute
   '/payments/$applicationId': typeof PaymentsApplicationIdRoute
@@ -420,6 +428,7 @@ export interface FileRoutesById {
   '/scheme-selector': typeof SchemeSelectorRoute
   '/standards': typeof StandardsRouteWithChildren
   '/vault': typeof VaultRoute
+  '/whatsapp': typeof WhatsappRoute
   '/admin/documents': typeof AdminDocumentsRoute
   '/admin/retrieval-quality': typeof AdminRetrievalQualityRoute
   '/payments/$applicationId': typeof PaymentsApplicationIdRoute
@@ -470,6 +479,7 @@ export interface FileRouteTypes {
     | '/scheme-selector'
     | '/standards'
     | '/vault'
+    | '/whatsapp'
     | '/admin/documents'
     | '/admin/retrieval-quality'
     | '/payments/$applicationId'
@@ -516,6 +526,7 @@ export interface FileRouteTypes {
     | '/sample-tracker'
     | '/scheme-selector'
     | '/vault'
+    | '/whatsapp'
     | '/admin/documents'
     | '/admin/retrieval-quality'
     | '/payments/$applicationId'
@@ -564,6 +575,7 @@ export interface FileRouteTypes {
     | '/scheme-selector'
     | '/standards'
     | '/vault'
+    | '/whatsapp'
     | '/admin/documents'
     | '/admin/retrieval-quality'
     | '/payments/$applicationId'
@@ -613,6 +625,7 @@ export interface RootRouteChildren {
   SchemeSelectorRoute: typeof SchemeSelectorRoute
   StandardsRoute: typeof StandardsRouteWithChildren
   VaultRoute: typeof VaultRoute
+  WhatsappRoute: typeof WhatsappRoute
   AdminDocumentsRoute: typeof AdminDocumentsRoute
   AdminRetrievalQualityRoute: typeof AdminRetrievalQualityRoute
   PaymentsApplicationIdRoute: typeof PaymentsApplicationIdRoute
@@ -869,6 +882,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof VaultRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/whatsapp': {
+      id: '/whatsapp'
+      path: '/whatsapp'
+      fullPath: '/whatsapp'
+      preLoaderRoute: typeof WhatsappRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/admin/': {
       id: '/admin/'
       path: '/admin'
@@ -1013,6 +1033,7 @@ const rootRouteChildren: RootRouteChildren = {
   SchemeSelectorRoute: SchemeSelectorRoute,
   StandardsRoute: StandardsRouteWithChildren,
   VaultRoute: VaultRoute,
+  WhatsappRoute: WhatsappRoute,
   AdminDocumentsRoute: AdminDocumentsRoute,
   AdminRetrievalQualityRoute: AdminRetrievalQualityRoute,
   PaymentsApplicationIdRoute: PaymentsApplicationIdRoute,

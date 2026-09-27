@@ -19,12 +19,12 @@ export function VaultItemCard({
 
   const title =
     item.kind === "standard"
-      ? t(`standards:list.${item.standard.key}`)
+      ? (item.standard.title || t(`standards:list.${item.standard.key}`))
       : t(`cortex:results.${item.document.resultKey}.product`);
 
   const subtitle =
     item.kind === "standard"
-      ? `${item.standard.standardNumber} · ${t(`admin:topics.${item.standard.categoryKey}`)}`
+      ? `${item.standard.standardNumber} · ${item.standard.categoryLabel || t(`admin:topics.${item.standard.categoryKey}`) || item.standard.categoryKey || "Standard"}`
       : item.document.fileName;
 
   const savedDate =
