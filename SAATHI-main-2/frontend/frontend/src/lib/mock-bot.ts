@@ -10,26 +10,29 @@ import type { ChatMessage } from "@/lib/types";
 // (src/i18n/locales/{en,hi}/conversation.json) so they follow the selected
 // language like the rest of the demo content.
 export function getMockBotReply(index: number, language: string): ChatMessage {
-  const replies = i18n.t("conversation:mockReplies", {
+  const rawReplies = i18n.t("conversation:mockReplies", {
     lng: language,
     returnObjects: true,
-  }) as Array<Pick<ChatMessage, "text" | "citations">>;
+  });
+  const replies = (Array.isArray(rawReplies) ? rawReplies : []) as Array<Pick<ChatMessage, "text" | "citations">>;
 
-  const reply = replies[index % replies.length];
+  const reply = replies.length > 0 ? replies[index % replies.length] : { text: "" };
   return { sender: "bot", ...reply };
 }
 
 type ReplyContent = Pick<ChatMessage, "text" | "citations" | "status">;
 
 function collectReplies(language: string): ReplyContent[] {
-  const seedMessages = i18n.t("conversation:seedMessages", {
+  const rawSeed = i18n.t("conversation:seedMessages", {
     lng: language,
     returnObjects: true,
-  }) as ChatMessage[];
-  const mockReplies = i18n.t("conversation:mockReplies", {
+  });
+  const seedMessages = (Array.isArray(rawSeed) ? rawSeed : []) as ChatMessage[];
+  const rawMock = i18n.t("conversation:mockReplies", {
     lng: language,
     returnObjects: true,
-  }) as ReplyContent[];
+  });
+  const mockReplies = (Array.isArray(rawMock) ? rawMock : []) as ReplyContent[];
   return [...seedMessages, ...mockReplies];
 }
 

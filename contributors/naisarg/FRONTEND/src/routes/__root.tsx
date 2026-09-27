@@ -10,7 +10,8 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import "../i18n";
+import i18n from "../i18n";
+import { I18nextProvider } from "react-i18next";
 import { AppHeader } from "../components/app-header";
 import { LandingFooter } from "../components/landing/landing-footer";
 import { AuthProvider } from "../components/auth-provider";
@@ -122,24 +123,26 @@ function RootComponent() {
   const hideFooter = pathname === "/chat" || pathname.startsWith("/chat/");
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <ThemeProvider>
-        {/* Global, not just for citation-badge.tsx's tooltip: any <Tooltip>
-            anywhere in the app (admin charts, conversation history, profile
-            settings, …) needs this ancestor or it throws on render. */}
-        <TooltipProvider>
-          <AuthProvider>
-            <RoleProvider>
-              <UserProfileProvider>
-                {showAppHeader && <AppHeader />}
-                {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-                <Outlet />
-                {!hideFooter && <LandingFooter />}
-              </UserProfileProvider>
-            </RoleProvider>
-          </AuthProvider>
-        </TooltipProvider>
-      </ThemeProvider>
-    </QueryClientProvider>
+    <I18nextProvider i18n={i18n}>
+      <QueryClientProvider client={queryClient}>
+        <ThemeProvider>
+          {/* Global, not just for citation-badge.tsx's tooltip: any <Tooltip>
+              anywhere in the app (admin charts, conversation history, profile
+              settings, …) needs this ancestor or it throws on render. */}
+          <TooltipProvider>
+            <AuthProvider>
+              <RoleProvider>
+                <UserProfileProvider>
+                  {showAppHeader && <AppHeader />}
+                  {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+                  <Outlet />
+                  {!hideFooter && <LandingFooter />}
+                </UserProfileProvider>
+              </RoleProvider>
+            </AuthProvider>
+          </TooltipProvider>
+        </ThemeProvider>
+      </QueryClientProvider>
+    </I18nextProvider>
   );
 }
