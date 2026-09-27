@@ -33,16 +33,21 @@ function notifyUnauthorized() {
   for (const listener of unauthorizedListeners) listener();
 }
 
+const API_BASE_URL: string =
+  (import.meta.env?.VITE_API_BASE_URL as string) ||
+  'https://orignal-saathi-ixw7.onrender.com';
+
 /**
- * Stands in for the one shared fetch wrapper a real backend integration
- * would use — not called anywhere yet, since there is nothing real to
- * call (see the file header). Kept here, fully wired to
- * `notifyUnauthorized`, so adding the first real endpoint later means
- * writing a `request("/api/v1/...")` call, not building this plumbing
- * under time pressure.
+ * Stands in for the shared fetch wrapper used for backend integration.
+ * Supports relative endpoints (/api/v1/...) automatically mapped to the live API_BASE_URL.
  */
 export async function request<T>(path: string, init?: RequestInit): Promise<T> {
-  const response = await fetch(path, init);
+  const fullUrl =
+    path.startsWith("http://") || path.startsWith("https://")
+      ? path
+      : `${API_BASE_URL.replace(/\/+$/, "")}${path.startsWith("/") ? path : `/${path}`}`;
+
+  const response = await fetch(fullUrl, init);
   if (response.status === 401) {
     notifyUnauthorized();
     throw new ApiError(401, "Unauthorized");

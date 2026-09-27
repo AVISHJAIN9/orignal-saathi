@@ -29,5 +29,10 @@ export default defineConfig({
         ? "vercel"
         : (process.env.NITRO_PRESET || "node-server"),
     },
+    prerender: {
+      enabled: true,
+      routes: ["/"],
+      crawlLinks: true,
+    },
   },
 });

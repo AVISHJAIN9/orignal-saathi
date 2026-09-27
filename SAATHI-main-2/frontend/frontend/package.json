@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
-    "build:dev": "vite build --mode development",
+    "build": "vite build && node scripts/post-build-spa.js",
+    "build:dev": "vite build --mode development && node scripts/post-build-spa.js",
     "preview": "vite preview",
     "start": "vite preview",
     "lint": "eslint .",
