@@ -80,9 +80,10 @@ function App() {
     }
     return getMockBotReply(entry.replyIndex, i18n.language);
   });
-  const suggestedQuestions = t("chat:starterPrompts", {
+  const rawSuggested = t("chat:starterPrompts", {
     returnObjects: true,
-  }) as string[];
+  });
+  const suggestedQuestions = (Array.isArray(rawSuggested) ? rawSuggested : []) as string[];
   const prefersReducedMotion = useReducedMotion();
 
   const [input, setInput] = useState("");

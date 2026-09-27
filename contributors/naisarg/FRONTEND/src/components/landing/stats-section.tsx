@@ -19,7 +19,8 @@ interface StatItem {
  */
 export function StatsSection() {
   const { t } = useTranslation("landing");
-  const items = t("stats.items", { returnObjects: true }) as StatItem[];
+  const rawItems = t("stats.items", { returnObjects: true });
+  const items = (Array.isArray(rawItems) ? rawItems : []) as StatItem[];
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.4 });
 

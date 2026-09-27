@@ -14,14 +14,19 @@ import { Reveal } from "@/components/landing/reveal";
 export function PrivacySection() {
   const { t } = useTranslation("legal");
 
-  const collectionItems =
-    (t("privacy.sections.collection.items", {
-      returnObjects: true,
-    }) as string[]) || [];
+  const rawCollectionItems = t("privacy.sections.collection.items", {
+    returnObjects: true,
+  });
+  const collectionItems = Array.isArray(rawCollectionItems)
+    ? (rawCollectionItems as string[])
+    : [];
 
-  const usageItems =
-    (t("privacy.sections.usage.items", { returnObjects: true }) as string[]) ||
-    [];
+  const rawUsageItems = t("privacy.sections.usage.items", {
+    returnObjects: true,
+  });
+  const usageItems = Array.isArray(rawUsageItems)
+    ? (rawUsageItems as string[])
+    : [];
 
   return (
     <section id="privacy" className="scroll-mt-32 px-6 py-12 sm:px-10 sm:py-16">

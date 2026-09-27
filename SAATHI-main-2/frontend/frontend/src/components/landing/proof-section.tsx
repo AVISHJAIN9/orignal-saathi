@@ -12,7 +12,8 @@ interface ProofItem {
 
 export function ProofSection() {
   const { t } = useTranslation("landing");
-  const items = t("proof.items", { returnObjects: true }) as ProofItem[];
+  const rawItems = t("proof.items", { returnObjects: true });
+  const items = Array.isArray(rawItems) ? (rawItems as ProofItem[]) : [];
 
   return (
     <section className="bg-[var(--plate-surface)] px-6 py-24 sm:px-10 sm:py-32">

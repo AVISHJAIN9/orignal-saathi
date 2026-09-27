@@ -29,17 +29,23 @@ interface HeroExample {
  */
 export function HeroDemo() {
   const { t } = useTranslation("landing");
-  const examples = t("hero.example.examples", { returnObjects: true }) as HeroExample[];
+  const rawExamples = t("hero.example.examples", { returnObjects: true });
+  const examples = (Array.isArray(rawExamples) ? rawExamples : []) as HeroExample[];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
+    if (examples.length === 0) return;
     const timer = window.setTimeout(() => {
       setIndex((i) => (i + 1) % examples.length);
     }, HOLD_MS);
     return () => window.clearTimeout(timer);
   }, [index, examples.length]);
 
-  const current = examples[index];
+  const current = examples[index] || {
+    question: "",
+    kind: "cited",
+    plate: "",
+  };
   const isCited = current.kind === "cited";
 
   return (
