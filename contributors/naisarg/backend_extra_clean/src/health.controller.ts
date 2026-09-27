@@ -6,6 +6,21 @@ import { Public } from './common/guards/public.decorator';
 @Controller()
 export class HealthController {
   @Public()
+  @Get()
+  @HttpCode(HttpStatus.OK)
+  @ApiOperation({ summary: 'Root status & API entry point' })
+  getRoot() {
+    return {
+      status: 'ok',
+      message: 'SAATHI BIS Standards Assistant Backend is running live',
+      documentation: '/api/docs',
+      health: '/health',
+      version: '1.0.0',
+      timestamp: new Date().toISOString()
+    };
+  }
+
+  @Public()
   @Get('health')
   @HttpCode(HttpStatus.OK)
   @ApiOperation({ summary: 'Root health check' })
