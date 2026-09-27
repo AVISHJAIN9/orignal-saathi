@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Nastaliq+Urdu:wght@400..700&family=Noto+Sans+Bengali:wght@400..700&family=Noto+Sans+Telugu:wght@400..700&family=Noto+Sans+Tamil:wght@400..700&family=Noto+Sans+Gujarati:wght@400..700&family=Noto+Sans+Kannada:wght@400..700&family=Noto+Sans+Malayalam:wght@400..700&family=Noto+Sans+Oriya:wght@400..700&family=Noto+Sans+Gurmukhi:wght@400..700&family=Noto+Sans+Ol+Chiki:wght@400..700&family=Noto+Sans+Meetei+Mayek:wght@400..700&display=swap');
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
-@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
 
 @custom-variant dark (&:is(.dark *));
 
@@ -174,6 +174,16 @@ body {
      onto --font-body below the same way html[lang='hi'] repoints it at
      --font-devanagari. */
   --font-perso-arabic: "Noto Nastaliq Urdu Variable", sans-serif;
+  --font-bengali: "Noto Sans Bengali", sans-serif;
+  --font-telugu: "Noto Sans Telugu", sans-serif;
+  --font-tamil: "Noto Sans Tamil", sans-serif;
+  --font-gujarati: "Noto Sans Gujarati", sans-serif;
+  --font-kannada: "Noto Sans Kannada", sans-serif;
+  --font-malayalam: "Noto Sans Malayalam", sans-serif;
+  --font-oriya: "Noto Sans Oriya", sans-serif;
+  --font-gurmukhi: "Noto Sans Gurmukhi", sans-serif;
+  --font-olchiki: "Noto Sans Ol Chiki", sans-serif;
+  --font-meetei: "Noto Sans Meetei Mayek", sans-serif;
   /* The one eyebrow/label text size for the whole app (uppercase
      tracking-wide badges, section kickers, meta captions) — added to
      replace ~15 different arbitrary text-[...] values (0.5rem-0.72rem and
@@ -322,6 +332,48 @@ html[lang="mai"] {
 html[lang="ur"],
 html[lang="ks"] {
   --font-body: var(--font-perso-arabic);
+}
+
+/* Indic regional script mappings for crisp, native typography */
+html[lang="bn"],
+html[lang="as"] {
+  --font-body: var(--font-bengali);
+}
+
+html[lang="te"] {
+  --font-body: var(--font-telugu);
+}
+
+html[lang="ta"] {
+  --font-body: var(--font-tamil);
+}
+
+html[lang="gu"] {
+  --font-body: var(--font-gujarati);
+}
+
+html[lang="kn"] {
+  --font-body: var(--font-kannada);
+}
+
+html[lang="ml"] {
+  --font-body: var(--font-malayalam);
+}
+
+html[lang="or"] {
+  --font-body: var(--font-oriya);
+}
+
+html[lang="pa"] {
+  --font-body: var(--font-gurmukhi);
+}
+
+html[lang="sat"] {
+  --font-body: var(--font-olchiki);
+}
+
+html[lang="mni"] {
+  --font-body: var(--font-meetei);
 }
 
 /*

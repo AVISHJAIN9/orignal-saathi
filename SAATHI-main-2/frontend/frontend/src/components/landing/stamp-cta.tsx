@@ -30,6 +30,10 @@ export function StampCta({
   className,
   onClick,
 }: StampCtaProps) {
+  const isComplex =
+    typeof children === "string" &&
+    /[\p{M}\u0600-\u0DFF\u1C50-\u1C7F\uA800-\uA82F]/u.test(children);
+
   return (
     <MotionLink
       to={to}
@@ -38,7 +42,10 @@ export function StampCta({
       transition={{ type: "spring", stiffness: 420, damping: 22 }}
       style={{ transformPerspective: 400 }}
       className={cn(
-        "elevation-1 elevation-lift inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3 font-mono text-xs font-semibold tracking-[0.15em] uppercase transition-all sm:text-sm",
+        "elevation-1 elevation-lift inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3 font-semibold transition-all sm:text-sm",
+        isComplex
+          ? "font-sans text-sm tracking-normal normal-case"
+          : "font-mono text-xs tracking-[0.15em] uppercase",
         variant === "solid" &&
           "[box-shadow:inset_0_1px_0_var(--plate-shadow-light),inset_0_-2px_4px_var(--plate-shadow-dark),var(--shadow-elevation-1)] hover:[box-shadow:inset_0_1px_0_var(--plate-shadow-light),inset_0_-2px_4px_var(--plate-shadow-dark),var(--shadow-elevation-1-hover)] bg-[var(--plate-accent-deep)] text-[var(--plate-on-accent)] hover:bg-[var(--plate-accent-ground)]",
         variant === "outline" &&

@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 import { useRouterState } from "@tanstack/react-router";
 import { Link } from "@/lib/router-compat";
 import { useAuth, setPendingAuthRedirect } from "@/lib/auth";
+import { cn } from "@/lib/utils";
 
 import { AccountMenu } from "@/components/account-menu";
 import { LandingLanguageToggle } from "@/components/landing/landing-language-toggle";
@@ -59,7 +60,8 @@ export function LandingNav({
   hideTagline = false,
   replaceToolsWithHamburger = true,
 }: LandingNavProps = {}) {
-  const { t } = useTranslation(["landing", "auth", "chat"]);
+  const { t, i18n } = useTranslation(["landing", "auth", "chat"]);
+  const isEnglish = i18n.language === "en";
   const openLogin = useLoginGate();
   const { currentUser } = useAuth();
   const pathname = useRouterState({ select: (s) => s.location.pathname });
@@ -167,7 +169,12 @@ export function LandingNav({
           initial={{ y: -18, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.55, delay: 0.15, ease: [0.23, 1, 0.32, 1] }}
-          className="flex items-center justify-center gap-2 bg-[var(--plate-accent-ground)] px-6 py-2 text-center font-mono text-2xs font-semibold tracking-[0.18em] text-[var(--plate-on-accent)]/85 uppercase"
+          className={cn(
+            "flex items-center justify-center gap-2 bg-[var(--plate-accent-ground)] px-6 py-2 text-center text-[var(--plate-on-accent)]/85",
+            isEnglish
+              ? "font-mono text-2xs font-semibold tracking-[0.18em] uppercase"
+              : "font-sans text-xs font-medium tracking-normal normal-case"
+          )}
         >
           <ShieldCheck
             className="size-3.5 shrink-0 text-[var(--plate-on-accent)]/70"

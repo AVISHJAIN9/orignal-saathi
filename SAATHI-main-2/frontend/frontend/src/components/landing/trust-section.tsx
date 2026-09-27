@@ -1,18 +1,12 @@
 import { BadgeCheck, SearchX } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import { useTranslation } from "react-i18next";
+import { cn } from "@/lib/utils";
 
 /**
- * Slide-in character-by-character animation modified from the user's sample code.
- *
- * Enhancements:
- * 1. Groups characters into words with `inline-block whitespace-nowrap` so words
- *    wrap cleanly across lines without breaking mid-word on responsive viewports.
- * 2. Uses `whileInView` with `viewport: { once: false }` so the animation
- *    re-triggers whenever scrolled past, both top-to-bottom and bottom-to-top.
- * 3. Uses instant reset on exit so it is immediately prepared to replay.
- * 4. Supports `useReducedMotion()` for accessibility.
- * 5. Preserves exact typography, serif font styling, and dark theme colors.
+ * Slide-in animation for headings.
+ * For complex scripts (Indic, Arabic, etc.), keeps full word tokens intact
+ * to prevent separating combining marks and breaking ligatures.
  */
 function SlideInHeading({
   text,
@@ -30,6 +24,51 @@ function SlideInHeading({
 
   if (prefersReduced) {
     return <h2 className={className}>{text}</h2>;
+  }
+
+  // Detect complex scripts (Indic, Arabic, combining marks)
+  const hasComplexScript = /[\p{M}\u0600-\u0DFF\u1C50-\u1C7F\uA800-\uA82F]/u.test(text);
+
+  if (hasComplexScript) {
+    return (
+      <h2 className={className}>
+        <motion.span
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false, amount: 0.2 }}
+          className="inline"
+        >
+          {words.map((word, wordIdx) => (
+            <span key={wordIdx} className="inline-block whitespace-nowrap">
+              <motion.span
+                variants={{
+                  hidden: {
+                    x: -25,
+                    opacity: 0,
+                    transition: { duration: 0.15, delay: 0 },
+                  },
+                  visible: {
+                    x: 0,
+                    opacity: 1,
+                    transition: {
+                      delay: delayOffset + wordIdx * (charDelay * 2.5),
+                      duration: 0.38,
+                      ease: "easeOut",
+                    },
+                  },
+                }}
+                className="inline-block"
+              >
+                {word}
+              </motion.span>
+              {wordIdx < words.length - 1 && (
+                <span className="inline-block">&nbsp;</span>
+              )}
+            </span>
+          ))}
+        </motion.span>
+      </h2>
+    );
   }
 
   let charIndex = 0;
@@ -142,8 +181,9 @@ function SlideInWords({
 }
 
 export function TrustSection() {
-  const { t } = useTranslation("landing");
+  const { t, i18n } = useTranslation("landing");
   const prefersReduced = useReducedMotion();
+  const isEnglish = i18n.language === "en";
 
   return (
     <section
@@ -170,15 +210,27 @@ export function TrustSection() {
               },
             }}
           >
-            <span className="inline-flex w-fit items-center rounded-full border border-[var(--plate-on-accent)]/25 px-3.5 py-1.5 font-mono text-xs font-medium tracking-wide text-[var(--plate-on-accent)]/70 uppercase">
+            <span
+              className={cn(
+                "inline-flex w-fit items-center rounded-full border border-[var(--plate-on-accent)]/25 px-3.5 py-1.5 text-xs font-medium text-[var(--plate-on-accent)]/70",
+                isEnglish
+                  ? "font-mono tracking-wide uppercase"
+                  : "font-sans tracking-normal normal-case"
+              )}
+            >
               {t("trust.eyebrow")}
             </span>
           </motion.div>
 
-          {/* Heading with character-by-character slide-in */}
+          {/* Heading with slide-in */}
           <SlideInHeading
             text={t("trust.heading")}
-            className="font-serif text-4xl leading-[1.1] font-semibold tracking-tight sm:text-5xl lg:text-6xl text-[var(--plate-on-accent)]"
+            className={cn(
+              "text-4xl font-semibold sm:text-5xl lg:text-6xl text-[var(--plate-on-accent)]",
+              isEnglish
+                ? "font-serif leading-[1.1] tracking-tight"
+                : "font-sans leading-[1.25] tracking-normal"
+            )}
             delayOffset={0.12}
             charDelay={0.022}
           />
@@ -236,8 +288,15 @@ export function TrustSection() {
                   className="size-4 shrink-0 text-[var(--plate-on-accent)]/70"
                   aria-hidden
                 />
-                <span className="font-mono text-xs font-semibold tracking-[0.2em] text-[var(--plate-on-accent)]/70 uppercase">
-                  {t("hero.demo.citedLabel")}
+                <span
+                  className={cn(
+                    "text-xs font-semibold text-[var(--plate-on-accent)]/70",
+                    isEnglish
+                      ? "font-mono tracking-[0.2em] uppercase"
+                      : "font-sans tracking-normal normal-case"
+                  )}
+                >
+                  {t("hero.example.citedLabel", "Verified")}
                 </span>
               </div>
               <p className="text-sm leading-relaxed text-[var(--plate-on-accent)]/85">
@@ -269,8 +328,15 @@ export function TrustSection() {
                   className="size-4 shrink-0 text-[var(--plate-on-accent)]/70"
                   aria-hidden
                 />
-                <span className="font-mono text-xs font-semibold tracking-[0.2em] text-[var(--plate-on-accent)]/70 uppercase">
-                  {t("hero.demo.declinedLabel")}
+                <span
+                  className={cn(
+                    "text-xs font-semibold text-[var(--plate-on-accent)]/70",
+                    isEnglish
+                      ? "font-mono tracking-[0.2em] uppercase"
+                      : "font-sans tracking-normal normal-case"
+                  )}
+                >
+                  {t("hero.example.declinedLabel", "No standard found")}
                 </span>
               </div>
               <p className="text-sm leading-relaxed text-[var(--plate-on-accent)]/85">

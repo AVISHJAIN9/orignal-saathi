@@ -1,12 +1,13 @@
-import { Info } from "lucide-react";
+import { Info, Volume2, VolumeX, Loader2, Globe } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { BrandMark } from "@/components/brand-mark";
 import { CitationBadge } from "@/components/citation-badge";
 import { MessageFeedback } from "@/components/message-feedback";
 import { useStreamedText } from "@/hooks/use-streamed-text";
 import { fakeTypingStream, instantText } from "@/lib/streaming";
+import { synthesizeSpeech, translateText } from "@/lib/api-client";
 import type { ChatMessage, MessageFeedback as MessageFeedbackValue } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -39,6 +40,14 @@ export function ChatBubble({
   const onRevealCompleteRef = useRef(onRevealComplete);
   const prefersReducedMotion = useReducedMotion();
 
+  // Sarvam Voice TTS & Translation State
+  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+  const [isSynthesizing, setIsSynthesizing] = useState(false);
+  const [audioElement, setAudioElement] = useState<HTMLAudioElement | null>(null);
+  const [targetLang, setTargetLang] = useState("hi-IN");
+  const [translatedContent, setTranslatedContent] = useState<string | null>(null);
+  const [isTranslating, setIsTranslating] = useState(false);
+
   useEffect(() => {
     onRevealCompleteRef.current = onRevealComplete;
   });
@@ -48,6 +57,75 @@ export function ChatBubble({
   }, [isDone]);
 
   const isBot = message.sender === "bot";
+
+  const handleToggleVoice = async () => {
+    if (isPlayingAudio) {
+      if (audioElement) {
+        audioElement.pause();
+        audioElement.currentTime = 0;
+      }
+      if (typeof window !== "undefined" && "speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+      }
+      setIsPlayingAudio(false);
+      return;
+    }
+
+    try {
+      setIsSynthesizing(true);
+      const textToSpeak = translatedContent || message.text;
+      try {
+        const res = await synthesizeSpeech(textToSpeak, targetLang, "ritu");
+        if (res && res.audioBase64) {
+          const audio = new Audio(`data:audio/wav;base64,${res.audioBase64}`);
+          audio.onended = () => setIsPlayingAudio(false);
+          audio.onerror = () => setIsPlayingAudio(false);
+          await audio.play();
+          setAudioElement(audio);
+          setIsPlayingAudio(true);
+          return;
+        }
+      } catch (ttsErr) {
+        console.warn("Sarvam TTS service unavailable, trying Web Speech fallback:", ttsErr);
+      }
+
+      // Browser Web Speech API fallback
+      if (typeof window !== "undefined" && "speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+        const cleanText = textToSpeak.replace(/\[(?:IS[A-Za-z0-9/:\-\s—]+)\]/g, "").replace(/https?:\/\/\S+/g, "");
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        utterance.lang = targetLang.replace("_", "-");
+        utterance.onend = () => setIsPlayingAudio(false);
+        utterance.onerror = () => setIsPlayingAudio(false);
+        window.speechSynthesis.speak(utterance);
+        setIsPlayingAudio(true);
+      }
+    } catch (err) {
+      console.warn("Speech synthesis error:", err);
+      setIsPlayingAudio(false);
+    } finally {
+      setIsSynthesizing(false);
+    }
+  };
+
+  const handleTranslate = async (chosenLang?: string) => {
+    const lang = chosenLang || targetLang;
+    if (translatedContent && !chosenLang) {
+      setTranslatedContent(null);
+      return;
+    }
+    try {
+      setIsTranslating(true);
+      const res = await translateText(message.text, lang, "en-IN");
+      if (res.translatedText) {
+        setTranslatedContent(res.translatedText);
+      }
+    } catch (err) {
+      console.warn("Sarvam Translation error:", err);
+    } finally {
+      setIsTranslating(false);
+    }
+  };
 
   return (
     <motion.div
@@ -78,7 +156,7 @@ export function ChatBubble({
         )}
         <div
           className={cn(
-            "relative flex min-w-0 items-start gap-2 rounded-[1.25rem] px-4 py-3 text-sm leading-relaxed shadow-sm transition-shadow duration-300 sm:text-base",
+            "relative flex min-w-0 flex-col items-start gap-2 rounded-[1.25rem] px-4 py-3 text-sm leading-relaxed shadow-sm transition-shadow duration-300 sm:text-base",
             message.sender === "user" &&
               "rounded-br-md border border-primary/20 bg-primary text-primary-foreground shadow-sm",
             isBot &&
@@ -94,7 +172,79 @@ export function ChatBubble({
             <span aria-hidden className="absolute inset-x-4 top-0 h-px bg-card/70" />
           )}
           {isDeclined && <Info className="mt-0.5 size-4 shrink-0" />}
-          <span className="min-w-0 break-words [word-break:break-word]">{displayedText}</span>
+          <span className="min-w-0 break-words [word-break:break-word]">
+            {translatedContent ? (
+              <div className="space-y-1.5">
+                <div className="flex items-center gap-1 text-2xs font-semibold text-primary">
+                  <span>🇮🇳 Indic Translation</span>
+                </div>
+                <p className="whitespace-pre-line leading-relaxed text-sm sm:text-base">{translatedContent}</p>
+              </div>
+            ) : (
+              displayedText
+            )}
+          </span>
+
+          {/* Sarvam Indic Audio & Translation Controls */}
+          {isBot && isDone && !isDeclined && (
+            <div className="mt-2 flex flex-wrap items-center gap-2 border-t border-border/40 pt-2 text-xs text-muted-foreground">
+              <select
+                value={targetLang}
+                onChange={(e) => {
+                  const newLang = e.target.value;
+                  setTargetLang(newLang);
+                  if (translatedContent) {
+                    handleTranslate(newLang);
+                  }
+                }}
+                className="h-7 rounded border border-input/60 bg-background/80 px-1.5 text-2xs font-medium text-foreground focus:outline-none focus:ring-1 focus:ring-primary"
+                aria-label="Target Indic Language"
+              >
+                <option value="hi-IN">🇮🇳 हिन्दी (Hindi)</option>
+                <option value="ta-IN">🇮🇳 தமிழ் (Tamil)</option>
+                <option value="te-IN">🇮🇳 తెలుగు (Telugu)</option>
+                <option value="mr-IN">🇮🇳 मराठी (Marathi)</option>
+                <option value="bn-IN">🇮🇳 বাংলা (Bengali)</option>
+                <option value="gu-IN">🇮🇳 ગુજરાતી (Gujarati)</option>
+                <option value="kn-IN">🇮🇳 ಕನ್ನಡ (Kannada)</option>
+                <option value="ml-IN">🇮🇳 മലയാളം (Malayalam)</option>
+                <option value="pa-IN">🇮🇳 ਪੰਜਾਬੀ (Punjabi)</option>
+                <option value="od-IN">🇮🇳 ଓଡ଼ିଆ (Odia)</option>
+              </select>
+
+              <button
+                type="button"
+                onClick={() => handleTranslate()}
+                disabled={isTranslating}
+                className="flex items-center gap-1.5 rounded-md px-2 py-1 hover:bg-background/80 transition-colors"
+                title="Translate technical clause (Sarvam AI)"
+              >
+                {isTranslating ? (
+                  <Loader2 className="size-3.5 animate-spin text-primary" />
+                ) : (
+                  <Globe className="size-3.5 text-primary" />
+                )}
+                <span>{translatedContent ? "Show Original" : isTranslating ? "Translating..." : "Translate"}</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={handleToggleVoice}
+                disabled={isSynthesizing}
+                className="flex items-center gap-1.5 rounded-md px-2 py-1 hover:bg-background/80 transition-colors"
+                title="Read aloud in regional accent (Sarvam Bulbul:v3)"
+              >
+                {isSynthesizing ? (
+                  <Loader2 className="size-3.5 animate-spin text-primary" />
+                ) : isPlayingAudio ? (
+                  <VolumeX className="size-3.5 text-primary" />
+                ) : (
+                  <Volume2 className="size-3.5 text-primary" />
+                )}
+                <span>{isPlayingAudio ? "Stop Audio" : "Listen (Bulbul)"}</span>
+              </button>
+            </div>
+          )}
         </div>
       </div>
       {isDone && hasCitations && (

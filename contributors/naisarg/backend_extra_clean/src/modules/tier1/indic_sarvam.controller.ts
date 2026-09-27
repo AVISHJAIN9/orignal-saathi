@@ -128,7 +128,7 @@ export class IndicSarvamController {
    */
   @Public()
   @Post('translate')
-  @ApiOperation({ summary: 'Translate compliance text into regional Indian languages (mayura:v1)' })
+  @ApiOperation({ summary: 'Translate compliance text into regional Indian languages (Sarvam 105B & Mayura)' })
   async translate(
     @Body() body: { text: string; source_language_code?: string; target_language_code: string }
   ) {
@@ -140,38 +140,83 @@ export class IndicSarvamController {
     const sourceLang = body.source_language_code || 'en-IN';
     const targetLang = body.target_language_code || 'hi-IN';
 
+    const langNames: Record<string, string> = {
+      'hi-IN': 'Hindi', 'ta-IN': 'Tamil', 'te-IN': 'Telugu', 'mr-IN': 'Marathi',
+      'bn-IN': 'Bengali', 'gu-IN': 'Gujarati', 'kn-IN': 'Kannada', 'ml-IN': 'Malayalam',
+      'pa-IN': 'Punjabi', 'od-IN': 'Odia', 'hi': 'Hindi', 'gu': 'Gujarati'
+    };
+    const targetLanguageName = langNames[targetLang] || 'Hindi';
+
+    // 1. Use Sarvam 105B for multi-paragraph or long text
     try {
+      const prompt = `Translate the following Indian Standards compliance text accurately and fluently into ${targetLanguageName}. Keep all Indian Standard numbers (such as [IS 16102], [IS 17803:2022]) intact in English bracket notation. Maintain all bullet points and numbered lists. Return ONLY the direct translation:\n\n${text}`;
       const response = await axios.post(
-        'https://api.sarvam.ai/translate',
+        'https://api.sarvam.ai/v1/chat/completions',
         {
-          input: text,
-          source_language_code: sourceLang,
-          target_language_code: targetLang,
-          model: 'mayura:v1'
+          model: 'sarvam-105b-conversations',
+          messages: [{ role: 'user', content: prompt }]
         },
         {
           headers: {
             'api-subscription-key': this.sarvamApiKey,
             'Content-Type': 'application/json'
           },
-          timeout: 15000
+          timeout: 25000
         }
       );
-
-      return {
-        status: 'success',
-        sourceText: text,
-        translatedText: response.data.translated_text || '',
-        source_language_code: sourceLang,
-        target_language_code: targetLang
-      };
-    } catch (err: any) {
-      this.logger.error('Sarvam Translation failed: ' + (err.response?.data?.error?.message || err.message));
-      throw new HttpException(
-        err.response?.data?.error?.message || 'Failed to translate text',
-        HttpStatus.BAD_GATEWAY
-      );
+      const translated = response.data.choices?.[0]?.message?.content?.trim();
+      if (translated) {
+        return {
+          status: 'success',
+          sourceText: text,
+          translatedText: translated,
+          source_language_code: sourceLang,
+          target_language_code: targetLang
+        };
+      }
+    } catch (e: any) {
+      this.logger.warn('Sarvam 105B translate failed: ' + e.message);
     }
+
+    // 2. Fallback to Mayura for short texts
+    if (text.length <= 900) {
+      try {
+        const response = await axios.post(
+          'https://api.sarvam.ai/translate',
+          {
+            input: text,
+            source_language_code: sourceLang,
+            target_language_code: targetLang,
+            model: 'mayura:v1'
+          },
+          {
+            headers: {
+              'api-subscription-key': this.sarvamApiKey,
+              'Content-Type': 'application/json'
+            },
+            timeout: 15000
+          }
+        );
+
+        return {
+          status: 'success',
+          sourceText: text,
+          translatedText: response.data.translated_text || text,
+          source_language_code: sourceLang,
+          target_language_code: targetLang
+        };
+      } catch (err: any) {
+        this.logger.error('Sarvam Translation failed: ' + (err.response?.data?.error?.message || err.message));
+      }
+    }
+
+    return {
+      status: 'fallback',
+      sourceText: text,
+      translatedText: text,
+      source_language_code: sourceLang,
+      target_language_code: targetLang
+    };
   }
 
   /**
