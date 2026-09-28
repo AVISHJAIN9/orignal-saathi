@@ -10,9 +10,8 @@ export function LaboratoryMatcherPage() {
 
   if (!ready) return null;
 
-  if (role !== "industry" && role !== "admin") {
-    return <PlaceholderPage title={t("laboratory:title")} allowed={false} />;
-  }
+  // Allow industry, admin, and public visitors to search and match laboratories
+
 
   // Support reading query string params if passed from C6/C5/C3/C4
   const urlParams =
@@ -27,7 +26,7 @@ export function LaboratoryMatcherPage() {
   return (
     <div className="relative min-h-dvh bg-background pb-12">
       <AmbientBackground />
-      <div className="relative z-10 mx-auto flex w-full max-w-4xl flex-col gap-6 p-4 sm:p-6">
+      <div className="relative z-10 mx-auto flex w-full max-w-5xl flex-col gap-6 p-4 sm:p-6">
         {/* Top bar header */}
         <div className="flex items-center justify-between gap-4">
           <div className="flex flex-col gap-1">

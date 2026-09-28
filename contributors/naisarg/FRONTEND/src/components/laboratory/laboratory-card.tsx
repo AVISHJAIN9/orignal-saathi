@@ -101,6 +101,11 @@ export function LaboratoryCard({
                 <h3 className="text-lg font-bold text-foreground">
                   {laboratory.laboratoryName}
                 </h3>
+                {laboratory.oslCode && (
+                  <Badge variant="outline" className="font-mono text-2xs font-bold text-primary border-primary/30 bg-primary/5">
+                    OSL: {laboratory.oslCode}
+                  </Badge>
+                )}
                 {renderVerificationBadge()}
               </div>
               <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
@@ -109,8 +114,13 @@ export function LaboratoryCard({
                   {laboratory.location}
                 </span>
                 {laboratory.distanceKm !== undefined && (
-                  <span className="font-mono text-muted-foreground/80">
+                  <span className="font-mono text-primary/90 font-medium">
                     ({t("laboratory:results.distanceKm", { distance: laboratory.distanceKm })})
+                  </span>
+                )}
+                {laboratory.validTill && (
+                  <span className="font-mono text-2xs text-muted-foreground/80">
+                    • Valid till: {laboratory.validTill}
                   </span>
                 )}
               </div>
