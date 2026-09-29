@@ -49,7 +49,7 @@ export function VaultWorkbench({ initialItemId }: VaultWorkbenchProps) {
       result = result.filter((item) => {
         const title =
           item.kind === "standard"
-            ? t(`standards:list.${item.standard.key}`)
+            ? (item.standard.title || t(`standards:list.${item.standard.key}`))
             : t(`cortex:results.${item.document.resultKey}.product`);
         const subtitle =
           item.kind === "standard"

@@ -29,7 +29,7 @@ export function VaultItemDetail({
 
   const title =
     item.kind === "standard"
-      ? t(`standards:list.${item.standard.key}`)
+      ? (item.standard.title || t(`standards:list.${item.standard.key}`))
       : t(`cortex:results.${item.document.resultKey}.product`);
 
   return (
@@ -96,12 +96,12 @@ export function VaultItemDetail({
                   {t("detail.categoryLabel")}
                 </dt>
                 <dd className="text-sm font-medium text-foreground">
-                  {t(`admin:topics.${item.standard.categoryKey}`)}
+                  {item.standard.categoryLabel || t(`admin:topics.${item.standard.categoryKey}`) || item.standard.categoryKey || "Standard"}
                 </dd>
               </div>
             </dl>
             <p className="text-sm leading-relaxed text-foreground/90">
-              {t(`standards:descriptions.${item.standard.key}`)}
+              {item.standard.description || t(`standards:descriptions.${item.standard.key}`) || ""}
             </p>
             <Link
               to={`/standards/${item.standard.key}`}

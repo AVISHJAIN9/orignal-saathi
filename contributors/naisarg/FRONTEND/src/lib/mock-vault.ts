@@ -1,35 +1,13 @@
-// MOCK: there is no real "saved items" backend in this repo (see Step 0 of
-// the task this file implements — no api/ directory, no OpenAPI spec, no
-// env-configured API base URL). This module stands in for a future
-//   GET    /api/v1/vault/items                 listVaultItems
-//   POST   /api/v1/vault/items                  save (bookmark/toggle)
-//   DELETE /api/v1/vault/items/:id               remove
-// with the same async, response-shaped-out signature those endpoints would
-// have, so swapping this module for a real API client is the only change
-// useVault() (src/hooks/use-vault.ts) would need — same pattern as
-// mock-classification.ts/mock-forum.ts.
-//
-// Unlike those two, this module persists to localStorage rather than
-// resetting each session: "save for later" that vanishes on refresh isn't
-// actually saving anything, so it follows use-user-profile.ts's
-// read-after-mount localStorage pattern instead.
-//
-// Vault is a real aggregator, not a parallel content type — it stores only
-// references (a standard `key`, a document `id` + the minimal fields
-// needed to render it), never a duplicated or invented title/description.
-// Saved standards are resolved live against MOCK_STANDARDS (mock-standards.ts)
-// — the real 6-entry catalogue — so a bookmark can never point at a
-// standard number that doesn't exist there. Saved documents snapshot the
-// fields of a real RecentDocumentEntry (mock-document-analysis.ts, the
-// data actually shown on Document Cortex) at the moment they're saved,
-// since that list is itself just component state today and doesn't
-// persist on its own.
-
-import { MOCK_STANDARDS, type StandardDatum } from "@/lib/mock-standards";
+import {
+  MOCK_STANDARDS,
+  getStandardByKey,
+  registerAllStandards,
+  type StandardDatum,
+} from "@/lib/mock-standards";
 import type { RecentDocumentEntry } from "@/lib/mock-document-analysis";
 
 const VAULT_STORAGE_KEY = "saathi:vault";
-const LATENCY_MS = 400;
+const LATENCY_MS = 200;
 
 function delay<T>(value: T): Promise<T> {
   return new Promise((resolve) =>
@@ -46,10 +24,11 @@ export interface SavedDocumentRecord {
 
 interface VaultStore {
   standardKeys: string[];
+  savedStandards?: Record<string, StandardDatum>;
   documents: SavedDocumentRecord[];
 }
 
-const EMPTY_STORE: VaultStore = { standardKeys: [], documents: [] };
+const EMPTY_STORE: VaultStore = { standardKeys: [], savedStandards: {}, documents: [] };
 
 function isVaultStore(value: unknown): value is VaultStore {
   if (!value || typeof value !== "object") return false;
@@ -62,10 +41,12 @@ function readStore(): VaultStore {
     const parsed = JSON.parse(
       window.localStorage.getItem(VAULT_STORAGE_KEY) ?? "null",
     );
-    return isVaultStore(parsed) ? parsed : EMPTY_STORE;
+    if (!isVaultStore(parsed)) return EMPTY_STORE;
+    if (!parsed.savedStandards || typeof parsed.savedStandards !== "object") {
+      parsed.savedStandards = {};
+    }
+    return parsed as VaultStore;
   } catch {
-    // Storage disabled/unavailable, or corrupted JSON — fall back to empty
-    // rather than crashing.
     return EMPTY_STORE;
   }
 }
@@ -94,18 +75,72 @@ function vaultItemId(kind: "standard" | "document", id: string): string {
   return `${kind}:${id}`;
 }
 
+let standardsFetchPromise: Promise<void> | null = null;
+async function fetchAndIndexStandards(): Promise<void> {
+  if (typeof window === "undefined") return;
+  if (!standardsFetchPromise) {
+    standardsFetchPromise = (async () => {
+      try {
+        const res = await fetch("/data/standards.json");
+        if (!res.ok) return;
+        const data = await res.json();
+        if (data && Array.isArray(data.rows)) {
+          const unpacked: StandardDatum[] = data.rows.map((r: any[]) => ({
+            id: r[0],
+            key: r[1],
+            standardNumber: r[2],
+            title: r[3],
+            description: r[4],
+            categoryKey: r[5],
+            categoryLabel: r[6],
+            status: r[7],
+          }));
+          registerAllStandards(unpacked);
+        }
+      } catch (err) {
+        console.warn("Vault standards index fetch error:", err);
+      }
+    })();
+  }
+  await standardsFetchPromise;
+}
+
 /** GET /api/v1/vault/items stand-in. */
 export async function listVaultItems(): Promise<VaultItem[]> {
   const store = readStore();
 
-  const standardItems: VaultItem[] = store.standardKeys
-    .map((key) => MOCK_STANDARDS.find((s) => s.key === key))
-    .filter((standard): standard is StandardDatum => Boolean(standard))
-    .map((standard) => ({
+  // If any standard keys are not yet in savedStandards or memory, attempt to load standards.json
+  const missingKeys = store.standardKeys.filter(
+    (key) => !store.savedStandards?.[key] && !getStandardByKey(key),
+  );
+  if (missingKeys.length > 0) {
+    await fetchAndIndexStandards();
+  }
+
+  const standardItems: VaultItem[] = store.standardKeys.map((key) => {
+    let standard =
+      store.savedStandards?.[key] ||
+      getStandardByKey(key) ||
+      MOCK_STANDARDS.find((s) => s.key === key);
+
+    if (!standard) {
+      // Fallback object so bookmarked standards never vanish
+      standard = {
+        key,
+        standardNumber: key.toUpperCase().replace(/^IS-?/, "IS "),
+        title: `Indian Standard (${key})`,
+        categoryKey: "general",
+        categoryLabel: "Standards",
+        status: "Active",
+      };
+    }
+
+    return {
       kind: "standard",
       id: vaultItemId("standard", standard.key),
       standard,
-    }));
+    };
+  });
 
   const documentItems: VaultItem[] = store.documents
     .slice()
@@ -130,14 +165,41 @@ export function isDocumentSaved(documentId: string): boolean {
 /** POST /api/v1/vault/items stand-in — toggles a standard bookmark. */
 export async function toggleStandardSaved(
   standardKey: string,
+  standardData?: Partial<StandardDatum>,
 ): Promise<boolean> {
   const store = readStore();
   const alreadySaved = store.standardKeys.includes(standardKey);
+  const nextSavedStandards = { ...(store.savedStandards || {}) };
+
+  let nextStandardKeys: string[];
+  if (alreadySaved) {
+    nextStandardKeys = store.standardKeys.filter((key) => key !== standardKey);
+    delete nextSavedStandards[standardKey];
+  } else {
+    nextStandardKeys = [...store.standardKeys, standardKey];
+    if (standardData && standardData.standardNumber) {
+      nextSavedStandards[standardKey] = {
+        key: standardKey,
+        standardNumber: standardData.standardNumber,
+        categoryKey: standardData.categoryKey || "general",
+        id: standardData.id,
+        title: standardData.title,
+        description: standardData.description,
+        categoryLabel: standardData.categoryLabel,
+        status: standardData.status,
+      };
+    } else {
+      const found = getStandardByKey(standardKey);
+      if (found) {
+        nextSavedStandards[standardKey] = found;
+      }
+    }
+  }
+
   const next: VaultStore = {
     ...store,
-    standardKeys: alreadySaved
-      ? store.standardKeys.filter((key) => key !== standardKey)
-      : [...store.standardKeys, standardKey],
+    standardKeys: nextStandardKeys,
+    savedStandards: nextSavedStandards,
   };
   writeStore(next);
   return delay(!alreadySaved);
@@ -170,20 +232,26 @@ export async function toggleDocumentSaved(
 /** DELETE /api/v1/vault/items/:id stand-in. */
 export async function removeVaultItem(item: VaultItem): Promise<void> {
   const store = readStore();
-  const next: VaultStore =
-    item.kind === "standard"
-      ? {
-          ...store,
-          standardKeys: store.standardKeys.filter(
-            (key) => key !== item.standard.key,
-          ),
-        }
-      : {
-          ...store,
-          documents: store.documents.filter(
-            (doc) => doc.id !== item.document.id,
-          ),
-        };
+  let next: VaultStore;
+  if (item.kind === "standard") {
+    const nextSaved = { ...(store.savedStandards || {}) };
+    delete nextSaved[item.standard.key];
+    next = {
+      ...store,
+      standardKeys: store.standardKeys.filter(
+        (key) => key !== item.standard.key,
+      ),
+      savedStandards: nextSaved,
+    };
+  } else {
+    next = {
+      ...store,
+      documents: store.documents.filter(
+        (doc) => doc.id !== item.document.id,
+      ),
+    };
+  }
   writeStore(next);
   return delay(undefined);
 }
+

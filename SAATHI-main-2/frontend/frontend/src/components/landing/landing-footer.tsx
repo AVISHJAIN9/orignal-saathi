@@ -1,4 +1,4 @@
-import { FolderGit2, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link } from "@/lib/router-compat";
 
@@ -72,20 +72,13 @@ export function LandingFooter() {
               </p>
               <div className="flex flex-col gap-2 pt-1 sm:flex-row sm:items-center sm:gap-4">
                 <a
-                  href={`mailto:${email}`}
+                  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 font-mono text-sm text-[var(--plate-footer-fg)] underline decoration-[var(--plate-footer-link-underline)] underline-offset-4 transition-colors hover:text-primary hover:decoration-primary"
                 >
                   <Mail className="size-4 shrink-0" aria-hidden />
                   {email}
-                </a>
-                <a
-                  href="https://github.com/NaisargPurohit/SIH26107-BIS-Navigator"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm text-[var(--plate-footer-muted)] transition-colors hover:text-[var(--plate-footer-fg)]"
-                >
-                  <FolderGit2 className="size-4 shrink-0" aria-hidden />
-                  {t("landing:footer.github")}
                 </a>
               </div>
             </div>

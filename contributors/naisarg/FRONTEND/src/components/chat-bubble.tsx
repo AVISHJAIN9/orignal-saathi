@@ -7,9 +7,24 @@ import { CitationBadge } from "@/components/citation-badge";
 import { MessageFeedback } from "@/components/message-feedback";
 import { useStreamedText } from "@/hooks/use-streamed-text";
 import { fakeTypingStream, instantText } from "@/lib/streaming";
-import { synthesizeSpeech, translateText } from "@/lib/api-client";
+import { synthesizeSpeech, translateText, cleanTextForSpeech } from "@/lib/api-client";
 import type { ChatMessage, MessageFeedback as MessageFeedbackValue } from "@/lib/types";
 import { cn } from "@/lib/utils";
+
+function renderFormattedText(content: string) {
+  if (!content) return null;
+  const parts = content.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith("**") && part.endsWith("**") && part.length >= 4) {
+      return (
+        <strong key={index} className="font-semibold text-foreground">
+          {part.slice(2, -2)}
+        </strong>
+      );
+    }
+    return part;
+  });
+}
 
 interface ChatBubbleProps {
   message: ChatMessage;
@@ -63,6 +78,7 @@ export function ChatBubble({
       if (audioElement) {
         audioElement.pause();
         audioElement.currentTime = 0;
+        setAudioElement(null);
       }
       if (typeof window !== "undefined" && "speechSynthesis" in window) {
         window.speechSynthesis.cancel();
@@ -73,16 +89,40 @@ export function ChatBubble({
 
     try {
       setIsSynthesizing(true);
-      const textToSpeak = translatedContent || message.text;
+      const rawText = translatedContent || message.text;
+      // Strip markdown asterisks, brackets, headings, etc. so Bulbul never pronounces "**"
+      const textToSpeak = cleanTextForSpeech(rawText);
+
+      // Determine correct accent & language code
+      const hasIndicScript = /[\u0900-\u0D7F]/.test(textToSpeak);
+      const effectiveLang = translatedContent ? targetLang : (hasIndicScript ? targetLang : "en-IN");
+
       try {
-        const res = await synthesizeSpeech(textToSpeak, targetLang, "ritu");
-        if (res && res.audioBase64) {
-          const audio = new Audio(`data:audio/wav;base64,${res.audioBase64}`);
-          audio.onended = () => setIsPlayingAudio(false);
-          audio.onerror = () => setIsPlayingAudio(false);
-          await audio.play();
-          setAudioElement(audio);
-          setIsPlayingAudio(true);
+        const res = await synthesizeSpeech(textToSpeak, effectiveLang, "ritu");
+        const audioList = res?.audios?.length ? res.audios : (res?.audioBase64 ? [res.audioBase64] : []);
+        if (audioList.length > 0) {
+          const playAudioQueue = (idx: number) => {
+            if (idx >= audioList.length) {
+              setIsPlayingAudio(false);
+              setAudioElement(null);
+              return;
+            }
+            const audio = new Audio(`data:audio/wav;base64,${audioList[idx]}`);
+            audio.onended = () => playAudioQueue(idx + 1);
+            audio.onerror = () => {
+              setIsPlayingAudio(false);
+              setAudioElement(null);
+            };
+            audio.play().then(() => {
+              setAudioElement(audio);
+              setIsPlayingAudio(true);
+            }).catch(() => {
+              setIsPlayingAudio(false);
+              setAudioElement(null);
+            });
+          };
+
+          playAudioQueue(0);
           return;
         }
       } catch (ttsErr) {
@@ -92,9 +132,8 @@ export function ChatBubble({
       // Browser Web Speech API fallback
       if (typeof window !== "undefined" && "speechSynthesis" in window) {
         window.speechSynthesis.cancel();
-        const cleanText = textToSpeak.replace(/\[(?:IS[A-Za-z0-9/:\-\s—]+)\]/g, "").replace(/https?:\/\/\S+/g, "");
-        const utterance = new SpeechSynthesisUtterance(cleanText);
-        utterance.lang = targetLang.replace("_", "-");
+        const utterance = new SpeechSynthesisUtterance(textToSpeak);
+        utterance.lang = effectiveLang.replace("_", "-");
         utterance.onend = () => setIsPlayingAudio(false);
         utterance.onerror = () => setIsPlayingAudio(false);
         window.speechSynthesis.speak(utterance);
@@ -116,8 +155,8 @@ export function ChatBubble({
     }
     try {
       setIsTranslating(true);
-      const res = await translateText(message.text, lang, "en-IN");
-      if (res.translatedText) {
+      const res = await translateText(message.text, lang, "auto");
+      if (res && res.translatedText) {
         setTranslatedContent(res.translatedText);
       }
     } catch (err) {
@@ -178,10 +217,12 @@ export function ChatBubble({
                 <div className="flex items-center gap-1 text-2xs font-semibold text-primary">
                   <span>🇮🇳 Indic Translation</span>
                 </div>
-                <p className="whitespace-pre-line leading-relaxed text-sm sm:text-base">{translatedContent}</p>
+                <p className="whitespace-pre-line leading-relaxed text-sm sm:text-base">
+                  {renderFormattedText(translatedContent)}
+                </p>
               </div>
             ) : (
-              displayedText
+              renderFormattedText(displayedText)
             )}
           </span>
 
